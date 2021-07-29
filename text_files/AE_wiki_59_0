@@ -1,0 +1,132 @@
+
+TITIUS–BODE LAW
+The Titius–Bode law (sometimes termed just Bode's law) is a hypothesis that the bodies in some orbital systems, including the Sun's, orbit at semi-major axes in a function of planetary sequence. The formula suggests that, extending outward, each planet would be approximately twice as far from the Sun as the one before. The hypothesis correctly anticipated the orbits of Ceres (in the asteroid belt) and Uranus, but failed as a predictor of Neptune's orbit and was eventually superseded as a theory of Solar System formation. It is named for Johann Daniel Titius and Johann Elert Bode.
+FORMULATION
+Section::::Formulation.
+The law relates the semi-major axis formula_1 of each planet outward from the Sun in units such that the Earth's semi-major axis is equal to 10:
+where formula_3 with the exception of the first step, each value is twice the previous value.
+There is another representation of the formula: formula_4
+where formula_5.
+The resulting values can be divided by 10 to convert them into astronomical units (AU), resulting in the expression
+for formula_7
+For the outer planets, each planet is predicted to be roughly twice as far from the Sun as the previous object.
+ORIGIN AND HISTORY
+Section::::Origin and history.
+The first mention of a series approximating Bode's law is found in David Gregory's The Elements of Astronomy, published in 1715. In it, he says, "...supposing the distance of the Earth from the Sun to be divided into ten equal Parts, of these the distance of Mercury will be about four, of Venus seven, of Mars fifteen, of Jupiter fifty two, and that of Saturn ninety five." A similar sentence, likely paraphrased from Gregory, appears in a work published by Christian Wolff in 1724.
+In 1764, Charles Bonnet said in his Contemplation de la Nature that, "We know seventeen planets that enter into the composition of our solar system [that is, major planets and their satellites]; but we are not sure that there are no more." To this, in his 1766 translation of Bonnet's work, Johann Daniel Titius added two of his own paragraphs, at the bottom of page 7 and at the beginning of page 8. The new interpolated paragraph is not found in Bonnet's original text, nor in translations of the work into Italian and English.
+There are two parts to Titius's intercalated text. The first part explains the succession of planetary distances from the Sun: Take notice of the distances of the planets from one another, and recognize that almost all are separated from one another in a proportion which matches their bodily magnitudes. Divide the distance from the Sun to Saturn into 100 parts; then Mercury is separated by four such parts from the Sun, Venus by 4+3=7 such parts, the Earth by 4+6=10, Mars by 4+12=16. But notice that from Mars to Jupiter there comes a deviation from this so exact progression. From Mars there follows a space of 4+24=28 such parts, but so far no planet was sighted there. But should the Lord Architect have left that space empty? Not at all. Let us therefore assume that this space without doubt belongs to the still undiscovered satellites of Mars, let us also add that perhaps Jupiter still has around itself some smaller ones which have not been sighted yet by any telescope. Next to this for us still unexplored space there rises Jupiter's sphere of influence at 4+48=52 parts; and that of Saturn at 4+96=100 parts.
+In 1772, Johann Elert Bode, aged twenty-five, completed the second edition of his astronomical compendium Anleitung zur Kenntniss des gestirnten Himmels ("Manual for Knowing the Starry Sky"), into which he added the following footnote, initially unsourced, but credited to Titius in later versions (in Bode's memoir can be found a reference to Titius with clear recognition of his priority):
+This latter point seems in particular to follow from the astonishing relation which the known six planets observe in their distances from the Sun. Let the distance from the Sun to Saturn be taken as 100, then Mercury is separated by 4 such parts from the Sun. Venus is 4+3=7. The Earth 4+6=10. Mars 4+12=16. Now comes a gap in this so orderly progression. After Mars there follows a space of 4+24=28 parts, in which no planet has yet been seen. Can one believe that the Founder of the universe had left this space empty? Certainly not. From here we come to the distance of Jupiter by 4+48=52 parts, and finally to that of Saturn by 4+96=100 parts.These two statements, for all their particular typology and the radii of the orbits, seem to stem from an antique cossist. Many precedents were found from before the seventeenth century. Titius was a disciple of the German philosopher Christian Freiherr von Wolf (1679-1754). The second part of the inserted text in Bonnet's work is founded in a von Wolf work dated 1723, Vernünftige Gedanken von den Wirkungen der Natur. Twentieth century literature about Titius–Bode law assigns the German philosopher authorship; if so, Titius could have learned from him. Another older reference was written by James Gregory in 1702, in his Astronomiae physicae et geometricae elementa, where the succession of planetary distances 4, 7, 10, 16, 52 and 100 became a geometric progression of ratio 2. This is the nearest Newtonian formula, which is also contained in Benjamin Martin and Tomàs Cerdà years before the German publication of Bonnet's book.
+Titius and Bode hoped that the law would lead to the discovery of new planets, and indeed the discovery of Uranus and Ceres, both of whose distances fit well with the law, contributed to the law's fame. Neptune's distance was very discrepant, however, and indeed Pluto—now discredited as a planet—is at a mean distance that roughly corresponds to that the Titus-Bode law predicted for the next planet out from Uranus.
+When originally published, the law was approximately satisfied by all the known planets—Mercury through Saturn—with a gap between the fourth and fifth planets. It was regarded as interesting, but of no great importance until the discovery of Uranus in 1781, which happens to fit into the series. Based on this discovery, Bode urged a search for a fifth planet. , the largest object in the asteroid belt, was found at Bode's predicted position in 1801. Bode's law was then widely accepted until Neptune was discovered in 1846 and found not to satisfy the law. Simultaneously, the large number of asteroids discovered in the belt removed Ceres from the list of planets. Bode's law was discussed by the astronomer and logician Charles Sanders Peirce in 1898 as an example of fallacious reasoning.
+The discovery of Pluto in 1930 confounded the issue still further. Although nowhere near its position as predicted by Bode's law, it was roughly at the position the law had predicted for Neptune. However, the subsequent discovery of the Kuiper belt, and in particular of the object , which is more massive than Pluto yet does not fit Bode's law, further discredited the formula.
+A POTENTIALLY EARLIER EXPLANATION
+Section::::A potentially earlier explanation.
+The Jesuit Tomàs Cerdà (1715-1791) gave a famous astronomy course in Barcelona in 1760, at the Royal Chair of Mathematics of the College of Sant Jaume de Cordelles (Imperial and Royal Seminary of Nobles of Cordellas). From the original manuscript preserved in the Royal Academy of History in Madrid, Lluís Gasiot remade Tratado de Astronomía from Cerdá, published in 1999, based on Astronomiae physicae from James Gregory (1702) and Philosophia Britannica from Benjamin Martin (1747). In the Cerdàs's Tratado appears the planetary distances obtained from the periodic times applying Kepler's third law, with an accuracy of 10. Taking as reference the distance from Earth as 10 and rounding to whole, the geometric progression [(D x 10) - 4] / [(D x 10) - 4] = 2, from n=2 to n=8 can be expressed. And using the circular uniform fictitious movement to Kepler's Anomaly, R values corresponding to each planet's ratios may be obtained as r = (R - R) / (R - R) resulting 1.82; 1.84; 1.86; 1.88 and 1.90, which r = 2 - 0.02 (12 - n), the ratio between Keplerian succession and Titius-Bode Law, which would be a casual numerical coincidence. The reason is close to 2, but increases harmonically from 1.82.
+The planet's average speed from n=1 to n=8 decreases moving away the Sun and differs from uniform descent in n=2 to recover from n=7 (orbital resonance).
+DATA
+Section::::Data.
+The Titius–Bode law predicts planets will be present at specific distances in astronomical units, which can be compared to the observed data for several planets and dwarf planets in the Solar System:
+!k
+!T–B rule distance (AU)
+!Planet
+!Semimajor axis (AU)
+!Deviation from prediction
+align=center  0
+align=center  0.4
+Mercury
+align=center  0.39
+align=center  −3.23%
+align=center  1
+align=center  0.7
+Venus
+align=center  0.72
+align=center  +3.33%
+align=center  2
+align=center  1.0
+Earth
+align=center  1.00
+align=center  0.00%
+align=center  4
+align=center  1.6
+Mars
+align=center  1.52
+align=center  −4.77%
+align=center  8
+align=center  2.8
+align=center  2.77
+align=center  −1.16%
+align=center  16
+align=center  5.2
+Jupiter
+align=center  5.20
+align=center  +0.05%
+align=center  32
+align=center  10.0
+Saturn
+align=center  9.55
+align=center  −4.45%
+align=center  64
+align=center  19.6
+Uranus
+align=center  19.22
+align=center  −1.95%
+Neptune
+align=center  30.11
+align=center  −22.40%
+Orcus
+align=center  39.17
+align=center  +0.96%
+Pluto
+align=center  39.54
+align=center  +1.02%
+Haumea
+align=center  43.22
+align=center  +11.39%
+Quaoar
+align=center  43.40
+align=center  +11.87%
+2007 OR
+align=center  66.85
+align=center  −14.07%
+Eris
+align=center  67.78
+align=center  −12.9%
+align=center  512
+align=center  154.0
+2000 CR
+align=center  230.12
+align=center  +49.4%
+align=center  1024
+align=center  307.6
+2010 GB
+align=center  ~351.0
+align=center  +14%
+Sedna
+align=center  506.2
+align=center  −17.66%
+Planet Nine(hypothetical)
+align=center ~665
+align=center +8%
+THEORETICAL EXPLANATIONS
+Section::::Theoretical explanations.
+No solid theoretical explanation underlies the Titius–Bode law, but it is possible that given a combination of orbital resonance and shortage of degrees of freedom, any stable planetary system has a high probability of satisfying a Titius–Bode-type relationship. Since it may be a mathematical coincidence rather than a "law of nature", it is sometimes referred to as a rule instead of "law". However, astrophysicist Alan Boss states that it is just a coincidence, and the planetary science journal Icarus no longer accepts papers attempting to provide improved versions of the "law".
+Orbital resonance from major orbiting bodies creates regions around the Sun that are free of long-term stable orbits. Results from simulations of planetary formation support the idea that a randomly chosen stable planetary system will likely satisfy a Titius–Bode law.
+Dubrulle and Graner showed that power-law distance rules can be a consequence of collapsing-cloud models of planetary systems possessing two symmetries: rotational invariance (the cloud and its contents are axially symmetric) and scale invariance (the cloud and its contents look the same on all scales), the latter is a feature of many phenomena considered to play a role in planetary formation, such as turbulence.
+LUNAR SYSTEMS AND OTHER PLANETARY SYSTEMS
+Section::::Lunar systems and other planetary systems.
+Only a limited number of systems are available on which Bode's law can presently be tested. Two solar planets have enough large moons that probably have formed in a process similar to that which formed the planets. The four big satellites of Jupiter and the biggest inner satellite, Amalthea, cling to a regular, but non-Titius–Bode, spacing, with the four innermost locked into orbital periods that are each twice that of the next inner satellite. The big moons of Uranus have a regular, non-Titius–Bode spacing. However, according to Martin Harwit, "a slight new phrasing of this law permits us to include not only planetary orbits around the Sun, but also the orbits of moons around their parent planets." The new phrasing is known as Dermott's law.
+Of the recent discoveries of extrasolar planetary systems, few have enough known planets to test whether similar rules apply. An attempt with 55 Cancri suggested the equation a = 0.0142 e, and controversially predicts for n = 5 an undiscovered planet or asteroid field at 2 AU. Furthermore, the orbital period and semimajor axis of the innermost planet in the 55 Cancri system have been significantly revised (from 2.817 days to 0.737 days and from 0.038 AU to 0.016 AU respectively) since the publication of these studies.
+Recent astronomical research suggests that planetary systems around some other stars may follow Titius–Bode-like laws. Bovaird and Lineweaver applied a generalized Titius–Bode relation to 68 exoplanet systems that contain four or more planets. They showed that 96% of these exoplanet systems adhere to a generalized Titius–Bode relation to a similar or greater extent than the Solar System does. The locations of potentially undetected exoplanets are predicted in each system.
+Subsequent research detected five planet candidates from predicted 97 planets from the 68 planetary systems. The study showed that the actual number of planets could be larger. The occurrence rate of Mars- and Mercury-sized planets are currently unknown, so many planets could be missed due to their small size. Other reasons includes planets that do not transit the star or that the predicted space is occupied by circumstellar disks. Despite this, the number of planets found with Titius–Bode law predictions were lower than expected.
+In a 2018 paper, the idea of a hypothetical eighth planet around TRAPPIST-1 named "TRAPPIST-1i," was brought up by using the Titius–Bode law. 1i had a prediction based just on the Titius–Bode law of an orbital period of 27.53 ± 0.83 days.
+SEE ALSO
+* Dermott's law
+* Phaeton (hypothetical planet)
+* Logarithmic spiral
+* Lennard-Jones potential
+REFERENCES
+FURTHER READING
+* The ghostly hand that spaced the planets New Scientist 9 April 1994, p13
+* Plants and Planets: The Law of Titius-Bode explained by H.J.R. Perdijk
+* Distancias planetarias y ley de Titius-Bode (Spanish) by Dr. Ramon Parés

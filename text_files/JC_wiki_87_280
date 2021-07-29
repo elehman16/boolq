@@ -1,0 +1,36 @@
+
+APPLE PENCIL
+The Apple Pencil is a digital stylus pen that works as an input device for the iPad Pro and the 2018 iPad, both tablet computers. Designed by Apple Inc., the first generation Apple Pencil was announced on September 9, 2015 alongside the iPad Pro, and released in conjunction with it on November 11, 2015, while the second generation was announced on October 30, 2018 and released on November 7th, 2018.
+The Apple Pencil is designed for creative work and has pressure sensitivity and angle detection. 
+The first-generation Pencil charges when plugged into a Lightning receptacle. Internally, it has an ARM-based Cortex-M3 processor, a Bosch Sensortech 3‐axis accelerometer, and uses the Bluetooth Low Energy standard to communicate with the iPad.
+The second-generation Pencil, however, charges magnetically to the side of the iPad Pro. Once attached, it pairs with the device after an on-screen prompt. It also features gesture controls.
+DESCRIPTION
+Section::::Description.
+The Apple Pencil has pressure sensitivity and angle detection. Encased in the plastic housing of the first generation Apple Pencil is a Bluetooth device that communicates simultaneously with the screen and the system underneath it. The Pencil can detect force, allowing, for example, darker or lighter strokes in a drawing app depending on how hard the user presses.
+The Apple Pencil was designed for low latency to enable smooth inking on the screen. The iPad Pro also allows simultaneous use of an Apple Pencil and one's fingers, while rejecting input from the user's palm.
+One end of the first generation Apple Pencil has a magnetically-fastened removable cap. Underneath this cap is the Lightning connector, which allows the Pencil's battery to be recharged via the iPad Pro's Lightning port itself. The initial charge lasts about 12 hours, but 15 seconds plugged into the Lightning connector of the iPad provides sufficient power for 30 minutes of use. The user can also use the included female-to-female Lightning adapter to charge via a standard Lightning cable instead.
+In March 2018, support for the first generation Apple Pencil was added to the 9.7-inch Apple iPad.
+Later, in October 2018, Apple announced the second generation Apple Pencil. As opposed to its predecessor, the second generation Apple Pencil charges and pairs wirelessly via magnetic attachment to the 2018 iPad Pro models. It was released on November 7, 2018.
+PURPOSE
+Section::::Purpose.
+The first generation Apple Pencil was designed for first and second generation iPad Pro models as well as the 2018 iPad. It makes drawing on the tablet device more feasible, and can ease the stress of multiple repetitive wrist movements associated with typing. However, multitouch finger input is still the primary input mechanism for the iPad. During the September 2015 Apple Event, Apple demonstrated the Pencil's drawing capabilities on the mobile version of the Adobe Creative Cloud and its document annotation capabilities on several Microsoft Office apps.
+The second generation Apple Pencil, unlike its predecessor, works exclusively with the third generation iPad Pro models. During its October 2018 Apple Event, Apple demonstrated its wireless charging capabilities, as well as its new gesture controls on the pre-release iPad version of Adobe Photoshop.
+INTERNAL ELECTRONICS
+Section::::Internal electronics.
+The Apple Pencil utilizes an STMicroelectronics STM32L151UCY6 Ultra-low-power 32-bit RISC ARM-based Cortex-M3 MCU running at 32 MHz with 64 KB of flash memory, a Bosch Sensortech BMA280 3‐axis accelerometer and a Cambridge Silicon Radio (Qualcomm) CSR1012A05 Bluetooth Smart IC for its Bluetooth connection to the iPad.
+It is powered by a recyclable rechargeable 3.82 V, 0.329 Wh lithium-ion battery.
+There is an antenna, and pressure and angle sensors near the tip, which is replaceable and sold in packs of four.
+THIRD-PARTY IPAD STYLUSES
+Section::::Third-party iPad styluses.
+A number of third-parties have produced styluses for the iPad. However, there has not been a consistent technological implementation of pressure sensitivity, palm rejection, or angle detection, leading to delayed reaction times and inaccurate strokes. Each third-party manufacturer has implemented its own hardware and software approaches, resulting in a fragmented market with styli and apps having differing functionalities. For instance, a particular stylus may be designed to offer pressure sensitivity, but any given app must implement such functionality for it to work. 
+FiftyThree produces an unrelated stylus, also known as Pencil, for use with its Paper drawing app for iPad. Other popular styli include products made by Wacom and Adonit.
+On March 27, 2018, Logitech previewed the new Crayon, a stylus designed for the 2018 9.7-inch iPad. Using a proprietary undisclosed connection method that does not require pairing as the Apple Pencil does, this non-touch-sensitive stylus has angle detection and is designed for the education market, with a thicker design and oval cross-section shape to prevent it from rolling off of desks. Previous third-party styli have been limited by previous-generation iPad hardware without dedicated stylus connectivity, resulting in higher latency. It is expected to sell for half the price of the Apple pencil, but initially will be only sold through education channels. The Crayon is not compatible with current models of the iPad Pro.
+SEE ALSO
+* Surface Pen
+* Microsoft Tablet PC
+* Samsung Galaxy Note series
+* List of iPad accessories
+* Pen computing
+REFERENCES
+EXTERNAL LINKS
+* (official website)

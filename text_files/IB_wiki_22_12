@@ -1,0 +1,59 @@
+
+TIME IN SPAIN
+Spain has two time zones and observes daylight saving time. Spain mainly uses Central European Time (GMT+01:00) and Central European Summer Time (GMT+02:00) in Peninsular Spain, the Balearic Islands, Ceuta, Melilla and plazas de soberanía. In the Canary Islands, the time zone is Western European Time (GMT±00:00) and Western European Summer Time (GMT+01:00). Daylight saving time is observed from the last Sunday in March (01:00 GMT) to the last Sunday in October (01:00 GMT) throughout Spain.
+Spain used Greenwich Mean Time (UTC±00:00) before the Second World War (except for the Canary Islands which used GMT−01:00 before this date). However, the time zone was changed to Central European Time in 1940 and has remained so since then, meaning that Spain does not use its "natural" time zone under the coordinated time zone system. Some observers believe that this time zone shift plays a role in the country's relatively unusual daily schedule (late meals and sleep times).
+HISTORY
+STANDARD TIME ADOPTION
+Section::::History.
+Section::::Standard time adoption.
+Spain, like other parts of the world, used mean solar time until 31 December 1900. In San Sebastián on 22 July 1900, the president of the Consejo de Ministros, Mr. Francisco Silvela, proposed to the regent of Spain, María Cristina, a royal decree to standardise the time in Spain; thus setting Greenwich Mean Time (UTC±00:00) as the standard time in peninsular Spain, the Balearic Islands and Ceuta and Melilla from 1 January 1901 onwards. The royal decree was sanctioned by María Cristina on 26 July 1900 in San Sebastián, the place where she resided during summer.
+THE CANARY ISLANDS EXCEPTION
+Section::::The Canary Islands exception.
+Before 1 March 1922, the Canary Islands still used mean solar time until it was discovered that the royal decree of 1900 applied only to the Peninsula and Balearic Islands. The Canary Islands then used a time 1 hour behind the rest of Spain; GMT−01:00, until 16 March 1940, and since then, they have used Western European Time (GMT±00:00). Canary Islands observes daylight saving time at the same time (01:00 GMT) the rest of Spain does, that is, changing from 01:00 WET to 02:00 Western European Summer Time on the last Sunday in March (while the rest of Spain changes from 02:00 Central European Time to 03:00 Central European Summer Time) and, when daylight saving time ends, changing from 02:00 Western European Summer Time to 01:00 Western European Time on the last Sunday in October (while the rest of Spain changes from 03:00 Central European Summer Time to 02:00 CET).
+It is very popular in Spanish national media, mainly on the radio, to list the notice ′una hora menos en Canarias′ (English: ′one hour less in the Canary Islands′) when the local time is mentioned.
+The natural time zone for the Canary Islands is GMT−01:00.
+DAYLIGHT SAVING TIME
+Section::::Daylight saving time.
+Daylight saving time (DST) was first introduced in 1918, the year in which World War I ended. It was then introduced and abolished several times. It was not applied in 1920–1923, 1925, 1930 nor during the Second Spanish Republic period in 1931–1936. During the Spanish Civil War, DST was re-established, but there were different dates of application, depending on if the territory was under the control of the Republican faction or Nationalist faction. Curiously, the Republican faction made its first attempt to change from Greenwich Mean Time to Central European Time when time was advanced 1 hour on 2 April 1938 and advanced another hour on 30 April 1938, only adjusting back 1 hour on 2 October 1938. After the war ended on 1 April 1939, Greenwich Mean Time was re-established and on 15 April 1939 DST was also applied.
+Since 1974, after the 1973 oil crisis, daylight saving time has been observed every year. In 1981 it was applied as a directive and is revised every 4 years, DST is observed from the last Sunday in March (01:00 GMT) to the last Sunday in September (01:00 GMT). In 1996, daylight saving time was harmonised throughout the European Union by Directive 2000/84/EC, which moved the end of DST to the last Sunday in October.
+CENTRAL EUROPEAN TIME
+Section::::Central European Time.
+In 1940, Francisco Franco changed the time zone by changing 16 March 1940 23:00 Greenwich Mean Time to 17 March 1940 00:00 Central European Time during World War II. This was made permanent in 1942 in order to be in line with German occupied Europe. Several western European countries, including France, Belgium, and the Netherlands stayed on German time after the war in addition to Spain.
+CRITICISM OF THE USE OF CENTRAL EUROPEAN TIME
+Section::::Criticism of the use of Central European Time.
+According to the original 24-hour division of the world, the nearest mean solar time zone is Greenwich Mean Time for all of mainland Spain except the westernmost part (about three-quarters of Galicia), which corresponds with the GMT-01:00 time zone. However, all of mainland Spain has used Central European Time (GMT+01:00) since 1940. At the time it was considered a temporary wartime decision which would be revoked a few years later, which eventually did not happen.
+Some activists believe that the mismatch between Spain's clock time and solar time contributes to the country's unusual daily schedule. They believe that the relatively late sunrises and sunsets shift the average Spaniard's day later than it otherwise would be, and that a return to its original time zone would help boost productivity and bring family and work rhythms into better balance.
+In September 2013 the subcommittee to study the Rationalisation of Hours, the Reconciliation of Personal, Family Life and Professional Life and Responsibility (subcomisión para el estudio de la Racionalización de Horarios, la Conciliación de la Vida Personal, Familiar y Laboral y la Corresponsabilidad) of the Congress of Deputies made a report to the government of Spain proposing, among other things, a return to Greenwich Mean Time. The subcommittee considered that this time zone change would have a favourable effect, allowing more time for family, training, personal life, leisure, and avoiding downtime during the workday. The proposals are aimed at improving Spanish labour productivity as well as better adjusting schedules to family and work life. The Spanish government will consider the proposal.
+THE GALICIA PROBLEM
+Section::::The Galicia problem.
+In Galicia, the westernmost region of mainland Spain, the difference between the official local time and the mean solar time is about two and a half hours during summer time. There have been political pushes to change the official time so that, as in Portugal, it is one hour in advance of the zone standard time. This would involve switching to GMT and making the time similar to that in Portugal, with which it shares the same longitude. For example, in Vigo (located 35 time minutes west of Greenwich) during summer, it is noon at around 14:40 and sunset is around 22:15 local time, while in Menorca sunset is around 21:20.
+IANA TIME ZONE DATABASE
+Section::::IANA time zone database.
+The IANA time zone database contains 3 zones for Spain. Columns marked with * are from the file zone.tab from the database.
+! c.c.*
+! coordinates*
+! TZ*
+! comments* 
+! UTC offset !! DST !! Notes
+NOTATION
+DIFFERENCES WITH NEIGHBOURING COUNTRIES
+Section::::Differences with neighbouring countries.
+Spain has borders with four countries: Portugal, France, Andorra, and Morocco; as well as with the British Overseas Territory of Gibraltar. Clocks must normally be set one hour earlier than in Spain after crossing the borders with Portugal.
+DATES OF DAYLIGHT SAVING TIME AND OTHER CHANGES
+Section::::Dates of Daylight Saving Time and other changes.
+This is the list of historical time changes in Spain, note that the time of change is in Greenwich Mean Time.
+! Year
+! Date DST starts
+! Time zone change
+! Date DST ends
+! Time zone change
+! Notes
+rowspan=21937
+rowspan=31938
+rowspan=21939
+SEE ALSO
+* Catalan time system
+* List of time zones
+REFERENCES
+EXTERNAL LINKS
+* - ¿Qué hora es? Real Observatorio de la Armada

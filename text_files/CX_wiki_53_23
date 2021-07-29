@@ -1,0 +1,135 @@
+
+YIELD (ENGINEERING)
+The yield point is the point on a stress–strain curve that indicates the limit of elastic behavior and the beginning of plastic behavior. Yield strength or yield stress is the material property defined as the stress at which a material begins to deform plastically whereas yield point is the point where nonlinear (elastic + plastic) deformation begins. Prior to the yield point the material will deform elastically and will return to its original shape when the applied stress is removed. Once the yield point is passed, some fraction of the deformation will be permanent and non-reversible.
+The yield point determines the limits of performance for mechanical components, since it represents the upper limit to forces that can be applied without permanent deformation. In structural engineering, this is a soft failure mode which does not normally cause catastrophic failure or ultimate failure unless it accelerates buckling.
+Advances in measurement techniques allow higher precision mapping of the yield point which, as Marcus Reiner stated, showed "there was no yield point"
+Yield strength is the critical material property exploited by many fundamental techniques of material-working: to reshape material with pressure (such as forging, rolling, pressing, bending, extruding, or hydroforming), to separate material by cutting (such as machining) or shearing, and to join components rigidly with fasteners. Yield load can be taken as the load applied to the centre of a carriage spring to straighten its leaves.
+The offset yield point (or proof stress) is the stress at which 0.2% plastic deformation occurs.
+In the three-dimensional principal stresses (formula_1), an infinite number of yield points form together a yield surface.
+DEFINITION
+Section::::Definition.
+It is often difficult to precisely define yielding due to the wide variety of stress–strain curves exhibited by real materials. In addition, there are several possible ways to define yielding:
+True elastic limit: The lowest stress at which dislocations move. This definition is rarely used, since dislocations move at very low stresses, and detecting such movement is very difficult.
+Proportionality limit: Up to this amount of stress, stress is proportional to strain (Hooke's law), so the stress–strain graph is a straight line, and the gradient will be equal to the elastic modulus of the material.
+Elastic limit (yield strength): Beyond the elastic limit, permanent deformation will occur. The elastic limit is therefore the lowest stress point at which permanent deformation can be measured. This requires a manual load-unload procedure, and the accuracy is critically dependent on the equipment used and operator skill. For elastomers, such as rubber, the elastic limit is much larger than the proportionality limit. Also, precise strain measurements have shown that plastic strain begins at low stresses.
+Yield point: The point in the stress–strain curve at which the curve levels off and plastic deformation begins to occur.
+Offset yield point (): When a yield point is not easily defined based on the shape of the stress–strain curve an offset yield point is arbitrarily defined. The value for this is commonly set at 0.1 or 0.2% plastic strain. The offset value is given as a subscript, e.g., R=310 MPa. High strength steel and aluminum alloys do not exhibit a yield point, so this offset yield point is used on these materials.
+Upper and lower yield points: Some metals, such as mild steel, reach an upper yield point before dropping rapidly to a lower yield point. The material response is linear up until the upper yield point, but the lower yield point is used in structural engineering as a conservative value. If a metal is only stressed to the upper yield point, and beyond, Lüders bands can develop.
+THEORETICAL YIELD STRENGTH
+Section::::Theoretical Yield Strength.
+The theoretical yield strength can be estimated by considering the process of yield at the atomic level. In a perfect crystal, shearing results in the displacement of an entire plane of atoms by one interatomic separation distance, b, relative to the plane below. In order for the atoms to move, considerable force must be applied to overcome the lattice energy and move the atoms in the top plane over the lower atoms and into a new lattice site. The applied stress to overcome the resistance of a perfect lattice to shear is the theoretical yield strength, τ.
+DERIVATION
+Section::::Derivation.
+The stress displacement curve of a plane of atoms varies sinusoidally as stress peaks when an atom is forced over the atom below and then falls as the atom slides into the next lattice point.
+where formula_3 is the interatomic separation distance. Since γ = G τ and dτ/dγ = G at small strains (ie. Single atomic distance displacements), this equation becomes:
+For small displacement of γ=x/a, where a is the spacing of atoms on the slip plane, this can be rewritten as: 
+Giving a value of τ equal to:
+The theoretical yield strength can be approximated as τ = G/30.
+TYPICAL VALUES OF THEORETICAL AND EXPERIMENTAL YIELD STRESS
+Section::::Typical Values of Theoretical and Experimental Yield Stress.
+The theoretical yield strength of a perfect crystal is much higher than the observed stress at initiation of plastic flow. Theoretical and experimental yield stresses of common materials are shown in the table below.
+! Material
+! Theoretical Shear Strength (GPa)
+! Experimental Shear Strength (MPa)
+That experimentally measured yield strength is significantly lower than the expected theoretical value can be explained by the presence of dislocations and defects in the materials. Indeed, whiskers with perfect single crystal structure and defect free surfaces have been shown to demonstrate yield stress approaching the theoretical value. For example, nanowhiskers of copper were shown to undergo brittle fracture at 1 GPa, a value much higher than the strength of bulk copper and approaching the theoretical value.
+YIELD CRITERION
+Section::::Yield criterion.
+A yield criterion, often expressed as yield surface, or yield locus, is a hypothesis concerning the limit of elasticity under any combination of stresses. There are two interpretations of yield criterion: one is purely mathematical in taking a statistical approach while other models attempt to provide a justification based on established physical principles. Since stress and strain are tensor qualities they can be described on the basis of three principal directions, in the case of stress these are denoted by formula_7, formula_8, and formula_9.
+The following represent the most common yield criterion as applied to an isotropic material (uniform properties in all directions). Other equations have been proposed or are used in specialist situations.
+ISOTROPIC YIELD CRITERIA
+Section::::Isotropic yield criteria.
+Maximum Principal Stress Theory – by W.J.M Rankine(1850). Yield occurs when the largest principal stress exceeds the uniaxial tensile yield strength. Although this criterion allows for a quick and easy comparison with experimental data it is rarely suitable for design purposes. This theory gives good predictions for brittle materials.
+Maximum Shear Stress Theory – Also known as the Tresca yield criterion, after the French scientist Henri Tresca. This assumes that yield occurs when the shear stress formula_12 exceeds the shear yield strength formula_13:
+Total Strain Energy Theory – This theory assumes that the stored energy associated with elastic deformation at the point of yield is independent of the specific stress tensor. Thus yield occurs when the strain energy per unit volume is greater than the strain energy at the elastic limit in simple tension. For a 3-dimensional stress state this is given by:
+Maximum Distortion Energy Theory (von Mises yield criterion) – This theory proposes that the total strain energy can be separated into two components: the volumetric (hydrostatic) strain energy and the shape (distortion or shear) strain energy. It is proposed that yield occurs when the distortion component exceeds that at the yield point for a simple tensile test. This theory is also known as the von Mises yield criterion.
+Based on a different theoretical underpinning this expression is also referred to as octahedral shear stress theory.
+Other commonly used isotropic yield criteria are the
+* von Mises yield criterion
+* Mohr-Coulomb yield criterion
+* Drucker-Prager yield criterion
+* Bresler-Pister yield criterion
+* Willam-Warnke yield criterion
+The yield surfaces corresponding to these criteria have a range of forms. However, most isotropic yield criteria correspond to convex yield surfaces.
+ANISOTROPIC YIELD CRITERIA
+Section::::Anisotropic yield criteria.
+When a metal is subjected to large plastic deformations the grain sizes and orientations change in the direction of deformation. As a result, the plastic yield behavior of the material shows directional dependency. Under such circumstances, the isotropic yield criteria such as the von Mises yield criterion are unable to predict the yield behavior accurately. Several anisotropic yield criteria have been developed to deal with such situations.
+Some of the more popular anisotropic yield criteria are:
+* Hill's quadratic yield criterion
+* Generalized Hill yield criterion
+* Hosford yield criterion
+FACTORS INFLUENCING YIELD STRENGTH
+Section::::Factors influencing yield strength.
+The stress at which yield occurs is dependent on both the rate of deformation (strain rate) and, more significantly, the temperature at which the deformation occurs. In general, the yield strength increases with strain rate and decreases with temperature. When the latter is not the case, the material is said to exhibit yield strength anomaly, which is typical for superalloys and leads to their use in applications requiring high strength at high temperatures.
+Early work by Alder and Philips found that the relationship between yield strength and strain rate (at constant temperature) was best described by a power law relationship of the form
+where C is a constant and m is the strain rate sensitivity. The latter generally increases with temperature, and materials where m reaches a value greater than ~0.5 tend to exhibit super plastic behavior. m can be found from a log-log plot of yield strength at a fixed plastic strain versus the strain rate.
+Later, more complex equations were proposed that simultaneously dealt with both temperature and strain rate:
+where α and A are constants and Z is the temperature-compensated strain-rate – often described by the Zener-Hollomon parameter:
+where Q is the activation energy for hot deformation and T is the absolute temperature.
+STRENGTHENING MECHANISMS
+Section::::Strengthening mechanisms.
+There are several ways in which crystalline and amorphous materials can be engineered to increase their yield strength. By altering dislocation density, impurity levels, grain size (in crystalline materials), the yield strength of the material can be fine tuned. This occurs typically by introducing defects such as impurities dislocations in the material. To move this defect (plastically deforming or yielding the material), a larger stress must be applied. This thus causes a higher yield stress in the material. While many material properties depend only on the composition of the bulk material, yield strength is extremely sensitive to the materials processing as well.
+These mechanisms for crystalline materials include
+* Work hardening
+* Solid solution strengthening
+* Precipitation strengthening
+* Grain boundary strengthening
+WORK HARDENING
+Section::::Work hardening.
+Where deforming the material will introduce dislocations, which increases their density in the material. This increases the yield strength of the material, since now more stress must be applied to move these dislocations through a crystal lattice. Dislocations can also interact with each other, becoming entangled.
+The governing formula for this mechanism is:
+where formula_21 is the yield stress, G is the shear elastic modulus, b is the magnitude of the Burgers vector, and formula_22 is the dislocation density.
+SOLID SOLUTION STRENGTHENING
+Section::::Solid solution strengthening.
+By alloying the material, impurity atoms in low concentrations will occupy a lattice position directly below a dislocation, such as directly below an extra half plane defect. This relieves a tensile strain directly below the dislocation by filling that empty lattice space with the impurity atom.
+The relationship of this mechanism goes as:
+where formula_24 is the shear stress, related to the yield stress, formula_25 and formula_3 are the same as in the above example, formula_27 is the concentration of solute and formula_28 is the strain induced in the lattice due to adding the impurity.
+PARTICLE/PRECIPITATE STRENGTHENING
+Section::::Particle/precipitate strengthening.
+Where the presence of a secondary phase will increase yield strength by blocking the motion of dislocations within the crystal. A line defect that, while moving through the matrix, will be forced against a small particle or precipitate of the material. Dislocations can move through this particle either by shearing the particle, or by a process known as bowing or ringing, in which a new ring of dislocations is created around the particle.
+The shearing formula goes as:
+and the bowing/ringing formula:
+In these formulas, formula_31 is the particle radius, formula_32 is the surface tension between the matrix and the particle, formula_33 is the distance between the particles.
+GRAIN BOUNDARY STRENGTHENING
+Section::::Grain boundary strengthening.
+Where a buildup of dislocations at a grain boundary causes a repulsive force between dislocations. As grain size decreases, the surface area to volume ratio of the grain increases, allowing more buildup of dislocations at the grain edge. Since it requires a lot of energy to move dislocations to another grain, these dislocations build up along the boundary, and increase the yield stress of the material. Also known as Hall-Petch strengthening, this type of strengthening is governed by the formula:
+where
+TESTING
+Section::::Testing.
+Yield strength testing involves taking a small sample with a fixed cross-section area, and then pulling it with a controlled, gradually increasing force until the sample changes shape or breaks. This is called a Tensile Test. Longitudinal and/or transverse strain is recorded using mechanical or optical extensometers.
+Yield behaviour can also be simulated using virtual tests (on computer models of materials), particularly where macroscopic yield is governed by the microstructural architecture of the material being studied.
+Indentation hardness correlates roughly linearly with tensile strength for most steels, but measurements on one material cannot be used as a scale to measure strengths on another. Hardness testing can therefore be an economical substitute for tensile testing, as well as providing local variations in yield strength due to, e.g., welding or forming operations. However, for critical situations tension testing is done to eliminate ambiguity.
+IMPLICATIONS FOR STRUCTURAL ENGINEERING
+Section::::Implications for structural engineering.
+Yielded structures have a lower stiffness, leading to increased deflections and decreased buckling strength. The structure will be permanently deformed when the load is removed, and may have residual stresses. Engineering metals display strain hardening, which implies that the yield stress is increased after unloading from a yield state. Highly optimized structures, such as airplane beams and components, rely on yielding as a fail-safe failure mode. No safety factor is therefore needed when comparing limit loads (the highest loads expected during normal operation) to yield criteria.
+TYPICAL YIELD AND ULTIMATE STRENGTHS
+Section::::Typical yield and ultimate strengths.
+Note: many of the values depend on manufacturing process and purity/composition.
+! Material
+! data-sort-type="number"  Yield strength(MPa)
+! data-sort-type="number"  Ultimate strength(MPa)
+! data-sort-type="number"  Density(g/cm³)
+! data-sort-type="number"  Free breaking length(km)
++ Elements in the annealed state
+! Element
+! data-sort-type="number"  Young's modulus (GPa)
+! data-sort-type="number"  Proof or yield stress (MPa)
+! data-sort-type="number"  Ultimate tensile Strength (MPa)
+SEE ALSO
+* Elastic modulus
+* Linear elasticity
+* Piola-Kirchhoff stress tensor
+* Specified Minimum Yield Strength
+* Strain tensor
+* Stress concentration
+* Tensile strength
+* Virial stress
+* Yield curve (physics)
+* Yield surface
+REFERENCES
+NOTES
+BIBLIOGRAPHY
+* .
+* Boresi, A. P., Schmidt, R. J., and Sidebottom, O. M. (1993). Advanced Mechanics of Materials, 5th edition John Wiley & Sons.
+* Oberg, E., Jones, F. D., and Horton, H. L. (1984). Machinery's Handbook, 22nd edition. Industrial Press.
+* Shigley, J. E., and Mischke, C. R. (1989). Mechanical Engineering Design, 5th edition. McGraw Hill.
+* Engineer's Handbook

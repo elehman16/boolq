@@ -1,0 +1,229 @@
+
+CARD COUNTING
+Card counting is a casino card game strategy used primarily in the blackjack family of casino games to determine whether the next hand is likely to give a probable advantage to the player or to the dealer. Card counters are a class of advantage players, who attempt to decrease the inherent casino house edge by keeping a running tally of all high and low valued cards seen by the player. Card counting allows players to bet more with less risk when the count gives an advantage as well as minimize losses during an unfavorable count. Card counting also provides the ability to alter playing decisions based on the composition of remaining cards.
+Card counting, also referred to as card reading, often refers to obtaining a sufficient count on the number, distribution and high-card location of cards in trick-taking games such as contract bridge or spades to optimize the winning of tricks.
+BASICS
+Section::::Basics.
+The most common variations of card counting in blackjack are based on statistical evidence that high cards (especially aces and 10s) benefit the player more than the dealer, while the low cards, (3s, 4s, 6s, and especially 5s) help the dealer while hurting the player. Higher concentration of high cards benefit the player in the following ways. 1) It increases the player's chances of hitting a natural Blackjack, which pays out 3:2 (unless the dealer also has blackjack); whereas a dealer's blackjack will only cause the player to lose his or her original bet. 2) Also, when the shoe has a high concentration of 10s, players have a better chance of winning when doubling on a 9, 10, or 11, by drawing a high card, thus making a high hand (a dealer, on the other hand, cannot double). 3) Furthermore, it makes splitting higher cards (especially 8's, 9's, and Aces) more profitable, since it increases the probability of being dealt a 10 or Ace to one of those split cards, thus making a strong hand; while the dealer cannot split. 4) On the other hand, Low cards benefit the dealer, since according to blackjack rules the dealer must hit stiff hands (12-16 total) while the player has the option to hit or stand. Thus a dealer holding (12-16) will bust every time if the next card drawn is a 10, making this card essential to track when card counting. 5)Finally, a high enough concentration of 10's can make the insurance bet more profitable, since it increases the probability of having a 10 underneath that Ace.
+Contrary to the popular myth, card counters do not need unusual mental abilities to count cards, because they are not tracking and memorizing specific cards. Instead, card counters assign a point score to each card they see that estimates the value of that card, and then they track the sum of these values – a process called keeping a "running count." The myth that counters keep track of every card was portrayed in the 1988 film Rain Man, in which the savant character Raymond Babbitt counts through six decks with ease and a casino employee erroneously comments that it is impossible to count six decks.
+SYSTEMS
+Section::::Systems.
+Basic card counting assigns a positive, negative, or zero value to each card value available. When a card of that value is dealt, the count is adjusted by that card's counting value. Low cards increase the count as they increase the percentage of high cards in the remaining set of cards, while high cards decrease it for the opposite reason. For instance, the Hi-Lo system subtracts one for each dealt 10, Jack, Queen, King or Ace, and adds one for any value 2-6. Values 7-9 are assigned a value of zero and therefore do not affect the count.
+The goal of a card counting system is to assign point values that roughly correlate to a card's Effect of Removal (EOR). The EOR is the actual effect of removing a given card from play, and the resulting impact on the house advantage. The player may gauge the effect of removal for all cards dealt, and assess the current house advantage of a game based on the remaining cards. As larger ratios between point values are used to create better correlation to actual EOR with the goal of increasing the efficiency of a system, such systems use more different numbers and are broken into classes depending on such as level 1, level 2, level 3, and so on, with regard to the ratio between the highest and lowest assigned point values.
+The High-Low system is considered a level-one count, because the running count never increases or decreases by more than a single, predetermined value. A multilevel count, such as Zen Count, Wong Halves or Hi-Opt II, makes finer distinctions between card values to gain greater play accuracy. Rather than all cards having a value of +1, 0, or −1, an advanced count might also include card ranks that are counted as +2 and −2, or +0.5 and -0.5. Advanced players might additionally maintain a side count (separate count) of specific cards, such as a side count Aces, to deal with situations where the best count for betting accuracy differs from the best count for playing accuracy.
+Many side count techniques exist including special-purpose counts used when attacking games with nonstandard profitable-play options such as an over/under side bet.
+The disadvantage of higher-level counts is that keeping track of more information can detract from the ability to play quickly and accurately. A card-counter might earn more money by playing a simple count quickly—more hands per hour played—than by playing a complex count slowly.
+The following table illustrates a few ranking systems for card counting. Many others exist.
+!Card Strategy
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+!10, J, Q, K
+!A
+!Level of count
+align=center +1
+align=center +1
+align=center +1
+align=center +1
+align=center +1
+align=center 0
+align=center 0
+align=center 0
+align=center −1
+align=center −1
+align=center 1
+align=center 0
+align=center +1
+align=center +1
+align=center +1
+align=center +1
+align=center 0
+align=center 0
+align=center 0
+align=center −1
+align=center 0
+align=center 1
+align=center +1
+align=center +1
+align=center +2
+align=center +2
+align=center +1
+align=center +1
+align=center 0
+align=center 0
+align=center −2
+align=center 0
+align=center 2
+align=center +1
+align=center +1
+align=center +1
+align=center +1
+align=center +1
+align=center +1
+align=center 0
+align=center 0
+align=center −1
+align=center −1
+align=center 1
+align=center +1
+align=center +1
+align=center +2
+align=center +2
+align=center +2
+align=center +1
+align=center 0
+align=center −1
+align=center −2
+align=center 0
+align=center 2
+align=center +1
+align=center +1
+align=center +1
+align=center +1
+align=center +1
+align=center 0 or +1
+align=center 0
+align=center 0
+align=center −1
+align=center −1
+align=center 1
+align=center +0.5
+align=center +1
+align=center +1
+align=center +1.5
+align=center +1
+align=center +0.5
+align=center 0
+align=center -0.5
+align=center -1
+align=center -1
+align=center 3
+align=center +1
+align=center +1
+align=center +2
+align=center +2
+align=center +2
+align=center +1
+align=center 0
+align=center 0
+align=center −2
+align=center −1
+align=center 2
+The KO Strategy was first introduced in 1992 as the "All Sevens" count in The Book of British Blackjack.
+DESIGN AND SELECTION OF SYSTEMS
+Section::::Design and selection of systems.
+The primary goal of a card counting system is to assign point values to each card that roughly correlate to the card's "effect of removal" or EOR (that is, the effect a single card has on the house advantage once removed from play), thus enabling the player to gauge the house advantage based on the composition of cards still to be dealt. Larger ratios between point values can better correlate to actual EOR, but add complexity to the system. Counting systems may be referred to as "level 1", "level 2", etc., corresponding to the number of different point values the system calls for.
+The ideal system is a system that is usable by the player and offers the highest average dollar return per period of time when dealt at a fixed rate. With this in mind, systems aim to achieve a balance of efficiency in three categories:
+Betting correlation (BC)
+Playing efficiency (PE)
+Insurance correlation (IC)
+Some strategies count the ace (ace-reckoned strategies) and some do not (ace-neutral strategies). Including aces in the count improves betting correlation since the ace is the most valuable card in the deck for betting purposes. However, since the ace can either be counted as one or eleven, including an ace in the count decreases the accuracy of playing efficiency. Since PE is more important in single- and double-deck games, and BC is more important in shoe games, counting the ace is more important in shoe games.
+One way to deal with such tradeoffs is to ignore the ace to yield higher PE while keeping a side count which is used to detect addition change in EV which the player will use to detect additional betting opportunities which ordinarily would not be indicated by the primary card counting system.
+The most commonly side counted card is the ace since it is the most important card in terms of achieving a balance of BC and PE. In theory a player could keep a side count of every card and achieve a near 100% PE, however methods involving additional side counts for PE become more complex at an exponential rate as you add more side counts and the ability of the human mind is quickly overtasked and unable to make the necessary computations.
+Since there is the potential to create an overtaxing demand on the human mind while using a card counting system another important design consideration is the ease of use. Higher level systems, and systems with side counts will obviously become more difficult and in an attempt to make them easier, unbalanced systems eliminate the need for a player to keep tabs on the number of cards/decks that have already entered play typically at the expense of lowering PE.
+RUNNING COUNTS VERSUS TRUE COUNTS IN BALANCED COUNTING SYSTEMS
+Section::::Running counts versus True counts in Balanced counting systems.
+The Running count is the running total of each card's assigned value. When using Balanced count (such as the Hi-Lo system), the Running count is converted into a "True count," which takes into consideration the number of decks used. With Hi-Lo, the True count is essentially the Running count divided by the number of decks that have not yet been dealt; this can be calculated by division or approximated with an average card count per round times the number of rounds dealt. However, many variations of True count calculation exist.
+BACK-COUNTING
+Section::::Back-counting.
+Back-counting, also known as "Wonging," consists of standing behind a blackjack table that other players are playing on, and counting the cards as they are dealt. Stanford Wong first proposed the idea of back-counting, and the term "Wong" comes from his name.
+The player will enter or "Wong in" to the game when the count reaches a point at which the player has an advantage. The player may then raise his/her bets as their advantage increases, or lower their bets as their advantage goes down. Some back-counters prefer to flat-bet, and only bet the same amount once they have entered the game. Some players will stay at the table until the game is shuffled, or they may "Wong out" or leave when the count reaches a level at which they no longer have an advantage.
+Back-counting is generally done on shoe games, of 4, 6, or 8 decks, although it can be done on pitch games of 1 or 2 decks. The reason for this is that the count is more stable in a shoe game, so a player will be less likely to sit down for one or two hands and then have to get up. In addition, many casinos do not allow "mid-shoe entry" in single or double deck games which makes Wonging impossible. Another reason is that many casinos exhibit more effort to thwart card counters on their pitch games than on their shoe games, as a counter has a smaller advantage on an average shoe game than in a pitch game.
+ADVANTAGES
+Section::::Advantages.
+Back-counting is different from traditional card-counting, in that the player does not play every hand he sees. This offers several advantages. For one, the player does not play hands at which he does not have a statistical advantage. This increases the total advantage of the player. Another advantage is that the player does not have to change their bet size as much, or at all if they choose. Large variations in bet size are one way that casinos detect card counters, and this is eliminated with back-counting.
+DISADVANTAGES
+Section::::Disadvantages.
+There are several disadvantages to back-counting. One is that the player frequently does not stay at the table long enough to earn comps from the casino. Another disadvantage is that some players may become irritated with players who enter in the middle of a game, and superstitiously believe that this interrupts the "flow" of the cards. Lastly, a player who hops in and out of games may attract unwanted attention from casino personnel, and may be detected as a card-counter.
+GROUP COUNTING
+Section::::Group counting.
+While a single player can maintain their own advantage with back-counting, card counting is most often used by teams of players to maximize their advantage. In such a team, some players called "spotters" will sit at a table and play the game at the table minimum, while keeping a count (basically doing the back "counting"). When the count is significantly high, the spotter will discreetly signal another player, known as a "big player," that the count is high (the table is "hot"). The big player will then "Wong in" and wager vastly higher sums (up to the table maximum) while the count is high. When the count "cools off" or the shoe is shuffled (resetting the count), the big player will "Wong out" and look for other counters who are signaling a high count. This was the system used by the MIT Blackjack Team, whose story was in turn the inspiration for the Canadian movie The Last Casino which was later re-made into the Hollywood version 21.
+The main advantage of group play is that the team can count several tables while a single back-counting player can usually only track one table. This allows big players to move from table to table, maintaining the high-count advantage without being out of action very long. It also allows redundancy while the big player is seated as both the counter and big player can keep the count (as in the movie 21, the spotter can communicate the count to the big player discreetly as he/she sits down). The disadvantages include requiring multiple spotters who can keep an accurate count, splitting the "take" among all members of the team, requiring spotters to play a table regardless of the count (using only basic strategy, these players will lose money long-term), and requiring signals, which can alert pit bosses.
+A simple variation removes the loss of having spotters play; the spotters simply watch the table instead of playing and signal big players to Wong in and out as normal. The disadvantages of this variation are reduced ability of the spotter and big player to communicate, reduced comps as the spotters are not sitting down, and vastly increased suspicion, as blackjack is not generally considered a spectator sport in casinos except among those actually playing (unlike craps, roulette and wheels of fortune which have larger displays and so tend to attract more spectators).
+RANGING BET SIZES AND THE KELLY CRITERION
+Section::::Ranging bet sizes and the Kelly criterion.
+A mathematical principle called the Kelly criterion indicates that bet increases should be proportional to the player advantage. In practice, this means that the higher the count, the more a player should bet on each hand in order to take advantage of the player edge. Using this principle, a card counter may elect to vary his bet size in proportion to the advantage dictated by a count creating what is called a "Bet ramp" according to the principles of the Kelly criterion. A bet ramp is a betting plan with a specific bet size tied to each true count value in such a way that the player is betting proportionally to the player advantage with aims to maximize overall bankroll growth.
+Taken to its ultimate conclusion, the Kelly criterion would demand that a player not bet anything at all when the deck does not offer a positive expectation; the "Wonging" strategy described above implements this.
+EXPECTED PROFIT
+Section::::Expected profit.
+Historically, blackjack played with a perfect basic strategy offered a house edge of less than 0.5%. As more casinos have switched games to dealer hits soft-17 and blackjack pays 6:5, the average house edge in Nevada has increased to 1%. A typical card counter who ranges bets appropriately in a game with six decks will have an advantage of approximately 1% over the casino. Advantages of up to 2.5% are possible at normal penetrations from counting 6-deck Spanish 21, for the S17 or H17 with redoubling games. This amount varies based on the counter's skill level, penetration (1 – fraction of pack cut off), and the betting spread (player's maximum bet divided by minimum bet). The variance in blackjack is high, so generating a sizable profit can take hundreds of hours of play. The deck will only have a positive enough count for the player to raise bets 10%-35% of the time depending on rules, penetration and strategy.
+At a table where a player makes a $100 average bet, a 1% advantage means a player will win an average $1 per round. This translates into an average hourly winning of $50 if the player is dealt 50 hands per hour.
+Under one set of circumstance, a player with a 1-15 unit bet spread with only one-deck cut off of a six-deck game will enjoy an advantage of as much as 1.2% with a Standard Deviation of 3.5 on a 2.1 unit average bet. Therefore, it is highly advisable for counters to set aside a large dedicated bankroll; one popular rule of thumb dictates a bankroll of 100 times the maximum bet per hand.
+Another aspect of the probability of card counting is that, at higher counts, the player's probability of winning a hand is only slightly changed and still below 50%. The player's edge over the house on such hands does not come from the player's probability of winning the hands. Instead it comes from the increased probability of blackjacks, increased gain and benefit from doubling, splitting and surrender, and the insurance side bet, which becomes profitable at high counts.
+Many factors will affect a player's expected profit while attacking a game, such as:
+* The overall efficiency of a card counting system at detecting player advantage, this affects how often the player will actually play a hand at an advantage per period of time
+* The overall efficiency at creating player advantage as a whole, a system may indicate a small advantage when in fact the advantage is much larger, this reduces the overall ROI of the system while in play.
+* The rules of the game.
+* Penetration will almost directly affect the magnitude of player advantage that is exploitable, and the rate that hands are dealt to a player at an advantage.
+* The number of players seated at a table will slow game pace, and reduce the number of hands a player will be able to play in a given time frame.
+* Game speed, table with side bets will be dealt at a slower pace than tables without them which will reduce the number of hands dealt over time.
+* The use of an automatic shuffle machine or in rare cases, a dealer dedicated solely to shuffling a new shoe while another is in play, will eliminate the need for the dealer to shuffle the shoe prior to dealing a new one increasing game speed.
+DEVICES
+Section::::Devices.
+A range of card counting devices are available but are deemed to be illegal in most U.S. casinos. In February 2009, the Nevada Gaming Control Board issued a warning that an iPhone card counting application was illegal in that state. Card counting with the mind is legal and usually more accurate than this application.
+LEGAL STATUS
+Section::::Legal status.
+Card counting is not illegal under British law, nor is it under federal, state, or local laws in the United States provided that no external card counting device or person assists the player in counting cards. Still, casinos object to the practice, and try to prevent it, banning players believed to be counters. In their pursuit to identify card counters, casinos sometimes misidentify and ban players suspected of counting cards even if they do not.
+Atlantic City casinos in the US state of New Jersey are forbidden from barring card counters as a result of a New Jersey Supreme Court decision. In 1979 Ken Uston, a Blackjack Hall of Fame inductee, filed a lawsuit against an Atlantic City casino, claiming that casinos did not have the right to ban skilled players. The New Jersey Supreme Court agreed, ruling that "the state's control of Atlantic City's casinos is so complete that only the New Jersey Casino Control Commission has the power to make rules to exclude skillful players." The Commission has made no regulation on card counting, so Atlantic City casinos are not allowed to ban card counters. As they are unable to ban counters even when identified, Atlantic City casinos have increased the use of countermeasures.
+CASINO REACTIONS
+DETECTION
+Section::::Casino reactions.
+Section::::Detection.
+Monitoring player behavior to assist with detecting the card counters falls into the hands of the on-floor casino personnel ("pit bosses") and casino-surveillance personnel, who may use video surveillance ("the eye in the sky") as well as computer analysis, to try to spot playing behavior indicative of card counting. Early counter-strategies featured the dealers learning to count the cards themselves to recognize the patterns in the players. Many casino chains keep databases of players that they consider undesirable. Casinos can also subscribe to databases of advantage players offered by agencies like Griffin Investigations, Biometrica and OSN (Oregon Surveillance Network). Griffin Investigations filed for Chapter 11 bankruptcy protection in 2005 after losing a libel lawsuit filed by professional gamblers. In 2008 all Chapter 11 payments were said to be up to date and all requirements met, and information was being supplied using data encryption and secure servers. If a player is found to be in such a database, he will almost certainly be stopped from play and asked to leave regardless of his table play. For successful card counters, therefore, skill at "cover" behavior, to hide counting and avoid "drawing heat" and possibly being barred, may be just as important as playing skill.
+Detection of card counters will be confirmed after a player is first suspected of counting cards; when seeking card counters, casino employees, whatever their position, could be alerted by many things that are most common when related to card counting but not common for other players. These include:
+* Large buy-ins
+* Dramatic bet variation especially with larger bets being placed only at the end of a shoe
+* Playing only a small number of hands during a shoe
+* Refusal to play rated
+* Table hopping
+* Playing multiple hands
+* Lifetime win
+* Racial profiling (in some non-U.S. locations)
+Card counters may make unique playing strategy deviations not normally used by non-counters. Plays such as splitting tens, doubling soft 18/19/20, standing on 15/16, and surrendering on 14, when basic strategy says otherwise, may be a sign of a card counter.
+Extremely aggressive plays such as splitting tens and doubling soft 19 and 20 are often called out to the pit to notify them because they are telltale signs of not only card counters but hole carding.
+TECHNOLOGY FOR DETECTING CARD COUNTERS
+Section::::Technology for detecting card counters.
+Several semi-automated systems have been designed to aid detection of card counters. The MindPlay system (now discontinued) scanned card values as the cards were dealt. The Shuffle Master Intelligent Shoe system also scans card values as cards exit the shoe. Software called Bloodhound and Protec 21 allow voice input of card and bet values, in an attempt to determine the player edge. A more recent innovation is the use of RFID signatures embedded within the casino chips so that the table can automatically track bet amounts.
+Automated card-reading technology has known abuse potential in that it can be used to simplify the practice of preferential shuffling—having the dealer reshuffle the cards whenever the odds favor the players. To comply with licensing regulations, some blackjack protection systems have been designed to delay access to real-time data on remaining cards in the shoe. Other vendors consider real-time notification to surveillance that a shoe is "hot" to be an important product feature.
+With card values, play decisions, and bet decisions conveniently accessible, the casino can analyze bet variation, play accuracy, and play variation.
+Bet variation. The simplest way a card counter makes money is to bet more when he has an edge. While playing back the tapes of a recent session of play, software can generate a scatter plot of the amount bet versus the count at the time the bet was made and find the trendline that best fits the scattered points. If the player is not counting cards, there will be no trend; his bet variation and the count variation will not consistently correlate. If the player is counting and varying bets according to the count, there will be a trend whose slope reflects the player's average edge from this technique.
+Play variation. When card counters vary from basic strategy, they do so in response to the count, to gain an additional edge. Software can verify whether there is a pattern to play variation. Of particular interest is whether the player sometimes (when the count is positive) takes insurance and stands on 16 versus a dealer 10, but plays differently when the count is negative.
+COUNTERMEASURES
+Section::::Countermeasures.
+Casinos have spent a great amount of effort and money in trying to thwart card counters. Countermeasures used to prevent card counters from profiting at blackjack include:
+* Decreasing penetration, the number of the cards dealt before a shuffle. This reduces the advantage of card counting.
+* Banning known counters from playing blackjack, all games, or entering casino property (trespassing).
+* Shuffling when a player increases their wager or when the casino feels the remaining cards are advantageous to the player (preferential shuffling).
+* Changing rules for splitting, doubling down, or playing multiple hands. This also includes changing a table's stakes.
+* Not allowing entry into a game until a shuffle occurs (no mid-shoe entry).
+* Flat betting a player or making it so they cannot change the amount they bet during a shoe.
+* Cancelling comps earned by counters.
+* Confiscation of chips.
+* Detention (backrooming).
+Some jurisdictions (e.g. Nevada) have few legal restrictions placed on these countermeasures. Other jurisdictions such as New Jersey limit the countermeasures a casino can take against skilled players. Casinos have resorted to physical assaults to deter card counters. Assaults are less common than in the early days of card counting.
+Some countermeasures result in disadvantages for the casino. Frequent or complex shuffling, for example, reduces the amount of playing time and consequently the house winnings. Some casinos use automatic shuffling machines to counter the loss of time, with some models of machines shuffling one set of cards while another is in play. Others, known as continuous shuffle machines (CSMs), allow the dealer to simply return used cards to a single shoe to allow playing with no interruption. Because CSMs essentially force minimal penetration, they greatly reduce the advantage of traditional counting techniques. In most online casinos the deck is shuffled at the start of each new round, ensuring the house always has the advantage.
+HISTORY
+Section::::History.
+American mathematician Edward O. Thorp is considered the father of card counting. His 1962 book, Beat the Dealer, outlined various betting and playing strategies for optimal blackjack play. Although mathematically sound, some of the techniques described no longer apply, as casinos took counter-measures (such as no longer dealing to the last card). Also, the counting system described (10-count) is harder to use and less profitable than the point-count systems that have been developed since. A history of how counting developed can be seen in David Layton's documentary film The Hot Shoe.
+Even before the publication of Beat the Dealer, however, a small number of professional card counters were beating blackjack games in Las Vegas and casinos elsewhere. One of these early card counters was Jess Marcum, who is described in documents and interviews with professional gamblers of the time as having developed the first full-fledged point-count system. Another documented pre-Thorp card counter was a professional gambler named Joe Bernstein, who is described in the 1961 book I Want To Quit Winners, by Reno casino owner Harold Smith, as an Ace counter feared throughout the casinos of Nevada. And in the 1957 book Playing Blackjack to Win, Roger Baldwin, Wilbert Cantey, Herbert Maisel, and James McDermott (known among card counters as "The Four Horsemen") published the first accurate blackjack basic strategy and a rudimentary card-counting system, devised solely with the aid of crude mechanical calculators—what used to be called "adding machines."
+From the early days of card-counting, some players have been hugely successful, including Al Francesco, the inventor of blackjack team play and the man who taught Ken Uston how to count cards, and Tommy Hyland, manager of the longest-running blackjack team in history. Ken Uston, though perhaps the most famous card-counter through his 60 Minutes television appearance and his books, tended to overstate his winnings, as documented by players who worked with him, including Al Francesco and team member Darryl Purpose.
+In the 1970s and 1980s, as computing power grew, more advanced (and more difficult) card-counting systems came into favor. Many card counters agree, however, that a simpler and less advantageous system that can be played flawlessly for hours earns an overall higher return than a more complex system prone to user error.
+TEAMS
+Section::::Teams.
+In the 1970s Ken Uston was the first to write about a tactic of card counting he called the Big Player Team. The book was based on his experiences working as a "big player" (BP) on Al Francesco's teams. In big-player blackjack teams a number of card counters, called "spotters," are dispatched to tables around a casino, where their responsibility is to keep track of the count and signal to the big player when the count indicates a player advantage. The big player then joins the game at that table, placing maximum bets at a player advantage. When the spotter indicates that the count has dropped, he again signals the BP to leave the table. By jumping from table to table as called in by spotters, the BP avoids all play at a disadvantage. In addition, since the BP's play appears random and irrational, he avoids detection by the casinos. The spotters, who are doing the actual counting, are not themselves changing their bet size or strategy, so they are relatively inconspicuous.
+With this style of play, a number of blackjack teams have cleared millions of dollars through the years. Well-known blackjack teams with documented earnings in the millions include those run by Al Francesco, Ken Uston, Tommy Hyland, various groups from the Massachusetts Institute of Technology (MIT) and, most recently, a team called "The Greeks." Ken Uston wrote about blackjack team play in Million Dollar Blackjack (), although many of the experiences he represents as his own in his books actually happened to other players, especially Bill Erb, a BP Uston worked with on Al Francesco's team. Ben Mezrich also covers team play in his book Bringing Down The House (), which describes how MIT students used it with great success. See also the Canadian movie The Last Casino and the American movie 21, which was based on Mezrich's book.
+The publication of Ken Uston's books and of his landmark lawsuits against the casinos, both stimulated the growth of blackjack teams (Hyland's team and the first MIT team were formed in Atlantic City shortly after the publication of Million Dollar Blackjack) and increased casino awareness of the methods of blackjack teams, making it more difficult for such teams to operate. Hyland and Francesco soon switched to a form of shuffle tracking called "Ace sequencing." Also referred to as "cutting to the Ace," this technique involves various methods designed to spot the bottom card during a shuffle (ideally an Ace) and expertly cut the deck and play future hands to force the player to receive the Ace. This made it more difficult for casinos to detect when team members were playing with an advantage. In 1994, members of the Hyland team were arrested for Ace sequencing and blackjack team play at Casino Windsor in Windsor, Ontario, Canada. It was documented in court that Nevada casinos with ownership stakes in the Windsor casino were instrumental in the decision to prosecute team members on cheating charges. However, the judge ruled that the players' conduct was not cheating, but merely the use of intelligent strategy.
+SHUFFLING MACHINES
+Section::::Shuffling machines.
+Automatic shuffling machines (ASMs or batch shufflers), that randomly shuffle decks, interfere with the shuffle tracking variation of card counting by hiding the shuffle. Continuous shuffling machines (CSMs), that partially shuffle used cards back into the "shoe" after every hand, interfere with card counting. These machines can result in some of the cards just played on the table being re-shuffled into positions fairly close to the top of the shoe, seriously damaging the effectiveness of card-counting.
+SEE ALSO
+* Advantage gambling
+REFERENCES
+NOTES
+BIBLIOGRAPHY
+FURTHER READING

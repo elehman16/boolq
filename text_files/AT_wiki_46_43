@@ -1,0 +1,62 @@
+
+MULTIPLICATIVE INVERSE
+In mathematics, a multiplicative inverse or reciprocal for a number x, denoted by 1/x or x, is a number which when multiplied by x yields the multiplicative identity, 1. The multiplicative inverse of a fraction a/b is b/a. For the multiplicative inverse of a real number, divide 1 by the number. For example, the reciprocal of 5 is one fifth (1/5 or 0.2), and the reciprocal of 0.25 is 1 divided by 0.25, or 4. The reciprocal function, the function f(x) that maps x to 1/x, is one of the simplest examples of a function which is its own inverse (an involution).
+The term reciprocal was in common use at least as far back as the third edition of Encyclopædia Britannica (1797) to describe two numbers whose product is 1; geometrical quantities in inverse proportion are described as reciprocall in a 1570 translation of Euclid's Elements.
+In the phrase multiplicative inverse, the qualifier multiplicative is often omitted and then tacitly understood (in contrast to the additive inverse). Multiplicative inverses can be defined over many mathematical domains as well as numbers. In these cases it can happen that ; then "inverse" typically implies that an element is both a left and right inverse.
+The notation f is sometimes also used for the inverse function of the function f, which is not in general equal to the multiplicative inverse. For example, the multiplicative inverse is the cosecant of x, and not the inverse sine of x denoted by or . Only for linear maps are they strongly related (see below). The terminology difference reciprocal versus inverse is not sufficient to make this distinction, since many authors prefer the opposite naming convention, probably for historical reasons (for example in French, the inverse function is preferably called bijection réciproque).
+EXAMPLES AND COUNTEREXAMPLES
+Section::::Examples and counterexamples.
+In the real numbers, zero does not have a reciprocal because no real number multiplied by 0 produces 1 (the product of any number with zero is zero). With the exception of zero, reciprocals of every real number are real, reciprocals of every rational number are rational, and reciprocals of every complex number are complex. The property that every element other than zero has a multiplicative inverse is part of the definition of a field, of which these are all examples. On the other hand, no integer other than 1 and −1 has an integer reciprocal, and so the integers are not a field.
+In modular arithmetic, the modular multiplicative inverse of a is also defined: it is the number x such that ax ≡ 1 (mod n). This multiplicative inverse exists if and only if a and n are coprime. For example, the inverse of 3 modulo 11 is 4 because 4 · 3 ≡ 1 (mod 11). The extended Euclidean algorithm may be used to compute it.
+The sedenions are an algebra in which every nonzero element has a multiplicative inverse, but which nonetheless has divisors of zero, i.e. nonzero elements x, y such that xy = 0.
+A square matrix has an inverse if and only if its determinant has an inverse in the coefficient ring. The linear map that has the matrix A with respect to some base is then the reciprocal function of the map having A as matrix in the same base. Thus, the two distinct notions of the inverse of a function are strongly related in this case, while they must be carefully distinguished in the general case (as noted above).
+The trigonometric functions are related by the reciprocal identity: the cotangent is the reciprocal of the tangent; the secant is the reciprocal of the cosine; the cosecant is the reciprocal of the sine.
+A ring in which every nonzero element has a multiplicative inverse is a division ring; likewise an algebra in which this holds is a division algebra.
+COMPLEX NUMBERS
+Section::::Complex numbers.
+As mentioned above, the reciprocal of every nonzero complex number is complex. It can be found by multiplying both top and bottom of 1/z by its complex conjugate formula_1 and using the property that formula_2, the absolute value of z squared, which is the real number :
+In particular, if z=1 (z has unit magnitude), then formula_4. Consequently, the imaginary units, ±, have additive inverse equal to multiplicative inverse, and are the only complex numbers with this property. For example, additive and multiplicative inverses of are −() = − and 1/ = −, respectively.
+For a complex number in polar form , the reciprocal simply takes the reciprocal of the magnitude and the negative of the angle:
+CALCULUS
+Section::::Calculus.
+In real calculus, the derivative of is given by the power rule with the power −1:
+The power rule for integrals (Cavalieri's quadrature formula) cannot be used to compute the integral of 1/x, because doing so would result in division by 0:
+Instead the integral is given by:
+where ln is the natural logarithm. To show this, note that formula_10, so if formula_11 and formula_12, we have:
+ALGORITHMS
+Section::::Algorithms.
+The reciprocal may be computed by hand with the use of long division.
+Computing the reciprocal is important in many division algorithms, since the quotient a/b can be computed by first computing 1/b and then multiplying it by a. Noting that formula_14 has a zero at x = 1/b, Newton's method can find that zero, starting with a guess formula_15 and iterating using the rule:
+This continues until the desired precision is reached. For example, suppose we wish to compute 1/17 ≈ 0.0588 with 3 digits of precision. Taking x = 0.1, the following sequence is produced:
+A typical initial guess can be found by rounding b to a nearby power of 2, then using bit shifts to compute its reciprocal.
+In constructive mathematics, for a real number x to have a reciprocal, it is not sufficient that x ≠ 0. There must instead be given a rational number r such that 0 < r < x. In terms of the approximation algorithm described above, this is needed to prove that the change in y will eventually become arbitrarily small.
+This iteration can also be generalised to a wider sort of inverses, e.g. matrix inverses.
+RECIPROCALS OF IRRATIONAL NUMBERS
+Section::::Reciprocals of irrational numbers.
+Every number excluding zero has a reciprocal, and reciprocals of certain irrational numbers can have important special properties. Examples include the reciprocal of e (≈ 0.367879) and the golden ratio's reciprocal (≈ 0.618034). The first reciprocal is special because no other positive number can produce a lower number when put to the power of itself; formula_17 is the global minimum of formula_18. The second number is the only positive number that is equal to its reciprocal plus one:formula_19. Its additive inverse is the only negative number that is equal to its reciprocal minus one:formula_20.
+The function formula_21 gives an infinite number of irrational numbers that differ with their reciprocal by an integer. For example, formula_22 is the irrational formula_23. Its reciprocal formula_24 is formula_25, exactly formula_26 less. Such irrational numbers share a curious property: they have the same fractional part as their reciprocal.
+FURTHER REMARKS
+Section::::Further remarks.
+If the multiplication is associative, an element x with a multiplicative inverse cannot be a zero divisor (x is a zero divisor if some nonzero y, ). To see this, it is sufficient to multiply the equation by the inverse of x (on the left), and then simplify using associativity. In the absence of associativity, the sedenions provide a counterexample.
+The converse does not hold: an element which is not a zero divisor is not guaranteed to have a multiplicative inverse.
+Within Z, all integers except −1, 0, 1 provide examples; they are not zero divisors nor do they have inverses in Z.
+If the ring or algebra is finite, however, then all elements a which are not zero divisors do have a (left and right) inverse. For, first observe that the map must be injective: implies :
+Distinct elements map to distinct elements, so the image consists of the same finite number of elements, and the map is necessarily surjective. Specifically, ƒ (namely multiplication by a) must map some element x to 1, , so that x is an inverse for a.
+APPLICATIONS
+Section::::Applications.
+The expansion of the reciprocal 1/q in any base can also act as a source of pseudo-random numbers, if q is a "suitable" safe prime, a prime of the form 2p + 1 where p is also a prime. A sequence of pseudo-random numbers of length q − 1 will be produced by the expansion.
+SEE ALSO
+* Division (mathematics)
+* Fraction (mathematics)
+* Group (mathematics)
+* Ring (mathematics)
+* Division algebra
+* Exponential decay
+* Unit fractions – reciprocals of integers
+* Hyperbola
+* Repeating decimal
+* List of sums of reciprocals
+* Six-sphere coordinates
+NOTES
+REFERENCES
+* Maximally Periodic Reciprocals, Matthews R.A.J. Bulletin of the Institute of Mathematics and its Applications vol 28 pp 147–148 1992

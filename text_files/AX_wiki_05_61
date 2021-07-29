@@ -1,0 +1,106 @@
+
+AMERICAN WIRE GAUGE
+American wire gauge (AWG), also known as the Brown & Sharpe wire gauge, is a logarithmic stepped standardized wire gauge system used since 1857 predominantly in North America for the diameters of round, solid, nonferrous, electrically conducting wire. Dimensions of the wires are given in ASTM standard B 258. The cross-sectional area of each gauge is an important factor for determining its current-carrying capacity.
+Increasing gauge numbers denote decreasing wire diameters, which is similar to many other non-metric gauging systems such as British Standard Wire Gauge (SWG), but unlike IEC 60228, the metric wire-size standard used in most parts of the world. This gauge system originated in the number of drawing operations used to produce a given gauge of wire. Very fine wire (for example, 30 gauge) required more passes through the drawing dies than 0 gauge wire did. Manufacturers of wire formerly had proprietary wire gauge systems; the development of standardized wire gauges rationalized selection of wire for a particular purpose.
+The AWG tables are for a single, solid, round conductor. The AWG of a stranded wire is determined by the cross-sectional area of the equivalent solid conductor. Because there are also small gaps between the strands, a stranded wire will always have a slightly larger overall diameter than a solid wire with the same AWG.
+AWG is also commonly used to specify body piercing jewelry sizes (especially smaller sizes), even when the material is not metallic.
+FORMULAS
+Section::::Formulas.
+By definition, No. 36 AWG is 0.005 inches in diameter, and No. 0000 is 0.46 inches in diameter. The ratio of these diameters is 1:92, and there are 40 gauge sizes from No. 36 to No. 0000, or 39 steps. Because each successive gauge number increases cross sectional area by a constant multiple, diameters vary geometrically. Any two successive gauges (e.g., A & B ) have diameters in the ratio (dia. B ÷ dia. A) of formula_1 (approximately 1.12293), while for gauges two steps apart (e.g., A, B, & C), the ratio of the C to A is about 1.12293 = 1.26098. The diameter of a No. n AWG wire is determined, for gauges smaller than 00 (36 to 0), according to the following formula:
+or equivalently:
+The gauge can be calculated from the diameter using 
+and the cross-section area is
+The standard ASTM B258 - 02(2008) Standard Specification for Standard Nominal Diameters and Cross-Sectional Areas of AWG Sizes of Solid Round Wires Used as Electrical Conductors defines the ratio between successive sizes to be the 39th root of 92, or approximately 1.1229322. ASTM B 258-02 also dictates that wire diameters should be tabulated with no more than 4 significant figures, with a resolution of no more than 0.0001 inches (0.1 mils) for wires larger than No. 44 AWG, and 0.00001 inches (0.01 mils) for wires No. 45 AWG and smaller.
+Sizes with multiple zeros are successively larger than No. 0 and can be denoted using "number of zeros/0", for example 4/0 for 0000. For an m/0 AWG wire, use in the above formulas. For instance, for No. 0000 or 4/0, use .
+RULES OF THUMB
+Section::::Rules of thumb.
+The sixth power of formula_1 is very close to 2, which leads to the following rules of thumb:
+* When the cross-sectional area of a wire is doubled, the AWG will decrease by 3. (E.g. two No. 14 AWG wires have about the same cross-sectional area as a single No. 11 AWG wire.) This doubles the ampacity.
+* When the diameter of a wire is doubled, the AWG will decrease by 6. (E.g. No. 2 AWG is about twice the diameter of No. 8 AWG.) This quadruples the cross-sectional area and the ampacity.
+* A decrease of ten gauge numbers, for example from No. 12 to No. 2, multiplies the area and weight by approximately 10, and reduces the electrical resistance (and increases the conductance) by a factor of approximately 10.
+* For the same cross section, aluminum wire has a conductivity of approximately 61% of copper, so an aluminum wire has nearly the same resistance as a copper wire smaller by 2 AWG sizes, which has 62.9% of the area.
+* An approximation for the resistance of copper wire may be expressed as follows:
++ Approximate resistance of copper wire
+! AWG  mΩ/ft  mΩ/m
+rowspan=11
+! AWG  mΩ/ft  mΩ/m
+rowspan=11
+! AWG  mΩ/ft  mΩ/m
+rowspan=11
+! AWG  mΩ/ft  mΩ/m
+TABLES OF AWG WIRE SIZES
+Section::::Tables of AWG wire sizes.
+The table below shows various data including both the resistance of the various wire gauges and the allowable current (ampacity) based on a copper conductor with plastic insulation. The diameter information in the table applies to solid wires. Stranded wires are calculated by calculating the equivalent cross sectional copper area. Fusing current (melting wire) is estimated based on ambient temperature. The table below assumes DC, or AC frequencies equal to or less than 60 Hz, and does not take skin effect into account. "Turns of wire per unit length" is the reciprocal of the conductor diameter; it is therefore an upper limit for wire wound in the form of a helix (see solenoid), based on uninsulated wire.
+! rowspan=4  AWG
+! rowspan=3 colspan=2  Diameter
+! rowspan=3 colspan=2  Turns of wire, without insulation
+! rowspan=3 colspan=2  Area
+! colspan=8  Copper wire
+! rowspan=2 colspan=2  Resistance/length
+! colspan=3  Ampacity, at 20 °C insulation material temperature rating, or for single unbundled wires in equipment for 16 AWG and smaller
+! colspan=3  Fusing current
+! 60 °C
+! 75 °C
+! 90 °C
+! Preece
+! colspan=2  Onderdonk
+! (in)
+! (mm)
+! (per in)
+! (per cm)
+! (kcmil)
+! (mm)
+! (mΩ/m)
+! (mΩ/ft)
+! colspan=3  (A)
+! ~10 s
+! 1 s
+! 32 ms
+In the North American electrical industry, conductors larger than 4/0 AWG are generally identified by the area in thousands of circular mils (kcmil), where 1 kcmil = 0.5067 mm. The next wire size larger than 4/0 has a cross section of 250 kcmil. A circular mil is the area of a wire one mil in diameter. One million circular mils is the area of a circle with 1000 mil (1 inch) diameter. An older abbreviation for one thousand circular mils is MCM.
+STRANDED WIRE AWG SIZES
+Section::::Stranded wire AWG sizes.
+AWG gauges are also used to describe stranded wire. The AWG gauge of a stranded wire represents the sum of the cross-sectional areas of the individual strands; the gaps between strands are not counted. When made with circular strands, these gaps occupy about 25% of the wire area, thus requiring the overall bundle diameter to be about 13% larger than a solid wire of equal gauge.
+Stranded wires are specified with three numbers, the overall AWG size, the number of strands, and the AWG size of a strand. The number of strands and the AWG of a strand are separated by a slash. For example, a 22 AWG 7/30 stranded wire is a 22 AWG wire made from seven strands of 30 AWG wire.
+NOMENCLATURE AND ABBREVIATIONS IN ELECTRICAL DISTRIBUTION
+Section::::Nomenclature and abbreviations in electrical distribution.
+Alternative ways are commonly used in the electrical industry to specify wire sizes as AWG.
+* 4 AWG (proper)
+* #4 (the number sign is used as an abbreviation for "number")
+* No. 4 (No. is used as an abbreviation for "number")
+* No. 4 AWG
+* 4 ga. (abbreviation for "gauge")
+* 000 AWG (proper for large sizes)
+* 3/0 (common for large sizes) Pronounced "three-aught"
+* 3/0 AWG
+* #000
+The industry also bundles common wire for use in mains electricity distribution in homes and businesses, identifying a bundle's wire size followed by the number of wires in the bundle. The most common type of distribution cable, NM-B, is generally implied:
+* #14/2 (also written "14-2") is a nonmetallic (NM) sheathed bundle (-B) of three solid 14 AWG wires having a bare ground in the middle of two insulated conductors. The insulation surrounding the two conductors is white and black, for neutral and "hot" (electrified) respectively. This sheath for 14 AWG cable is usually white when used for NM-B wiring intended for electrical distribution in a dry location, although older wire may be black. #14 wire is used mainly in lighting circuits with a 15-ampere circuit breaker.
+* #12/2 is a nonmetallic sheathed bundle of three solid 12 AWG wires having a bare ground in the middle of two insulated conductors in a flat-shaped NM-B yellow-colored sheath. The color is a North American industry standard for cables made since 2003, and aids identification. It is always used for countertop appliance outlets in kitchens, and often for outlets in bathrooms (for high-wattage hair dryers) and other rooms.
+* #10/3 with ground (also written "10-3 w/gnd") is a nonmetallic sheathed bundle of four solid 10 AWG wires having a bare ground and three insulated conductors twisted into a round-shaped NM-B orange-colored sheath. The insulated conductors are black, white, and red, usually supplying both 120 and 240 volts for clothes dryers. Some cables of this type may be flat to save copper.
+* #8 and larger cables are now insulated in black, with 6/3 for 50-amp electric ranges in kitchens, and 0/2 (two black-insulated #0 AWG wires, plus ground) for the main 200-amp cable from the weatherhead and electricity meter to the main breaker panel.
+14/3 and 12/3 cables are also available, used mainly between three-way (two-location) switches, and to have separate wall controls for ceiling fans and their attached light fixtures, or to have one half of a duplex outlet switched and the other always on. 
+12/2 and 14/2 can also be used for the rare 240-volt-only 15- or 20-amp plug by clearly marking the white wire red or black, since there is no neutral wire. Two conductor cable is available with black and red conductors only for this purpose; the outer sheath is likewise red.
+277/480-volt cable is identical to 120/240, except that neutral is grey and hot is yellow (plus an optional orange, used as the red is). The higher voltage, used only in large non-residential buildings, allows more than twice as much electrical power (in watts) to be drawn through the same gauge of wire.
+UF-B cable is "underground feeder" cable, which regardless of wire gauge has a solid waterproof grey sheath completely surrounding and filling the space between the conductors, which still have their individual colors. Other types of armored or metallic cable (types AC and MC) have an aluminum casing that may be used as a ground conductor, for which it is not necessary to calculate an equivalent wire gauge.
+All new cables are marked as being "with ground" or "w/gnd", since installation of ungrounded cables has been prohibited by electrical codes for decades. The ground wire is typically the same gauge as the others, despite not being intended to carry large amounts of current for more than a few seconds in the event of a short circuit.
+PRONUNCIATION
+Section::::Pronunciation.
+AWG is colloquially referred to as gauge and the zeros in large wire sizes are referred to as aught . Wire sized 1 AWG is referred to as "one gauge" or "No. 1" wire; similarly, smaller diameters are pronounced "x gauge" or "No. X" wire, where x is the positive integer AWG number. Consecutive AWG wire sizes larger than No. 1 wire are designated by the number of zeros:
+* No. 0, typically written 1/0 and is referred to as "one aught" wire
+* No. 00, typically written 2/0 and is referred to as "two aught" wire
+* No. 000, typically written 3/0 and is referred to as "three aught" wire,
+and so on.
+SEE ALSO
+* IEC 60228, the metric wire-size standard used in most parts of the world.
+* Brown & Sharpe
+* Circular mil, Electrical industry standard for wires larger than 4/0.
+* Standard Wire Gauge (SWG), the British imperial standard BS3737, superseded by the metric.
+* Stubs Iron Wire Gauge
+* Jewelry wire gauge
+* Body jewelry sizes
+* Electrical wiring
+* Number 8 wire, a term used in the New Zealand vernacular
+REFERENCES
+FURTHER READING
+* Donald G. Fink and H. Wayne Beaty, Standard Handbook for Electrical Engineers, Eleventh Edition,McGraw-Hill, New York, 1978, , page 4-18 and table 4-11.
+* How to use a Brown and Sharpe wire gauge.

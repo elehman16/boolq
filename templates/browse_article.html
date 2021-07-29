@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Annotation</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='scripts/post.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/article.js') }}"></script>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+
+  <script>
+    /**
+    * Displays the information in the tab when clicked on.
+    *
+    * @param evt represents what happend with the tab.
+    * @param name represents which tab to open.
+    */
+    $(document).ready( function() {
+      var tabs = {{ tabs|tojson }};
+      console.log(tabs);
+      $.each(tabs, function(nTab, tab) {
+        var title = tab[0];
+        var content = tab[1];
+        var div = document.getElementById('nav-'+nTab);
+        addTabContent(div, title, content);
+      });
+
+      var rawText = {{ text|tojson }};
+      var anns = {{ anns|tojson }};
+      addAnnsFromOffsets(anns, rawText);
+
+      bindEvents('browse');
+
+      $('#nav-tab-0').tab('show');
+      showGroup(anns[0].group, '1');
+
+      setArticleHeight();
+      $(window).resize(function() {
+        clearTimeout(window.resizedFinished);
+        window.resizedFinished = setTimeout(function(){
+          setArticleHeight();
+        }, 250);
+      });
+    });
+  </script>
+
+</head>
+<body>
+	<div class="body-container">
+		<div class="article-container">
+			<nav class="nav nav-tabs" id="nav-tabs-article" role="tablist">
+					{% for tab in tabs %}
+						{% set key = loop.index0 %}
+						<a class="nav-item nav-link" id="nav-tab-{{ key }}" data-toggle="tab" href="#nav-{{ key }}">{{ tab[0].text }}</a>
+					{% endfor %}
+			</nav>
+
+			<div class="tab-content tab-content-article" id="tab-contents-article">
+				{% for tab in tabs %}
+					{% set key = loop.index0 %}
+					<div id='nav-{{ key }}' class="tab-pane fade tab-pane-article" role="tabpanel">
+					</div>
+				{% endfor %}
+          <div id='nav-anns' class="tab-pane fade tab-pane-article" role="tabpanel">
+			</div>
+		</div>
+
+		<div id="annotation-container" class="annotation-container">
+			<div class="d-flex flex-row">
+				<nav class="nav nav-tabs nav-tabs-left flex-column" id="nav-tabs-ico" role="tablist">
+					<!--<a style="height: 42px; border: 1px solid white;">-->
+          {% for a in anns %}
+          <a class="nav-link-left nav-link" id="nav-tab-{{ a.group }}" data-toggle="tab" href="#nav-{{ a.group }}">{{ a.group }}</a>
+          {% endfor %}
+          <a style="flex: 1;"></a>
+          <button type="button" id="submit" class="btn btn-success btn-group" disabled>
+            <div style="width: 100%;">Submit</div>
+          </button>
+				</nav>
+
+				<div class="tab-content tab-content-ico" id="tab-contents-ico">
+
+          {% for a in anns %}
+          <div id="nav-{{ a.group }}" class="tab-pane fade" role="tabpanel">
+            <nav class="nav nav-tabs nav-groups" id="nav-tabs-{{ a.group }}" role="tablist">
+            </nav>
+
+            <div class="tab-content tab-content-group" id="tab-contents-{{ a.group }}">
+            </div>
+          </div>
+          {% endfor %}
+
+				</div>
+      </div>
+	</div>
+
+	<!-- Storing of data to be used for later when submitting -->
+	<div id="store">
+			<p id="userid">{{ userid }}</p>
+			<p id="pid">{{ pid }}</p>
+			<p id="id">{{ id }}</p>
+			<p id="ann_type">{{ ann_type }}</p>
+			<p id="outcome_save"> {{ outcome }} </p>
+			<p id="comparator_save"> {{ comparator }} </p>
+			<p id="intervention_save"> {{ intervention }} </p>
+			<p id="xml_file"> {{ xml_file }} </p>
+	</div>
+
+</body>
+</html>

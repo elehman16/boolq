@@ -1,0 +1,35 @@
+
+GRAHAM'S LAW
+Graham's law of effusion (also called Graham's law of diffusion) was formulated by Scottish physical chemist Thomas Graham in 1848. Graham found experimentally that the rate of effusion of a gas is inversely proportional to the square root of the mass of its particles. This formula can be written as:
+where:
+Graham's law states that the rate of diffusion or of effusion of a gas is inversely proportional to the square root of its molecular weight. Thus, if the molecular weight of one gas is four times that of another, it would diffuse through a porous plug or escape through a small pinhole in a vessel at half the rate of the other (heavier gases diffuse more slowly). A complete theoretical explanation of Graham's law was provided years later by the kinetic theory of gases. Graham's law provides a basis for separating isotopes by diffusion—a method that came to play a crucial role in the development of the atomic bomb.
+Graham's law is most accurate for molecular effusion which involves the movement of one gas at a time through a hole. It is only approximate for diffusion of one gas in another or in air, as these processes involve the movement of more than one gas.
+In the same conditions of temperature and pressure, the molar mass is proportional to the mass density. Therefore the rate of diffusion of different gases is inversely proportional to the square root of their mass densities.
+EXAMPLE
+Section::::Example.
+Let gas 1 be H and gas 2 be O. (This example is solving for the ratio between the rates of the two gases)
+Therefore, hydrogen molecules effuse four times faster than those of oxygen.
+Using the formula of gaseous diffusion, the ratio of rate of diffusion of NH and HCl gas was obtained practically as 1.46 +_ 0.01.
+Graham's Law can also be used to find the approximate molecular weight of a gas if one gas is a known species, and if there is a specific ratio between the rates of two gases (such as in the previous example). The equation can be solved for the unknown molecular weight.
+Graham's law was the basis for separating U from U found in natural uraninite (uranium ore) during the Manhattan Project to build the first atomic bomb. The United States government built a gaseous diffusion plant in Clinton, Tennessee at the cost of $100 million (~$7.7 billion in 2014 dollars). In this plant, uranium from uranium ore was first converted to uranium hexafluoride and then forced repeatedly to diffuse through porous barriers, each time becoming a little more enriched in the slightly lighter U isotope.
+HISTORY
+Section::::History.
+Graham's research on the diffusion of gases was triggered by his reading about the observation of German chemist Johann Döbereiner that hydrogen gas diffused out of a small crack in a glass bottle faster than the surrounding air diffused in to replace it. Graham measured the rate of diffusion of gases through plaster plugs, through very fine tubes, and through small orifices. In this way he slowed down the process so that it could be studied quantitatively. He first stated in 1831 that the rate of effusion of a gas is inversely proportional to the square root of its density, and later in 1848 showed that this rate is inversely proportional to the square root of the molar mass. Graham went on to study the diffusion of substances in solution and in the process made the discovery that some apparent solutions actually are suspensions of particles too large to pass through a parchment filter. He termed these materials colloids, a term that has come to denote an important class of finely divided materials.
+Around the time Graham did his work, the concept of molecular weight was being established largely through the measurements of gases. Daniel Bernoulli suggested in 1738 in his book Hydrodynamica that heat increases in proportion to the velocity, and thus kinetic energy, of gas particles. Italian physicist Amedeo Avogadro also suggested in 1811 that equal volumes of different gases contain equal numbers of molecules. Thus, the relative molecular weights of two gases are equal to the ratio of weights of equal volumes of the gases. Avogadro's insight together with other studies of gas behaviour provided a basis for later theoretical work by Scottish physicist James Clerk Maxwell to explain the properties of gases as collections of small particles moving through largely empty space.
+Perhaps the greatest success of the kinetic theory of gases, as it came to be called, was the discovery that for gases, the temperature as measured on the Kelvin (absolute) temperature scale is directly proportional to the average kinetic energy of the gas molecules. Graham's law for diffusion could thus be understood as a consequence of the molecular kinetic energies being equal at the same temperature.
+The rationale of the above can be summed up as follows:
+Kinetic energy of each type of particle (in this example, Hydrogen and Oxygen, as above) within the system is equal, as defined by thermodynamic temperature:
+formula_5
+Which can be simplified and rearranged to:
+formula_6
+or:
+formula_7
+Ergo, when constraining the system to the passage of particles through an area, Graham's Law appears as written at the start of this article.
+SEE ALSO
+* Sieverts' law
+* Henry's law
+* Gas laws
+* Scientific laws named after people
+* Viscosity
+* Drag (physics)
+REFERENCES

@@ -1,0 +1,142 @@
+
+GOOGLE VOICE
+Google Voice is a telephony service that provides call forwarding and voicemail services, voice and text messaging, as well as U.S. and international call termination for Google Account customers in the U.S. and Canada. The service was launched by Google on March 11, 2009, after the company had acquired the service GrandCentral.
+Google Voice provides a U.S. telephone number, chosen by the user from available numbers in selected area codes, free of charge to each user account. Calls to this number are forwarded to telephone numbers that each user must configure in the account web portal. Multiple destinations may be specified that ring simultaneously for incoming calls. Service establishment requires a United States telephone number. A user may answer and receive calls on any of the ringing phones as configured in the web portal. During a received call the user may switch between the configured telephones.
+Users may place outbound calls to domestic and international destinations. Calls may be initiated from any of the configured telephones, as well as from a mobile device app, or from the account portal. As of August 2011, users in many other countries also may place outbound calls from the web-based application to domestic and international phone numbers.
+Many other Google Voice services—such as voicemail, free text messaging, call history, conference calling, call screening, blocking of unwanted calls, and voice transcription to text of voicemail messages—are also available to . In terms of product integration, transcribed and audio voicemails, missed call notifications, and/or text messages can optionally be forwarded to an email account of the user's choice. Additionally, text messages can be sent and received via the familiar email or IM interface by reading and writing text messages in numbers in Google Talk respectively (PC-to-Phone texting). Google Voice multi-way videoconferencing (with support for document sharing) is now integrated with Google+ Hangouts.
+The service is configured and maintained by the user in a web-based application, styled after Google's e-mail service, Gmail, or with Android and iOS apps on smart phones or tablets. Google Voice provides free PC-to-phone calling within the United States and Canada, and PC-to-PC voice and video calling worldwide between users of the Google+ Hangouts browser plugin (available for Windows, Intel-based Mac OS X, and Linux).
+Almost all domestic and outbound calls to the United States (including Alaska and Hawaii) and Canada are free from the U.S. and Canada, and $0.01 per minute from everywhere else. International calls are billed according to a schedule posted on the Google Voice website.
+Late in 2009, Google Voice had approximately 1.4 million users, of which 570,000 used the service 7 days a week. This number rose markedly after Google made the transition of its Google Voice service from "invitation only" to be available to all Gmail subscribers in the United States. A Wired blog post quoted a figure of 3.5 million in 2013.
+Google Account customers in most other countries other than the U.S. and Canada may only access the call termination services through the integration with Google Hangouts.
+OVERVIEW
+Section::::Overview.
+Google provides free PC-to-PC voice calling worldwide. As described above, Google Voice users in many countries may make low-cost calls to international phone numbers, and may also make free PC-to-phone calls within the United States and Canada. Vincent Paquet, a co-founder of GrandCentral who became a senior product manager at Google, said in 2009 that he expected Google Voice domestic service to remain free because the cost of operation is so low and, "We can generate enough revenue from international calling to support the service." Several years after this prediction, the service remains free of charge.
+A Google Voice local phone number for incoming calls is available only for users in the United States. Users may select a single U.S. phone number from various area codes. Incoming calls to the number may ring simultaneously any of the user's configured phones or the account's Google Talk feature. Based on the calling number, or contact group (e.g., Family, Friends, Work), or on time of day (e.g., disabling a home phone during business hours and routing calls to mobile or business number), individual numbers may be configured to ring. The service also features voicemail with indexable automated voicemail transcription, accessible via a web browser, e-mail, or by phone. Google Voice provides automatic blocking of known numbers, e.g., telemarketers, the ability to switch lines in mid-call, differentiated voice mail greetings based on caller, Short Message Service (SMS) forwarding, and call recording.
+Previously, customers of Gizmo5, a Session Initiation Protocol (SIP) service vendor acquired by Google, were allowed to forward calls to their Gizmo service which may be answered using a free computer application, or a web application, or SIP-based telephone hardware. Google discontinued Gizmo5 service on April 3, 2011.
+There are several competing virtual number services, such as eVoice. Personal numbering services have been available in the United Kingdom since 1993, similar to the AT&T True Connections 500 service offered in the 1990s in the United States. AT&T's service required the direct involvement of AT&T to change the phone number list, while the Google service is user-configurable on the web application.
+The original voice of GrandCentral and Google Voice belonged to actress and voice-over artist, Laurie Burke , but has been replaced with recordings by Kiki Baessell, a Googler who had no experience in professional voice-overs, but was chosen because of her pleasant, familiar voice.
+HISTORY
+ORIGIN
+Section::::History.
+Section::::Origin.
+GrandCentral, founded in 2005 by Craig Walker and Vincent Paquet with funding by Minor Ventures, was acquired by Google on July 2, 2007, for US$95 million in a transaction led by Miles Agha. Although Grand Central users were able to continue to use the service after the purchase, new users were not accepted, and Google made no public statements about their plans for the service. On March 11, 2009, the management of the service revealed that the team had been working on it throughout that period, apparently in secret, and that it was being rebranded "Google Voice". It was to keep most of the functionality originally offered in GrandCentral and add new features.
+GOOGLE TRANSITION
+Section::::Google transition.
+Google Voice was launched on March 11, 2009, based on GrandCentral, with new features, including voicemail transcriptions and SMS managing. However, GrandCentral's Ringback Tone feature was not transitioned over to Google Voice. Google transitioned former GrandCentral accounts to Google Voice and announced that the service would start accepting new members "within weeks" of the announcement. On June 25, 2009, NBC's Today Show stated that Google Voice would be available nationwide on that day. Google confirmed this in a Twitter message stating: "Google Voice on NBC Today Show. Invites to people on reservations list starting to go out today." The expansion was at first limited to users queued on the invitation list. Users with paid-in balances also received a limited number of invitation opportunities.
+On July 1, 2009, Google Voice provided the option for users to change their service phone number for a U.S. $10 fee.
+On September 15, 2009, GrandCentral calling services were discontinued. Subscribers who used the website could still log into the site to retrieve old messages and data. After termination of GrandCentral phone services, users who haven't moved over to Google Voice were still advised to upgrade their account to Google Voice.
+GIZMO5 ACQUISITION
+Section::::Gizmo5 acquisition.
+On November 12, 2009, Google announced that it had acquired Gizmo5 for a reported U.S. $30 million in cash. A major effect of this announcement was that Gizmo5 suspended new signups pending re-launch by Google. Google was reported to be working on a desktop application, though rumors also circulated that the project had been scrapped in favor of a browser-based solution. On August 26, 2010 Gmail accounts with Google Voice were given a function to make and receive calls. Google Voice product manager, Vincent Paquet, confirmed that this function was added through the help of the technology received after the Gizmo5 acquisition. In 2011, the Gizmo5 site closed service to its registered members. As of January 2012, the website is no longer available.
+OPEN AVAILABILITY
+Section::::Open availability.
+On June 22, 2010 Google Voice dropped the requirement for invitations to become a subscriber, and the service became available to anyone in the USA with a Google account.
+REJECTION FROM THE IPHONE APP STORE
+Section::::Rejection from the iPhone app store.
+On July 27, 2009, Apple Inc. rejected a Google Voice app that had been submitted by Google six weeks earlier. Other apps created for use with Google Voice, such as GVdialer, GV Mobile and VoiceCentral, were removed from the App Store. Apple states that the reason for the rejection and removals is that these apps replaced certain iPhone functions and features.
+A Google spokesman released this statement on the matter:
+We work hard to bring Google applications to a number of mobile platforms, including the iPhone. Apple Inc. did not approve the Google Voice application we submitted six weeks ago to the Apple App Store. We will continue to work to bring our services to iPhone users – for example, by taking advantage of advances in mobile browsers.
+The Federal Communications Commission (FCC) has opened an inquiry regarding the rejection of Google Voice for the iPhone. "The FCC asked why Apple rejected the Google Voice application for the iPhone and removed related 'third-party applications' from its store." The FCC has also requested Google to submit a letter describing the application of Google Voice. "The request is part of a broader-ranging inquiry by the commission on exclusive deals between cell phone carriers and handset manufacturers for hot phones."
+In their response to the FCC, Google stated that the Google Voice application uses the carrier's voice network to place phone calls, dispelling misconceptions that it is a Voice over Internet Protocol application. AT&T stated that they had no role in approval or rejection of the Google Voice application. Apple stated that they had not rejected the application but were continuing to examine it. One argument against allowing the Google Voice app on the iPhone is that they are concerned that it replaces the iPhone user interface with its own; however many dialers and messaging apps are available from the app store.
+As a result of rejection from the Apple Store, Google released its Google Voice iPhone application as a web app in January 2010, and certain apps like GV Mobile are available through Cydia on jailbroken iPhones.
+In September 2010, Sean Kovacs, creator of the app GV Mobile +, announced on his Twitter that Apple had re-accepted the application, and it has since been available for purchase on the Apple App Store. This is the second Google Voice service app available in the Apple's official application store for a year and a half, released just a day after "GV Connect" had been available.
+In November 2010, the official Google Voice iPhone application became available in the App Store in the United States, but was still not available in other countries.
+GOOGLE HANGOUTS
+Section::::Google Hangouts.
+In September 2014, certain Google Voice features were integrated into the Google Hangouts application, an instant messaging client, which is a replacement for Google Talk.
+2017 UPDATE
+Section::::2017 update.
+In January 2017, Google made the first significant updates to Google Voice in approximately five years for Android, iOS, and the Web. The user interface was overhauled with Material Design. Group and photo MMS became natively supported in Voice, not depending on Hangouts integration. Voicemail transcription for Spanish was introduced, and Google promised to provide new updates and features.
+FEATURES
+Section::::Features.
+Features of Google Voice, many retained from GrandCentral, include:
+* A single Google forwarding number to all of the user's phones
+* Unlimited free calls and SMS within the U.S. and Canada, up to three hours in individual length.
+* Calling international phone numbers with rates starting at US$0.01 per minute
+* Call screening. Announcement of callers based on their number or by an automated identification request for blocked numbers
+* Listening in on someone's recording of a voice message before taking a call (press 2 while answering, * to "pick up")
+* Blocking calls from specified numbers
+* Blocking calls from numbers identified by Google as telemarketers
+* Send, receive, and store SMS/MMS online
+* Answering incoming calls on any configured phone
+* Call routing. Selection of phones that should ring based on calling number or time of day.
+* Ringing all of a user's specified phones simultaneously, routing calls to the phone that is answered.
+* Voicemail transcripts. Reading of voicemail messages online
+* Listening to voicemail online/via app or from a phone call to your account
+* Notification of voicemail messages via email or SMS
+* Personalized greetings based on calling number
+* Forward or downloading of voicemails
+* Conference calling (press 5 when answering call)
+* Call recording and online archiving (press 4 while on a call)
+* Switching of phones during a call
+* Viewing the web inbox from a mobile device/phone
+* Customize preferences for contacts by group
+* Initiating and receiving calls via VoIP
+* Ability to change your number for a fee
+* Ability to port your mobile number for a fee
+* Specifying an existing phone number instead of the Google Voice number on initial setup for use with limited functionality, such as some voicemail functions and using the voice mail system for the user's phone number (mobile devices only).
+While many customers in countries beside the United States have been grandfathered into Google Voice services, the features are reduced and customers are often charged for calls to their own countries. Google Voice PC-to-phone calling works only for calls into the United States and Canada or for domestic or international calls from the United States and Canada; Google plans to implement this for other countries, but a time frame has not been released. A U.S. telephone number is required to obtain a Google Voice phone number for redirecting incoming calls.
+CALLER ID
+Section::::Caller ID.
+As a call forwarding service, Google Voice also forwards the caller line identification (CLID or caller ID) of incoming calls to the user's telephone service. A user can choose whether to display a caller's CLID, or their Google Voice number, when receiving calls via the service.
+Google Voice uses the caller's Google Voice number as the CLID on outgoing calls when the user places a call by calling the user's own Google Voice number and using the service's menu choices, or when the web-based account portal is used to place a call. With the introduction of the Google Voice application on iPhone, Android and BlackBerry phones, Google Voice users can directly dial from the Google Voice app with their Google Voice number as the outgoing CLID.
+MOBILE PHONE APPLICATIONS
+Section::::Mobile phone applications.
+Google Voice applications for Android and iOS can automatically place outgoing calls and texts via the user's Google Voice service. They will also manage incoming texts and calls should the user desire. This allows Google Voice subscribers to send and receive free text messages on their mobile phones without paying for a texting plan or incurring service charges from their mobile provider, so long as all texts are sent and received through one's Google Voice number and not the number provided by the cell phone company.
+Although Google Voice's iPhone app is not available outside of the United States, several other Google Voice clients exist for users outside the USA. For example, the GrooVe IP Android client offers this.
+Google Voice does not officially support SMS to phone numbers outside of the United States. Google had purposely blocked international texts, with the intention of reintroducing the service once billing systems are in place.
+INTEGRATION INTO GMAIL AND GOOGLE TALK
+Section::::Integration into Gmail and Google Talk.
+When Google Voice was offered during beta testing, Gmail Labs offered an add-on so users could listen to voicemail messages in their Gmail inbox. Since August 26, 2010, U.S. Gmail users may place calls to the U.S., Canada, and international destinations from within Gmail. Calls to U.S. and Canadian phone numbers are free, while the cost of calls to international destinations starts at 1 cents per minute. This is possible with the help of a voice and video chat plugin for web browsers to connect to cameras, microphones, and speakers installed in the computer.
+Users can also opt to have their text messages, transcribed voicemails (including an audio attachment), and/or missed calls forwarded to their Gmail account. Forwarded text messages emails can be replied to as if they were regular emails. Contacts' SMS capable phones can also be added to the user's Gmail address book or Google Talk buddy list so that text conversations can be initiated and sustained through these interfaces.
+LIMITATIONS
+NO EMERGENCY CALLING
+Section::::Limitations.
+Section::::No emergency calling.
+Google Voice refers to itself as an "enhanced call management application" and as such "is not capable of placing or receiving emergency services calls." Attempting to dial 911 in the U.S. indicates that the number is not valid.
+LIMITED DOMESTIC SMS
+Section::::Limited domestic SMS.
+Google Voice is unable to receive SMS messages from Apple iCloud Keychain.
+LIMITED INTERNATIONAL TEXTING SERVICE
+Section::::Limited international texting service.
+Google Voice supports sending text messages to phone numbers in the U.S. and Canada, but users can receive text messages from anywhere in the world.
+VOIP SERVICES
+Section::::VoIP services.
+Google Voice permits Voice Over IP (VoIP) as a beta from both the web and Android clients. It formerly supported XMPP signaling but no longer does. However, it has been reported that at one time some users could receive calls with their Google Voice accounts via the Session Initiation Protocol (SIP).
+THIRD-PARTY DEVICES
+Section::::Third-party devices.
+Hardware manufacturers such as Obihai Technology have created devices that enable the home user to use conventional wired telephone(s) to place and receive calls over their broadband connection through Google Voice, as well as other service providers.
+Google Voice terminated support for some XMPP services in May 2014, disrupting service for 3rd party apps. Affected vendors included Talkatone, GrooveIP and Obihai. Obihai initially recommended its users to switch to rival providers but returned with official Google Voice support for its hardware analog telephone adapters on September 11, 2014.
+Software manufacturers offer applications, such as PCPhoneSoft.com's "GVJack" App that converts magicJack dongles to use Google Voice. The GVJackApp for magicJack and the GVMate Phone Adapter are signalling independent and continued to work (using Google Hangouts) after support for XMPP was terminated.
+CALL FORWARDING AND VOICEMAIL
+Section::::Call forwarding and voicemail.
+If the telephone to which a call is forwarded does not connect within 25 seconds, then calls are routed to Google Voice's voicemail. Users who want calls to be picked up by their home, work, or mobile phone voicemail systems or answering machines must turn off call screening in Google Voice and make sure that their phone's voicemail systems or answering machines pick up before 25 seconds.
+SUPPORT
+Section::::Support.
+Google Voice provides no direct phone support contact number. However, users can access the Google Voice Help Center FAQ, and use the free Google Groups official Google Voice product forum for support.
+PARTNERS AND INFRASTRUCTURE
+Section::::Partners and infrastructure.
+Google Voice's partners that provide phone numbers, call-termination, call-routing, and other infrastructure include:
+* Level 3 Communications
+* Global Crossing
+* Broadvox Communications
+* Bandwidth.com
+* Pac-West Telecom
+* IBasis for international outbound call routing
+* Neustar
+In 2009, Google reserved 1 million telephone numbers with Level 3 Communications which were presumed to be for Google Voice.
+DISPUTE BETWEEN AT&T AND GOOGLE ABOUT CALL BLOCKING
+Section::::Dispute between AT&T and Google about call blocking.
+AT&T petitioned the U.S. Federal Communications Commission (FCC) to require Google (as it requires POTS providers) to allow calls to high-cost destinations, typically rural independent telephone companies with wholesale prices up to ten times above the national average. Google responded that it is not obligated to allow these calls.
+SEE ALSO
+* Bandwidth.com
+* Burner (mobile application)
+* Caller ID spoofing
+* Comparison of VoIP software
+* Level 3 Communications
+* Public switched telephone network
+* PrivatePhone
+* Traffic pumping
+REFERENCES
+EXTERNAL LINKS
+* "Google Voice", and explanatory video from Google

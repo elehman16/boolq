@@ -1,0 +1,43 @@
+
+NULL-TERMINATED STRING
+In computer programming, a null-terminated string is a character string stored as an array containing the characters and terminated with a null character (codice_1, called NUL in ASCII). Alternative names are C string, which refers to the C programming language and ASCIIZ (although C can use encodings other than ASCII).
+The length of a C string is found by searching for the (first) NUL byte. This can be slow as it takes O(n) (linear time) with respect to the string length. It also means that a NUL cannot be inside the string, as the only NUL is the one marking the end.
+HISTORY
+Section::::History.
+Null-terminated strings were produced by the codice_2 directive of the PDP-11 assembly languages and the codice_3 directive of the MACRO-10 macro assembly language for the PDP-10. These predate the development of the C programming language, but other forms of strings were often used.
+At the time C (and the languages that it was derived from) was developed, memory was extremely limited, so using only one byte of overhead to store the length of a string was attractive. The only popular alternative at that time, usually called a "Pascal string" (a more modern term is "length-prefixed"), used a leading byte to store the length of the string. This allows the string to contain NUL and made finding the length need only one memory access (O(1) (constant) time), but limited string length to 255 characters (on a machine using 8-bit bytes). C designer Dennis Ritchie chose to follow the convention of NUL-termination, already established in BCPL, to avoid the limitation on the length of a string and because maintaining the count seemed, in his experience, less convenient than using a terminator.
+This had some influence on CPU instruction set design. Some CPUs in the 1970s and 1980s, such as the Zilog Z80 and the DEC VAX, had dedicated instructions for handling length-prefixed strings. However, as the NUL-terminated string gained traction, CPU designers began to take it into account, as seen for example in IBM's decision to add the "Logical String Assist" instructions to the ES/9000 520 in 1992.
+FreeBSD developer Poul-Henning Kamp, writing in ACM Queue, would later refer to the victory of null-terminated strings over a 2-byte (not one-byte) length as "the most expensive one-byte mistake" ever.
+IMPLEMENTATIONS
+Section::::Implementations.
+C programming language supports null-terminated strings as the primary string type. There are many functions for string handling in the C standard library. Operations supported include:
+* Determining the length of a string
+* Copying one string to another
+* Appending (concatenating) one string to another
+* Finding the first (or last) occurrence of a character within a string
+* Finding within a string the first occurrence of a character in (or not in) a given set
+* Finding the first occurrence of a substring within a string
+* Comparing two strings lexicographically
+* Splitting a string into multiple substrings
+* Formatting numeric or string values into a printable output string
+* Parsing a printable string into numeric values
+* Converting between single-byte and wide character string encodings
+* Converting single-byte or wide character strings to and from multi-byte character strings
+LIMITATIONS
+Section::::Limitations.
+While simple to implement, this representation has been prone to errors and performance problems.
+The NUL termination has historically created security problems. A NUL byte inserted into the middle of a string will truncate it unexpectedly. A common bug was to not allocate the additional space for the NUL, so it was written over adjacent memory. Another was to not write the NUL at all, which was often not detected during testing because a NUL was already there by chance from previous use of the same block of memory. Due to the expense of finding the length, many programs did not bother before copying a string to a fixed-size buffer, causing a buffer overflow if it was too long.
+The inability to store a NUL requires that string data and binary data be kept distinct and handled by different functions (with the latter requiring the length of the data to also be supplied). This can lead to code redundancy and errors when the wrong function is used.
+The speed problems with finding the length can usually be mitigated by combining it with another operation that is O(n) anyway, such as in codice_4. However, this does not always result in an intuitive API.
+CHARACTER ENCODINGS
+Section::::Character encodings.
+Null-terminated strings require that the encoding does not use a zero byte (0x00) anywhere, therefore it is not possible to store every possible ASCII or UTF-8 string. However, it is common to store the subset of ASCII or UTF-8 – every character except the NUL character – in null-terminated strings. Some systems use "modified UTF-8" which encodes the NUL character as two non-zero bytes (0xC0, 0x80) and thus allow all possible strings to be stored. This is not allowed by the UTF-8 standard as it is a security risk. A 0xC0, 0x80 NUL might be seen as a string terminator in security validation and as a character when used. Some other byte may be used as end of string instead, like 0xFE or 0xFF, which are not used in UTF-8.
+UTF-16 uses 2-byte integers and as either byte may be zero (and in fact every other byte is, when representing ASCII text), cannot be stored in a null-terminated byte string. However, some languages implement a string of 16-bit UTF-16 characters, terminated by a 16-bit NUL character. (Again the NUL character, which encodes as a single zero code unit, is the only character that cannot be stored. UTF-16 does not have any alternative encoding of zero).
+IMPROVEMENTS
+Section::::Improvements.
+Many attempts to make C string handling less error prone have been made. One strategy is to add safer functions such as codice_5 and codice_4, whilst deprecating the use of unsafe functions such as codice_7. Another is to add an object-oriented wrapper around C strings so that only safe calls can be done. Neither has had a huge success as it is always possible and tempting to call the unsafe functions anyway.
+Most modern libraries replace C strings with a structure containing a 32-bit or larger length value (far more than were ever considered for length-prefixed strings), and often add another pointer, a reference count, and even a NUL to speed up conversion back to a C string. Memory is far larger now, such that if the addition of 3 (or 16, or more) bytes to each string is a real problem the software will have to be dealing with so many small strings that some other storage method will save even more memory (for instance there may be so many duplicates that a hash table will use less memory). Examples include the C++ Standard Template Library codice_8, the Qt codice_9, the MFC codice_10, and the C-based implementation codice_11 from Core Foundation as well as its Objective-C sibling codice_12 from Foundation, both by Apple. More complex structures may also be used to store strings such as the rope.
+SEE ALSO
+* Empty string
+* Sentinel value
+REFERENCES

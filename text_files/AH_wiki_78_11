@@ -1,0 +1,102 @@
+
+NICKEL–METAL HYDRIDE BATTERY
+A nickel metal hydride battery, abbreviated NiMH or Ni–MH, is a type of rechargeable battery. The chemical reaction at the positive electrode is similar to that of the nickel–cadmium cell (NiCd), with both using nickel oxide hydroxide (NiOOH). However, the negative electrodes use a hydrogen-absorbing alloy instead of cadmium. A NiMH battery can have two to three times the capacity of an equivalent size NiCd, and its energy density can approach that of a lithium-ion battery.
+HISTORY
+Section::::History.
+Work on NiMH batteries began at the Battelle-Geneva Research Center following the technology's invention in 1967. It was based on sintered TiNi+TiNi+x alloys and NiOOH electrodes. Development was sponsored over nearly two decades by Daimler-Benz and by Volkswagen AG within Deutsche Automobilgesellschaft, now a subsidiary of Daimler AG. The batteries' specific energy reached 50 W·h/kg (180 kJ/kg), power density up to 1000 W/kg and a life of 500 charge cycles (at 100% depth of discharge). Patent applications were filed in European countries (priority: Switzerland), the United States, and Japan. The patents transferred to Daimler-Benz.
+Interest grew in the 1970s with the commercialisation of the nickel–hydrogen battery for satellite applications. Hydride technology promised an alternative, less bulky way to store the hydrogen. Research carried out by Philips Laboratories and France's CNRS developed new high-energy hybrid alloys incorporating rare-earth metals for the negative electrode. However, these suffered from alloy instability in alkaline electrolyte and consequently insufficient cycle life. In 1987, Willems and Buschow demonstrated a successful battery based on this approach (using a mixture of LaNdNiCoSi), which kept 84% of its charge capacity after 4000 charge–discharge cycles. More economically viable alloys using mischmetal instead of lanthanum were soon developed. Modern NiMH cells were based on this design. The first consumer-grade NiMH cells became commercially available in 1989.
+In 1998, Ovonic Battery Co. improved the Ti–Ni alloy structure and composition and patented its innovations.
+In 2008, more than two million hybrid cars worldwide were manufactured with NiMH batteries.
+In the European Union and due to its Battery Directive, nickel metal hydride batteries replaced Ni–Cd batteries for portable consumer use.
+About 22% of portable rechargeable batteries sold in Japan in 2010 were NiMH. In Switzerland in 2009, the equivalent statistic was approximately 60%. This percentage has fallen over time due to the increase in manufacture of lithium-ion batteries: in 2000, almost half of all portable rechargeable batteries sold in Japan were NiMH.
+In 2015 BASF produced a modified microstructure that helped make NiMH batteries more durable, in turn allowing changes to the cell design that saved considerable weight, allowing the gravimetric energy density to reach 140 watt-hours per kilogram.
+ELECTROCHEMISTRY
+Section::::Electrochemistry.
+The negative electrode reaction occurring in a NiMH cell is
+The charge reaction is read left-to-right and the discharge reaction is read right-to-left.
+On the positive electrode, nickel oxyhydroxide, NiO(OH), is formed:
+The metal M in the negative electrode of a NiMH cell is an intermetallic compound. Many different compounds have been developed for this application, but those in current use fall into two classes. The most common is AB, where A is a rare-earth mixture of lanthanum, cerium, neodymium, praseodymium, and B is nickel, cobalt, manganese, or aluminium. Some cells use higher-capacity negative electrode materials based on AB compounds, where A is titanium or vanadium, and B is zirconium or nickel, modified with chromium, cobalt, iron, or manganese. Any of these compounds serve the same role, reversibly forming a mixture of metal hydride compounds.
+When overcharged at low rates, oxygen produced at the positive electrode passes through the separator and recombines at the surface of the negative. Hydrogen evolution is suppressed, and the charging energy is converted to heat. This process allows NiMH cells to remain sealed in normal operation and to be maintenance-free.
+NiMH cells have an alkaline electrolyte, usually potassium hydroxide. The positive electrode is nickel hydroxide, and the negative electrode is hydrogen ions, or protons. The hydrogen ions are stored in a metal-hydride structure that is the electrode. Hydrophilic polyolefin nonwovens are used for separation.
+BIPOLAR BATTERY
+Section::::Bipolar battery.
+Ni/MH batteries of bipolar design (bipolar batteries) are being developed because they offer some advantages for applications as storage systems for electric vehicles. The solid polymer membrane gel separator could be useful for such applications in bipolar design. In other words, this design can help to avoid short-circuits occurring in liquid-electrolyte systems.
+CHARGE
+Section::::Charge.
+Charging voltage is in the range of 1.4–1.6 V per cell. In general, a constant-voltage charging method cannot be used for automatic charging. When fast-charging, it is advisable to charge the NiMH cells with a smart battery charger to avoid overcharging, which can damage cells.
+TRICKLE CHARGING
+Section::::Trickle charging.
+The simplest of the safe charging methods is with a fixed low current, with or without a timer. Most manufacturers claim that overcharging is safe at very low currents, below 0.1 C (C/10) (where C is the current equivalent to the capacity of the battery divided by one hour). The Panasonic NiMH charging manual warns that overcharging for long enough can damage a battery and suggests limiting the total charging time to 10–20 hours.
+Duracell further suggests that a trickle charge at C/300 can be used for batteries that must be kept in a fully charged state. Some chargers do this after the charge cycle, to offset natural self-discharge. A similar approach is suggested by Energizer, which indicates that self-catalysis can recombine gas formed at the electrodes for charge rates up to C/10. This leads to cell heating. The company recommends C/30 or C/40 for indefinite applications where long life is important. This is the approach taken in emergency lighting applications, where the design remains essentially the same as in older NiCd units, except for an increase in the trickle-charging resistor value.
+Panasonic's handbook recommends that NiMH batteries on standby be charged by a lower duty cycle approach, where a pulse of a higher current is used whenever the battery's voltage drops below 1.3 V. This can extend battery life and use less energy.
+ΔV CHARGING METHOD
+Section::::ΔV charging method.
+In order to prevent cell damage, fast chargers must terminate their charge cycle before overcharging occurs. One method is to monitor the change of voltage with time. When the battery is fully charged, the voltage across its terminals drops slightly. The charger can detect this and stop charging. This method is often used with nickel–cadmium cells, which display a large voltage drop at full charge. However, the voltage drop is much less pronounced for NiMH and can be non-existent at low charge rates, which can make the approach unreliable.
+Another option is to monitor the change of voltage with respect to time and stop when this becomes zero, but this risks premature cutoffs. With this method, a much higher charging rate can be used than with a trickle charge, up to 1 C. At this charge rate, Panasonic recommends to terminate charging when the voltage drops 5–10 mV per cell from the peak voltage. Since this method measures the voltage across the battery, a constant-current (rather than a constant-voltage) charging circuit is used.
+ΔT CHARGING METHOD
+Section::::ΔT charging method.
+The temperature-change method is similar in principle to the ΔV method. Because the charging voltage is nearly constant, constant-current charging delivers energy at a near-constant rate. When the cell is not fully charged, most of this energy is converted to chemical energy. However, when the cell reaches full charge, most of the charging energy is converted to heat. This increases the rate of change of battery temperature, which can be detected by a sensor such as a thermistor. Both Panasonic and Duracell suggest a maximal rate of temperature increase of 1 °C per minute. Using a temperature sensor allows an absolute temperature cutoff, which Duracell suggests at 60 °C. With both the ΔT and the ΔV charging methods, both manufacturers recommend a further period of trickle charging to follow the initial rapid charge.
+SAFETY
+Section::::Safety.
+A resettable fuse in series with the cell, particularly of the bimetallic strip type, increases safety. This fuse opens if either the current or the temperature gets too high.
+Modern NiMH cells contain catalysts to handle gases produced by over-charging (2H2{} + O2 ->[\text{catalyst}] 2H2O). However, this only works with overcharging currents of up to 0.1 C (that is, nominal capacity divided by ten hours). This reaction causes batteries to heat, ending the charging process.
+A method for very rapid charging called in-cell charge control involves an internal pressure switch in the cell, which disconnects the charging current in the event of overpressure.
+One inherent risk with NiMH chemistry is that overcharging causes hydrogen gas to form, potentially rupturing the cell. Therefore, cells have a vent to release the gas in the event of serious overcharging.
+NiMH batteries are made of environmentally friendly materials. The batteries contain only mildly toxic substances and are recyclable.
+LOSS OF CAPACITY
+Section::::Loss of capacity.
+Voltage depression (often mistakenly attributed to the memory effect) from repeated partial discharge can occur, but is reversible with a few full discharge/charge cycles.
+DISCHARGE
+Section::::Discharge.
+A fully charged cell supplies an average 1.25 V/cell during discharge, declining to about 1.0–1.1 V/cell (further discharge may cause permanent damage in the case of multi-cell packs, due to polarity reversal). Under a light load (0.5 ampere), the starting voltage of a freshly charged AA NiMH cell in good condition is about 1.4 volts.
+OVER-DISCHARGE
+Section::::Over-discharge.
+Complete discharge of multi-cell packs can cause reverse polarity in one or more cells, which can permanently damage them. This situation can occur in the common arrangement of four AA cells in series in a digital camera, where one completely discharges before the others due to small differences in capacity among the cells. When this happens, the good cells start to drive the discharged cell into reverse polarity (i.e. positive anode/negative cathode). Some cameras, GPS receivers and PDAs detect the safe end-of-discharge voltage of the series cells and perform an auto-shutdown, but devices such as flashlights and some toys do not.
+Irreversible damage from polarity reversal is a particular danger, even when a low voltage-threshold cutout is employed, when the cells vary in temperature. This is because capacity significantly declines as the cells are cooled. This results in a lower voltage under load of the colder cells.
+SELF-DISCHARGE
+Section::::Self-discharge.
+NiMH cells historically had a somewhat higher self-discharge rate (equivalent to internal leakage) than NiCd cells. The self-discharge rate varies greatly with temperature, where lower storage temperature leads to slower discharge and longer battery life. The self-discharge is on the first day and stabilizes around per day at room temperature. But at 45 °C it is approximately three times as high.
+LOW SELF-DISCHARGE
+Section::::Low self-discharge.
+The low self-discharge nickel metal hydride battery (LSD NiMH) has a significantly lower rate of self-discharge. The innovation was introduced in 2005 by Sanyo, under their Eneloop brand. By using an improved electrode separator and improved positive electrode, manufacturers claim the cells retain 70–85% of their capacity when stored one year at , compared to about half for normal NiMH batteries. They are otherwise similar to other NiMH batteries and can be charged in typical NiMH chargers. These cells are marketed as "hybrid", "ready-to-use" or "pre-charged" rechargeables. Retention of charge depends in large part on the battery's leakage resistance (the higher the better), and on its physical size and charge capacity.
+Separators keep the two electrodes apart to slow electrical discharge while allowing the transport of ionic charge carriers that close the circuit during the passage of current. High-quality separators are critical for battery performance.
+Thick separators are one way to reduce self-discharge, but take up space and reduce capacity, while thin separators tend to raise the self-discharge rate. Some batteries may have overcome this tradeoff using thin separators with more precise manufacturing and by using a sulfonated polyolefin separator, a further improvement over the hydrophilic polyolefin based on ethylene vinyl alcohol.
+Low-self-discharge cells have lower capacity than standard NiMH cells because of the separator's larger volume. The highest-capacity low-self-discharge AA cells have 2500 mAh capacity, compared to 2700 mAh for high-capacity AA NiMH cells.
+COMPARED TO OTHER BATTERY TYPES
+Section::::Compared to other battery types.
+NiMH cells are often used in digital cameras and other high-drain devices, where over the duration of single-charge use they outperform primary (such as alkaline) batteries.
+NiMH cells are advantageous for high-current-drain applications, largely due to their lower internal resistance. Typical alkaline AA-size batteries, which offer approximately 2600 mAh capacity at low current demand (25 mA), provide only 1300 mAh capacity with a 500 mA load. Digital cameras with LCDs and flashlights can draw over 1000 mA, quickly depleting them. NiMH cells can deliver these current levels without similar loss of capacity.
+Devices that were designed to operate using primary alkaline chemistry (or zinc–carbon/chloride) cells may not function with NiMH cells. However, most devices compensate for the voltage drop of an alkaline battery as it discharges down to about 1 volt. Low internal resistance allows NiMH cells to deliver a nearly constant voltage until they are almost completely discharged. Thus battery-level indicators designed to read alkaline cells overstate the remaining charge when used with NiMH cells, as the voltage of alkaline cells decreases steadily during most of the discharge cycle.
+Lithium-ion batteries have a higher specific energy than nickel metal hydride batteries, but they are significantly more expensive. They also produce a higher voltage (3.2-3.7V nominal), and are thus not a drop-in replacement for alkaline batteries without circuitry to reduce voltage.
+, nickel metal hydride batteries constituted three percent of the battery market.
+APPLICATIONS
+CONSUMER ELECTRONICS
+Section::::Applications.
+Section::::Consumer electronics.
+NiMH batteries have replaced NiCd for many roles, notably small rechargeable batteries. NiMH batteries are commonly available in AA (penlight-size) batteries. These have nominal charge capacities (C) of 1.1–2.8 Ah at 1.2 V, measured at the rate that discharges the cell in 5 hours. Useful discharge capacity is a decreasing function of the discharge rate, but up to a rate of around 1×C (full discharge in 1 hour), it does not differ significantly from the nominal capacity. NiMH batteries nominally operate at 1.2 V per cell, somewhat lower than conventional 1.5 V cells, but can operate many devices designed for that voltage.
+ELECTRIC VEHICLES
+Section::::Electric vehicles.
+Applications of NiMH electric-vehicle batteries include all-electric plug-in vehicles such as the General Motors EV1, first-generation Toyota RAV4 EV, Honda EV Plus, Ford Ranger EV and Vectrix scooter. Hybrid vehicles such as the Toyota Prius, Honda Insight, Ford Escape Hybrid, Chevrolet Malibu Hybrid and Honda Civic Hybrid also use them.
+Stanford R. Ovshinsky invented and patented a popular improvement of the NiMH battery and founded Ovonic Battery Company in 1982. General Motors purchased Ovonics' patent in 1994. By the late 1990s, NiMH batteries were being used successfully in many fully electric vehicles, such as the General Motors EV1 and Dodge Caravan EPIC minivan. In October 2000, the patent was sold to Texaco, and a week later Texaco was acquired by Chevron. Chevron's Cobasys subsidiary provides these batteries only to large OEM orders. General Motors shut down production of the EV1, citing lack of battery availability as a chief obstacle. Cobasys control of NiMH batteries created a patent encumbrance for large automotive NiMH batteries.
+SEE ALSO
+* Automotive battery
+* Battery recycling
+* Chevron Corporation
+* Comparison of battery types
+* Gas diffusion electrode
+* Lead–acid battery
+* List of battery sizes
+* List of battery types
+* Lithium-ion battery
+* Lithium iron phosphate battery
+* Nickel–zinc battery
+* Nickel(II) hydroxide
+* Nickel(III) oxide
+* Patent encumbrance of large automotive NiMH batteries
+* Power-to-weight ratio
+REFERENCES
+EXTERNAL LINKS
+* "Bipolar Nickel Metal Hydride Battery" by Martin G. Klein, Michael Eskra, Robert Plivelich and Paula Ralston
+* Energizer Nickel Metal Hydride (NiMH) Handbook and Application Manual
+* Chevron/Texaco's patent on the NiMH battery
+* NiMH battery charging and safety

@@ -1,0 +1,49 @@
+
+INVERSE FUNCTION THEOREM
+In mathematics, specifically differential calculus, the inverse function theorem gives a sufficient condition for a function to be invertible in a neighborhood of a point in its domain: namely, that its derivative is continuous and non-zero at the point. The theorem also gives a formula for the derivative of the inverse function.
+In multivariable calculus, this theorem can be generalized to any continuously differentiable, vector-valued function whose Jacobian determinant is nonzero at a point in its domain, giving a formula for the Jacobian matrix of the inverse. There are also versions of the inverse function theorem for complex holomorphic functions, for differentiable maps between manifolds, for differentiable functions between Banach spaces, and so forth.
+STATEMENT OF THE THEOREM
+Section::::Statement of the theorem.
+For functions of a single variable, the theorem states that if formula_1 is a continuously differentiable function with nonzero derivative at the point formula_2, then formula_1 is invertible in a neighborhood of formula_2, the inverse is continuously differentiable, and the derivative of the inverse function at formula_5 is the reciprocal of the derivative of formula_1 at formula_2:
+For functions of more than one variable, the theorem states that if formula_9 is a continuously differentiable function from an open set of formula_10 into formula_10, and the total derivative is invertible at a point formula_12 (i.e., the Jacobian determinant of formula_9 at formula_12 is non-zero), then formula_9 is invertible near formula_12: an inverse function to formula_9 is defined on some neighborhood of formula_18. 
+Writing formula_19, this means the system of n equations formula_20 has a unique solution for formula_21 in terms of formula_22, provided we restrict formula_23 and formula_24 to small enough neighborhoods of formula_12 and formula_26, respectively.
+In the infinite dimensional case, the theorem requires the extra hypothesis that the Fréchet derivative of formula_9 at formula_12 has a bounded inverse.
+Finally, the theorem says that the inverse function formula_29 is continuously differentiable, and its Jacobian derivative at formula_18 is the matrix inverse of the Jacobian of formula_9 at formula_12:
+The hard part of the theorem is the existence and differentiability of formula_29. Assuming this, the inverse derivative formula follows from the chain rule applied to formula_35:
+EXAMPLE
+Section::::Example.
+Consider the vector-valued function formula_37 defined by:
+The Jacobian matrix is:
+with Jacobian determinant:
+The determinant formula_41 is nonzero everywhere. Thus the theorem guarantees that, for every point formula_12 in formula_43, there exists a neighborhood about formula_12 over which formula_9 is invertible. This does not mean formula_9 is invertible over its entire domain: in this case formula_9 is not even injective since it is periodic: formula_48.
+METHODS OF PROOF
+Section::::Methods of proof.
+As an important result, the inverse function theorem has been given numerous proofs. The proof most commonly seen in textbooks relies on the contraction mapping principle, also known as the Banach fixed point theorem (which can also be used as the key step in the proof of existence and uniqueness of solutions to ordinary differential equations).
+Since the fixed point theorem applies in infinite-dimensional (Banach space) settings, this proof generalizes immediately to the infinite-dimensional version of the inverse function theorem (see "Generalizations", below).
+An alternate proof in finite dimensions hinges on the extreme value theorem for functions on a compact set.
+Yet another proof uses Newton's method, which has the advantage of providing an effective version of the theorem: bounds on the derivative of the function imply an estimate of the size of the neighborhood on which the function is invertible.
+GENERALIZATIONS
+MANIFOLDS
+Section::::Generalizations.
+Section::::Manifolds.
+The inverse function theorem can be rephrased in terms of differentiable maps between differentiable manifolds. In this context the theorem states that for a differentiable map formula_49 (of class formula_50), if the differential of formula_9,
+is a linear isomorphism at a point formula_12 in formula_54 then there exists an open neighborhood formula_55 of formula_12 such that
+is a diffeomorphism. Note that this implies that formula_54 and formula_59 must have the same dimension at formula_12.
+If the derivative of formula_9 is an isomorphism at all points formula_12 in formula_54 then the map formula_9 is a local diffeomorphism.
+BANACH SPACES
+Section::::Banach spaces.
+The inverse function theorem can also be generalized to differentiable maps between Banach spaces formula_65 and formula_66. Let formula_55 be an open neighbourhood of the origin in formula_65 and formula_69 a continuously differentiable function, and assume that the derivative formula_70 of formula_9 at 0 is a bounded linear isomorphism of formula_65 onto formula_66. Then there exists an open neighbourhood formula_74 of formula_75 in formula_66 and a continuously differentiable map formula_77 such that formula_78 for all formula_24 in formula_74. Moreover, formula_81 is the only sufficiently small solution formula_23 of the equation formula_83.
+BANACH MANIFOLDS
+Section::::Banach manifolds.
+These two directions of generalization can be combined in the inverse function theorem for Banach manifolds.
+CONSTANT RANK THEOREM
+Section::::Constant rank theorem.
+The inverse function theorem (and the implicit function theorem) can be seen as a special case of the constant rank theorem, which states that a smooth map with constant rank near a point can be put in a particular normal form near that point. Specifically, if formula_84 has constant rank near a point formula_85, then there are open neighborhoods formula_55 of formula_12 and formula_74 of formula_89 and there are diffeomorphisms formula_90 and formula_91 such that formula_92 and such that the derivative formula_93 is equal to formula_94. That is, formula_9 "looks like" its derivative near formula_12. Semicontinuity of the rank function implies that there is an open dense subset of the domain of formula_9 on which the derivative has constant rank. Thus the constant rank theorem applies to a generic point of the domain.
+When the derivative of formula_9 is injective (resp. surjective) at a point formula_12, it is also injective (resp. surjective) in a neighborhood of formula_12, and hence the rank of formula_9 is constant on that neighborhood, and the constant rank theorem applies.
+HOLOMORPHIC FUNCTIONS
+Section::::Holomorphic Functions.
+If a holomorphic function formula_9 is defined from an open set formula_55 of formula_104 into formula_104, and the Jacobian matrix of complex derivatives is invertible at a point formula_12, then formula_9 is an invertible function near formula_12. This follows immediately from the real multivariable version of the theorem. One can also show that the inverse function is again holomorphic.
+SEE ALSO
+* Implicit function theorem
+NOTES
+REFERENCES

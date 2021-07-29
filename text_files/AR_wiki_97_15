@@ -1,0 +1,329 @@
+
+LITHIUM-ION BATTERY
+A lithium-ion battery or Li-ion battery (abbreviated as LIB) is a type of rechargeable battery in which lithium ions move from the negative electrode to the positive electrode during discharge and back when charging. Li-ion batteries use an intercalated lithium compound as one electrode material, compared to the metallic lithium used in a non-rechargeable lithium battery. 
+Lithium-ion batteries are common rechargeable batteries for portable electronics, with a high energy density, tiny memory effect and low self-discharge. LIBs are also growing in popularity for military, battery electric vehicle and aerospace applications.
+Chemistry, performance, cost and safety characteristics vary across LIB types. Handheld electronics mostly use LIBs based on lithium cobalt oxide (), which offers high energy density but presents safety risks, especially when damaged. Lithium iron phosphate (), lithium ion manganese oxide battery (, , or LMO), and lithium nickel manganese cobalt oxide ( or NMC) offer lower energy density but longer lives and less likelihood of fire or explosion. Such batteries are widely used for electric tools, medical equipment, and other roles. NMC in particular is a leading contender for automotive applications. Lithium nickel cobalt aluminum oxide ( or NCA) and lithium titanate ( or LTO) are specialty designs aimed at particular niche roles. The newer lithium–sulfur batteries promise the highest performance-to-weight ratio.
+Lithium-ion batteries can be a safety hazard since they contain a flammable electrolyte and may be kept pressurized. A battery cell charged too quickly could cause a short circuit, leading to explosions and fires. Because of these risks, testing standards are more stringent than those for acid-electrolyte batteries, requiring both a broader range of test conditions and additional battery-specific tests. There have been battery-related recalls by some companies, including the 2016 Samsung Galaxy Note 7 recall for battery fires.
+Another problem can occur if a Lithium-ion battery becomes crushed or if a battery without overcharge protection is subjected to a higher electrical load than it can safely handle. Additionally, an external short circuit can trigger the batteries to explode. 
+Research areas for lithium-ion batteries include life extension, energy density, safety, cost reduction, and charging speed, among others. Research has also been under way for aqueous lithium-ion batteries, which have demonstrated fewer potential safety hazards due to their use of non-flammable electrolytes.
+TERMINOLOGY
+BATTERY VERSUS CELL
+Section::::Terminology.
+Section::::Battery versus cell.
+A cell is a basic electrochemical unit that contains the electrodes, separator, and electrolyte. 
+A battery or battery pack is a collection of cells or cell assemblies, with housing, electrical connections, and possibly electronics for control and protection.
+ANODE AND CATHODE ELECTRODES
+Section::::Anode and cathode electrodes.
+For rechargeable cells, the term cathode designates the electrode where reduction is taking place during the discharge cycle. For lithium-ion cells the positive electrode ("cathode") is the lithium-based one.
+HISTORY
+INVENTION AND DEVELOPMENT
+Section::::History.
+Section::::Invention and development.
+Lithium batteries were proposed by British chemist M Stanley Whittingham, now at Binghamton University, while working for Exxon in the 1970s. Whittingham used titanium(IV) sulfide and as the electrodes. However, this rechargeable lithium battery could never be made practical. Titanium disulfide was a poor choice, since it has to be synthesized under completely sealed conditions, also being quite expensive (~$1000 per kilogram for titanium disulfide raw material in 1970s). When exposed to air, titanium disulfide reacts to form hydrogen sulfide compounds, which have an unpleasant odour and are toxic to most animals. For this, and other reasons, Exxon discontinued development of Whittingham's lithium-titanium disulfide battery. Batteries with metallic lithium electrodes presented safety issues, as lithium is a highly reactive element; it autoignites exposed to normal atmospheric conditions because of spontaneous reactions with water and oxygen. As a result, research moved to develop batteries in which, instead of metallic lithium, only lithium compounds are present, being capable of accepting and releasing lithium ions.
+Reversible intercalation in graphite and intercalation into cathodic oxides was discovered during 1974–76 by J. O. Besenhard at TU Munich. Besenhard proposed its application in lithium cells. Electrolyte decomposition and solvent co-intercalation into graphite were severe early drawbacks for battery life.
+* 1973 – Adam Heller Proposed the lithium thionyl chloride battery, still used in implanted medical devices and in defense systems where greater than a 20-year shelf life, high energy density, or extreme operating temperatures are encountered.
+* 1977 – Samar Basu demonstrated electrochemical intercalation of lithium in graphite at the University of Pennsylvania. This led to the development of a workable lithium intercalated graphite electrode at Bell Labs () to provide an alternative to the lithium metal electrode battery.
+* 1979 – Working in separate groups, at Stanford University Ned A. Godshall et al., and the following year in 1980 at Oxford University, England, John Goodenough and Koichi Mizushima, both demonstrated a rechargeable lithium cell with voltage in the 4 V range using lithium cobalt oxide () as the positive electrode and lithium metal as the negative electrode. This innovation provided the positive electrode material that made lithium batteries commercially possible. is a stable positive electrode material which acts as a donor of lithium ions, which means that it can be used with a negative electrode material other than lithium metal. By enabling the use of stable and easy-to-handle negative electrode materials, opened a whole new range of possibilities for novel rechargeable battery systems. More recently, Qi et al. reported a scalable method to produce sub-micrometer sized using a template-based approach. Godshall et al. further identified in 1979, along with LiCoO, the similar value of ternary compound lithium-transition metal-oxides such as the spinel LiMnO, LiMnO, LiMnO, LiFeO, LiFeO, and LiFeO (and later lithium-copper-oxide and lithium-nickel-oxide cathode materials in 1985)
+* 1980 – Rachid Yazami demonstrated the reversible electrochemical intercalation of lithium in graphite. The organic electrolytes available at the time would decompose during charging with a graphite negative electrode, slowing the development of a rechargeable lithium/graphite battery. Yazami used a solid electrolyte to demonstrate that lithium could be reversibly intercalated in graphite through an electrochemical mechanism. (As of 2011, the graphite electrode discovered by Yazami is the most commonly used electrode in commercial lithium ion batteries).
+* 1982 – Godshall et al. were awarded the U.S. Patent on the use of LiCoO as cathodes in lithium batteries, based on Godshall's Stanford University Ph.D. thesis Dissertation and 1979 publications.
+* 1983 – Michael M. Thackeray, John B. Goodenough, and coworkers further developed manganese spinel as a positive electrode material, after its 1979 identification as such by Godshall et al. in 1979 (above). Spinel showed great promise, given its low-cost, good electronic and lithium ion conductivity, and three-dimensional structure, which gives it good structural stability. Although pure manganese spinel fades with cycling, this can be overcome with chemical modification of the material. As of 2013, manganese spinel was used in commercial cells.
+* 1985 – Akira Yoshino assembled a prototype cell using carbonaceous material into which lithium ions could be inserted as one electrode, and lithium cobalt oxide (), which is stable in air, as the other. By using materials without metallic lithium, safety was dramatically improved. enabled industrial-scale production and represents the birth of the current lithium-ion battery.
+* 1989 – John Goodenough and Arumugam Manthiram of the University of Texas at Austin showed that positive electrodes containing polyanions, e.g., sulfates, produce higher voltages than oxides due to the induction effect of the polyanion.
+There were two main trends in the research and development of electrode materials for lithium ion rechargeable batteries. One was the approach from the field of electrochemistry centering on graphite intercalation compounds, and the other was the approach from the field of new nano-carbonaceous materials.
+The negative electrode of today's lithium ion rechargeable battery has its origins in PAS (polyacenic semiconductive material) discovered by Tokio Yamabe and later by Shjzukuni Yata in the early 1980s. The seed of this technology, furthermore, was the discovery of conductive polymers by Professor Hideki Shirakawa and his group, and it could also be seen as having started from the polyacetylene lithium ion battery developed by Alan MacDiarmid and Alan J. Heeger et al.
+COMMERCIAL PRODUCTION
+Section::::Commercial production.
+The performance and capacity of lithium-ion batteries increases as development progresses.
+* 1991 – Sony and Asahi Kasei released the first commercial lithium-ion battery.
+* 1996 – John Goodenough, Akshaya Padhi and coworkers proposed lithium iron phosphate () and other phospho-olivines (lithium metal phosphates with the same structure as mineral olivine) as positive electrode materials.
+* 2001 – Zhonghua Lu and Jeff Dahn file a patent for the lithium nickel manganese cobalt oxide (NMC) class of positive electrode materials, which offers safety and energy density improvements over the widely used lithium cobalt oxide.
+* 2002 – Yet-Ming Chiang and his group at MIT showed a substantial improvement in the performance of lithium batteries by boosting the material's conductivity by doping it with aluminium, niobium and zirconium. The exact mechanism causing the increase became the subject of widespread debate.
+* 2004 – Chiang again increased performance by utilizing lithium iron(II) phosphate particles of less than 100 nanometers in diameter. This decreased particle density almost one hundredfold, increased the positive electrode's surface area and improved capacity and performance. Commercialization led to a rapid growth in the market for higher capacity LIBs, as well as a patent infringement battle between Chiang and John Goodenough.
+* 2011 – lithium-ion batteries accounted for 66% of all portable secondary (i.e., rechargeable) battery sales in Japan.
+* 2012 – John Goodenough, Rachid Yazami and Akira Yoshino received the 2012 IEEE Medal for Environmental and Safety Technologies for developing the lithium ion battery.
+* 2014 – commercial batteries from Amprius Corp. reached 650 Wh/L (a 20% increase), using a silicon anode and were delivered to customers. The National Academy of Engineering recognized John Goodenough, Yoshio Nishi, Rachid Yazami and Akira Yoshino for their pioneering efforts in the field.
+, global lithium-ion battery production capacity was 28 gigawatt-hours, with 16.4 GWh in China.
+MARKET
+Section::::Market.
+Industry produced about 660 million cylindrical lithium-ion cells in 2012; the 18650 size is by far the most popular for cylindrical cells. If Tesla were to have met its goal of shipping 40,000 Model S electric cars in 2014 and if the 85-kWh battery, which uses 7,104 of these cells, proved as popular overseas as it was in the U.S., a 2014 study projected that the Model S alone would use almost 40 percent of estimated global cylindrical battery production during 2014. , production was gradually shifting to higher-capacity 3,000+ mAh cells. Annual flat polymer cell demand was expected to exceed 700 million in 2013.
+In 2015 cost estimates ranged from $300–500/kWh.
+In 2016 GM revealed they would be paying for the batteries in the Chevy Bolt EV.
+PRICE-FIXING CONSPIRACY
+Section::::Price-fixing conspiracy.
+Information came to light in 2011 regarding a long-term antitrust violating price-fixing conspiracy among the world's major lithium-ion battery manufacturers that kept prices artificially high from 2000 to 2011, according to a class action complaint that was tentatively settled with one of the defendants, Sony, in 2016. The complaint provided evidence that participants included LG, Samsung SDI, Sanyo, Panasonic, Sony, and Hitachi, and notes that Sanyo and LG had "pled guilty to the criminal price-fixing of Lithium Ion Batteries". 
+Sony agreed to settle for $20 million, and also cooperate by, among other things, making employees chosen by plaintiffs available for interviews, depositions and testimony, as well as provide clarifying information regarding the scheme and the documents provided to date, including responding to authentication and clarification questions.
+CONSTRUCTION
+Section::::Construction.
+The three primary functional components of a lithium-ion battery are the positive and negative electrodes and electrolyte. Generally, the negative electrode of a conventional lithium-ion cell is made from carbon. The positive electrode is a metal oxide, and the electrolyte is a lithium salt in an organic solvent. The electrochemical roles of the electrodes reverse between anode and cathode, depending on the direction of current flow through the cell.
+The most commercially popular negative electrode is graphite. The positive electrode is generally one of three materials: a layered oxide (such as lithium cobalt oxide), a polyanion (such as lithium iron phosphate) or a spinel (such as lithium manganese oxide). Recently, graphene based electrodes (based on 2D and 3D structures of graphene) have also been used as electrodes for lithium batteries.
+The electrolyte is typically a mixture of organic carbonates such as ethylene carbonate or diethyl carbonate containing complexes of lithium ions. These non-aqueous electrolytes generally use non-coordinating anion salts such as lithium hexafluorophosphate (), lithium hexafluoroarsenate monohydrate (), lithium perchlorate (), lithium tetrafluoroborate (), and lithium triflate ().
+Depending on materials choices, the voltage, energy density, life, and safety of a lithium-ion battery can change dramatically. Recently, novel architectures using nanotechnology have been employed to improve performance.
+Pure lithium is highly reactive. It reacts vigorously with water to form lithium hydroxide (LiOH) and hydrogen gas. Thus, a non-aqueous electrolyte is typically used, and a sealed container rigidly excludes moisture from the battery pack.
+Lithium-ion batteries are more expensive than NiCd batteries but operate over a wider temperature range with higher energy densities. They require a protective circuit to limit peak voltage.
+For notebooks or laptops, lithium-ion cells are supplied as part of a battery pack with temperature sensors, voltage converter/regulator circuit, voltage tap, battery charge state monitor and the main connector. These components monitor the state of charge and current in and out of each cell, capacities of each individual cell (drastic change can lead to reverse polarities which is dangerous), and temperature of each cell and minimize the risk of short circuits.
+SHAPES
+Section::::Shapes.
+Li-ion cells (as distinct from entire batteries) are available in various shapes, which can generally be divided into four groups:
+* Small cylindrical (solid body without terminals, such as those used in older laptop batteries)
+* Large cylindrical (solid body with large threaded terminals)
+* Pouch (soft, flat body, such as those used in cell phones and newer laptops; also referred to as li-ion polymer or lithium polymer batteries)
+* Rigid plastic case with large threaded terminals (such as vehicles' traction packs)
+Cells with a cylindrical shape are made in a characteristic "swiss roll" manner (known as a "jelly roll" in the US), which means it is a single long sandwich of positive electrode, separator, negative electrode and separator rolled into a single spool. The main disadvantage of this method of construction is that the cell will have a higher series inductance.
+The absence of a case gives pouch cells the highest gravimetric energy density; however, for many practical applications they still require an external means of containment to prevent expansion when their state-of-charge (SOC) level is high, and for general structural stability of the battery pack of which they are part. Both rigid plastic and pouch-style cells are sometimes referred to as prismatic cells due to their rectangular shapes.
+Since 2011, several research groups have announced demonstrations of lithium-ion flow batteries that suspend the cathode or anode material in an aqueous or organic solution.
+In 2014, Panasonic created the smallest Li-ion battery. It is pin shaped. It has a diameter of 3.5mm and a weight of 0.6g. A coin cell form factor resembling that of ordinary lithium batteries is available since as early as 2006 for LiCoO cells, usually designated with a "LiR" prefix.
+ELECTROCHEMISTRY
+Section::::Electrochemistry.
+The reactants in the electrochemical reactions in a lithium-ion battery are the negative and positive electrodes and the electrolyte providing a conductive medium for lithium ions to move between the electrodes. Electrical energy flows out from or in to the battery when electrons flow through an external circuit during discharge or charge, respectively.
+Both electrodes allow lithium ions to move in and out of their structures with a process called insertion (intercalation) or extraction (deintercalation), respectively. During discharge, the (positive) lithium ions move from the negative electrode (anode) (usually graphite = "C6" as below) to the positive electrode (cathode) (forming a lithium compound) through the electrolyte while the electrons flow through the external circuit in the same direction. When the cell is charging, the reverse occurs with the lithium ions and electrons move back into the negative electrode in a net higher energy state. The following equations exemplify the chemistry.
+The positive electrode (cathode) half-reaction in the lithium-doped cobalt oxide substrate is:
+The negative electrode (anode) half-reaction for the graphite is:
+The full reaction (left to right: discharging, right to left: charging) being:
+The overall reaction has its limits. Overdischarging supersaturates lithium cobalt oxide, leading to the production of lithium oxide, possibly by the following irreversible reaction:
+Overcharging up to 5.2 volts leads to the synthesis of cobalt(IV) oxide, as evidenced by x-ray diffraction:
+In a lithium-ion battery the lithium ions are transported to and from the positive or negative electrodes by oxidizing the transition metal, cobalt (Co), in from to during charge, and reducing from to during discharge. The cobalt electrode reaction is only reversible for x < 0.5 (x in mole units), limiting the depth of discharge allowable. This chemistry was used in the Li-ion cells developed by Sony in 1990.
+The cell's energy is equal to the voltage times the charge. Each gram of lithium represents Faraday's constant/6.941 or 13,901 coulombs. At 3 V, this gives 41.7 kJ per gram of lithium, or 11.6 kWh per kg. This is a bit more than the heat of combustion of gasoline, but does not consider the other materials that go into a lithium battery and that make lithium batteries many times heavier per unit of energy.
+ELECTROLYTES
+Section::::Electrolytes.
+The cell voltages given in the Electrochemistry section are larger than the potential at which aqueous solutions will electrolyze.
+LIQUID ELECTROLYTES
+Section::::Liquid Electrolytes.
+Liquid electrolytes in lithium-ion batteries consist of lithium salts, such as ,  or  in an organic solvent, such as ethylene carbonate, dimethyl carbonate, and diethyl carbonate. A liquid electrolyte acts as a conductive pathway for the movement of cations passing from the negative to the positive electrodes during discharge. Typical conductivities of liquid electrolyte at room temperature () are in the range of 10 mS/cm, increasing by approximately 30–40% at and decreasing slightly at .
+The combination of linear and cyclic carbonates (e.g., ethylene carbonate (EC) and dimethyl carbonate (DMC)) offers high conductivity and solid electrolyte interphase (SEI)-forming ability. A mixture of a high ionic conductivity and low viscosity carbonate solvents is needed, because the two properties are mutually exclusive in a single material.
+Organic solvents easily decompose on the negative electrodes during charge. When appropriate organic solvents are used as the electrolyte, the solvent decomposes on initial charging and forms a solid layer called the solid electrolyte interphase, which is electrically insulating yet provides significant ionic conductivity. The interphase prevents further decomposition of the electrolyte after the second charge. For example, ethylene carbonate is decomposed at a relatively high voltage, 0.7 V vs. lithium, and forms a dense and stable interface.
+It has been demonstrated that it is possible to form SEI in water-based batteries. Aqueous electrolytes with a very high concentration of a specific Lithium salt form a thin, protective layer of film on the anode electrode, which was previously thought to only occur in non-aqueous electrolytes.
+Composite electrolytes based on POE (poly(oxyethylene)) provide a relatively stable interface. It can be either solid (high molecular weight) and be applied in dry Li-polymer cells, or liquid (low molecular weight) and be applied in regular Li-ion cells.
+Room temperature ionic liquids (RTILs) are another approach to limiting the flammability and volatility of organic electrolytes.
+SOLID ELECTROLYTES
+Section::::Solid Electrolytes.
+Recent advances in battery technology involve using a solid as the electrolyte material. The most promising of these being ceramics.
+Solid ceramic electrolytes are mostly lithium metal oxides which allow lithium ion transport through the solid more readily due to the intrinsic lithium. The main benefit of solid electrolytes is that there is no risk of leaks, which is a serious safety issue for batteries with liquid electrolytes.
+Solid ceramic electrolytes can be further broken down into two main categories: ceramic and glassy. Ceramic solid electrolytes are highly ordered compounds with crystal structures that usually have ion transport channels. Common ceramic electrolytes are lithium super ion conductors (LISICON) and perovskites. Glassy solid electrolytes are amorphous atomic structures made up of similar elements to ceramic solid electrolytes, but have higher conductivities overall due to higher conductivity at grain boundaries. 
+Both glassy and ceramic electrolytes can be made more ionically conductive by substituting sulfur for oxygen. The larger radius of sulfur and its higher ability to be polarized allow for higher conductivity of lithium. This contributes to conductivities of solid electrolytes are nearing parity with their liquid counterparts, with most on the order of 0.1 mS/cm and the best at 10 mS/cm.
+CHARGE AND DISCHARGE
+Section::::Charge and discharge.
+During discharge, lithium ions () carry the current within the battery from the negative to the positive electrode, through the non-aqueous electrolyte and separator diaphragm.
+During charging, an external electrical power source (the charging circuit) applies an over-voltage (a higher voltage than the battery produces, of the same polarity), forcing a charging current to flow within the battery from the positive to the negative electrode, i.e. in the reverse direction of a discharge current under normal conditions. The lithium ions then migrate from the positive to the negative electrode, where they become embedded in the porous electrode material in a process known as intercalation.
+PROCEDURE
+Section::::Procedure.
+The charging procedures for single Li-ion cells, and complete Li-ion batteries, are slightly different.
+* A single Li-ion cell is charged in two stages:
+* Constant current (CC)
+* 
+* Constant Voltage (CV)
+* 
+* A Li-ion battery (a set of Li-ion cells in series) is charged in three stages:
+* Constant current
+* 
+* Balance (not required once a battery is balanced)
+* 
+* Constant Voltage
+* 
+During the constant current phase, the charger applies a constant current to the battery at a steadily increasing voltage, until the voltage limit per cell is reached.
+During the balance phase, the charger reduces the charging current (or cycles the charging on and off to reduce the average current) while the state of charge of individual cells is brought to the same level by a balancing circuit, until the battery is balanced. Some fast chargers skip this stage. Some chargers accomplish the balance by charging each cell independently.
+During the constant voltage phase, the charger applies a voltage equal to the maximum cell voltage times the number of cells in series to the battery, as the current gradually declines towards 0, until the current is below a set threshold of about 3% of initial constant charge current.
+Periodic topping charge about once per 500 hours. Top charging is recommended to be initiated when voltage goes below 
+Failure to follow current and voltage limitations can result in an explosion.
+EXTREME TEMPERATURES
+Section::::Extreme temperatures.
+Charging temperature limits for Li-ion are stricter than the operating limits. Lithium-ion chemistry performs well at elevated temperatures but prolonged exposure to heat reduces battery life.
+Li‑ion batteries offer good charging performance at cooler temperatures and may even allow 'fast-charging' within a temperature range of 5 to 45 °C (41 to 113 °F). Charging should be performed within this temperature range. At temperatures from 0 to 5 °C charging is possible, but the charge current should be reduced. During a low-temperature charge the slight temperature rise above ambient due to the internal cell resistance is beneficial. High temperatures during charging may lead to battery degradation and charging at temperatures above 45 °C will degrade battery performance, whereas at lower temperatures the internal resistance of the battery may increase, resulting in slower charging and thus longer charging times.
+Consumer-grade lithium-ion batteries should not be charged at temperatures below 0 °C (32 °F). Although a battery pack may appear to be charging normally, electroplating of metallic lithium can occur at the negative electrode during a subfreezing charge, and may not be removable even by repeated cycling. Most devices equipped with Li-ion batteries do not allow charging outside of 0–45 °C for safety reasons, except for mobile phones that may allow some degree of charging when they detect an emergency call in progress.
+PERFORMANCE
+* Specific energy density: 100 to 250 W·h/kg (360 to 900 kJ/kg)
+* Volumetric energy density: 250 to 620 W·h/L (900 to 2230 J/cm³)
+* Specific power density: 300 to 1500 W/kg (at 20 seconds and 285 W·h/L)
+Section::::Performance.
+Because lithium-ion batteries can have a variety of positive and negative electrode materials, the energy density and voltage vary accordingly.
+The open circuit voltage is higher than aqueous batteries (such as lead acid, nickel-metal hydride and nickel-cadmium). Internal resistance increases with both cycling and age. Rising internal resistance causes the voltage at the terminals to drop under load, which reduces the maximum current draw. Eventually, increasing resistance will leave the battery in a state such that it can no longer support the normal discharge currents requested of it without unacceptable voltage drop or overheating.
+Batteries with a lithium iron phosphate positive and graphite negative electrodes have a nominal open-circuit voltage of 3.2 V and a typical charging voltage of 3.6 V. Lithium nickel manganese cobalt (NMC) oxide positives with graphite negatives have a 3.7 V nominal voltage with a 4.2 V maximum while charging. The charging procedure is performed at constant voltage with current-limiting circuitry (i.e., charging with constant current until a voltage of 4.2 V is reached in the cell and continuing with a constant voltage applied until the current drops close to zero). Typically, the charge is terminated at 3% of the initial charge current. In the past, lithium-ion batteries could not be fast-charged and needed at least two hours to fully charge. Current-generation cells can be fully charged in 45 minutes or less. In 2015 researchers demonstrated a small 600 mAh capacity battery charged to 68 percent capacity in two minutes and a 3,000 mAh battery charged to 48 percent capacity in five minutes. The latter battery has an energy density of 620 W·h/L. The device employed heteroatoms bonded to graphite molecules in the anode.
+Performance of manufactured batteries has improved over time. For example, from 1991 to 2005 the energy capacity per price of lithium ion batteries improved more than ten-fold, from 0.3 W·h per dollar to over 3 W·h per dollar. In the period from 2011-2017, progress has averaged 7.5% annually.
+MATERIALS
+Section::::Materials.
+The increasing demand for batteries has led vendors and academics to focus on improving the energy density, operating temperature, safety, durability, charging time, output power, and cost of lithium ion battery technology. The following materials have been used in commercially available cells. Research into other materials continues.
+Cathode materials are generally constructed out of two general materials: and . The cobalt-based material develops a pseudo tetrahedral structure that allows for two-dimensional lithium ion diffusion. The cobalt-based cathodes are ideal due to their high theoretical specific heat capacity, high volumetric capacity, low self-discharge, high discharge voltage, and good cycling performance. Limitations include the high cost of the material, and low thermal stability. The manganese-based materials adopt a cubic crystal lattice system, which allows for three-dimensional lithium ion diffusion. Manganese cathodes are attractive because manganese is cheaper and because it could theoretically be used to make a more efficient, longer-lasting battery if its limitations could be overcome. Limitations include the tendency for manganese to dissolve into the electrolyte during cycling leading to poor cycling stability for the cathode. Cobalt-based cathodes are the most common, however other materials are being researched with the goal of lowering costs and improving battery life.
+, is a candidate for large-scale production of lithium-ion batteries such as electric vehicle applications due to its low cost, excellent safety, and high cycle durability. For example, Sony Fortelion batteries have retained 74% of their capacity after 8000 cycles with 100% discharge. A carbon conductive agent is required to overcome its low electrical conductivity.
+Electrolyte alternatives have also played a significant role, for example the lithium polymer battery.
+POSITIVE ELECTRODE
+Section::::Positive electrode.
++ Positive electrode
+! Technology!! Company!! Target application !! Date!! Benefit
+Lithium Nickel Manganese Cobalt Oxide ("NMC", LiNiMnCoO)
+Imara Corporation, Nissan Motor, Microvast Inc., LG Chem
+Electric vehicles, power tools, grid energy storage
+2008
+good specific energy and specific power density
+Lithium Manganese Oxide ("LMO", LiMnO)
+LG Chem, NEC, Samsung, Hitachi, Nissan/AESC, EnerDel 
+Hybrid electric vehicle, cell phone, laptop 
+1996
+Lithium Cobalt Oxide (LiCoO)
+Sony first commercial production
+broad use
+1991
+High specific energy
+Lithium Nickel Cobalt Aluminum Oxide ("NCA", LiNiCoAlO)
+Panasonic, Saft Groupe S.A.
+Electric vehicles
+1999
+High specific energy, good life span
+NEGATIVE ELECTRODE
+Section::::Negative electrode.
+Negative electrode materials are traditionally constructed from graphite and other carbon materials, although newer silicon based materials are being increasingly used (see Nanowire battery). These materials are used because they are abundant and are electrically conducting and can intercalate lithium ions to store electrical charge with modest volume expansion (ca. 10%). The reason that graphite is the dominant material is because of its low voltage and excellent performance. Various materials have been introduced but their voltage is high leading to a low energy density. Low voltage of material is the key requirement; otherwise, the excess capacity is useless in terms of energy density.
++ Negative electrode
+! Technology!! Density!!Durability!!Company!!Target application !! Date!! Comments
+Another approach used carbon-coated 15 nm thick crystal silicon flakes. The tested half-cell achieved 1.2 Ah/g over 800 cycles.
+ANODE RESEARCH
+Section::::Anode research.
+To improve stability of the lithium anode, several approaches of installing a protective layer have been suggested. Silicon is beginning to be looked at as an anode material because it can accommodate significantly more lithium ions, storing up to 10 times the electric charge, however this alloying between lithium and silicon results in significant volume expansion (ca. 400%), which causes catastrophic failure for the battery. Silicon has been used as an anode material but the insertion and extraction of \scriptstyle Li+ can create cracks in the material. These cracks expose the Si surface to an electrolyte, causing decomposition and the formation of a solid electrolyte interphase (SEI) on the new Si surface (crumpled graphene encapsulated Si nanoparticles). This SEI will continue to grow thicker, deplete the available \scriptstyle Li+, and degrade the capacity and cycling stability of the anode.
+There have been attempts using various Si nanostructures that include nanowires, nanotubes, hollow spheres, nanoparticles, and nanoporous with the goal of them withstanding the (\scriptstyle Li+)-insertion/removal without significant cracking. Yet the formation of SEI on Si still occurs. So a coating would be logical, in order to account for any increase in the volume of the Si, a tight surface coating is not viable. In 2012 researchers from Northwestern University created an approach to encapsulate Si nanoparticles using crumpled r-GO, graphene oxide. This method allows for protection of the Si nanoparticles from the electrolyte as well as allow for the expansion of Si without expansion due to the wrinkles and creases in the graphene balls.
+These capsules began as an aqueous dispersion of GO and Si particles, and are then nebulized into a mist of droplets that pass through a tube furnace. As they pass through the liquid evaporates, the GO sheets are pulled into a crumpled ball by capillary forces and encapsulate Si particles with them. There is a galvanostatic charge/discharge profile of 0.05 \scriptstyle mA/cm^2 to 1 \scriptstyle mA/cm^2 for current densities 0.2 to 4 A/g, delivering 1200 mAh/g at 0.2 A/g.
+Polymer electrolytes are promising for minimizing the dendrite formation of lithium. As an example, Seeo, Inc. is working on development of electrolytes for lithium metal-based batteries. Polymers are suppose to prevent short circuits and maintain conductivity. 
+DIFFUSION
+Section::::Diffusion.
+The ions in the electrolyte diffuse because there are small changes in the electrolyte concentration. Linear diffusion is only considered here. The change in concentration, c, as a function of time t and distance x, is
+formula_1
+The negative sign indicates the ions are flowing from high concentration to low concentration. In this equation, D is the diffusion coefficient for the lithium ion. It has a value of 7.5 × 10 m/s in the electrolyte. The value for ε, the porosity of the electrolyte, is 0.724.
+USE
+Section::::Use.
+Li-ion batteries provide lightweight, high energy density power sources for a variety of devices. To power larger devices, such as electric cars, connecting many small batteries in a parallel circuit is more effective and more efficient than connecting a single large battery. Such devices include:
+* Portable devices: these include mobile phones and smartphones, laptops and tablets, digital cameras and camcorders, electronic cigarettes, handheld game consoles and torches (flashlights).
+* Power tools: Li-ion batteries are used in tools such as cordless drills, sanders, saws, and a variety of garden equipment including whipper-snippers and hedge trimmers.
+* Electric vehicles: electric vehicle batteries are used in electric cars, hybrid vehicles, electric motorcycles and scooters, electric bicycles, personal transporters and advanced electric wheelchairs. Also radio-controlled models, model aircraft, aircraft, and the Mars Curiosity rover.
+Li-ion batteries are used in telecommunications applications. Secondary non-aqueous lithium batteries provide reliable backup power to load equipment located in a network environment of a typical telecommunications service provider. Li-ion batteries compliant with specific technical criteria are recommended for deployment in the Outside Plant (OSP) at locations such as Controlled Environmental Vaults (CEVs), Electronic Equipment Enclosures (EEEs), and huts, and in uncontrolled structures such as cabinets. In such applications, li-ion battery users require detailed, battery-specific hazardous material information, plus appropriate fire-fighting procedures, to meet regulatory requirements and to protect employees and surrounding equipment.
+SELF-DISCHARGE
+Section::::Self-discharge.
+Batteries gradually self-discharge even if not connected and delivering current. Li+ rechargeable batteries have a self-discharge rate typically stated by manufacturers to be 1.5-2% per month. 
+The rate increases with temperature and state of charge. A 2004 study found that for most cycling conditions self-discharge was primarily time-dependent; however, after several months of stand on open circuit or float charge, state-of-charge dependent losses became significant. The self-discharge rate did not increase monotonically with state-of-charge, but dropped somewhat at intermediate states of charge. Self-discharge rates may increase as batteries age. In 1999, self-discharge per month was measured at 8% at , 15% at , 31% at . By 2007, monthly self-discharge rate was estimated at 2% to 3%, and 2-3% by 2016.
+By comparison, the self-discharge rate for metal hydride (NiMH) batteries dropped, as of 2017, from up to 30% per month for previously common cells to about 1.25% per month for low self-discharge NiMH batteries, and is about 10% per month in nickel-cadmium batteries.
+BATTERY LIFE
+Section::::Battery life.
+Rechargeable battery life is typically defined as the number of full charge-discharge cycles before significant capacity loss. Inactive storage may also reduce capacity.
+Manufacturers' information typically specify lifespan in terms of the number of cycles (e.g., capacity dropping linearly to 80% over 500 cycles), with no mention of chronological age. On average, lifetimes consist of 1000 cycles, although battery performance is rarely specified for more than 500 cycles. This means that batteries of mobile phones, or other hand-held devices in daily use, are not expected to last longer than three years. Some batteries based on carbon anodes offer more than 10,000 cycles.
+As a battery discharges, its voltage gradually diminishes. When depleted below the protection circuit's low-voltage threshold (2.4 to 2.9 V/cell, depending on chemistry) the circuit disconnects and stops discharging until recharged. As discharge progresses, metallic cell contents plate onto its internal structure, creating an unwanted discharge path.
+Defining battery life via full discharge cycles, is the industry standard, but may be biased, since full depth of discharge (DoD)/recharge may itself diminish battery life, compared to cumulative Ah partial discharge/charge performance. Projection from the standard to specific use patterns may require additional factors, e.g. DoD, rate of discharge, temperature, etc.
+Multiplying the battery life (in cycles, at rated cycle depth) by the rated capacity (in Ah) and by the rated nominal Voltage gives the total energy delivered over the life of the battery. From this one can calculate the cost per kWh of the energy (including the cost of charging).
+VARIABILITY
+Section::::Variability.
+A 2015 study by Andreas Gutsch of the Karlsruhe Institute of Technology found that lithium-ion battery lifespan could vary by a factor of five, with some Li-ion cells losing 30% of their capacity after 1,000 cycles, and others having better capacity after 5,000 cycles. The study also found that safety standards for some batteries were not met. For stationary energy storage it was estimated that batteries with lifespans of at least 3,000 cycles were needed for profitable operation. 
+DEGRADATION
+Section::::Degradation.
+Over their lifespan, batteries degrade progressively with reduced capacity, cycle life, and safety due to chemical changes to the electrodes. Capacity loss/fade is expressed as a percentage of initial capacity after a number of cycles (e.g., 30% loss after 1,000 cycles). Fade can be separated into calendar loss and cycling loss. Calendar loss results from the passage of time and is measured from the maximum state of charge. Cycling loss is due to usage and depends on both the maximum state of charge and the depth of discharge. Increased rate of self-discharge can be an indicator of internal short-circuit.
+Degradation is strongly temperature-dependent, with a minimal degradation around 25°C, i.e., increasing if stored or used at above or below 25 °C. High charge levels and elevated temperatures (whether from charging or ambient air) hasten capacity loss. Carbon anodes generate heat when in use. Batteries may be refrigerated to reduce temperature effects. 
+Pouch and cylindrical cell temperatures depend linearly on the discharge current. Poor internal ventilation may increase temperatures. Loss rates vary by temperature: 6% loss at , 20% at , and 35% at . In contrast, the calendar life of  cells is not affected by high charge states.
+The advent of the SEI layer improved performance, but increased vulnerability to thermal degradation. The layer is composed of electrolyte – carbonate reduction products that serve both as an ionic conductor and electronic insulator. It forms on both the anode and cathode and determines many performance parameters. Under typical conditions, such as room temperature and the absence of charge effects and contaminants, the layer reaches a fixed thickness after the first charge, allowing the device to operate for years. However, operation outside such parameters can degrade the device via several reactions.
+Lithium-ion batteries are prone to capacity fading over thousands of cycles. It is by slow electrochemical processes, the formation of a solid-electrolyte inter phase (SEI) in the negative electrode. SEI forms in between the first charge and discharge and results in the consumption of lithium ions. The consumption of lithium ions reduces the charge and discharge efficiency of the electrode material. However, SEI film is organic solvent insoluble and hence it can be stable in organic electrolyte solutions. If proper additives are added to the electrolyte to promote SEI formation, the co-embedding of solvent molecules can be effectively prevented and the damage to electrode materials can be avoided. On the other hand, SEI is selective and allows lithium ions to pass through and forbids electrons to pass through. This guarantees the continuity of charging and discharging cycle. SEI hinders the further consumption of lithium ions and thus greatly improves the electrode, as well as the cycle performance and service life.
+REACTIONS
+Section::::Reactions.
+Five common exothermic degradation reactions can occur:
+* Chemical reduction of the electrolyte by the anode.
+* Thermal decomposition of the electrolyte.
+* Chemical oxidation of the electrolyte by the cathode.
+* Thermal decomposition by the cathode and anode.
+* Internal short circuit by charge effects.
+ANODE
+Section::::Anode.
+The SEI layer that forms on the anode is a mixture of lithium oxide, lithium fluoride and semicarbonates (e.g., lithium alkyl carbonates).
+At elevated temperatures, alkyl carbonates in the electrolyte decompose into insoluble  that increases film thickness, limiting anode efficiency. This increases cell impedance and reduces capacity. Gases formed by electrolyte decomposition can increase the cell's internal pressure and are a potential safety issue in demanding environments such as mobile devices.
+Below 25 °C, plating of metallic Lithium on the anodes and subsequent reaction with the electrolyte is leading to loss of cyclable Lithium.
+Extended storage can trigger an incremental increase in film thickness and capacity loss.
+Charging at greater than 4.2 V can initiate Li plating on the anode, producing irreversible capacity loss. The randomness of the metallic lithium embedded in the anode during intercalation results in dendrites formation. Over time the dendrites can accumulate and pierce the separator, causing a short circuit leading to heat, fire or explosion. This process is referred to as thermal runaway.
+Discharging beyond 2 V can also result in capacity loss. The (copper) anode current collector can dissolve into the electrolyte. When charged, copper ions can reduce on the anode as metallic copper. Over time, copper dendrites can form and cause a short in the same manner as lithium.
+High cycling rates and state of charge induces mechanical strain on the anode's graphite lattice. Mechanical strain caused by intercalation and de-intercalation creates fissures and splits of the graphite particles, changing their orientation. This orientation change results in capacity loss.
+ELECTROLYTES
+Section::::Electrolytes.
+Electrolyte degradation mechanisms include hydrolysis and thermal decomposition.
+At concentrations as low as 10 ppm, water begins catalyzing a host of degradation products that can affect the electrolyte, anode and cathode. participates in an equilibrium reaction with LiF and . Under typical conditions, the equilibrium lies far to the left. However the presence of water generates substantial LiF, an insoluble, electrically insulating product. LiF binds to the anode surface, increasing film thickness.
+Decomposition of electrolyte salts and interactions between the salts and solvent start at as low as 70 C. Significant decomposition occurs at higher temperatures. At 85 C transesterification products, such as dimethyl-2,5-dioxahexane carboxylate (DMDOHC) are formed from EC reacting with DMC.
+CATHODE
+Section::::Cathode.
+Lithium cobalt oxide () is the most widely used cathode material. Lithium manganese oxide () is a potential alternative because of its low cost and ease of preparation, but its relatively poor cycling and storage capabilities has prevented it from commercial acceptance.
+Cathode degradation mechanisms include manganese dissolution, electrolyte oxidation and structural disorder.
+In hydrofluoric acid catalyzes the loss of metallic manganese through disproportionation of trivalent manganese:
+Material loss of the spinel results in capacity fade. Temperatures as low as 50 °C initiate Mndeposition on the anode as metallic manganese with the same effects as lithium and copper plating. Cycling over the theoretical max and min voltage plateaus destroys the crystal lattice via Jahn-Teller distortion, which occurs when Mn is reduced to Mn during discharge.
+Storage of a battery charged to greater than 3.6 V initiates electrolyte oxidation by the cathode and induces SEI layer formation on the cathode. As with the anode, excessive SEI formation forms an insulator resulting in capacity fade and uneven current distribution.
+Storage at less than 2 V results in the slow degradation of and cathodes, the release of oxygen and irreversible capacity loss.
+CONDITIONING
+Section::::Conditioning.
+The need to "condition" NiCd and NiMH batteries has leaked into folklore surrounding Li-ion batteries, but is unfounded. The recommendation for the older technologies is to leave the device plugged in for seven or eight hours, even if fully charged. This may be a confusion of battery software calibration instructions with the "conditioning" instructions for NiCd and NiMH batteries.
+MULTICELL DEVICES
+Section::::Multicell devices.
+Li-ion batteries require a battery management system to prevent operation outside each cell's safe operating area (max-charge, min-charge, safe temperature range) and to balance cells to eliminate state of charge mismatches. This significantly improves battery efficiency and increases capacity. As the number of cells and load currents increase, the potential for mismatch increases. The two kinds of mismatch are state-of-charge (SOC) and capacity/energy ("C/E"). Though SOC is more common, each problem limits pack charge capacity (mA·h) to that of the weakest cell.
+SAFETY
+Section::::Safety.
+If overheated or overcharged, Li-ion batteries may suffer thermal runaway and cell rupture. In extreme cases this can lead to leakage, explosion or fire. To reduce these risks, many lithium-ion cells (and battery packs) contain fail-safe circuitry that disconnects the battery when its voltage is outside the safe range of 3–4.2 V per cell. or when overcharged or discharged. Lithium battery packs, whether constructed by a vendor or the end-user, without effective battery management circuits are susceptible to these issues. Poorly designed or implemented battery management circuits also may cause problems; it is difficult to be certain that any particular battery management circuitry is properly implemented. Lithium-ion cells are susceptible to damage outside the allowed voltage range that is typically 2.5 to 3.65 V for most LFP cells. Exceeding this voltage range, even by small voltages (millivolts) results in premature aging of the cells and, furthermore, results in safety risks due to the reactive components in the cells. When stored for long periods the small current draw of the protection circuitry may drain the battery below its shutoff voltage; normal chargers may then be useless since the BMS may retain a record of this battery (or charger) 'failure'. Many types of lithium-ion cells cannot be charged safely below 0 °C.
+Other safety features are required in each cell:
+* Shut-down separator (for overheating)
+* Tear-away tab (for internal pressure relief)
+* Vent (pressure relief in case of severe outgassing)
+* Thermal interrupt (overcurrent/overcharging/environmental exposure)
+These features are required because the negative electrode produces heat during use, while the positive electrode may produce oxygen. However, these additional devices occupy space inside the cells, add points of failure, and may irreversibly disable the cell when activated. Further, these features increase costs compared to nickel metal hydride batteries, which require only a hydrogen/oxygen recombination device and a back-up pressure valve. Contaminants inside the cells can defeat these safety devices. Also, these features can not be applied to all kinds of cells, e.g. prismatic high current cells cannot be equipped with a vent or thermal interrupt. High current cells must not produce excessive heat or oxygen, lest there be a failure, possibly violent. Instead, they must be equipped with internal thermal fuses which act before the anode and cathode reach their thermal limits.
+Short-circuiting a battery will cause the cell to overheat and possibly to catch fire. Adjacent cells may then overheat and fail, possibly causing the entire battery to ignite or rupture. In the event of a fire, the device may emit dense irritating smoke. The fire energy content (electrical + chemical) of cobalt-oxide cells is about 100 to 150 kJ/(A·h), most of it chemical.
+Replacing the lithium cobalt oxide positive electrode material in lithium-ion batteries with a lithium metal phosphate such as lithium iron phosphate (LFP) improves cycle counts, shelf life and safety, but lowers capacity. As of 2006 these 'safer' lithium-ion batteries were mainly used in electric cars and other large-capacity battery applications, where safety is critical.
+Lithium-ion batteries, unlike rechargeable batteries with water-based electrolytes, have a potentially hazardous pressurised flammable liquid electrolyte, and require strict quality control during manufacture. A faulty battery can cause a serious fire. Faulty chargers can affect the safety of the battery because they can destroy the battery's protection circuit. While charging at temperatures below 0 °C, the negative electrode of the cells gets plated with pure lithium, which can compromise the safety of the whole pack.
+While fire is often serious, it may be catastrophically so. In about 2010 large lithium-ion batteries were introduced in place of other chemistries to power systems on some aircraft; there had been at least four serious lithium-ion battery fires, or smoke, on the Boeing 787 passenger aircraft, introduced in 2011, which did not cause crashes but had the potential to do so.
+In addition, several aircraft crashes have been attributed to burning Li-Ion batteries. UPS Airlines Flight 6 crashed in Dubai after its payload of batteries spontaneously ignited, progressively destroying critical systems inside the aircraft which eventually rendered it uncontrollable.
+ENVIRONMENTAL CONCERNS AND RECYCLING
+Section::::Environmental concerns and recycling.
+Since Li-ion batteries contain less of toxic metals than other types of batteries which may contain lead or cadmium, they are generally categorized as non-hazardous waste. Li-ion battery elements including iron, copper, nickel and cobalt are considered safe for incinerators and landfills. These metals can be recycled, but mining generally remains cheaper than recycling. At present, not much is invested into recycling Li-ion batteries due to cost, complexity and low yield. The most expensive metal involved in the construction of the cell is cobalt, much of which is mined in Congo. Lithium iron phosphate is cheaper but has other drawbacks. Lithium is less expensive than other metals used, but recycling could prevent a future shortage. The manufacturing processes of nickel and cobalt, and the solvent, present potential environmental and health hazards. Manufacturing a kg of Li-ion battery takes energy equivalent to 1.6 kg of oil.
+The extraction of lithium impacts the environment, due to water pollution. It takes place in selected mines in North and South America, Asia, South Africa, Central Andes and China . Also, chemicals that are used to process lithium are toxic, and can harm ecosystems, food production and communities, due to spills. That is why the mass production of lithium carbonate, a requirement for "green cars," will instead cause serious problems for the environment.
+RECALLS
+* In October 2004 Kyocera Wireless recalled approximately 1 million mobile phone batteries to identify counterfeits.
+* In December 2005 Dell recalled approximately 22,000 laptop computer batteries, and 4.1 million in August 2006.
+* In 2006 approximately 10 million Sony batteries used in Dell, Sony, Apple, Lenovo, Panasonic, Toshiba, Hitachi, Fujitsu and Sharp laptops were recalled. The batteries were found to be susceptible to internal contamination by metal particles during manufacture. Under some circumstances, these particles could pierce the separator, causing a dangerous short-circuit.
+* In March 2007 computer manufacturer Lenovo recalled approximately 205,000 batteries at risk of explosion.
+* In August 2007 mobile phone manufacturer Nokia recalled over 46 million batteries at risk of overheating and exploding. One such incident occurred in the Philippines involving a Nokia N91, which used the BL-5C battery.
+* In September 2016 Samsung recalled approximately 2.5 million Galaxy Note 7 phones after 35 confirmed fires. The recall was due to a manufacturing design fault in Samsung's batteries which caused internal positive and negative poles to touch.
+TRANSPORT RESTRICTIONS
+Section::::Transport restrictions.
+IATA estimates that over a billion lithium cells are flown each year.
+The maximum size of each battery (whether installed in a device or as spare batteries) that can be carried is one that has an equivalent lithium content (ELC) not exceeding 8 grammes per battery. Except, that if only one or two batteries are carried, each may have an ELC of up to 25 g. The ELC for any battery is found by multiplying the ampere-hour capacity of each cell by 0.3 and then multiplying the result by the number of cells in the battery. The resultant calculated lithium content is not the actual lithium content but a theoretical figure solely for transportation purposes. When shipping lithium ion batteries however, if the total lithium content in the cell exceeds 1.5 g, the package must be marked as "Class 9 miscellaneous hazardous material".
+Although devices containing lithium-ion batteries may be transported in checked baggage, spare batteries may be only transported in carry-on baggage. They must be protected against short circuiting, and example tips are provided in the transport regulations on safe packaging and carriage; e.g., such batteries should be in their original protective packaging or, "by taping over the exposed terminals or placing each battery in a separate plastic bag or protective pouch". These restriction do not apply to a lithium-ion battery that is a part of a wheelchair or mobility aid (including any spare batteries) to which a separate set of rules and regulations apply.
+Some postal administrations restrict air shipping (including EMS) of lithium and lithium-ion batteries, either separately or installed in equipment. Such restrictions apply in Hong Kong, Australia and Japan. Other postal administrations, such as the United Kingdom's Royal Mail may permit limited carriage of batteries or cells that are operative but totally prohibit handling of known defective ones, which is likely to prove of significance to those discovering faulty such items bought through mail-order channels. IATA provides details in its Lithium Battery Guidance document.
+On 16 May 2012, the United States Postal Service (USPS) banned shipping anything containing a lithium battery to an overseas address, after fires from transport of batteries.
+This restriction made it difficult to send anything containing lithium batteries to military personnel overseas, as the USPS was the only method of shipment to these addresses; the ban was lifted on 15 November 2012. United Airlines and Delta Air Lines excluded lithium-ion batteries in 2015 after an FAA report on chain reactions.
+The Boeing 787 Dreamliner uses large lithium cobalt oxide batteries, which are more reactive than newer types of batteries such as .
+Starting on 15 January 2018, several major U.S. airlines banned smart luggage with non-removable batteries from being checked in to travel in the cargo hold due to the risk of fire. Some airlines continued to mistakenly prevent passengers from bringing smart luggage as a carry on after the ban went into effect.
+Several smart luggage companies have been forced to shut down as a result of the ban.
+RESEARCH
+Section::::Research.
+Researchers are actively working to improve the power density, safety, cycle durability (battery life), recharge time, cost, flexibility, and other characteristics, as well as research methods and uses, of these batteries.
+SEE ALSO
+* Aluminium-ion battery
+* Bipolar battery
+* Comparison of battery types
+* Gigafactory 1
+* Glass battery
+* List of battery sizes
+* List of battery types
+* List of energy densities
+* Lithium as an investment
+* Lithium battery
+* Lithium-ion capacitor (LIC)
+* Lithium ion manganese oxide battery
+* Lithium iron phosphate battery
+* Lithium polymer battery
+* Lithium sulfur battery
+* Lithium titanate battery
+* Lithium vanadium phosphate battery
+* Lithium-ion flow battery
+* Lithium–air battery
+* Lithium–silicon battery
+* Nanotechnology
+* Nanowire battery
+* Plug-in electric vehicle fire incidents
+* Potassium-ion battery
+* Search for the Super Battery (2017 PBS film)
+* Sodium-ion battery
+* Solid-state lithium-ion battery
+* Thin film lithium-ion battery
+* UPS Airlines Flight 6, crashed, fire caused by Lithium-ion batteries
+REFERENCES
+FURTHER READING
+EXTERNAL LINKS
+* Energy Storage Safety at National Renewable Energy Laboratory
+* NREL Innovation Improves Safety of Electric Vehicle Batteries, National Renewable Energy Laboratory, October 2015
+* Degradation Mechanisms and Lifetime Prediction for Lithium-Ion Batteries – A Control Perspective, National Renewable Energy Laboratory, July 2015.
+* Addressing the Impact of Temperature Extremes on Large Format Li-ion Batteries for Vehicle Applications, National Renewable Energy Laboratory, March 2013.
+* IATA. Dangerous Goods (Hazmat): Lithium Batteries – Guidance.
+* Investigation of the fire performance of lithium-ion- and lithium-metal-batteries in various applications and derivative of tactical recommendations (Research Report in German, Forschungsstelle für Brandschutztechnik, Karlsruhe Institute of Technology – KIT) (PDF)

@@ -1,0 +1,61 @@
+
+NA+/K+-ATPASE
+-ATPase (sodium-potassium adenosine triphosphatase, also known as the pump or sodium–potassium pump) is an enzyme (an electrogenic transmembrane ATPase) found in the plasma membrane of all animal cells. It performs several functions in cell physiology.
+The -ATPase enzyme is a solute pump that pumps sodium out of cells while pumping potassium into cells, both against their concentration gradients. This pumping is active (i.e. it uses energy from ATP). For every ATP molecule that the pump uses, three sodium ions are exported and two potassium ions are imported; there is hence a net export of a single positive charge per pump cycle.
+The sodium-potassium pump was discovered in 1957 by the Danish scientist Jens Christian Skou, who was awarded a Nobel Prize for his work in 1997. Its discovery marked an important step forward in the understanding of how ions get into and out of cells, and it has particular significance for excitable cells such as nerve cells, which depend on this pump to respond to stimuli and transmit impulses.
+An alternative theory, Ling's adsorption theory, posits that the membrane potential and action potential of a living cell is due to the adsorption of mobile ions onto adsorption sites of cells.
+All mammals have four different sodium pump sub-types, or isoforms. Each has unique properties and tissue expression patterns.
+FUNCTION
+Section::::Function.
+The -ATPase helps maintain resting potential, affects transport, and regulates cellular volume. It also functions as a signal transducer/integrator to regulate the MAPK pathway, ROS, as well as intracellular calcium. In most animal cells, the -ATPase is responsible for about 1/4 of the cell's energy expenditure. For neurons, the -ATPase can be responsible for up to 3/4 of the cell's energy expenditure.
+RESTING POTENTIAL
+Section::::Resting potential.
+In order to maintain the cell membrane potential, cells keep a low concentration of sodium ions and high levels of potassium ions within the cell (intracellular). The sodium-potassium pump mechanism moves 3 sodium ions out and moves 2 potassium ions in, thus, in total, removing one positive charge carrier from the intracellular space (please see Mechanism for details).
+TRANSPORT
+Section::::Transport.
+Export of sodium from the cell provides the driving force for several secondary active transporters membrane transport proteins, which import glucose, amino acids, and other nutrients into the cell by use of the sodium gradient.
+Another important task of the - pump is to provide a gradient that is used by certain carrier processes. In the gut, for example, sodium is transported out of the reabsorbing cell on the blood (interstitial fluid) side via the - pump, whereas, on the reabsorbing (lumenal) side, the -glucose symporter uses the created gradient as a source of energy to import both and glucose, which is far more efficient than simple diffusion. Similar processes are located in the renal tubular system.
+CONTROLLING CELL VOLUME
+Section::::Controlling cell volume.
+Failure of the - pumps can result in swelling of the cell. A cell's osmolarity is the sum of the concentrations of the various ion species and many proteins and other organic compounds inside the cell. When this is higher than the osmolarity outside of the cell, water flows into the cell through osmosis. This can cause the cell to swell up and lyse. The - pump helps to maintain the right concentrations of ions.
+Furthermore, when the cell begins to swell, this automatically activates the - pump. 
+FUNCTIONING AS SIGNAL TRANSDUCER
+Section::::Functioning as signal transducer.
+Within the last decade, many independent labs have demonstrated that, in addition to the classical ion transporting, this membrane protein can also relay extracellular ouabain-binding signalling into the cell through regulation of protein tyrosine phosphorylation. The downstream signals through ouabain-triggered protein phosphorylation events include activation of the mitogen-activated protein kinase (MAPK) signal cascades, mitochondrial reactive oxygen species (ROS) production, as well as activation of phospholipase C (PLC) and inositol triphosphate (IP3) receptor (IP3R) in different intracellular compartments.
+Protein-protein interactions play a very important role in - pump-mediated signal transduction. For example, - pump interacts directly with Src, a non-receptor tyrosine kinase, to form a signaling receptor complex. Src kinase is inhibited by - pump, while, upon ouabain binding, the Src kinase domain will be released and then activated. Based on this scenario, NaKtide, a peptide Src inhibitor derived from - pump, was developed as a functional ouabain-- pump-mediated signal transduction. - pump also interacts with ankyrin, IP3R, PI3K, PLC-gamma and cofilin.
+CONTROLLING NEURON ACTIVITY STATES
+Section::::Controlling neuron activity states.
+The - pump has been shown to control and set the intrinsic activity mode of cerebellar Purkinje neurons, accessory olfactory bulb mitral cells and probably other neuron types. This suggests that the pump might not simply be a homeostatic, "housekeeping" molecule for ionic gradients; but could be a computation element in the cerebellum and the brain. Indeed, a mutation in the - pump causes rapid onset dystonia parkinsonism, which has symptoms to indicate that it is a pathology of cerebellar computation. Furthermore, an ouabain block of - pumps in the cerebellum of a live mouse results in it displaying ataxia and dystonia. Alcohol inhibits sodium-potassium pumps in the cerebellum and this is likely how it corrupts cerebellar computation and body co-ordination. The distribution of the - pump on myelinated axons, in human brain, was demonstrated to be along the internodal axolemma, and not within the nodal axolemma as previously thought.
+MECHANISM
+* The pump, after binding ATP, binds 3 intracellular ions.
+* ATP is hydrolyzed, leading to phosphorylation of the pump at a highly conserved aspartate residue and subsequent release of ADP.
+* A conformational change in the pump exposes the ions to the outside. The phosphorylated form of the pump has a low affinity for ions, so they are released.
+* The pump binds 2 extracellular ions. This causes the dephosphorylation of the pump, reverting it to its previous conformational state, transporting the ions into the cell.
+* The unphosphorylated form of the pump has a higher affinity for ions than ions, so the two bound ions are released. ATP binds, and the process starts again.
+REGULATION
+ENDOGENOUS
+Section::::Regulation.
+Section::::Endogenous.
+The -ATPase is upregulated by cAMP. Thus, substances causing an increase in cAMP upregulate the -ATPase. These include the ligands of the G-coupled GPCRs. In contrast, substances causing a decrease in cAMP downregulate the -ATPase. These include the ligands of the G-coupled GPCRs.
+Note: Early studies indicated the opposite effect, but these were later found to be inaccurate due to additional complicating factors. 
+EXOGENOUS
+Section::::Exogenous.
+The --ATPase can be pharmacologically modified by administrating drugs exogenously.
+For instance, --ATPase found in the membrane of heart cells is an important target of cardiac glycosides (for example digoxin and ouabain), inotropic drugs used to improve heart performance by increasing its force of contraction.
+Muscle contraction is dependent on a 100- to 10,000-times-higher-than-resting intracellular concentration, which is caused by release from the muscle cells' sarcoplasmic reticulum. Immediately after muscle contraction, intracellular is quickly returned to its normal concentration by a carrier enzyme in the plasma membrane, and a calcium pump in sarcoplasmic reticulum, causing the muscle to relax.
+Since this carrier enzyme (- translocator) uses the Na gradient generated by the - pump to remove from the intracellular space, slowing down the - pump results in a permanently elevated level in the muscle, which may be the mechanism of the long-term inotropic effect of cardiac glycosides such as digoxin.
+DISCOVERY
+Section::::Discovery.
+-ATPase was discovered by Jens Christian Skou in 1957 while working as assistant professor at the Department of Physiology, University of Aarhus, Denmark. He published his work that year.
+In 1997, he received one-half of the Nobel Prize in Chemistry "for the first discovery of an ion-transporting enzyme, , -ATPase."
+GENES
+* Alpha: ATP1A1, ATP1A2, ATP1A3, ATP1A4. #1 predominates in kidney. #2 is also known as "alpha(+)"
+* Beta: ATP1B1, , ATP1B3,
+ADDITIONAL IMAGES
+SEE ALSO
+* Thyroid hormone
+* V-ATPase
+REFERENCES
+EXTERNAL LINKS
+* RCSB Protein Data Bank : Sodium-Potassium Pump
+* video Khan Academy.

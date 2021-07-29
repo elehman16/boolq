@@ -1,0 +1,338 @@
+
+E-ZPASS
+E‑ZPass is an electronic toll collection system used on most tolled roads, bridges, and tunnels in the Midwestern and Eastern United States, as far south as Florida and as far west as Illinois. The E-ZPass Interagency Group (IAG) consists of 39 member agencies in operation within 17 states, which use the same technology and allow travelers to use the same transponder on toll roads throughout the network. Since its creation in 1987, various independent systems that use the same technology have been folded into the E-ZPass system, including the I-Pass in Illinois and the NC Quick Pass in North Carolina. Negotiations are ongoing for nation-wide interoperatibility in the United States (see ).
+FUNCTIONALITY
+TECHNOLOGY
+Section::::Functionality.
+Section::::Technology.
+E‑ZPass tags are active RFID transponders, made exclusively by Kapsch TrafficCom (formerly Mark IV Industries Corp—IVHS Division). They communicate with reader equipment built into lane-based or open-road toll collection lanes by transmitting a unique radio signature. The most common type of tag is an internal tag that can be mounted on the inside of the vehicle's windshield in proximity to the rear-view mirror. Though toll agencies advise adherence to the windshield with mounting strips (usually 3M's Scotch brand "Dual Lock" fasteners), third-party options using trays with suction cups to adhere a pass to a windshield temporarily if used in multiple vehicles are available. Some vehicles have windshields that block RF signals; for those vehicles, historical vehicles, and customers who have aesthetic concerns, an external tag is offered, typically designed to attach to the vehicle's front license plate mounting points.
+Although a tag can be used with a motorcycle, there are usually no official instructions given for mounting due to the numerous variations between bike designs and the small area of a motorcycle windshield which could prove a hindrance if the transponder is attached following automobile instructions. Transponders may be put in a shirt or jacket pocket, if necessary.
+Most E‑ZPass lanes are converted manual toll lanes and must have fairly low speed limits for safety reasons (between is typical), so that E‑ZPass vehicles can merge safely with vehicles that stopped to pay a cash toll and, in some cases, to allow toll workers to safely cross the E‑ZPass lanes to reach booths accepting cash payments. In some areas, however (typically recently built or retrofitted facilities), there is no need to slow down, because E‑ZPass users can utilize dedicated traffic lanes ("Express E‑ZPass") that are physically separate from the toll-booth lanes. Examples include:
+* Delaware Route 1,
+* Hampton toll plaza on I‑95 in New Hampshire
+* Hooksett toll plaza on I‑93 in New Hampshire
+* Interstate 78 Toll Bridge,
+* Newark Toll Plaza on the Delaware Turnpike,
+* Pocahontas Parkway in Virginia
+* Atlantic City Expressway,
+* Three locations on the New Jersey Turnpike (near the Delaware Memorial Bridge (Exit 1), near Exit 18W, and the Pennsylvania Extension, which connects to the Pennsylvania Turnpike (Exit 6)),
+* Garden State Parkway,
+* Pennsylvania Turnpike's Gateway, Warrendale, Neshaminy Falls and Mid-County (I‑476) toll plazas,
+* New sections of the Mon–Fayette Expressway,
+* New York State Thruway at the Woodbury toll barrier
+* Illinois Tollway system
+Each E-ZPass tag is specifically programmed for a particular class of vehicle; while any valid working tag will be read and accepted in any E‑ZPass toll lane, the wrong toll amount will be charged if the tag's programmed vehicle class does not match the vehicle. This will result in a violation and possible large fine assessed to the tag holder, especially if a lower-class (e.g., passenger car) tag is being used in a higher-class vehicle such as a bus or truck. In an attempt to avoid this, E‑ZPass tags for commercial vehicles are blue in color, contrasting with the white tags assigned to standard passenger vehicles. The blue E‑ZPass is also used in government employee vehicles. In New York, an orange E‑ZPass tag is issued to emergency vehicles as well as to employees of the Metropolitan Transportation Authority, Port Authority of New York and New Jersey, and New York State Thruway Authority.
+For purposes of interoperability, all agencies are connected to each other by a secure network (the "reciprocity network"). This network provides the means to exchange tag data and process toll transactions across the various agencies. Tag data is exchanged among the agencies on a nightly basis. This data can take up to 24 hours on the primary network the unit is issued by (e.g., the New York State Thruway or Illinois Tollway system), but may be delayed by as much as 72 hours on other networks.
+TECHNOLOGY DETAILS
+Section::::Technology details.
+The E‑ZPass transponder works by listening for a signal broadcast by the reader stationed at the toll booth. This 915 MHz signal is sent at 500 kbit/s using the TDM (formerly IAG) protocol in 256‑bit packets. Transponders use active Type II read/write technology. In April 2013, Kapsch (purchasers of Mark IV Industries) made the protocol available to all interested parties royalty-free in perpetuity and is granting the right to sublicense the protocol.
+RETAIL AVAILABILITY
+Section::::Retail availability.
+Some issuing agencies offer a packaged E‑ZPass transponder preloaded with toll funds sold over-the-counter at a retail setting (such as a supermarket or pharmacy service desk) that is valid immediately. A portion of the balance is available instantly; customers can access the remaining balance when they register their transponders with the issuing E‑ZPass agency within several days of first using their E-ZPass.
+USAGE
+Section::::Usage.
+According to the Port Authority of New York and New Jersey, 83.4% of vehicles crossing its six bridges and tunnels used E-ZPass for toll payment during all of 2016.
+HISTORY
+Section::::History.
+The notion of electronic tolling had been considered as early as the early 1990s in the New York metropolitan area. The tolling agencies of New York, New Jersey, and Pennsylvania—which constitute two-thirds of the United States' $3 billion-a-year toll industry—sought to create a compatible electronic-tolling technology that could be used on the toll roads and bridges of the three states, in an effort to reduce congestion on some of the busiest roadways and toll plazas in the United States. In 1991, the Interagency Committee was created to develop an interoperable system, and involved the participation and cooperation of seven independent toll agencies—the Port Authority of New York and New Jersey, the New Jersey Turnpike Authority, the New Jersey Highway Authority (which, at the time, operated the Garden State Parkway), the Triborough Bridge and Tunnel Authority (legally MTA Bridges and Tunnels), the New York State Thruway Authority, the Pennsylvania Turnpike Commission, and the South Jersey Transportation Authority (operator of the Atlantic City Expressway). The E‑ZPass trademark, however, belongs to the Port Authority of New York and New Jersey. The Port Authority has been aggressive at protecting its trademark, including forcing the Los Angeles County Metropolitan Transportation Authority to rename the "EZ Pass" regional transit pass to "EZ transit pass" to protect its rights.
+The seven agencies started making plans to test two possible technologies for E-ZPass in 1992. The technologies would be installed along the Garden State Parkway and the New York State Thruway. E‑ZPass was first deployed on the Thruway at the Spring Valley toll plaza on August 3, 1993. Over the following three and a half years, the New York State Thruway Authority (NYSTA) installed electronic toll-collection equipment, in stages, along the Thruway. By February 6, 1997, E‑ZPass had been installed along the entire length of the corridor.
+The Triborough Bridge and Tunnel Authority, which maintains all toll bridges and tunnels that begin and end in New York City, is the largest tolling agency by revenue in the United States ($1.9 billion in 2017). It began its E-ZPass implementation in 1995 and completed it at all nine of its toll facilities by January 1997. E-ZPass was popular among motorists who frequently used TBTA crossings, and by August 1996, nearly 2,000 motorists per day were signing up for E-ZPass. The Port Authority of New York and New Jersey, which operates all bridges and tunnels between New York City and New Jersey, implemented E-ZPass at the George Washington Bridge in July 1997, and at the Holland Tunnel and Lincoln Tunnel in October 1997.
+The Pennsylvania Turnpike had planned to adopt E-ZPass by 1998; however, implementation of the system was postponed until December 2, 2000, when E-ZPass debuted on the turnpike between Harrisburg West and the Delaware River Bridge. By December 15, 2001, E-ZPass could be used on the entire length of the mainline Pennsylvania Turnpike. Commercial vehicles were allowed to use the system beginning on December 14, 2002, and the entire Turnpike system was taking E-ZPass by 2006.
+On October 6, 1998, a U.S. patent for an "automated toll collection system" was issued to Fred Slavin and Randy J. Schafer.
+Meanwhile, various other agencies began work on similar electronic toll collecting facilities. This resulted in the emergence of other networks:
+* The MassPass system used in Massachusetts, changed to the compatible Fast Lane in 1998 and rebranded E‑ZPass in 2012
+* The I-Pass system used in Illinois
+* The I-Zoom system used in Indiana, rebranded E‑ZPass in 2012
+* The Smart Tag system used in Virginia, merged with E-ZPass in 2004
+* The TransPass system used in Maine, since replaced by the E‑ZPass system
+* The M‑Tag system used in Maryland, integrated into and rebranded E‑ZPass in 2001
+* The Quick Pass system used in North Carolina, partially integrated in 2013 and integrated into Florida's SunPass system
+Originally, these systems were not interchangeable with E‑ZPass. However, since most of them use the same technology (or have since converted over to a compatible technology), all of them have been incorporated into the E‑ZPass network. Though several still retain their own brand name for their own facilities, users of those systems can use E‑ZPass and vice versa. As a result, all E-ZPass holders can use their transponders in any of the states that offer it.
+The E‑ZPass system continues to expand. The Indiana Toll Road Concessions Corporation has upgraded its toll plazas to include E‑ZPass functionality on the Indiana East–West Toll Road, while the Ohio Turnpike Commission has upgraded its toll plazas in October 2009 for the Ohio Turnpike (I‑76, I‑80, I‑90). On December 16, 2008, Rhode Island joined the network by activating E‑ZPass lanes in the state's only toll booth, at the Claiborne Pell Newport Bridge. The Kentucky Transportation Cabinet, which had a toll road system predating the E-ZPass system which was ended in 2006, announced at the end of July 2015 its entrance into the E-ZPass system as part of the financing for the Louisville-area Ohio River Bridges Project involving the new Abraham Lincoln (paired with the retrofitted Kennedy) and Lewis and Clark bridges. On November 9, 2017, the Central Florida Expressway Authority (CFX) announced that is was joining the E-ZPass group. CFX began accepting E-ZPass along its toll roads on September 1, 2018.
+E‑ZPass ETC transponders do not work on all toll roads in the United States. Currently, the E-ZPass electronic toll-collection system (as well as the other ETC systems that are part of the E‑ZPass network) are not compatible with most Florida systems (including SunPass), California's FasTrak, Kansas's K‑Tag, Oklahoma's Pikepass, Texas's TxTag, Utah's Express Pass, Puerto Rico's AutoExpreso, Georgia's Peach Pass and Cruise Card, or other ETC systems outside of E‑ZPass operating regions. Under MAP-21, passed in 2012, all ETC facilities in the United States should reach some form of interoperability by October 1, 2016; however, no funding was provided for this effort, nor were penalties established for failure to meet this deadline, and this has yet to be accomplished.
+In 2009 an organization called the Alliance for Toll Interoperability stated that it was exploring the option of using high-speed cameras to take photographs of the cars passing through non-E‑ZPass lanes in other states. The Pennsylvania Turnpike Commission, which has been studying going towards all-electronic tolling in order to cut costs, plans to implement such a system for non-E-ZPass users by 2018.
+E-ZPASS IN CANADA
+Section::::E-ZPass in Canada.
+Until 2005, drivers crossing the Peace Bridge between Fort Erie, Ontario, and Buffalo, New York, paid a toll before crossing to Canada. Following upgrades to the border crossings in 2005, drivers instead pay a toll on the Canadian side of the Peace Bridge after clearing Canadian customs. This is the first E‑ZPass toll gantry outside of the United States. The toll goes to the Buffalo and Fort Erie Public Bridge Authority, a bi-national agency responsible for maintaining the international bridge.
+On August 11, 2014, E-ZPass began to be accepted at the Lewiston–Queenston Bridge, Rainbow Bridge, and Whirlpool Rapids Bridge. The toll for the Lewiston-Queenston Bridge is paid in Canada after clearing Canadian customs, whereas the toll is paid before leaving the United States at the other two bridges. The toll from these three bridges goes to the Niagara Falls Bridge Commission.
+VARIANTS
+E-ZPASS PLUS
+Section::::Variants.
+Section::::E-ZPass Plus.
+For E-ZPass subscribers who replenish their accounts with a major credit card, the Port Authority of New York and New Jersey offers an E-ZPass option to pay for parking at three Port Authority airports—John F. Kennedy, LaGuardia, and Newark Liberty—through a program known as E-ZPass Plus. This program is also available in New York at Albany International Airport in Albany; Syracuse Hancock International Airport in Syracuse; and the parking lots at the New York State Fair when the fair is in progress; as well as in Atlantic City, New Jersey, at Atlantic City International Airport, the New York Avenue Parking Garage, and the Atlantic City Surface Lot.
+The parking payment is debited from the prepaid E‑ZPass account if the parking fee is less than $20. If it is $20 or more, the amount is charged directly to the credit card used to replenish the E‑ZPass account. The Port Authority reports that drivers save an average of 15 seconds by opting to pay for airport parking using E‑ZPass.
+Subscribers who replenish their E‑ZPass accounts with cash or check cannot participate in this program. Additionally, , this service is only available to customers of the DelDOT, Delaware River Joint Toll Bridge Commission, Delaware River and Bay Authority, in Delaware; of the New Hampshire DOT; in Maryland; in New Jersey and New York to customers of the PANYNJ, the New York MTA, or the NYS Thruway; and to customers of the Pennsylvania Turnpike Commission.
+E-ZPASS FLEX
+Section::::E-ZPass Flex.
+In late 2012, the I‑495 HOT (high occupancy toll) lanes in Virginia started to support E‑ZPass Flex transponders. These work similarly to regular transponders, but let the driver switch between HOV and toll-paying modes. When a transponder is switched to HOV mode (with three or more passengers in the vehicle), it is read by the HOT lane's toll equipment but no toll is charged. E-ZPass Flex also works like a standard E-ZPass on all other toll roads where E-ZPass is accepted, regardless of the position of the switch.
+EFFECTS
+REDUCED POLLUTION AND HEALTH IMPROVEMENT
+Section::::Effects.
+Section::::Reduced pollution and health improvement.
+A study published in the American Economic Journal: Applied Economics, "Traffic Congestion and Infant Health: Evidence from E-ZPass", compared fetal health outcomes for mothers living near congested and uncongested toll plazas on three major highways in Pennsylvania and New Jersey. The researchers focused on areas where toll plazas had instituted E-ZPass, which, because cars travel through more efficiently, diminishes congestion and pollution. The study drew its conclusions by looking at the health outcomes of nearly 30,000 births among mothers who lived within two kilometers of an E-ZPass toll plaza. The researchers state that their findings "suggest that the adoption of E-ZPass was associated with significant improvements of infant health." The study's specific findings were: 1) In areas where E-ZPass was adopted, rates of infant prematurity decreased by between 6.7% and 9.1%; this means that, out of the sample studied, 255 preterm births were likely avoided; 2) Introduction of E-ZPass was correlated with a reduction in the incidence of low birth weight by between 8.5% and 11.3%; that means 275 cases of low birth weight may have been avoided.
+PRIVACY CONCERNS
+Section::::Privacy concerns.
+Civil liberties and privacy rights advocates have expressed concern about how the position data gathered through E‑ZPass is used. , several states that employ E‑ZPass had provided electronic toll information in response to court orders in civil cases, including divorces and other non-criminal matters.
+Position data is collected by antennas at locations in addition to fee collection locations. The New York State Department of Transportation (NYSDOT), for example, collect transponder information to provide real-time estimates of travel times between common destinations. By subtracting the time when vehicles pass under the first sign from the current time, the sign can display the expected travel time between the sign and the destination point ahead. This information is also used to determine the best times to schedule maintenance-related lane closures and for other traffic management purposes. According to NYSDOT, the individual tag information is encrypted, is deleted as soon as the vehicle passes the last reader, and is never made available to the Department.
+ACCOUNTS AND AGENCIES
+Section::::Accounts and agencies.
+Within the IAG, each member agency has its own billing and customer service center, and each establishes its own fee and discount structures. The agencies also set their own customer account policies. Areas of variation include the refundable deposit or nonrefundable charge for a tag, periodic maintenance fees, paper statement fees, the low account threshold, and replenishment amounts. E‑ZPass is usually offered as a debit account: tolls are deducted from prepayments made by the users. Users may opt to have prepayments automatically deposited when their account is low, or they may submit prepayments manually, either by phone or a toll authority's web portal, depending on the agency. For commercial accounts, some agencies allow postpaid plans with a security deposit (which effectively renders them prepaid accounts, with a different replenishment policy).
+Some agencies have imposed periodic account maintenance fees on their subscribers. After New Jersey began losing money with the E‑ZPass system, a monthly account fee of one dollar was implemented on July 15, 2002 and is still in effect for both individual and business accounts. The Port Authority of New York and New Jersey also charges a monthly individual account fee of one dollar. On July 1, 2009, the Maryland Transportation Authority began charging a fee of $1.50 a month to accountholders which, , only applies to non-residents and is waived if three Maryland E‑ZPass tolls were incurred during the previous month.
+The Triborough Bridge and Tunnel Authority (TBTA) in New York City once imposed a monthly account fee starting on July 1, 2005, claiming to defray the administrative costs. However, New York State Assembly Bill A06859A in 2005 and 2006 and Senate Bill S6331 in 2006 both considered such a fee threatening the efficiency to move traffic faster with lower tolls and sought to ban it. When the New York State Law started to ban the monthly account fee, the TBTA repealed it on June 1, 2006, and those, especially New Jerseyans, seeking New York accounts and avoiding the monthly fee still imposed by New Jersey and Port Authority, would have to apply for the TBTA or the New York State Thruway accounts at an E‑ZPass New York Service Center.
+Several agencies offer discounted tolls to E-ZPass customers. The details vary widely, and can include general discounts for all E‑ZPass users, variable pricing discounts for off-peak hours, commuter plans with minimum usage levels, flat rate plans offering unlimited use for a period of time, carpool plans for high-occupancy vehicles, and resident plans for those living near particular toll facilities. Many of these plans are available only to customers whose tags are issued by the agency that owns the toll facility in question (reciprocity applies to tag acceptance, not to discounts). Eight authorities in the Northeast (Maine, the Massachusetts Turnpike, the New Hampshire Turnpike, Rhode Island, the New York TBTA, the New York State Thruway, the New Jersey Turnpike, DelDOT and Maryland) restrict their general discounts to their own respective tagholders. The Delaware Memorial Bridge restricts its discount plans to New Jersey tags despite its toll plaza being located in Delaware (DelDOT-issued tags cannot obtain the discount plans).
+Some agencies charge a one-time fee between $20 and $30 for each new transponder, including the Delaware Department of Transportation, the New Hampshire Department of Transportation, and the Maine Turnpike Authority. At least two agencies, the Delaware River and Bay Authority and the Maryland Transportation Authority, once charged multiple fees. In a press release dated July 17, 2007, the DRBA stated: "Beginning January 1, 2008, all DRBA E-ZPass account holders will be charged an account management fee of $1.50 per month. The transponder cost will also be passed on to E‑ZPass customers for each new transponder." E‑ZPass New York charges a monthly fee of 50 cents for each tag in connection with a business account. The DRBA since merged its service center with New Jersey's E-ZPass service center. On July 1, 2015, a plan put forth by Governor Hogan eliminated Maryland's monthly fee (except accounts without a Maryland address, unless using Maryland toll facilities at least three times in the previous statement period) along with decreasing some toll rates especially for Maryland-issued E-ZPass tags.
+E‑ZPass users are not required to maintain their account with an agency in their home state. Subscribers can open an E‑ZPass account with any member of the IAG regardless of residency. This means that users have the option of choosing an agency based on the fees that it charges, effectively allowing them to circumvent transponder and account maintenance fees.
+FEES AND DISCOUNTS BY STATE
+Section::::Fees and discounts by state.
+! State
+! Monthly/annual fee(s)
+! Deposit
+! Minimum balance
+! Discounts
+With special transponder obtained by application: Residents of Charlestown and Chelsea pay $0.15 on Tobin Bridge. Residents of East Boston, South Boston, and the North End pay $0.20 at Sumner and Ted Williams tunnels. 
+At all Port Authority facilities, E‑ZPass discounts are available. At MTA Bridges and Tunnels, E-ZPass discounts for tags issued by the New York E-ZPass Customer Service Center (NY E-ZPass) range from 32% to 56%. At most facilities, NY E-ZPass tolls are $2.74 less than Tolls by Mail rates (all of its facilities are open road cashless tolling). NY E-ZPass rates are $5.48 off for a round-trip at the Verrazano-Narrows Bridge and a $2.09 discount at the Marine Parkway–Gil Hodges Memorial Bridge and Cross Bay Veterans Memorial Bridge. At the Henry Hudson Bridge, NY E-ZPass gives a $3.36 discount. At all New York State Thruway and New York State Bridge Authority facilities, E‑ZPass discounts apply. Discount rates apply only to customer tags issued by a New York E-ZPass Customer Service Center (discounts don't apply to out-of-state E-ZPass holders).
+NY now also offers a Pay-Per-Trip option for total tolls to transact on a daily basis directly via the checking account linked per tag. It is optional (yet recommended) that a credit card be kept on file, but monthly balances are not required under this new payment option in New York.
+$0.83 per car on the Claiborne Pell Newport Bridge toll for Rhode Island residents only (as opposed to the normal $2/axle)
+Notes
+LIST OF PLACES WHERE E-ZPASS IS ACCEPTED
+LIST OF AGENCIES
+Section::::List of places where E-ZPass is accepted.
+Section::::List of agencies.
+As listed on its website, the E-ZPass Interagency Group includes "39 members in 17 states".
+* Buffalo and Fort Erie Public Bridge Authority (New York/Ontario)
+* Burlington County Bridge Commission (New Jersey/Pennsylvania)
+* Central Florida Expressway Authority
+* Delaware Department of Transportation
+* Delaware River and Bay Authority (Delaware/New Jersey)
+* Delaware River Joint Toll Bridge Commission (New Jersey/Pennsylvania)
+* Delaware River Port Authority (New Jersey/Pennsylvania)
+* Illinois State Toll Highway Authority
+* Indiana Toll Road Concession Company
+* Maine Turnpike Authority
+* Kentucky Public Transportation Infrastructure Authority (see also Ohio River Bridges Project)
+* Maryland Transportation Authority
+* Massachusetts Department of Transportation
+* Metropolitan Transportation Authority Bridges and Tunnels (New York)
+* New Hampshire Department of Transportation
+* New Jersey Turnpike Authority
+* New York State Bridge Authority
+* New York State Thruway Authority
+* Niagara Falls Bridge Commission
+* North Carolina Turnpike Authority
+* Ohio Turnpike and Infrastructure Commission
+* Pennsylvania Turnpike Commission
+* Port Authority of New York and New Jersey (New Jersey/New York)
+* Rhode Island Turnpike and Bridge Authority
+* Skyway Concessions Company (Illinois)
+* South Jersey Transportation Authority (New Jersey)
+* Thousand Islands Bridge Authority (New York) – does not currently offer ETC, but plans to implement E-ZPass at an undetermined date in 2017
+* Virginia Department of Transportation
+* West Virginia Parkways Authority
+Although the Virginia Department of Transportation is Virginia's sole member of the E-ZPass Interagency Group, not all E-ZPass facilities in Virginia are operated by the Department of Transportation.
+Each of the 17 E-ZPass states operates its own E-ZPass Service Center. NJ E-ZPass manages accounts for the Burlington County Bridge Commission, Delaware River and Bay Authority, Delaware River Joint Toll Bridge Commission and Delaware River Port Authority. The E-ZPass New York Service Center operates accounts for the Buffalo and Port Erie Public Bridge Authority, the Niagara Falls Bridge Commission, and the Port Authority of New York and New Jersey.
+LIST OF ROADWAYS, BRIDGES, TUNNELS, AND AIRPORTS
+Section::::List of roadways, bridges, tunnels, and airports.
+The following tolled roads, bridges, tunnels, and airports accept E‑ZPass. Crossings between jurisdictions are listed in the state where the toll collection point is located, or linked to (in the case of international border crossings).
+DELAWARE
+* Delaware Turnpike/Interstate 95
+* Delaware Route 1
+* Delaware Memorial Bridge/Interstate 295
+FLORIDA
+* Florida State Road 408 east of Colonial Drive
+* Florida State Road 414
+* Florida State Road 417 between the Orange-Seminole county line and International Drive/World Center Drive
+* Florida State Road 429 between the Orange-Lake county line and Seidel Road
+* Florida State Road 451
+* Florida State Road 453
+* Florida State Road 528 (Beachline Expressway) between McCoy Road and SR 520
+ILLINOIS
+* Chicago Skyway/Interstate 90
+* Elgin-O'Hare Western Access/Illinois Route 390
+* Jane Addams Memorial Tollway/Interstate 90
+* Ronald Reagan Memorial Tollway/Interstate 88 (west)
+* Tri-State Tollway/Interstate 80, Interstate 94, and Interstate 294
+* Veterans Memorial Tollway/Interstate 355
+INDIANA
+* Indiana Toll Road/Interstate 80, Interstate 90
+KENTUCKY
+* Lincoln & Kennedy Bridges/Interstate 65
+* Lewis and Clark Bridge/Interstate 265
+MAINE
+* Maine Turnpike/Interstate 95 (partial not full length of Interstate 95 but only between the New Hampshire line at Kittery and the junction with US 202 near Augusta)
+MARYLAND
+* Baltimore Harbor Tunnel/Interstate 895
+* Fort McHenry Tunnel/Interstate 95
+* Francis Scott Key Bridge/Interstate 695
+* Maryland Route 200 (Intercounty Connector)
+* John F. Kennedy Memorial Highway/Interstate 95
+* William Preston Lane Jr. Memorial Bridge (aka the Chesapeake Bay Bridge)/U.S. Route 50 and U.S. Route 301
+* Governor Harry W. Nice Memorial Bridge/U.S. Route 301
+* Thomas J. Hatem Memorial Bridge/U.S. Route 40
+MASSACHUSETTS
+* Callahan Tunnel/Massachusetts Route 1A
+* Massachusetts Turnpike/Interstate 90
+* Boston Extension
+* Sumner Tunnel/Massachusetts Route 1A
+* Ted Williams Tunnel/Interstate 90
+* Tobin Bridge/U.S. Route 1
+NEW HAMPSHIRE
+* Everett Turnpike/U.S. Route 3, Interstate 293, New Hampshire Route 3A, and Interstate 93
+* New Hampshire Turnpike/Interstate 95 (aka the Blue Star Turnpike)
+* Spaulding Turnpike/New Hampshire Route 16
+NEW JERSEY
+* Atlantic Avenue Parking Lot, Atlantic City
+* Atlantic City Expressway
+* Atlantic City International Airport
+* Benjamin Franklin Bridge/Interstate 676
+* Betsy Ross Bridge/New Jersey Route 90
+* Burlington-Bristol Bridge/New Jersey Route 413 and Pennsylvania Route 413
+* Commodore Barry Bridge/U.S. Route 322
+* Easton–Phillipsburg Toll Bridge/U.S. Route 22
+* Garden State Parkway
+* George Washington Bridge/Interstate 95
+* Holland Tunnel/Interstate 78
+* Lincoln Tunnel/New Jersey Route 495, New York State Route 495
+* New Jersey Turnpike/Interstate 95 and Interstate 78
+* New York Avenue Garage, Atlantic City
+* Newark Liberty International Airport
+* Ocean Drive
+* Tacony–Palmyra Bridge/New Jersey Route 73 and Pennsylvania Route 73
+NEW YORK
+* Albany International Airport
+* Bayonne Bridge/New Jersey Route 440 and New York Route 440
+* Bear Mountain Bridge/U.S. Route 6 and U.S. Route 202
+* Bronx–Whitestone Bridge/Interstate 678
+* Brooklyn–Battery Tunnel/Interstate 478
+* Cross Bay Veterans Memorial Bridge
+* Goethals Bridge/Interstate 278
+* Henry Hudson Bridge/Henry Hudson Parkway and New York Route 9A
+* International Bridges between New York State, US and Ontario, Canada
+* Peace Bridge
+* Lewiston–Queenston Bridge
+* Rainbow Bridge (Niagara Falls)
+* Whirlpool Rapids Bridge (NEXUS Only)
+* John F. Kennedy International Airport
+* Kingston–Rhinecliff Bridge/New York Route 199
+* LaGuardia Airport
+* Marine Parkway–Gil Hodges Memorial Bridge
+* Mid-Hudson Bridge/U.S. Route 44 and New York Route 55
+* New England Thruway/Interstate 95
+* Newburgh–Beacon Bridge/Interstate 84 and New York Route 52
+* New York State Thruway/Interstate 87, Interstate 287, and Interstate 90
+* Outerbridge Crossing/New Jersey Route 440 and New York Route 440
+* Queens–Midtown Tunnel/Interstate 495
+* Rip Van Winkle Bridge/New York Route 23
+* North Grand Island Bridge/Interstate 190
+* South Grand Island Bridge/Interstate 190
+* Syracuse Hancock International Airport
+* Tappan Zee Bridge/Interstate 87 and Interstate 287
+* Throgs Neck Bridge/Interstate 295
+* Robert F. Kennedy (Triborough) Bridge/Interstate 278
+* Verrazano-Narrows Bridge/Interstate 278
+NORTH CAROLINA
+* Triangle Expressway
+OHIO
+* Ohio Turnpike (sections of Interstate 76, Interstate 80, and Interstate 90)
+PENNSYLVANIA
+* Amos K. Hutchinson Bypass/PA Turnpike 66
+* Delaware River-Turnpike Toll Bridge/Interstate 95 and Interstate 276
+* Delaware Water Gap Toll Bridge/Interstate 80
+* Interstate 78 Toll Bridge/Interstate 78
+* James E. Ross Highway/Interstate 376
+* Milford–Montague Toll Bridge/U.S. Route 206
+* Mon–Fayette Expressway/PA Turnpike 43
+* New Hope–Lambertville Toll Bridge/U.S. Route 202
+* Findlay Connector/PA Turnpike 576
+* Pennsylvania Turnpike/Interstate 76, Interstate 70, Interstate 276, Interstate 476, and Interstate 95
+* Pittsburgh International Airport
+* Portland–Columbia Toll Bridge
+* Trenton–Morrisville Toll Bridge/U.S. Route 1
+* Walt Whitman Bridge/Interstate 76
+PUERTO RICO
+* Puerto Rico Highway 53
+RHODE ISLAND
+* Pell Bridge/Rhode Island Route 138
+VIRGINIA
+* Boulevard Bridge/Virginia State Route 161
+* Dulles Toll Road/Virginia State Route 267
+* Dulles Greenway/Virginia State Route 267
+* 495 Express Lanes/Interstate 495 (HOT Lanes)
+* Powhite Parkway/Virginia State Route 76
+* Downtown Expressway/Virginia State Route 195
+* George P. Coleman Memorial Bridge/U.S. Route 17
+* Chesapeake Expressway/Virginia State Route 168
+* Chesapeake Bay Bridge-Tunnel/U.S. Route 13
+* Pocahontas Parkway/Virginia State Route 895
+* South Norfolk Jordan Bridge/Virginia State Route 337
+* Downtown Tunnel/Interstate 264
+* Midtown Tunnel/U.S. Route 58
+* 95 Express Lanes on Interstate 95 (HOT Lanes)
+* Dominion Boulevard Veterans Bridge/U.S. Route 17
+* Interstate 66 (Inside the Beltway)
+* 64 Express Lanes on Interstate 64 (HOT Lanes)
+WEST VIRGINIA
+* West Virginia Turnpike/Interstate 64, Interstate 77
+OTHER NON-TOLL USES
+Section::::Other non-toll uses.
+Although not part of the E‑ZPass-Plus program, E‑ZPass users may also pay for parking at Pittsburgh International Airport. The E‑ZPass transponder is used for identification only. The Southern Beltway, which also uses E-ZPass, has its western terminus at the airport.
+E‑ZPass was tested in a since-discontinued program by some McDonald's restaurants on Long Island, New York, at which drive-through customers were given the option to pay using their E‑ZPass accounts to test out cardless payment platforms. In late 2013, Wendy's started a similar system called iDriveThru that is E-ZPass compatible, and is currently undergoing testing at five Staten Island Wendy's locations. In 2018, a one-year pilot project with the startup Verdeva was announced to test drive-thru and gas station payments via separate accounts set up with the E-ZPass system.
+The New York State Fair offered E‑ZPass Plus as a payment option at two of its parking lots for the first time in 2007, and offered the service again for subsequent seasons. The service was administered by the New York State Thruway Authority (NYSTA), and motorists' E‑ZPass accounts were charged the same $5 parking fee that cash customers were charged. Unlike other E‑ZPass Plus implementations, the State Fair systems charged motorists at the parking lot entrances; drivers opting to pay by E‑ZPass Plus used dedicated "E‑ZPass Plus Only" lanes. Since the lots only charge for parking during the twelve days of the State Fair, mobile, self-contained E-ZPass units were used to process vehicles. The units were mounted on trailers with a collapsible gantry for the E‑ZPass antennas, used a cellular wireless connection to send transactions to the NYSTA backoffice system, and were powered by batteries that were kept replenished by photovoltaic solar panels, with a generator for backup.
+E‑ZPass can be used to pay for parking at the Route 128 station in Westwood, Massachusetts; this is available for Massachusetts customers only. E-ZPass can also be used to pay for parking at John F. Kennedy International Airport and LaGuardia Airport in New York City.
+E‑ZPass transponders are also used to monitor traffic. A transponder reader is placed above the roadway at various intervals, and the time a particular tag takes between scans at each interval provides information about the speed of traffic between those points. This transit time information is often relayed back to motorists via electronic signs on the roadway. The individual tag data is not collected or used for ticketing purposes, as some sources have suggested.
+TOLL FACILITIES THAT DO NOT ACCEPT E-ZPASS IN E-ZPASS STATES AND PROVINCES
+Section::::Toll facilities that do not accept E-ZPass in E-ZPass states and provinces.
+There are many toll facilities, mostly bridges run by independent authorities, that are not part of the E-ZPass network even though they are in a state that is in the E-ZPass region. With Congress seeking a national electronic toll-collection system in place by mid-2016 for federal highways, E-ZPass officials are talking to other states that have electronic tolls "to find a common way to do business".
+FLORIDA
+* Alligator Alley – Uses SunPass.
+* Bob Sikes Bridge – Uses SunPass.
+* Broad Causeway – Uses SunPass.
+* Cape Coral Bridge – Uses SunPass and LeeWay.
+* Card Sound Bridge - Uses SunPass
+* Florida's Turnpike Enterprise – Florida's Turnpike, Homestead Extension, Sawgrass Expressway, Polk Parkway, Suncoast Parkway, Veterans Expressway, the northern end of the Seminole Expressway, the southern six miles (10 km) of Southern Connector Extension, the southern of the Daniel Webster Western Beltway, the western eight miles (13 km) of Beachline West Expressway. Uses SunPass.
+* Garcon Point Bridge – Uses SunPass.
+* Gasparilla Bridge
+* I-4/Selmon Expressway Connector – Uses SunPass.
+* I-75 Express Lanes – Uses SunPass.
+* I-95 Express Lanes – Uses SunPass.
+* I-595 Express Lanes – Uses SunPass.
+* Lee Roy Selmon Expressway – Uses SunPass.
+* Miami-Dade Expressway Authority – Gratigny Parkway, Airport Expressway, Dolphin Expressway, Don Shula Expressway, Snapper Creek Expressway, Venetian Causeway. Uses SunPass.
+* Mid-Bay Bridge – Uses SunPass.
+* Midpoint Memorial Bridge – Uses SunPass and LeeWay.
+* Orchard Pond Parkway – Uses SunPass.
+* Osceola Parkway – Uses SunPass and E-Pass.
+* Pinellas Bayway – Uses SunPass.
+* Poinciana Parkway – Uses SunPass and E-Pass.
+* Rickenbacker Causeway – Uses SunPass.
+* Sanibel Causeway – Uses SunPass and LeeWay.
+* Sunshine Skyway Bridge – Uses SunPass.
+OTHER STATES
+* Anderson Ferry (Ohio/Kentucky)
+* Atlantic Beach Bridge (New York)
+* Augusta Ferry (Ohio/Kentucky)
+* Cape May–Lewes Ferry (Delaware/New Jersey)
+* Downbeach Express (New Jersey)
+* Dingman's Ferry Bridge (New Jersey/Pennsylvania)
+* Fort Madison Toll Bridge (Illinois/Iowa)
+* Memorial Bridge (West Virginia/Ohio)
+* Moseywood Road (Lake Harmony, Pennsylvania) – Toll paid upon entry to community. Provides a shortcut to Lake Harmony from Pennsylvania Route 940 to Pennsylvania Route 903
+* Newell Toll Bridge (West Virginia/Ohio) – Privately owned, not operated by the Ohio Turnpike nor the West Virginia Parkways Authority
+* Ogdensburg-Prescott International Bridge (New York/Ontario)
+* Old Town Toll Bridge (also known as the Low Water Toll Bridge) (Oldtown, Maryland to Green Spring, West Virginia)
+* Seaway International Bridge (New York/Ontario)
+* St. Francisville Bridge – Old Wabash Cannonball Railroad (Illinois-Indiana)
+* Thousand Islands Bridge (New York/Ontario) – The Thousand Islands Bridge Authority will be upgrading their tolling facilities to accept E-ZPass, having already joined the E-ZPass Consortium .
+* White's Ferry (Dickerson, Maryland to Leesburg, Virginia)
+* Highways 407, 412, and 418 (Ontario)
+Section::::Other states.
+None of the toll bridges or tunnels partially in or fully in Michigan (Ambassador Bridge, Detroit-Windsor Tunnel, Blue Water Bridge, Mackinac Bridge, or International Bridge) use E-ZPass even though Michigan is adjacent to two states (Indiana and Ohio) that use it for their toll roads.
+SEE ALSO
+* Drivewyze – weigh station bypassing of commercial vehicles at participating state highway locations
+* List of electronic toll collection systems
+* List of toll bridges
+* List of toll roads
+* NORPASS – weigh station bypassing, partner of E-ZPass
+* PrePass – weigh station bypassing, commercial vehicles at participating state highway locations
+REFERENCES
+EXTERNAL LINKS
+* E-ZPass Group Official Website

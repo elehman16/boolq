@@ -1,0 +1,43 @@
+
+DEA NUMBER
+A DEA number (DEA Registration Number) is an identifier assigned to a health care provider (such as a physician, optometrist, dentist, or veterinarian) by the United States Drug Enforcement Administration allowing them to write prescriptions for controlled substances.
+Though there is no legal basis for preventing its use as a general prescriber identification number, for security reasons the DEA prefers that DEA registration numbers only be used for authenticating and tracking prescriptions for controlled substances. The agency prefers that the National Provider Identifier be used for general identification purposes.
+CURRENT FORMAT
+Section::::Current format.
+A valid DEA number consists of:
+* 2 letters, 6 numbers, and 1 check digit
+* The first letter is a code identifying the type of registrant (see below)
+* The second letter is the first letter of the registrant's last name, or "9" for registrants using a business address instead of name.
+* Of the seven digits that follow, the seventh digit is a "checksum" that is calculated similarly to the Luhn algorithm, with the following steps:
+* Add together the first, third and fifth digits call this CALC
+* Add together the second, fourth and sixth digits and multiply the sum by 2, call this CALC
+* Add CALC + CALC call this CHECK
+* The rightmost digit of CHECK (the digit in the ones place) is used as the check digit in the DEA number
+Registrant type (first letter of DEA Number):
+* A – Deprecated (used by some older entities)
+* B – Hospital/Clinic
+* C – Practitioner
+* D – Teaching Institution
+* E – Manufacturer
+* F – Distributor
+* G – Researcher
+* H – Analytical Lab
+* J – Importer
+* K – Exporter
+* L – Reverse Distributor
+* M – Mid Level Practitioner
+* P – Narcotic Treatment Program
+* R – Narcotic Treatment Program
+* S – Narcotic Treatment Program
+* T – Narcotic Treatment Program
+* U – Narcotic Treatment Program
+* X – Suboxone/Subutex Prescribing Program
+For example, for a registrant using a business address instead of a name, the DEA number might look like "F91234567". In some cases, multiple people (possibly including interns or nurses) are prescribing under the supervision of a more senior prescriber. In this case, the supervised individual may be identified by affixing an ID string to the end of the supervisor's DEA number, after a dash, e.g. "F91234567-001AB".
+OLDER FORMAT
+Section::::Older format.
+Prior to October 1, 1985, DEA registration numbers for physicians, dentists, veterinarians, and other practitioners started with the letter A. New registration numbers issued to practitioners after that date begin with the letter B, F, or G. The rest of the format was the same as the new style.
+REFERENCES
+EXTERNAL LINKS
+* DEA Scheduled Drugs Reference Site
+* DEA information on "Construction of Valid DEA Registration Numbers for Practitioners"
+* "Updated DEA Registrant Codes"

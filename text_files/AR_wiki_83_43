@@ -1,0 +1,19 @@
+
+CODING REGION
+The coding region of a gene, also known as the CDS (from coding sequence), is that portion of a gene's DNA or RNA that codes for protein. The region usually begins at the 5' end by a start codon and ends at the 3' end with a stop codon.
+STRUCTURE
+Section::::Structure.
+The coding region in a mRNA is flanked by the five prime untranslated region (5'-UTR) and the three prime untranslated region (3'-UTR). The CDS is that portion of an mRNA transcript that is translated by a ribosome. CDS is a keyword (feature-key) used to denote the 'protein-coding sequence' in a gene feature table by the major sequence databases INSDC. They also read CDS as both coding sequence and coding region.
+DIFFERENCE WITH CDNA
+Section::::Difference with cDNA.
+A cDNA sequence is derived from the transcript by reverse transcription, but in this case it also contains the 5' and 3' UTRs, which are not part of the CDS (they are transcribed, but not translated). A CDS will almost always start with an AUG initiation codon in eukaryotes and stop at one of the three stop codons (UAA, UGA, UAG).
+CODING SEQUENCE ANNOTATION
+Section::::Coding sequence annotation.
+While identification of open reading frames within a DNA sequence is straightforward, identifying coding sequences is not, because the cell translates only a subset of all open reading frames to proteins.
+Currently CDS prediction uses sampling and sequencing of mRNA from cells, although there is still the problem of determining which parts of a given mRNA are actually translated to protein. CDS prediction is a subset of gene prediction, the latter also including prediction of DNA sequences that code not only for protein but also for other functional elements such as RNA genes and regulatory sequences.
+SEE ALSO
+* Coding strand The strand that codes for a protein
+* Gene structure The other elements that make up a gene
+* Non-coding DNA Parts of genomes that don't encode genes
+* Non-coding RNA Genes that do not encode proteins, have no CDS
+REFERENCES

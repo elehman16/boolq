@@ -1,0 +1,112 @@
+
+INSTRUCTION PIPELINING
++Basic five-stage pipelinecomputer science, Instruction pipelining is a technique for implementing instruction-level parallelism within a single processor. Pipelining attempts to keep every part of the processor busy with some instruction by dividing incoming instructions into a series of sequential steps (the eponymous "pipeline") performed by different processor units with different parts of instructions processed in parallel. It allows faster CPU throughput than would otherwise be possible at a given clock rate, but may increase latency due to the added overhead of the pipelining process itself.
+CONCEPT AND MOTIVATION
+Section::::Concept and motivation.
+Central processing units (CPUs) are driven by a clock. Each clock pulse need not do the same thing; rather, logic in the CPU directs successive pulses to different places to perform a useful sequence. There are many reasons that the entire execution of a machine instruction cannot happen at once; in pipelining, effects that cannot happen at the same time are made into dependent steps of the instruction.
+For example, if one clock pulse latches a value into a register or begins a calculation, it will take some time for the value to be stable at the outputs of the register or for the calculation to complete. As another example, reading an instruction out of a memory unit cannot be done at the same time that an instruction writes a result to the same memory unit.
+NUMBER OF STEPS
+Section::::Number of steps.
+The number of dependent steps varies with the machine architecture. For example:
+* The 1956-1961 IBM Stretch project proposed the terms Fetch, Decode, and Execute that have become common.
+* The classic RISC pipeline comprises:
+* Instruction fetch
+* 
+* Instruction decode and register fetch
+* 
+* Execute
+* 
+* Memory access
+* 
+* Register write back
+* 
+* The Atmel AVR and the PIC microcontroller each have a two-stage pipeline.
+* Many designs include pipelines as long as 7, 10 and even 20 stages (as in the Intel Pentium 4).
+* The later "Prescott" and "Cedar Mill" Netburst cores from Intel, used in the last Pentium 4 models and their Pentium D and Xeon derivatives, have a long 31-stage pipeline.
+* The Xelerated X10q Network Processor has a pipeline more than a thousand stages long, although in this case 200 of these stages represent independent CPUs with individually programmed instructions. The remaining stages are used to coordinate accesses to memory and on-chip function units.
+As the pipeline is made "deeper" (with a greater number of dependent steps), a given step can be implemented with simpler circuitry, which may let the processor clock run faster. Such pipelines may be called superpipelines.
+A processor is said to be fully pipelined if it can fetch an instruction on every cycle. Thus, if some instructions or conditions require delays that inhibit fetching new instructions, the processor is not fully pipelined.
+HISTORY
+Section::::History.
+Seminal uses of pipelining were in the ILLIAC II project and the IBM Stretch project, though a simple version was used earlier in the Z1 in 1939 and the Z3 in 1941.
+Pipelining began in earnest in the late 1970s in supercomputers such as vector processors and array processors. One of the early supercomputers was the Cyber series built by Control Data Corporation. Its main architect, Seymour Cray, later headed Cray Research. Cray developed the XMP line of supercomputers, using pipelining for both multiply and add/subtract functions. Later, Star Technologies added parallelism (several pipelined functions working in parallel), developed by Roger Chen. In 1984, Star Technologies added the pipelined divide circuit developed by James Bradley. By the mid 1980s, pipelining was used by many different companies around the world.
+Pipelining was not limited to supercomputers. In 1976, the Amdahl Corporation's 470 series general purpose mainframe had a 7-step pipeline, and a patented branch prediction circuit.
+Today, pipelining and most of the above innovations are implemented by the instruction unit of most microprocessors.
+HAZARDS
+Section::::Hazards.
+The model of sequential execution assumes that each instruction completes before the next one begins; this assumption is not true on a pipelined processor. A situation where the expected result is problematic is known as a hazard. Imagine the following two register instructions to a hypothetical processor:
+If the processor has the 5 steps listed in the initial illustration, instruction 1 would be fetched at time t and its execution would be complete at t. Instruction 2 would be fetched at t and would be complete at t. The first instruction might deposit the incremented number into R5 as its fifth step (register write back) at t. But the second instruction might get the number from R5 (to copy to R6) in its second step (instruction decode and register fetch) at time t. It seems that the first instruction would not have incremented the value by then. The above code invokes a hazard.
+Writing computer programs in a compiled language might not raise these concerns, as the compiler could be designed to generate machine code that avoids hazards.
+WORKAROUNDS
+Section::::Workarounds.
+In some early DSP and RISC processors, the documentation advises programmers to avoid such dependencies in adjacent and nearly adjacent instructions (called delay slots), or declares that the second instruction uses an old value rather than the desired value (in the example above, the processor might counter-intuitively copy the unincremented value), or declares that the value it uses is undefined. The programmer may have unrelated work that the processor can do in the meantime; or, to ensure correct results, the programmer may insert NOPs into the code, partly negating the advantages of pipelining.
+SOLUTIONS
+Section::::Solutions.
+Pipelined processors commonly use three techniques to work as expected when the programmer assumes that each instruction completes before the next one begins:
+* Processors that can compute the presence of a hazard may stall , delaying processing of the second instruction (and subsequent instructions) until the values it requires as input are ready. This creates a bubble in the pipeline, also partly negating the advantages of pipelining.
+* Some processors can not only compute the presence of a hazard but can compensate by having additional data paths that provide needed inputs to a computation step before a subsequent instruction would otherwise compute them, an attribute called operand forwarding.
+* Some processors can determine that instructions other than the next sequential one are not dependent on the current ones and can be executed without hazards. Such processors may perform out-of-order execution.
+BRANCHES
+Section::::Branches.
+A branch out of the normal instruction sequence often involves a hazard. Unless the processor can give effect to the branch in a single time cycle, the pipeline will continue fetching instructions sequentially. Such instructions cannot be allowed to take effect because the programmer has diverted control to another part of the program.
+A conditional branch is even more problematic. The processor may or may not branch, depending on a calculation that has not yet occurred. Various processors may stall, may attempt branch prediction, and may be able to begin to execute two different program sequences (eager execution), both assuming the branch is and is not taken, discarding all work that pertains to the incorrect guess.
+A processor with an implementation of branch prediction that usually makes correct predictions can minimize the performance penalty from branching. However, if branches are predicted poorly, it may create more work for the processor, such as flushing from the pipeline the incorrect code path that has begun execution before resuming execution at the correct location.
+Programs written for a pipelined processor deliberately avoid branching to minimize possible loss of speed. For example, the programmer can handle the usual case with sequential execution and branch only on detecting unusual cases. Using programs such as gcov to analyze code coverage lets the programmer measure how often particular branches are actually executed and gain insight with which to optimize the code.
+SPECIAL SITUATIONS
+Self-modifying programs
+Uninterruptible instructions
+DESIGN CONSIDERATIONS
+Speed
+Economy
+Predictability
+ILLUSTRATED EXAMPLE
+Section::::Illustrated example.
+To the right is a generic pipeline with four stages: fetch, decode, execute and write-back. The top gray box is the list of instructions waiting to be executed, the bottom gray box is the list of instructions that have had their execution completed, and the middle white box is the pipeline.
+The execution is as follows:
+! Clock !! Execution
+* Four instructions are waiting to be executed
+ 1
+* The green instruction is fetched from memory
+ 2
+* The green instruction is decoded
+* The purple instruction is fetched from memory
+ 3
+* The green instruction is executed (actual operation is performed)
+* The purple instruction is decoded
+* The blue instruction is fetched
+ 4
+* The green instruction's results are written back to the register file or memory
+* The purple instruction is executed
+* The blue instruction is decoded
+* The red instruction is fetched
+ 5
+* The execution of green instruction is completed
+* The purple instruction is written back
+* The blue instruction is executed
+* The red instruction is decoded
+ 6
+* The execution of purple instruction is completed
+* The blue instruction is written back
+* The red instruction is executed
+ 7
+* The execution of blue instruction is completed
+* The red instruction is written back
+ 8
+* The execution of red instruction is completed
+ 9
+* The execution of all four instructions is completed
+PIPELINE BUBBLE
+Section::::Pipeline bubble.
+A pipelined processor may deal with hazards by stalling and creating a bubble in the pipeline, resulting in one or more cycles in which nothing useful happens.
+In the illustration at right, in cycle 3, the processor cannot decode the purple instruction, perhaps because the processor determines that decoding depends on results produced by the execution of the green instruction. The green instruction can proceed to the Execute stage and then to the Write-back stage as scheduled, but the purple instruction is stalled for one cycle at the Fetch stage. The blue instruction, which was due to be fetched during cycle 3, is stalled for one cycle, as is the red instruction after it.
+Because of the bubble (the blue ovals in the illustration), the processor's Decode circuitry is idle during cycle 3. Its Execute circuitry is idle during cycle 4 and its Write-back circuitry is idle during cycle 5.
+When the bubble moves out of the pipeline (at cycle 6), normal execution resumes. But everything now is one cycle late. It will take 8 cycles (cycle 1 through 8) rather than 7 to completely execute the four instructions shown in colors.
+SEE ALSO
+* Wait state
+* Classic RISC pipeline
+NOTES
+REFERENCES
+EXTERNAL LINKS
+* Branch Prediction in the Pentium Family (Archive.org copy)
+* ArsTechnica article on pipelining
+* Counterflow Pipeline Processor Architecture

@@ -1,0 +1,49 @@
+
+DATE AND TIME NOTATION IN THE UNITED KINGDOM
+Date and time notation in the United Kingdom records the date using the day-month-year format (21 October 2011 or 21/10/11). The ISO 8601 format (2011-10-21) is increasingly used for all-numeric dates. The time can be written using either the 24-hour clock (16:10) or 12-hour clock (4.10 p.m.).
+DATE
+ENGLISH
+Section::::Date.
+Section::::English.
+Dates are traditionally written in "day month year" (DMY) order:
+* 31 December 1999
+* 31/12/99
+Formal style manuals discourage writing the day of the month as an ordinal number (for example "31st December"), except with an incomplete reference, such as "They set off on 12 August 1960 and arrived on the 18th".
+When saying the date, it is usually pronounced using "the", then the ordinal number of the day first, then the preposition "of", then the month (for example "the thirty-first of December"). The month-first form (for example "December the third") was widespread until the mid twentieth-century, and remains the most common format for newspapers across the United Kingdom. The month-first format is still spoken, perhaps more commonly when not including a year in the sentence, but is now less frequently used.
+ALL-NUMERIC DATES
+Section::::All-numeric dates.
+All-numeric dates are used in notes and references, but not running prose. They can be written in several forms:
+* 31/12/99 or 31.12.99
+* 31. xii. 99
+* 1999-12-31
+The date in the day-month-year (dd/mm/yy) sequence can be written with either an oblique or a point: 2/11/03 or 2.11.03 represents 2 November 2003. The year may also be written in full (2/11/2003). It contrasts with date and time notation in the United States, where the month is placed first, leading to confusion in international communications: there, 2/11/03 would be interpreted as 11 February 2003. To remedy this, the month is sometimes written in Roman numerals, as common on the Continent: 2. xi. 03. This format, however, is not machine-readable.
+The ISO 8601 format (adopted as British Standard BS ISO 8601:2004) is unambiguous and machine-readable, and increasingly popular in technical, scientific, financial, and computing contexts. The Government Digital Service requires it for all forms of data transmission. Dates in this format are separated with hyphens: 2003-11-02.
+WEEKS
+Section::::Weeks.
+Weeks are generally referred to by the date on which they start, with Monday often treated as the first day of the week, for example "the week commencing 5 March". Some more traditional calendars instead treat Sunday as the first day or the week. ISO 8601 week numbers are found in diaries and are used in business.
+WELSH
+Section::::Welsh.
+The "day month year" order is also used in modern Welsh:
+* or
+The "month day year" order (for example "") was previously more common, it not being unusual to see a Welsh "month day year" date next to an English "day month year" date on a bilingual plaque from the latter half of the 20th century.
+"" is read as with the usual soft mutation of M to F after O (of). The year 1999 can be read as either (thousand nine nine nine) or (one nine nine nine).
+TIME
+ENGLISH
+Section::::Time.
+Section::::English.
+Both the 24-hour and 12-hour notations are used in the United Kingdom:
+* 16:30 or 16.30
+* 4.30 p.m.
+The 24-hour notation is used in timetables and on most digital clocks, but 12-hour notation is still widely used in ordinary life. The 24-hour notation is used more often than in North America – bus, rail, and airline timetables use it exclusively – but not as commonly as in much of the non-English-speaking world. The BBC has been using 24-hour notation in its online radio and TV guides for many years, though ITV, Channel 4, and Channel 5 still maintain 12-hour notation.
+It is rare to use the 24-hour format when speaking; 21:30 is colloquially spoken as "half past nine" rather than "twenty-one thirty". The spoken 24-hour format is used in airport and railway station announcements: "We regret to inform that the fifteen hundred [15:00] service from Nottingham is running approximately 10 minutes late"; "The next train arriving at Platform four is the twenty-fifteen [20:15] service to London Euston".
+To separate different parts of time, either a full point or a colon can be used. For 12-hour time, the point format (for example "1.45 p.m.") is in common usage and has been recommended by some style guides, including the academic manual published by Oxford University Press under various titles, as well as the internal house style book for the University of Oxford, that of The Guardian and The Times newspapers.
+The colon format (as in "1:45 p.m.") is also recognised and is common in digital devices and applications. The more descriptive 2014 revision of New Hart's Rules concedes that the colon format "is often seen in British usage too", and that either style "is acceptable if applied consistently."
+The time-of-day abbreviations are handled in various conflicting styles, including "a.m." and "p.m." with a space between the time and the abbreviation ("1.45 p.m."); "am" and "pm" with a space ("1.45 pm" – recognised as an alternative usage by Oxford); and the same without a space ("1.45pm" – primarily found in news writing).
+In 24-hour time, a colon is internationally standard (as in "13:45"). Some British news publishers favour "13.45" format instead, such as The Guardian. Some stick with the colon, including the Evening Standard and the BBC. Oxford recognises both styles. The a.m. and p.m. abbreviations are not used with 24-hour time in any form.
+In British English, the expression "half [hour]" is used colloquially to denote 30 minutes past the hour. For example, "half ten" means 10:30 (without specifying morning or night). This contrasts with the Dutch, German, Hungarian, Czech, Serbian, Baltic, and Scandinavian languages, where the same type of expression denotes 30 minutes the hour. For example, (in Czech) "half ten" means 9:30.
+The following table shows times written in some common approaches to 12-hour and 24-hour notation, and how each time is typically spoken:
+! 12-hour !! 24-hour !! Spoken
+WELSH
+Section::::Welsh.
+The Welsh language usage of the 12-hour and 24-hour clocks is similar to that of UK English above. However, the 24-hour notation has only a written, not a spoken form. For example, written 9:00 and 21:00 (or 09.00, etc.) are said (, literally 'nine of the bell'). Minutes are always either ('after') or ('to') the hour, for example 21:18 ('eighteen (minutes) past nine') and 21:42 ('eighteen (minutes) to ten'). Phrases such as ('(of) the morning'), ('(of) the afternoon') and ('(of) the evening') are used to distinguish times in 12-hour notation, much like Latin a.m. and p.m., which are also in common use, for example (09:00) as opposed to (21:00).
+REFERENCES

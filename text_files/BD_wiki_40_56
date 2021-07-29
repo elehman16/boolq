@@ -1,0 +1,206 @@
+
+LATTICE (ORDER)
+A lattice is an abstract structure studied in the mathematical subdisciplines of order theory and abstract algebra. It consists of a partially ordered set in which every two elements have a unique supremum (also called a least upper bound or join) and a unique infimum (also called a greatest lower bound or meet). An example is given by the natural numbers, partially ordered by divisibility, for which the unique supremum is the least common multiple and the unique infimum is the greatest common divisor.
+Lattices can also be characterized as algebraic structures satisfying certain axiomatic identities. Since the two definitions are equivalent, lattice theory draws on both order theory and universal algebra. Semilattices include lattices, which in turn include Heyting and Boolean algebras. These "lattice-like" structures all admit order-theoretic as well as algebraic descriptions.
+LATTICES AS PARTIALLY ORDERED SETS
+Section::::Lattices as partially ordered sets.
+If is a partially ordered set (poset), and is an arbitrary subset, then an element is said to be an upper bound of S if for each . A set may have many upper bounds, or none at all. An upper bound u of S is said to be its least upper bound, or join, or supremum, if for each upper bound x of S. A set need not have a least upper bound, but it cannot have more than one. Dually, is said to be a lower bound of S if for each . A lower bound l of S is said to be its greatest lower bound, or meet, or infimum, if for each lower bound x of S. A set may have many lower bounds, or none at all, but can have at most one greatest lower bound.
+A partially ordered set is called a join-semilattice if each two-element subset has a join (i.e. least upper bound), and is called a meet-semilattice if each two-element subset has a meet (i.e. greatest lower bound), denoted by and respectively. is called a lattice if it is both a join- and a meet-semilattice. 
+This definition makes ∨ and ∧ binary operations. Both operations are monotone with respect to the order: and implies that and .
+It follows by an induction argument that every non-empty finite subset of a lattice has a least upper bound and a greatest lower bound. With additional assumptions, further conclusions may be possible; see Completeness (order theory) for more discussion of this subject. That article also discusses how one may rephrase the above definition in terms of the existence of suitable Galois connections between related partially ordered sets — an approach of special interest for the category theoretic approach to lattices, and for formal concept analysis.
+A bounded lattice is a lattice that additionally has a greatest element (also called maximum, or top element, and denoted by 1, or by formula_1) and a least element (also called minimum, or bottom, denoted by 0 or by formula_2), which satisfy
+Every lattice can be embedded into a bounded lattice by adding an artificial greatest and least element, and every non-empty finite lattice is bounded, by taking the join (resp., meet) of all elements, denoted by formula_3 (resp.formula_4) where formula_5.
+A partially ordered set is a bounded lattice if and only if every finite set of elements (including the empty set) has a join and a meet. For every element x of a poset it is trivially true (it is a vacuous truth) that 
+formula_6 and
+formula_7, and therefore every element of a poset is both an upper bound and a lower bound of the empty set. This implies that the join of an empty set is the least element formula_8, and the meet of the empty set is the greatest element formula_9. This is consistent with the associativity and commutativity of meet and join: the join of a union of finite sets is equal to the join of the joins of the sets, and dually, the meet of a union of finite sets is equal to the meet of the meets of the sets, i.e., for finite subsets A and B of a poset L,
+and
+hold. Taking B to be the empty set,
+and
+which is consistent with the fact that formula_14.
+A lattice element y is said to cover another element x, if , but there does not exist a z such that .
+Here, means and .
+A lattice is called graded, sometimes ranked (but see Ranked poset for an alternative meaning), if it can be equipped with a rank function r from L to ℕ, sometimes to ℤ, compatible with the ordering (so whenever ) such that whenever y covers x, then . The value of the rank function for a lattice element is called its rank.
+Given a subset of a lattice, , meet and join restrict to partial functions – they are undefined if their value is not in the subset H. The resulting structure on H is called a . In addition to this extrinsic definition as a subset of some other algebraic structure (a lattice), a partial lattice can also be intrinsically defined as a set with two partial binary operations satisfying certain axioms.
+LATTICES AS ALGEBRAIC STRUCTURES
+GENERAL LATTICE
+Section::::Lattices as algebraic structures.
+Section::::General lattice.
+An algebraic structure , consisting of a set L and two binary operations ∨, and ∧, on L is a lattice if the following axiomatic identities hold for all elements a, b, c of L.
+Commutative laws
+Associative laws
+Absorption laws:
+The following two identities are also usually regarded as axioms, even though they follow from the two absorption laws taken together.
+Idempotent laws
+These axioms assert that both and are semilattices. The absorption laws, the only axioms above in which both meet and join appear, distinguish a lattice from an arbitrary pair of semilattices and assure that the two semilattices interact appropriately. In particular, each semilattice is the dual of the other.
+BOUNDED LATTICE
+Section::::Bounded lattice.
+A bounded lattice is an algebraic structure of the form such that is a lattice, 0 (the lattice's bottom) is the identity element for the join operation ∨, and 1 (the lattice's top) is the identity element for the meet operation ∧.
+Identity laws
+See semilattice for further details.
+CONNECTION TO OTHER ALGEBRAIC STRUCTURES
+Section::::Connection to other algebraic structures.
+Lattices have some connections to the family of group-like algebraic structures. Because meet and join both commute and associate, a lattice can be viewed as consisting of two commutative semigroups having the same domain. For a bounded lattice, these semigroups are in fact commutative monoids. The absorption law is the only defining identity that is peculiar to lattice theory.
+By commutativity and associativity one can think of join and meet as binary operations that are defined on non-empty finite sets, rather than on elements. In a bounded lattice the empty join and the empty meet can also be defined (as 0 and 1, respectively). This makes bounded lattices somewhat more natural than general lattices, and many authors require all lattices to be bounded.
+The algebraic interpretation of lattices plays an essential role in universal algebra.
+CONNECTION BETWEEN THE TWO DEFINITIONS
+Section::::Connection between the two definitions.
+An order-theoretic lattice gives rise to the two binary operations ∨ and ∧. Since the commutative, associative and absorption laws can easily be verified for these operations, they make into a lattice in the algebraic sense.
+The converse is also true. Given an algebraically defined lattice , one can define a partial order ≤ on L by setting
+for all elements a and b from L. The laws of absorption ensure that both definitions are equivalent:
+a = a ∧ b implies b = b ∨ (b ∧ a) = (a ∧ b) ∨ b = a ∨ b
+and dually for the other direction.
+One can now check that the relation ≤ introduced in this way defines a partial ordering within which binary meets and joins are given through the original operations ∨ and ∧.
+Since the two definitions of a lattice are equivalent, one may freely invoke aspects of either definition in any way that suits the purpose at hand.
+EXAMPLES
+* For any set A, the collection of all subsets of A (called the power set of A) can be ordered via subset inclusion to obtain a lattice bounded by A itself and the null set. Set intersection and union interpret meet and join, respectively (see pic.1).
+* For any set A, the collection of all finite subsets of A, ordered by inclusion, is also a lattice, and will be bounded if and only if A is finite.
+* For any set A, the collection of all partitions of A, ordered by refinement, is a lattice (see pic.3).
+* The positive integers in their usual order form a lattice, under the operations of "min" and "max". 1 is bottom; there is no top (see pic.4).
+* The Cartesian square of the natural numbers, ordered so that if and . The pair is the bottom element; there is no top (see pic.5).
+* The natural numbers also form a lattice under the operations of taking the greatest common divisor and least common multiple, with divisibility as the order relation: if a divides b. 1 is bottom; 0 is top. Pic.2 shows a finite sublattice.
+* Every complete lattice (also see below) is a (rather specific) bounded lattice. This class gives rise to a broad range of practical examples.
+* The set of compact elements of an arithmetic complete lattice is a lattice with a least element, where the lattice operations are given by restricting the respective operations of the arithmetic lattice. This is the specific property which distinguishes arithmetic lattices from algebraic lattices, for which the compacts do only form a join-semilattice. Both of these classes of complete lattices are studied in domain theory.
+Section::::Examples.
+Further examples of lattices are given for each of the additional properties discussed below.
+COUNTER-EXAMPLES
+Section::::Counter-examples.
+Most partial ordered sets are not lattices, including the following.
+* A discrete poset, meaning a poset such that implies , is a lattice if and only if it has at most one element. In particular the two-element discrete poset is not a lattice.
+* Although the set partially ordered by divisibility is a lattice, the set so ordered is not a lattice because the pair 2, 3 lacks a join, and it lacks a meet in
+* The set partially ordered by divisibility is not a lattice. Every pair of elements has an upper bound and a lower bound, but the pair 2, 3 has three upper bounds, namely 12, 18, and 36, none of which is the least of those three under divisibility (12 and 18 do not divide each other). Likewise the pair 12, 18 has three lower bounds, namely 1, 2, and 3, none of which is the greatest of those three under divisibility (2 and 3 do not divide each other).
+MORPHISMS OF LATTICES
+Section::::Morphisms of lattices.
+The appropriate notion of a morphism between two lattices flows easily from the above algebraic definition. Given two lattices and , a lattice homomorphism from L to M is a function such that for all :
+Thus f is a homomorphism of the two underlying semilattices. When lattices with more structure are considered, the morphisms should "respect" the extra structure, too. In particular, a bounded-lattice homomorphism (usually called just "lattice homomorphism") f between two bounded lattices L and M should also have the following property:
+In the order-theoretic formulation, these conditions just state that a homomorphism of lattices is a function preserving binary meets and joins. For bounded lattices, preservation of least and greatest elements is just preservation of join and meet of the empty set.
+Any homomorphism of lattices is necessarily monotone with respect to the associated ordering relation; see preservation of limits. The converse is not true: monotonicity by no means implies the required preservation of meets and joins (see pic.9), although an order-preserving bijection is a homomorphism if its inverse is also order-preserving.
+Given the standard definition of isomorphisms as invertible morphisms, a lattice isomorphism is just a bijective lattice homomorphism. Similarly, a lattice endomorphism is a lattice homomorphism from a lattice to itself, and a lattice automorphism is a bijective lattice endomorphism. Lattices and their homomorphisms form a category.
+SUBLATTICES
+Section::::Sublattices.
+A sublattice of a lattice L is a nonempty subset of L that is a lattice with the same meet and join operations as L. That is, if L is a lattice and is a subset of L such that for every pair of elements a, b in M both and are in M, then M is a sublattice of L.
+A sublattice M of a lattice L is a convex sublattice of L, if and x, y in M implies that z belongs to M, for all elements x, y, z in L.
+PROPERTIES OF LATTICES
+Section::::Properties of lattices.
+We now introduce a number of important properties that lead to interesting special classes of lattices. One, boundedness, has already been discussed.
+COMPLETENESS
+Section::::Completeness.
+A poset is called a complete lattice if all its subsets have both a join and a meet. In particular, every complete lattice is a bounded lattice. While bounded lattice homomorphisms in general preserve only finite joins and meets, complete lattice homomorphisms are required to preserve arbitrary joins and meets.
+Every poset that is a complete semilattice is also a complete lattice. Related to this result is the interesting phenomenon that there are various competing notions of homomorphism for this class of posets, depending on whether they are seen as complete lattices, complete join-semilattices, complete meet-semilattices, or as join-complete or meet-complete lattices.
+Note that "partial lattice" is not the opposite of "complete lattice" – rather, "partial lattice", "lattice", and "complete lattice" are increasingly restrictive definitions.
+CONDITIONAL COMPLETENESS
+Section::::Conditional completeness.
+A conditionally complete lattice is a lattice in which every nonempty subset that has an upper bound has a join (i.e., a least upper bound). Such lattices provide the most direct generalization of the completeness axiom of the real numbers. A conditionally complete lattice is either a complete lattice, or a complete lattice without its maximum element 1, its minimum element 0, or both.
+DISTRIBUTIVITY
+Section::::Distributivity.
+Since lattices come with two binary operations, it is natural to ask whether one of them distributes over the other, i.e. whether one or the other of the following dual laws holds for every three elements a, b, c of L:
+Distributivity of ∨ over ∧
+Distributivity of ∧ over ∨
+A lattice that satisfies the first or, equivalently (as it turns out), the second axiom, is called a distributive lattice.
+The only non-distributive lattices with fewer than 6 elements are called M and N; they are shown in picture 10 and 11, respectively. A lattice is distributive if and only if it doesn't have a sublattice isomorphic to M or N. Each distributive lattice is isomorphic to a lattice of sets (with union and intersection as join and meet, respectively).
+For an overview of stronger notions of distributivity which are appropriate for complete lattices and which are used to define more special classes of lattices such as frames and completely distributive lattices, see distributivity in order theory.
+MODULARITY
+Section::::Modularity.
+For some applications the distributivity condition is too strong, and the following weaker property is often useful. A lattice is modular if, for all elements a, b, c of L, the following identity holds.
+Modular identity: (a ∧ c) ∨ (b ∧ c) = [(a ∧ c) ∨ b] ∧ c.
+This condition is equivalent to the following axiom.
+Modular law: implies .
+A lattice is modular if and only if it doesn't have a sublattice isomorphic to N (shown in pic.11). 
+Besides distributive lattices, examples of modular lattices are the lattice of two-sided ideals of a ring, the lattice of submodules of a module, and the lattice of normal subgroups of a group. The set of first-order terms with the ordering "is more specific than" is a non-modular lattice used in automated reasoning.
+SEMIMODULARITY
+Section::::Semimodularity.
+A finite lattice is modular if and only if it is both upper and lower semimodular. For a graded lattice, (upper) semimodularity is equivalent to the following condition on the rank function r:
+Another equivalent (for graded lattices) condition is Birkhoff's condition:
+A lattice is called lower semimodular if its dual is semimodular. For finite lattices this means that the previous conditions hold with ∨ and ∧ exchanged, "covers" exchanged with "is covered by", and inequalities reversed.
+CONTINUITY AND ALGEBRAICITY
+Section::::Continuity and algebraicity.
+In domain theory, it is natural to seek to approximate the elements in a partial order by "much simpler" elements. This leads to the class of continuous posets, consisting of posets where every element can be obtained as the supremum of a directed set of elements that are way-below the element. If one can additionally restrict these to the compact elements of a poset for obtaining these directed sets, then the poset is even algebraic. Both concepts can be applied to lattices as follows:
+* A continuous lattice is a complete lattice that is continuous as a poset.
+* An algebraic lattice is a complete lattice that is algebraic as a poset.
+Both of these classes have interesting properties. For example, continuous lattices can be characterized as algebraic structures (with infinitary operations) satisfying certain identities. While such a characterization is not known for algebraic lattices, they can be described "syntactically" via Scott information systems.
+COMPLEMENTS AND PSEUDO-COMPLEMENTS
+Section::::Complements and pseudo-complements.
+Let L be a bounded lattice with greatest element 1 and least element 0. Two elements x and y of L are complements of each other if and only if:
+In general, some elements of a bounded lattice might not have a complement, and others might have more than one complement. For example, the set {0, ½, 1} with its usual ordering is a bounded lattice, and ½ does not have a complement. In the bounded lattice N, the element a has two complements, viz. b and c (see Pic.11). A bounded lattice for which every element has a complement is called a complemented lattice. 
+A complemented lattice that is also distributive is a Boolean algebra. For a distributive lattice, the complement of x, when it exists, is unique.
+In the case the complement is unique, we write and equivalently, . The corresponding unary operation over L, called complementation, introduces an analogue of logical negation into lattice theory.
+Heyting algebras are an example of distributive lattices where some members might be lacking complements. Every element x of a Heyting algebra has, on the other hand, a pseudo-complement, also denoted ¬x. The pseudo-complement is the greatest element y such that . If the pseudo-complement of every element of a Heyting algebra is in fact a complement, then the Heyting algebra is in fact a Boolean algebra.
+JORDAN–DEDEKIND CHAIN CONDITION
+Section::::Jordan–Dedekind chain condition.
+A chain from x to x is a set formula_15, where formula_16.
+The length of this chain is n, or one less than its number of elements. A chain is maximal if x covers x 
+for all .
+If for any pair, x and y, where , all maximal chains from x to y have the same length, then the lattice is said to satisfy the Jordan–Dedekind chain condition.
+FREE LATTICES
+Section::::Free lattices.
+Any set X may be used to generate the free semilattice FX. The free semilattice is defined to consist of all of the finite subsets of X, with the semilattice operation given by ordinary set union. The free semilattice has the universal property. For the free lattice over a set X, Whitman gave a construction based on polynomials over Xs members.
+IMPORTANT LATTICE-THEORETIC NOTIONS
+Section::::Important lattice-theoretic notions.
+We now define some order-theoretic notions of importance to lattice theory. In the following, let x be an element of some lattice L. If L has a bottom element 0, is sometimes required. x is called:
+* Join irreducible if implies or for all a, b in L. When the first condition is generalized to arbitrary joins formula_17, x is called completely join irreducible (or ∨-irreducible). The dual notion is meet irreducibility (∧-irreducible). For example, in pic.2, the elements 2, 3, 4, and 5 are join irreducible, while 12, 15, 20, and 30 are meet irreducible. In the lattice of real numbers with the usual order, each element is join irreducible, but none is completely join irreducible.
+* Join prime if implies or . This too can be generalized to obtain the notion completely join prime. The dual notion is meet prime. Every join-prime element is also join irreducible, and every meet-prime element is also meet irreducible. The converse holds if L is distributive.
+Let L have a bottom element 0. An element x of L is an atom if and there exists no element y of L such that . Then L is called:
+* Atomic if for every nonzero element x of L, there exists an atom a of L such that ;
+* Atomistic if every element of L is a supremum of atoms.
+The notions of ideals and the dual notion of filters refer to particular kinds of subsets of a partially ordered set, and are therefore important for lattice theory. Details can be found in the respective entries.
+SEE ALSO
+* Join and meet
+* Map of lattices
+* Orthocomplemented lattice
+* Total order
+* Ideal and filter (dual notions)
+* Skew lattice (generalization to non-commutative join and meet)
+* Eulerian lattice
+* Post's lattice
+* Tamari lattice
+* Young–Fibonacci lattice
+* 0,1-simple lattice
+APPLICATIONS THAT USE LATTICE THEORY
+Section::::See also.
+Section::::Applications that use lattice theory.
+Note that in many applications the sets are only partial lattices: not every pair of elements has a meet or join.
+* Pointless topology
+* Lattice of subgroups
+* Spectral space
+* Invariant subspace
+* Closure operator
+* Abstract interpretation
+* Subsumption lattice
+* Fuzzy set theory
+* Algebraizations of first-order logic
+* Semantics of programming languages
+* Domain theory
+* Ontology (computer science)
+* Multiple inheritance
+* Formal concept analysis and lattice miner (theory and tool)
+* Bloom filter
+* Information flow
+* Ordinal optimization
+* Quantum logic
+* Median graph
+* Knowledge space
+* Regular language learning
+* Analogical modeling
+NOTES
+REFERENCES
+Section::::References.
+Monographs available free online:
+* Burris, Stanley N., and H.P. Sankappanavar, H. P., 1981. A Course in Universal Algebra. Springer-Verlag. .
+* Jipsen, Peter, and Henry Rose, Varieties of Lattices, Lecture Notes in Mathematics 1533, Springer Verlag, 1992. .
+* Nation, J. B., Notes on Lattice Theory. Chapters 1-6. Chapters 7–12; Appendices 1–3.
+Elementary texts recommended for those with limited mathematical maturity:
+* Donnellan, Thomas, 1968. Lattice Theory. Pergamon.
+* Grätzer, G., 1971. Lattice Theory: First concepts and distributive lattices. W. H. Freeman.
+The standard contemporary introductory text, somewhat harder than the above:
+Advanced monographs:
+* Garrett Birkhoff, 1967. Lattice Theory, 3rd ed. Vol. 25 of AMS Colloquium Publications. American Mathematical Society.
+* Robert P. Dilworth and Crawley, Peter, 1973. Algebraic Theory of Lattices. Prentice-Hall. .
+On free lattices:
+* R. Freese, J. Jezek, and J. B. Nation, 1985. "Free Lattices". Mathematical Surveys and Monographs Vol. 42. Mathematical Association of America.
+* Johnstone, P.T., 1982. Stone spaces. Cambridge Studies in Advanced Mathematics 3. Cambridge University Press.
+On the history of lattice theory:
+On applications of lattice theory:
+* Table of contents
+On applications of lattice theory in geography and spatial analysis:
+EXTERNAL LINKS
+* J.B. Nation, Notes on Lattice Theory, unpublished course notes available as two PDF files.
+* Ralph Freese, "Lattice Theory Homepage".

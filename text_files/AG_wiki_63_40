@@ -1,0 +1,39 @@
+
+KING (CHESS)
+In chess, the king (♔,♚) is the most important piece. The object of the game is to threaten the opponent's king in such a way that escape is not possible (checkmate). If a player's king is threatened with capture, it is said to be in check, and the player must remove the threat of on the next move. If this cannot be done, the king is said to be in checkmate, resulting in a loss for that player. Although the king is the most important piece, it is usually the weakest piece in the game until a later phase, the endgame. Players cannot make any move that places their own king in check.
+MOVEMENT
+Section::::Movement.
+White starts with the king on the first to the right of the queen. Black starts with the king directly across from the white king. The white king starts on e1 and the black king on e8.
+A king can move one square in any direction (horizontally, vertically, or diagonally) unless the square is already occupied by a friendly piece or the move would place the king in check. As a result, the opposing kings may never occupy adjacent squares (see opposition), but the king can give discovered check by unmasking a bishop, rook, or queen. The king is also involved in the special move of castling. 
+CASTLING
+Section::::Castling.
+In conjunction with a rook, the king may make a special move called castling, in which the king moves two squares toward one of its rooks and then the rook is placed on the square over which the king crossed. Castling is allowed only when neither the king nor the castling rook has previously moved, no squares between them are occupied, the king is not in check, and the king will not move across or end its movement on a square that is under enemy attack.
+STATUS IN GAMES
+CHECK AND CHECKMATE
+Section::::Status in games.
+Section::::Check and checkmate.
+If a player's move places the opponent's king under attack, that king is said to be in check, and the player in check is required to immediately remedy the situation. There are three possible methods to remove the king from check:
+* Moving the king to an adjacent non-threatened square. A king cannot castle to get out of check.
+* Interposing a piece between the king in check and the attacking piece in order to break the line of threat (not possible when the attacking piece is a knight or pawn, or when in double check).
+* Capturing the attacking piece (not possible in double check, unless the king captures)
+If none of these three options are possible, the player's king has been checkmated and the player loses the game.
+STALEMATE
+Section::::Stalemate.
+A stalemate occurs when, for the player with the move:
+* The player has no legal moves, and
+* The player's king is not in check
+If this happens, the king is said to have been stalemated and the game ends in a draw. A player who has very little or no chance of winning will often try to entice the opponent to inadvertently place the player's king in stalemate in order to avoid a loss.
+ROLE IN GAMEPLAY
+Section::::Role in gameplay.
+In the opening and middlegame, the king will rarely play an active role in the development of an offensive or defensive position. Instead, a player will normally try to castle and seek safety on the edge of the board behind friendly pawns. In the endgame, however, the king emerges to play an active role as an offensive piece as well as assisting in the promotion of their remaining pawns.
+It is not meaningful to assign a value to the king relative to the other pieces, as it cannot be captured or exchanged. In this sense, its value could be considered infinite. As an assessment of the king's capability as an offensive piece in the endgame, it is often considered to be slightly stronger than a bishop or knight – Emanuel Lasker gave it the value of a knight plus a pawn (i.e. four points on the scale of chess piece relative value) . It is better at defending nearby pawns than the knight is, and it is better at attacking them than the bishop is .
+UNICODE
+Section::::Unicode.
+Unicode defines two codepoints for king:
+♔ U+2654 White Chess King (HTML ♔)
+♚ U+265A Black Chess King (HTML ♚)
+SEE ALSO
+REFERENCES
+EXTERNAL LINKS
+* Fianchetto variation of the King's Indian Defence
+* Piececlopedia: King by Fergus Duniho and Hans Bodlaender

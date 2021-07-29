@@ -1,0 +1,114 @@
+
+EMAIL ADDRESS
+An email address identifies an email box to which email messages are delivered. A wide variety of formats were used in early email systems, but only a single format is used today, following the standards developed for Internet mail systems since the 1980s. This article uses the term email address to refer to the addr-spec defined in RFC 5322, not to the address that is commonly used; the difference is that an address may contain a display name, a comment, or both.
+An email address such as John.Smith@example.com is made up of a local-part, an @ symbol, then a case-insensitive domain. Although the standard requires
+the local part to be case-sensitive, it also urges that receiving hosts deliver messages in a case-independent fashion,
+e.g., that the mail system at example.com treat John.Smith as equivalent to john.smith; some mail systems even treat them as equivalent to johnsmith. Mail systems often limit their users' choice of name to a subset of the technically valid characters, and in some cases also limit which addresses it is possible to send mail to.
+With the introduction of internationalized domain names, efforts are progressing to permit non-ASCII characters in email addresses.
+OVERVIEW
+Section::::Overview.
+The transmission of electronic mail within the Internet uses the Simple Mail Transfer Protocol (SMTP), defined in Internet standards RFC 5321 and RFC 5322, and extensions like RFC 6531. The mailboxes may be accessed and managed by users with the Post Office Protocol (POP) or the Internet Message Access Protocol (IMAP) with email client software that runs on a personal computer, mobile device, or with webmail systems that render the messages on a screen or on paper printouts.
+The general format of an email address is local-part@domain, and a specific example is jsmith@example.com. An address consists of two parts. The part before the @ symbol (local-part) identifies the name of a mailbox. This is often the username of the recipient, e.g., jsmith. The part after the @ symbol (domain) is a domain name that represents the administrative realm for the mail box, e.g., a company's domain name, example.com.
+When delivering email, an SMTP client, e.g., Mail User Agent (MUA), Mail Transfer Agent (MTA), uses the domain name system (DNS) to look up a Resource Record (RR) for the recipient's domain (the part of the email address on the right of @); if there is a mail exchanger Resource Record (MX record) then the returned MX record contains the name of the recipient's mailserver, otherwise the SMTP client uses an address record (A or AAAA). The MTA next connects to this server as an SMTP client.
+The local part of an email address has no significance for intermediate mail relay systems other than the final mailbox host. Email senders and intermediate relay systems must not assume it to be case-insensitive, since the final mailbox host may or may not treat it as such. A single mailbox may receive mail for multiple email addresses, if configured by the administrator. Conversely, a single email address may be the alias to a distribution list to many mailboxes. Email aliases, electronic mailing lists, sub-addressing, and catch-all addresses, the latter being mailboxes that receive messages regardless of the local part, are common patterns for achieving a variety of delivery goals.
+The addresses found in the header fields of an email message are not directly used by mail exchangers to deliver the message. An email message also contains a message envelope that contains the information for mail routing. While envelope and header addresses may be equal, forged email addresses are often seen in spam, phishing, and many other Internet-based scams. This has led to several initiatives which aim to make such forgeries easier to spot.
+To indicate the message recipient, an email address also may have an associated display name for the recipient, which is followed by the address specification surrounded by angled brackets, for example: John Smith .
+Earlier forms of email addresses on other networks than the Internet included other notations, such as that required by X.400, and the UUCP bang path notation, in which the address was given in the form of a sequence of computers through which the message should be relayed. This was widely used for several years, but was superseded by the Internet standards promulgated by the Internet Engineering Task Force (IETF).
+SYNTAX
+Section::::Syntax.
+The format of email addresses is codice_1 where the local part may be up to 64 characters long and the domain may have a maximum of 255 characters. The formal definitions are in RFC 5322 (sections 3.2.3 and 3.4.1) and RFC 5321—with a more readable form given in the informational RFC 3696 and the associated errata. Note that unlike the syntax of RFC 1034, and RFC 1035 there is no trailing period in the domain name.
+LOCAL-PART
+Section::::Local-part.
+The local-part of the email address may use any of these ASCII characters:
+* uppercase and lowercase Latin letters codice_2 to codice_3 and codice_4 to codice_5;
+* digits codice_6 to codice_7;
+* special characters codice_8;
+* dot codice_9, provided that it is not the first or last character unless quoted, and provided also that it does not appear consecutively unless quoted (e.g. codice_10 is not allowed but codice_11 is allowed);
+Note that some mail servers wildcard local parts, typically the characters following a plus and less often the characters following a minus, so fred+bah@domain and fred+foo@domain might end up in the same inbox as fred+@domain or even as fred@domain. This can be useful for tagging emails for sorting, see below, and for spam control. Braces codice_12 and codice_13 are also used in that fashion, although less often.
+* space and codice_14 characters are allowed with restrictions (they are only allowed inside a quoted string, as described in the paragraph below, and in addition, a backslash or double-quote must be preceded by a backslash);
+* comments are allowed with parentheses at either end of the local-part; e.g. codice_15 and codice_16 are both equivalent to codice_17.
+In addition to the above ASCII characters, international characters above U+007F, encoded as UTF-8, are permitted by RFC 6531, though even mail systems that support SMTPUTF8 and 8BITMIME may restrict which characters to use when assigning local-parts.
+A local part is either a Dot-string or a Quoted-string; it cannot be a combination. 
+Quoted strings and characters however, are not commonly used. RFC 5321 also warns that "a host that expects to receive mail SHOULD avoid defining mailboxes where the Local-part requires (or uses) the Quoted-string form".
+The local-part codice_18 is treated specially—it is case-insensitive, and should be forwarded to the domain email administrator. Technically all other local-parts are case-sensitive, therefore codice_19 and codice_20 specify different mailboxes; however, many organizations treat uppercase and lowercase letters as equivalent. Indeed, RFC 5321 warns that "a host that expects to receive mail SHOULD avoid defining mailboxes where ... the Local-part is case-sensitive".
+Despite the wide range of special characters which are technically valid, organisations, mail services, mail servers and mail clients in practice often do not accept all of them. For example, Windows Live Hotmail only allows creation of email addresses using alphanumerics, dot (codice_9), underscore (codice_22) and hyphen (codice_23). Common advice is to avoid using some special characters to avoid the risk of rejected emails.
+DOMAIN
+Section::::Domain.
+The domain name part of an email address has to conform to strict guidelines: it must match the requirements for a hostname, a list of dot-separated DNS labels, each label being limited to a length of 63 characters and consisting of:
+* uppercase and lowercase Latin letters codice_2 to codice_3 and codice_4 to codice_5;
+* digits codice_6 to codice_7, provided that top-level domain names are not all-numeric;
+* hyphen codice_23, provided that it is not the first or last character.
+This rule is known as the LDH rule (letters, digits, hyphen). In addition, the domain may be an IP address literal, surrounded by square brackets codice_31, such as codice_32 or codice_33, although this is rarely seen except in email spam. Internationalized domain names (which are encoded to comply with the requirements for a hostname) allow for presentation of non-ASCII domains. In mail systems compliant with RFC 6531 and RFC 6532 an email address may be encoded as UTF-8, both a local-part as well as a domain name.
+Comments are allowed in the domain as well as in the local-part; for example, codice_34 and codice_35 are equivalent to codice_17.
+EXAMPLES
+Valid email addresses
+Invalid email addresses
+COMMON LOCAL-PART SEMANTICS
+Section::::Common local-part semantics.
+According to RFC 5321 2.3.11 Mailbox and Address, "...the local-part MUST be interpreted and assigned semantics only by the host specified in the domain of the address."
+This means that no assumptions can be made about the meaning of the local-part of another mail server. It is entirely up to the configuration of the mail server.
+LOCAL-PART NORMALIZATION
+Section::::Local-part normalization.
+Interpretation of the local part of an email address is dependent on the conventions and policies implemented in the mail server. For example, case sensitivity may distinguish mailboxes differing only in capitalization of characters of the local-part, although this is not very common. Gmail ignores all dots in the local-part for the purposes of determining account identity. This prevents the creation of user accounts your.user.name or yourusername when the account your.username already exists.
+SUBADDRESSING
+Section::::Subaddressing.
+Some mail services support a tag included in the local-part, such that the address is an alias to a prefix of the local part. For example, the address joeuser+tag@example.com denotes the same delivery address as joeuser@example.com. RFC 5233, refers to this convention as sub-addressing, but it is also known as plus addressing or tagged addressing.
+Addresses of this form, using various separators between the base name and the tag, are supported by several email services, including Runbox (plus), Gmail (plus), Rackspace Email (plus), Yahoo! Mail Plus (hyphen), Apple's iCloud (plus), Outlook.com (plus), ProtonMail (plus), FastMail (plus and Subdomain Addressing), MMDF (equals), Qmail and Courier Mail Server (hyphen). Postfix allows configuring an arbitrary separator from the legal character set.
+The text of the tag may be used to apply filtering, or to create single-use, or disposable email addresses.
+In practice, the form validation of some web sites may reject special characters such as "+" in an email address – treating them, incorrectly, as invalid characters. This can lead to an incorrect user receiving an e-mail if the "+" is silently stripped by a website without any warning or error messages. For example, an email intended for the user-entered email address foo+bar@example.com could be incorrectly sent to foobar@example.com. In other cases a poor user experience can occur if some parts of a site, such as a user registration page, allow the "+" character whilst other parts, such as a page for unsubscribing from a site's mailing list, do not.
+VALIDATION AND VERIFICATION
+Section::::Validation and verification.
+Email addresses are often requested as input to website as user identification for the purpose of data validation. While there are companies that provide services to validate an email address at the time of entry, normally using an Application programming interface, there is no guarantee that it will provide accurate results.
+An email address is generally recognized as having two parts joined with an at-sign (@). However, the technical specification detailed in RFC 822 and subsequent RFCs are more extensive. A regular expression can be used to check for all of these criteria, except that of bracketed nested comments.
+Syntactically correct, verified email addresses do not guarantee email box existence. Thus many mail servers use other techniques and check the mailbox existence against relevant systems such as the Domain Name System for the domain or using callback verification to check if the mailbox exists. This is however often disabled to avoid directory harvest attack.
+Assuring an email address is of a good quality requires a combination of various validation techniques. Large websites, bulk mailers and spammers require fast algorithms that predict validity of email address. Such methods depend heavily on heuristic algorithms and statistical models.
+Many websites evaluate the validity of email addresses differently than the standards specify, rejecting addresses containing valid characters, such as + and /, or enforcing arbitrary length limitations. RFC 3696 provides specific advice for validating Internet identifiers, including email addresses.
+HTML5 forms implemented in many browsers allow email address validation to be handled by the browser.
+Email address internationalization provides for a much larger range of characters than many current validation algorithms allow, such as all Unicode characters above U+0080, encoded as UTF-8.
+IDENTITY VALIDATION
+Section::::Identity validation.
+Email addresses are the primary means of account activation (user identification and validation on websites), but other methods are available, such as cell phone number validation, postal mail validation, fax validation. Email address validation is accomplished by the website sending an email to the user-provided email address with a special temporary hyperlink. On receipt, the user opens the link, immediately activating the account. Email addresses are also useful as means of forwarding messages from a website, e.g., user messages, user actions, to the email inbox.
+INTERNATIONALIZATION
+Section::::Internationalization.
+The IETF conducts a technical and standards working group devoted to internationalization issues of email addresses, entitled Email Address Internationalization (EAI, also known as IMA, Internationalized Mail Address). This group produced RFC 6530, RFC 6531, RFC 6532, and RFC 6533, and continues to work on additional EAI-related RFCs.
+The IETF's EAI Working group published RFC 6530 "Overview and Framework for Internationalized Email", which enabled non-ASCII characters to be used in both the local-parts and domain of an email address. RFC 6530 provides for email based on the UTF-8 encoding, which permits the full repertoire of Unicode. RFC 6531 provides a mechanism for SMTP servers to negotiate transmission of the SMTPUTF8 content.
+The basic EAI concepts involve exchanging mail in UTF-8. Though the original proposal included a downgrading mechanism for legacy systems, this has now been dropped. The local servers are responsible for the local-part of the address, whereas the domain would be restricted by the rules of internationalized domain names, though still transmitted in UTF-8. The mail server is also responsible for any mapping mechanism between the IMA form and any ASCII alias.
+EAI enables users to have a localized address in a native language script or character set, as well as an ASCII form for communicating with legacy systems or for script-independent use. Applications that recognize internationalized domain names and mail addresses must have facilities to convert these representations.
+Significant demand for such addresses is expected in China, Japan, Russia, and other markets that have large user bases in a non-Latin-based writing system.
+For example, in addition to the .in top-level domain, the government of India in 2011 got approval for ".bharat", (from Bhārat Gaṇarājya), written in seven different scripts for use by Gujrati, Marathi, Bangali, Tamil, Telugu, Punjabi and Urdu speakers. Indian company XgenPlus.com claims to be the world's first EAI mailbox provider, and the Government of Rajasthan now supplies a free email account on domain राजस्थान.भारत for every citizen of the state. A leading media house Rajasthan Patrika launched their IDN domain पत्रिका.भारत with contactable email.
+INTERNATIONALIZATION EXAMPLES
+Section::::Internationalization examples.
+The example addresses below would not be handled by RFC 5322 based servers, but are permitted by RFC 6530. Servers compliant with this will be able to handle these:
+* Latin alphabet with diacritics: Pelé@example.com
+* Greek alphabet: δοκιμή@παράδειγμα.δοκιμή
+* Traditional Chinese characters: 我買@屋企.香港
+* Japanese characters: 二ノ宮@黒川.日本
+* Cyrillic characters: чебурашка@ящик-с-апельсинами.рф
+* Devanagari characters: संपर्क@डाटामेल.भारत
+INTERNATIONALIZATION SUPPORT
+* Postfix mailer supports internationalized mail since 2015-02-08 with a stable release 3.0.0.
+* Google has support for sending emails to and from internationalized domains, but does not allow the registration of non-ASCII email addresses.
+* Microsoft added similar functionality in Outlook 2016
+* DataMail launches internationalized email support for 8 Indian languages using the XgenPlus email platform in India.
+STANDARDS DOCUMENTS
+* RFC 821 – Simple Mail Transfer Protocol (Obsoleted by RFC 2821)
+* RFC 822 – Standard for the Format of ARPA Internet Text Messages (Obsoleted by RFC 2822) (Errata)
+* RFC 1035 – Domain names, Implementation and specification (Errata)
+* RFC 1123 – Requirements for Internet Hosts, Application and Support (Updated by RFC 2821, RFC 5321) (Errata)
+* RFC 2142 – Mailbox Names for Common Services, Roles and Functions (Errata)
+* RFC 2821 – Simple Mail Transfer Protocol (Obsoletes RFC 821, Updates RFC 1123, Obsoleted by RFC 5321) (Errata)
+* RFC 2822 – Internet Message Format (Obsoletes RFC 822, Obsoleted by RFC 5322) (Errata)
+* RFC 3696 – Application Techniques for Checking and Transformation of Names (Errata)
+* RFC 4291 – IP Version 6 Addressing Architecture (Updated by RFC 5952) (Errata)
+* RFC 5321 – Simple Mail Transfer Protocol (Obsoletes RFC 2821, Updates RFC 1123) (Errata)
+* RFC 5322 – Internet Message Format (Obsoletes RFC 2822, Updated by RFC 6854) (Errata)
+* RFC 5952 – A Recommendation for IPv6 Address Text Representation (Updates RFC 4291) (Errata)
+* RFC 6530 – Overview and Framework for Internationalized Email (Obsoletes RFC 4952, 5504, 5825)
+* RFC 6854 – Update to Internet Message Format to Allow Group Syntax in the "From:" and "Sender:" Header Fields (Updates RFC 5322)
+SEE ALSO
+* Anti-spam techniques
+* Email client
+* Email box
+* Email authentication
+* International email
+REFERENCES

@@ -1,0 +1,26 @@
+
+STRIKE PRICE
+In finance, the strike price (or exercise price) of an option is the fixed price at which the owner of the option can buy (in the case of a call), or sell (in the case of a put), the underlying security or commodity. The strike price may be set by reference to the spot price (market price) of the underlying security or commodity on the day an option is taken out, or it may be fixed at a discount or at a premium.
+The strike price is a key variable in a derivatives contract between two parties. Where the contract requires delivery of the underlying instrument, the trade will be at the strike price, regardless of the market price of the underlying instrument at that time.
+MONEYNESS
+Section::::Moneyness.
+Moneyness is the value of a financial contract if the contract settlement is financial. More specifically, it is the difference between the strike price of the option and the current trading price of its underlying security.
+In options trading, terms such as in-the-money, at-the-money and out-of-the-money describe the moneyness of options.
+* A call option is in-the-money if the strike price is below the market price of the underlying stock.
+* A put option is in-the-money if the strike price is above the market price of the underlying stock.
+* A call or put option is at-the-money if the stock price and the exercise price are the same (or close).
+* A call option is out-of-the-money if the strike price is above the market price of the underlying stock.
+* A put option is out-of-the-money if the strike price is below the market price of the underlying stock.
+MATHEMATICAL FORMULA
+Section::::Mathematical formula.
+A call option has positive monetary value at expiration when the underlying has a spot price (S) above the strike price (K). Since the option will not be exercised unless it is in-the-money, the payoff for a call option is
+also written as
+where
+A put option has positive monetary value at expiration when the underlying has a spot price below the strike price; it is "out-the-money" otherwise, and will not be exercised. The payoff is therefore:
+or
+For a digital option payoff is formula_6, where formula_7 is the indicator function.
+SEE ALSO
+* Option time value
+* Intrinsic value
+* Option screener
+REFERENCES

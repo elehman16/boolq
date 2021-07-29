@@ -1,0 +1,24 @@
+
+SEMIPRIME
+In mathematics, a semiprime is a natural number that is the product of two prime numbers. The two primes in the product may equal each other, so the semiprimes include the squares of prime numbers.
+Because there are infinitely many prime numbers, there are also infinitely many semiprimes. Semiprimes are also called biprimes.
+EXAMPLES AND VARIATIONS
+Section::::Examples and variations.
+The semiprimes less than 100 are:
+Semiprimes that are not square numbers are called discrete, distinct, or squarefree semiprimes:
+The semiprimes are the case formula_1 of the formula_2-almost primes, numbers with exactly formula_2 prime factors. However some sources use "semiprime" to refer to a larger set of numbers, the numbers with at most two prime factors (including unit (1), primes, and semiprimes). These are:
+PROPERTIES
+Section::::Properties.
+Semiprime numbers have no composite numbers as factors other than themselves. For example, the number 26 is semiprime and its only factors are 1, 2, 13, and 26, of which only 26 is composite.
+For a squarefree semiprime formula_4 (with formula_5)
+the value of Euler's totient function formula_6 (the number of positive integers less than or equal to formula_7 that are relatively prime to formula_7) takes the simple form
+This calculation is an important part of the application of semiprimes in the RSA cryptosystem.
+For a square semiprime formula_10, the formula is again simple:
+APPLICATIONS
+Section::::Applications.
+Semiprimes are highly useful in the area of cryptography and number theory, most notably in public key cryptography, where they are used by RSA and pseudorandom number generators such as Blum Blum Shub. These methods rely on the fact that finding two large primes and multiplying them together (resulting in a semiprime) is computationally simple, whereas finding the original factors appears to be difficult. In the RSA Factoring Challenge, RSA Security offered prizes for the factoring of specific large semiprimes and several prizes were awarded. The original RSA Factoring Challenge was issued in 1991, and was replaced in 2001 by the New RSA Factoring Challenge, which was later withdrawn in 2007.
+In 1974 the Arecibo message was sent with a radio signal aimed at a star cluster. It consisted of formula_12 binary digits intended to be interpreted as a formula_13 bitmap image. The number formula_14 was chosen because it is a semiprime and therefore can be arranged into a rectangular image in only two distinct ways (23 rows and 73 columns, or 73 rows and 23 columns).
+SEE ALSO
+* Chen's theorem
+REFERENCES
+EXTERNAL LINKS

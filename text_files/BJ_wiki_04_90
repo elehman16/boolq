@@ -1,0 +1,80 @@
+
+DETERMINISTIC FINITE AUTOMATON
+In the theory of computation, a branch of theoretical computer science, a deterministic finite automaton (DFA)—also known as deterministic finite acceptor (DFA), deterministic finite state machine (DFSM), or deterministic finite state automaton (DFSA)—is a finite-state machine that accepts or rejects strings of symbols and only produces a unique computation (or run) of the automaton for each input string. Deterministic refers to the uniqueness of the computation. In search of the simplest models to capture finite-state machines, Warren McCulloch and Walter Pitts were among the first researchers to introduce a concept similar to finite automata in 1943.
+The figure illustrates a deterministic finite automaton using a state diagram. In this example automaton, there are three states: S, S, and S (denoted graphically by circles). The automaton takes a finite sequence of 0s and 1s as input. For each state, there is a transition arrow leading out to a next state for both 0 and 1. Upon reading a symbol, a DFA jumps deterministically from one state to another by following the transition arrow. For example, if the automaton is currently in state S and the current input symbol is 1, then it deterministically jumps to state S. A DFA has a start state (denoted graphically by an arrow coming in from nowhere) where computations begin, and a set of accept states (denoted graphically by a double circle) which help define when a computation is successful.
+A DFA is defined as an abstract mathematical concept, but is often implemented in hardware and software for solving various specific problems. For example, a DFA can model software that decides whether or not online user input such as email addresses are valid.
+DFAs recognize exactly the set of regular languages, which are, among other things, useful for doing lexical analysis and pattern matching. DFAs can be built from nondeterministic finite automata (NFAs) using the powerset construction method.
+FORMAL DEFINITION
+Section::::Formal definition.
+A deterministic finite automaton formula_1 is a 5-tuple,
+formula_2, consisting of
+* a finite set of states formula_3
+* a finite set of input symbols called the alphabet formula_4
+* a transition function formula_5
+* an initial or start state formula_6
+* a set of accept states formula_7
+Let formula_8 be a string over the alphabet formula_4. The automaton formula_1 accepts the string formula_11 if a sequence of states, formula_12, exists in formula_3 with the following conditions:
+* formula_14
+* 
+* formula_15, for formula_16
+* 
+* formula_17.
+* 
+In words, the first condition says that the machine starts in the start state formula_18. The second condition says that given each character of string formula_11, the machine will transition from state to state according to the transition function formula_20. The last condition says that the machine accepts formula_11 if the last input of formula_11 causes the machine to halt in one of the accepting states. Otherwise, it is said that the automaton rejects the string. The set of strings that formula_1 accepts is the language recognized by formula_1 and this language is denoted by formula_25.
+A deterministic finite automaton without accept states and without a starting state is known as a transition system or semiautomaton.
+For more comprehensive introduction of the formal definition see automata theory.
+COMPLETE AND INCOMPLETE
+Section::::Complete and incomplete.
+According to the above definition, deterministic finite automata are always complete: they define a transition for each state and each input symbol.
+While this is the most common definition, some authors use the term deterministic finite automaton for a slightly different notion: an automaton that defines at most one transition for each state and each input symbol; the transition function is allowed to be partial. When no transition is defined, such an automaton halts.
+EXAMPLE
+Section::::Example.
+The following example is of a DFA formula_1, with a binary alphabet, which requires that the input contains an even number of 0s.
+formula_27 where
+* formula_28
+* formula_29
+* formula_30
+* formula_31 and
+* formula_20 is defined by the following state transition table:
+  0  1
+S  S  S
+S  S  S
+The state formula_33 represents that there has been an even number of 0s in the input so far, while formula_34 signifies an odd number. A 1 in the input does not change the state of the automaton. When the input ends, the state will show whether the input contained an even number of 0s or not. If the input did contain an even number of 0s, formula_1 will finish in state formula_33, an accepting state, so the input string will be accepted.
+The language recognized by formula_1 is the regular language given by the regular expression codice_1, where codice_2 is the Kleene star, e.g., codice_3 denotes any number (possibly zero) of consecutive ones.
+CLOSURE PROPERTIES
+Section::::Closure properties.
+If DFAs recognize the languages that are obtained by applying an operation on the DFA recognizable languages then DFAs are said to be closed under the operation. The DFAs are closed under the following operations.
+For each operation, an optimal construction with respect to the number of states has been determined in the state complexity research.
+Since DFAs are equivalent to nondeterministic finite automata (NFA), these closures may also be proved using closure properties of NFA.
+AS A TRANSITION MONOID
+Section::::As a transition monoid.
+A run of a given DFA can be seen as a sequence of compositions of a very general formulation of the transition function with itself. Here we construct that function.
+For a given input symbol formula_38, one may construct a transition function formula_39 by defining formula_40 for all formula_41. (This trick is called currying.) From this perspective, formula_42 "acts" on a state in Q to yield another state. One may then consider the result of function composition repeatedly applied to the various functions formula_42, formula_44, and so on. Given a pair of letters formula_45, one may define a new function formula_46, where formula_47 denotes function composition.
+Clearly, this process may be recursively continued, giving the following recursive definition of formula_48:
+formula_54 is defined for all words formula_55. A run of the DFA is a sequence of compositions of formula_54 with itself.
+Repeated function composition forms a monoid. For the transition functions, this monoid is known as the transition monoid, or sometimes the transformation semigroup. The construction can also be reversed: given a formula_54, one can reconstruct a formula_20, and so the two descriptions are equivalent.
+LOCAL AUTOMATA
+Section::::Local automata.
+A local automaton is a DFA for which all edges with the same label lead to a single vertex. Local automata accept the class of local languages, those for which membership of a word in the language is determined by a "sliding window" of length two on the word.
+A Myhill graph over an alphabet A is a directed graph with vertex set A and subsets of vertices labelled "start" and "finish". The language accepted by a Myhill graph is the set of directed paths from a start vertex to a finish vertex: the graph thus acts as an automaton. The class of languages accepted by Myhill graphs is the class of local languages.
+RANDOM
+Section::::Random.
+When the start state and accept states are ignored, a DFA of formula_59 states and an alphabet of size formula_60 can be seen as a digraph of formula_59 vertices in which all vertices have formula_60 out-arcs labeled formula_63 (a formula_60-out digraph). It is known that when formula_65 is a fixed integer, with high probability, the largest strongly connected component (SCC) in such a formula_60-out digraph chosen uniformly at random is of linear size and it can be reached by all vertices. It has also been proven that if formula_60 is allowed to increase as formula_59 increases, then the whole digraph has a phase transition for strong connectivity similar to Erdős–Rényi model for connectivity.
+In a random DFA, the maximum number of vertices reachable from one vertex is very close to the number of vertices in the largest SCC with high probability. This is also true for the largest induced sub-digraph of minimum in-degree one, which can be seen as a directed version of formula_69-core.
+ADVANTAGES AND DISADVANTAGES
+Section::::Advantages and disadvantages.
+DFAs are one of the most practical models of computation, since there is a trivial linear time, constant-space, online algorithm to simulate a DFA on a stream of input. Also, there are efficient algorithms to find a DFA recognizing:
+* the complement of the language recognized by a given DFA.
+* the union/intersection of the languages recognized by two given DFAs.
+Because DFAs can be reduced to a canonical form (minimal DFAs), there are also efficient algorithms to determine:
+* whether a DFA accepts any strings (Emptiness Problem)
+* whether a DFA accepts all strings (Universality Problem)
+* whether two DFAs recognize the same language (Equality Problem)
+* whether the language recognized by a DFA is included in the language recognized by a second DFA (Inclusion Problem)
+* the DFA with a minimum number of states for a particular regular language (Minimization Problem)
+DFAs are equivalent in computing power to nondeterministic finite automata (NFAs). This is because, firstly any DFA is also an NFA, so an NFA can do what a DFA can do. Also, given an NFA, using the powerset construction one can build a DFA that recognizes the same language as the NFA, although the DFA could have exponentially larger number of states than the NFA. However, even though NFAs are computationally equivalent to DFAs, the above mentioned problems are not necessarily solved efficiently also for NFAs. The non-universality problem for NFAs is PSPACE complete since there are small NFAs with shortest rejecting word in exponential size. A DFA is universal if and only if all states are final states, but this does not hold for NFAs. The Equality, Inclusion and Minimization Problems are also PSPACE complete since they require forming the complement of an NFA which results in an exponential blow up of size.
+On the other hand, finite state automata are of strictly limited power in the languages they can recognize; many simple languages, including any problem that requires more than constant space to solve, cannot be recognized by a DFA. The classic example of a simply described language that no DFA can recognize is bracket or Dyck language, i.e., the language that consists of properly paired brackets such as word "(()())". Intuitively, no DFA can recognize the Dyck language because DFAs are not capable of counting: a DFA-like automaton needs to have a state to represent any possible number of "currently open" parentheses, meaning it would need an unbounded number of states. Another simpler example is the language consisting of strings of the form ab for some finite but arbitrary number of a's, followed by an equal number of b's.
+SEE ALSO
+NOTES
+REFERENCES
+* . Section 1.1: Finite Automata, pp. 31–47. Subsection "Decidable Problems Concerning Regular Languages" of section 4.1: Decidable Languages, pp. 152–155.4.4 DFA can accept only regular language

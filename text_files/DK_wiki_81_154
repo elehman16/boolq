@@ -1,0 +1,55 @@
+
+INTEL CORE 2
+Core 2 is a brand encompassing a range of Intel's consumer 64-bit x86-64 single-, dual-, and quad-core microprocessors based on the Core microarchitecture. The single- and dual-core models are single-die, whereas the quad-core models comprise two dies, each containing two cores, packaged in a multi-chip module. The introduction of Core 2 relegated the Pentium brand to the mid-range market, and reunified laptop and desktop CPU lines for marketing purposes under the same product name, which previously had been divided into the Pentium 4, Pentium D, and Pentium M brands.
+The Core 2 brand was introduced on July 27, 2006, comprising the Solo (single-core), Duo (dual-core), Quad (quad-core), and in 2007, the Extreme (dual- or quad-core CPUs for enthusiasts) subbrands. Intel Core 2 processors with vPro technology (designed for businesses) include the dual-core and quad-core branches.
+Although Woodcrest processors are also based on the Core architecture, they are available under the Xeon brand. Since December 2006, all Core 2 Duo processors are manufactured from 300 millimeter plates at Fab 12 factory in Arizona, USA and at Fab 24-2 in County Kildare, Ireland.
+MODELS
+Section::::Models.
+The Core 2-branded CPUs include: "Conroe"/"Allendale" (dual-core for desktops), "Merom" (dual-core for laptops), "Merom-L" (single-core for laptops), "Kentsfield" (quad-core for desktops), and the updated variants named "Wolfdale" (dual-core for desktops), "Penryn" (dual-core for laptops), and "Yorkfield" (quad-core for desktops). (Note: For the server and workstation "Woodcrest", "Tigerton", "Harpertown" and "Dunnington" CPUs see the Xeon brand.)
+The Core 2 branded processors feature Virtualization Technology (with some exceptions), Execute Disable Bit, and SSE3. Their Core microarchitecture introduced SSSE3, Trusted Execution Technology, Enhanced SpeedStep, and Active Management Technology (iAMT2). With a maximum thermal design power (TDP) of 65W, the Core 2 Duo Conroe dissipates half the power of the less capable contemporary Pentium D-branded desktop chips that have a max TDP of 130 W.
+!colspan="8"Intel Core 2 processor family
+!rowspan="2"Originallogo
+!rowspan="2"2009 newlogo
+!colspan="3"Desktop
+!colspan="3"Laptop
+!Code-name
+!Core
+!Date released
+!Code-name
+!Core
+!Date released
+ConroeAllendaleWolfdale
+dual (65 nm)dual (65 nm)dual (45 nm)
+August 2006January 2007January 2008
+MeromPenryn
+dual (65 nm)dual (45 nm)
+July 2006January 2008
+Conroe XEKentsfield XEYorkfield XE
+dual (65 nm)quad (65 nm)quad (45 nm)
+July 2006November 2006November 2007
+Merom XEPenryn XEPenryn XE
+dual (65 nm)dual (45 nm)quad (45 nm)
+July 2007January 2008August 2008
+KentsfieldYorkfield
+quad (65 nm)quad (45 nm)
+January 2007March 2008
+Penryn
+quad (45 nm)
+August 2008
+colspan="3"
+Merom-LPenryn-L
+Single (65 nm)Single (45 nm)
+September 2007May 2008
+!colspan="8"List of Intel Core 2 microprocessors
+With the release of the Core 2 processor, the abbreviation C2 has come into common use, with its variants C2D (the present Core 2 Duo), and C2Q, C2E to refer to the Core 2 Quad and Core 2 Extreme processors respectively. C2QX stands for the Extreme-Editions of the Quad (QX6700, QX6800, QX6850).
+The successors to the Core 2 brand are a set of Nehalem microarchitecture based processors called Core i3, i5, and i7. Core i7 was officially launched on November 17, 2008 as a family of three quad-core processor desktop models, further models started appearing throughout 2009. The last Core 2 processor to be released was the Core 2 Quad Q9500 in January 2010. The Core 2 processor line was removed from the official price lists in July 2011.
+SEE ALSO
+* Comparison of Intel processors
+* List of Intel Core 2 microprocessors
+REFERENCES
+EXTERNAL LINKS
+Section::::External links.
+1st public demonstration:Anandtech discovers Core 2 Duo performance under the supervision of Francois Piednoel
+* Intel Penryn Architecture and Performance Preview
+* Intel Centrino Duo Mobile Technology papers
+* Intel Core Microarchitecture

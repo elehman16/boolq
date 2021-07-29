@@ -1,0 +1,36 @@
+
+MICROSOFT OFFICE PASSWORD PROTECTION
+Microsoft Office password protection is a security feature to protect Microsoft Office (Word, Excel, PowerPoint) documents with a user-provided password. As of Office 2007, this uses strong encryption; earlier versions used weaker systems and are not considered secure.
+Office 2007–2013 employed 128-bit key AES password protection which remains secure. Office 2016 employed 256-bit key AES password protection which also remains secure.
+The Office 97–2003 password protection used 40-bit key RC4 which contains multiple vulnerabilities rendering it insecure.
+TYPES
+Section::::Types.
+Microsoft Office applications offer the use of two main groups of passwords that can be set to a document depending on whether they encrypt a password-protected document or not.
+Passwords that do not encrypt a password-protected document have different security level features for each of Microsoft Office applications as mentioned below.
+* In Microsoft Word passwords restrict modification of the entire document.
+* In Microsoft Excel passwords restrict modification of the workbook, a worksheet within it, or individual elements in the worksheet.
+* In Microsoft PowerPoint passwords restrict modification of the entire presentation.
+Because of the lack of document encryption, all the passwords mentioned above cannot reliably protect a document from a hacker. Most password cracking software can remove such protection from a password-protected document in very little time.
+The password that encrypts a document also restricts the user from opening the document. It is possible to set this type of password in all Microsoft Office applications. If a user fails to enter a correct password to the field which appears after an attempt to open a password-protected document, viewing and editing the document will not be possible. Due to the encryption of a document protected by a password to open it, a hacker needs to decrypt the document to get access to its contents. To provide improved security, Microsoft has been consistently enhancing the Office encryption algorithm strength.
+HISTORY OF MICROSOFT ENCRYPTION PASSWORD
+Section::::History of Microsoft Encryption password.
+In Excel and Word 95 and prior editions a weak protection algorithm is used that converts a password to a 16-bit key. Hacking software is now readily available to find a 16-bit key and decrypt the password-protected document instantly.
+In Excel and Word 97 and 2000 the key length was increased to 40 bits. This protection algorithm is also currently considered to be weak and presents no difficulties to hacking software.
+The default protection in Office XP and 2003 was not changed, but an opportunity to use a custom protection algorithm was added. Choosing a non-standard Cryptographic Service Provider allows increasing a key length so that a key which is used to encrypt a document can't be found. However, password-cracking programs can enter multiple random passwords with the same speed, so use of CSPs does not slow down password recovery at all. Weak passwords can still be recovered fast enough even if a custom CSP is on.
+In Office 2007 (Word, Excel and PowerPoint), protection was significantly enhanced since a modern protection algorithm named Advanced Encryption Standard was used. At present there is no software that can break this encryption. With the help of the SHA-1 hash function, a password is stretched into a 128-bit key 50,000 times before opening the document; as a result, password recovery speed is vastly increased.
+Excel and Word 2010 still employ AES and a 128-bit key, but the number of SHA-1 conversions has doubled to 100,000 further increasing password recovery speed.
+Office 2013 (Access, Excel, OneNote, PowerPoint, Project, and Word) uses 128-bit AES, again with hash algorithm SHA-1 by default.
+Office 2016 (Access, Excel, OneNote, PowerPoint, Project, and Word) uses 256-bit AES, the SHA-1 hash algorithm, and CBC (Cipher Block Chaining) by default.
+EXCEL WORKSHEET AND MACRO PROTECTION
+Section::::Excel Worksheet and Macro protection.
+The protection for worksheets and macros is necessarily weaker than that for the entire workbook as the software itself must be able to display or use them. In Excel it is particularly weak, and an equivalent password can easily be found of the form ABABABABABAx where the first 11 chars are either A or B and the last is an ASCII character.
+PASSWORD RECOVERY ATTACKS
+Section::::Password recovery attacks.
+There are a number of attacks that can be employed to find a password or remove password protection from Excel and Word documents.
+Password removal can be done with the help of precomputation tables or a guaranteed decryption attack.
+Attacks that target the original password set in Microsoft Excel and Word include dictionary attack, rule-based attack, brute-force attack, mask attack and statistics-based attack.
+The efficiency of attacks can be considerably enhanced if one of the following means is applied: multiple CPUs (distributed attack), GPGPU (applicable only to Microsoft Office 2007–2010 documents) and cloud computing. Due to weak passwords, at the moment, cloud computing facilities are capable of unlocking as many as ca. 80% of the files saved in the Office 2007–2010 format. Passwords of sufficient length and complexity typically cannot be brute-forced.
+Office 2013 introduces SHA-512 hashes in the encryption algorithm, making brute-force and rainbow table attacks slower.
+There is specialized software designed to recover lost Microsoft Office passwords on pre-AES encryption.
+Ultimately, the security of a password-protected document is dependent on the user choosing a password of sufficient complexity. If the password can be determined through guesswork or social engineering, the underlying cipher is not important.
+REFERENCES

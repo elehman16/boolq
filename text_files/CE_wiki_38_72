@@ -1,0 +1,57 @@
+
+EURO SIGN
+The euro sign (€) is the currency sign used for the euro, the official currency of the European Union (EU) and other non-EU countries (Kosovo and Montenegro). The design was presented to the public by the European Commission on 12 December 1996. The international three-letter code (according to ISO standard ISO 4217) for the euro is EUR. In Unicode it is encoded at . In English, the sign precedes the value (for instance, €10, not 10 €, unlike most other European languages). In some style guides, but not others, the euro sign is unspaced. The first letter of the word Europe is crossed by two parallel lines.
+DESIGN
+Section::::Design.
+The euro currency sign was designed to be similar in structure to the old sign for the European Currency Unit (Encoded as ). There were originally 32 proposals; these were reduced to ten candidates. These ten were put to a public survey. After the survey had narrowed the original ten proposals down to two, it was up to the European Commission to choose the final design. The other designs that were considered are not available for the public to view, nor is any information regarding the designers available for public query. The European Commission considers the process of designing to have been internal and keeps these records secret. The eventual winner was a design created by a team of four experts whose identities have not been revealed. It is assumed that the Belgian graphic designer Alain Billiet was the winner and thus the designer of the euro sign.
+The official story of the design history of the euro sign is disputed by Arthur Eisenmenger, a former chief graphic designer for the European Economic Community, who claims he had the idea prior to the European Commission.
+The European Commission specified a euro logo with exact proportions and colours (PMS Yellow foreground, PMS Reflex Blue background), for use in public-relations material related to the euro introduction. While the Commission intended the logo to be a prescribed glyph shape, type designers made it clear that they intended to design their own variants instead.
+USE ON COMPUTERS
+Section::::Use on computers.
+Generating the euro sign using a computer depends on the operating system and national conventions. Some mobile phone companies issued an interim software update for their special SMS character set, replacing the less-frequent Japanese yen sign with the euro sign. Later mobile phones have both currency signs.
+The euro is represented in the Unicode character set with the character name EURO SIGN and the code position U+20AC (decimal 8364) as well as in updated versions of the traditional Latin character set encodings. In HTML, the € entity can also be used.
+An implicit character encoding, along with the fact that the code position of the euro sign is different in common encoding schemes, led to many problems displaying the euro sign in computer applications. While displaying the euro sign is no problem as long as only one system is used (provided an up-to-date font with the proper glyph is available), mixed setups often produced errors. One example is a content management system where articles are stored in a database using a different character set than the editor's computer. Another is legacy software which could only handle older encodings such as ISO 8859-1 that contained no euro sign at all. In such situations, character set conversions had to be made, often introducing conversion errors such as a question mark (?) being displayed instead of a euro sign.
+Care has been taken to avoid replacing an existing obsolete currency sign with the euro sign. That could create different currency signs for sender and receiver in e-mails or web sites, with confusions about business agreements as a result.
+ENTRY METHODS
+Section::::Entry methods.
+Depending on keyboard layout and the operating system, the symbol can be entered as:
+* (UK/IRL)
+* (US INTL/ESP)
+* (BEL/ESP/FRA/GER/ITA/POR/CZE/EST/SWE)
+* (HU/PL)
+* (UK/IRL)
+* (US INTL/ESP)
+* in Microsoft Word in United States layout
+* + in Microsoft Windows (depends on system locale setting)
+* followed by in Chrome OS, and in other operating systems using IBus.
+* followed by in the Vim text editor
+On the macOS operating system, a variety of key combinations are used depending on the keyboard layout, for example:
+* in British layout
+* in United States layout
+* in Slovenian layout
+* in French layout
+* in German, Spanish and Italian layout
+* in Swedish layout
+The Compose key sequence for the euro sign is =E.
+USE
+Section::::Use.
+Placement of the sign also varies. Partly since there are no official standards on placement, countries have generated varying conventions or sustained those of their former currencies. For example, in Ireland and the Netherlands, where previous currency signs (£ and ƒ, respectively) were placed before the figure, the euro sign is universally placed in the same position. In many other countries, including France, Belgium, Germany, Italy, Spain, Latvia and Lithuania, an amount such as €3.50 is usually written as 3,50 € instead, largely in accordance with conventions for previous currencies.
+The European Union did indeed usher a guideline on the use of the euro sign, stating it should be placed in front of the amount without any space in English, but after the amount in most other languages.
+In English, the euro sign—like the dollar sign ($) and the pound sign (£)—is placed before the figure, unspaced, as used by publications such as the Financial Times and The Economist. When written out, "euro" is placed after the value in lower case; the plural is used for two or more units, and euro cents are indicated with a point, not a comma, e.g., 1.50 euro, 14 euros.
+No official recommendation is made with regard to the use of a cent sign, and usage differs between and within member states. Sums are often expressed as decimals of the euro (for example €0.05, €–.05, or 0,05 €, rather than 5c). The most common abbreviation is "c", but the cent sign "¢" also appears. Other abbreviations include "ct" (particularly in Germany and Lithuania), "cent." in Spain and Italy, "snt" (Finland) and Λ (the capital letter lambda for λεπτό, "lepto", in Greece).
+SEE ALSO
+* Spanish dollar
+* Cifrão
+* Dollar sign
+* Indian rupee sign
+* Pound sign
+* Ruble sign
+* Turkish lira sign
+* Yen sign
+* Yuan sign
+* Won sign
+REFERENCES
+EXTERNAL LINKS
+* Euro name and symbol, Directorate-General for Economic and Financial Affairs of the European Commission
+* Communication from the Commission: The use of the Euro symbol, July 1997, Directorate-General for Economic and Financial Affairs of the European Commission
+* Typing a Euro symbol on a non-European QWERTY keyboard. Several methods are shown for and others special characters.

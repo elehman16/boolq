@@ -1,0 +1,82 @@
+
+ALKALINE BATTERY
+Alkaline batteries (IEC code: L) are a type of primary battery dependent upon the reaction between zinc metal and manganese dioxide.
+Another type of alkaline batteries are secondary rechargeable alkaline battery, which allows reuse of specially designed cells.
+Compared with zinc-carbon batteries of the Leclanché cell or zinc chloride types, alkaline batteries have a higher energy density and longer shelf-life, with the same voltage.
+The alkaline battery gets its name because it has an alkaline electrolyte of potassium hydroxide, instead of the acidic ammonium chloride or zinc chloride electrolyte of the zinc-carbon batteries. Other battery systems also use alkaline electrolytes, but they use different active materials for the electrodes.
+Alkaline batteries account for 80% of manufactured batteries in the US and over 10 billion individual units produced worldwide. In Japan alkaline batteries account for 46% of all primary battery sales. In Switzerland alkaline batteries account for 68%, in the UK 60% and in the EU 47% of all battery sales including secondary types.
+Alkaline batteries are used in many household items such as MP3 players, CD players, digital cameras, pagers, toys, lights, and radios.
+HISTORY
+Section::::History.
+Batteries with alkaline (rather than acid) electrolyte were first developed by Waldemar Jungner in 1899, and, working independently, Thomas Edison in 1901. The modern alkaline dry battery using the zinc/manganese dioxide chemistry was invented by Canadian engineer Lewis Urry in the 1950s while working for Union Carbide's Eveready Battery division in Cleveland, OH, building on earlier work by Edison. On October 9, 1957, Urry, Karl Kordesch, and P.A. Marsal filed US patent (2,960,558) for the alkaline battery. It was granted in 1960 and was assigned to the Union Carbide Corporation.
+When introduced in the late 1960s, alkaline batteries contained a small amount of toxic mercury amalgam to control side reactions at the zinc anode. With mercury content reduced by law and improvements in the purity and consistency of materials, manufacturers have reduced the mercury content in modern cells.
+CHEMISTRY
+Section::::Chemistry.
+In an alkaline battery, the negative electrode is zinc and the positive electrode is manganese dioxide (MnO). The alkaline electrolyte of potassium hydroxide is not part of the reaction, only the zinc and MnO are consumed during discharge. The alkaline electrolyte of potassium hydroxide remains, as there are equal amounts of OH consumed and produced.
+The half-reactions are:
+Overall reaction:
+The chemical energy is stored mostly in the zinc metal, whose cohesive free energy per atom is at least 225 kJ/mol higher (less stable) than that of the three oxides.
+CAPACITY
+Section::::Capacity.
+Capacity of an alkaline battery is greater than an equal size Leclanché cell or zinc-chloride cell because the manganese dioxide is purer and denser, and space taken up by internal components such as electrodes is less. An alkaline cell can provide between three and five times capacity.
+The capacity of an alkaline battery is strongly dependent on the load. An AA-sized alkaline battery might have an effective capacity of 3000 mAh at low drain, but at a load of 1 ampere, which is common for digital cameras, the capacity could be as little as 700 mAh. The voltage of the battery declines steadily during use, so the total usable capacity depends on the cut-off voltage of the application. Unlike Leclanché cells, the alkaline cell delivers about as much capacity on intermittent or continuous light loads. On a heavy load, capacity is reduced on continuous discharge compared with intermittent discharge, but the reduction is less than for Leclanche cells.
+VOLTAGE
+Section::::Voltage.
+The nominal voltage of a fresh alkaline cell as established by manufacturer standards is 1.5 V. The effective zero-load voltage of a non discharged alkaline battery, however, varies from 1.50 to 1.65 V, depending on the purity of the manganese dioxide used and the contents of zinc oxide in the electrolyte. The average voltage under load depends on level of discharge and the amount of current being drawn, varying from 1.1 to 1.3 V. The fully discharged cell will still have a remaining voltage in the range of 0.8 to 1.0 V. Multiple voltages may be achieved with series of cells (three new alkaline batteries in series will be able to generate between 4.5 and 5.0 V).
++ Open circuit, zero-load voltage and voltage for a 330 mW load vs capacity
+! Capacity
+! Zero-load
+! 33 Ω
+CURRENT
+Section::::Current.
+The amount of current an alkaline battery can deliver is roughly proportional to its physical size. This is a result of decreasing internal resistance as the internal surface area of the cell increases. A rule of thumb is that an AA alkaline battery can deliver 700 mA without any significant heating. Larger cells, such as C and D cells, can deliver more current. Applications requiring currents of several amperes, such as powerful flashlights and portable stereos, will require D-sized cells to handle the increased load.
+CONSTRUCTION
+Section::::Construction.
+Alkaline batteries are manufactured in standardized cylindrical forms interchangeable with zinc-carbon batteries, and in button forms. Several individual cells may be interconnected to form a true "battery", such as those sold for use with flashlights and the 9 volt transistor-radio battery.
+A cylindrical cell is contained in a drawn stainless steel can, which is the cathode connection. The positive electrode mixture is a compressed paste of manganese dioxide with carbon powder added for increased conductivity. The paste may be pressed into the can or deposited as pre-molded rings. The hollow center of the cathode is lined with a separator, which prevents contact of the electrode materials and short-circuiting of the cell. The separator is made of a non-woven layer of cellulose or a synthetic polymer. The separator must conduct ions and remain stable in the highly alkaline electrolyte solution.
+The negative electrode is composed of a dispersion of zinc powder in a gel containing the potassium hydroxide electrolyte. The zinc powder provides more surface area for chemical reactions to take place, compared to a metal can. This lowers the internal resistance of the cell. To prevent gassing of the cell at the end of its life, more manganese dioxide is used than required to react with all the zinc. Also, plastic-made gasket is usually added to increase leakage resistance.
+The cell is then wrapped in aluminium foil, a plastic film, or rarely, cardboard, which acts as a final layer of leak protection as well as providing a surface on which logos and labels can be printed.
+When describing AAA, AA, C, sub-C and D size cells, the negative electrode is connected to the flat end, and the positive terminal is the end with the raised button. This is usually reversed in button cells, with the flat ended cylindrical can being the positive terminal.
+RECHARGING OF ALKALINE BATTERIES
+Section::::Recharging of alkaline batteries.
+Some alkaline batteries are designed to be recharged (see rechargeable alkaline battery), but most are not. Attempts to recharge may cause rupture, or the leaking of hazardous liquids which will corrode the equipment. However, attempts at recharging alkaline cells a highly limited number of times (10 or fewer times with reduced capacity after each charge) are reported and chargers are available commercially.
+In 2017, Gautam G. Yadav discovered that alkaline batteries can be recharged for over 6000 cycles by intercalating the interlayers with copper ions, due to the theoretical second electron capacity of manganese dioxide. The energy density (> 160Wh/L) of these rechargeable batteries with copper intercalated manganese dioxide is reported to be the best among the aqueous-based chemistries. It is also capable of energy densities (> 250Wh/L) comparable to lithium-ion if zinc utilization in the batteries is improved.
+LEAKS
+Section::::Leaks.
+Alkaline batteries are prone to leaking potassium hydroxide, a caustic agent that can cause respiratory, eye and skin irritation. Risk of this can be reduced by not attempting to recharge disposable alkaline cells, not mixing different battery types in the same device, replacing all of the batteries at the same time, storing in a dry place and at room temperature, and removing batteries for storage of devices.
+All batteries gradually self-discharge (whether installed in a device or not) and dead batteries will eventually leak. Extremely high temperatures can also cause batteries to rupture and leak (such as in a car during summer) as well as decrease the shelf life of the battery.
+The reason for leaks is that as batteries discharge — either through usage or gradual self-discharge — the chemistry of the cells changes and some hydrogen gas is generated. This out-gassing increases pressure in the battery. Eventually, the excess pressure either ruptures the insulating seals at the end of the battery, or the outer metal canister, or both. In addition, as the battery ages, its steel outer canister may gradually corrode or rust, which can further contribute to containment failure.
+Once a leak has formed due to corrosion of the outer steel shell, potassium hydroxide absorbs carbon dioxide from the air to form a feathery crystalline structure of potassium carbonate that grows and spreads out from the battery over time, following along metal electrodes to circuit boards where it commences oxidation of copper tracks and other components, leading to permanent circuitry damage.
+The leaking crystalline growths can also emerge from seams around battery covers to form a furry coating outside the device, that corrodes any objects in contact with the leaking device.
+DISPOSAL
+Section::::Disposal.
+With the reduction in mercury in 1996, alkaline batteries are allowed to be disposed of as regular domestic waste in some locations. However, older alkaline batteries with mercury, and the remaining other heavy metals and corrosive chemicals in all batteries (new and old), still present problems for disposal—especially in landfills. There is also the issue of simplifying the disposal of batteries to exclude them all so that the most toxic will be diverted from general waste streams.
+Disposal varies by jurisdiction. For example, the state of California considers all batteries as hazardous waste when discarded, and has banned the disposal of batteries with other domestic waste. In Europe, battery disposal is controlled by the WEEE Directive and Battery Directive regulations, and as such alkaline batteries must not be thrown in with domestic waste. In the EU, most stores that sell batteries are required by law to accept old batteries for recycling.
+RECYCLING
+Section::::Recycling.
+The use of disposable batteries increases by 5–6% every year. In the past, used batteries ended up at landfill sites, but in 2004, disposal of alkaline batteries at landfill sites was forbidden by an EU regulation. EU member countries are committed to recycling 50% of alkaline batteries by 2016. The need for recycling thus equals to 125,000 tons per year. The share of alkaline batteries is approximately 80% of the whole.
+In the US, only one state, California, requires all alkaline batteries to be recycled. Vermont also has a statewide alkaline battery collection program. It's much more difficult to recycle them in other states resulting in many being thrown away which has caused a harmful cycle in which more materials are mined causing a negative impact on the environment. People in other US states can purchase battery recycling kits used to ship batteries to recyclers such as Retriev Technologies' The Big Green Box, Battery Solutions' iRecycleKits, and Call2Recycle's battery recycling boxes. Some stores such as IKEA also collect alkaline batteries for recycling. However, some chain stores which advertise battery recycling like Best Buy however only accept rechargeable batteries and will generally not accept alkaline batteries. Both Call2Recycle and Earth911 offer locators for drop-off locations that accept alkaline batteries for recycling respectively at https://www.call2recycle.org/locator/ and https://earth911.com/recycling-guide/how-to-recycle-single-use-batteries/.
+For recycling, the metals from crushed alkaline batteries are mechanically separated, and the waste black mass is treated chemically to separate zinc, manganese and potassium.
+In the US, one company called Retriev Technologies, Inc. shreds and separates the battery case metals, manganese and zinc.
+SEE ALSO
+* History of the battery
+* Battery nomenclature
+* Lewis Urry
+* Oxyride battery
+* Rechargeable battery
+* Rechargeable alkaline battery
+* Recharging alkaline batteries
+* List of battery sizes
+* List of battery types
+* Battery recycling
+* Battery holder
+* Battery types
+* Edison-Lalande cell (an early alkaline primary battery)
+* Comparison of battery types
+NOTES
+REFERENCES
+EXTERNAL LINKS
+* Alkaline Material Safety Data for Duracell Alkaline Batteries
+* Alkaline batteries
+* Brand Neutral Alkaline Battery Specifications Based On ANSI Standards
+* Overview Of Battery Standards and Testing

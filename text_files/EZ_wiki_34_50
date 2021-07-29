@@ -1,0 +1,344 @@
+
+REPEATING DECIMAL
+A repeating or recurring decimal is decimal representation of a number whose digits are periodic (repeating its values at regular intervals) and the infinitely repeated portion is not zero. It can be shown that a number is rational if and only if its decimal representation is repeating or terminating (i.e. all except finitely many digits are zero). For example, the decimal representation of ⅓ becomes periodic just after the decimal point, repeating the single digit "3" forever, i.e. 0.333…. A more complicated example is , whose decimal becomes periodic at the second digit following the decimal point and then repeats the sequence "144" forever, i.e. 5.8144144144…. At present, there is no single universally accepted notation or phrasing for repeating decimals.
+The infinitely repeated digit sequence is called the repetend or reptend. If the repetend is a zero, this decimal representation is called a terminating decimal rather than a repeating decimal, since the zeros can be omitted and the decimal terminates before these zeros. Every terminating decimal representation can be written as a decimal fraction, a fraction whose divisor is a power of 10 (e.g. ); it may also be written as a ratio of the form (e.g. ). However, every number with a terminating decimal representation also trivially has a second, alternative representation as a repeating decimal whose repetend is the digit 9. This is obtained by decreasing the final non-zero digit by one and appending a repetend of 9.  and are two examples of this. (This type of repeating decimal can be obtained by long division if one uses a modified form of the usual division algorithm.)
+Any number that cannot be expressed as a ratio of two integers is said to be irrational. Their decimal representation neither terminates nor infinitely repeats but extends forever without regular repetition. Examples of such irrational numbers are the square root of 2 and .
+BACKGROUND
+NOTATION
+Section::::Background.
+Section::::Notation.
+There are several notational conventions for representing repeating decimals. None of them are accepted universally.
+* In the United States, India, France, and Switzerland, the convention is to draw a horizontal line (a vinculum) above the repetend. (See examples in table below, column Vinculum.)
+* In the United Kingdom and mainland China, the convention is to place dots above the outermost numerals of the repetend. (See examples in table below, column Dots.)
+* In parts of Europe, the convention is to enclose the repetend in parentheses. (See examples in table below, column Parentheses.)
+* In Spain and some Latin American countries, the arc notation over the repetend is also used as an alternative to the vinculum and the dots notation. (See examples in table below, column Arc.)
+* Informally, repeating decimals are often represented by an ellipsis (three periods, e.g., ), especially when the previous notational conventions are first taught in school. This notation is nonambiguous when only one digit is repeated. However, it should be avoided when several digits are repeated, for it introduces uncertainty as to which digits should be repeated and even whether repetition is occurring at all, since such ellipses are also employed for irrational numbers such as . (See examples in table below, column Ellipsis.)
++Examples
+! Fraction
+! Vinculum
+! Dots
+! Parentheses
+! Arc
+! Ellipsis
+In English, there are various ways to read repeating decimals aloud. For example, formula_22 may be read "one point three repeating", "one point three repeated", "one point three recurring", or "one point three into infinity".
+DECIMAL EXPANSION AND RECURRENCE SEQUENCE
+Section::::Decimal expansion and recurrence sequence.
+In order to convert a rational number represented as a fraction into decimal form, one may use long division. For example, consider the rational number 5/74:
+etc. Observe that at each step we have a remainder; the successive remainders displayed above are 56, 42, 50. When we arrive at 50 as the remainder, and bring down the "0", we find ourselves dividing 500 by 74, which is the same problem we began with. Therefore, the decimal repeats: 0.0675 675 675 ….
+EVERY RATIONAL NUMBER IS EITHER A TERMINATING OR REPEATING DECIMAL
+Section::::Every rational number is either a terminating or repeating decimal.
+For any given divisor, only finitely many different remainders can occur. In the example above, the 74 possible remainders are 0, 1, 2, …, 73. If at any point in the division the remainder is 0, the expansion terminates at that point. If 0 never occurs as a remainder, then the division process continues forever, and eventually a remainder must occur that has occurred before. The next step in the division will yield the same new digit in the quotient, and the same new remainder, as the previous time the remainder was the same. Therefore, the following division will repeat the same results.
+EVERY REPEATING OR TERMINATING DECIMAL IS A RATIONAL NUMBER
+Section::::Every repeating or terminating decimal is a rational number.
+Each repeating decimal number satisfies a linear equation with integer coefficients, and its unique solution is a rational number. To illustrate the latter point, the number above satisfies the equation whose solution is . The process of how to find these integer coefficients is described below.
+TABLE OF VALUES
+Section::::Table of values.
+!Fraction
+!Value
+!Period
+!Fraction
+!Value
+!Period
+!Fraction
+!Value
+!Period
+1/2
+0.5
+0
+1/17
+0.0588235294117647
+16
+1/32
+0.03125
+0
+1/3
+0.3
+1
+1/18
+0.05
+1
+1/33
+0.03
+2
+1/4
+0.25
+0
+1/19
+0.052631578947368421
+18
+1/34
+0.02941176470588235
+16
+1/5
+0.2
+0
+1/20
+0.05
+0
+1/35
+0.0285714
+6
+1/6
+0.16
+1
+1/21
+0.047619
+6
+1/36
+0.027
+1
+1/7
+0.142857
+6
+1/22
+0.045
+2
+1/37
+0.027
+3
+1/8
+0.125
+0
+1/23
+0.0434782608695652173913
+22
+1/38
+0.0263157894736842105
+18
+1/9
+0.1
+1
+1/24
+0.0416
+1
+1/39
+0.025641
+6
+1/10
+0.1
+0
+1/25
+0.04
+0
+1/40
+0.025
+0
+1/11
+0.09
+2
+1/26
+0.0384615
+6
+1/41
+0.02439
+5
+1/12
+0.083
+1
+1/27
+0.037
+3
+1/42
+0.0238095
+6
+1/13
+0.076923
+6
+1/28
+0.03571428
+6
+1/43
+0.023255813953488372093
+21
+1/14
+0.0714285
+6
+1/29
+0.0344827586206896551724137931
+28
+1/44
+0.0227
+2
+1/15
+0.06
+1
+1/30
+0.03
+1
+1/45
+0.02
+1
+1/16
+0.0625
+0
+1/31
+0.032258064516129
+15
+1/46
+0.02173913043478260869565
+22
+The periods of 1/n, n = 1, 2, 3, ..., are:
+The periodic parts of 1/n are:
+The periods of 1/(nth prime) are:
+The least primes p for which 1/p has period n are:
+The least primes p for which k/p has n different cycles () are:
+FRACTIONS WITH PRIME DENOMINATORS
+Section::::Fractions with prime denominators.
+A fraction in lowest terms with a prime denominator other than 2 or 5 (i.e. coprime to 10) always produces a repeating decimal. The length of the repetend (period of the repeating decimal segment) of 1/p is equal to the order of 10 modulo p. If 10 is a primitive root modulo p, the repetend length is equal to p − 1; if not, the repetend length is a factor of p − 1. This result can be deduced from Fermat's little theorem, which states that 
+The base-10 repetend of the reciprocal of any prime number greater than 5 is divisible by 9.
+If the repetend length of 1/p for prime p is equal to p − 1 then the repetend, expressed as an integer, is called a cyclic number.
+CYCLIC NUMBERS
+Section::::Cyclic numbers.
+Examples of fractions belonging to this group are:
+* 1/7 = 0.142 857, 6 repeating digits
+* 1/17 = 0.05882352 94117647, 16 repeating digits
+* 1/19 = 0.052631578 947368421, 18 repeating digits
+* 1/23 = 0.04347826086 95652173913, 22 repeating digits
+* 1/29 = 0.03448275862068 96551724137931, 28 repeating digits
+* 1/47 = 0.02127659574468085106382 97872340425531914893617, 46 repeating digits
+* 1/59 = 0.01694915254237288135593220338 98305084745762711864406779661, 58 repeating digits
+* 1/61 = 0.016393442622950819672131147540 983606557377049180327868852459, 60 repeating digits
+* 1/97 = 0.010309278350515463917525773195876288659793814432 989690721649484536082474226804123711340206185567, 96 repeating digits
+The list can go on to include the fractions 1/109, 1/113, 1/131, 1/149, 1/167, 1/179, 1/181, 1/193, etc. .
+Every proper multiple of a cyclic number (that is, a multiple having the same number of digits) is a rotation.
+* 1/7 = 1 × 0.142857 formula_23 = 0.142857 formula_23
+* 2/7 = 2 × 0.142857 formula_23 = 0.285714 formula_23
+* 3/7 = 3 × 0.142857 formula_23 = 0.428571 formula_23
+* 4/7 = 4 × 0.142857 formula_23 = 0.571428 formula_23
+* 5/7 = 5 × 0.142857 formula_23 = 0.714285 formula_23
+* 6/7 = 6 × 0.142857 formula_23 = 0.857142 formula_23
+The reason for the cyclic behavior is apparent from an arithmetic exercise of long division of : the sequential remainders are the cyclic sequence {1, 3, 2, 6, 4, 5}. See also the article 142857 for more properties of this cyclic number.
+A fraction which is cyclic thus has a recurring decimal of even length that divides into two sequences in 9's complement form. For example 1/7 starts '142' and is followed by '857' while 6/7 (by rotation) starts '857' followed by its 9's complement '142'. 
+A proper prime is a prime p which ends in the digit 1 in base 10 and whose reciprocal in base 10 has a repetend with length p − 1. In such primes, each digit 0, 1, formula_23, 9 appears in the repeating sequence the same number of times as does each other digit (namely, (p − 1)/10 times). They are:
+A prime is a proper prime if and only if it is a full reptend prime and congruent to 1 mod 10.
+If a prime p is both full reptend prime and safe prime, then 1/p will produce a stream of p − 1 pseudo-random digits. Those primes are
+OTHER RECIPROCALS OF PRIMES
+Section::::Other reciprocals of primes.
+Some reciprocals of primes that do not generate cyclic numbers are:
+* 1/3 = 0.3, which has a period of 1.
+* 1/11 = 0.09, which has a period of 2.
+* 1/13 = 0.076923, which has a period of 6.
+* 1/31 = 0.032258064516129, which has a period of 15.
+* 1/37 = 0.027, which has a period of 3.
+* 1/41 = 0.02439, which has a period of 5.
+* 1/43 = 0.023255813953488372093, which has a period of 21.
+* 1/53 = 0.0188679245283, which has a period of 13.
+* 1/67 = 0.014925373134328358208955223880597, which has a period of 33.
+The reason is that 3 is a divisor of 9, 11 is a divisor of 99, 41 is a divisor of 99999, etc.
+To find the period of 1/p, we can check whether the prime p divides some number 999...999 in which the number of digits divides p − 1. Since the period is never greater than p − 1, we can obtain this by calculating formula_38 For example, for 11 we get
+and then by inspection find the repetend 09 and period of 2.
+Those reciprocals of primes can be associated with several sequences of repeating decimals. For example, the multiples of 1/13 can be divided into two sets, with different repetends. The first set is:
+* 1/13 = 0.076923 formula_23
+* 10/13 = 0.769230 formula_23
+* 9/13 = 0.692307 formula_23
+* 12/13 = 0.923076 formula_23
+* 3/13 = 0.230769 formula_23
+* 4/13 = 0.307692 formula_23 ,
+where the repetend of each fraction is a cyclic re-arrangement of 076923. The second set is:
+* 2/13 = 0.153846 formula_23
+* 7/13 = 0.538461 formula_23
+* 5/13 = 0.384615 formula_23
+* 11/13 = 0.846153 formula_23
+* 6/13 = 0.461538 formula_23
+* 8/13 = 0.615384 formula_51
+where the repetend of each fraction is a cyclic re-arrangement of 153846.
+In general, the set of proper multiples of reciprocals of a prime p consists of n subsets, each with repetend length k, where nk = p − 1.
+TOTIENT RULE
+Section::::Totient rule.
+For an arbitrary integer n the length formula_52 of the repetend of 1/n divides formula_53, where formula_54 is the totient function. The length is equal to formula_53 if and only if 10 is a primitive root modulo n.
+In particular, it follows that formula_56 if and only if p is a prime and 10 is a primitive root modulo p. Then, the decimal expansions of n/p for n = 1, 2, …, p − 1, all have period p − 1 and differ only by a cyclic permutation. Such numbers p are called full repetend primes.
+RECIPROCALS OF COMPOSITE INTEGERS COPRIME TO 10
+Section::::Reciprocals of composite integers coprime to 10.
+If p is a prime other than 2 or 5, the decimal representation of the fraction formula_57 repeats, e.g.:
+The period (repetend length) must be a factor of λ(49) = 42, where λ(n) is known as the Carmichael function. This follows from Carmichael's theorem which states that if n is a positive integer then λ(n) is the smallest integer m such that
+for every integer a that is coprime to n.
+The period of formula_57 is usually pT, where T is the period of formula_60. There are three known primes for which this is not true, and for those the period of formula_57 is the same as the period of formula_60 because p divides 10−1. These three primes are 3, 487 and 56598313 .
+Similarly, the period of formula_63 is usually pT
+If p and q are primes other than 2 or 5, the decimal representation of the fraction formula_64 repeats. An example is 1/119:
+where LCM denotes the least common multiple.
+The period T of formula_64 is a factor of λ(pq) and it happens to be 48 in this case:
+The period T of formula_64 is LCM(T, T), where T is the period of formula_60 and T is the period of formula_68.
+If p , q, r etc. are primes other than 2 or 5, and k , ℓ, m etc. are positive integers, then formula_69 is a repeating decimal with a period of formula_70 where formula_71, etc. are respectively the period of the repeating decimals formula_72 etc. as defined above.
+RECIPROCALS OF INTEGERS NOT CO-PRIME TO 10
+Section::::Reciprocals of integers not co-prime to 10.
+An integer that is not co-prime to 10 but has a prime factor other than 2 or 5 has a reciprocal that is eventually periodic, but with a non-repeating sequence of digits that precede the repeating part. The reciprocal can be expressed as:
+where a and b are not both zero.
+This fraction can also be expressed as:
+if a > b, or as
+if b > a, or as
+if a = b.
+The decimal has:
+* An initial transient of max(a, b) digits after the decimal point. Some or all of the digits in the transient can be zeros.
+* A subsequent repetend which is the same as that for the fraction formula_77.
+For example 1/28 = 0.03571428571428…:
+* the initial non-repeating digits are 03; and
+* the subsequent repeating digits are 571428.
+CONVERTING REPEATING DECIMALS TO FRACTIONS
+Section::::Converting repeating decimals to fractions.
+Given a repeating decimal, it is possible to calculate the fraction that produced it. For example:
+Another example:
+A SHORTCUT
+Section::::A shortcut.
+The procedure below can be applied in particular if the repetend has n digits, all of which are 0 except the final one which is 1. For instance for n = 7:
+So this particular repeating decimal corresponds to the fraction 1/(10 − 1), where the denominator is the number written as n digits 9. Knowing just that, a general repeating decimal can be expressed as a fraction without having to solve an equation. For example, one could reason:
+It is possible to get a general formula expressing a repeating decimal with an n digit period (repetend length), beginning right after the decimal point, as a fraction:
+More explicitly one gets the following cases.
+If the repeating decimal is between 0 and 1, and the repeating block is n digits long, first occurring right after the decimal point, then the fraction (not necessarily reduced) will be the integer number represented by the n-digit block divided by the one represented by n digits 9. For example,
+* 0.444444 formula_23 = 4/9 since the repeating block is 4 (a 1-digit block),
+* 0.565656 formula_23 = 56/99 since the repeating block is 56 (a 2-digit block),
+* 0.012012 formula_23 = 12/999 since the repeating block is 012 (a 3-digit block), and this further reduces to 4/333.
+* 0.9999999 formula_23 = 9/9 = 1, since the repeating block is 9 (also a 1-digit block)
+If the repeating decimal is as above, except that there are k (extra) digits 0 between the decimal point and the repeating n-digit block, then one can simply add k digits 0 after the n digits 9 of the denominator (and, as before, the fraction may subsequently be simplified). For example,
+* 0.000444 formula_23 = 4/9000 since the repeating block is 4 and this block is preceded by 3 zeros,
+* 0.005656 formula_23 = 56/9900 since the repeating block is 56 and it is preceded by 2 zeros,
+* 0.00012012 formula_23 = 12/99900 = 1/8325 since the repeating block is 012 and it is preceded by 2 zeros.
+Any repeating decimal not of the form described above can be written as a sum of a terminating decimal and a repeating decimal of one of the two above types (actually the first type suffices, but that could require the terminating decimal to be negative). For example,
+* 1.23444 formula_23 = 1.23 + 0.00444 formula_23 = 123/100 + 4/900 = 1107/900 + 4/900 = 1111/900 or alternatively 1.23444 formula_23 = 0.79 + 0.44444 formula_23 = 79/100 + 4/9 = 711/900 + 400/900 = 1111/900
+* 0.3789789 formula_23 = 0.3 + 0.0789789 formula_23 = 3/10 + 789/9990 = 2997/9990 + 789/9990 = 3786/9990 = 631/1665 or alternatively 0.3789789 formula_23 = −0.6 + 0.9789789 formula_23 = −6/10 + 978/999 = −5994/9990 + 9780/9990 = 3786/9990 = 631/1665
+It follows that any repeating decimal with period n, and k digits after the decimal point that do not belong to the repeating part, can be written as a (not necessarily reduced) fraction whose denominator is (10 − 1)10.
+Conversely the period of the repeating decimal of a fraction c/d will be (at most) the smallest number n such that 10 − 1 is divisible by d.
+For example, the fraction 2/7 has d = 7, and the smallest k that makes 10 − 1 divisible by 7 is k = 6, because 999999 = 7 × 142857. The period of the fraction 2/7 is therefore 6.
+REPEATING DECIMALS AS INFINITE SERIES
+Section::::Repeating decimals as infinite series.
+A repeating decimal can also be expressed as an infinite series. That is, a repeating decimal can be regarded as the sum of an infinite number of rational numbers. To take the simplest example,
+The above series is a geometric series with the first term as 1/10 and the common factor 1/10. Because the absolute value of the common factor is less than 1, we can say that the geometric series converges and find the exact value in the form of a fraction by using the following formula where a is the first term of the series and r is the common factor.
+MULTIPLICATION AND CYCLIC PERMUTATION
+Section::::Multiplication and cyclic permutation.
+The cyclic behavior of repeating decimals in multiplication also leads to the construction of integers which are cyclically permuted when multiplied by certain numbers. For example, 102564 x 4 = 410256. Note that 102564 is the repetend of 4/39 and 410256 the repetend of 16/39.
+OTHER PROPERTIES OF REPETEND LENGTHS
+Section::::Other properties of repetend lengths.
+Various properties of repetend lengths (periods) are given by Mitchell and Dickson.
+The period of 1/k for integer k is always ≤ k − 1.
+If p is prime, the period of 1/p divides evenly into p − 1.
+If k is composite, the period of 1/k is strictly less than k − 1.
+The period of c/k, for c coprime to k, equals the period of 1/k.
+If formula_99 where n > 1 and n is not divisible by 2 or 5, then the length of the transient of 1/k is max(a, b), and the period equals r, where r is the smallest integer such that formula_100.
+If p, p', p", … are distinct primes, then the period of 1/(pp'p"…) equals the lowest common multiple of the periods of 1/p, 1/p' ,1/p" , ….
+If k and k' have no common prime factors other than 2 and/or 5, then the period of formula_101 equals the least common multiple of the periods of formula_102 and formula_103.
+For prime p, if formula_104 but formula_105, then for formula_106 we have formula_107.
+If p is a proper prime ending in a 1 that is, if the repetend of 1/p is a cyclic number of length p − 1 and p = 10h + 1 for some h – then each digit 0, 1, …, 9 appears in the repetend exactly h = (p − 1)/10 times.
+For some other properties of repetends, see also.
+EXTENSION TO OTHER BASES
+Section::::Extension to other bases.
+Various features of repeating decimals extend to the representation of numbers in all other integer bases, not just base 10:
+* Any number can be represented as an integer component followed by a radix point (the generalization of a decimal point to non-decimal systems) followed by a finite or infinite number of digits.
+* A rational number has a terminating sequence after the radix point if all the prime factors of the denominator of the fully reduced fractional form are also factors of the base. This terminating representation is equivalent to a representation with a repeating sequence that can be constructed from the terminating form by decreasing the last digit by 1 and appending an infinite sequence of a digit representing a number that is one less than the base.
+* A rational number has an infinitely repeating sequence of finite length less than the value of the fully reduced fraction's denominator if the reduced fraction's denominator contains a prime factor that is not a factor of the base. The repeating sequence is preceded after the radix point by a transient of finite length if the reduced fraction also shares a prime factor with the base.
+* An irrational number has a representation of infinite length that is not, from any point, an infinitely repeating sequence of finite length.
+For example, in duodecimal, 1/2 = 0.6, 1/3 = 0.4, 1/4 = 0.3 and 1/6 = 0.2 all terminate; 1/5 = 0.2497 repeats with period 4, in contrast with the equivalent decimal expansion of 0.2; 1/7 = 0.186ᘔ35 has period 6 in duodecimal, just as it does in decimal.
+If b is an integer base and k is an integer,
+For example 1/7 in duodecimal:
+Which is 0.186ᘔ35 (base 12). Note that 10 (base 12) is 12 (base 10), 10^2 (base 12) is 144 (base 10), 21 (base 12) is 25 (base 10), ᘔ5 (base 12) is 125 (base 10), ...
+APPLICATIONS TO CRYPTOGRAPHY
+Section::::Applications to cryptography.
+Repeating decimals (also called decimal sequences) have found cryptographic and error-correction coding applications. In these applications repeating decimals to base 2 are generally used which gives rise to binary sequences. The maximum length binary sequence for 1/p (when 2 is a primitive root of p) is given by:
+These sequences of period p − 1 have an autocorrelation function that has a negative peak of −1 for shift of (p − 1)/2. The randomness of these sequences has been examined by diehard tests.
+SEE ALSO
+* Decimal representation
+* Parasitic number
+* Midy's theorem
+* Full reptend prime
+* Unique prime
+REFERENCES
+EXTERNAL LINKS
+* Online fractions calculator with detailed solution

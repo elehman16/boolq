@@ -1,0 +1,110 @@
+
+HIGH-PERFORMANCE SAILING
+High-performance sailing is achieved with low forward surface resistance—encountered by catamarans, sailing hydrofoils, iceboats or land sailing craft—as the sailing craft obtains motive power with its sails or aerofoils at speeds that are often faster than the wind.
+HIGH-PERFORMANCE SAILING CRAFT
+Section::::High-performance sailing craft.
+High-performance watercraft that can exceed the velocity of the true wind include catamarans and foiling vessels. Ice boats and land-sailing craft are often able to do so. There are also rotor-driven craft, such as the "land yacht", Blackbird, which are outside the scope of this article.
+WATERCRAFT
+Section::::Watercraft.
+In 2013, a new class of catamaran was announced for the America's Cup which can achieve well in excess of double the speed of the wind. The catamarans used for the 2013 America's Cup were expected to sail upwind at 1.2 times the speed of the true wind, and downwind at 1.6 times the speed of the true wind. They proved to be faster, averaging about 1.8 times the speed of the wind with peaks slightly over 2.0. 
+The Extreme 40 catamaran can sail at in winds. The high-performance International C-Class Catamaran can sail at twice the speed of the wind. 
+In 2009, the world speed sailing record on water was set by a hydrofoil trimaran sailing at 1.71 times the speed of the wind. In late 2012, the Vestas Sailrocket 2 skippered by Paul Larsen achieved a new outright world speed record of 65.45 knots on water, at around 2.5 times the speed of the wind.
+ICEBOATS
+Section::::Iceboats.
+Iceboats can typically sail at five times the speed of the wind. 
+LAND SAILING CRAFT
+Section::::Land sailing craft.
+By sailing downwind at 135° off the wind, a sand yacht can sail much faster than the wind. The velocity made good downwind is often over twice as fast compared to the same land yacht sailing directly downwind. In 2009, the world land speed record for a wind-powered vehicle was set by the sand yacht Greenbird sailing at about three times the speed of the wind with a recorded top speed of .
+SURFACE RESISTANCE
+Section::::Surface resistance.
+If hull speed is not a limiting factor, and if the strength of the wind is sufficient to overcome the surface resistance, then the speed of the boat as a multiple of the wind speed depends only on how close it can sail to the wind. For example, assuming that surface resistance is negligible (as for an iceboat), if a boat sails at 90° to the true wind, but at 45° to the apparent wind, then it must be sailing at the same speed as the true wind. That is, if the wind speed is V, then the boat's speed is also V. Elementary trigonometry and elementary vector operations can be used to show that, if a boat sails perpendicular to the true wind, but at angle alpha (α) to the apparent wind, and the wind speed is V, then the boat's speed must be V×cotangent(α). The table below shows the values of this function, as a multiple of windspeed. The actual speed of a sailing vessel depends on the wind speed, how close to the wind it is sailing, the resistance of the surface (water or ice), and leeway (downwind drift).
+POINTS OF SAIL
+Section::::Points of sail.
+The points of sail at which sailing craft can achieve highest speeds span between a beam reach (90° to the true wind) and a broad reach (about 135° away from the true wind). Normal cruising boats yachts can sail at about 45° off the apparent wind (50° to 60° off the true wind). High performance racing yachts at about 27° (35° off the true wind). High-performance multihulls can sail at 20° off the apparent wind. Iceboats can sail even closer to the apparent wind. According to the data provided on p. 406 of the cited book High Performance Sailing, a fast keelboat such as a Soling can sail at 30° off the apparent wind, an 18ft Skiff at 20°, and an iceboat at 7°.
+BEAM REACH
+Section::::Beam reach.
+For example, a boat can sail a course that is perpendicular to the true wind (that is, at 90° with respect to the true wind). As it accelerates, the wind as seen from the boat increases and the wind appears to shift forward. This is the same effect that causes rain to appear to fall at an angle when seen from a moving car, and is analogous to the astronomical phenomenon of aberration of light.
+As the wind increases in speed and shifts forward (because of the acceleration of the boat), the sails have to be trimmed in order to maintain performance. This causes the boat to further accelerate, thus causing a further increase in windspeed and a further forward windshift.
+Eventually, the sails cannot be trimmed any further and an equilibrium is reached. Although the boat is sailing perpendicular to the true wind, its sails are set for close hauled sailing.
+! Alpha (α) !! Multiple of windspeed
+Hull speed is not a limiting factor for an iceboat nor for high-performance multihulls. So a boat capable of sailing at 10° off the apparent wind (which is the case for many iceboats) that sails at 90° to the true wind is sailing nearly 6 times faster than the wind. It can sail slightly faster, as a multiple of the windspeed, if it sails at a greater angle off the true wind.
+BROAD REACH
+Section::::Broad reach.
+As stated in the introduction of the book High Performance Sailing, in the section Tacking Downwind, "... any boat which runs 'square' must necessarily sail downwind at some speed less than the wind's speed whereas any boat which tacks downwind has no theoretical limit to its speed. Ice yachts, for example, can tack downwind at average speeds many times the wind speed."
+The same book states, in section 24.2, "In a True Wind of , the Soling crew will sail the close reach and reaching legs in Apparent Winds little stronger than True Wind. ... The 18-foot Skiff crew sails the cross wind legs in much stronger Apparent Winds which approach . Even on the broad reaching legs they must still sail in a strong Apparent Wind which blows from ahead, so they still need to use strong-wind 'going-to-windward' handling techniques even though they are sailing downwind." Figure 24.2 of this book provides vector graphics that show how the Skiff can sail downwind faster than the speed of the wind.
+From the detailed data provided for the 2009 record set by a sand yacht, it can be seen that the record was achieved when the yacht's course was about 120° off the true wind. That is, the yacht was moving faster than the wind although the true wind was behind it. This is possible because the speed of the yacht results in a large forward wind shift, so that the yacht is close hauled with respect to the apparent wind.
+Suppose that a boat is at a standstill, then starts to sail on a course that is 135° off the true wind (the value 135° is chosen for this explanation in order to simplify certain calculations). The boat accelerates, so the apparent wind is less than the true wind and shifts forward of the true wind. If the boat can reach a speed equal to about 71% of the true windspeed, then the apparent wind is perpendicular to the boat's course and its speed is about 71% of the true windspeed. If that reduced apparent windspeed still generates sufficient force to overcome the resistance of the surface, then the boat continues to accelerate.
+That is, the situation is the same as the one explained above, because the boat is still accelerating after having reached a course perpendicular to the apparent wind. In practice, most boats sailing on the water cannot overcome the resistance of the water in order to reach speeds equal to the speed of the wind. However, iceboats can do so, because the resistance of the surface is very small. Thus, an iceboat that starts sailing on a broad reach continues to accelerate until it is close-hauled with respect to the apparent wind.
+The table and diagram below illustrate this situation. The vector labelled "boat speed" represents the relative wind resulting from the boat's progress through the water, that is, the wind that is induced by the boat's motion: its speed is the same as the speed of the boat and its direction is directly opposite to the direction of the boat's motion. Both boat speed and apparent wind speed are shown as a fraction (or multiple) of true wind speed, which is represented by the vertical vector at the left of the diagram.
+! Boat speed !! Alpha (α) !! Width = "10"  Apparent wind speed
+Note that, if a boat can accelerate until it is sailing at 45° off the apparent wind when sailing 135° off the true wind, then its speed is 1.41 times the speed of the true wind. Thus its velocity made good downwind is equal to the velocity of the true wind. If it can accelerate until it is sailing closer than 45° to the apparent wind, then its velocity made good downwind is greater than the velocity of the true wind: see section Velocity made good below.
+VECTOR DIAGRAMS AND FORMULAS
+Section::::Vector diagrams and formulas.
+As explained in the article on apparent wind, a boat's forward motion creates a corresponding head wind of the same strength in the opposite direction. That head wind must be combined with the true wind to find the apparent wind.
+The drawing below shows the vector operations and resulting calculations for sailing upwind. Alpha (α) is the angle of the apparent wind. Beta (β) is the course of the boat with respect to the true wind. The true wind is assumed to be equal to 1 in order to simplify the formulas. Note that the true wind is added using vector addition to the head wind created by the boat's speed.
+The drawing below shows the vector operations and resulting calculations for sailing downwind. Alpha (α) is the angle of the sails to the apparent wind. Beta (β) is the course of the boat with respect to the true wind. The true wind is assumed to be equal to 1 in order to simplify the formulas. Note that the true wind is added to the head wind created by the boat's speed.
+The drawing below shows apparent wind angles and speeds for different boat speeds for a boat sailing downwind at 135°.
+Note that for both the upwind and downwind cases, the apparent crosswind (the component of true wind perpendicular to the heading of a boat) is true wind speed x sin(β), independent of the boat's speed. The maximum speed of a sail boat is a function of how fast it can travel for a given apparent crosswind and the drag from the water (or land or ice) related to the boat's true speed. Since the drag from the water (or land or ice) increases with the boat's true speed, the boat achieves its maximum apparent wind on an upwind tack, where its true speed is the slowest. This is why minimum β for a boat is smaller upwind than it is downwind.
+Vector diagrams and resulting speed of sailing craft
+Vector operations and calculations to find the speed of a craft sailing on each course shown.
+THE BETA THEOREM AND MAXIMUM SPEED COURSE SAILING ANGLE
+BETA THEOREM
+Section::::The Beta Theorem and Maximum speed course sailing angle.
+Section::::Beta Theorem.
+Garrett describes the Beta Theorem as the result of the net effect of two counteracting foils, the sail in the air and the keel in the water. When one resolves the ratio of lift to drag for each in its medium, the resulting motion of the sailing vessel resolves to an angle, beta (β), between the apparent wind and the course over the water. The hull (below the water) drag angle and sailing rig (above the water) each have drag angle with respect to the medium flowing past them (water or air). The sum of those two drag angles are equal to the apparent wind angle (the angle between the apparent wind and the course sailed). This theorem applies for every point of sail. A small β denotes high efficiency and a potential for high speed.
+MAXIMUM SPEED COURSE SAILING ANGLE
+Section::::Maximum speed course sailing angle.
+This is stating the potential for efficiency, and is especially applicable to speed sailing efforts, where the craft is tuned (e.g. reefed down or up, or bigger fin used etc.) for the chosen angle of each speed run.
+The course sailing angle conclusion for maximum speed is shown to be a corollary of the Beta Theorem, with the assistance of Figures 1-3.
+Beta Theorem
+Figure 1 shows the relationship of the true wind and apparent wind vectors as differing by the yacht velocity. Also shown is the angle β, which is the "apparent wind angle", i.e., the angle between the yacht heading and the apparent wind on the yacht.
+Although β is assumed to be constant, this is not perfectly true in practice. However, in the quest for maximum speed, it could be made to be true -- i.e., by setting the size of the yacht sails and fin or centreboard for each speed run so as to maintain the same (optimal) operating points, and therefore the same lift to drag ratios, and correspondingly a constant β for each heading under test.
+Having accepted the constraints for a constant β, then it is simple maths (a constant angle is subtended on the arc of a circle) that we arrive with the locus of a circle for one end of the vector showing yacht velocity, as in Figure 2.
+The maximum yacht velocity clearly occurs when the vector Vy lies across the diameter of the circle, as shown in Figure 3. In this figure, the apparent wind and the true wind are at right angles. Also note that the optimum speed sailing angle is equal to the apparent wind angle (β) below a beam reach.
+Vt and Va appear equal in figure 3, where Vy is about 1.4x Vt. This is not the general case. The more efficient the yacht, the smaller β is, and the closer to a beam reach is the optimum speed sailing course. The ultimate ratio of yacht speed to wind speed therefore also gives rise to β by inverse cosine, e.g., speed-sailing at twice the wind speed corresponds to a 30° apparent wind angle, i.e., β = 30°.
+Speed sailing windsurfers have an apparent wind angle somewhat worse (greater) than 30°, and accordingly their speed sailing courses are set for a broader sailing angle than this. Speed sailing kite boards prefer an even broader course than windsurfers. In contrast, the highly efficient Vestas Sailrocket has a design β of about 20° (the hull is offset this amount from the centreline) and this is how close to a beam reach she may sail.
+VELOCITY MADE GOOD (VMG)
+Section::::Velocity made good (VMG).
+Most sailing is not done in order to achieve a maximum speed, but in order to go from one point to another. In most sailboat racing the objective is to sail a certain distance directly upwind (to a point called the upwind mark), and then to return downwind, as fast as possible.
+Since sailboats cannot sail directly into the wind, they must tack in order to reach the upwind mark (this process is called beating or working to the mark). This lengthens the course, thus the boat takes longer to reach the upwind mark than it would if it could have sailed directly towards it. The component of a sailboat's velocity that is in the direction of the next mark is called the velocity made good.
+If a boat sails perpendicular to the wind, it will never reach the upwind mark. So, in racing, speed is not everything. What counts is the velocity made good, that is, the progress towards the upwind mark. Again, simple trigonometry can be used to calculate the velocity made good. The tables below show velocity made good, again as a multiple of windspeed, and again assuming negligible surface resistance. The first column indicates the course as an angle off the true wind; α is the closest angle to the apparent wind at which the boat can sail. The calculation assumes that the boat accelerates until the apparent wind is at angle α off the bow.
++Speed made good as multiple of windspeed
++Alpha (α) Upwind
+! Course
+! 10°
+! 15°
+! 20°
+! 25°
+! 30°
+! 35°
+! 40°
+! 45°
++Alpha (α) Downwind
+! Course
+! 10°
+! 15°
+! 20°
+! 25°
+! 30°
+! 35°
+! 40°
+! 45°
+It can be seen that a boat that can sail closer than 20° to the apparent wind can make good upwind faster than the real wind.
+Many boats can make good downwind faster by not sailing dead downwind, but instead jibing (also spelled gybing) back and forth. If the boat can accelerate until the apparent wind is at angle α off the bow, then it can be seen from the table above that it can make good downwind faster than the true wind. Such performance is theoretically possible. An easy-to-grasp animation demonstrating the principle of how it can be possible to go faster than the wind can be found at.
+However real boats cannot equal the performances shown in the table, although iceboats can come close to them. Indeed, iceboats can make good both upwind and downwind at speeds greater than the wind. And so can sand yachts: during the 2009 land speed record, the yacht Greenbird was proceeding at about 3 times the speed of the wind on a course about 120° off the true wind. Thus, its speed made good downwind was about 1.5 times the speed of the wind. During a training run the catamaran Alinghi 5, one of the competitors for the 2010 America's Cup, covered to windward and back in 2.5 hours in winds, so its average velocity made good was , about 1.9 times wind speed. This is consistent with the yacht being able to sail at about 15° off the apparent wind, see the table above. Indeed, the catamaran sails so fast downwind that the apparent wind it generates is only 5-6° different from that when it is racing upwind; that is, the boat is always sailing upwind with respect to the apparent wind.
+During the first race of the 2010 America's Cup, the winning yacht USA 17 sailed to windward in 1 hour 29 minutes, in winds of . Thus its velocity made good upwind was about 1.8 times windspeed, consistent with being able to sail about 13° off the apparent wind when sailing upwind. She sailed downwind in 1 hour 3 minutes, so her velocity made good downwind was about 2.5 times windspeed, consistent with being able to sail about 14° off the apparent wind when sailing downwind. During the second race, winds were . USA 17 reached the windward mark in 59 minutes, so her velocity made good was about , about 1.65 times wind speed. The course was a triangle, so the velocity made good downwind was only , about 1.4 times wind speed. USA 17 averaged , about 3.35 times the wind speed, on the faster first triangular leg.
+Other sailboats (such as the 18ft Skiff) can make good downwind at speeds faster than the wind. Indeed, it can be seen from the polar chart for the Skiff that it can make good about downwind at a windspeed of , by jibing back and forth at about 140° off the true wind. The polar chart in Figure PS1 of the cited book High Performance Sailing shows that boats that were sailing in 1996 were able to make good downwind at about 1.5 times the speed of the wind.
+ROTOR-POWERED VEHICLES
+Section::::Rotor-powered vehicles.
+Related to high-performance sailing craft are vehicles powered by wind turbine rotors, which have wheels that are propelled by the rotor (as seen from a ground-stationary vantage point). These vehicles share a common trait with high-performance sailing craft: As the vehicle increases in speed, the advancing rotor airfoil encounters an increasing apparent wind at an angle of attack that is increasingly smaller. At the same time, such vehicles are subject to forward resistance. As a result, such vehicles are often capable of speeds exceeding that of the wind.
+Such vehicles have demonstrated ground speeds that exceed that of the wind, both directly into the wind and directly downwind by transferring power through a drive train between the rotor and the wheels. A rotor-powered land yacht, Blackbird, achieved a dead downwind speed of about 2.8 times the speed of the wind. In 2011, a streamlined Blackbird reached close to 3 times the speed of wind and in 2012, achieved a dead upwind speed of about 2.1 times the speed of the wind.
+SEE ALSO
+* Blackbird (land yacht)
+* Forces on sails
+* Wind-powered vehicle
+NOTES
+FURTHER READING
+EXTERNAL LINKS
+* World Sailing Speed Record Council
+* North American Land Sailing Association
+* The Four Lakes Ice Yacht Club

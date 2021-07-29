@@ -1,0 +1,89 @@
+
+ALTITUDE (TRIANGLE)
+In geometry, an altitude of a triangle is a line segment through a vertex and perpendicular to (i.e., forming a right angle with) a line containing the base (the side opposite the vertex). This line containing the opposite side is called the extended base of the altitude. The intersection of the extended base and the altitude is called the foot of the altitude. The length of the altitude, often simply called "the altitude", is the distance between the extended base and the vertex. The process of drawing the altitude from the vertex to the foot is known as dropping the altitude at that vertex. It is a special case of orthogonal projection.
+Altitudes can be used in the computation of the area of a triangle: one half of the product of an altitude's length and its base's length equals the triangle's area. Thus, the longest altitude is perpendicular to the shortest side of the triangle. The altitudes are also related to the sides of the triangle through the trigonometric functions.
+In an isosceles triangle (a triangle with two congruent sides), the altitude having the incongruent side as its base will have the midpoint of that side as its foot. Also the altitude having the incongruent side as its base will be the angle bisector of the vertex angle.
+It is common to mark the altitude with the letter h (as in height), often subscripted with the name of the side the altitude is drawn to.
+In a right triangle, the altitude drawn to the hypotenuse c divides the hypotenuse into two segments of lengths p and q. If we denote the length of the altitude by h, we then have the relation
+For acute and right triangles the feet of the altitudes all fall on the triangle's sides (not extended). In an obtuse triangle (one with an obtuse angle), the foot of the altitude to the obtuse-angled vertex falls in the interior of the opposite side, but the feet of the altitudes to the acute-angled vertices fall on the opposite extended side, exterior to the triangle. This is illustrated in the adjacent diagram: in this obtuse triangle, an altitude dropped perpendicularly from the top vertex, which has an acute angle, intersects the extended horizontal side outside the triangle.
+ORTHOCENTER
+Section::::Orthocenter.
+The three (possibly extended) altitudes intersect in a single point, called the orthocenter of the triangle, usually denoted by . The orthocenter lies inside the triangle if and only if the triangle is acute (i.e. does not have an angle greater than or equal to a right angle). If one angle is a right angle, the orthocenter coincides with the vertex at the right angle.
+Let denote the vertices and also the angles of the triangle, and let be the side lengths. The orthocenter has trilinear coordinates
+formula_2
+and barycentric coordinates
+Since barycentric coordinates are all positive for a point in a triangle's interior but at least one is negative for a point in the exterior, and two of the barycentric coordinates are zero for a vertex point, the barycentric coordinates given for the orthocenter show that the orthocenter is in an acute triangle's interior, on the right-angled vertex of a right triangle, and exterior to an obtuse triangle.
+In the complex plane, let the points and represent the numbers formula_5, formula_6 and, respectively, formula_7 and assume that the circumcenter of triangle is located at the origin of the plane. Then, the complex number
+is represented by the point , namely the orthocenter of triangle . From this, the following characterizations of the orthocenter by means of free vectors can be established straightforwardly:
+The first of the previous vector identities is also known as the problem of Sylvester, proposed by James Joseph Sylvester.
+PROPERTIES
+Section::::Properties.
+Let , and denote the feet of the altitudes from , and respectively. Then:
+* The product of the lengths of the segments that the orthocenter divides an altitude into is the same for all three altitudes:
+* The sum of the ratios on the three altitudes of the distance of the orthocenter from the base to the length of the altitude is 1: (This property and the next one are applications of a more general property of any interior point and the three cevians through it.)
+* The sum of the ratios on the three altitudes of the distance of the orthocenter from the vertex to the length of the altitude is 2:
+* The isogonal conjugate of the orthocenter is the circumcenter of the triangle.
+* The isotomic conjugate of the orthocenter is the symmedian point of the anticomplementary triangle.
+* Four points in the plane, such that one of them is the orthocenter of the triangle formed by the other three, is called an orthocentric system or orthocentric quadrangle.
+RELATION WITH CIRCLES AND CONICS
+Section::::Relation with circles and conics.
+Denote the circumradius of the triangle by . Then
+In addition, denoting as the radius of the triangle's incircle, , and as the radii of its excircles, and again as the radius of its circumcircle, the following relations hold regarding the distances of the orthocenter from the vertices:
+If any altitude, for example, , is extended to intersect the circumcircle at , so that is a chord of the circumcircle, then the foot bisects segment :
+The directrices of all parabolas that are externally tangent to one side of a triangle and tangent to the extensions of the other sides pass through the orthocenter.
+A circumconic passing through the orthocenter of a triangle is a rectangular hyperbola.
+RELATION TO OTHER CENTERS, THE NINE-POINT CIRCLE
+Section::::Relation to other centers, the nine-point circle.
+The orthocenter , the centroid , the circumcenter , and the center of the nine-point circle all lie on a single line, known as the Euler line. The center of the nine-point circle lies at the midpoint of the Euler line, between the orthocenter and the circumcenter, and the distance between the centroid and the circumcenter is half of that between the centroid and the orthocenter:
+The orthocenter is closer to the incenter than it is to the centroid, and the orthocenter is farther than the incenter is from the centroid:
+In terms of the sides , inradius and circumradius ,
+ORTHIC TRIANGLE
+Section::::Orthic triangle.
+If the triangle is oblique (does not contain a right-angle), the pedal triangle of the orthocenter of the original triangle is called the orthic triangle or altitude triangle. That is, the feet of the altitudes of an oblique triangle form the orthic triangle, . Also, the incenter (the center of the inscribed circle) of the orthic triangle is the orthocenter of the original triangle .
+Trilinear coordinates for the vertices of the orthic triangle are given by
+The extended sides of the orthic triangle meet the opposite extended sides of its reference triangle at three collinear points.
+In any acute triangle, the inscribed triangle with the smallest perimeter is the orthic triangle. This is the solution to Fagnano's problem, posed in 1775. The sides of the orthic triangle are parallel to the tangents to the circumcircle at the original triangle's vertices.
+The orthic triangle of an acute triangle gives a triangular light route.
+The tangent lines of the nine-point circle at the midpoints of the sides of are parallel to the sides of the orthic triangle, forming a triangle similar to the orthic triangle.
+The orthic triangle is closely related to the tangential triangle, constructed as follows: let be the line tangent to the circumcircle of triangle at vertex , and define and analogously. Let , , . The tangential triangle is , whose sides are the tangents to triangle 's circumcircle at its vertices; it is homothetic to the orthic triangle. The circumcenter of the tangential triangle, and the center of similitude of the orthic and tangential triangles, are on the Euler line.
+Trilinear coordinates for the vertices of the tangential triangle are given by
+For more information on the orthic triangle, see here.
+SOME ADDITIONAL ALTITUDE THEOREMS
+ALTITUDE IN TERMS OF THE SIDES
+Section::::Some additional altitude theorems.
+Section::::Altitude in terms of the sides.
+For any triangle with sides and semiperimeter , the altitude from side is given by
+This follows from combining Heron's formula for the area of a triangle in terms of the sides with the area formula (1/2)×base×height, where the base is taken as side and the height is the altitude from .
+INRADIUS THEOREMS
+Section::::Inradius theorems.
+Consider an arbitrary triangle with sides and with corresponding
+altitudes , and . The altitudes and the incircle radius are related by
+CIRCUMRADIUS THEOREM
+Section::::Circumradius theorem.
+Denoting the altitude from one side of a triangle as , the other two sides as and , and the triangle's circumradius (radius of the triangle's circumscribed circle) as , the altitude is given by
+INTERIOR POINT
+Section::::Interior point.
+If , and are the perpendicular distances from any point to the sides, and , and are the altitudes to the respective sides, then
+AREA THEOREM
+Section::::Area theorem.
+Denoting the altitudes of any triangle from sides , and respectively as formula_27, formula_28, and formula_29, and denoting the semi-sum of the reciprocals of the altitudes as formula_30 we have
+GENERAL POINT ON AN ALTITUDE
+Section::::General point on an altitude.
+If is any point on an altitude of any triangle , then
+SPECIAL CASE TRIANGLES
+EQUILATERAL TRIANGLE
+Section::::Special case triangles.
+Section::::Equilateral triangle.
+For any point within an equilateral triangle, the sum of the perpendiculars to the three sides is equal to the altitude of the triangle. This is Viviani's theorem.
+RIGHT TRIANGLE
+Section::::Right triangle.
+In a right triangle the three altitudes , and (the first two of which equal the leg lengths and respectively) are related according to
+SEE ALSO
+* Triangle center
+* Median (geometry)
+NOTES
+REFERENCES
+EXTERNAL LINKS
+* Orthocenter of a triangle With interactive animation
+* Animated demonstration of orthocenter construction Compass and straightedge.
+* Fagnano's Problem by Jay Warendorff, Wolfram Demonstrations Project.

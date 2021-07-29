@@ -1,0 +1,96 @@
+
+PHYSICAL QUANTITY
+A physical quantity is a physical property of a phenomenon, body, or substance, that can be quantified by measurement. A physical quantity can be expressed as the combination of a magnitude expressed by a number – usually a real number – and a unit: formula_1 where formula_2 is the magnitude and formula_3 is the unit. For example, (the mass of the neutron), or (the speed of light). The same physical quantity formula_4 can be represented equivalently in many unit systems, i.e. formula_5.
+SYMBOLS, NOMENCLATURE
+Section::::Symbols, nomenclature.
+Symbols for quantities should be chosen according to the international recommendations of ISO/IEC 80000, the IUPAP red book and the IUPAC green book. For example, the recommended symbol for the physical quantity mass is m, and the recommended symbol for the quantity charge is Q.
+SUBSCRIPTS AND INDICES
+Section::::Subscripts and indices.
+Subscripts are used for two reasons, to simply attach a name to the quantity or associate it with another quantity, or represent a specific vector, matrix, or tensor component.
+* Name reference: The quantity has a subscripted or superscripted single letter, a number of letters, or an entire word, to specify what concept or entity they refer to, and tend to be written in upright roman typeface rather than italic while the quantity is in italic. For instance E or E is usually used to denote kinetic energy and E or E is usually used to denote potential energy.
+* Quantity reference: The quantity has a subscripted or superscripted single letter, a number of letters, or an entire word, to specify what measurement/s they refer to, and tend to be written in italic rather than upright roman typeface while the quantity is also in italic. For example c or c is heat capacity at constant pressure.
+The type of subscripts is expressed by their style, e.g. by italic style: 'k' and 'p' are abbreviations of the words kinetic and potential, whereas p (italic) is the symbol for the physical quantity pressure rather than an abbreviation of the word.
+* Indices: The use of indices is for mathematical formalism using Index notation.
+SCALARS
+Section::::Scalars.
+A scalar is a physical quantity that has magnitude but no direction. Symbols for physical quantities are usually chosen to be a single letter of the Latin or Greek alphabet, and are printed in italic type.
+VECTORS
+Section::::Vectors.
+Vectors are physical quantities that possess both magnitude and direction. Symbols for physical quantities that are vectors are in bold type, underlined or with an arrow above. If, e.g., u is the speed of a particle, then the straightforward notation for its velocity is u, u, or formula_6.
+NUMBERS AND ELEMENTARY FUNCTIONS
+Section::::Numbers and elementary functions.
+Numerical quantities, even those denoted by letters, are usually printed in roman (upright) type, though sometimes can be italic. Symbols for elementary functions (circular trigonometric, hyperbolic, logarithmic etc.), changes in a quantity like Δ in Δy or operators like d in dx, are also recommended to be printed in roman type.
+Examples:
+UNITS AND DIMENSIONS
+UNITS
+Section::::Units and dimensions.
+Section::::Units.
+Most physical quantities include a unit, but not all – some are dimensionless. Neither the name of a physical quantity, nor the symbol used to denote it, implies a particular choice of unit, though SI units are usually preferred and assumed today due to their ease of use and all-round applicability. For example, a quantity of mass might be represented by the symbol m, and could be expressed in the units kilograms (kg), pounds (lb), or daltons (Da).
+DIMENSIONS
+Section::::Dimensions.
+The notion of physical dimension of a physical quantity was introduced by Joseph Fourier in 1822. By convention, physical quantities are organized in a dimensional system built upon base quantities, each of which is regarded as having its own dimension.
+BASE QUANTITIES
+Section::::Base quantities.
+Base quantities are those quantities which are distinct in nature and cannot be defined by other quantities. Base quantities are those quantities on the basis of which other quantities can be expressed. The seven base quantities of the International System of Quantities (ISQ) and their corresponding SI units and dimensions are listed in the following table. Other conventions may have a different number of base units (e.g. the CGS and MKSInternational System of Units base quantities
+! scope="col" width="100"  Quantity name/s
+! scope="col" width="100"  (Common) Quantity symbol/s
+! scope="col" width="100"  SI unit name
+! scope="col" width="100"  SI unit symbol
+! scope="col" width="100"  Dimension symbol
+Electric current  i, I 
+Luminous intensity  I 
+The last two angular units, plane angle and solid angle, are subsidiary units used in the SI, but are treated as dimensionless. The subsidiary units are used for convenience to differentiate between a truly dimensionless quantity (pure number) and an angle, which are different measurements.
+GENERAL DERIVED QUANTITIES
+Section::::General derived quantities.
+Derived quantities are those whose definitions are based on other physical quantities(base quantities).
+SPACE
+Section::::Space.
+Important applied base units for space and time are below. Area and volume are of course derived from length, but included for completeness as they occur frequently in many derived quantities, in particular densities.
+! scope="col" width="200"  (Common) Quantity name/s
+! scope="col" width="200"  (Common) Quantity symbol
+! scope="col" width="100"  SI unit
+! scope="col" width="100"  Dimension
+DENSITIES, FLOWS, GRADIENTS, AND MOMENTS
+Section::::Densities, flows, gradients, and moments.
+Important and convenient derived quantities such as densities, fluxes, flows, currents are associated with many quantities. Sometimes different terms such as current density and flux density, rate, frequency and current, are used interchangeably in the same context, sometimes they are used uniqueley.
+To clarify these effective template derived quantities, we let q be any quantity within some scope of context (not necessarily base quantities) and present in the table below some of the most commonly used symbols where applicable, their definitions, usage, SI units and SI dimensions – where [q] is the dimension of q.
+For time derivatives, specific, molar, and flux densities of quantities there is no one symbol, nomenclature depends on subject, though time derivatives can be generally written using overdot notation. For generality we use q, q, and F respectively. No symbol is necessarily required for the gradient of a scalar field, since only the nabla/del operator ∇ or grad needs to be written. For spatial density, current, current density and flux, the notations are common from one context to another, differing only by a change in subscripts.
+For current density, formula_8 is a unit vector in the direction of flow, i.e. tangent to a flowline. Notice the dot product with the unit normal for a surface, since the amount of current passing through the surface is reduced when the current is not normal to the area. Only the current passing perpendicular to the surface contributes to the current passing through the surface, no current passes in the (tangential) plane of the surface.
+The calculus notations below can be used synonymously.
+If X is a n-variable function formula_9, then:
+! scope="col" width="150"  Quantity
+! scope="col" width="150"  Typical symbols
+! scope="col" width="250"  Definition
+! scope="col" width="200"  Meaning, usage
+! scope="col" width="100"  Dimension
+No common symbol for n-space density, here ρ is used. 
+formula_18
+formula_19 
+[q]T (q)
+Transport mechanics, nuclear physics/particle physics: 
+formula_20
+Vector field: 
+formula_21 
+section / surface boundary
+Two definitions can be used; 
+q is a scalar: formula_25 
+q is a vector: formula_26 
+The meaning of the term physical quantity is generally well understood (everyone understands what is meant by the frequency of a periodic phenomenon, or the resistance of an electric wire). The term physical quantity does not imply a physically invariant quantity. Length for example is a physical quantity, yet it is variant under coordinate change in special and general relativity. The notion of physical quantities is so basic and intuitive in the realm of science, that it does not need to be explicitly spelled out or even mentioned. It is universally understood that scientists will (more often than not) deal with quantitative data, as opposed to qualitative data. Explicit mention and discussion of physical quantities is not part of any standard science program, and is more suited for a philosophy of science or philosophy program.
+The notion of physical quantities is seldom used in physics, nor is it part of the standard physics vernacular. The idea is often misleading, as its name implies "a quantity that can be physically measured", yet is often incorrectly used to mean a physical invariant. Due to the rich complexity of physics, many different fields possess different physical invariants. There is no known physical invariant sacred in all possible fields of physics. Energy, space, momentum, torque, position, and length (just to name a few) are all found to be experimentally variant in some particular scale and system. Additionally, the notion that it is possible to measure "physical quantities" comes into question, particular in quantum field theory and normalization techniques. As infinities are produced by the theory, the actual "measurements" made are not really those of the physical universe (as we cannot measure infinities), they are those of the renormalization scheme which is expressly dependent on our measurement scheme, coordinate system and metric system.
+SEE ALSO
+* List of physical quantities
+* Philosophy of science
+* Quantity
+* Observable quantity
+REFERENCES
+COMPUTER IMPLEMENTATIONS
+* DEVLIB project in C# Language and Delphi Language
+* PhysicalQuantities project in C# Language at CodePlex
+* PhysicalMeasure C# library project in C# Language at CodePlex
+* Ethica Measures project in C# Language at CodePlex
+* EngineerJS online calculation and scripting tool supporting physical quantities.
+SOURCES
+* Cook, Alan H. The observational foundations of physics, Cambridge, 1994.
+* Essential Principles of Physics, P.M. Whelan, M.J. Hodgeson, 2nd Edition, 1978, John Murray,
+* Encyclopaedia of Physics, R.G. Lerner, G.L. Trigg, 2nd Edition, VHC Publishers, Hans Warlimont, Springer, 2005, pp 12–13
+* Physics for Scientists and Engineers: With Modern Physics (6th Edition), P.A. Tipler, G. Mosca, W.H. Freeman and Co, 2008, 9-781429-202657

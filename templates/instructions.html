@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Rationale Movie Reviews</title>
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="{{ url_for('static', filename='scripts/post.js') }}"></script>
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+
+	<script>
+		/**
+		* Displays the information in the tab when clicked on.
+		*
+		* @param evt represents what happend with the tab.
+		* @param name represents which tab to open.
+		*/
+		$(document).ready(function () {
+			$('#nav-tab-anns').tab('show')
+			$('#submit').on('click', function () {
+				var userid = $('#userid').text();
+				var docid = $('#docid').text();
+				post('/start_annotate/', { "userid": userid, "docid": docid })
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<div class="body-container">
+		<div class="article-container">
+			<nav class="nav nav-tabs" id="nav-tabs-article" role="tablist">
+				<a class="nav-item nav-link" id="nav-tab-anns" data-toggle="tab" href="#nav-anns"> Instructions </a>
+			</nav>
+
+			<div class="tab-content tab-content-article" id="tab-contents-article">
+				<div id='nav-anns' class="tab-pane fade tab-pane-article" role="tabpanel">
+					<h2>Annotation guidelines</h2>
+
+          <p>
+            You will be provided with an article and a question. On the basis of the article, please answer if the answer is True or False. In addition, select and erase all sentences/phrases of the document that may help in answering the question. That is, after you are finished erasing there should not be enough information to answer the question either way.
+            To erase a span of text, highlight it and then click “Erase Span”. Once you are done, click Submit. You will be shown a survey code that you should enter in your AMT interface. Below is an example in which the question is “Can a puppy see when they first open their eyes?”. The first image shows the full text on the basis of which this is to be answered. In this case, the answer is True, as one can tell by the portion of the text that reads “At first, their retinas are poorly developed and their vision is poor.” This is also be supported (albeit less strongly) by the snippet of that includes “... particularly after their eyes and ears open and they are no longer completely dependent on their mother.” We include a second screenshot below that displays the same example once these two snippets have been “erased”. Again, it is important that you erase all text that provides information helpful in answering the question.
+          </p>
+
+          <div class = "row">
+            <img src="{{ url_for('static', filename = 'images/v2_1.PNG') }}" style="width:50%;height:50%; margin-bottom: 2%;">
+            <img src="{{ url_for('static', filename = 'images/v2_2.PNG') }}" style="width:50%;height:50%;">
+          </div>
+
+				</div>
+			</div>
+		</div>
+
+		<p>
+			<button type="button" id="submit" class="btn btn-success btn-group">
+				<div style="width: 100%;">Click here to Start Annotating ... </div>
+			</button>
+		</p>
+
+		<!-- Storing of data to be used for later when submitting -->
+		<div id="store">
+			<p id="userid">{{ userid }}</p>
+			<p id="docid">{{ docid }}</p>
+		</div>
+	</div>
+</body>
+
+</html>

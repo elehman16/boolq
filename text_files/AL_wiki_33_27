@@ -1,0 +1,43 @@
+
+CUVETTE
+A cuvette (French: cuvette = "little vessel") is a small tube-like container with straight sides and a circular or square cross section. It is sealed at one end, and made of a clear, transparent material such as plastic, glass, or fused quartz. Cuvettes are designed to hold samples for spectroscopic measurement, where a beam of light is passed through the sample within the cuvette to measure the absorbance, transmittance, fluorescence intensity, fluorescence polarization, or fluorescence lifetime of the sample. This measurement is done with a spectrophotometer.
+OVERVIEW
+Section::::Overview.
+Traditional ultraviolet–visible spectroscopy or fluorescence spectroscopy uses samples that are liquid. Often the sample is a solution, with the substance of interest dissolved within. The sample is placed in a cuvette and the cuvette is placed in a spectrophotometer for testing. The cuvette can be made of any material that is transparent in the range of wavelengths used in the test. 
+The smallest cuvettes can hold 70 microliters, while the largest can hold 2.5 milliliters or more. The width determines the length of the light path through the sample, which affects the calculation of the absorbance value. Many cuvettes have a light path of , which simplifies calculation of the coefficient of absorption. Most cuvettes have two transparent sides opposite one another so the spectrophotometer light can pass through, although some tests use reflection so only need a single transparent side. For fluorescence measurements, two more transparent sides, at right angles to those used for the spectrophotometer light, are needed for the excitation light. Some cuvettes have a glass or plastic cap for use with hazardous solutions.
+TECHNIQUE
+Section::::Technique.
+Scratches on the sides of the cuvette the light passes through scatter light and cause errors. A rubber or plastic rack protects the cuvette from accidentally hitting and being scratched by the machine casing. The solvent and temperature can also affect measurements. Cuvettes to be used in circular dichroism experiments should never be mechanically stressed, as the stress will induce birefringence in the quartz and affect measurements.
+Fingerprints and droplets of water disrupt light rays during measurement, so low-lint gauze or cloth may be used to wipe clean the outer surface of a cuvette before use. Paper towel or similar may scratch the cuvette. Mild detergent or ethanol may be applied, followed by rinsing with tap water. Acid and alkali are avoided due to their corrosive effects on glass, and acetone is unsuitable when working with plastic cuvettes. If solution is transferred into a cuvette using a Pasteur pipette containing air, bubbles may form inside the cuvette, reducing the purity of a solution and scattering light beams. The finger-clad finger method is used to remove bubbles. The solution contained in the cuvette should be high enough to be in the path of the light source. In case the sample needs incubation at a high temperature, care must be taken to avoid temperatures too hot for the cuvette.
+TYPES
+Section::::Types.
+Historically, reusable quartz cuvettes were required for measurements in the ultraviolet range, because glass and most plastics absorb ultraviolet light, creating interference. Today there are disposable plastic cuvettes made of specialized plastics that are transparent to ultraviolet light. Glass, plastic and quartz cuvettes are all suitable for measurements made at longer wavelengths, such as in the visible light range.
+"Tandem cuvettes" have a glass barrier medium that extends two-thirds of the way up in the middle, so that measurements can be taken with two solutions separated and again when they are mixed.
+PLASTIC
+Section::::Plastic.
+Plastic cuvettes are often used in fast spectroscopic assays, where high speed is more important than high accuracy. Plastic cuvettes with a usable wavelength range of 380–780 nm (the visible spectrum) may be disposed of after use, preventing contamination from re-use. They are cheap to manufacture and purchase. Disposable cuvettes can be used in some laboratories where the beam light is not high enough to affect the absorption tolerance and consistency of the value.
+GLASS
+Section::::Glass.
+Crown glass has an optimal wavelength range of 340–2500 nm. Glass cuvettes are typically for use in the wavelength range of visible light, whereas fused quartz tends to be used for ultraviolet applications.
+QUARTZ
+Section::::Quartz.
+Quartz cells provide more durability than plastic or glass. Quartz excels at transmitting UV light, and can be used for wavelengths ranging from 190 to 2500 nm.
+FUSED QUARTZ
+Section::::Fused quartz.
+Fused quartz cells are used for wavelengths below 380 nm, i.e. ultraviolet light.
+INFRARED QUARTZ
+Section::::Infrared quartz.
+IR quartz has a usable wavelength range of 220 to 3,500 nm. It is more resistant to chemical attack from the sample solution than other types designed for fluorescence measurements.
+SAPPHIRE
+Section::::Sapphire.
+Sapphire cuvettes are the most expensive, though provide the most durable, scratch-resistant, and transmissible material. The transmission extends from UV light to mid-infrared, ranging from 250 to 5,000 nm. Sapphire can withstand the extreme natural condition of some sample solutions and variances in temperature.
+HISTORY
+Section::::History.
+In 1934, James Franklin Hyde created a combined silica cell, which was free from other extraneous elements, as a liquefying technique of other glass products. In the 1950s, Starna Ltd. improved the method to completely melt a segment of glass using heat without deforming its shape. This innovation has altered the production of inert cuvettes without any thermosetting resin. Before the rectangular cuvette was created, ordinary test tubes were used. As innovation motivated changes in technique, cuvettes were constructed to have focal points over ordinary test tubes.
+ADDITIONAL IMAGES
+SEE ALSO
+* Calibration curve
+REFERENCES
+EXTERNAL LINKS
+* Spectrophotometry Handbooks
+* Standard Practice for Describing and Measuring Performance of Ultraviolet, Visible, and Near-Infrared Spectrophotometers

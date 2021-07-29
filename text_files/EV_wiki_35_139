@@ -1,0 +1,57 @@
+
+SQUARE ROOT OF 5
+Binary
+The square root of 5 is the positive real number that, when multiplied by itself, gives the prime number 5. It is more precisely called the principal square root of 5, to distinguish it from the negative number with the same property. This number appears in the fractional expression for the golden ratio. It can be denoted in surd form as:
+It is an irrational algebraic number. The first sixty significant digits of its decimal expansion are:
+which can be rounded down to 2.236 to within 99.99% accuracy. The approximation (≈ 2.23611) for the square root of five can be used. Despite having a denominator of only 72, it differs from the correct value by less than (approx. ). As of December 2013, its numerical value in decimal has been computed to at least ten billion digits. 
+PROOFS OF IRRATIONALITY
+Section::::Proofs of irrationality.
+1. This irrationality proof for the square root of 5 uses Fermat's method of infinite descent:
+2. This irrationality proof is also a proof by contradiction:
+CONTINUED FRACTION
+Section::::Continued fraction.
+It can be expressed as the continued fraction
+The convergents and semiconvergents of this continued fraction are as follows (the black terms are the semiconvergents):
+Convergents of the continued fraction are colored red; their numerators are 2, 9, 38, 161, ... , and their denominators are 1, 4, 17, 72, ... .
+Each of these is the best rational approximation of ; in other words, it is closer to than any rational with a smaller denominator.
+BABYLONIAN METHOD
+Section::::Babylonian method.
+When is computed with the Babylonian method, starting with and using , the th approximant is equal to the th convergent of the convergent sequence:
+NESTED SQUARE EXPANSIONS
+Section::::Nested square expansions.
+The following nested square expressions converge to formula_12:
+RELATION TO THE GOLDEN RATIO AND FIBONACCI NUMBERS
+Section::::Relation to the golden ratio and Fibonacci numbers.
+The golden ratio is the arithmetic mean of 1 and . The algebraic relationship between , the golden ratio and the conjugate of the golden ratio () is expressed in the following formulae:
+The quotient of and (or the product of and ), and its reciprocal, provide an interesting pattern of continued fractions and are related to the ratios between the Fibonacci numbers and the Lucas numbers:
+The series of convergents to these values feature the series of Fibonacci numbers and the series of Lucas numbers as numerators and denominators, and vice versa, respectively:
+GEOMETRY
+Section::::Geometry.
+Geometrically, corresponds to the diagonal of a rectangle whose sides are of length 1 and 2, as is evident from the Pythagorean theorem. Such a rectangle can be obtained by halving a square, or by placing two equal squares side by side. Together with the algebraic relationship between and , this forms the basis for the geometrical construction of a golden rectangle from a square, and for the construction of a regular pentagon given its side (since the side-to-diagonal ratio in a regular pentagon is ).
+Forming a dihedral right angle with the two equal squares that halve a 1:2 rectangle, it can be seen that corresponds also to the ratio between the length of a cube edge and the shortest distance from one of its vertices to the opposite one, when traversing the cube surface (the shortest distance when traversing through the inside of the cube corresponds to the length of the cube diagonal, which is the square root of three times the edge).
+The number can be algebraically and geometrically related to  and , as it is the length of the hypotenuse of a right triangle with catheti measuring and (again, the Pythagorean theorem proves this). Right triangles of such proportions can be found inside a cube: the sides of any triangle defined by the centre point of a cube, one of its vertices, and the middle point of a side located on one the faces containing that vertex and opposite to it, are in the ratio This follows from the geometrical relationships between a cube and the quantities (edge-to-face-diagonal ratio, or distance between opposite edges), (edge-to-cube-diagonal ratio) and (the relationship just mentioned above).
+A rectangle with side proportions 1: is called a root-five rectangle and is part of the series of root rectangles, a subset of dynamic rectangles, which are based on and successively constructed using the diagonal of the previous root rectangle, starting from a square. A root-5 rectangle is particularly notable in that it can be split into a square and two equal golden rectangles (of dimensions ), or into two golden rectangles of different sizes (of dimensions and ). It can also be decomposed as the union of two equal golden rectangles (of dimensions ) whose intersection forms a square. All this is can be seen as the geometric interpretation of the algebraic relationships between , and mentioned above. The root-5 rectangle can be constructed from a 1:2 rectangle (the root-4 rectangle), or directly from a square in a manner similar to the one for the golden rectangle shown in the illustration, but extending the arc of length to both sides.
+TRIGONOMETRY
+Section::::Trigonometry.
+Like and , the square root of 5 appears extensively in the formulae for exact trigonometric constants, including in the sines and cosines of every angle whose measure in degrees is divisible by 3 but not by 15. The simplest of these are
+As such the computation of its value is important for generating trigonometric tables. Since is geometrically linked to half-square rectangles and to pentagons, it also appears frequently in formulae for the geometric properties of figures derived from them, such as in the formula for the volume of a dodecahedron.
+DIOPHANTINE APPROXIMATIONS
+Section::::Diophantine approximations.
+Hurwitz's theorem in Diophantine approximations states that every irrational number can be approximated by infinitely many rational numbers in lowest terms in such a way that
+and that is best possible, in the sense that for any larger constant than , there are some irrational numbers for which only finitely many such approximations exist.
+Closely related to this is the theorem that of any three consecutive convergents , , , of a number , at least one of the three inequalities holds:
+And the in the denominator is the best bound possible since the convergents of the golden ratio make the difference on the left-hand side arbitrarily close to the value on the right-hand side. In particular, one cannot obtain a tighter bound by considering sequences of four or more consecutive convergents.
+ALGEBRA
+Section::::Algebra.
+The ring contains numbers of the form , where and are integers and is the imaginary number . This ring is a frequently cited example of an integral domain that is not a unique factorization domain. The number 6 has two inequivalent factorizations within this ring:
+The field , like any other quadratic field, is an abelian extension of the rational numbers. The Kronecker–Weber theorem therefore guarantees that the square root of five can be written as a rational linear combination of roots of unity:
+IDENTITIES OF RAMANUJAN
+Section::::Identities of Ramanujan.
+The square root of 5 appears in various identities discovered by Srinivasa Ramanujan involving continued fractions.
+For example, this case of the Rogers–Ramanujan continued fraction:
+SEE ALSO
+* Golden ratio
+* Square root
+* Square root of 2
+* Square root of 3
+REFERENCES

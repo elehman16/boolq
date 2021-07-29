@@ -1,0 +1,61 @@
+
+DIVISOR
+In mathematics, a divisor of an integer formula_1, also called a factor of formula_1, is an integer formula_3 that may be multiplied by some integer to produce formula_1. In this case, one also says that formula_1 is a multiple of formula_6 An integer formula_1 is divisible by another integer formula_3 if formula_3 is a divisor of formula_1; this implies dividing formula_1 by formula_3 leaves no remainder.
+DEFINITION
+Section::::Definition.
+Two versions of the definition of a divisor are commonplace:
+* If formula_3 and formula_1 are integers, and more generally, elements of an integral domain, it is said that formula_3 divides formula_1, formula_3 is a divisor of formula_1, or formula_1 is a multiple of formula_3, and this is written as
+formula_21
+* As before, but with the additional constraint formula_27. Under this definition, the statement formula_25 does not hold for formula_29.
+In the remainder of this article, which definition is applied is indicated where this is significant.
+GENERAL
+Section::::General.
+Divisors can be negative as well as positive, although sometimes the term is restricted to positive divisors. For example, there are six divisors of 4; they are 1, 2, 4, −1, −2, and −4, but only the positive ones (1, 2, and 4) would usually be mentioned.
+1 and −1 divide (are divisors of) every integer. Every integer (and its negation) is a divisor of itself. Every integer is a divisor of 0. Integers divisible by 2 are called even, and integers not divisible by 2 are called odd.
+1, −1, n and −n are known as the trivial divisors of n. A divisor of n that is not a trivial divisor is known as a non-trivial divisor. A non-zero integer with at least one non-trivial divisor is known as a composite number, while the units −1 and 1 and prime numbers have no non-trivial divisors.
+There are divisibility rules that allow one to recognize certain divisors of a number from the number's digits.
+The generalization can be said to be the concept of divisibility in any integral domain.
+EXAMPLES
+* 7 is a divisor of 42 because formula_30, so we can say formula_31. It can also be said that 42 is divisible by 7, 42 is a multiple of 7, 7 divides 42, or 7 is a factor of 42.
+* The non-trivial divisors of 6 are 2, −2, 3, −3.
+* The positive divisors of 42 are 1, 2, 3, 6, 7, 14, 21, 42.
+* formula_32, because formula_33.
+* The set of all positive divisors of 60, formula_34, partially ordered by divisibility, has the Hasse diagram:
+FURTHER NOTIONS AND FACTS
+Section::::Further notions and facts.
+There are some elementary rules:
+* If formula_35 and formula_36, then formula_37, i.e. divisibility is a transitive relation.
+* If formula_35 and formula_39, then formula_40 or formula_41.
+* If formula_35 and formula_37, then formula_44 holds, as does formula_45. However, if formula_35 and formula_47, then formula_48 does not always hold (e.g. formula_49 and formula_50 but 5 does not divide 6).
+If formula_51, and gcdformula_52, then formula_37. This is called Euclid's lemma.
+If formula_54 is a prime number and formula_55 then formula_56 or formula_57.
+A positive divisor of formula_1 which is different from formula_1 is called a proper divisor or an aliquot part of formula_1. A number that does not evenly divide formula_1 but leaves a remainder is called an aliquant part of formula_1.
+An integer formula_63 whose only proper divisor is 1 is called a prime number. Equivalently, a prime number is a positive integer that has exactly two positive factors: 1 and itself.
+Any positive divisor of formula_1 is a product of prime divisors of formula_1 raised to some power. This is a consequence of the fundamental theorem of arithmetic.
+A number formula_1 is said to be perfect if it equals the sum of its proper divisors, deficient if the sum of its proper divisors is less than formula_1, and abundant if this sum exceeds formula_1.
+The total number of positive divisors of formula_1 is a multiplicative function formula_70, meaning that when two numbers formula_3 and formula_1 are relatively prime, then formula_73. For instance, formula_74; the eight divisors of 42 are 1, 2, 3, 6, 7, 14, 21 and 42. However, the number of positive divisors is not a totally multiplicative function: if the two numbers formula_3 and formula_1 share a common divisor, then it might not be true that formula_73. The sum of the positive divisors of formula_1 is another multiplicative function formula_79 (e.g. formula_80). Both of these functions are examples of divisor functions.
+If the prime factorization of formula_1 is given by
+then the number of positive divisors of formula_1 is
+and each of the divisors has the form
+where formula_86 for each formula_87
+For every natural formula_1, formula_89.
+Also,
+where formula_91 is Euler–Mascheroni constant.
+One interpretation of this result is that a randomly chosen positive integer n has an expected
+number of divisors of about formula_92.
+IN ABSTRACT ALGEBRA
+Section::::In abstract algebra.
+Given the definition for which formula_93 holds, the relation of divisibility turns the set formula_94 of non-negative integers into a partially ordered set: a complete distributive lattice. The largest element of this lattice is 0 and the smallest is 1. The meet operation ∧ is given by the greatest common divisor and the join operation ∨ by the least common multiple. This lattice is isomorphic to the dual of the lattice of subgroups of the infinite cyclic group formula_95.
+SEE ALSO
+* Arithmetic functions
+* Divisibility rule
+* Divisor function
+* Euclid's algorithm
+* Fraction (mathematics)
+* Table of divisors — A table of prime and non-prime divisors for 1–1000
+* Table of prime factors — A table of prime factors for 1–1000
+* Unitary divisor
+NOTES
+REFERENCES
+* Richard K. Guy, Unsolved Problems in Number Theory (3rd ed), Springer Verlag, 2004 ; section B.
+* Øystein Ore, Number Theory and its History, McGraw–Hill, NY, 1944 (and Dover reprints).

@@ -1,0 +1,140 @@
+
+COMPOUND INTEREST
+Compound interest is the addition of interest to the principal sum of a loan or deposit, or in other words, interest on interest. It is the result of reinvesting interest, rather than paying it out, so that interest in the next period is then earned on the principal sum plus previously accumulated interest. Compound interest is standard in finance and economics.
+Compound interest may be contrasted with simple interest, where interest is not added to the principal, so there is no compounding. The simple annual interest rate is the interest amount per period, multiplied by the number of periods per year. The simple annual interest rate is also known as the nominal interest rate (not to be confused with the interest rate not adjusted for inflation, which goes by the same name).
+Compound Interest = P (1+(r/n))^nt
+COMPOUNDING FREQUENCY
+Section::::Compounding frequency.
+The compounding frequency is the number of times per year (or other unit of time) the accumulated interest is paid out, or capitalized (credited to the account), on a regular basis. The frequency could be yearly, half-yearly, quarterly, monthly, weekly, daily, or continuously (or not at all, until maturity).
+For example, monthly capitalization with annual rate of interest means that the compounding frequency is 12, with time periods measured in months.
+The effect of compounding depends on:
+* The nominal interest rate which is applied and
+* 
+* The frequency interest is compounded.
+* 
+A compound interest calculator is a tool that allows calculating such compounding effect on loans or investments.
+ANNUAL EQUIVALENT RATE
+Section::::Annual equivalent rate.
+The nominal rate cannot be directly compared between loans with different compounding frequencies. Both the nominal interest rate and the compounding frequency are required in order to compare interest-bearing financial instruments.
+To assist consumers compare retail financial products more fairly and easily, many countries require financial institutions to disclose the annual compound interest rate on deposits or advances on a comparable basis. The interest rate on an annual equivalent basis may be referred to variously in different markets as annual percentage rate (APR), annual equivalent rate (AER), effective interest rate, effective annual rate, annual percentage yield and other terms. The effective annual rate is the total accumulated interest that would be payable up to the end of one year, divided by the principal sum.
+There are usually two aspects to the rules defining these rates:
+* The rate is the annualised compound interest rate, and
+* 
+* There may be charges other than interest. The effect of fees or taxes which the customer is charged, and which are directly related to the product, may be included. Exactly which fees and taxes are included or excluded varies by country. may or may not be comparable between different jurisdictions, because the use of such terms may be inconsistent, and vary according to local practice.
+* 
+EXAMPLES FOR COMPOUND INTEREST
+* 1,000 Brazilian real (BRL) is deposited into a Brazilian savings account paying 20% per annum, compounded annually. At the end of one year, 1,000 x 20% = 200 BRL interest is credited to the account. The account then earns 1,200 x 20% = 240 BRL in the second year.
+* A rate of 1% per month is equivalent to a simple annual interest rate (nominal rate) of 12%, but allowing for the effect of compounding, the annual equivalent compound rate is 12.68% per annum (1.01 − 1).
+* The interest on corporate bonds and government bonds is usually payable twice yearly. The amount of interest paid (each six months) is the disclosed interest rate divided by two and multiplied by the principal. The yearly compounded rate is higher than the disclosed rate.
+* Canadian mortgage loans are generally compounded semi-annually with monthly (or more frequent) payments.
+* U.S. mortgages use an amortizing loan, not compound interest. With these loans, an amortization schedule is used to determine how to apply payments toward principal and interest. Interest generated on these loans is not added to the principal, but rather is paid off monthly as the payments are applied.
+* It is sometimes mathematically simpler, e.g. in the valuation of derivatives, to use continuous compounding, which is the limit as the compounding period approaches zero. Continuous compounding in pricing these instruments is a natural consequence of Itō calculus, where financial derivatives are valued at ever increasing frequency, until the limit is approached and the derivative is valued in continuous time.
+DISCOUNT INSTRUMENTS
+* US and Canadian T-Bills (short term Government debt) have a different convention. Their interest is calculated on a discount basis as (100 − P)/Pbnm, where P is the price paid. Instead of normalizing it to a year, the interest is prorated by the number of days t: (365/t)×100. (See day count convention).
+MATHEMATICS OF INTEREST RATE ON LOANS
+PERIODIC COMPOUNDING
+Section::::Mathematics of interest rate on loans.
+Section::::Periodic compounding.
+The total accumulated value, including the principal sum formula_1 plus compounded interest formula_2, is given by the formula: 
+where:
+The total compound interest generated is the final value minus the initial principal:
+EXAMPLE 1
+Section::::Example 1.
+Suppose a principal amount of $1,500 is deposited in a bank paying an annual interest rate of 4.3%, compounded quarterly. Then the balance after 6 years is found by using the formula above, with P = 1500, r = 0.043 (4.3%), n = 4, and t = 6:
+So the new principal formula_6 after 6 years is approximately $1,938.84.
+Subtracting the original principal from this amount gives the amount of interest received:
+EXAMPLE 2
+Section::::Example 2.
+Suppose the same amount of $1,500 is compounded biennially (every 2 years). Then the balance after 6 years is found by using the formula above, with P = 1500, r = 0.043 (4.3%), n = 1/2 (the interest is compounded every two years), and t = 6 :
+So, the balance after 6 years is approximately $1,921.24.
+The amount of interest received can be calculated by subtracting the principal from this amount.
+The interest is less compared with the previous case, as a result of the lower compounding frequency.
+ACCUMULATION FUNCTION
+Section::::Accumulation function.
+Since the principal P is simply a coefficient, it is often dropped for simplicity, and the resulting accumulation function is used instead. The accumulation function shows what $1 grows to after any length of time. Accumulation functions for simple and compound interest are
+CONTINUOUS COMPOUNDING
+Section::::Continuous compounding.
+As n, the number of compounding periods per year, increases without limit, the case is known as continuous compounding, in which case the effective annual rate approaches an upper limit of , where  is a mathematical constant that is the base of the natural logarithm.
+Continuous compounding can be thought of as making the compounding period infinitesimally small, achieved by taking the limit as n goes to infinity. See definitions of the exponential function for the mathematical proof of this limit. The amount after t periods of continuous compounding can be expressed in terms of the initial amount P as
+FORCE OF INTEREST
+Section::::Force of interest.
+As the number of compounding periods formula_13 reaches infinity in continuous compounding, the continuous compound interest is referred to as the force of interest formula_14.
+In mathematics, the accumulation functions are often expressed in terms of e, the base of the natural logarithm. This facilitates the use of calculus to manipulate interest formulae.
+For any continuously differentiable accumulation function a(t), the force of interest, or more generally the logarithmic or continuously compounded return is a function of time defined as follows:
+This is the logarithmic derivative of the accumulation function.
+Conversely:
+When the above formula is written in differential equation format, then the force of interest is simply the coefficient of amount of change:
+For compound interest with a constant annual interest rate r, the force of interest is a constant, and the accumulation function of compounding interest in terms of force of interest is a simple power of e:
+The force of interest is less than the annual effective interest rate, but more than the annual effective discount rate. It is the reciprocal of the e-folding time. See also notation of interest rates.
+A way of modeling the force of inflation is with Stoodley's formula: formula_21 where p, r and s are estimated. 
+COMPOUNDING BASIS
+Section::::Compounding basis.
+To convert an interest rate from one compounding basis to another compounding basis, use
+where
+r is the interest rate with compounding frequency n, and
+r is the interest rate with compounding frequency n.
+When interest is continuously compounded, use
+where
+formula_14 is the interest rate on a continuous compounding basis, and
+r is the stated interest rate with a compounding frequency n.
+MONTHLY AMORTIZED LOAN OR MORTGAGE PAYMENTS
+Section::::Monthly amortized loan or mortgage payments.
+The interest on loans and mortgages that are amortized—that is, have a smooth monthly payment until the loan has been paid off—is often compounded monthly. The formula for payments is found from the following argument.
+EXACT FORMULA FOR MONTHLY PAYMENT
+Section::::Exact formula for monthly payment.
+An exact formula for the monthly payment (formula_25) is
+or equivalently
+where:
+This can be derived by considering how much is left to be repaid after each month. The Principal remaining after the first month is
+i.e. the initial amount has increased less the payment. If the whole loan is repaid after one month then
+After the second month formula_35 is left, so
+If the whole loan was repaid after two months,
+This equation generalises for a term of n months, formula_39. This is a geometric series which has the sum
+which can be rearranged to give
+SPREADSHEET FORMULA
+Section::::Spreadsheet formula.
+In spreadsheets, the PMT() function is used. The syntax is:
+See Excel, Mac Numbers, Libreoffice, Open Office for more details.
+For example, for interest rate of 6% (0.06/12), 25 years * 12 p.a., PV of $150,000, FV of 0, type of 0 gives:
+APPROXIMATE FORMULA FOR MONTHLY PAYMENT
+Section::::Approximate formula for monthly payment.
+A formula that is accurate to within a few percent can be found by
+noting that for typical U.S. note rates (formula_42 and terms formula_43=10–30 years), the monthly note rate is small compared to 1:
+formula_44 so that the formula_45 which yields
+a simplification so that
+which suggests defining auxiliary variables
+Here formula_49 is the monthly payment required for a zero–interest loan paid off in formula_13 installments. In terms of these variables the
+approximation can be written
+The function formula_52 is even:
+implying that it can be expanded in even powers of formula_54.
+It follows immediately that formula_55 can be expanded in even powers
+of formula_54 plus the single term: formula_57
+It will prove convenient then to define
+so that
+which can be expanded:
+where the ellipses indicate terms that are higher order in even powers of formula_61. The expansion
+is valid to better than 1% provided formula_63.
+EXAMPLE OF MORTGAGE PAYMENT
+Section::::Example of mortgage payment.
+For a $10,000 mortgage with a term of 30 years and a note rate of 4.5%, payable yearly, we find:
+which gives
+so that
+The exact payment amount is formula_68 so the approximation is an overestimate of about a sixth of a percent.
+HISTORY
+Section::::History.
+Compound interest was once regarded as the worst kind of usury and was severely condemned by Roman law and the common laws of many other countries.
+The Florentine merchant Francesco Balducci Pegolotti provided a table of compound interest in his book Pratica della mercatura of about 1340. It gives the interest on 100 lire, for rates from 1% to 8%, for up to 20 years. The Summa de arithmetica of Luca Pacioli (1494) gives the Rule of 72, stating that to find the number of years for an investment at compound interest to double, one should divide the interest rate into 72.
+Richard Witt's book Arithmeticall Questions, published in 1613, was a landmark in the history of compound interest. It was wholly devoted to the subject (previously called anatocism), whereas previous writers had usually treated compound interest briefly in just one chapter in a mathematical textbook. Witt's book gave tables based on 10% (the then maximum rate of interest allowable on loans) and on other rates for different purposes, such as the valuation of property leases. Witt was a London mathematical practitioner and his book is notable for its clarity of expression, depth of insight and accuracy of calculation, with 124 worked examples.
+Jacob Bernoulli discovered the constant formula_69 in 1683 by studying a question about compound interest.
+SEE ALSO
+* Credit card interest
+* Exponential growth
+* Fisher equation
+* Interest
+* Interest rate
+* Rate of return
+* Rate of return on investment
+* Real versus nominal value (economics)
+* Yield curve
+* e (mathematical constant)
+REFERENCES

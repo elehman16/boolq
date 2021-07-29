@@ -1,0 +1,60 @@
+
+BETA CELL
+Beta cells (β cells) are a type of cell found in pancreatic islets that synthesize and secrete insulin. Beta cells make up 50-70% of the cells in human islets. In patients with type I or type II diabetes, beta-cell mass and function are diminished, leading to insufficient insulin secretion and hyperglycemia.
+FUNCTION
+Section::::Function.
+The primary function of a beta cell is to produce and release insulin. Insulin is a hormone that brings about effects which reduce blood glucose concentration. Beta cells can respond quickly to spikes in blood glucose concentrations by secreting some of their stored insulin while simultaneously producing more.
+INSULIN SYNTHESIS
+Section::::Insulin Synthesis.
+Beta cells are the only site of insulin synthesis in mammals. As glucose stimulates insulin secretion, it simultaneously increases proinsulin biosynthesis, mainly through translational control.
+The insulin gene is first transcribed into mRNA and translated into preproinsulin. After translation, the preproinsulin precursor contains an N-terminal signal peptide that allows translocation into the rough endoplasmic reticulum (RER). Inside the RER, the signal peptide is cleaved to form proinsulin. Then, folding of proinsulin occurs forming three disulfide bonds. Subsequent to protein folding, proinsulin is transported to the Golgi apparatus and enters immature insulin granules where proinsulin is cleaved to form insulin and C-peptide. After maturation, these secretory vesicles hold insulin, C-peptide, and amylin until calcium triggers exocytosis of the granule contents.
+Through translational processing, insulin is encoded as a 110 amino acid precursor but is secreted as a 51 amino acid protein.
+INSULIN SECRETION
+Section::::Insulin Secretion.
+In beta cells, insulin release is stimulated primarily by glucose present in the blood. As circulating glucose levels rise such as after ingesting a meal, insulin is secreted in a dose-dependent fashion. This system of release is commonly referred to as glucose-stimulated insulin secretion (GSIS). There are four key pieces to the "Consensus Model" of GSIS: GLUT2 dependent glucose uptake, glucose metabolism, K channel closure, and the opening of voltage gated calcium channels causing insulin granule fusion and exocytosis.
+Voltage-gated calcium channels and ATP-sensitive potassium ion channels are embedded in the plasma membrane of beta cells. These ATP-sensitive potassium ion channels are normally open and the calcium ion channels are normally closed. Potassium ions diffuse out of the cell, down their concentration gradient, making the inside of the cell more negative with respect to the outside (as potassium ions carry a positive charge). At rest, this creates a potential difference across the cell surface membrane of -70mV.
+When the glucose concentration outside the cell is high, glucose molecules move into the cell by facilitated diffusion, down its concentration gradient through the GLUT2 transporter. Since beta cells use glucokinase to catalyze the first step of glycolysis, metabolism only occurs around physiological blood glucose levels and above. Metabolism of the glucose produces ATP, which increases the ATP to ADP ratio.
+The ATP-sensitive potassium ion channels close when this ratio rises. This means that potassium ions can no longer diffuse out of the cell. As a result, the potential difference across the membrane becomes more positive (as potassium ions accumulate inside the cell). This change in potential difference opens the voltage-gated calcium channels, which allows calcium ions from outside the cell to diffuse in down their concentration gradient. When the calcium ions enter the cell, they cause vesicles containing insulin to move to, and fuse with, the cell surface membrane, releasing insulin by exocytosis into the hepatic portal vein.
+OTHER HORMONES SECRETED
+* C-peptide, which is secreted into the bloodstream in equimolar quantities to insulin. C-peptide helps to prevent neuropathy and other vascular deterioration related symptoms of diabetes mellitus. A practitioner would measure the levels of C-peptide to obtain an estimate for the viable beta cell mass.
+* Amylin, also known as islet amyloid polypeptide (IAPP). The function of amylin is to slow the rate of glucose entering the bloodstream. Amylin can be described as a synergistic partner to insulin, where insulin regulates long term food intake and amylin regulates short term food intake.
+CLINICAL SIGNIFICANCE
+TYPE 1 DIABETES
+Section::::Clinical significance.
+Section::::Type 1 Diabetes.
+Type 1 diabetes mellitus, also known as insulin dependent diabetes, is believed to be caused by an auto-immune mediated destruction of the insulin producing beta cells in the body. The destruction of these cells reduces the body's ability to respond to glucose levels in the body, therefore making it nearly impossible to properly regulate glucose and glucagon levels in the bloodstream. The body destroys 70-80% of beta cells, leaving only 20–30% of functioning cells. This can cause the patient to experience hyperglycemia, which leads to other adverse short-term and long-term conditions. The symptoms of diabetes can potentially be controlled with methods such as regular doses of insulin and sustaining a proper diet. However, these methods can be tedious and cumbersome to continuously perform on a daily basis.
+TYPE 2 DIABETES
+Section::::Type 2 Diabetes.
+Type 2 diabetes mellitus, also known as non insulin dependent diabetes, is caused primarily by genetics and the development of obesity. The beta cells can still secrete insulin but the body has developed a resistance and its response to insulin has declined. It is believed to be due to the decline of specific receptors on the surface of the liver, adipose, and muscle cells which lose their ability to respond to insulin that circulates in the blood. In an effort to secrete enough insulin to overcome the increasing insulin resistance, the beta cells increase their function, size and number. Increased insulin secretion leads to hyperinsulinemia, but blood glucose levels remain within their normal range due to the decreased efficacy of insulin signaling. However, the beta cells can become overworked and exhausted from being overstimulated, leading to a 50% reduction in function along with a 40% decrease in beta-cell volume. At this point, not enough insulin can be produced and secreted to keep blood glucose levels within their normal range, causing overt type 2 diabetes.
+INSULINOMA
+Section::::Insulinoma.
+Insulinoma is a rare tumor derived from the neoplasia of beta cells. Insulinomas are usually benign, but may be medically significant and even life-threatening due to recurrent and prolonged attacks of hypoglycemia.
+MEDICATIONS
+Section::::Medications.
+Many drugs to combat diabetes are aimed at modifying the function of the beta cell.
+* Sulfonylureas are insulin secretagogues that act by closing the ATP-sensitive potassium channels, thereby causing insulin release. These drugs are known to cause hypoglycemia and can lead to beta-cell failure due to overstimulation. Second-generation versions of sulfonylureas are shorter acting and less likely to cause hypoglycemia.
+* GLP-1 receptor agonists stimulate insulin secretion by simulating activation of the body's endogenous incretin system. The incretin system acts as an insulin secretion amplifying pathway.
+* DPP-4 inhibitors block DPP-4 activity which increases postprandial incretin hormone concentration, therefore increasing insulin secretion.
+RESEARCH
+EXPERIMENTAL TECHNIQUES
+Section::::Research.
+Section::::Experimental Techniques.
+Many researchers around the world are investigating the pathogenesis of diabetes and beta-cell failure. Tools used to study beta-cell function are expanding rapidly with technology.
+For instance, transcriptomics have allowed researchers to comprehensively analyze gene transcription in beta-cells to look for genes linked to diabetes. A more common mechanism of analyzing cellular function is calcium imaging. Fluorescent dyes bind to calcium and allow in vitro imaging of calcium activity which correlates directly with insulin release. A final tool used in beta-cell research are in vivo experiments. Diabetes mellitus can be experimentally induced in vivo for research purposes by streptozotocin or alloxan, which are specifically toxic to beta cells. Mouse and rat models of diabetes also exist including ob/ob and db/db mice which are a type 2 diabetes model, and non-obese diabetic mice (NOD) which are a model for type 1 diabetes.
+TYPE 1 DIABETES
+Section::::Type 1 Diabetes.
+Research has shown that beta cells can be differentiated from human pancreas progenitor cells. These differentiated beta cells, however, often lack much of the structure and markers that beta cells need to perform their necessary functions. Examples of the anomalies that arise from beta cells differentiated from progenitor cells include a failure to react to environments with high glucose concentrations, an inability to produce necessary beta cell markers, and abnormal expression of glucagon along with insulin.
+In order to successfully re-create functional insulin producing beta cells, studies have shown that manipulating cell-signal pathways in early stem cell development will lead to those stem cells differentiating into viable beta cells. Two key signal pathways have been shown to play a vital role in the differentiation of stem cells into beta cells: the BMP4 pathway and the kinase C. Targeted manipulation of these two pathways has shown that it is possible to induce beta cell differentiation from stem cells. These variations of artificial beta cells have shown greater levels of success in replicating the functionality of natural beta cells, although the replication has not been perfectly re-created yet.
+Studies have shown that it is possible to regenerate beta cells in vivo in some animal models. Research in mice has shown that beta cells can often regenerate to the original quantity number after the beta cells have undergone some sort of stress test, such as the intentional destruction of the beta cells in the mice subject or once the auto-immune response has concluded. While these studies have conclusive results in mice, beta cells in human subjects may not possess this same level of versatility. Investigation of beta cells following acute onset of Type 1 diabetes has shown little to no proliferation of newly synthesized beta cells, which suggests that the results seen in the mice models might not occur in human subjects.
+It appears that much work has to be done in the field of regenerating beta cells. Just as in the discovery of creating insulin through the use of recombinant DNA, the ability to artificially create stem cells that would differentiate into beta cells would prove to be an invaluable resource to patients suffering from Type 1 diabetes. An unlimited amount of beta cells produced artificially could potentially provide therapy to many of the patients who are affected by Type 1 diabetes.
+TYPE 2 DIABETES
+Section::::Type 2 Diabetes.
+Research focused on non insulin dependent diabetes encompasses many areas of interest. Degeneration of the beta cell as diabetes progresses has been a broadly reviewed topic. Another topic of interest for beta-cell physiologists is the mechanism of insulin pulsatility which has been well investigated. Many genome studies have been completed and are advancing the knowledge of beta-cell function exponentially. Indeed, the area of beta-cell research is very active yet many mysteries remain.
+SEE ALSO
+* Gastric inhibitory polypeptide receptor
+* List of terms associated with diabetes
+* Guangxitoxin
+* Alpha cell
+* Pancreatic development
+* Islets of Langerhans
+REFERENCES

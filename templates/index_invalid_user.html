@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$("#myModal").modal('show');
+  	});
+  </script>
+  <style>
+    body {
+      background-color: #F5F5F5;
+    }
+
+    /* Style for the login screen. */
+    .part1 {
+        text-align: center;
+        height: 225px;
+        width: 250px;
+        background-color: white;
+        position: relative;
+        top: 175px;
+    }
+
+    /* Style for the login screen. */
+    .part2 {
+        text-align: center;
+        position: relative;
+    }
+
+    /* Style for the login button. */
+    .button_start {
+        background-color: #2B547E;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 90%;
+    }
+
+    input[type=text] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 0px 0;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    h1 {
+      text-align:center;
+      color: black;
+      font-weight: $thin;
+    }
+
+
+    input[type=text]:focus {
+        border: 3px solid #555;
+    }
+
+  </style>
+
+
+</head>
+  <body>
+    <!-- Welcome Screen -->
+    <div id="welcome" style = "width: 400px; margin: 0 auto;" class = 'part1'>
+      <div class = 'part2'>
+          <h1 class="display-2">Login</h1>
+          <input type="text" name="id" id="textfield" placeholder="Username"/ required>
+          <button id="start-but" class = "button_start btn btn-primary btn-lg">Start</button>
+      </div>
+    </div>
+
+    <!-- The modal to show to let the user that they entered an invalid user -->
+    <div id="myModal" class="modal fade" data-backdrop="static" data-keyboard="false" style = "top: 200px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Invalid Username</h4>
+                </div>
+                <div class="modal-body">
+    				        <p>Please enter a valid username.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='scripts/post.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/index_invalid_user.js') }}"></script>
+  </body>
+</html>

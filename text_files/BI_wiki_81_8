@@ -1,0 +1,77 @@
+
+PIXEL DENSITY
+Pixels per inch (ppi) or pixels per centimeter (ppcm) are measurements of the pixel density (resolution) of an electronic image device, such as a computer monitor or television display, or image digitizing device such as a camera or image scanner. Horizontal and vertical density are usually the same, as most devices have square pixels, but differ on devices that have non-square pixels.
+Pixels per inch (or pixels per centimeter) can also describe the resolution, in pixels, of an image file. A 100×100 pixel image printed in a 1 inch square has a resolution of 100 pixels per inch. Used this way, the measurement is meaningful when printing an image. It has become commonplace to refer to PPI as DPI, even though PPI refers to input resolution. Industry standard, good quality photographs usually require 300 pixels per inch, at 100% size, when printed onto coated paper stock, using a printing screen of 150 lines per inch (lpi). This delivers a quality factor of 2, which is optimum. The lowest acceptable quality factor is considered 1.5, which equates to printing a 225 ppi image using a 150 lpi screen onto coated paper. 
+Screen frequency is determined by the type of paper the image is printed on. An absorbent paper surface, uncoated recycled paper for instance, lets ink droplets spread (dot gain)—so requires a more open printing screen. Input resolution can therefore be reduced to minimize file size without loss in quality, as long as the quality factor of 2 is maintained. This is easily determined by doubling the line frequency. For example, printing on an uncoated paper stock often limits printing screen frequency to no more than 120 lpi, therefore, a quality factor of 2 is achieved with images of 240 ppi.
+COMPUTER DISPLAYS
+Section::::Computer displays.
+The PPI of a computer display is related to the size of the display in inches and the total number of pixels in the horizontal and vertical directions. This measurement is often referred to as dots per inch, though that measurement more accurately refers to the resolution of a computer printer.
+For example, a 15-inch (38 cm) display whose dimensions work out to 12 inches (30.48 cm) wide by 9 inches (22.86 cm) high, capable of a maximum 1024×768 (or XGA) pixel resolution, can display around 85 PPI in both the horizontal and vertical directions. This figure is determined by dividing the width (or height) of the display area in pixels by the width (or height) of the display area in inches. It is possible for a display to have different horizontal and vertical PPI measurements (e.g., a typical 4:3 ratio CRT monitor showing a 1280×1024 mode computer display at maximum size, which is a 5:4 ratio, not quite the same as 4:3). The apparent PPI of a monitor depends upon the screen resolution (that is, the number of pixels) and the size of the screen in use; a monitor in 800×600 mode has a lower PPI than does the same monitor in a 1024×768 or 1280×960 mode.
+The dot pitch of a computer display determines the absolute limit of possible pixel density.
+Typical circa-2000 cathode ray tube or LCD computer displays range from 67 to 130 PPI, though desktop monitors have exceeded 200 PPI and contemporary small-screen mobile devices often exceed 300 PPI, sometimes by a wide margin.
+In January 2008, Kopin Corporation announced a 0.44 inch (1.12 cm) SVGA LCD with a pixel density of 2272 PPI (each pixel only 11.25μm). In 2011 they followed this up with a 3760 DPI 0.21" diagonal VGA colour display. The manufacturer says they designed the LCD to be optically magnified, as in high-resolution eyewear devices.
+Holography applications demand even greater pixel density, as higher pixel density produces a larger image size and wider viewing angle. Spatial light modulators can reduce pixel pitch to 2.5 μm, giving a pixel density of 10,160 PPI.
+Some observations indicate that the unaided human generally can't differentiate detail beyond 300 PPI. However, this figure depends both on the distance between viewer and image, and the viewer's visual acuity. The human eye also responds in a different way to a bright, evenly lit interactive display from how it does to prints on paper.
+High pixel density display technologies would make supersampled antialiasing obsolete, enable true WYSIWYG graphics and, potentially enable a practical "paperless office" era. For perspective, such a device at 15 inch (38 cm) screen size would have to display more than four Full HD screens (or WQUXGA resolution).
+Development of a display with ~900 ppi allows for three pixels with 16-bit color to act as sub-pixels to form a pixel cluster. These pixel clusters act as regular pixels at ~300 ppi to produce a 48-bit color display.
+The PPI pixel density specification of a display is also useful for calibrating a monitor with a printer. Software can use the PPI measurement to display a document at "actual size" on the screen.
+CALCULATION OF MONITOR PPI
+Section::::Calculation of monitor PPI.
+Theoretically, PPI can be calculated from knowing the diagonal size of the screen in inches and the resolution in pixels (width and height). This can be done in two steps:
+1. Calculate diagonal resolution in pixels using the Pythagorean theorem:
+2. Calculate PPI:
+where
+* formula_3 is diagonal resolution in pixels
+* formula_4 is width resolution in pixels
+* formula_5 is height resolution in pixels
+* formula_6 is diagonal size in inches (this is the number advertised as the size of the display).
+For example, :
+* For a 21.5 inch (54.61 cm) screen with a 1920×1080 resolution (in which formula_4 = 1920, formula_5 = 1080 and formula_6 = 21.5), we get 102.46 PPI;
+* For a typical 10.1 inch netbook screen with a 1024×600 resolution (in which formula_4 = 1024, formula_5 = 600 and formula_6 = 10.1), we get 117.5 PPI.
+* For 27 inch screen with a 2560x1440 resolution we get formula_13 = 108.8 PPI.
+Note that these calculations may not be very precise. Frequently, screens advertised as "X inch screen" can have their real physical dimensions of viewable area differ, for example:
+* Apple Inc. advertised their mid-2011 iMac as a "21.5 inch (viewable) [...] display," but its actual viewable area is 545.22 mm or 21.465 inches. The more precise figure increases the calculated PPI from 102.46 (using 21.5) to 102.63.
+* The HP LP2065 20 inch (50.8 cm) monitor has an actual viewable area of 20.1 inch (51 cm).
+CALCULATING PPI OF CAMERA VIEW SCREENS
+Section::::Calculating PPI of camera view screens.
+Camera manufacturers often quote view screens in 'number of dots'. This is not the same as the number of pixels, because there are 3 'dots' per pixel – red, green and blue. For example, the Canon 50d is quoted as having 920,000 dots. This translates as 307,200 pixels (x3 = 921,600 dots). Thus the screen is 640×480 pixels.
+This must be taken into account when working out the PPI. Using the above calculations requires the screen's dimensions, but other methods require the total pixels, not total dots. 'Dots' and 'pixels' are often confused in reviews and specs when viewing information about digital cameras specifically.
+SCANNERS AND CAMERAS
+Section::::Scanners and cameras.
+"PPI" or "pixel density" may also describe image scanner resolution. In this context, PPI is synonymous with samples per inch. In digital photography, pixel density is the number of pixels divided by the area of the sensor. A typical DSLR, circa 2013, has 1–6.2 MP/cm; a typical compact has 20–70 MP/cm.
+For example, Sony Alpha SLT-A58 has 20.1 megapixels on an APS-C sensor having 6.2 MP/cm since a compact camera like Sony Cyber-shot DSC-HX50V has 20.4 megapixels on an 1/2.3" sensor having 70 MP/cm. The professional camera has a lower PPI than a compact camera, because it has larger photodiodes due to having far larger sensors.
+SMARTPHONES
+Section::::Smartphones.
+Smartphones use small displays, but modern smartphone displays have a larger PPI rating, such as the Samsung Galaxy S7 with a quad HD display at 577 PPI, Fujitsu F-02G with a quad HD display at 564 PPI, the LG G6 with quad HD display at 564 PPI or – XHDPI or Oppo Find 7 with 534 PPI on 5.5" display – XXHDPI (see section below). Sony's Xperia XZ Premium has a 4K display with a pixel density of 807 PPI, the highest of any smartphone as of 2017.
+NAMED PIXEL DENSITIES
+Section::::Named pixel densities.
+The Google Android developer documentation groups displays by their approximate pixel densities into the following categories:
+! Abbreviation  Named pixel density  DPI
+METRICATION
+Section::::Metrication.
+The digital publishing industry primarily uses "pixels per inch" but sometimes "pixels per centimeter" is used or a conversion factor is given.
+The PNG image file format only allows the meter as the unit for pixel density.
+IMAGE FILE FORMAT SUPPORT
+Units of measurement Raster/vector  Multi-page  Multi-size pages  Size in lengths for image or page  Density
+! AI
+! EPS
+! GIF
+! ICO
+! JPEG
+! PDF
+! PNG
+! PPM
+! PSD and PSB
+! SVG
+! TIFF
+! WebP
+! XCFUnits of measurement Raster/vector  Multi-page  Multi-size pages  Size in lengths for image or page  Density
+* Support in SVG differs. The standard supports the floats pixelUnitToMillimeterX, pixelUnitToMillimeterY, screenPixelToMillimeterX and screenPixelToMillimeterY for use in CSS2. Inkscape SVG supports density for PNG export only inkscape:export-xdpi and inkscape:export-ydpi. Adobe stores it even differently.
+SEE ALSO
+* Dots per inch
+* Computer monitor DPI standards – the origins of 96 DPI/PPI as Microsoft/Windows standard and 72 DPI/PPI as (former) Apple/Macintosh standard
+* Dot pitch
+* Resolution independence
+* Retina Display – Apple brand
+REFERENCES
+EXTERNAL LINKS

@@ -1,0 +1,311 @@
+
+LIST OF APPS WITH GOOGLE CAST SUPPORT
+The following is a partial list of apps compatible with Google Cast, and the platforms on which each can run. The first Google Cast receiver released was Google's Chromecast in July 2013; a digital media player in the form of an HDMI dongle, the device streams media wirelessly via Wi-Fi after a selection is made through a supported mobile or web app, such as those listed below. Unofficial Google Cast receivers followed, before Google released a second official receiver, the Nexus Player, in November 2014.
+For information on Chromecast's app history and software development kit, see Chromecast software development kit and compatible apps.
+TABLE OF GOOGLE CAST COMPATIBLE APPS
+Section::::Table of Google Cast compatible apps.
+!Name
+!PC*
+!Android
+!iOS
+!Vendor
+!Type
+!  1.FM Online Radio
+! 2048 4 ChromeCast
+! 2048 for ChromeCast
+! 2048 for ChromeCast
+!  5by
+!  9x9.tv
+!  AirAudio
+!  Air Show HD
+!  AirMusic
+!  AirParrot
+!  AlarmDJ
+!  AllCast
+!  AllConnect
+!  Ameba TV
+!  Anime Lib
+! AOL On
+! Aquariums on TV via Chromecast
+! ArcadeCast
+!  ARD
+! {{rh}}  Artkick
+! {{rh}}  Audiour
+! {{rh}}  Audioviz
+! {{rh}}  Avia Media Player
+! {{rh}} BBC America
+! {{rh}} BBC iPlayer (UK only)
+! {{rh}} BBC Sport (UK only)
+! {{rh}} Beaches on TV via Chromecast
+! {{rh}} Beautiful Inspirational Quotes for Chromecast
+! {{rh}} Beeramid Cast Drinking Game
+! {{rh}} BeyondPod
+! {{rh}}  Boomerang
+! {{rh}} Big Web Quiz for Chromecast
+! {{rh}} blinkbox Movies (UK only)
+! {{rh}} blinkbox Music (UK only)
+! {{rh}}  BrowseCastPRO
+! {{rh}} BT Sport (UK only)
+! {{rh}}  BTN2Go
+! {{rh}}  BubbleUPnP
+! {{rh}}  Buzzb
+! {{rh}}  CanalPlay (France only)
+! {{rh}}  Cardcast
+! {{rh}}  Cartoon Network
+! {{rh}} Cast My Camera for Chromecast
+! {{rh}} Cast Picture and Text for Chromecast
+! {{rh}}  Cast2TV
+! {{rh}}  Castddit
+! {{rh}}  CastMe
+! {{rh}}  CastNow
+! {{rh}}  CastNow Browser
+! {{rh}}  CastOnTV
+! {{rh}}  Cast for Reddit
+! {{rh}}  CBC
+! {{rh}}  CBS
+! {{rh}}  CBS Sports
+! {{rh}}  Checkers For Chromecast
+! {{rh}}  CinemaNow
+! {{rh}}  CineXPlayer
+! {{rh}}  Class6ix
+! {{rh}}  CLIQUED.tv
+! {{rh}}  Clyp
+! {{rh}}  Cmore
+! {{rh}}  Collabricast
+! {{rh}}  Comedy Central
+! {{rh}} Connect Four Quads
+! {{rh}}  Crackle
+! {{rh}}  Crunchyroll
+! {{rh}}  DailyBurn
+! {{rh}}  Dailymotion
+! {{rh}}  Dayframe
+! {{rh}}  Dead Pixel Tester
+! {{rh}} Deezer (available in select regions)
+! {{rh}} Dehumanize Your Friends
+! {{rh}}  DI.FM Radio
+! {{rh}}  Direct Cast
+! {{rh}}  Discovery Go
+! {{rh}}  Dog Park
+! {{rh}}  Downcast
+! {{rh}}  DramaFever
+! {{rh}}  Drink or Drive
+! {{rh}}  DS Audio (requires Synology NAS device)
+! {{rh}}  DS Video (requires Synology NAS device)
+! {{rh}}  DSub
+! {{rh}} Emoji Party for Chromecast
+! {{rh}} Encore Play
+! {{rh}}  EndlessTV
+! {{rh}}  Epix Go
+! {{rh}}  ErosNow
+! {{rh}}  Eurosport Player
+! {{rh}}  EZ Web Video Cast for Chromecast
+! {{rh}}  EZCast
+! {{rh}}  Fandor
+! {{rh}}  Filmi Filmy
+! {{rh}} Fireplaces on TV via Chromecast
+! {{rh}}  Fitnet
+! {{rh}}  FitzyTV DVR 
+! {{rh}}  Flixster (US only)
+! {{rh}}  Four In A Row For Chromecast
+! {{rh}}  FOX NOW
+! {{rh}}  Fox Sports Go
+! {{rh}}  France Télévisions
+! {{rh}}  Framebook
+Video
+! {{rh}}  FXNOW
+! {{rh}} Gaiam TV
+! {{rh}}  Gallery Cast Free
+! {{rh}}  Glider Music Player
+! {{rh}} GOOD TV FLIPr (Chinese)
+! {{rh}}  GoodPlayer
+! {{rh}}  Google Santa Tracker
+! {{rh}}  Google Play Movies & TV 
+! {{rh}}  Google Play Music 
+! {{rh}}  Google+ Photos
+! {{rh}}  Google Slides 
+! {{rh}}  GR8CTZ for Chromecast
+! {{rh}} Greetings and Wishes for Chromecast
+! {{rh}}  Hang Gliding TVapp
+! {{rh}}  Haystack TV
+! {{rh}}  HBO Go 
+! {{rh}}  HBO Nordic
+! {{rh}}  HBO Now
+! {{rh}}  HGTV Watch 
+! {{rh}}  Hoopla
+! {{rh}}  Hulu Plus
+! {{rh}}  iBox TV Ireland
+! {{rh}}  iFood.TV
+! {{rh}}  iHeartRadio
+! {{rh}}  InfiniTracks
+! {{rh}}  Immersive Weather
+! {{rh}}  iMobileIntervals
+! {{rh}}  InstantCast For Instagram
+! {{rh}}  InstaTV Pro (requires HDHomeRun Plus device)
+! {{rh}}  IntoMovies
+! {{rh}}  ISS onLive
+! {{rh}}  JewishMusic Stream
+! {{rh}}  Juice for Chromecast
+! {{rh}} Just Dance Now
+! {{rh}}  LocalCast
+! {{rh}}  Liquidplayer
+! {{rh}}  M-GO Movies + TV
+! {{rh}} Mako TV
+! {{rh}} maxdome (German)
+! {{rh}}  mconnect Player
+! {{rh}}  MCPlayer
+! {{rh}}  Emby
+! {{rh}}  MegaCast
+! {{rh}}  MemoryCast
+! {{rh}}  MLB.tv
+! {{rh}}  MLS Live
+! {{rh}}  Mono
+! {{rh}} Monopoly Dash
+! {{rh}} Motion Tennis Cast
+! {{rh}} Music TV
+! {{rh}}  my Kids TV
+! {{rh}} MyShoebox
+! {{rh}}  Mystic 8 Ball
+! {{rh}}  Napster (UK only)
+! {{rh}}  NatureCast
+! {{rh}}  NBA Game Time (non-USA)
+! {{rh}}  Netflix
+! {{rh}}  NFL Game Pass (non-USA)
+! {{rh}}  NFL Now
+! {{rh}}  NFL Sunday Ticket
+! {{rh}}  Nick
+! {{rh}} Now TV (UK only)
+! {{rh}}  NPO (Dutch)
+! {{rh}}  NPR One
+! {{rh}}  NRK TV
+! {{rh}} Ottilus TV
+! {{rh}}  Pac-12 Now
+! {{rh}}  Pandora
+! {{rh}}  PBS Video
+! {{rh}}  PBS Kids
+! {{rh}}  Photo Cast
+! {{rh}} Photowall
+! {{rh}}  Pirate Dice
+! {{rh}} PixoCast
+! {{rh}} PixoCast (with Pixocast for Vine)
+! {{rh}} Playcast
+! {{rh}}  Player FM
+! {{rh}}  Playing Tic Tac Toe For Chromecast
+! {{rh}}  PlayOn
+! {{rh}}  Plex
+! {{rh}}  Pluto.TV
+! {{rh}}  Pocket Casts
+! {{rh}}  Podcast Addict
+! {{rh}}  Popcorn Time
+! {{rh}}  Postermash for Mashing Facebook, Instagram, Twitter Social Networks
+! {{rh}}  PostTV (aka "The Washington Post" app)
+! {{rh}}  Projectify
+! {{rh}}  ProTube for YouTube
+! {{rh}}  Put.io
+! {{rh}}  Q-JoyPad (with Castris)
+!{{rh}}  Qcast
+!{{rh}}  Radio
+! {{rh}} radioPup
+! {{rh}} Rainy Window on TV via Chromecast
+!{{rh}}  Rdio
+!{{rh}}  RealPlayer Cloud
+! {{rh}}  Red Bull TV
+! {{rh}}  Redbox Instant (service shutdown on 10/7/2014)
+! {{rh}}  RedditCaster
+! {{rh}}  Remark HQ
+! {{rh}} RemoteCast
+! {{rh}}  Revision3
+! {{rh}}  Rev3Games
+! {{rh}}  Rhapsody
+! {{rh}} Romantic Candles for Chromecast
+! {{rh}} Romantic Love Notes for Chromecast
+! {{rh}}  RTHK Screen
+! {{rh}}  RTVE.es - A la carta
+! {{rh}}  Sails — Send videos to Chromecast from Safari
+! {{rh}} Scrabble Blitz
+! {{rh}}  Sesame Street Go
+! {{rh}} Showtime
+! {{rh}} Showtime Anytime
+! {{rh}}  Showyou
+! {{rh}} Simon Swipe
+! {{rh}} Sliding Picture Puzzle Game for Chromecast
+! {{rh}}  SlingPlayer (requires Slingbox device)
+! {{rh}}  Sling TV
+! {{rh}}  SmartVideoCast
+! {{rh}} Snowfall on TV via Chromecast
+! {{rh}}  Solid Explorer
+! {{rh}}  SomaFM
+! {{rh}}  Songza
+SoundCloud
+Yes
+Yes
+Yes
+! {{rh}}  Soundy
+! {{rh}}  sport TV Live
+! {{rh}}  Spotify
+! {{rh}} Starz Play
+! {{rh}}  SVT Play
+! {{rh}}  TED
+! {{rh}} TicTacToe for Chromecast
+! {{rh}}  Tidal
+! {{rh}}  tinyCam Monitor PRO for IP Cam (requires a supported IP camera)
+! {{rh}} Tubecast
+! {{rh}} Tubio - Cast Web Videos to TV
+! {{rh}} Tumblr for Chromecast
+! {{rh}} TuneIn Radio Play
+! {{rh}}  TV4 Play
+! {{rh}}  TV6 Vine Vids On ChromeCast
+! {{rh}}  TVMOBiLi
+! {{rh}} tvyo (Turkish)
+! {{rh}} Twitch
+! {{rh}} UbiCast
+! {{rh}} UFC
+! {{rh}} UnoCast for Chromecast
+! {{rh}} Up Down Fish
+! {{rh}} USA NOW
+NBCUniversal Media, LLC
+Video
+! {{rh}} Valentine's Day for Chromecast
+! {{rh}}  VBChromecast (requires Vbukit Share app)
+! {{rh}} Vbio
+! {{rh}}  Veggie Slice
+! {{rh}}  Vevo
+! {{rh}}  vGet
+! {{rh}}  Viaplay
+! {{rh}} VidCast
+! {{rh}}  Viddit
+! {{rh}} Video & TV Cast for Chromecast
+! {{rh}} Video & TV Cast for Nexus Player
+! {{rh}} videoCast for Chromecast
+! {{rh}} Videostream for Chromecast
+! {{rh}}  VidZone
+! {{rh}}  Viki
+! {{rh}}  Vimeo
+! {{rh}}  VOA
+! {{rh}}  VUDU
+! {{rh}}  WatchABC
+! {{rh}}  WatchDisneyChannel
+! {{rh}}  WatchDisneyJunior
+! {{rh}}  WatchDisneyXD
+! {{rh}}  WatchESPN
+! {{rh}}  Watch TBS
+! {{rh}}  Watch TNT 
+! {{rh}} Watchever (German)
+! {{rh}} WCETV Mobile
+! {{rh}} WebCast Browser
+MoobiDigit
+! {{rh}} Web Cast
+! {{rh}}  Web Video Caster
+! {{rh}}  Weerplaza TV (Dutch)
+! {{rh}} Wheel of Fortune
+! {{rh}} Wuaki.tv
+! {{rh}}  WVC - Web Video Cast
+! {{rh}}  Yle Areena
+! {{rh}} YoouKids
+! {{rh}}  YouCast
+! {{rh}}  YouTube
+! {{rh}} YuppTV Play
+! {{rh}}  Zattoo
+! {{rh}}  ZDF
+! {{rh}}  Ziggo GO
+NOTES
+REFERENCES

@@ -1,0 +1,38 @@
+
+WEAK BASE
+In chemistry, a weak base is a base that does not ionize fully in an aqueous solution. As Brønsted–Lowry bases are proton acceptors, a weak base may also be defined as a chemical base in which protonation is incomplete. This results in a relatively low pH compared to strong bases.
+PH, K, AND K
+Section::::pH, K, and K.
+Bases range from a pH of greater than 7 (7 is neutral, like pure water) to 14 (though some bases are greater than 14). pH has the formula:
+Since bases are proton acceptors, the base receives a hydrogen ion from water, HO, and the remaining H concentration in the solution determines pH. Weak bases will have a higher H concentration because they are less completely protonated than stronger bases and, therefore, more hydrogen ions remain in the solution. If you plug in a higher H concentration into the formula, a low pH results. However, pH of bases is usually calculated using the OH concentration to find the pOH first. This is done because the H concentration is not a part of the reaction, while the OH concentration is.
+By multiplying a conjugate acid (such as NH) and a conjugate base (such as NH) the following is given:
+Since formula_4 then, formula_5
+By taking logarithms of both sides of the equation, the following is reached:
+Finally, multiplying throughout the equation by -1, the equation turns into:
+After acquiring pOH from the previous pOH formula, pH can be calculated using the formula pH = pK - pOH where pK = 14.00.
+Weak bases exist in chemical equilibrium much in the same way as weak acids do, with a base dissociation constant (K) indicating the strength of the base. For example, when ammonia is put in water, the following equilibrium is set up:
+Bases that have a large K will ionize more completely and are thus stronger bases. As stated above, pH of the solution depends on the H concentration, which is related to the OH concentration by the self-ionization constant (K = 1.0x10). A strong base has a lower H concentration because they are fully protonated and less hydrogen ions remain in the solution. A lower H concentration also means a higher OH concentration and therefore, a larger K.
+NaOH (s) (sodium hydroxide) is a stronger base than (CHCH)NH (l) (diethylamine) which is a stronger base than NH (g) (ammonia). As the bases get weaker, the smaller the K values become.
+PERCENTAGE PROTONATED
+Section::::Percentage protonated.
+As seen above, the strength of a base depends primarily on pH. To help describe the strengths of weak bases, it is helpful to know the percentage protonated-the percentage of base molecules that have been protonated. A lower percentage will correspond with a lower pH because both numbers result from the amount of protonation. A weak base is less protonated, leading to a lower pH and a lower percentage protonated.
+The typical proton transfer equilibrium appears as such:
+B represents the base.
+In this formula, [B] is the initial molar concentration of the base, assuming that no protonation has occurred.
+A TYPICAL PH PROBLEM
+EXAMPLES
+* Alanine
+* Ammonia, NH
+* Methylamine, CHNH
+* Ammoniumhydroxide, NHOH
+SIMPLE FACTS
+* An example of a weak base is ammonia. It does not contain hydroxide ions, but it reacts with water to produce ammonium ions and hydroxide ions.
+* The position of equilibrium varies from base to base when a weak base reacts with water. The further to the left it is, the weaker the base.
+* When there is a hydrogen ion gradient between two sides of the biological membrane, the concentration of some weak bases are focused on only one side of the membrane. Weak bases tend to build up in acidic fluids. Acid gastric contains a higher concentration of weak base than plasma. Acid urine, compared to alkaline urine, excretes weak bases at a faster rate.
+SEE ALSO
+* Strong base
+* Weak acid
+REFERENCES
+EXTERNAL LINKS
+* Guide to Weak Bases from Georgetown course notes
+* Article on Acidity of Solutions of Weak Bases from Intute

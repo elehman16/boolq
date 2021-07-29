@@ -1,0 +1,241 @@
+
+USB-C
+USB-C, formally known as USB Type-C, is a 24-pin USB connector system, which is distinguished by its two-fold rotationally-symmetrical connector.
+The USB Type-C Specification 1.0 was published by the USB Implementers Forum (USB-IF) and was finalized in August 2014. It was developed at roughly the same time as the USB 3.1 specification. In July 2016, it was adopted by the IEC as "IEC 62680-1-3".
+A device with a Type-C connector does not necessarily implement USB 3.1, USB Power Delivery, or any Alternate Mode: the Type-C connector is common to several technologies while mandating only a few of them.
+USB 3.2, released in September 2017, replaces the USB 3.1 standard. It preserves existing USB 3.1 SuperSpeed and SuperSpeed+ data modes and introduces two new SuperSpeed+ transfer modes over the USB-C connector using two-lane operation, with data rates of 10 and 20 Gbit/s (1250 and 2500 MB/s).
+OVERVIEW
+Section::::Overview.
+The USB-C cables and connectors connect to both hosts and devices, replacing various electrical connectors including USB-B and USB-A, HDMI, and 3.5 mm audio cables and connectors.
+NAME
+Section::::Name.
+USB Type-C™ and USB-C™ are trademarks of USB Implementers Forum.
+CONNECTORS
+Section::::Connectors.
+The 24-pin double-sided connector is slightly larger than the micro-B connector, with a USB-C port measuring by . Two kind (gender) of connectors exist, female (receptacle) and male (plug).
+Plugs are found on cables and adapters. Receptacles are found on devices and adapters.
+CABLES
+Section::::Cables.
+USB-C 3.1 cables are considered full-featured USB-C cables. They are electronically marked cables that contain a chip with an ID function based on the configuration channel and vendor-defined messages (VDM) from the USB Power Delivery 2.0 specification. Cable length should be ≤2m for Gen 1 or ≤1m for Gen 2. Electronic ID chip provides information about product/vendor, cable connectors, USB signalling protocol (2.0, Gen 1, Gen 2), passive/active construction, use of V power, available V current, latency, RX/TX directionality, SOP controller mode, and hardware/firmware version .
+USB-C 2.0 cables do not have shielded SuperSpeed pairs, sideband use pins, or additional wires for power lines. Increased cable lengths up to 4m are possible.
+All USB-C cables must be able to carry a minimum of 3 A current (at 20V, 60W) but can also carry high-power 5 A current (at 20V, 100W). All USB-C to USB-C cables must contain e-marker chips programmed to identify the cable and its current capabilities. USB Charging ports should also be clearly marked with capable power wattage.
+Full-featured USB-C cables that implement USB 3.1 Gen 2 can handle up to 10Gbit/s data rate at full duplex. They are marked with a SuperSpeed+ (SuperSpeed 10Gbit/s) logo. There are also cables which can carry only USB 2.0 with up to 480Mbit/s data rate. There are USB-IF certification programs available for USB-C products and end users are recommended to use USB-IF certified cables.
+DEVICES
+Section::::Devices.
+Devices may be hosts (DFP: Downstream-facing port) or peripherals (UFP: Upstream-facing port). Some, such as mobile phones, can take either role depending on what kind is detected on the other end. These types of ports are called Dual-Role-Data (DRD) ports, which was known as USB On-The-Go in the previous specification. When two such devices are connected, the roles are randomly assigned but a swap can be commanded from either end, although there are optional path and role detection methods that would allow devices to select a preference for a specific role. Furthermore, dual-role devices that implement USB Power Delivery may independently and dynamically swap data and power roles using the Data Role Swap or Power Role Swap processes. This allows for charge-through hub or docking station applications where the USB-C device acts as a USB data host while acting as a power consumer rather than a source.
+USB-C devices may optionally provide or consume bus power currents of 1.5 A and 3.0 A (at 5 V) in addition to baseline bus power provision; power sources can either advertise increased USB current through the configuration channel, or they can implement the full USB Power Delivery specification using both BMC-coded configuration line and legacy BFSK-coded V line.
+Connecting an older device to a host with a USB-C receptacle requires a cable or adapter with a USB-A or USB-B plug or receptacle on one end and a USB-C plug on the other end. Legacy adapters with a USB-C receptacle are "not defined or allowed" by the specification because they can create "many invalid and potentially unsafe" cable combinations.
+MODES
+AUDIO ADAPTER ACCESSORY MODE
+Section::::Modes.
+Section::::Audio Adapter Accessory Mode.
+A device with a USB-C port may support analog headsets through an audio adapter with a 3.5 mm jack, providing four standard analog audio connections (Left, Right, Microphone, and Ground). The audio adapter may optionally include a USB-C charge-through port to allow 500 mA device charging. The engineering specification states that an analog headset shall not use a USB-C plug instead of a 3.5 mm plug. In other words, headsets with a USB-C plug should always support digital audio (and optionally the accessory mode).
+Analog signals use the USB 2.0 differential pairs (Dp and Dn for Right and Left) and the two side-band use pairs for Mic and GND. The presence of the audio accessory is signalled through the configuration channel and V.
+ALTERNATE MODE
+Section::::Alternate Mode.
+An Alternate Mode dedicates some of the physical wires in a USB-C 3.1 cable for direct device-to-host transmission of alternate data protocols. The four high-speed lanes, two side-band pins, and (for dock, detachable device and permanent cable applications only) two USB 2.0 data pins and one configuration pin can be used for alternate mode transmission. The modes are configured using vendor-defined messages (VDM) through the configuration channel.
+SPECIFICATIONS
+USB TYPE-C CABLE AND CONNECTOR SPECIFICATION
+Section::::Specifications.
+Section::::USB Type-C Cable and Connector Specification.
+The USB Type-C Specification 1.0 was published by the USB Implementers Forum (USB-IF) and was finalized in August 2014.
+It defines requirements for cables and connectors.
+* Rev 1.1 was published 2015-04-03
+Adoption as IEC specification:
+* IEC 62680-1-3:2016 (2016-08-17, edition 1.0) "Universal serial bus interfaces for data and power - Part 1-3: Universal Serial Bus interfaces - Common components - USB Type-C™ cable and connector specification"
+* IEC 62680-1-3:2017 (2017-09-25, edition 2.0) "Universal serial bus interfaces for data and power - Part 1-3: Common components - USB Type-C™ Cable and Connector Specification"
+* IEC 62680-1-3:2018 (2018-05-24, edition 3.0) "Universal serial bus interfaces for data and power - Part 1-3: Common components - USB Type-C™ Cable and Connector Specification"
+USB-C RECEPTACLES
+Section::::USB-C receptacles.
+The receptacle features four power and four ground pins, two differential pairs for high-speed USB data (though they are connected together on devices), four shielded differential pairs for Enhanced SuperSpeed data (two transmit and two receive pairs), two Sideband Use (SBU) pins, and two Configuration Channel (CC) pins.
++ USB-C receptacle pinout
+! Pin !! Name !! Description
+! Pin !! Name !! Description
+colspan=8 
+USB-C PLUGS
+Section::::USB-C plugs.
+The male connector (plug) has only one high-speed differential pair, and one of the CC pins is replaced by V, to power electronics in the cable, and the other is used to actually carry the Configuration Channel signals. These signals are used to determine the orientation of the cable, as well as to carry USB PD communications.
+USB-C CABLES
+Section::::USB-C cables.
++ Full-featured USB 3.1 and 2.0 Type-C cable wiring
+! colspan=2 Plug 1, USB Type-C
+! colspan=5 USB Type-C cable 
+! colspan=2 Plug 2, USB Type-C 
+! Pin
+! Name
+! Wire color
+! No
+! Name 
+! Description
+! 2.0
+! Pin !! Name 
+RELATED USB-IF SPECIFICATIONS
+USB TYPE-C LOCKING CONNECTOR SPECIFICATION
+Section::::Related USB-IF specifications.
+Section::::USB Type-C Locking Connector Specification.
+The USB Type-C Locking Connector Specification was published 2016-03-09. It defines the mechanical requirements for USB-C plug connectors and the guidelines for the USB-C receptacle mounting configuration to provide a standardized screw lock mechanism for USB-C connectors and cables.
+USB TYPE-C PORT CONTROLLER INTERFACE SPECIFICATION
+Section::::USB Type-C Port Controller Interface Specification.
+The USB Type-C Port Controller Interface Specification was published 2017-10-01. It defines a common interface from a USB-C Port Manager to a simple USB-C Port Controller.
+USB TYPE-C AUTHENTICATION SPECIFICATION
+Section::::USB Type-C Authentication Specification.
+Adopted as IEC specification:
+* IEC 62680-1-4:2018 (2918-04-10) "Universal Serial Bus interfaces for data and power - Part 1-4: Common components - USB Type-C™ Authentication Specification"
+USB 2.0 BILLBOARD DEVICE CLASS SPECIFICATION
+Section::::USB 2.0 Billboard Device Class specification.
+USB 2.0 Billboard Device Class is defined to communicate the details of supported Alternate Modes to the computer host OS. It provides user readable strings with product description and user support information. Billboard messages can be used to identify incompatible connections made by users. They are not required to negotiate Alternate Modes and only appear when negotiation fails between the host (source) and device (sink).
+USB AUDIO DEVICE CLASS 3.0 SPECIFICATION
+Section::::USB Audio Device Class 3.0 specification.
+USB Audio Device Class 3.0 defines powered digital audio headsets with a USB-C plug. The standard support the transfer of both digital and analog audio signals over the USB port.
+USB POWER DELIVERY SPECIFICATION
+Section::::USB Power Delivery specification.
+While it is not necessary for USB-C compliant devices to implement USB Power Delivery, for USB-C DRP/DRD (Dual-Role-Power/Data) ports, USB Power Delivery introduces commands for altering a port's power or data role after the roles have been established when a connection is made.
+USB 3.2 SPECIFICATION
+Section::::USB 3.2 specification.
+USB 3.2, released in September 2017, replaces the USB 3.1 standard. It preserves existing USB 3.1 SuperSpeed and SuperSpeed+ data modes and introduces two new SuperSpeed+ transfer modes over the USB-C connector using two-lane operation, with data rates of 10 and 20 Gbit/s (1250 and 2500 MB/s).
+ALTERNATE MODE PARTNER SPECIFICATIONS
+Section::::Alternate Mode partner specifications.
+As of 2016 four system-defined Alternate Mode partner specifications exist. Additionally, vendors may support proprietary modes for use in dock solutions. Alternate Modes are optional; USB-C features and devices are not required to support any specific Alternate Mode. The USB Implementers Forum is working with its Alternate Mode partners to make sure that ports are properly labelled with respective logos.
++ List of Alternate Mode partner specifications
+! Logo
+! Name
+! Date
+! Protocol
+Other protocols like Ethernet have been proposed.
+All Thunderbolt 3 controllers both support "Thunderbolt Alternate Mode" and "DisplayPort Alternate Mode". Because Thunderbolt can encapsulate DisplayPort data, every Thunderbolt controller can either output DisplayPort signals directly over "DisplayPort Alternative Mode" or encapsulated within Thunderbolt in "Thunderbolt Alternate Mode". Low cost peripherals mostly connect via "DisplayPort Alternate Mode" while some docking stations tunnel DisplayPort over Thunderbolt.
+The USB SuperSpeed protocol is similar to DisplayPort and PCIe/Thunderbolt, in using packetized data transmitted over differential LVDS lanes with embedded clock using comparable bit rates, so these Alternate Modes are easier to implement in the chipset.
+Alternate Mode hosts and sinks can be connected with either regular full-featured USB-C cables, or converter cables/adapters:
+USB 3.1 Type-C to Type-C full-featured cable: DisplayPort, Mobile High-Definition Link (MHL), HDMI and Thunderbolt (20Gbit/s, or 40Gbit/s with cable length up to 0.5m) Alternate Mode USB-C ports can be interconnected with standard passive full-featured USB Type-C cables. These cables are only marked with standard "trident" SuperSpeed USB logo (for Gen 1 cables) or the SuperSpeed+ USB 10 Gbit/s logo (for Gen 2 cables) on both ends. Cable length should be 2.0m or less for Gen 1 and 1.0m or less for Gen 2.
+Thunderbolt Type-C to Type-C active cable: Thunderbolt 3 (40Gbit/s) Alternate Mode with cables longer than 0.5m requires active USB-C cables that are certified and electronically marked for high-speed Thunderbolt 3 transmission, similarly to high-power 5 A cables. These cables are marked with a Thunderbolt logo on both ends. They do not support USB 3 Backwards compatibility, only USB 2 or Thunderbolt. Cables can be marked for both Thunderbolt and 5 A power delivery at the same time.
+USB 3.1 Type-C adapter cable (plug) or adapter (socket): These cables/adapters contain a valid DisplayPort, HDMI, or MHL plug/socket marked with the logo of the required Alternate Mode, and a USB-C plug with a "trident" SuperSpeed 10Gbit/s logo on the other end. Cable length should be 0.15m or less .
+Active cables/adapters contain powered ICs to amplify/equalise the signal for extended length cables, or to perform active protocol conversion. The adapters for video Alt Modes may allow conversion from native video stream to other video interface standards (e.g., DisplayPort, HDMI, VGA or DVI).
+Using full-featured USB-C cables for Alternate Mode connections provides some benefits. Alternate Mode does not employ USB 2.0 lanes and the configuration channel lane, so USB 2.0 and USB Power Delivery protocols are always available. In addition, DisplayPort and MHL Alternate Modes can transmit on one, two, or four SuperSpeed lanes, so two of the remaining lanes may be used to simultaneously transmit USB 3.1 data.
++ Alternate Mode protocol support matrix for USB-C cables and adapters
+! rowspan="3"Mode
+! colspan="7"USB 3.1 Type-C cable
+! colspan="5"Adapter cable or adapter
+! rowspan="3"Construction
+!USB
+! colspan="2" DisplayPort
+! colspan="2" Thunderbolt
+! rowspan="2" superMHL
+!HDMI
+! colspan="2" HDMI
+! colspan="2" DVI-D
+!Component video
+3.1
+1.2
+1.4
+20 Gbit/s
+40 Gbit/s
+1.4b
+1.4b
+2.0b
+single-link
+dual-link
+!rowspan="2" DisplayPort
+colspan="2" 
+colspan="4" rowspan="2" 
+colspan="5" 
+colspan="2" 
+colspan="2" 
+colspan="2" 
+!rowspan="2" Thunderbolt
+rowspan="2" 
+colspan="2" rowspan="2" 
+colspan="5" 
+colspan="2" 
+colspan="2" 
+!rowspan="2" MHL
+colspan="4" rowspan="2" 
+rowspan="2" 
+colspan="2" 
+!rowspan="2" HDMI
+colspan="6" rowspan="2" 
+colspan="4" 
+USB-C RECEPTACLE PIN USAGE IN DIFFERENT MODES
+Section::::USB-C receptacle pin usage in different modes.
+The diagrams below depict the pins of a USB-C socket in different use cases.
+USB 2.0/1.1
+USB POWER DELIVERY
+USB 3.0/3.1/3.2
+ALTERNATE MODE
+DEBUG ACCESSORY MODE
+Section::::Debug Accessory Mode.
+The external device test system signals to the target system to enter debug accessory mode via CC1 and CC2 at the test plug end both being pulled down via Rn value (Or both pulled up by Rp value) (From the test system type-c plug) (Rp and Rn specified in Type-C spec). 
+After entering debug accessory mode, optional orientation detection via the CC1 and CC2 is done via setting CC1 as a pullup of Rd resistance and CC2 pulled to ground via Ra resistance (From the test system type-c plug). While optional, orientation detection is required if you want usb power delivery communication to be functional. 
+In this mode, all digital circuits are disconnected from the connector, and underlined pins can be used to expose debug related signals (e.g. JTAG interface). USB IF requires for certification that security and privacy consideration and precaution has been taken and that the user has actually requested that debug test mode be performed. 
+GND
+TX1+
+TX1−
+V
+CC1
+D+
+D−
+SBU1
+V
+RX2−
+RX2+
+GND
+GND
+RX1+
+RX1−
+V
+SBU2
+V
+TX2−
+TX2+
+GND
+AUDIO ADAPTER ACCESSORY MODE
+Section::::Audio Adapter Accessory Mode.
+In this mode, all digital circuits are disconnected from the connector, and certain pins become reassigned for analog outputs or inputs. The mode, if supported, is entered when both CC pins are shorted to GND. D- and D+ become audio output left L and right R, respectively. The SBU pins become a microphone pin MIC, and the analog ground AGND, the latter being a return path for both outputs and the microphone. Nevertheless, the MIC and AGND pins must have automatic swap capability, for two reasons: firstly, the USB-C plug may be inserted either side; secondly, there is no agreement, which TRRS ringsTRRS rings wiring to Type-C male plug (Figure A-2 of USB Type-C Cable and Connector Specification Release 1.3)
+!TRRS Socket
+!Analog Audio Signal
+!USB Type-C Male Plug
+Tip
+L
+D- (Data -)
+Ring1
+R
+D+ (Data +)
+Ring2
+MIC/GND
+SBUS1 or SBUS2
+Sleeve
+MIC/GND
+SBUS2 or SUBS1
+DETECT1
+Plug presence detection switch
+CC & VCONN 
+DETECT2
+Plug presence detection switch
+GND
+SOFTWARE SUPPORT
+* Android Marshmallow and up works with USB 3.1 and USB-C.
+* Chrome OS supports USB 3.1 and USB-C starting with the Chromebook Pixel 2015 and supports alternate modes, power delivery, and USB Dual-Role support.
+* FreeBSD released the Extensible Host Controller Interface, supporting USB 3.0, with release 8.2
+* Linux has supported USB 3.0 since kernel version 2.6.31 and USB version 3.1 since kernel version 4.6.
+* MacOS High Sierra supports USB 3.1, USB-C, and other form of power delivery and display options.
+* OS X Yosemite supports USB 3.1, USB-C, alternate modes, and power delivery.
+* Windows 8.1 added USB-C and billboard support in an update.
+* Windows 10 and Windows 10 Mobile support USB 3.1, USB-C, alternate modes, billboard device class, power delivery and USB Dual-Role support.
+HARDWARE SUPPORT
+USB-C DEVICES
+Section::::Hardware support.
+Section::::USB-C devices.
+An increasing number of motherboards, notebooks, tablet computers, smartphones, hard disk drives, USB hubs and other devices released from 2014 onwards feature USB-C receptacles.
+Currently, DisplayPort is the most widely implemented alternate mode, and is used to provide video output on devices that do not have standard-size DisplayPort or HDMI ports, such as smartphones and laptops. A USB-C multiport adapter converts the device's native video stream to DisplayPort/HDMI/VGA, allowing it to be displayed on an external display, such as a television set or computer monitor.
+Examples of devices that support DisplayPort Alternate Mode over USB-C include: MacBook, Chromebook Pixel, Surface Book 2, Samsung Galaxy TabPro S, Samsung Galaxy Tab S4, iPad Pro (3rd generation), Essential Phone, ROG Phone, Razer Phone/2, HTC 10/U Ultra, Huawei Mate 10/20, Samsung Galaxy S8/S9, Microsoft Lumia 950 etc.
+Examples of devices that support high-power charging according to the USB Power Delivery specification include: MacBook, Chromebook Pixel, Surface Book 2, Dell Venue 10 Pro, Lenovo ThinkPad X1, Samsung Galaxy TabPro S, Samsung Galaxy Tab S4, iPad Pro, Nintendo Switch, Nexus 5X/6P, Google Pixel/2, ROG Phone, BlackBerry Key2, Essential Phone, HTC 10/U Ultra, LG G5/G6, Moto Z, Nokia 8, Razer Phone, Samsung Galaxy S8/S9, Samsung Galaxy Note 8, Sony Xperia XZ1/XZ2, Apple iPhone 8/X etc.
+USB-C CABLES
+Section::::USB-C cables.
+Many cables claiming to support USB-C are actually not compliant to the standard. Using these cables would have a potential consequence of damaging devices that they are connected to. There are reported cases of laptops being destroyed due to the use of non-compliant cables.
+POWER ISSUES
+Section::::Power issues.
+Some non-compliant cables with a USB-C connector on one end and a legacy USB-A plug or Micro-B receptacle on the other end incorrectly terminate the Configuration Channel (CC) with a 10kΩ pullup to V instead of the specification mandated 56kΩ pullup, causing a device connected to the cable to incorrectly determine the amount of power it is permitted to draw from the cable. Cables with this issue may not work properly with certain products, including Apple and Google products, and may even damage power sources such as chargers, hubs, or PC USB ports.
+COMPATIBILITY WITH OTHER FAST CHARGING TECHNOLOGY
+Section::::Compatibility with other fast charging technology.
+In 2016, Benson Leung, an engineer at Google, pointed out that Quick Charge 2.0 and 3.0 technologies developed by Qualcomm are not compatible with the USB-C standard. Qualcomm responded that it is possible to make fast charge solutions fit the voltage demands of USB-C and that there are no reports of problems; however, it did not address the standard compliance issue at that time. Later in the year, Qualcomm released Quick Charge 4 technology, which cited – as an advancement over previous generations – "USB Type-C and USB PD compliant".
+REFERENCES
+EXTERNAL LINKS
+* The Universal Serial Bus Type-C Cable and Connector Specification is included in a set of USB documents which can be downloaded from USB.org.

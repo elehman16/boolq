@@ -1,0 +1,94 @@
+
+ACUTE AND OBTUSE TRIANGLES
+An acute triangle is a triangle with all three angles acute (less than 90°). An obtuse triangle is one with one obtuse angle (greater than 90°) and two acute angles. Since a triangle's angles must sum to 180°, no triangle can have more than one obtuse angle.
+Acute and obtuse triangles are the two different types of oblique triangles—triangles that are not right triangles because they have no 90° angle.
+PROPERTIES
+Section::::Properties.
+In all triangles, the centroid—the intersection of the medians, each of which connects a vertex with the midpoint of the opposite side—and the incenter—the center of the circle that is internally tangent to all three sides—are in the interior of the triangle. However, while the orthocenter and the circumcenter are in an acute triangle's interior, they are exterior to an obtuse triangle.
+The orthocenter is the intersection point of the triangle's three altitudes, each of which perpendicularly connects a side to the opposite vertex. In the case of an acute triangle, all three of these segments lie entirely in the triangle's interior, and so they intersect in the interior. But for an obtuse triangle, the altitudes from the two acute angles intersect only the extensions of the opposite sides. These altitudes
+fall entirely outside the triangle, resulting in their intersection with each other (and hence with the extended altitude from the obtuse-angled vertex) occurring in the triangle's exterior.
+Likewise, a triangle's circumcenter—the intersection of the three sides' perpendicular bisectors, which is the center of the circle that passes through all three vertices—falls inside an acute triangle but outside an obtuse triangle.
+The right triangle is the in-between case: both its circumcenter and its orthocenter lie on its boundary.
+In any triangle, any two angle measures A and B opposite sides a and b respectively are related according to
+This implies that the longest side in an obtuse triangle is the one opposite the obtuse-angled vertex.
+An acute triangle has three inscribed squares, each with one side coinciding with part of a side of the triangle and with the square's other two vertices on the remaining two sides of the triangle. (In a right triangle two of these are merged into the same square, so there are only two distinct inscribed squares.) However, an obtuse triangle has only one inscribed square, one of whose sides coincides with part of the longest side of the triangle.
+All triangles in which the Euler line is parallel to one side are acute. This property holds for side BC if and only if formula_3
+INEQUALITIES
+SIDES
+Section::::Inequalities.
+Section::::Sides.
+If angle C is obtuse then for sides a, b, and c we have
+with the left inequality approaching equality in the limit only as the apex angle of an isosceles triangle approaches 180°, and with the right inequality approaching equality only as the obtuse angle approaches 90°.
+If the triangle is acute then
+ALTITUDE
+Section::::Altitude.
+If C is the greatest angle and h is the altitude from vertex C, then for an acute triangle
+with the opposite inequality if C is obtuse.
+MEDIANS
+Section::::Medians.
+With longest side c and medians m and m from the other sides,
+for an acute triangle but with the inequality reversed for an obtuse triangle.
+The median m from the longest side is greater or less than the circumradius for an acute or obtuse triangle respectively:
+for acute triangles, with the opposite for obtuse triangles.
+AREA
+Section::::Area.
+Ono's inequality for the area A,
+holds for all acute triangles but not for all obtuse triangles.
+TRIGONOMETRIC FUNCTIONS
+Section::::Trigonometric functions.
+For an acute triangle we have, for angles A, B, and C,
+with the reverse inequality holding for an obtuse triangle.
+For an acute triangle with circumradius R,
+and
+For an acute triangle,
+with the reverse inequality for an obtuse triangle.
+For an acute triangle,
+For any triangle the triple tangent identity states that the sum of the angles' tangents equals their product. Since an acute angle has a positive tangent value while an obtuse angle has a negative one, the expression for the product of the tangents shows that
+for acute triangles, while the opposite direction of inequality holds for obtuse triangles.
+We have
+for acute triangles, and the reverse for obtuse triangles.
+For all acute triangles,
+For all acute triangles with inradius r and circumradius R,
+For an acute triangle with area K, 
+CIRCUMRADIUS, INRADIUS, AND EXRADII
+Section::::Circumradius, inradius, and exradii.
+In an acute triangle, the sum of the circumradius R and the inradius r is less than half the sum of the shortest sides a and b:
+while the reverse inequality holds for an obtuse triangle.
+For an acute triangle with medians m , m , and m and circumradius R, we have
+while the opposite inequality holds for an obtuse triangle.
+Also, an acute triangle satisfies
+in terms of the excircle radii r , r , and r ,
+again with the reverse inequality holding for an obtuse triangle.
+For an acute triangle with semiperimeter s,
+and the reverse inequality holds for an obtuse triangle.
+For an acute triangle with area K,
+DISTANCES INVOLVING TRIANGLE CENTERS
+Section::::Distances involving triangle centers.
+For an acute triangle the distance between the circumcenter O and the orthocenter H satisfies
+with the opposite inequality holding for an obtuse triangle.
+For an acute triangle the distance between the incircle center I and orthocenter H satisfies
+where r is the inradius, with the reverse inequality for an obtuse triangle.
+INSCRIBED SQUARE
+Section::::Inscribed square.
+If one of the inscribed squares of an acute triangle has side length x and another has side length x with x < x, then
+TWO TRIANGLES
+Section::::Two triangles.
+If two obtuse triangles have sides (a, b, c) and (p, q, r) with c and r being the respective longest sides, then
+EXAMPLES
+TRIANGLES WITH SPECIAL NAMES
+Section::::Examples.
+Section::::Triangles with special names.
+The Calabi triangle, which is the only non-equilateral triangle for which the largest square that fits in the interior can be positioned in any of three different ways, is obtuse and isosceles with base angles 39.1320261...° and third angle 101.7359477...°.
+The equilateral triangle, with three 60° angles, is acute.
+The Morley triangle, formed from any triangle by the intersections of its adjacent angle trisectors, is equilateral and hence acute.
+The golden triangle is the isosceles triangle in which the ratio of the duplicated side to the base side equals the golden ratio. It is acute, with angles 36°, 72°, and 72°, making it the only triangle with angles in the proportions 1:2:2.
+The heptagonal triangle, with sides coinciding with a side, the shorter diagonal, and the longer diagonal of a regular heptagon, is obtuse, with angles formula_29 and formula_30
+TRIANGLES WITH INTEGER SIDES
+Section::::Triangles with integer sides.
+The only triangle with consecutive integers for an altitude and the sides is acute, having sides (13,14,15) and altitude from side 14 equal to 12.
+The smallest-perimeter triangle with integer sides in arithmetic progression, and the smallest-perimeter integer-sided triangle with distinct sides, is obtuse: namely the one with sides (2, 3, 4).
+The only triangles with one angle being twice another and having integer sides in arithmetic progression are acute: namely, the (4,5,6) triangle and its multiples. 
+There are no acute integer-sided triangles with area = perimeter, but there are three obtuse ones, having sides (6,25,29), (7,15,20), and (9,10,17).
+The smallest integer-sided triangle with three rational medians is acute, with sides (68, 85, 87).
+Heron triangles have integer sides and integer area. The oblique Heron triangle with the smallest perimeter is acute, with sides (6, 5, 5). The two oblique Heron triangles that share the smallest area are the acute one with sides (6, 5, 5) and the obtuse one with sides (8, 5, 5), the area of each being 12.
+REFERENCES

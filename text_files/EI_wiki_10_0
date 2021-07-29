@@ -1,0 +1,78 @@
+
+MODIFIED-RELEASE DOSAGE
+Modified-release dosage is a mechanism that (in contrast to immediate-release dosage) delivers a drug with a delay after its administration (delayed-release dosage) or for a prolonged period of time (extended-release [ER, XR, XL] dosage) or to a specific target in the body (targeted-release dosage).
+Sustained-release dosage forms are dosage forms designed to release (liberate) a drug at a predetermined rate in order to maintain a constant drug concentration for a specific period of time with minimum side effects. This can be achieved through a variety of formulations, including liposomes and drug-polymer conjugates (an example being hydrogels). Sustained release's definition is more akin to a "controlled release" rather than "sustained".
+Extended-release dosage consists of sustained-release (SR) and controlled-release (CR) dosage. SR maintains drug release over a sustained period but not at a constant rate. CR maintains drug release over a sustained period at a nearly constant rate.
+Sometimes these and other terms are treated as synonyms, but the United States Food and Drug Administration has in fact defined most of these as different concepts. Sometimes the term "depot tablet" is used by non-native speakers, but this is not found in any English dictionaries and is a literal translation of the term used in Swedish and some other languages.
+Modified-release dosage and its variants are mechanisms used in tablets (pills) and capsules to dissolve a drug over time in order to be released slower and steadier into the bloodstream while having the advantage of being taken at less frequent intervals than immediate-release (IR) formulations of the same drug. For example, extended-release morphine enables people with chronic pain to only take one or two tablets per day.
+Most commonly it refers to time dependent release in oral dose formulations. Timed release has several distinct variants such as
+sustained release where prolonged release is intended, pulse release, delayed release (e.g. to target different regions of the GI tract) etc. A distinction of controlled release is that not only it prolongs action but it attempts to maintain drug levels within the therapeutic window to avoid potentially hazardous peaks in drug concentration following ingestion or injection and to maximize therapeutic efficiency.
+In addition to pills, capsules and injectable drug carriers (that often have an additional release function), forms of controlled release medicines include gels, implants and devices (e.g. the vaginal ring and contraceptive implant) and transdermal patches.
+Examples of cosmetics, personal care and food science applications often centre on odour or flavour release.
+The release technology scientific and industrial community is represented by the Controlled Release Society (CRS). The CRS is the worldwide society for delivery science and technologies. CRS serves more than 1,600 members from more than 50 countries. Two-thirds of CRS membership is represented by industry and one-third represents academia and government. CRS is affiliated with the Journal of Controlled Release and Drug Delivery and Translational Research scientific journals.
+HISTORY
+Section::::History.
+The earliest SR drugs are associated with a patent in 1938 by Israel Lipowski, who coated pellets which led to coating particles. The science of controlled release developed further with more oral sustained-release products in the late 1940s and early 1950s, the development of controlled release of marine anti-foulants in the 1950s and controlled release fertilizer in the 1970s where sustained and controlled delivery of nutrients following a single application to the soil. Delivery is usually effected by dissolution, degradation or disintegration of an excipient in which the active compound is formulated. Enteric coating and other encapsulation technologies can further modify release profiles.
+LIST OF ABBREVIATIONS
+Section::::List of abbreviations.
+There is no industry standard for these abbreviations, and confusion and misreading have sometimes caused prescribing errors. Clear handwriting is necessary. For some drugs with multiple formulations, putting the meaning in parentheses is advisable.
+! Abbreviation !! Meaning !! Notes 
+A few other abbreviations are similar to these (in that they may serve as suffixes) but refer to dose rather than release rate. They include ES and XS (extra strength).
+METHODS
+Section::::Methods.
+Today, most time-release drugs are formulated so that the active ingredient is embedded in a matrix of insoluble substance(s) (various: some acrylics, even chitin; these substances are often patented) such that the dissolving drug must find its way out through the holes.
+In some SR formulations, the drug dissolves into the matrix, and the matrix physically swells to form a gel, allowing the drug to exit through the gel's outer surface.
+Micro-encapsulation is also regarded as a more complete technology to produce complex dissolution profiles. Through coating an active pharmaceutical ingredient around an inert core, and layering it with insoluble substances to form a microsphere one can obtain more consistent and replicable dissolution rates in a convenient format that can be mixed and matched with other instant release pharmaceutical ingredients in to any two piece gelatin capsule.
+There are certain considerations for the formation of sustained-release formulation:
+* If the pharmacological activity of the active compound is not related to its blood levels, time releasing has no purpose except in some cases, such as bupropion, to reduce possible side effects.
+* If the absorption of the active compound involves an active transport, the development of a time-release product may be problematic.
+The half-life of the drug refers to the drug's elimination from the bloodstream which can be caused by metabolism, urine, and other forms of excretion. If the active compound has a long half-life (over 6 hours), it is sustained on its own. If the active compound has a short half-life, it would require a large amount to maintain a prolonged effective dose. In this case, a broad therapeutic window is necessary to avoid toxicity; otherwise, the risk is unwarranted and another mode of administration would be recommended. Appropriate half-lifes used to apply sustained methods are typically 3–4 hours and a drug greater than 0.5 grams is too big.
+The therapeutic index also factors whether a drug can be used as a time release drug. A drug with a thin therapeutic range, or small therapeutic index, will be determined unfit for a sustained release mechanism in partial fear of dose dumping which can prove fatal at the conditions mentioned. For a drug that is made to be released over time, the general goals is to stay within the therapeutic range as long as needed.
+There are many different methods used to obtain a sustained release.
+DIFFUSION SYSTEMS
+Section::::Diffusion systems.
+Diffusion systems rate release is dependent on the rate at which the drug dissolves through a barrier which is usually a type of polymer. Diffusion systems can be broken into two subcategories, reservoir devices and matrix devices.
+* Reservoir devices coat the drug with polymers and in order for the reservoir devices to have sustained release effects, the polymer must not dissolve and let the drug be released through diffusion. The rate of reservoir devices can be altered by changing the polymer and is possible be made to have zero-order release; however, drugs with higher molecular weight have difficulty diffusing through the membrane.
+* Matrix devices forms a matrix (drug(s) mixed with a gelling agent) where the drug is dissolved/dispersed. The drug is usually dispersed within a polymer and then released by undergoing diffusion. However, to make the drug SR in this device, the rate of dissolution of the drug within the matrix needs to be higher than the rate at which it is released. The matrix device cannot achieve a zero-order release but higher molecular weight molecules can be used. The diffusion matrix device also tends to be easier to produce and protect from changing in the gastrointestinal tract but factors such as food can affect the release rate.
+DISSOLUTION SYSTEMS
+Section::::Dissolution systems.
+Dissolution systems must have the system dissolved slowly in order for the drug to have sustained release properties which can be achieved by using appropriate salts and/or derivatives as well as coating the drug with a dissolving material. It is used for drug compounds with high solubility in water. When the drug is covered with some slow dissolving coat, it will eventually release the drug. Instead of diffusion, the drug release depends on the solubility and thickness of the coating. Because of this mechanism, the dissolution will be the rate limiting factor here for drug release. Dissolution systems can be broken down to subcategories called reservoir devices and matrix devices.
+* The reservoir device coats the drug with an appropriate material which will dissolve slowly. It can also be used to administer beads as a group with varying thickness, making the drug release in multiple times creating a SR.
+* The matrix device has the drug in a matrix and the matrix is dissolved instead of a coating. It can come either as drug impregnated spheres or drug impregnated tablets.
+OSMOTIC SYSTEMS
+Section::::Osmotic systems.
+Osmotic controlled-release oral delivery systems (OROS) have the form of a rigid tablet with a semi-permeable outer membrane and one or more small laser drilled holes in it. As the tablet passes through the body, water is absorbed through the semipermeable membrane via osmosis, and the resulting osmotic pressure is used to push the active drug through the opening(s) in the tablet. OROS is a trademarked name owned by ALZA Corporation, which pioneered the use of osmotic pumps for oral drug delivery.
+Osmotic release systems have a number of major advantages over other controlled-release mechanisms. They are significantly less affected by factors such as pH, food intake, GI motility, and differing intestinal environments. Using an osmotic pump to deliver drugs has additional inherent advantages regarding control over drug delivery rates. This allows for much more precise drug delivery over an extended period of time, which results in much more predictable pharmacokinetics. However, osmotic release systems are relatively complicated, somewhat difficult to manufacture, and may cause irritation or even blockage of the GI tract due to prolonged release of irritating drugs from the non-deformable tablet.
+ION-EXCHANGE RESIN
+Section::::Ion-exchange resin.
+In the ion-exchange method, the resins are cross-linked water-insoluble polymers that contain ionisable functional groups that form a repeating pattern of polymers, creating a polymer chain. The drug is attached to the resin and is released when an appropriate interaction of ions and ion exchange groups occur. The area and length of the drug release and number of cross-link polymers dictate the rate at which the drug is released, determining the SR effect.
+FLOATING SYSTEMS
+Section::::Floating systems.
+A floating system is a system where it floats on gastric fluids due to low-density. The density of the gastric fluids is about 1 g/mL; thus, the drug/tablet administered must have a smaller density. The buoyancy will allow the system to float to the top of the stomach and release at a slower rate without worry of excreting it. This system requires there are enough gastric fluids present as well as food. Many types of forms of drugs use this method such as powders, capsules, and tablets.
+BIO-ADHESIVE SYSTEMS
+Section::::Bio-adhesive systems.
+Bio-adhesive systems generally are meant to stick to mucus and can be favorable for mouth based interactions due to high mucus levels in the general area but not as simple for other areas. Magnetic materials can be added to the drug so another magnet can hold it from outside the body to assist in holding the system in place. However, there is low patient compliance with this system.
+MATRIX SYSTEMS
+Section::::Matrix systems.
+The matrix system is the mixture of materials with the drug, which will cause the drug to slow down. However, this system has several subcategories: hydrophobic matrices, lipid matrices, hydrophilic matrices, biodegradable matrices, and mineral matrices.
+* A hydrophobic matrix is a drug mixed with a hydrophobic polymer. This causes SR because the drug, after being dissolved, will have to be released by going through channels made by the hydrophilic polymer.
+* A hydrophilic matrix will go back to the matrix as discussed before where a matrix is a mixture of a drug or drugs with a gelling agent. This system is well liked because of its cost and broad regulatory acceptance. The polymers used can be broken down into categories: cellulose derivatives, non-cellulose natural, and polymers of acrylic acid.
+* A lipid matrix uses wax or similar materials. Drug release happens through diffusion through, and erosion of, the wax and tends to be sensitive to digestive fluids.
+* Biodegradable matrices are made with unstable, linked monomers that will erode by biological compounds such as enzymes and proteins.
+* A mineral matrix which generally means the polymers used are obtained in seaweed.
+STIMULI INDUCING RELEASE
+Section::::Stimuli inducing release.
+Examples of stimuli that may be used to bring about release include pH, enzymes, light, magnetic fields, temperature, ultrasonics, osmosis and more recently electronic control of MEMS and NEMS.
+PILL SPLITTING
+Section::::Pill splitting.
+Some time release formulations do not work properly if split, such as controlled-release tablet coatings, while other formulations such as micro-encapsulation still work if the microcapsules inside are swallowed whole.
+Among the health information technology (HIT) that pharmacists use are medication safety tools to help manage this problem. For example, the ISMP "do not crush" list can be entered into the system so that warning stickers can be printed at the point of dispensing, to be stuck on the pill bottle.
+Pharmaceutical companies that do not supply a range of half-dose and quarter-dose versions of time-release tablets can make it difficult for patients to be slowly tapered off their drugs.
+SEE ALSO
+* Depot injection
+* Tablet (pharmacy)
+FOOTNOTES
+EXTERNAL LINKS
+* Controlled Release Society
+* United Kingdom & Ireland Controlled Release Society
+* Controlled Release Technology 5-day short course at MIT with Professor Robert Langer.

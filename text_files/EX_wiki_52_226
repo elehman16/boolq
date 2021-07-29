@@ -1,0 +1,30 @@
+
+UNIQUE LOCAL ADDRESS
+A unique local address (ULA) is an Internet Protocol version 6 (IPv6) address in the address range . Its purpose in IPv6 is analogous to IPv4 addressing in private networks. Unique local addresses may be used freely, without centralized registration, inside a single site or organization or spanning a limited number of sites or organizations. They are routable only within the scope of such private networks, but not in the global IPv6 Internet.
+HISTORY
+Section::::History.
+In 1995, the IPv6 address block was reserved for site-local addresses, that could be used within a "site" for private IPv6 networks. However, insufficient definition of the term site led to confusion over the governing routing rules.
+In September 2004, the Internet Engineering Task Force (IETF) deprecated the definition of this address range, and postulated solutions to its problems.
+As a result, the IETF reserved the address block in October 2005 for use in private IPv6 networks and defined the associated term unique local addresses.
+DEFINITION
+Section::::Definition.
+The address block is divided into two parts, and .
+The block is undefined. It has been proposed to be managed by an allocation authority, but this has not gained acceptance in the IETF..
+The block is defined for prefixes, formed by setting the forty least-significant bits of the prefix to a randomly generated bit string. This results in the format for a prefix in this range. RFC 4193 offers a suggestion for generating the random identifier to obtain a minimum-quality result if the user does not have access to a good source of random numbers.
+EXAMPLE
+Section::::Example.
+A routing prefix in the range may be constructed by generating a random 40-bit hexadecimal string, taken for this example to be 0xe48dba82e1. The string is appended to the prefix . This forms the 48-bit routing prefix . With this prefix, subnets of size are available for the private network: to .
+PROPERTIES
+Section::::Properties.
+Prefixes in the range have similar characteristics as those of the IPv4 private address ranges: They are not allocated by an address registry and may be used in networks by anyone without outside involvement. They are not guaranteed to be globally unique. Reverse Domain Name System (DNS) entries (in ip6.arpa) for ULAs cannot be delegated in the global DNS.
+As ULAs are not meant to be routed outside their administrative domain (site or organization), administrators of interconnecting networks normally do not need to worry about the uniqueness of ULA prefixes. However, if networks require routing ULAs between each other in the event of a merger, for example, the risk of address collision is small if the RFC 4193 selection algorithm was used.
+ATTEMPTS OF REGISTRATION AND ALLOCATION
+Section::::Attempts of registration and allocation.
+SixXS attempted to maintain a voluntary registration database for ULA prefixes to reduce the risk of duplication. When the SixXS services were discontinued on 6 June 2017, the database became read-only.
+For the range , different design decisions have been proposed to the IETF, trading the non-uniqueness for the requirement that the range be managed by a central allocation authority. However, such attempts at standardizing this range have not resulted in a Request for Comments.
+SEE ALSO
+* Link-local address
+REFERENCES
+EXTERNAL LINKS
+* (readonly since SixXS sunset, 6 June 2017)
+* Internet Draft

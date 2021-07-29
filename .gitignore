@@ -1,0 +1,10 @@
+__pycachce__/ 
+__pycache__/
+*.pyc 
+data/old_prompt_gen.csv 
+data/user_progress.csv~ 
+data/.user_progress.csv.un~ 
+data/order/*
+data/progress
+all_outputs 
+docs

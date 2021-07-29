@@ -1,0 +1,42 @@
+
+HEAT INDEX
+The heat index (HI) or humiture is an index that combines air temperature and relative humidity, in shaded areas, to posit a human-perceived equivalent temperature, as how hot it would feel if the humidity were some other value in the shade. The result is also known as the "felt air temperature", "apparent temperature", "real feel" or "feels like". For example, when the temperature is with 70% relative humidity, the heat index is . This heat index temperature has an implied (unstated) humidity of 20%. This is the value of relative humidity for which the heat index number equals the actual air temperature.
+The human body normally cools itself by perspiration, or sweating. Heat is removed from the body by evaporation of that sweat. However, high relative humidity reduces the evaporation rate. This results in a lower rate of heat removal from the body, hence the sensation of being overheated. This effect is subjective, with different individuals perceiving heat differently for various reasons (such as differences in body shape, metabolic differences, differences in hydration, pregnancy, menopause, effects of drugs and/or drug withdrawal); its measurement has been based on subjective descriptions of how hot subjects feel for a given temperature and humidity. This results in a heat index that relates one combination of temperature and humidity to another.
+Because the humidity index is based on temperatures in the shade, while people often move across sunny areas, then the heat index can give a much lower temperature than actual conditions of typical outdoor activities. Also, for people exercising or active, at the time, then the heat index could give a temperature lower than the felt conditions. For example, with a temperature in the shade of only at 60% relative humidity, then the heat index would seem , but movement across sunny areas of , would give a heat index of over , as more indicative of the oppressive and sweltering heat. Plus when actively working, or not wearing a hat in sunny areas, then the feels-like conditions would seem even hotter. Hence, the heat index could seem unrealistically low, unless resting inactive (idle) in heavily shaded areas.
+HISTORY
+Section::::History.
+The heat index was developed in 1978 by George Winterling as the "humiture" and was adopted by the USA's National Weather Service a year later. It is derived from work carried out by Robert G. Steadman. Like the wind chill index, the heat index contains assumptions about the human body mass and height, clothing, amount of physical activity, thickness of blood, sunlight and ultraviolet radiation exposure, and the wind speed. Significant deviations from these will result in heat index values which do not accurately reflect the perceived temperature.
+In Canada, the similar humidex (a Canadian innovation introduced in 1965) is used in place of the heat index. While both the humidex and the heat index are calculated using dew point, the humidex uses a dew point of as a base, whereas the heat index uses a dew point base of . Further, the heat index uses heat balance equations which account for many variables other than vapor pressure, which is used exclusively in the humidex calculation. A joint committee formed by the United States and Canada to resolve differences has since been disbanded .
+The heat index is referenced to any combination of air temperature and humidity where the partial pressure of water vapor is equal to a baseline value of . For example, this corresponds to an air temperature of and relative humidity of 50% in the sea-level psychrometric chart. At standard atmospheric pressure (101.325 kPa), this baseline also corresponds to a dew point of and a mixing ratio of 0.01 (10 g of water vapor per kilogram of dry air).
+A given value of relative humidity causes larger increases in the heat index at higher temperatures. For example, at approximately , the heat index will agree with the actual temperature if the relative humidity is 45%, but at , any relative-humidity reading above 18% will make the heat index higher than .
+It has been suggested that the equation described is valid only if the temperature is or more, and the relative humidity is 40% or more. However, a recent analysis by iWeatherNet found the assumption to be erroneous given that the heat index/relative humidity relationship and the corresponding equilibrium temperature (the point at which the air temperature and the heat index are equal) are nonlinear. The heat index and humidex figures are based on temperature measurements taken in the shade and not the sun, so extra care must be taken while in the sun. The heat index also does not factor in the effects of wind, which lowers the apparent temperature, unless the air is above body temperature.
+Sometimes the heat index and the wind chill are denoted collectively by the single term apparent temperature, "relative outdoor temperature", or "feels like".
+METEOROLOGICAL CONSIDERATIONS
+Section::::Meteorological considerations.
+Outdoors in open conditions, as the relative humidity increases, first haze and ultimately a thicker cloud cover develops, reducing the amount of direct sunlight reaching the surface. Thus, there is an inverse relationship between maximum potential temperature and maximum potential relative humidity. Because of this factor, it was once believed that the highest heat index reading actually attainable anywhere on Earth was approximately . However, in Dhahran, Saudi Arabia on July 8, 2003, the dew point was while the temperature was , resulting in a heat index of .
+TABLE OF VALUES
+Section::::Table of values.
+The table below is from the U.S. National Oceanic and Atmospheric Administration. The columns begin at , but there is also a heat index effect at and similar temperatures when there is high humidity.
+For example, if the air temperature is and the relative humidity is 65%, the heat index is 121 °F / 49 °C.
+EFFECTS OF THE HEAT INDEX (SHADE VALUES)
+Section::::Effects of the heat index (shade values).
+! Celsius  Fahrenheit  Notes
+Exposure to full sunshine can increase heat index values by up to 8 °C (14 °F).
+FORMULA
+Section::::Formula.
+There are many formulae devised to approximate the original tables by Steadman. Anderson et al (2013), NWS (2011), Jonson and Long (2004), and Schoen (2005) have lesser residuals in this order. The former two are a set of polynomials, but the third one is by a single formula with exponential functions.
+The formula below approximates the heat index in degrees Fahrenheit, to within ±. It is the result of a multivariate fit (temperature equal to or greater than and relative humidity equal to or greater than 40%) to a model of the human body. This equation reproduces the above NOAA National Weather Service table (except the values at & 45%/70% relative humidity vary unrounded by less than ±1, respectively).
+where
+An alternative set of constants for this equation that is within ± of the NWS master table for all humidities from 0 to 80% and all temperatures between and all heat indices below is:
+A further alternate is this:
+where
+For example, using this last formula, with temperature and relative humidity (RH) of 85%, the result would be: .
+SEE ALSO
+* Apparent temperature
+* Humidex
+* Wind chill
+REFERENCES
+EXTERNAL LINKS
+* Description of wind chill & apparent temperature Formulae in metric units
+* Heat Index Calculator Calculates both °F and °C
+* Current map of global heat index values

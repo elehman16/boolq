@@ -1,0 +1,91 @@
+
+FRICTION LOSS
+In fluid flow, friction loss (or skin friction) is the loss of pressure or "head" that occurs in pipe or duct flow due to the effect of the fluid's viscosity near the surface of the pipe or duct.
+In mechanical systems such as internal combustion engines, the term refers to the power lost in overcoming the friction between two moving surfaces, a different phenomenon.
+ECONOMICS
+Section::::Economics.
+Friction loss is a significant economic concern wherever fluids are made to flow, whether entirely enclosed in a pipe or duct, or with a surface open to the air.
+* Historically, it is a concern in aqueducts of all kinds, throughout human history. It is also relevant to sewer lines. Systematic study traces back to Henry Darcy, an aqueduct engineer.
+* Natural flows in river beds are important to human activity; friction loss in a stream bed has an effect on the height of the flow, particularly significant during flooding.
+* The economies of pipelines for petrochemical delivery are highly affected by friction loss. The Yamal–Europe pipeline carries methane at a volume flow rate of 32.3 × 10 m of gas per year, at Reynolds numbers greater than 50 × 10.
+* In hydropower applications, the energy lost to skin friction in flume and penstock is not available for useful work, say generating electricity.
+* Irrigation water is pumped at large yearly volumes of flow, entailing significant expense.
+* HVAC systems pump conditioning air on a widespread basis.
+* In refrigeration applications, energy is expended pumping the coolant fluid through pipes or through the condenser. In split systems, the pipes carrying the coolant take the place of the air ducts in HVAC systems.
+* Wells and domestic water systems must be engineered for effective and economical operation.
+DEFINING FRICTION LOSS
+Section::::Defining Friction Loss.
+In the following discussion, we define volumetric flow rate V̇ (i.e. volume of fluid flowing) 
+V̇ = πrv
+where
+In long pipes, the loss in pressure (assuming the pipe is level) is proportional to the length of pipe involved.
+Friction loss is then the change in pressure Δp per unit length of pipe L
+When the pressure is expressed in terms of the equivalent height of a column of that fluid, as is common with water, the friction loss is expressed as S, the "head loss" per length of pipe, a dimensionless quantity also known as the hydraulic slope. 
+where
+CHARACTERIZING FRICTION LOSS
+Section::::Characterizing Friction Loss.
+Friction loss, which is due to the shear stress between the pipe surface and the fluid flowing within, depends on the conditions of flow and the physical properties of the system. These conditions can be encapsulated into a dimensionless number Re, known as the Reynolds number
+where V is the mean fluid velocity and D the diameter of the (cylindrical) pipe. In this expression, the properties of the fluid itself are reduced to the kinematic viscosity ν
+where
+FRICTION LOSS IN STRAIGHT PIPE
+Section::::Friction loss in straight pipe.
+The friction loss In a uniform, straight sections of pipe, known as "major loss", is caused by the effects of viscosity, the movement of fluid molecules against each other or against the (possibly rough) wall of the pipe. Here, it is greatly affected by whether the flow is laminar (Re turbulent (Re > 4000):
+* In laminar flow, losses are proportional to fluid velocity, V; that velocity varies smoothly between the bulk of the fluid and the pipe surface, where it is zero. The roughness of the pipe surface influences neither the fluid flow nor the friction loss.
+* In turbulent flow, losses are proportional to the square of the fluid velocity, V; here, a layer of chaotic eddies and vortices near the pipe surface, called the viscous sub-layer, forms the transition to the bulk flow. In this domain, the effects of the roughness of the pipe surface must be considered. It is useful to characterize that roughness as the ratio of the roughness height ε to the pipe diameter D, the "relative roughness". Three sub-domains pertain to turbulent flow:
+* In the smooth pipe domain, friction loss is relatively insensitive to roughness.
+* In the rough pipe domain, friction loss is dominated by the relative roughness and is insensitive to Reynolds number.
+* In the transition domain, friction loss is sensitive to both.
+* For Reynolds numbers 2000 
+FORM FRICTION
+Section::::Form friction.
+Factors other than straight pipe flow induce friction loss; these are known as "minor loss":
+* Fittings, such as bends, couplings, valves, or transitions in hose or pipe diameter, or
+* Objects intruded into the fluid flow.
+For the purposes of calculating the total friction loss of a system, the sources of form friction are sometimes reduced to an equivalent length of pipe.
+MEASUREMENTS
+Section::::Measurements.
+Because of the importance of friction loss in civil engineering and in industry, it has been studied extensively for over a century.
+* Cited by Moody, L. F. (1944)
+* Cited by Moody, L. F. (1944)
+* Exhibits Nikuradse data.
+* Large amounts of field data on commercial pipes. The Colebrook–White equation was found inadequate over a wide range of flow conditions.
+* Shows friction factor in the smooth flow region for 1 
+SURFACE ROUGHNESS
+Section::::Surface Roughness.
+The roughness of the surface of the pipe or duct affects the fluid flowBrick
+! scope="row"  Concrete
+! scope="row"  Wood Stave
+! scope="row"  Galvanized metals (normal finish),Cast iron (coated and uncoated)
+! scope="row"  Asphalted Cast Iron
+! scope="row"  Concrete (new, or fairly new, smooth)
+! scope="row"  Steel Pipes, Galvanized metals (smooth finish),Concrete (new, unusually smooth, with smooth joints),Asbestos cement,
+CALCULATING FRICTION LOSS
+HAGEN–POISEUILLE
+Section::::Calculating friction loss.
+Section::::Hagen–Poiseuille.
+Laminar flow is encountered in practice with very viscous fluids, such as motor oil, flowing through small-diameter tubes, at low velocity. Friction loss under conditions of laminar flow follow the Hagen–Poiseuille equation, which is an exact solution to the Navier-Stokes equations. For a circular pipe with a fluid of density ρ and viscosity μ, the hydraulic slope S can be expressed
+In laminar flow (that is, with Re Darcy–Weisbach
+Section::::Darcy–Weisbach.
+In many practical engineering applications, the fluid flow is more rapid, therefore turbulent rather than laminar. Under turbulent flow, the friction loss is found to be roughly proportional to the square of the flow velocity and inversely proportional to the pipe diameter, that is, the friction loss follows the phenomenological Darcy–Weisbach equation in which the hydraulic slope S can be expressed
+where we have introduced the Darcy friction factor f (but see Confusion with the Fanning friction factor);
+Note that the value of this dimensionless factor depends on the pipe diameter D and the roughness of the pipe surface ε. Furthermore, it varies as well with the flow velocity V and on the physical properties of the fluid (usually cast together into the Reynolds number Re). Thus, the friction loss is not precisely proportional to the flow velocity squared, nor to the inverse of the pipe diameter: the friction factor takes account of the remaining dependency on these parameters.
+From experimental measurements, the general features of the variation of f are, for fixed relative roughness ε / D and for Reynolds number Re = V D / ν > ~2000,
+* With relative roughness ε / D 
+* At higher roughness, with increasing Reynolds number Re, f climbs from its smooth pipe value, approaching an asymptote that itself varies logarithmically with the relative roughness ε / D; this regime is called "rough pipe" flow.
+* The point of departure from smooth flow occurs at a Reynolds number roughly inversely proportional to the value of the relative roughness: the higher the relative roughness, the lower the Re of departure. The range of Re and ε / D between smooth pipe flow and rough pipe flow is labeled "transitional". In this region, the measurements of Nikuradse show a decline in the value of f with Re, before approaching its asymptotic value from below, although Moody chose not to follow those data in his chart, which is based on the Colebrook–White equation.
+* At values of 2000 
+* The entire dependence of f on the pipe diameter D is subsumed into the Reynolds number Re and the relative roughness ε / D, likewise the entire dependence on fluid properties density ρ and viscosity μ is subsumed into the Reynolds number Re. This is called scaling.
+The experimentally measured values of f are fit to reasonable accuracy by the (recursive) Colebrook–White equation, depicted graphically in the Moody chart which plots friction factor f versus Reynolds number Re for selected values of relative roughness ε / D.
+CALCULATING FRICTION LOSS FOR WATER IN A PIPE
+Section::::Calculating Friction Loss for Water in a Pipe.
+In a design problem, one may select pipe for a particular hydraulic slope S based on the candidate pipe's diameter D and its roughness ε. 
+With these quantities as inputs, the friction factor f can be expressed in closed form in the Colebrook–White equation or other fitting function
+CALCULATING FRICTION LOSS FOR AIR IN A DUCT
+Section::::Calculating Friction Loss for Air in a Duct.
+Friction loss takes place as a gas, say air, flows through duct work
+NOTES
+REFERENCES
+EXTERNAL LINKS
+* Pipe pressure drop calculator for single phase flows.
+* Pipe pressure drop calculator for two phase flows.
+* Open source pipe pressure drop calculator.

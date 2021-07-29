@@ -1,0 +1,221 @@
+
+GO AND MATHEMATICS
+The game of Go is one of the most popular games in the world. As a result of its elegant and simple rules, the game has long been an inspiration for mathematical research. Shen Kuo, a Chinese scholar in 11th century, estimated that the number of possible board positions is around 10 in Dream Pool Essays. In more recent years, research of the game by John H. Conway led to the invention of the surreal numbers and contributed to development of combinatorial game theory (with Go Infinitesimals being a specific example of its use in Go).
+COMPUTATIONAL COMPLEXITY
+Section::::Computational complexity.
+Generalized Go is played on n x n boards, and the computational complexity of determining the winner in a given position of generalized Go depends crucially on the ko rules.
+Go is "almost" in PSPACE, since in normal play, moves are not reversible, and it is only through capture that there is the possibility of the repeating patterns necessary for a harder complexity.
+WITHOUT KO
+Section::::Without Ko.
+Without ko, Go is PSPACE-hard. This is proved by reducing True Quantified Boolean Formula, which is known to be PSPACE-complete, to generalized geography, to planar generalized geography, to planar generalized geography with maximum degree 3, finally to Go positions.
+Go with superko is not known to be in PSPACE. Though actual games seem never to last longer than formula_1 moves, in general it's not known if there were a polynomial bound on the length of Go games. If there were, Go would be PSPACE-complete. As it currently stands, it might be PSPACE-complete, EXPTIME-complete, or even EXPSPACE-complete.
+JAPANESE KO RULE
+Section::::Japanese ko rule.
+Japanese ko rules state that only the basic ko, that is, a move that reverts the board to the situation one move previously, is forbidden. Longer repetitive situations are allowed, thus potentially allowing a game to loop forever, such as the triple ko, where there are three kos at the same time, allowing a cycle of 12 moves.
+With Japanese ko rules, Go is EXPTIME-complete.
+SUPERKO RULE
+Section::::Superko rule.
+The superko rule (also called the positional superko rule) states that a repetition of any board position that has previously occurred is forbidden. This is the ko rule used in most Chinese and US rulesets.
+It is an open problem what the complexity class of Go is under superko rule. Though Go with Japanese ko rule is EXPTIME-complete, both the lower and the upper bounds of Robson's EXPTIME-completeness proof break when the superko rule is added.
+It is known that it is at least PSPACE-hard, since the proof in of the PSPACE-hardness of Go does not rely on the ko rule, or lack of the ko rule. It is also known that Go is in EXPSPACE.
+Robson showed that if the superko rule, that is, "no previous position may ever be recreated", is added to certain two-player games that are EXPTIME-complete, then the new games would be EXPSPACE-complete. Intuitively, it's because it requires an exponential amount of space even to determine the legal moves from a position, because the game history leading up to a position could be exponentially long.
+As a result, superko variants (moves that repeat a previous board position are not allowed) of generalized chess and checkers are EXPSPACE-complete, since generalized chess and checkers are EXPTIME-complete. However, this result does not apply to Go.
+COMPLEXITY OF CERTAIN GO CONFIGURATIONS
+Section::::Complexity of certain Go configurations.
+A Go endgame begins when the board is divided into areas that are isolated from all other local areas by living stones, such that each local area has a polynomial size canonical game tree. In the language of combinatorial game theory, it happens when a Go game decomposes into a sum of subgames with polynomial size canonical game trees.
+With that definition, Go endgames are PSPACE-hard.
+This is proven by converting the Quantified Boolean Formula problem, which is PSPACE-complete, into a sum of small (with polynomial size canonical game trees) Go subgames. Note that the paper does not prove that Go endgames are in PSPACE, so they might not be PSPACE-complete.
+Determining which side wins a ladder capturing race is PSPACE-complete, whether Japanese ko rule or superko rule is in place. This is proven by simulating QBF, known to be PSPACE-complete, with ladders that bounce around the board like light beams.
+LEGAL POSITIONS
+Section::::Legal positions.
+Since each location on the board can be either empty, black, or white, there are a total of 3 possible board positions on a square board with length n; however only part of them are legal. Tromp and Farnebäck derived a recursive formula for legal positions formula_2 of a rectangle board with length m and n. The exact number of formula_3 is obtained in 2016. They also find an asymptotic formula formula_4, where formula_5, formula_6 and formula_7. It has been estimated that the observable universe contains around 10 atoms, far fewer than the number of possible legal positions of regular board size (m=n=19). As the board gets larger, the percentage of the positions that are legal decreases.
+!Board size n×n
+!3
+!Percent legal
+!formula_8 (legal positions) ()
+!1×1
+align="right"3
+align="right"33.33%
+align="right"1
+!2×2
+align="right"81
+align="right"70.37%
+align="right"57
+!3×3
+align="right"19,683
+align="right"64.40%
+align="right"12,675
+!4×4
+align="right"43,046,721
+align="right"56.49%
+align="right"24,318,165
+!5×5
+align="right"847,288,609,443
+align="right"48.90%
+align="right"414,295,148,741
+!9×9
+align="right"4.43426488243×10
+align="right"23.44%
+align="right"1.03919148791×10
+!13×13
+align="right"4.30023359390×10
+align="right"8.66%
+align="right"3.72497923077×10
+!19×19
+align="right"1.74089650659×10
+align="right"1.20%
+align="right"2.08168199382×10
+GAME TREE COMPLEXITY
+Section::::Game tree complexity.
+The computer scientist Victor Allis notes that typical games between experts last about 150 moves, with an average of about 250 choices per move, suggesting a game-tree complexity of 10. For the number of theoretically possible games, including games impossible to play in practice, Tromp and Farnebäck give lower and upper bounds of 10 and 10 respectively.
+The most commonly quoted number for the number of possible games, 10 is derived from a simple permutation of 361 moves or 361! = 10. Another common derivation is to assume N intersections and L longest game for N^L total games. For example, 400 moves, as seen in some professional games, would be one out of 361 or 1 × 10 possible games.
+The total number of possible games is a function both of the size of the board and the number of moves played. While most games last less than 400 or even 200 moves, many more are possible.
+!Game size
+!Board size N (intersections)
+!N!
+!Average game length L
+!N
+!Maximum game length (# of moves)
+!Lower limit of games
+!Upper limit of games
+!2×2
+align="right"4
+align="right"24
+align="right"3
+align="right"64
+align="right"
+align="right"386,356,909,593
+align="right"386,356,909,593
+!3×3
+align="right"9
+align="right"3.6×10
+align="right"5
+align="right"5.9×10
+align="right"
+align="right"
+!4×4
+align="right"16
+align="right"2.1×10
+align="right"9
+align="right"6.9×10
+align="right"
+align="right"
+!5×5
+align="right"25
+align="right"1.6×10
+align="right"15
+align="right"9.3×10
+align="right"
+align="right"
+!9×9
+align="right"81
+align="right"5.8×10
+align="right"45
+align="right"7.6×10
+align="right"
+align="right"
+!13×13
+align="right"169
+align="right"4.3×10
+align="right"90
+align="right"3.2×10
+align="right"
+align="right"
+!19×19
+align="right"361
+align="right"1.0×10
+align="right"200
+align="right"3×10
+align="right"10
+align="right"10
+align="right"10
+!21×21
+align="right"441
+align="right"2.5×10
+align="right"250
+align="right"1.3×10
+align="right"
+align="right"
+The total number of possible games can be estimated from the board size in a number of ways, some more rigorous than others. The simplest, a permutation of the board size, (N), fails to include illegal captures and positions. Taking N as the board size (19×19=361) and L as the longest game, N forms an upper limit. A more accurate limit is presented in the Tromp/Farnebäck paper.
+!align="left"Longest game L (19×19)
+!align="left"(N)
+!align="left"Lower limit of games
+!align="left"Upper limit of games
+!align="left"Notes
+!1
+align="right"361
+align="right"361
+align="right"361
+White resigns after first move, 361 ignoring all symmetry including y=x else (Distances from corner)10x10-10=90 90/2=45 +10 (adding back x=y points of symmetry) = 55.
+!2
+align="right"722
+align="right"
+align="right"721
+Black resigns after white's first move, 721 ignoring all symmetry including y=x else 19x19-19=342 342/2=171 +19 = 190 - 1= 189.
+!50
+align="right"2.1×10
+align="right"
+align="right"7.5×10
+!100
+align="right"1.4×10
+align="right"
+align="right"5.6×10
+!150
+align="right"6.4×10
+align="right"
+align="right"4.2×10
+!200
+align="right"1.9×10
+align="right"
+align="right"3.2×10
+!250
+align="right"8.2×10
+align="right"
+align="right"2.4×10
+!300
+align="right"2.8×10
+align="right"
+align="right"7.8×10
+!350
+align="right"3.6×10
+align="right"
+align="right"1.3×10
+!361
+align="right"1.4×10
+align="right"
+align="right"1.8×10
+Longest game using 181 black and 180 white stones
+!400
+align="right"n/a
+align="right"
+align="right"1.0×10
+Longest professional games
+!500
+align="right"n/a
+align="right"
+align="right"5.7×10
+!1000
+align="right"n/a
+align="right"
+align="right"3.2×10
+!47 million
+align="right"n/a
+align="right"
+align="right"10
+361^3 moves
+!10
+align="right"n/a
+align="right"10
+align="right"10
+Longest game
+10 is thus an overestimate of the number of possible games that can be played in 200 moves and an underestimate of the number of games that can be played in 361 moves. Since there are about 31 million seconds in a year, it would take about 2¼ years, playing 16 hours a day at one move per second, to play 47 million moves.
+SEE ALSO
+* Game complexity
+* Shannon number (Chess)
+NOTES
+REFERENCES
+* [Ph.D. Thesis, MIT.]
+* Papadimitriou, Christos (1994), Computational Complexity, Addison Wesley.
+EXTERNAL LINKS
+* Go and Mathematics
+* Number of possible outcomes of a game - article at Sensei's Library

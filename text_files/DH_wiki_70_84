@@ -1,0 +1,25 @@
+
+AERODYNAMIC CENTER
+The torques or moments acting on an airfoil moving through a fluid can be accounted for by the net lift and net drag applied at some point on the airfoil, and a separate net pitching moment about that point whose magnitude varies with the choice of where the lift is chosen to be applied. The aerodynamic center is the point at which the pitching moment coefficient for the airfoil does not vary with lift coefficient (i.e. angle of attack), making analysis simpler. 
+The lift and drag forces can be applied at a single point, the center of pressure, about which they exert zero torque. However, the location of the center of pressure moves significantly with a change in angle of attack and is thus impractical for analysis. Instead, the 25% chord position, or aerodynamic center, is used, about which the forces and moment are generated. It can be shown that at the 25% chord position the moment generated varies little as angle of attack changes. The concept of the aerodynamic center (AC) is important in aerodynamics. It is fundamental in the science of stability of aircraft in flight.
+In precision experimentation with real airfoils and advanced analysis the aerodynamic center is observed to change location slightly as angle of attack varies. In most literature however the aerodynamic center is assumed to be fixed at the 25% chord position. Conversely, this means that if the aerodynamic center is assumed to be fixed at 25% chord, the moment about the aerodynamic center can be 'not constant'. A large portion of cambered airfoils have non-constant moments about the 25% chord position because the location of the aerodynamic center does move slightly. For most analysis the non-constant moment about the 25% chord position is not significant enough to warrant consideration, but is important to keep in mind. 
+For symmetric airfoils in subsonic flight the aerodynamic center is located approximately 25% of the chord from the leading edge of the airfoil. This point is described as the quarter-chord point. This result also holds true for 'thin-airfoils'. For non-symmetric (cambered) airfoils the quarter-chord is only an approximation for the aerodynamic center.
+A similar concept is that of center of pressure. The location of the center of pressure varies with changes of lift coefficient and angle of attack. This makes the center of pressure unsuitable for use in analysis of longitudinal static stability. For more explanation on this topic, see movement of center of pressure.
+ROLE OF AERODYNAMIC CENTER IN AIRCRAFT STABILITY
+Section::::Role of aerodynamic center in aircraft stability.
+For longitudinal static stability: formula_3     and    formula_4
+For directional static stability:   formula_5     and    formula_6
+Where:
+For a force acting away from the aerodynamic center, which is away from the reference point:
+Which for small angles formula_10 and formula_11, formula_12, formula_13, formula_14 simplifies to:
+General Case: From the definition of the AC it follows that
+The Static Margin can then be used to quantify the AC:
+where:
+SM = Static Margin
+REFERENCES
+SEE ALSO
+* Aircraft flight mechanics
+* Flight dynamics
+* Longitudinal static stability
+* Thin-airfoil theory
+* Joukowsky transform

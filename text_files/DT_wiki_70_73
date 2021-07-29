@@ -1,0 +1,27 @@
+
+TIME IN GERMANY
+The time zone in Germany is Central European Time (Mitteleuropäische Zeit, MEZ; ) and Central European Summer Time (Mitteleuropäische Sommerzeit, MESZ; ). Daylight saving time is observed from the last Sunday in March (02:00 CET) to the last Sunday in October (03:00 CEST). The doubled hour during the switch back to standard time is named 2A (02:00 to 03:00 CEST) and 2B (02:00 to 03:00 CET).
+IANA TIME ZONE DATABASE
+Section::::IANA time zone database.
+The IANA time zone database contains two zones for Germany, "Europe/Berlin" and "Europe/Busingen", although in 1945, the Trizone did not follow Berlin's switch to midsummer time.
+Germany has been politically divided into East Germany and West Germany even after the start of the unix epoch, which is the date from which the tz database wants to record correct information. The database aims to include at least one zone for every ISO 3166-1 alpha-2 country code. This list was first issued in 1997, after the reunification of Germany in 1990. Hence only the unified Germany is listed.
+The zone Europe/Busingen was created in the 2013a release of the tz database, because since the Unix time epoch in 1970, Büsingen has shared clocks with Zurich. Büsingen did not observe DST in 1980 like the rest of what was then West Germany, but did so from 1981 after Switzerland adopted DST.
+Data for Germany directly from zone.tab of the IANA time zone database. Columns marked with * are the columns from zone.tab itself.
+! c.c.*
+! Coordinates*
+! TZ*
+! Comments*
+! UTC offset
+! UTC DST offset
+HISTORY
+Section::::History.
+Daylight saving time was first introduced during World War I by the German Empire in the years 1916 to 1918. After the end of the war and the proclamation of the Weimar Republic in November 1918, daylight saving time ceased to be observed. It was used again 1940–1949 (from 1945 differently in the West and East) and introduced again from 1980. West and East Germany had the same time and DST from 1950 until unification. In 1996, daylight saving time was harmonised throughout the European Union by Directive 2000/84/EC, which moved the end of DST to the last Sunday in October.
+In 1980 the exclave Büsingen did not use DST in order to keep to the same time as Switzerland.
+SEE ALSO
+* List of time zones
+REFERENCES
+EXTERNAL LINKS
+* Physikalisch-Technische Bundesanstalt - Legal Time
+* Gesetz über die Einheiten im Messwesen und die Zeitbestimmung § 4 (EinhZeitG, Units and Time Act)
+* Sommerzeitverordnung (Summer Time Ordinance)
+* German Time Act

@@ -1,0 +1,271 @@
+
+AUTOMATIC NUMBER-PLATE RECOGNITION
+Automatic number-plate recognition (ANPR; see also other names below) is a technology that uses optical character recognition on images to read vehicle registration plates to create vehicle location data. It can use existing closed-circuit television, road-rule enforcement cameras, or cameras specifically designed for the task. ANPR is used by police forces around the world for law enforcement purposes, including to check if a vehicle is registered or licensed. It is also used for electronic toll collection on pay-per-use roads and as a method of cataloguing the movements of traffic, for example by highways agencies.
+Automatic number plate recognition can be used to store the images captured by the cameras as well as the text from the license plate, with some configurable to store a photograph of the driver. Systems commonly use infrared lighting to allow the camera to take the picture at any time of day or night. ANPR technology must take into account plate variations from place to place.
+Concerns about these systems have centered on privacy fears of government tracking citizens' movements, misidentification, high error rates, and increased government spending. Critics have described it as a form of mass surveillance.
+OTHER NAMES
+Section::::Other names.
+ANPR is sometimes known by various other terms:
+* Automatic (or automated) license-plate recognition (ALPR)
+* Automatic (or automated) license-plate reader (ALPR)
+* Automatic vehicle identification (AVI)
+* Car-plate recognition (CPR)
+* License-plate recognition (LPR)
+* Lecture automatique de plaques d'immatriculation (LAPI)
+* Mobile license-plate reader (MLPR)
+* Vehicle license-plate recognition (VLPR)
+* Vehicle recognition identification (VRI)
+DEVELOPMENT
+Section::::Development.
+ANPR was invented in 1976 at the Police Scientific Development Branch in the United Kingdom. Prototype systems were working by 1979, and contracts were awarded to produce industrial systems, first at EMI Electronics, and then at Computer Recognition Systems (CRS) in Wokingham, UK. Early trial systems were deployed on the A1 road and at the Dartford Tunnel. The first arrest through detection of a stolen car was made in 1981. However, ANPR did not become widely used until new developments in cheaper and easier to use software were pioneered during the 1990s. The collection of ANPR data for future use (i.e., in solving then-unidentified crimes) was documented in the early 2000s. The first documented case of ANPR being used to help solve a murder occurred in November 2005, in Bradford, UK, where ANPR played a vital role in locating and subsequently convicting killers of Sharon Beshenivsky.
+COMPONENTS
+Section::::Components.
+The software aspect of the system runs on standard home computer hardware and can be linked to other applications or databases. It first uses a series of image manipulation techniques to detect, normalize and enhance the image of the number plate, and then optical character recognition (OCR) to extract the alphanumerics of the license plate. ANPR systems are generally deployed in one of two basic approaches: one allows for the entire process to be performed at the lane location in real-time, and the other transmits all the images from many lanes to a remote computer location and performs the OCR process there at some later point in time. When done at the lane site, the information captured of the plate alphanumeric, date-time, lane identification, and any other information required is completed in approximately 250 milliseconds . This information can easily be transmitted to a remote computer for further processing if necessary, or stored at the lane for later retrieval. In the other arrangement, there are typically large numbers of PCs used in a server farm to handle high workloads, such as those found in the London congestion charge project. Often in such systems, there is a requirement to forward images to the remote server, and this can require larger bandwidth transmission media.
+TECHNOLOGY
+Section::::Technology.
+ANPR uses optical character recognition (OCR) on images taken by cameras. When Dutch vehicle registration plates switched to a different style in 2002, one of the changes made was to the font, introducing small gaps in some letters (such as P and R) to make them more distinct and therefore more legible to such systems. Some license plate arrangements use variations in font sizes and positioning—ANPR systems must be able to cope with such differences in order to be truly effective. More complicated systems can cope with international variants, though many programs are individually tailored to each country.
+The cameras used can be existing road-rule enforcement or closed-circuit television cameras, as well as mobile units, which are usually attached to vehicles. Some systems use infrared cameras to take a clearer image of the plates.
+IN MOBILE SYSTEMS
+Section::::In mobile systems.
+During the 1990s, significant advances in technology took automatic number plate recognition (ANPR) systems from limited expensive, hard to set up, fixed based applications to simple "point and shoot" mobile ones. This was made possible by the creation of software that ran on cheaper PC based, non-specialist hardware that also no longer needed to be given the pre-defined angles, direction, size and speed in which the plates would be passing the camera's field of view. Further scaled-down components at more cost-effective price points led to a record number of deployments by law enforcement agencies around the world. Smaller cameras with the ability to read license plates at higher speeds, along with smaller, more durable processors that fit in the trunks of police vehicles, allowed law enforcement officers to patrol daily with the benefit of license plate reading in real time, when they can interdict immediately.
+Despite their effectiveness, there are noteworthy challenges related with mobile ANPRs. One of the biggest is that the processor and the cameras must work fast enough to accommodate relative speeds of more than 100 mph (160 km/h), a likely scenario in the case of oncoming traffic. This equipment must also be very efficient since the power source is the vehicle battery, and equipment must be small to minimize the space it requires.
+Relative speed is only one issue that affects the camera's ability to actually read a license plate. Algorithms must be able to compensate for all the variables that can affect the ANPR's ability to produce an accurate read, such as time of day, weather and angles between the cameras and the license plates. A system's illumination wavelengths can also have a direct impact on the resolution and accuracy of a read in these conditions.
+Installing ANPR cameras on law enforcement vehicles requires careful consideration of the juxtaposition of the cameras to the license plates they are to read. Using the right number of cameras and positioning them accurately for optimal results can prove challenging, given the various missions and environments at hand. Highway patrol requires forward-looking cameras that span multiple lanes and are able to read license plates at very high speeds. City patrol needs shorter range, lower focal length cameras for capturing plates on parked cars. Parking lots with perpendicularly parked cars often require a specialized camera with a very short focal length. Most technically advanced systems are flexible and can be configured with a number of cameras ranging from one to four which can easily be repositioned as needed. States with rear-only license plates have an additional challenge since a forward-looking camera is ineffective with oncoming traffic. In this case one camera may be turned backwards.
+ALGORITHMS
+Section::::Algorithms.
+There are seven primary algorithms that the software requires for identifying a license plate:
+* Plate localization – responsible for finding and isolating the plate on the picture.
+* 
+* Plate orientation and sizing – compensates for the skew of the plate and adjusts the dimensions to the required size.
+* 
+* Normalization – adjusts the brightness and contrast of the image.
+* 
+* Character segmentation – finds the individual characters on the plates.
+* 
+* Optical character recognition.
+* 
+* Syntactical/Geometrical analysis – check characters and positions against country-specific rules.
+* 
+* The averaging of the recognised value over multiple fields/images to produce a more reliable or confident result. Especially since any single image may contain a reflected light flare, be partially obscured or other temporary effect.
+* 
+The complexity of each of these subsections of the program determines the accuracy of the system. During the third phase (normalization), some systems use edge detection techniques to increase the picture difference between the letters and the plate backing. A median filter may also be used to reduce the visual noise on the image.
+DIFFICULTIES
+Section::::Difficulties.
+There are a number of possible difficulties that the software must be able to cope with. These include:
+* Poor file resolution, usually because the plate is too far away but sometimes resulting from the use of a low-quality camera.
+* Blurry images, particularly motion blur.
+* Poor lighting and low contrast due to overexposure, reflection or shadows.
+* An object obscuring (part of) the plate, quite often a tow bar, or dirt on the plate.
+* Read license plates that are different at the front and the back because of towed trailers, campers, etc.
+* Vehicle lane change in the camera's angle of view during license plate reading.
+* A different font, popular for vanity plates (some countries do not allow such plates, eliminating the problem).
+* Circumvention techniques.
+* Lack of coordination between countries or states. Two cars from different countries or states can have the same number but different design of the plate.
+While some of these problems can be corrected within the software, it is primarily left to the hardware side of the system to work out solutions to these difficulties. Increasing the height of the camera may avoid problems with objects (such as other vehicles) obscuring the plate but introduces and increases other problems, such as the adjusting for the increased skew of the plate.
+On some cars, tow bars may obscure one or two characters of the license plate. Bikes on bike racks can also obscure the number plate, though in some countries and jurisdictions, such as Victoria, Australia, "bike plates" are supposed to be fitted.
+Some small-scale systems allow for some errors in the license plate. When used for giving specific vehicles access to a barricaded area, the decision may be made to have an acceptable error rate of one character. This is because the likelihood of an unauthorized car having such a similar license plate is seen as quite small. However, this level of inaccuracy would not be acceptable in most applications of an ANPR system.
+IMAGING HARDWARE
+Section::::Imaging hardware.
+At the front end of any ANPR system is the imaging hardware which captures the image of the license plates. The initial image capture forms a critically important part of the ANPR system which, in accordance to the garbage in, garbage out principle of computing, will often determine the overall performance.
+License plate capture is typically performed by specialized cameras designed specifically for the task, although new software techniques are being implemented that support any I.P.-based surveillance camera and increase the utility of ANPR for perimeter security applications. Factors which pose difficulty for license plate imaging cameras include the speed of the vehicles being recorded, varying level of ambient light, headlight glare and harsh environmental conditions. Most dedicated license plate capture cameras will incorporate infrared illumination in order to solve the problems of lighting and plate reflectivity.
+Many countries now use license plates that are retroreflective. This returns the light back to the source and thus improves the contrast of the image. In some countries, the characters on the plate are not reflective, giving a high level of contrast with the reflective background in any lighting conditions. A camera that makes use of active infrared imaging (with a normal colour filter over the lens and an infrared illuminator next to it) benefits greatly from this as the infrared waves are reflected back from the plate. This is only possible on dedicated ANPR cameras, however, and so cameras used for other purposes must rely more heavily on the software capabilities. Further, when a full-colour image is required as well as use of the ANPR-retrieved details, it is necessary to have one infrared-enabled camera and one normal (colour) camera working together.
+To avoid blurring it is ideal to have the shutter speed of a dedicated camera set to 1/1000 of a second. It is also important that the camera uses a global shutter, as opposed to rolling shutter, to assure that the taken images are distortion-free. Because the car is moving, slower shutter speeds could result in an image which is too blurred to read using the OCR software, especially if the camera is much higher up than the vehicle. In slow-moving traffic, or when the camera is at a lower level and the vehicle is at an angle approaching the camera, the shutter speed does not need to be so fast. Shutter speeds of 1/500 of a second can cope with traffic moving up to 40 mph (64 km/h) and 1/250 of a second up to 5 mph (8 km/h). License plate capture cameras can produce usable images from vehicles traveling at .
+To maximize the chances of effective license plate capture, installers should carefully consider the positioning of the camera relative to the target capture area. Exceeding threshold angles of incidence between camera lens and license plate will greatly reduce the probability of obtaining usable images due to distortion. Manufacturers have developed tools to help eliminate errors from the physical installation of license plate capture cameras.
+USAGE
+LAW ENFORCEMENT
+AUSTRALIA
+Section::::Usage.
+Section::::Law enforcement.
+Section::::Australia.
+Several State Police Forces, and the Department of Justice (Victoria) use both fixed and mobile ANPR systems. The New South Wales Police Force Highway Patrol were the first to trial and use a fixed ANPR camera system in Australia in 2005. In 2009 they began a roll-out of a mobile ANPR system (known officially as MANPR) with three infrared cameras fitted to its Highway Patrol fleet. The system identifies unregistered and stolen vehicles as well as disqualified or suspended drivers as well as other 'persons of interest' such as persons having outstanding warrants.
+BELGIUM
+Section::::Belgium.
+The city of Mechelen uses an ANPR system since September 2011 to scan all cars crossing the city limits (inbound and outbound). Cars listed on 'black lists' (no insurance, stolen, etc.) generate an alarm in the dispatching room, so they can be intercepted by a patrol.
+As of early 2012, 1 million cars per week are automatically checked in this way.
+CANADA
+Section::::Canada.
+The police service in Ontario uses automatic licence plate recognition software to nab drivers behind the wheels of vehicles with Ontario number plates.
+DENMARK
+Section::::Denmark.
+The technique is tested by the Danish police. It will be in permanent use from the end of 2015.
+FRANCE
+Section::::France.
+180 gantries over major roads have been built throughout the country. These together with a further 250 fixed cameras is to enable a levy of an eco tax on lorries over 3.5 tonnes. The system is currently being opposed and whilst they may be collecting data on vehicles passing the cameras, no eco tax is being charged.
+GERMANY
+Section::::Germany.
+On 11 March 2008, the Federal Constitutional Court of Germany ruled that some areas of the laws permitting the use of automated number plate recognition systems in Germany violated the right to privacy. More specifically, the court found that the retention of any sort of information (i.e., number plate data) which was not for any pre-destined use (e.g., for use tracking suspected terrorists or for enforcement of speeding laws) was in violation of German law.
+These systems were provided by Jenoptik Robot GmbH, and called TraffiCapture.
+HUNGARY
+Section::::Hungary.
+In 2012 a state consortium was formed among the Hungarian Ministry of Interior, the National Police Headquarters and the Central Commission of Public Administration and Electronic Services with the aim to install and operate a unified intelligent transportation system (ITS) with nationwide coverage by the end of 2015. Within the system, 160 portable traffic enforcement and data-gathering units and 365 permanent gantry installations were brought online with ANPR, speed detection, imaging and statistical capabilities. Since all the data points are connected to a centrally located ITS, each member of the consortium is able to separately utilize its range of administrative and enforcement activities, such as remote vehicle registration and insurance verification, speed, lane and traffic light enforcement and wanted or stolen vehicle interception among others.
+Several Hungarian auxiliary police units also use a system called Matrix Police in cooperation with the police. It consists of a portable computer equipped with a web camera that scans the stolen car database using automatic number plate recognition. The system is installed on the dashboard of selected patrol vehicles (PDA-based hand-held versions also exist) and is mainly used to control the license plate of parking cars. As the Auxiliary Police do not have the authority to order moving vehicles to stop, if a stolen car is found, the formal police is informed.
+PAKISTAN
+Section::::Pakistan.
+The technique is proposed by Lahore Police; if approved it will be functional by 2018.
+SAUDI ARABIA
+Section::::Saudi Arabia.
+Vehicle registration plates in Saudi Arabia use white background, but several vehicle types may have a different background. United States diplomatic plates have the letters 'USD', which in Arabic reads 'DSU' when read from right to left in the direction of Arabic script. There are only 17 Arabic letters used on the registration plates. A Challenge for plates recognition in Saudi Arabia is the size of the digits. Some plates use both Eastern Arabic numerals and the 'Western Arabic' equivalents. A research with source code is available for APNR Arabic digits.
+SWEDEN
+Section::::Sweden.
+The technique is tested by the Swedish Police Authority at nine different locations in Sweden.
+TURKEY
+Section::::Turkey.
+Several cities have tested—and some have put into service—the KGYS (Kent Guvenlik Yonetim Sistemi, City Security Administration System), , i.e., capital Ankara, has debuted KGYS- which consists of a registration plate number recognition system on the main arteries and city exits. The system has been used with two cameras per lane, one for plate recognition, one for speed detection. Now the system has been widened to network all the registration number cameras together, and enforcing average speed over preset distances. Some arteries have limit, and some , and photo evidence with date-time details are posted to registration address if speed violation is detected. As of 2012, the fine for exceeding the speed limit for more than 30% is approximately US$175.
+UKRAINE
+Section::::Ukraine.
+The project of system integration «OLLI Technology» and the Ministry of Internal Affairs of Ukraine Department of State Traffic Inspection (STI) experiments on the introduction of a modern technical complex which is capable to locate stolen cars, drivers deprived of driving licenses and other problem cars in real time. The Ukrainian complex "Video control" working by a principle of video fixing of the car with recognition of license plates with check under data base.
+UNITED KINGDOM
+Section::::United Kingdom.
+The Home Office states the purpose of automatic number plate recognition in the United Kingdom is to help detect, deter and disrupt criminality including tackling organised crime groups and terrorists. Vehicle movements are recorded by a network of nearly 8000 cameras capturing between 25 and 30 million ANPR 'read' records daily. These records are stored for up to two years in the National ANPR Data Center, which can be accessed, analysed and used as evidence as part of investigations by UK law enforcement agencies.
+In 2012, the UK Parliament enacted the Protection of Freedoms Act which includes several provisions related to controlling and restricting the collection, storage, retention, and use of information about individuals. Under this Act, the Home Office published a code of practice in 2013 for the use of surveillance cameras, including ANPR, by government and law enforcement agencies. The aim of the code is to help ensure their use is "characterised as surveillance by consent, and such consent on the part of the community must be informed consent and not assumed by a system operator. Surveillance by consent should be regarded as analogous to policing by consent." In addition, a set of standards were introduced in 2014 for data, infrastructure, and data access and management.
+UNITED STATES
+Section::::United States.
+In the United States, ANPR systems are more commonly referred to as ALPR (Automatic License Plate Reader/Recognition) technology, due to differences in language (i.e., "number plates" are referred to as "license plates" in American English)
+Mobile ANPR use is widespread among US law enforcement agencies at the city, county, state and federal level. According to a 2012 report by the Police Executive Research Forum, approximately 71% of all US police departments use some form of
+ANPR. Mobile ANPR is becoming a significant component of municipal predictive policing strategies and intelligence gathering, as well as for recovery of stolen vehicles, identification of wanted felons, and revenue collection from individuals who are delinquent on city or state taxes or fines, or monitoring for "Amber Alerts". With the widespread implementation of this technology, many U.S. states now issue misdemeanor citations of up to $500 when a license plate is identified as expired or on the incorrect vehicle. Successfully recognized plates may be matched against databases including "wanted person", "protection order", missing person, gang member, known and suspected terrorist, supervised release, immigration violator, and National Sex Offender lists. In addition to the real-time processing of license plate numbers, ANPR systems in the US collect (and can indefinitely store) data from each license plate capture. Images, dates, times and GPS coordinates can be stockpiled and can help place a suspect at a scene, aid in witness identification, pattern recognition or the tracking of individuals.
+The Department of Homeland Security has proposed a federal database to combine all monitoring systems, which was cancelled after privacy complaints. In 1998, a Washington, D.C. police lieutenant pleaded guilty to extortion after blackmailing the owners of vehicles parked near a gay bar. In 2015, the Los Angeles Police Department proposed sending letters to the home addresses of all vehicles that enter areas of high prostitution.
+Early private sector mobile ANPR applications have been for vehicle repossession and recovery), although the application of ANPR by private companies to collect information from privately owned vehicles or collected from private property (for example, driveways) has become an issue of sensitivity and public debate. Other ANPR uses include parking enforcement, and revenue collection from individuals who are delinquent on city or state taxes or fines. The technology is often featured in the reality TV show Parking Wars featured on A&E Network. In the show, tow truck drivers and booting teams use the ANPR to find delinquent vehicles with high amounts of unpaid parking fines.
+LAWS
+Section::::Laws.
+Laws vary among the states regarding collection and retention of license plate information. , 14 states have limits on how long the data may be retained, with the lowest being New Hampshire (3 minutes) and Colorado (3 years). The Supreme Court of Virginia ruled in 2018 that data collected from ALPRs can constitute personal information.
+AVERAGE-SPEED CAMERAS
+Section::::Average-speed cameras.
+ANPR is used for speed limit enforcement in Australia, Austria, Belgium, Dubai (UAE), France, Italy, The Netherlands, Spain, South Africa, the UK, and Kuwait.
+This works by tracking vehicles' travel time between two fixed points, and calculating the average speed. These cameras are claimed to have an advantage over traditional speed cameras in maintaining steady legal speeds over extended distances, rather than encouraging heavy braking on approach to specific camera locations and subsequent acceleration back to illegal speeds.
+ITALY
+Section::::Italy.
+In has developed a monitoring system named covering more than 2500 km (2012). The Tutor system is also able to intercept cars while changing lanes.
+NETHERLANDS
+Section::::Netherlands.
+Average speed cameras (trajectcontrole) are in place in the Netherlands since 2002. As of July 2009, 12 cameras were operational, mostly in the west of the country and along the A12. Some of these are divided in several "sections" to allow for cars leaving and entering the motorway.
+A first experimental system was tested on a short stretch of the A2 in 1997 and was deemed a big success by the police, reducing overspeeding to 0.66%, compared to 5 to 6% when regular speed cameras were used at the same location. The first permanent average speed cameras were installed on the A13 in 2002, shortly after the speed limit was reduced to 80 km/h to limit noise and air pollution in the area. In 2007, average speed cameras resulted in 1.7 million fines for overspeeding out of a total of 9.7 millions. According to the Dutch Attorney General, the average number of violation of the speed limits on motorway sections equipped with average speed cameras is between 1 and 2%, compared to 10 to 15% elsewhere.
+UNITED KINGDOM
+Section::::United Kingdom.
+One of the most notable stretches of average speed cameras in the UK is found on the A77 road in Scotland, with being monitored between Kilmarnock and Girvan. In 2006 it was confirmed that speeding tickets could potentially be avoided from the 'SPECS' cameras by changing lanes and the RAC Foundation feared that people may play "Russian Roulette" changing from one lane to another to lessen their odds of being caught. However, in 2007 the system was upgraded for multi-lane use and in 2008 the manufacturer described the "myth" as "categorically untrue". There exists evidence that implementation of systems such as SPECS has a considerable effect on the volume of drivers travelling at excessive speeds; on the stretch of road mentioned above (A77 Between Glasgow and Ayr) there has been noted a "huge drop" in speeding violations since the introduction of a SPECS system.
+CRIME DETERRENT
+Section::::Crime deterrent.
+Recent innovations have contributed to the adoption of ANPR for perimeter security and access control applications at government facilities. Within the US, "homeland security" efforts to protect against alleged "acts of terrorism" have resulted in adoption of ANPR for sensitive facilities such as embassies, schools, airports, maritime ports, military and federal buildings, law enforcement and government facilities, and transportation centers. ANPR is marketed as able to be implemented through networks of IP based surveillance cameras that perform "double duty" alongside facial recognition, object tracking, and recording systems for the purpose of monitoring suspicious or anomalous behavior, improving access control, and matching against watch lists. ANPR systems are most commonly installed at points of significant sensitivity, ingress or egress. Major US agencies such as the Department of Homeland Security, the Department of Justice, the Department of Transportation and the Department of Defense have purchased ANPR for perimeter security applications. Large networks of ANPR systems are being installed by cities such as Boston, London and New York City to provide citywide protection against acts of terrorism, and to provide support for public gatherings and public spaces.
+The Center For Evidence-Based Crime Policy in George Mason University identifies the following randomized controlled trials of automatic number plate recognition technology as very rigorous.
+ENTERPRISE SECURITY AND SERVICES
+Section::::Enterprise security and services.
+In addition to government facilities, many private sector industries with facility security concerns are beginning to implement ANPR solutions. Examples include casinos, hospitals, museums, parking facilities, and resorts. In the US, private facilities typically cannot access government or police watch lists, but may develop and match against their own databases for customers, VIPs, critical personnel or "banned person" lists. In addition to providing perimeter security, private ANPR has service applications for valet / recognized customer and VIP recognition, logistics and key personnel tracking, sales and advertising, parking management, and logistics (vendor and support vehicle tracking).
+TRAFFIC CONTROL
+Section::::Traffic control.
+Many cities and districts have developed traffic control systems to help monitor the movement and flow of vehicles around the road network. This had typically involved looking at historical data, estimates, observations and statistics, such as:
+* Car park usage
+* Pedestrian crossing usage
+* Number of vehicles along a road
+* Areas of low and high congestion
+* Frequency, location and cause of road works
+CCTV cameras can be used to help traffic control centres by giving them live data, allowing for traffic management decisions to be made in real-time. By using ANPR on this footage it is possible to monitor the travel of individual vehicles, automatically providing information about the speed and flow of various routes. These details can highlight problem areas as and when they occur and help the centre to make informed incident management decisions.
+Some counties of the United Kingdom have worked with Siemens Traffic to develop traffic monitoring systems for their own control centres and for the public. Projects such as Hampshire County Council's ROMANSE provide an interactive and real-time website showing details about traffic in the city. The site shows information about car parks, ongoing road works, special events and footage taken from CCTV cameras. ANPR systems can be used to provide average point-to-point journey times along particular routes, which can be displayed on a variable-message sign(VMS) giving drivers the ability to plan their route. ROMANSE also allows travellers to see the current situation using a mobile device with an Internet connection (such as WAP, GPRS or 3G), allowing them to view mobile device CCTV images within the Hampshire road network.
+The UK company Trafficmaster has used ANPR since 1998 to estimate average traffic speeds on non-motorway roads without the results being skewed by local fluctuations caused by traffic lights and similar. The company now operates a network of over 4000 ANPR cameras, but claims that only the four most central digits are identified, and no numberplate data is retained.
+IEEE Intelligent Transportation Systems Society published some papers on the plate number recognition technologies and applications.
+ELECTRONIC TOLL COLLECTION
+TOLL ROADS
+Section::::Electronic toll collection.
+Section::::Toll roads.
+Ontario's 407 ETR highway uses a combination of ANPR and radio transponders to toll vehicles entering and exiting the road. Radio antennas are located at each junction and detect the transponders, logging the unique identity of each vehicle in much the same way as the ANPR system does. Without ANPR as a second system it would not be possible to monitor all the traffic. Drivers who opt to rent a transponder for C$2.55 per month are not charged the "Video Toll Charge" of C$3.60 for using the road, with heavy vehicles (those with a gross weight of over 5,000 kg) being required to use one. Using either system, users of the highway are notified of the usage charges by post.
+There are numerous other electronic toll collection networks which use this combination of Radio frequency identification and ANPR. These include:
+* The Golden Gate Bridge in San Francisco, California, began using an all-electronic tolling system combining Fastrak and ANPR on March 27, 2013.
+* NC Quick Pass for the Interstate 540 (North Carolina) Triangle Expressway in Wake County, North Carolina
+* Bridge Pass for the Saint John Harbour Bridge in Saint John, New Brunswick
+* Quickpass at the Golden Ears Bridge, crossing the Fraser River between Langley and Maple Ridge
+* e-TAG, Australia
+* FasTrak in California, United States
+* Highway 6 in Israel
+* Tunnels in Hong Kong
+* Autopista Central in Santiago, Chile (site in Spanish)
+* E-ZPass in New York, New Jersey, Pennsylvania, Massachusetts (as Fast Lane until 2012), Virginia (formerly Smart Tag), and other states. Maryland Route 200 uses a combination of E-ZPass and ANPR.
+* TollTag in North Texas and EZ-Tag in Houston, Texas.
+* I-Pass in Illinois
+* Pike Pass in Oklahoma
+* Peach Pass I-85 Atlanta, GA Gwinnett County
+* OGS (Otomatik Geçiş Sistemi) used at Bosphorus Bridge, Fatih Sultan Mehmet Bridge, and Trans European Motorway entry points in İstanbul, Turkey
+* M50 Westlink Toll in Dublin, Ireland
+* Hi-pass in South Korea
+* Northern Gateway, SH 1, Auckland, New Zealand
+* Evergreen Point Floating Bridge, Seattle, and Washington State Route 167 HOT-lanes in western Washington
+* ETC in Taiwan
+* SunPass In Florida
+PORTUGAL
+Section::::Portugal.
+Portuguese roads have old highways with toll stations where drivers can pay with cards and also lanes where there are electronic collection systems. However most new highways only have the option of electronic toll collection system.
+The electronic toll collection system comprises three different structures:
+* ANPR which works with infrared cameras and reads license plates from every vehicle
+* Lasers for volumetric measurement of the vehicle to confirm whether it is a regular car or an SUV or truck, as charges differ according to the type of vehicle
+* RFID-like to read on-board smart tags.
+When the smart tag is installed in the vehicle, the car is quickly identified and owner's bank account is automatically deducted. This process is realized at any speed up to over 250 km per hour.
+If the car does not have the smart tag, the driver is required to go to a pay station to pay the tolls between 3rd and 5th day after with a surplus charge. If he fails to do so, the owner is sent a letter home with a heavy fine. If this is not paid, it increases five-fold and after that, the car is inserted into a police database for vehicle impounding.
+This system is also used in some limited access areas of main cities to allow only entry from pre-registered residents. It is planned to be implemented both in more roads and in city entrance toll collection/access restriction. The efficacy of the system is considered to be so high that it is almost impossible for the driver to complain.
+LONDON CONGESTION CHARGE
+Section::::London congestion charge.
+The London congestion charge is an example of a system that charges motorists entering a payment area. Transport for London (TfL) uses ANPR systems and charges motorists a daily fee of £11.50 if they enter, leave or move around within the congestion charge zone between 7 a.m. and 6:00 p.m., Monday to Friday. A reduced fee of £10.50 is paid by vehicle owners who sign up for the automatic deduction scheme. Fines for traveling within the zone without paying the charge are £65 per infraction if paid before the deadline, doubling to £130 per infraction thereafter.
+There are currently 1,500 cameras which use automatic number plate recognition (ANPR) technology. There are also a number of mobile camera units which may be deployed anywhere in the zone.
+It is estimated that around 98% of vehicles moving within the zone are caught on camera. The video streams are transmitted to a data centre located in central London where the ANPR software deduces the registration plate of the vehicle. A second data centre provides a backup location for image data.
+Both front and back number plates are being captured, on vehicles going both in and out – this gives up to four chances to capture the number plates of a vehicle entering and exiting the zone. This list is then compared with a list of cars whose owners/operators have paid to enter the zone – those that have not paid are fined. The registered owner of such a vehicle is looked up in a database provided by the DVLA.
+SWEDEN
+Section::::Sweden.
+In Stockholm, Sweden, ANPR is used for the Stockholm congestion tax, owners of cars driving into or out of the inner city must pay a charge, depending on the time of the day. From 2013, also for the Gothenburg congestion tax, which also includes vehicles passing the city on the main highways.
+PRIVATE USE
+Section::::Private use.
+Several UK companies and agencies use ANPR systems. These include Vehicle and Operator Services Agency (VOSA), Driver and Vehicle Licensing Agency (DVLA) and Transport for London.
+OTHER USES
+Section::::Other uses.
+ANPR systems may also be used for/by:
+* Section control, to measure average vehicle speed over longer distances.
+* Border crossings
+* Automobile repossessions
+* Petrol stations to log when a motorist drives away without paying for their fuel.
+* A marketing tool to log patterns of use
+* Targeted advertising, a-la "Minority Report"-style billboards.
+* Traffic management systems, which determine traffic flow using the time it takes vehicles to pass two ANPR sites
+* Analyses of travel behaviour (route choice, origin-destination etc.) for transport planning purposes
+* Drive Through Customer Recognition, to automatically recognize customers based on their license plate and offer them the items they ordered the last time they used the service.
+* To assist visitor management systems in recognizing guest vehicles.
+* Police and Auxiliary Police
+* Car parking companies
+* Hotels
+* Enforcing Move Over laws for emergency vehicles
+* Automated emissions testing
+CHALLENGES
+CIRCUMVENTION
+Section::::Challenges.
+Section::::Circumvention.
+Vehicle owners have used a variety of techniques in an attempt to evade ANPR systems and road-rule enforcement cameras in general. One method increases the reflective properties of the lettering and makes it more likely that the system will be unable to locate the plate or produce a high enough level of contrast to be able to read it. This is typically done by using a plate cover or a spray, though claims regarding the effectiveness of the latter are disputed. In most jurisdictions, the covers are illegal and covered under existing laws, while in most countries there is no law to disallow the use of the sprays. Other users have attempted to smear their license plate with dirt or utilize covers to mask the plate.
+Novelty frames around Texas license plates were made illegal in Texas on 1 September 2003 by Texas Senate Bill 439 because they caused problems with ANPR devices. That law made it a Class C misdemeanor (punishable by a fine of up to US $200), or Class B (punishable by a fine of up to US $2,000 and 180 days in jail) if it can be proven that the owner did it to deliberately obscure their plates. The law was later clarified in 2007 to allow Novelty frames.
+If an ANPR system cannot read the plate, it can flag the image for attention, with the human operators looking to see if they are able to identify the alphanumerics.
+In order to avoid surveillance or penalty charges, there has been an upsurge in car cloning. This is usually achieved by copying registration plates from another car of a similar model and age. This can be difficult to detect, especially as cloners may change the registration plates and travel behavior to hinder investigations.
+In 2013 researchers at Sunflex Zone Ltd created a privacy license plate frame that uses near infrared light to make the license plate unreadable to license plate recognition systems.
+CONTROVERSY
+Section::::Controversy.
+The introduction of ANPR systems has led to fears of misidentification and the furthering of 1984-style surveillance. In the United States, some such as Gregg Easterbrook oppose what they call "machines that issue speeding tickets and red-light tickets" as the beginning of a slippery slope towards an automated justice system:
+Similar criticisms have been raised in other countries. Easterbrook also argues that this technology is employed to maximize revenue for the state, rather than to promote safety.
+The electronic surveillance system produces tickets which in the US are often in excess of $100, and are virtually impossible for a citizen to contest in court without the help of an attorney. The revenues generated by these machines are shared generously with the private corporation that builds and operates them, creating a strong incentive to tweak the system to generate as many tickets as possible.
+Older systems had been notably unreliable; in the UK this has been known to lead to charges being made incorrectly with the vehicle owner having to pay £10 in order to be issued with proof (or not) of the offense. Improvements in technology have drastically decreased error rates, but false accusations are still frequent enough to be a problem.
+Perhaps the best known incident involving the abuse of an ANPR database in North America is the case of Edmonton Sun reporter Kerry Diotte in 2004. Diotte wrote an article critical of Edmonton police use of traffic cameras for revenue enhancement, and in retaliation was added to an ANPR database of "high-risk drivers" in an attempt to monitor his habits and create an opportunity to arrest him. The police chief and several officers were fired as a result, and The Office of the Privacy Commissioner of Canada expressed public concern over the "growing police use of technology to spy on motorists."
+Other concerns include the storage of information that could be used to identify people and store details about their driving habits and daily life, contravening the Data Protection Act along with similar legislation (see personally identifiable information). The laws in the UK are strict for any system that uses CCTV footage and can identify individuals.
+Also of concern is the safety of the data once it is mined, following the discovery of police surveillance records lost in a gutter.
+There is also a case in the UK for saying that use of ANPR cameras is unlawful under the Regulation of Investigatory Powers Act 2000. The breach exists, some say, in the fact that ANPR is used to monitor the activities of law-abiding citizens and treats everyone like the suspected criminals intended to be surveyed under the Act. The police themselves have been known to refer to the system of ANPR as a "24/7 traffic movement database" which is a diversion from its intended purpose of identifying vehicles involved in criminal activities. The opposing viewpoint is that where the plates have been cloned, a 'read' of an innocent motorist's vehicle will allow the elimination of that vehicle from an investigation by visual examination of the images stored. Likewise, stolen vehicles are read by ANPR systems between the time of theft and report to the Police, assisting in the investigation.
+The Associated Press reported in August 2011 that New York Police Department cars and license plate tracking equipment purchased with federal HIDTA (High Intensity Drug Trafficking Area) funds were used to spy on Muslims at mosques, and to track the license plate numbers of worshipers.
+Police in unmarked cars outfitted with electronic license plate readers would drive down the street and automatically catalog the plates of everyone parked near the mosque, amassing a covert database that would be distributed among officers and used to profile Muslims in public.
+In 2013 the American Civil Liberties Union (ACLU) released 26,000 pages of data about ANPR systems obtained from local, state, and federal agencies through freedom of information laws. "The documents paint a startling picture of a technology deployed with too few rules that is becoming a tool for mass routine location tracking and surveillance" wrote the ACLU. The ACLU reported that in many locations the devices were being used to store location information on vehicles which were not suspected of any particular offense. "Private companies are also using license plate readers and sharing the information they collect with police with little or no oversight or privacy protections. A lack of regulation means that policies governing how long our location data is kept vary widely," the ACLU said. In 2012 the ACLU filed suit against the Department of Homeland Security, which funds many local and state ANPR programs through grants, after the agency failed to provide access to records the ACLU had requested under the Freedom of Information Act about the programs.
+In mid-August 2015, in Boston, it was discovered that the license plate records for a million people was online and unprotected.
+PLATE INCONSISTENCY AND JURISDICTIONAL DIFFERENCES
+Section::::Plate inconsistency and jurisdictional differences.
+Many ANPR systems claim accuracy when trained to match plates from a single jurisdiction or region, but can fail when trying to recognize plates from other jurisdictions due to variations in format, font, color, layout, and other plate features. Some jurisdictions offer vanity or affinity plates (particularly in the US), which can create many variations within a single jurisdiction.
+From time to time, US states will make significant changes in their license plate protocol that will affect OCR accuracy. They may add a character or add a new license plate design. ALPR systems must adapt to these changes quickly in order to be effective. Another challenge with ALPR systems is that some states have the same license plate protocol. For example, more than one state uses the standard three letters followed by four numbers. So each time the ALPR systems alarms, it is the user's responsibility to make sure that the plate which caused the alarm matches the state associated with the license plate listed on the in-car computer. For maximum effectiveness, an ANPR system should be able to recognize plates from any jurisdiction, and the jurisdiction to which they are associated, but these many variables make such tasks difficult.
+Currently at least one US ANPR provider (PlateSmart) claims their system has been independently reviewed as able to accurately recognize the US state jurisdiction of license plates, and one European ANPR provider claims their system can differentiate all EU plate jurisdictions.
+ACCURACY AND MEASUREMENT OF ANPR SYSTEM PERFORMANCE
+Section::::Accuracy and measurement of ANPR system performance.
+A few ANPR software vendors publish accuracy results based on image benchmarks. These results may vary depending on which images the vendor has chosen to include in their test. In 2017, Sighthound reported a 93.6% accuracy on a private image benchmark. In 2017, OpenALPR reported accuracy rates for their commercial software in the range of 95-98% on a public image benchmark. April 2018 research from Brazil's Federal University of Paraná and Federal University of Minas Gerais that compared both systems reported median recognition rate of 93.53% and stated significant improvement from the 81.8% rate obtained in previous works.
+SEE ALSO
+* AI effect
+* Applications of artificial intelligence
+* Facial recognition system
+* Road policing unit
+* Vehicle location data
+Lists
+* List of emerging technologies
+* Outline of artificial intelligence
+REFERENCES

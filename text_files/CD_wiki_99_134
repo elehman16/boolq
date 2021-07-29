@@ -1,0 +1,53 @@
+
+PERSONAL PUBLIC SERVICE NUMBER
+The Personal Public Service Number (PPS No) (, or ) is an identifier issued by the Client Identity Services section of the Department of Social Protection, on behalf of the Minister for Social Protection in Ireland.
+The PPSN was known as the Revenue and Social Insurance Number (RSI No) until 1998. RSI Numbers were first issued in April 1979 as a replacement for the separate PAYE Number and Social Welfare Insurance Number which had been used for income tax and social welfare purposes respectively until then. The PAYE Number was issued by the Revenue Commissioners and these numbers were transferred to the RSI No system as a basis for the unified system.
+FORMAT
+Section::::Format.
+The format of the number is a unique alphanumeric in the general form 8765432A/A. The number is assigned at the registration of birth of the child and is issued on a "Public Services Card" often when a child reaches the legal age of employment, currently 16, otherwise a "Letter of Entitlement" is issued. The same format was used by the Department of Education and Skills as the "Pupil Number" since 1994 and this caused some concern and confusion as it was in the same format and used the same check character formula, but more often different from the PPS No. In August 2000 the department instigated a programme to remove the Pupil Number and replace it with the PPS No in future on records. By September 2001, the Pupil Number was fully withdrawn.
+The format is seven numeric characters (including leading zeros), a check character and sometimes a second letter, which if it exists, will normally be an A (for individuals) or an H (for non-individuals, e.g., limited companies, trusts, etc.) In some cases, this second letter may be a W, which was used for women - "W" from "wife" – who married and automatically adopted the same number as their husband, though this practice stopped in 1999 chiefly due to equal rights concerns. The present policy is that these W numbers are eliminated when the bearer's husband dies, or when they become separated or divorced.
+The Social Services Card, no longer in use, contained a number called the "Primary Account Number" (PAN), this is the long main sequence embossed near the centre of the card. This consists of the issuer number of the International Organization for Standardization, the PPS number and a card issue number; any letters are converted to numbers using the standard convention of A=1, B=2 and so forth. Basic personal information is encoded on the magnetic stripe on the rear of the card such as date of birth and sex. The Social Services Card was completely withdrawn by January 2014.
+Since 2012, a new Public Services (National Identity) Card has been rolled out thus replacing the Social Services Card used to collect social welfare payments . It displays a passport-size photo, your PPS No, your date of birth and a Card Number. The Passport Service of the Department of Foreign Affairs and Trade has announced that as of 29 March 2016, all first-time passport applicants aged 18 and above who are resident in Ireland will need to have a Public Services Card (PSC) for identification purposes.
+Separately, the old paper Free Travel Pass was replaced by the Public Services Card Free Travel (PSCFT) since 9 December 2013, with the paper version being completely phased out by 1 January 2016.
+CHECK CHARACTER
+Section::::Check character.
+The format of the PPS number was defined as being nine characters in length, consisting of 7 digits in positions 1 to 7, followed by a check character in position 8, with either a space or the letter "W" in position 9. However, from 1 January 2013 a new range of PPS numbers were introduced by including an additional alphabetic character, other than "W", in position 9.
+The character in position 8 still operates as the check character for all existing and new numbers, but the calculation used to decide this character has been revised to avoid any confusion between an "old" number and a "new" number using the same 7 numeric values in the first 7 positions.
+The check character is calculated using a weighted addition of all the numbers and modulus calculation (known as Modulus 23). It therefore checks for incorrectly entered digits and for digit transposition (digits in the wrong order will alter the sum due to weightings).
+CALCULATION
+Section::::Calculation.
+The modulus 23 calculation has been revised to take account of the extra character as follows:
+* A numeric value is assigned to the alphabetic character in position 9, with "A" = 1, "B" = 2, "C" = 3, etc. Where a "W" or a blank already exists (in numbers assigned before 1 January 2013) the assigned numeric value will be zero.
+* 
+* Each digit is multiplied by a weight, with a weighting of 9 assigned to the numeric equivalent of the alphabetic character in position 9. See the table for a sample calculation on the PPSN "1234567_A".
+* 
+! Digit !! Weighting !! Result
+The results are added together, and divided by 23. The remainder (modulus 23) indicate the check character position in the alphabet. In the example above, 121 divided by 23 leaves a remainder of 6, and "F" is the sixth character in the alphabet. The correct PPS number is therefore 1234567FA. Where the remainder is zero, the check letter is W.
+CHECK DIGIT CALCULATION IN SOFTWARE
+Section::::Check digit calculation in software.
+The following are examples of software that provide checksum verification:
+PHP: The Pear class Validate_IE contains a checksum algorithm.
+Thesaurus Software Thesaurus Payroll Manager payroll software.
+Sage QuickPay payroll software.
+EXPANSION
+Section::::Expansion.
+As the system allows for a maximum of ten million numbers to be issued, and with numbers having been issued to both the Irish and the legal immigrant population, expatriates, and many people who are now deceased, the current system will be in need of expansion in the not distant future.
+Since January 2013, the format uses a letter after the current check character. This has the advantage that all current PPS numbers remain valid. The letter after the check character would have a weighting of nine. The letter value would be assigned the same as the check character's. A=1, B=2 ... W=0.
+Examples of valid new PPSN
+1234567TW
+1234567FA
+USAGE
+Section::::Usage.
+The number is currently used for a number of public services including education, health, housing, social welfare and tax however the net is widening raising concern about functionality creep. The number is underpinned in legislation by the Social Welfare (Consolidation) Act, 2005 (Section 262) and a number of amendments, including data protection, have expanded its legal use as well as defining improper usage.
+The number has already been issued automatically to everyone born in the Republic of Ireland since January 1971 and those who commenced or were in employment since April 1979 – the primary trigger today for the numbers' issue is birth registration. A PPS number can be applied for at a PPS Number allocation centre. Applicants should show the reason for requiring a PPS Number, and provide Photographic ID and proof of address.
+SEE ALSO
+* NHI Number (a similar number in New Zealand)
+* National Insurance number (a similar number in the United Kingdom)
+* Social Insurance Number (a similar number in Canada)
+* Tax file number (a similar number in Australia)
+* Social Security number (a similar number in the United States)
+* CPF (a similar number in Brazil)
+REFERENCES
+EXTERNAL LINKS
+* Personal Public Service Number 
+* Personal Public Service Number Algorithim 

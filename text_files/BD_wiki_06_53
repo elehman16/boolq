@@ -1,0 +1,137 @@
+
+BREATHING GAS
+A breathing gas is a mixture of gaseous chemical elements and compounds used for respiration. Air is the most common, and only natural, breathing gas. But other mixtures of gases, or pure gases, are also used in breathing equipment and enclosed habitats such as scuba equipment, surface supplied diving equipment, recompression chambers, submarines, space suits, spacecraft, medical life support and first aid equipment, high-altitude mountaineering and anaesthetic machines.
+Oxygen is the essential component for any breathing gas, at a partial pressure of between roughly 0.16 and 1.60 bar at the ambient pressure. The oxygen is usually the only metabolically active component unless the gas is an anaesthetic mixture. Some of the oxygen in the breathing gas is consumed by the metabolic processes, and the inert components are unchanged, and serve mainly to dilute the oxygen to an appropriate concentration, and are therefore also known as diluent gases. Most breathing gases therefore are a mixture of oxygen and one or more inert gases. Other breathing gases have been developed to improve on the performance of ordinary air by reducing the risk of decompression sickness, reducing the duration of decompression stops, reducing nitrogen narcosis or allowing safer deep diving.
+A safe breathing gas for hyperbaric use has three essential features:
+* It must contain sufficient oxygen to support life, consciousness and work rate of the breather.
+* It must not contain harmful contaminants. Carbon monoxide and carbon dioxide are common poisons which may contaminate breathing gases. There are many other possibilities.
+* It must not become toxic when being breathed at high pressure such as when underwater. Oxygen and nitrogen are examples of gases that become toxic under pressure.
+The techniques used to fill diving cylinders with gases other than air are called gas blending.
+Breathing gases for use at ambient pressures below normal atmospheric pressure are usually air enriched with oxygen to provide sufficient oxygen to maintain life and consciousness, or to allow higher levels of exertion than would be possible using air. It is common to provide the additional oxygen as a pure gas added to the breathing air at inhalation, or though a life-support system.
+FOR DIVING AND OTHER HYPERBARIC USE
+Section::::For diving and other hyperbaric use.
+These common diving breathing gases are used:
+* Air is a mixture of 21% oxygen, 78% nitrogen, and approximately 1% other trace gases, primarily argon; to simplify calculations this last 1% is usually treated as if it were nitrogen. Being cheap and simple to use, it is the most common diving gas. As its nitrogen component causes nitrogen narcosis, it is considered to have a safe depth limit of about 40 metres (130 feet) for most divers, although the maximum operating depth of air is 66.2 metres (218 feet).
+* Pure oxygen is mainly used to speed the shallow decompression stops at the end of a military, commercial, or technical dive. Risk of acute oxygen toxicity increases rapidly at pressures greater than 6 metres sea water. It was much used in frogmen's rebreathers, and is still used by attack swimmers.
+* Nitrox is a mixture of oxygen and air, and generally refers to mixtures which are more than 21% oxygen. It can be used as a tool to accelerate in-water decompression stops or to decrease the risk of decompression sickness and thus prolong a dive (a common misconception is that the diver can go deeper, this is not true owing to a shallower maximum operating depth than on conventional air).
+* Trimix is a mixture of oxygen, nitrogen and helium and is often used at depth in technical diving and commercial diving instead of air to reduce nitrogen narcosis and to avoid the dangers of oxygen toxicity.
+* Heliox is a mixture of oxygen and helium and is often used in the deep phase of a commercial deep dive to eliminate nitrogen narcosis.
+* Heliair is a form of trimix that is easily blended from helium and air without using pure oxygen. It always has a 21:79 ratio of oxygen to nitrogen; the balance of the mix is helium.
+* Hydreliox is a mixture of oxygen, helium, and hydrogen and is used for dives below 130 metres in commercial diving.
+* Hydrox, a gas mixture of hydrogen and oxygen, is used as a breathing gas in very deep diving.
+* Neox (also called neonox) is a mixture of oxygen and neon sometimes employed in deep commercial diving. It is rarely used due to its cost. Also, DCS symptoms produced by neon ("neox bends") have a poor reputation, being widely reported to be more severe than those produced by an exactly equivalent dive-table and mix with helium.
++ Commonly accepted breathing gas container colour coding in the offshore diving industry.
+! Gas
+! Symbol
+! Typical shoulder colours
+! Cylinder shoulder
+! Quad upper frame/ frame valve end 
+CLASSIFICATION BY OXYGEN FRACTION
+Section::::Classification by oxygen fraction.
+Breathing gases for diving are classified by oxygen fraction. The boundaries set by authorities may differ slightly, as the effects vary gradually with concentration and between people, and are not accurately predictable.
+Normoxic: where the oxygen content does not differ greatly from that of air and allows continuous safe use at atmospheric pressure.
+Hyperoxic, or oxygen enriched: where the oxygen content exceeds atmospheric levels, generally to a level where there is some measurable physiological effect over long term use, and sometimes requiring special procedures for handling due to increased fire hazard. The associated risks are oxygen toxicity at depth and fire, particularly in the breathing apparatus.
+Hypoxic: where the oxygen content is less than that of air, generally to the extent that there is a significant risk of measurable physiological effect over the short term. The immediate risk is usually hypoxic incapacitation at or near the surface.
+INDIVIDUAL COMPONENT GASES
+Section::::Individual component gases.
+Breathing gases for diving are mixed from a small number of component gases which provide special characteristics to the mixture which are not available from atmospheric air.
+OXYGEN
+Section::::Oxygen.
+Oxygen (O) must be present in every breathing gas. This is because it is essential to the human body's metabolic process, which sustains life. The human body cannot store oxygen for later use as it does with food. If the body is deprived of oxygen for more than a few minutes, unconsciousness and death result. The tissues and organs within the body (notably the heart and brain) are damaged if deprived of oxygen for much longer than four minutes.
+Filling a diving cylinder with pure oxygen costs around five times more than filling it with compressed air. As oxygen supports combustion and causes rust in diving cylinders, it should be handled with caution when gas blending.
+Oxygen has historically been obtained by fractional distillation of liquid air, but is increasingly obtained by non-cryogenic technologies such as pressure swing adsorption (PSA) and vacuum swing adsorption (VSA) technologies.
+The fraction of the oxygen component of a breathing gas mixture is sometimes used when naming the mix:
+* hypoxic mixes, strictly, contain less than 21% oxygen, although often a boundary of 16% is used, and are designed only to be breathed at depth as a "bottom gas" where the higher pressure increases the partial pressure of oxygen to a safe level. Trimix, Heliox and Heliair are gas blends commonly used for hypoxic mixes and are used in professional and technical diving as deep breathing gases.
+* normoxic mixes have the same proportion of oxygen as air, 21%. The maximum operating depth of a normoxic mix could be as shallow as 47 metres (155 feet). Trimix with between 17% and 21% oxygen is often described as normoxic because it contains a high enough proportion of oxygen to be safe to breathe at the surface.
+* hyperoxic mixes have more than 21% oxygen. Enriched Air Nitrox (EANx) is a typical hyperoxic breathing gas. Hyperoxic mixtures, when compared to air, cause oxygen toxicity at shallower depths but can be used to shorten decompression stops by drawing dissolved inert gases out of the body more quickly.
+The fraction of the oxygen determines the greatest depth at which the mixture can safely be used to avoid oxygen toxicity. This depth is called the maximum operating depth.
+The concentration of oxygen in a gas mix depends on the fraction and the pressure of the mixture. It is expressed by the partial pressure of oxygen (P).
+The partial pressure of any component gas in a mixture is calculated as:
+For the oxygen component,
+where:
+The minimum safe partial pressure of oxygen in a breathing gas is commonly held to be 16 kPa (0.16 bar). Below this partial pressure the diver may be at risk of unconsciousness and death due to hypoxia, depending on factors including individual physiology and level of exertion. When a hypoxic mix is breathed in shallow water it may not have a high enough P to keep the diver conscious. For this reason normoxic or hyperoxic "travel gases" are used at medium depth between the "bottom" and "decompression" phases of the dive.
+The maximum safe P in a breathing gas depends on exposure time, the level of exercise and the security of the breathing equipment being used. It is typically between 100 kPa (1 bar) and 160 kPa (1.6 bar); for dives of less than three hours it is commonly considered to be 140 kPa (1.4 bar), although the U.S. Navy has been known to authorize dives with a P of as much as 180 kPa (1.8 bar). At high P or longer exposures, the diver risks oxygen toxicity which may result in a seizure. Each breathing gas has a maximum operating depth that is determined by its oxygen content. For therapeutic recompression and hyperbaric oxygen therapy partial pressures of 2.8 bar are commonly used in the chamber, but there is no risk of drowning if the occupant loses consciousness.
+Oxygen analysers are used to measure the oxygen partial pressure in the gas mix.
+In most countries, there is no difference in purity in medical oxygen and industrial oxygen, as they are produced by exactly the same methods and manufacturers, but labeled and filled differently. The chief difference between them is that the record-keeping trail is much more extensive for medical oxygen, to more easily identify the exact manufacturing trail of a "lot" or batch of oxygen, in case problems with its purity are discovered. Aviation grade oxygen is similar to medical oxygen, but may have a lower moisture content.
+NITROGEN
+Section::::Nitrogen.
+Nitrogen (N) is a diatomic gas and the main component of air, the cheapest and most common breathing gas used for diving. It causes nitrogen narcosis in the diver, so its use is limited to shallower dives. Nitrogen can cause decompression sickness.
+Equivalent air depth is used to estimate the decompression requirements of a nitrox (oxygen/nitrogen) mixture. Equivalent narcotic depth is used to estimate the narcotic potency of trimix (oxygen/helium/nitrogen mixture). Many divers find that the level of narcosis caused by a dive, whilst breathing air, is a comfortable maximum.
+Nitrogen in a gas mix is almost always obtained by adding air to the mix.
+HELIUM
+Section::::Helium.
+Helium (He) is an inert gas that is less narcotic than nitrogen at equivalent pressure (in fact there is no evidence for any narcosis from helium at all), so it is more suitable for deeper dives than nitrogen. Helium is equally able to cause decompression sickness. At high pressures, helium also causes high-pressure nervous syndrome, which is a central nervous system irritation syndrome which is in some ways opposite to narcosis.
+Helium mixture fills are considerably more expensive than air fills due to the cost of helium and the cost of mixing and compressing the mix.
+Helium is not suitable for dry suit inflation owing to its poor thermal insulation properties – compared to air, which is regarded as a reasonable insulator, helium has six times the thermal conductivity. Helium's low molecular weight (monatomic MW=4, compared with diatomic nitrogen MW=28) increases the timbre of the breather's voice, which may impede communication. This is because the speed of sound is faster in a lower molecular weight gas, which increases the resonance frequency of the vocal cords. Helium leaks from damaged or faulty valves more readily than other gases because atoms of helium are smaller allowing them to pass through smaller gaps in seals.
+Helium is found in significant amounts only in natural gas, from which it is extracted at low temperatures by fractional distillation.
+NEON
+Section::::Neon.
+Neon (Ne) is an inert gas sometimes used in deep commercial diving but is very expensive. Like helium, it is less narcotic than nitrogen, but unlike helium, it does not distort the diver's voice. Compared to helium, neon has superior thermal insulating properties.
+HYDROGEN
+Section::::Hydrogen.
+Hydrogen (H) has been used in deep diving gas mixes but is very explosive when mixed with more than about 4 to 5% oxygen (such as the oxygen found in breathing gas). This limits use of hydrogen to deep dives and imposes complicated protocols to ensure that excess oxygen is cleared from the breathing equipment before breathing hydrogen starts. Like helium, it raises the timbre of the diver's voice. The hydrogen-oxygen mix when used as a diving gas is sometimes referred to as Hydrox. Mixtures containing both hydrogen and helium as diluents are termed Hydreliox.
+UNWELCOME COMPONENTS OF BREATHING GASES FOR DIVING
+Section::::Unwelcome components of breathing gases for diving.
+Many gases are not suitable for use in diving breathing gases. Here is an incomplete list of gases commonly present in a diving environment:
+ARGON
+Section::::Argon.
+Argon (Ar) is an inert gas that is more narcotic than nitrogen, so is not generally suitable as a diving breathing gas. Argox is used for decompression research. It is sometimes used for dry suit inflation by divers whose primary breathing gas is helium-based, because of argon's good thermal insulation properties. Argon is more expensive than air or oxygen, but considerably less expensive than helium. Argon is a component of natural air, and constitutes 0.934% by volume of the Earth's atmosphere.
+CARBON DIOXIDE
+Section::::Carbon dioxide.
+Carbon dioxide (CO) is produced by the metabolism in the human body and can cause carbon dioxide poisoning. When breathing gas is recycled in a rebreather or life support system, the carbon dioxide is removed by scrubbers before the gas is re-used.
+CARBON MONOXIDE
+Section::::Carbon monoxide.
+Carbon monoxide (CO) is produced by incomplete combustion. See carbon monoxide poisoning. Four common sources are:
+* Internal combustion engine exhaust gas containing CO in the air being drawn into a diving air compressor. CO in the intake air cannot be stopped by any filter. The exhausts of all internal combustion engines running on petroleum fuels contain some CO, and this is a particular problem on boats, where the intake of the compressor cannot be arbitrarily moved as far as desired from the engine and compressor exhausts.
+* Heating of lubricants inside the compressor may vaporize them sufficiently to be available to a compressor intake or intake system line.
+* In some cases hydrocarbon lubricating oil may be drawn into the compressor's cylinder directly through damaged or worn seals, and the oil may (and usually will) then undergo combustion, being ignited by the immense compression ratio and subsequent temperature rise. Since heavy oils don't burn well – especially when not atomized properly – incomplete combustion will result in carbon monoxide production.
+* A similar process is thought to potentially happen to any particulate material, which contains "organic" (carbon-containing) matter, especially in cylinders which are used for hyperoxic gas mixtures. If the compressor air filter(s) fail, ordinary dust will be introduced to the cylinder, which contains organic matter (since it usually contains humus). A more severe danger is that air particulates on boats and industrial areas, where cylinders are filled, often contain carbon-particulate combustion products (these are what makes a dirt rag black), and these represent a more severe CO danger when introduced into a cylinder.
+Carbon monoxide is generally avoided as far as is reasonably practicable by positioning of the air intake in uncontaminated air, filtration of particulates from the intake air, use of suitable compressor design and appropriate lubricants, and ensuring that running temperatures are not excessive. Where the residual risk is excessive, a hopcalite catalyst can be used in the high pressure filter to convert carbon monoxide into carbon dioxide, which is far less toxic.
+HYDROCARBONS
+Section::::Hydrocarbons.
+Hydrocarbons (CH) are present in compressor lubricants and fuels. They can enter diving cylinders as a result of contamination, leaks, or due to incomplete combustion near the air intake.
+* They can act as a fuel in combustion increasing the risk of explosion, especially in high-oxygen gas mixtures.
+* Inhaling oil mist can damage the lungs and ultimately cause the lungs to degenerate with severe lipid pneumonia or emphysema.
+MOISTURE CONTENT
+Section::::Moisture content.
+The process of compressing gas into a diving cylinder removes moisture from the gas. This is good for corrosion prevention in the cylinder but means that the diver inhales very dry gas. The dry gas extracts moisture from the diver's lungs while underwater contributing to dehydration, which is also thought to be a predisposing risk factor of decompression sickness. It is also uncomfortable, causing a dry mouth and throat and making the diver thirsty. This problem is reduced in rebreathers because the soda lime reaction, which removes carbon dioxide, also puts moisture back into the breathing gas. In hot climates, open circuit diving can accelerate heat exhaustion because of dehydration. Another concern with regard to moisture content is the tendency of moisture to condense as the gas is decompressed while passing through the regulator; this coupled with the extreme reduction in temperature, also due to the decompression can cause the moisture to solidify as ice. This icing up in a regulator can cause moving parts to seize and the regulator to fail or free flow.
+This is one of the reasons that scuba regulators are generally constructed from brass, and chrome plated (for protection). Brass, with its good thermal conductive properties, quickly conducts heat from the surrounding water to the cold, newly decompressed air, helping to prevent icing up.
+GAS DETECTION AND MEASUREMENT
+Section::::Gas detection and measurement.
+It is difficult to detect most gases that are likely to be present in diving cylinders because they are colourless, odourless and tasteless. Electronic sensors exist for some gases, such as oxygen analysers, helium analyser, carbon monoxide detectors and carbon dioxide detectors. Oxygen analysers are commonly found underwater in rebreathers. Oxygen and helium analysers are often used on the surface during gas blending to determine the percentage of oxygen or helium in a breathing gas mix. Chemical and other types of gas detection methods are not often used in recreational diving, but are used for periodical quality testing of compressed breathing air from diving air compressors.
+BREATHING GAS STANDARDS
+Section::::Breathing gas standards.
+Standards for breathing gas quality are published by national and international organisations, and may be enforced in terms of legislation. In the UK, the Health and Safety Executive indicate that the requirements for breathing gases for divers are based on the BS EN 12021:2014.
+The specifications are listed for oxygen compatible air, nitrox mixtures produced by adding oxygen, removing nitrogen, or mixing nitrogen and oxygen, mixtures of helium and oxygen (heliox), mixtures of helium, nitrogen and oxygen (trimix), and pure oxygen, for both open circuit and reclaim systems, and for high pressure and low pressure supply (above and below 40 bar supply). 
+Oxygen content is variable depending on the operating depth, but the tolerance depends on the gas fraction range, being ±0.25% for an oxygen fraction below 10% by volume, ±0.5% for a fraction between 10% and 20%, and ±1% for a fraction over 20%.
+Water content is limited by risks of icing of control valves, and corrosion of containment surfaces – higher humidity is not a physiological problem – and is generally a factor of dew point.
+Other specified contaminants are carbon dioxide, carbon monoxide, oil, and volatile hydrocarbons, which are limited by toxic effects. Other possible contaminants should be analysed based on risk assessment, and the required frequency of testing for contaminants is also based on risk assessment.
+In Australia breathing air quality is specified by Australian Standard 2299.1, Section 3.13 Breathing Gas Quality.
+DIVING GAS BLENDING
+Section::::Diving gas blending.
+Gas blending (or Gas mixing) of breathing gases for diving is the filling of gas cylinders with non-air breathing gases.
+Filling cylinders with a mixture of gases has dangers for both the filler and the diver. During filling there is a risk of fire due to use of oxygen and a risk of explosion due to the use of high-pressure gases. The composition of the mix must be safe for the depth and duration of the planned dive. If the concentration of oxygen is too lean the diver may lose consciousness due to hypoxia and if it is too rich the diver may suffer oxygen toxicity. The concentration of inert gases, such as nitrogen and helium, are planned and checked to avoid nitrogen narcosis and decompression sickness.
+Methods used include batch mixing by partial pressure or by mass fraction, and continuous blending processes. Completed blends are analysed for composition for the safety of the user. Gas blenders may be required by legislation to prove competence if filling for other persons.
+HYPOBARIC BREATHING GASES
+Section::::Hypobaric breathing gases.
+Breathing gases for use at reduced ambient pressure are used for high altitude flight in unpressurised aircraft, in space flight, particularly in space suits, and for high altitude mountaineering. In all these cases, the primary consideration is providing an adequate partial pressure of oxygen. In some cases the breathing gas has oxygen added to make up a sufficient concentration, and in other cases the breathing gas may be pure or nearly pure oxygen. Closed circuit systems may be used to conserve the breathing gas, which may be in limited supply - in the case of mountaineering the user must carry the supplemental oxygen, and in space flight the cost of lifting mass into orbit is very high.
+MEDICAL BREATHING GASES
+Section::::Medical breathing gases.
+Medical use of breathing gases other than air include oxygen therapy and anesthesia applications. 
+OXYGEN THERAPY
+Section::::Oxygen therapy.
+Oxygen is required by people for normal cell metabolism. Air is typically 21% oxygen by volume. This is normally sufficient, but in some circumstances the oxygen supply to tissues is compromised. 
+Oxygen therapy, also known as supplemental oxygen, is the use of oxygen as a medical treatment. This can include for low blood oxygen, carbon monoxide toxicity, cluster headaches, and to maintain enough oxygen while inhaled anesthetics are given. Long term oxygen is often useful in people with chronically low oxygen such as from severe COPD or cystic fibrosis. Oxygen can be given in a number of ways including nasal cannula, face mask, and inside a hyperbaric chamber. 
+High concentrations of oxygen can cause oxygen toxicity such as lung damage or result in respiratory failure in those who are predisposed. It can also dry out the nose and increase the risk of fires in those who smoke. The target oxygen saturation recommended depends on the condition being treated. In most conditions a saturation of 94-98% is recommended, while in those at risk of carbon dioxide retention saturations of 88-92% are preferred, and in those with carbon monoxide toxicity or cardiac arrest the saturation should be as high as possible.
+The use of oxygen in medicine become common around 1917. It is on the World Health Organization's List of Essential Medicines, the most effective and safe medicines needed in a health system. The cost of home oxygen is about US$150 a month in Brazil and US$400 a month in the United States. Home oxygen can be provided either by oxygen tanks or an oxygen concentrator. Oxygen is believed to be the most common treatment given in hospitals in the developed world.
+ANAESTHETIC GASES
+Section::::Anaesthetic gases.
+The most common approach to general anaesthesia is through the use of inhaled general anesthetics. Each has its own potency which is correlated to its solubility in oil. This relationship exists because the drugs bind directly to cavities in proteins of the central nervous system, although several theories of general anaesthetic action have been described. Inhalational anesthetics are thought to exact their effects on different parts of the central nervous system. For instance, the immobilizing effect of inhaled anesthetics results from an effect on the spinal cord whereas sedation, hypnosis and amnesia involve sites in the brain. 
+An inhalational anaesthetic is a chemical compound possessing general anaesthetic properties that can be delivered via inhalation. Agents of significant contemporary clinical interest include volatile anaesthetic agents such as isoflurane, sevoflurane and desflurane, and anaesthetic gases such as nitrous oxide and xenon.
+ADMINISTRATION
+Section::::Administration.
+Anaesthetic gases are administered by anaesthetists (a term which includes anaesthesiologists, nurse anaesthetists, and anaesthesiologist assistants) through an anaesthesia mask, laryngeal mask airway or tracheal tube connected to an anaesthetic vaporiser and an anaesthetic delivery system.
+The anaesthetic machine (UK English) or anesthesia machine (US English) or Boyle's machine is used to support the administration of anaesthesia. The most common type of anaesthetic machine in use in the developed world is the continuous-flow anaesthetic machine, which is designed to provide an accurate and continuous supply of medical gases (such as oxygen and nitrous oxide), mixed with an accurate concentration of anaesthetic vapour (such as isoflurane), and deliver this to the patient at a safe pressure and flow. Modern machines incorporate a ventilator, suction unit, and patient monitoring devices.
+SEE ALSO
+REFERENCES
+EXTERNAL LINKS

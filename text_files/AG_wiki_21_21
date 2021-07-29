@@ -1,0 +1,127 @@
+
+PROBABILITY DENSITY FUNCTION
+In probability theory, a probability density function (PDF), or density of a continuous random variable, is a function, whose value at any given sample (or point) in the sample space (the set of possible values taken by the random variable) can be interpreted as providing a relative likelihood that the value of the random variable would equal that sample. In other words, while the absolute likelihood for a continuous random variable to take on any particular value is 0 (since there are an infinite set of possible values to begin with), the value of the PDF at two different samples can be used to infer, in any particular draw of the random variable, how much more likely it is that the random variable would equal one sample compared to the other sample.
+In a more precise sense, the PDF is used to specify the probability of the random variable falling within a particular range of values, as opposed to taking on any one value. This probability is given by the integral of this variable's PDF over that range—that is, it is given by the area under the density function but above the horizontal axis and between the lowest and greatest values of the range. The probability density function is nonnegative everywhere, and its integral over the entire space is equal to one.
+The terms "probability distribution function" and "probability function" have also sometimes been used to denote the probability density function. However, this use is not standard among probabilists and statisticians. In other sources, "probability distribution function" may be used when the probability distribution is defined as a function over general sets of values, or it may refer to the cumulative distribution function, or it may be a probability mass function (PMF) rather than the density. "Density function" itself is also used for the probability mass function, leading to further confusion. In general though, the PMF is used in the context of discrete random variables (random variables that take values on a discrete set), while PDF is used in the context of continuous random variables.
+EXAMPLE
+Section::::Example.
+Suppose a species of bacteria typically lives 4 to 6 hours. What is the probability that a bacterium lives 5 hours? The answer is 0%. A lot of bacteria live for 5 hours, but there is no chance that any given bacterium dies at 5.0000000000... hours.
+Instead one might ask: What is the probability that the bacterium dies between 5 hours and 5.01 hours? Suppose the answer is 0.02 (i.e., 2%). Next: What is the probability that the bacterium dies between 5 hours and 5.001 hours? The answer should be about 0.002, since this time interval is one-tenth as long as the previous. The probability that the bacterium dies between 5 hours and 5.0001 hours should be about 0.0002, and so on.
+In these three examples, the ratio (probability of dying during an interval) / (duration of the interval) is approximately constant, and equal to 2 per hour (or 2 hour). For example, there is 0.02 probability of dying in the 0.01-hour interval between 5 and 5.01 hours, and (0.02 probability / 0.01 hours) = 2 hour. This quantity 2 hour is called the probability density for dying at around 5 hours.
+Therefore, in response to the question "What is the probability that the bacterium dies at 5 hours?", a literally correct but unhelpful answer is "0", but a better answer can be written as (2 hour) dt. This is the probability that the bacterium dies within a small (infinitesimal) window of time around 5 hours, where dt is the duration of this window.
+For example, the probability that it lives longer than 5 hours, but shorter than (5 hours + 1 nanosecond), is (2 hour)×(1 nanosecond) ≃ 6×10 (using the unit conversion 3.6×10 nanoseconds = 1 hour).
+There is a probability density function f with f(5 hours) = 2 hour. The integral of f over any window of time (not only infinitesimal windows but also large windows) is the probability that the bacterium dies in that window.
+ABSOLUTELY CONTINUOUS UNIVARIATE DISTRIBUTIONS
+Section::::Absolutely continuous univariate distributions.
+A probability density function is most commonly associated with absolutely continuous univariate distributions. A random variable X has density f, where f is a non-negative Lebesgue-integrable function, if:
+Hence, if F is the cumulative distribution function of X, then:
+and (if f is continuous at x)
+Intuitively, one can think of f(x) dx as being the probability of X falling within the infinitesimal interval [x, x + dx].
+FORMAL DEFINITION
+Section::::Formal definition.
+A random variable X with values in a measurable space formula_4
+(usually formula_5 with the Borel sets as measurable subsets) has as probability distribution the measure XP on formula_4: the density of X with respect to a reference measure μ on formula_4 is the Radon–Nikodym derivative:
+That is, f is any measurable function with the property that:
+for any measurable set formula_10.
+DISCUSSION
+Section::::Discussion.
+In the continuous univariate case above, the reference measure is the Lebesgue measure. The probability mass function of a discrete random variable is the density with respect to the counting measure over the sample space (usually the set of integers, or some subset thereof).
+Note that it is not possible to define a density with reference to an arbitrary measure (e.g. one can't choose the counting measure as a reference for a continuous random variable). Furthermore, when it does exist, the density is almost everywhere unique.
+FURTHER DETAILS
+Section::::Further details.
+Unlike a probability, a probability density function can take on values greater than one; for example, the uniform distribution on the interval [0, ½] has probability density f(x) = 2 for 0 ≤ x ≤ ½ and f(x) = 0 elsewhere.
+The standard normal distribution has probability density
+If a random variable X is given and its distribution admits a probability density function f, then the expected value of X (if the expected value exists) can be calculated as
+Not every probability distribution has a density function: the distributions of discrete random variables do not; nor does the Cantor distribution, even though it has no discrete component, i.e., does not assign positive probability to any individual point.
+A distribution has a density function if and only if its cumulative distribution function F(x) is absolutely continuous. In this case: F is almost everywhere differentiable, and its derivative can be used as probability density:
+If a probability distribution admits a density, then the probability of every one-point set {a} is zero; the same holds for finite and countable sets.
+Two probability densities f and g represent the same probability distribution precisely if they differ only on a set of Lebesgue measure zero.
+In the field of statistical physics, a non-formal reformulation of the relation above between the derivative of the cumulative distribution function and the probability density function is generally used as the definition of the probability density function. This alternate definition is the following:
+If dt is an infinitely small number, the probability that X is included within the interval (t, t + dt) is equal to f(t) dt, or:
+LINK BETWEEN DISCRETE AND CONTINUOUS DISTRIBUTIONS
+Section::::Link between discrete and continuous distributions.
+It is possible to represent certain discrete random variables as well as random variables involving both a continuous and a discrete part with a generalized probability density function, by using the Dirac delta function. For example, let us consider a binary discrete random variable having the Rademacher distribution—that is, taking −1 or 1 for values, with probability ½ each. The density of probability associated with this variable is:
+More generally, if a discrete variable can take n different values among real numbers, then the associated probability density function is:
+where x, …, x are the discrete values accessible to the variable and p, …, p are the probabilities associated with these values.
+This substantially unifies the treatment of discrete and continuous probability distributions. For instance, the above expression allows for determining statistical characteristics of such a discrete variable (such as its mean, its variance and its kurtosis), starting from the formulas given for a continuous distribution of the probability.
+FAMILIES OF DENSITIES
+Section::::Families of densities.
+It is common for probability density functions (and probability mass functions) to
+be parametrized—that is, to be characterized by unspecified parameters. For example, the normal distribution is parametrized in terms of the mean and the variance, denoted by formula_17 and formula_18 respectively, giving the family of densities
+It is important to keep in mind the difference between the domain of a family of densities and the parameters of the family. Different values of the parameters describe different distributions of different random variables on the same sample space (the same set of all possible values of the variable); this sample space is the domain of the family of random variables that this family of distributions describes. A given set of parameters describes a single distribution within the family sharing the functional form of the density. From the perspective of a given distribution, the parameters are constants, and terms in a density function that contain only parameters, but not variables, are part of the normalization factor of a distribution (the multiplicative factor that ensures that the area under the density—the probability of something in the domain occurring— equals 1). This normalization factor is outside the kernel of the distribution.
+Since the parameters are constants, reparametrizing a density in terms of different parameters, to give a characterization of a different random variable in the family, means simply substituting the new parameter values into the formula in place of the old ones. Changing the domain of a probability density, however, is trickier and requires more work: see the section below on change of variables.
+DENSITIES ASSOCIATED WITH MULTIPLE VARIABLES
+Section::::Densities associated with multiple variables.
+For continuous random variables X, …, X, it is also possible to define a probability density function associated to the set as a whole, often called joint probability density function. This density function is defined as a function of the n variables, such that, for any domain D in the n-dimensional space of the values of the variables X, …, X, the probability that a realisation of the set variables falls inside the domain D is
+If F(x, …, x) = Pr(X ≤ x, …, X ≤ x) is the cumulative distribution function of the vector (X, …, X), then the joint probability density function can be computed as a partial derivative
+MARGINAL DENSITIES
+Section::::Marginal densities.
+For i=1, 2, ...,n, let f(x) be the probability density function associated with variable X alone. This is called the marginal density function, and can be deduced from the probability density associated with the random variables X, ..., X by integrating over all values of the other n − 1 variables:
+INDEPENDENCE
+Section::::Independence.
+Continuous random variables X, ..., X admitting a joint density are all independent from each other if and only if
+COROLLARY
+Section::::Corollary.
+If the joint probability density function of a vector of n random variables can be factored into a product of n functions of one variable
+(where each f is not necessarily a density) then the n variables in the set are all independent from each other, and the marginal probability density function of each of them is given by
+EXAMPLE
+Section::::Example.
+This elementary example illustrates the above definition of multidimensional probability density functions in the simple case of a function of a set of two variables. Let us call formula_26 a 2-dimensional random vector of coordinates (X, Y): the probability to obtain formula_26 in the quarter plane of positive x and y is
+DEPENDENT VARIABLES AND CHANGE OF VARIABLES
+Section::::Dependent variables and change of variables.
+If the probability density function of a random variable X is given as f(x), it is possible (but often not necessary; see below) to calculate the probability density function of some variable . This is also called a "change of variable" and is in practice used to generate a random variable of arbitrary shape using a known (for instance, uniform) random number generator.
+If the function g is monotonic, then the resulting density function is
+Here g denotes the inverse function.
+This follows from the fact that the probability contained in a differential area must be invariant under change of variables. That is,
+or
+For functions that are not monotonic, the probability density function for y is
+where n(y) is the number of solutions in x for the equation formula_33, and formula_34 are these solutions.
+It is tempting to think that in order to find the expected value E(g(X)), one must first find the probability density f of the new random variable . However, rather than computing
+one may find instead
+The values of the two integrals are the same in all cases in which both X and g(X) actually have probability density functions. It is not necessary that g be a one-to-one function. In some cases the latter integral is computed much more easily than the former. See Law of the unconscious statistician.
+MULTIPLE VARIABLES
+Section::::Multiple variables.
+The above formulas can be generalized to variables (which we will again call y) depending on more than one other variable. f(x, …, x) shall denote the probability density function of the variables that y depends on, and the dependence shall be . Then, the resulting density function is
+where the integral is over the entire (n − 1)-dimensional solution of the subscripted equation and the symbolic dV must be replaced by a parametrization of this solution for a particular calculation; the variables x, …, x are then of course functions of this parametrization.
+This derives from the following, perhaps more intuitive representation: Suppose x is an n-dimensional random variable with joint density f. If , where H is a bijective, differentiable function, then y has density g:
+with the differential regarded as the Jacobian of the inverse of H, evaluated at y.
+For example, in the 2-dimensional case x = (x, x), suppose the transform H is given as y = H(x, x), y = H(x, x) with inverses x = H(y, y), x = H(y, y). The joint distribution for y = (y, y) has density
+Using the delta-function (and assuming independence), the same result is formulated as follows.
+If the probability density function of independent random variables X, are given as f(x), it is possible to calculate the probability density function of some variable . The following formula establishes a connection between the probability density function of Y denoted by f(y) and f(x) using the Dirac delta function:
+SUMS OF INDEPENDENT RANDOM VARIABLES
+Section::::Sums of independent random variables.
+The probability density function of the sum of two independent random variables U and V, each of which has a probability density function, is the convolution of their separate density functions:
+It is possible to generalize the previous relation to a sum of N independent random variables, with densities U, …, U:
+This can be derived from a two-way change of variables involving Y=U+V and Z=V, similarly to the example below for the quotient of independent random variables.
+PRODUCTS AND QUOTIENTS OF INDEPENDENT RANDOM VARIABLES
+Section::::Products and quotients of independent random variables.
+Given two independent random variables U and V, each of which has a probability density function, the density of the product Y = UV and quotient Y=U/V can be computed by a change of variables.
+EXAMPLE: QUOTIENT DISTRIBUTION
+Section::::Example: Quotient distribution.
+To compute the quotient Y = U/V of two independent random variables U and V, define the following transformation:
+Then, the joint density p(y,z) can be computed by a change of variables from U,V to Y,Z, and Y can be derived by marginalizing out Z from the joint density.
+The inverse transformation is
+The Jacobian matrix formula_47 of this transformation is
+Thus:
+And the distribution of Y can be computed by marginalizing out Z:
+Note that this method crucially requires that the transformation from U,V to Y,Z be bijective. The above transformation meets this because Z can be mapped directly back to V, and for a given V the quotient U/V is monotonic. This is similarly the case for the sum U + V, difference U − V and product UV.
+Exactly the same method can be used to compute the distribution of other functions of multiple independent random variables.
+EXAMPLE: QUOTIENT OF TWO STANDARD NORMALS
+Section::::Example: Quotient of two standard normals.
+Given two standard normal variables U and V, the quotient can be computed as follows. First, the variables have the following density functions:
+We transform as described above:
+This leads to:
+This is the density of a standard Cauchy distribution.
+SEE ALSO
+* Density estimation
+* Kernel density estimation
+* Likelihood function
+* List of probability distributions
+* Probability mass function
+* Secondary measure
+* Uses as position probability density:
+* Atomic orbital
+* Home range
+REFERENCES
+BIBLIOGRAPHY
+EXTERNAL LINKS

@@ -1,0 +1,666 @@
+
+STUDENT'S T-DISTRIBUTION
+\!
+* ψ: digamma function,
+* B: beta function
+ mgf = undefined
+* formula_13: modified Bessel function of the second kind
+In probability and statistics, Student's t-distribution (or simply the t-distribution) is any member of a family of continuous probability distributions that arises when estimating the mean of a normally distributed population in situations where the sample size is small and population standard deviation is unknown. It was developed by William Sealy Gosset under the pseudonym Student.
+The t-distribution plays a role in a number of widely used statistical analyses, including Student's t-test for assessing the statistical significance of the difference between two sample means, the construction of confidence intervals for the difference between two population means, and in linear regression analysis. The Student's t-distribution also arises in the Bayesian analysis of data from a normal family.
+If we take a sample of n observations from a normal distribution, then the t-distribution with formula_14 degrees of freedom can be defined as the distribution of the location of the sample mean relative to the true mean, divided by the sample standard deviation, after multiplying by the standardizing term formula_15. In this way, the t-distribution can be used to construct a confidence interval for the true mean.
+The t-distribution is symmetric and bell-shaped, like the normal distribution, but has heavier tails, meaning that it is more prone to producing values that fall far from its mean. This makes it useful for understanding the statistical behavior of certain types of ratios of random quantities, in which variation in the denominator is amplified and may produce outlying values when the denominator of the ratio falls close to zero. The Student's t-distribution is a special case of the generalised hyperbolic distribution.
+HISTORY AND ETYMOLOGY
+Section::::History and etymology.
+In statistics, the t-distribution was first derived as a posterior distribution in 1876 by Helmert and Lüroth. The t-distribution also appeared in a more general form as Pearson Type IV distribution in Karl Pearson's 1895 paper.
+In the English-language literature the distribution takes its name from William Sealy Gosset's 1908 paper in Biometrika under the pseudonym "Student". Gosset worked at the Guinness Brewery in Dublin, Ireland, and was interested in the problems of small samples – for example, the chemical properties of barley where sample sizes might be as few as 3. One version of the origin of the pseudonym is that Gosset's employer preferred staff to use pen names when publishing scientific papers instead of their real name, so he used the name "Student" to hide his identity. Another version is that Guinness did not want their competitors to know that they were using the t-test to determine the quality of raw material.
+Gosset's paper refers to the distribution as the "frequency distribution of standard deviations of samples drawn from a normal population". It became well-known through the work of Ronald Fisher, who called the distribution "Student's distribution" and represented the test value with the letter t.
+HOW STUDENT'S DISTRIBUTION ARISES FROM SAMPLING
+Section::::How Student's distribution arises from sampling.
+Let formula_16 be independent and identically distributed as formula_17, i.e. this is a sample of size formula_18 from a normally distributed population with expected mean value formula_19 and variance formula_20.
+Let
+be the sample mean and let
+be the (Bessel-corrected) sample variance. Then the random variable
+has a standard normal distribution (i.e. normal with expected value 0 and variance 1), and the random variable
+(where formula_25 has been substituted for formula_26 ) has a Student's t-distribution with formula_27 degrees of freedom. Note that the numerator and the denominator in the preceding expression are independent random variables, which can be proven by induction.
+DEFINITION
+PROBABILITY DENSITY FUNCTION
+Section::::Definition.
+Section::::Probability density function.
+Student's t-distribution has the probability density function given by
+where formula_29 is the number of degrees of freedom and formula_30 is the gamma function. This may also be written as
+where B is the Beta function. In particular for integer valued degrees of freedom formula_32 we have:
+For formula_33 even,
+For formula_33 odd,
+The probability density function is symmetric, and its overall shape resembles the bell shape of a normally distributed variable with mean 0 and variance 1, except that it is a bit lower and wider. As the number of degrees of freedom grows, the t-distribution approaches the normal distribution with mean 0 and variance 1. For this reason formula_37 is also known as the normality parameter.
+The following images show the density of the t-distribution for increasing values of formula_29. The normal distribution is shown as a blue line for comparison. Note that the t-distribution (red line) becomes closer to the normal distribution as formula_29 increases.
++ Density of the t-distribution (red) for 1, 2, 3, 5, 10, and 30 degrees of freedom compared to the standard normal distribution (blue).Previous plots shown in green.
+CUMULATIVE DISTRIBUTION FUNCTION
+Section::::Cumulative distribution function.
+The cumulative distribution function can be written in terms of I, the regularized
+incomplete beta function. For t > 0,
+where
+Other values would be obtained by symmetry. An alternative formula, valid for formula_42, is
+where F is a particular case of the hypergeometric function.
+For information on its inverse cumulative distribution function, see quantile function#Student's t-distribution.
+SPECIAL CASES
+Section::::Special cases.
+Certain values of formula_29 give an especially simple form.
+* formula_45
+* formula_48
+* formula_51
+* formula_53
+HOW THE T-DISTRIBUTION ARISES
+SAMPLING DISTRIBUTION
+Section::::How the t-distribution arises.
+Section::::Sampling distribution.
+Let formula_55 be the numbers observed in a sample from a continuously distributed population with expected value formula_56. The sample mean and sample variance are given by:
+The resulting t-value is
+The t-distribution with formula_27 degrees of freedom is the sampling distribution of the t-value when the samples consist of independent identically distributed observations from a normally distributed population. Thus for inference purposes t is a useful "pivotal quantity" in the case when the mean and variance formula_60 are unknown population parameters, in the sense that the t-value has then a probability distribution that depends on neither formula_56 nor formula_20.
+BAYESIAN INFERENCE
+Section::::Bayesian inference.
+In Bayesian statistics, a (scaled, shifted) t-distribution arises as the marginal distribution of the unknown mean of a normal distribution, when the dependence on an unknown variance has been marginalised out:
+where formula_64 stands for the data formula_65, and formula_66 represents any other information that may have been used to create the model. The distribution is thus the compounding of the conditional distribution of formula_56 given the data and formula_20 with the marginal distribution of formula_20 given the data.
+With formula_18 data points, if uninformative, or flat, location and scale priors formula_71 and formula_72 can be taken for μ and σ, then Bayes' theorem gives
+a normal distribution and a scaled inverse chi-squared distribution respectively, where formula_74 and
+The marginalisation integral thus becomes
+This can be evaluated by substituting formula_77, where formula_78, giving
+so
+But the z integral is now a standard Gamma integral, which evaluates to a constant, leaving
+This is a form of the t-distribution with an explicit scaling and shifting that will be explored in more detail in a further section below. It can be related to the standardised t-distribution by the substitution
+The derivation above has been presented for the case of uninformative priors for formula_56 and formula_20; but it will be apparent that any priors that lead to a normal distribution being compounded with a scaled inverse chi-squared distribution will lead to a t-distribution with scaling and shifting for formula_85, although the scaling parameter corresponding to formula_86 above will then be influenced both by the prior information and the data, rather than just by the data as above.
+CHARACTERIZATION
+AS THE DISTRIBUTION OF A TEST STATISTIC
+Section::::Characterization.
+Section::::As the distribution of a test statistic.
+Student's t-distribution with formula_29 degrees of freedom can be defined as the distribution of the random variable T with
+where
+* Z is a standard normal with expected value 0 and variance 1;
+* V has a chi-squared distribution with formula_29 degrees of freedom;
+* Z and V are independent.
+A different distribution is defined as that of the random variable defined, for a given constant μ, by
+This random variable has a noncentral t-distribution with noncentrality parameter μ. This distribution is important in studies of the power of Student's t-test.
+DERIVATION
+Section::::Derivation.
+Suppose X, ..., X are independent realizations of the normally-distributed, random variable X, which has an expected value μ and variance σ. Let
+be the sample mean, and
+be an unbiased estimate of the variance from the sample. It can be shown that the random variable
+has a chi-squared distribution with formula_74 degrees of freedom (by Cochran's theorem). It is readily shown that the quantity
+is normally distributed with mean 0 and variance 1, since the sample mean formula_96 is normally distributed with mean μ and variance σ/n. Moreover, it is possible to show that these two random variables (the normally distributed one Z and the chi-squared-distributed one V) are independent. Consequently the pivotal quantity
+which differs from Z in that the exact standard deviation σ is replaced by the random variable S, has a Student's t-distribution as defined above. Notice that the unknown population variance σ does not appear in T, since it was in both the numerator and the denominator, so it canceled. Gosset intuitively obtained the probability density function stated above, with formula_29 equal to n − 1, and Fisher proved it in 1925.
+The distribution of the test statistic T depends on formula_29, but not μ or σ; the lack of dependence on μ and σ is what makes the t-distribution important in both theory and practice.
+AS A MAXIMUM ENTROPY DISTRIBUTION
+Section::::As a maximum entropy distribution.
+Student's t-distribution is the maximum entropy probability distribution for a random variate X for which formula_100 is fixed.
+PROPERTIES
+MOMENTS
+Section::::Properties.
+Section::::Moments.
+For formula_2, the raw moments of the t-distribution are
+Moments of order formula_29 or higher do not exist.
+The term for formula_104, k even, may be simplified using the properties of the gamma function to
+For a t-distribution with formula_29 degrees of freedom, the expected value is 0 if formula_107, and its variance is formula_108 if formula_109. The skewness is 0 if formula_6 and the excess kurtosis is formula_111 if formula_8.
+MONTE CARLO SAMPLING
+Section::::Monte Carlo sampling.
+There are various approaches to constructing random samples from the Student's t-distribution. The matter depends on whether the samples are required on a stand-alone basis, or are to be constructed by application of a quantile function to uniform samples; e.g., in the multi-dimensional applications basis of copula-dependency. In the case of stand-alone sampling, an extension of the Box–Muller method and its polar form is easily deployed. It has the merit that it applies equally well to all real positive degrees of freedom, ν, while many other candidate methods fail if ν is close to zero.
+INTEGRAL OF STUDENT'S PROBABILITY DENSITY FUNCTION AND P-VALUE
+Section::::Integral of Student's probability density function and p-value.
+The function A(tν) is the integral of Student's probability density function, f(t) between −t and t, for t ≥ 0. It thus gives the probability that a value of t less than that calculated from observed data would occur by chance. Therefore, the function A(tν) can be used when testing whether the difference between the means of two sets of data is statistically significant, by calculating the corresponding value of t and the probability of its occurrence if the two sets of data were drawn from the same population. This is used in a variety of situations, particularly in t-tests. For the statistic t, with ν degrees of freedom, A(tν) is the probability that t would be less than the observed value if the two means were the same (provided that the smaller mean is subtracted from the larger, so that t ≥ 0). It can be easily calculated from the cumulative distribution function F(t) of the t-distribution:
+where I is the regularized incomplete beta function (a, b).
+For statistical hypothesis testing this function is used to construct the p-value.
+GENERALIZED STUDENT'S T-DISTRIBUTION
+IN TERMS OF SCALING PARAMETER Σ, OR Σ
+Section::::Generalized Student's t-distribution.
+Section::::In terms of scaling parameter σ, or σ.
+Student's t distribution can be generalized to a three parameter location-scale family, introducing a location parameter formula_56 and a scale parameter formula_26, through the relation
+or
+This means that formula_118 has a classic Student's t distribution with formula_119 degrees of freedom.
+The resulting non-standardized Student's t-distribution has a density defined by
+Here, formula_26 does not correspond to a standard deviation: it is not the standard deviation of the scaled t distribution, which may not even exist; nor is it the standard deviation of the underlying normal distribution, which is unknown. formula_26 simply sets the overall scaling of the distribution. In the Bayesian derivation of the marginal distribution of an unknown normal mean formula_56 above, formula_26 as used here corresponds to the quantity formula_125, where
+Equivalently, the distribution can be written in terms of formula_20, the square of this scale parameter:
+Other properties of this version of the distribution are:
+This distribution results from compounding a Gaussian distribution (normal distribution) with mean formula_56 and unknown variance, with an inverse gamma distribution placed over the variance with parameters formula_131 and formula_132. In other words, the random variable X is assumed to have a Gaussian distribution with an unknown variance distributed as inverse gamma, and then the variance is marginalized out (integrated out). The reason for the usefulness of this characterization is that the inverse gamma distribution is the conjugate prior distribution of the variance of a Gaussian distribution. As a result, the non-standardized Student's t-distribution arises naturally in many Bayesian inference problems. See below.
+Equivalently, this distribution results from compounding a Gaussian distribution with a scaled-inverse-chi-squared distribution with parameters formula_29 and formula_20. The scaled-inverse-chi-squared distribution is exactly the same distribution as the inverse gamma distribution, but with a different parameterization, i.e. formula_135.
+IN TERMS OF INVERSE SCALING PARAMETER Λ
+Section::::In terms of inverse scaling parameter λ.
+An alternative parameterization in terms of an inverse scaling parameter formula_136 (analogous to the way precision is the reciprocal of variance), defined by the relation formula_137. Then the density is defined by
+Other properties of this version of the distribution are:
+This distribution results from compounding a Gaussian distribution with mean formula_56 and unknown precision (the reciprocal of the variance), with a gamma distribution placed over the precision with parameters formula_131 and formula_142. In other words, the random variable X is assumed to have a normal distribution with an unknown precision distributed as gamma, and then this is marginalized over the gamma distribution.
+RELATED DISTRIBUTIONS
+* If formula_143 has a Student's t-distribution with degree of freedom formula_29 then X has an F-distribution: formula_145
+* If formula_143 has a Student's t-distribution with degree of freedom formula_29 then one can obtain a Beta distribution: formula_148
+* The noncentral t-distribution generalizes the t-distribution to include a location parameter. Unlike the nonstandardized t-distributions, the noncentral distributions are not symmetric (the median is not the same as the mode).
+* The discrete Student's t-distribution is defined by its probability mass function at r being proportional to:
+* One can generate Student-t samples by taking the ratio of variables from the normal distribution and the square-root of . If we use instead of the normal distribution, e.g., the Irwin–Hall distribution, we obtain over-all a symmetric 4-parameter distribution, which includes the normal, the uniform, the triangular, the Student-t and the Cauchy distribution. This is also more flexible than some other symmetric generalizations of the normal distribution.
+USES
+IN FREQUENTIST STATISTICAL INFERENCE
+Section::::Uses.
+Section::::In frequentist statistical inference.
+Student's t-distribution arises in a variety of statistical estimation problems where the goal is to estimate an unknown parameter, such as a mean value, in a setting where the data are observed with additive errors. If (as in nearly all practical statistical work) the population standard deviation of these errors is unknown and has to be estimated from the data, the t-distribution is often used to account for the extra uncertainty that results from this estimation. In most such problems, if the standard deviation of the errors were known, a normal distribution would be used instead of the t-distribution.
+Confidence intervals and hypothesis tests are two statistical procedures in which the quantiles of the sampling distribution of a particular statistic (e.g. the standard score) are required. In any situation where this statistic is a linear function of the data, divided by the usual estimate of the standard deviation, the resulting quantity can be rescaled and centered to follow Student's t-distribution. Statistical analyses involving means, weighted means, and regression coefficients all lead to statistics having this form.
+Quite often, textbook problems will treat the population standard deviation as if it were known and thereby avoid the need to use the Student's t-distribution. These problems are generally of two kinds: (1) those in which the sample size is so large that one may treat a data-based estimate of the variance as if it were certain, and (2) those that illustrate mathematical reasoning, in which the problem of estimating the standard deviation is temporarily ignored because that is not the point that the author or instructor is then explaining.
+HYPOTHESIS TESTING
+Section::::Hypothesis testing.
+A number of statistics can be shown to have t-distributions for samples of moderate size under null hypotheses that are of interest, so that the t-distribution forms the basis for significance tests. For example, the distribution of Spearman's rank correlation coefficient ρ, in the null case (zero correlation) is well approximated by the t distribution for sample sizes above about 20.
+CONFIDENCE INTERVALS
+Section::::Confidence intervals.
+Suppose the number A is so chosen that
+when T has a t-distribution with n − 1 degrees of freedom. By symmetry, this is the same as saying that A satisfies
+so A is the "95th percentile" of this probability distribution, or formula_152. Then
+and this is equivalent to
+Therefore, the interval whose endpoints are
+is a 90% confidence interval for μ. Therefore, if we find the mean of a set of observations that we can reasonably expect to have a normal distribution, we can use the t-distribution to examine whether the confidence limits on that mean include some theoretically predicted value – such as the value predicted on a null hypothesis.
+It is this result that is used in the Student's t-tests: since the difference between the means of samples from two normal distributions is itself distributed normally, the t-distribution can be used to examine whether that difference can reasonably be supposed to be zero.
+If the data are normally distributed, the one-sided (1 − α)-upper confidence limit (UCL) of the mean, can be calculated using the following equation:
+The resulting UCL will be the greatest average value that will occur for a given confidence interval and population size. In other words, formula_96 being the mean of the set of observations, the probability that the mean of the distribution is inferior to UCL is equal to the confidence level 1 − α.
+PREDICTION INTERVALS
+Section::::Prediction intervals.
+The t-distribution can be used to construct a prediction interval for an unobserved sample from a normal distribution with unknown mean and variance.
+IN BAYESIAN STATISTICS
+Section::::In Bayesian statistics.
+The Student's t-distribution, especially in its three-parameter (location-scale) version, arises frequently in Bayesian statistics as a result of its connection with the normal distribution. Whenever the variance of a normally distributed random variable is unknown and a conjugate prior placed over it that follows an inverse gamma distribution, the resulting marginal distribution of the variable will follow a Student's t-distribution. Equivalent constructions with the same results involve a conjugate scaled-inverse-chi-squared distribution over the variance, or a conjugate gamma distribution over the precision. If an improper prior proportional to σ is placed over the variance, the t-distribution also arises. This is the case regardless of whether the mean of the normally distributed variable is known, is unknown distributed according to a conjugate normally distributed prior, or is unknown distributed according to an improper constant prior.
+Related situations that also produce a t-distribution are:
+* The marginal posterior distribution of the unknown mean of a normally distributed variable, with unknown prior mean and variance following the above model.
+* The prior predictive distribution and posterior predictive distribution of a new normally distributed data point when a series of independent identically distributed normally distributed data points have been observed, with prior mean and variance as in the above model.
+ROBUST PARAMETRIC MODELING
+Section::::Robust parametric modeling.
+The t-distribution is often used as an alternative to the normal distribution as a model for data, which often has heavier tails than the normal distribution allows for; see e.g. Lange et al. The classical approach was to identify outliers and exclude or downweight them in some way. However, it is not always easy to identify outliers (especially in high dimensions), and the t-distribution is a natural choice of model for such data and provides a parametric approach to robust statistics.
+A Bayesian account can be found in Gelman et al. The degrees of freedom parameter controls the kurtosis of the distribution and is correlated with the scale parameter. The likelihood can have multiple local maxima and, as such, it is often necessary to fix the degrees of freedom at a fairly low value and estimate the other parameters taking this as given. Some authors report that values between 3 and 9 are often good choices. Venables and Ripley suggest that a value of 5 is often a good choice.
+TABLE OF SELECTED VALUES
+Section::::Table of selected values.
+Most statistical textbooks provide t-distribution tables. Nowadays, all statistical software, such as the R programming language, and functions available in many spreadsheet programs can compute accurate values of the t-distribution and its inverse without the need for tables. The following table lists a few selected values for t-distributions with ν degrees of freedom for a range of one-sided or two-sided critical regions. For an example of how to read this table, take the fourth row, which begins with 4; that means ν, the number of degrees of freedom, is 4 (and if we are dealing, as above, with n values with a fixed sum, n = 5). Take the fifth entry, in the column headed 95% for one-sided (90% for two-sided). The value of that entry is 2.132. Then the probability that T is less than 2.132 is 95% or Pr(−∞ < T < 2.132) = 0.95; this also means that Pr(−2.132 < T < 2.132) = 0.9.
+This can be calculated by the symmetry of the distribution,
+and so
+Note that the last row also gives critical points: a t-distribution with infinitely many degrees of freedom is a normal distribution. (See Related distributions above).
+The first column is the number of degrees of freedom.
+! One-sided
+! 75%
+! 80%
+! 85%
+! 90%
+! 95%
+! 97.5%
+! 99%
+! 99.5%
+! 99.75%
+! 99.9%
+! 99.95%
+! Two-sided
+! 50%
+! 60%
+! 70%
+! 80%
+! 90%
+! 95%
+! 98%
+! 99%
+! 99.5%
+! 99.8%
+! 99.9%
+!1
+1.000
+1.376
+1.963
+3.078
+6.314
+12.71
+31.82
+63.66
+127.3
+318.3
+636.6
+!2
+0.816
+1.080
+1.386
+1.886
+2.920
+4.303
+6.965
+9.925
+14.09
+22.33
+31.60
+!3
+0.765
+0.978
+1.250
+1.638
+2.353
+3.182
+4.541
+5.841
+7.453
+10.21
+12.92
+!4
+0.741
+0.941
+1.190
+1.533
+2.132
+2.776
+3.747
+4.604
+5.598
+7.173
+8.610
+!5
+0.727
+0.920
+1.156
+1.476
+2.015
+2.571
+3.365
+4.032
+4.773
+5.893
+6.869
+!6
+0.718
+0.906
+1.134
+1.440
+1.943
+2.447
+3.143
+3.707
+4.317
+5.208
+5.959
+!7
+0.711
+0.896
+1.119
+1.415
+1.895
+2.365
+2.998
+3.499
+4.029
+4.785
+5.408
+!8
+0.706
+0.889
+1.108
+1.397
+1.860
+2.306
+2.896
+3.355
+3.833
+4.501
+5.041
+!9
+0.703
+0.883
+1.100
+1.383
+1.833
+2.262
+2.821
+3.250
+3.690
+4.297
+4.781
+!10
+0.700
+0.879
+1.093
+1.372
+1.812
+2.228
+2.764
+3.169
+3.581
+4.144
+4.587
+!11
+0.697
+0.876
+1.088
+1.363
+1.796
+2.201
+2.718
+3.106
+3.497
+4.025
+4.437
+!12
+0.695
+0.873
+1.083
+1.356
+1.782
+2.179
+2.681
+3.055
+3.428
+3.930
+4.318
+!13
+0.694
+0.870
+1.079
+1.350
+1.771
+2.160
+2.650
+3.012
+3.372
+3.852
+4.221
+!14
+0.692
+0.868
+1.076
+1.345
+1.761
+2.145
+2.624
+2.977
+3.326
+3.787
+4.140
+!15
+0.691
+0.866
+1.074
+1.341
+1.753
+2.131
+2.602
+2.947
+3.286
+3.733
+4.073
+!16
+0.690
+0.865
+1.071
+1.337
+1.746
+2.120
+2.583
+2.921
+3.252
+3.686
+4.015
+!17
+0.689
+0.863
+1.069
+1.333
+1.740
+2.110
+2.567
+2.898
+3.222
+3.646
+3.965
+!18
+0.688
+0.862
+1.067
+1.330
+1.734
+2.101
+2.552
+2.878
+3.197
+3.610
+3.922
+!19
+0.688
+0.861
+1.066
+1.328
+1.729
+2.093
+2.539
+2.861
+3.174
+3.579
+3.883
+!20
+0.687
+0.860
+1.064
+1.325
+1.725
+2.086
+2.528
+2.845
+3.153
+3.552
+3.850
+!21
+0.686
+0.859
+1.063
+1.323
+1.721
+2.080
+2.518
+2.831
+3.135
+3.527
+3.819
+!22
+0.686
+0.858
+1.061
+1.321
+1.717
+2.074
+2.508
+2.819
+3.119
+3.505
+3.792
+!23
+0.685
+0.858
+1.060
+1.319
+1.714
+2.069
+2.500
+2.807
+3.104
+3.485
+3.767
+!24
+0.685
+0.857
+1.059
+1.318
+1.711
+2.064
+2.492
+2.797
+3.091
+3.467
+3.745
+!25
+0.684
+0.856
+1.058
+1.316
+1.708
+2.060
+2.485
+2.787
+3.078
+3.450
+3.725
+!26
+0.684
+0.856
+1.058
+1.315
+1.706
+2.056
+2.479
+2.779
+3.067
+3.435
+3.707
+!27
+0.684
+0.855
+1.057
+1.314
+1.703
+2.052
+2.473
+2.771
+3.057
+3.421
+3.690
+!28
+0.683
+0.855
+1.056
+1.313
+1.701
+2.048
+2.467
+2.763
+3.047
+3.408
+3.674
+!29
+0.683
+0.854
+1.055
+1.311
+1.699
+2.045
+2.462
+2.756
+3.038
+3.396
+3.659
+!30
+0.683
+0.854
+1.055
+1.310
+1.697
+2.042
+2.457
+2.750
+3.030
+3.385
+3.646
+!40
+0.681
+0.851
+1.050
+1.303
+1.684
+2.021
+2.423
+2.704
+2.971
+3.307
+3.551
+!50
+0.679
+0.849
+1.047
+1.299
+1.676
+2.009
+2.403
+2.678
+2.937
+3.261
+3.496
+!60
+0.679
+0.848
+1.045
+1.296
+1.671
+2.000
+2.390
+2.660
+2.915
+3.232
+3.460
+!80
+0.678
+0.846
+1.043
+1.292
+1.664
+1.990
+2.374
+2.639
+2.887
+3.195
+3.416
+!100
+0.677
+0.845
+1.042
+1.290
+1.660
+1.984
+2.364
+2.626
+2.871
+3.174
+3.390
+!120
+0.677
+0.845
+1.041
+1.289
+1.658
+1.980
+2.358
+2.617
+2.860
+3.160
+3.373
+!∞
+0.674
+0.842
+1.036
+1.282
+1.645
+1.960
+2.326
+2.576
+2.807
+3.090
+3.291
+The number at the beginning of each row in the table above is ν, which has been defined above as n − 1. The percentage along the top is 100%(1 − α). The numbers in the main body of the table are t. If a quantity T is distributed as a Student's t-distribution with ν degrees of freedom, then there is a probability 1 − α that T will be less than t. (Calculated as for a one-tailed or one-sided test, as opposed to a two-tailed test.)
+For example, given a sample with a sample variance 2 and sample mean of 10, taken from a sample set of 11 (10 degrees of freedom), using the formula
+we can determine that at 90% confidence, we have a true mean lying below
+In other words, on average, 90% of the times that an upper threshold is calculated by this method, this upper threshold exceeds the true mean.
+And, still at 90% confidence, we have a true mean lying over
+In other words, on average, 90% of the times that a lower threshold is calculated by this method, this lower threshold lies below the true mean.
+So that at 80% confidence (calculated from 1 − 2 × (1 − 90%) = 80%), we have a true mean lying within the interval
+In other words, on average, 80% of the times that upper and lower thresholds are calculated by this method, the true mean is both below the upper threshold and above the lower threshold. This is not the same thing as saying that there is an 80% probability that the true mean lies between a particular pair of upper and lower thresholds that have been calculated by this method; see confidence interval and prosecutor's fallacy.
+SEE ALSO
+* Chi-squared distribution
+* F-distribution
+* Gamma distribution
+* Folded-t and half-t distributions
+* Hotelling's T-squared distribution
+* Multivariate Student distribution
+* t-statistic
+* Tau-distribution, for internally studentized residuals
+* Wilks' lambda distribution
+* Wishart distribution
+NOTES
+REFERENCES
+EXTERNAL LINKS
+* Earliest Known Uses of Some of the Words of Mathematics (S) (Remarks on the history of the term "Student's distribution")
+* First Students on page 112.

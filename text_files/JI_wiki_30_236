@@ -1,0 +1,48 @@
+
+WINDOWS SUBSYSTEM FOR LINUX
+Windows Subsystem for Linux (WSL) is a compatibility layer for running Linux binary executables (in ELF format) natively on Windows 10 and Windows Server 2019.
+OVERVIEW
+Section::::Overview.
+WSL provides a Linux-compatible kernel interface developed by Microsoft (containing no Linux kernel code), which can then run a GNU user space on top of it, such as that of Ubuntu, openSUSE, SUSE Linux Enterprise Server, Debian and Kali Linux. Such a user space might contain a Bash shell and command language, with native GNU/Linux command-line tools (sed, awk, etc.), programming language interpreters (Ruby, Python, etc.), and even graphical applications (using a X11 server at the host side).
+INTRODUCTION AND AVAILABILITY
+Section::::Introduction and availability.
+When introduced with the Anniversary Update, only an Ubuntu image was available. The Fall Creators Update moved the installation process for Linux distributions to the Windows Store, and introduced Fedora and SUSE images.
+WSL is available only in 64 bit versions of Windows 10 from version 1607. It is also available in Windows Server 2019.
+DEVELOPMENT
+Section::::Development.
+Microsoft's first foray into achieving Unix-like compatibility on Windows began with the Microsoft POSIX Subsystem, superseded by Windows Services for UNIX via MKS/Interix, which was eventually deprecated with the release of Windows 8.1. The technology behind Windows Subsystem for Linux originated in the unreleased Project Astoria, which enabled some Android applications to run on Windows 10 Mobile. It was first made available in Windows 10 Insider Preview build 14316.
+Whereas Microsoft's previous projects and the third-party Cygwin had focused on creating their own unique Unix-like environments based on the POSIX standard, WSL aims for native Linux compatibility. Instead of wrapping non-native functionality into Win32 system calls, WSL leverages the NT kernel executive to serve Linux programs as special, isolated minimal processes (known as "pico-processes") attached to kernel-mode "pico-providers" as dedicated system call and exception handlers distinct from that of a vanilla NT process.
+Microsoft envisages WSL as "primarily a tool for developers – especially web developers and those who work on or with open source projects". WSL uses fewer resources than a fully virtualized machine, the most direct way to run Linux software in a Windows environment, while also allowing users to use Windows apps and Linux tools on the same set of files.
+ARCHITECTURE
+Section::::Architecture.
+LXSS Manager Service is the service in charge of interacting with the subsystem (through the drivers and ), and the way how Bash.exe (not to be confused with the Shells provided by the Linux distributions) launches the Linux processes, as well as handling the Linux system calls and the binary locks during their execution.
+All Linux processes invoked by a particular user go into a "Linux Instance" (usually, the first invoked process is init). Once all the applications are closed, the instance is closed.
+HARDWARE AND FILESYSTEM ACCESS
+Section::::Hardware and filesystem access.
+As there is no hardware emulation / virtualization (unlike other projects such as coLinux), WSL makes direct use of the host file system (through and ) and some parts of the hardware, such as the network (web servers for example, can be accessed through the same interfaces and IP addresses configured on the host, and shares the same restrictions on the use of ports that require administrative permissions, or ports already occupied by other applications), which guarantees interoperability.
+There are certain locations (such as system folders) and configurations whose access/modification is restricted, even when running sudo from the shell. An instance with elevated privileges must be launched in order to get a "real sudo" and allow such access.
+LIMITATIONS
+Section::::Limitations.
+This subsystem is not capable of running all Linux software, such as 32-bit binaries, or those that require specific Linux kernel services not implemented in WSL. Since there is no "real" Linux kernel in WSL, kernel modules, such as device drivers, can't be run.
+It is possible to run some graphical (GUI) applications (such as Mozilla Firefox) by installing an X11 server within the Windows (host) environment (such as VcXsrv or Xming), although not without caveats, such as the lack of audio support or hardware acceleration (resulting in poor graphics performance). Support for OpenCL and CUDA is also not being implemented currently, although planned for future releases.
+That said, Microsoft explicitly states that WSL is oriented to the development of applications, and not for desktop environment or production servers, recommending the use of virtual machines (Hyper-V or Kubernetes) and Azure for those purposes.
+BENCHMARKS
+Section::::Benchmarks.
+In benchmarks Windows Subsystem for Linux is often near native Linux Ubuntu, Debian, Intel Clear Linux or other Linux distributions. I/O is in some tests a bottleneck for WSL.
+SCREENSHOTS
+SEE ALSO
+* Azure Sphere
+* AndLinux
+* CoLinux
+* Cygwin
+* FreeBSD's OS compatibility layers
+* Halloween documents
+* SmartOS types of zones
+* Interix
+* Wine
+* Xenix
+REFERENCES
+EXTERNAL LINKS
+* Windows Subsystem for Linux blog
+* WSL on Microsoft Docs
+* Windows Command Line Tools For Developers blog

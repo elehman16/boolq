@@ -1,0 +1,109 @@
+
+BISHOP AND KNIGHT CHECKMATE
+The bishop and knight checkmate in chess is the checkmate of a lone king which can be forced by a bishop, knight, and king. With the stronger side to move and with perfect play, checkmate can be forced in at most thirty-three moves from any starting position where the defender cannot quickly win one of the pieces. The exceptions occur when (1) the defending king may be forking the bishop and knight so that one of them is lost on the next move, or (2) the knight may be trapped in a corner by the defending king and the knight is lost in one or two moves, and the position is not in the "stalemate trap" (see below). These exceptions constitute about 0.5% of the positions. Checkmates are possible with the defending king on any square at the edge of the board, but can be forced only from positions with different material or if the defending king is in a corner controlled by the bishop or on a square on the edge next to a corner, but mate adjacent to the corners not controlled by the bishop is only two moves deep (with the same material), so is not generally encountered unless the defending side plays inaccurately. Although this is classified as one of the four basic or elementary checkmates (the others being king and queen; king and rook; or king and two bishops against a lone king), it occurs in practice approximately only once in every 6,000 games. 
+HISTORY AND METHODS
+Section::::History and methods.
+A method for checkmate applicable when the lone king is in the corner of the opposite colour from the bishop, was given by Philidor in the 1777 update to his famous 1749 treatise, L'Analyze des Echecs. A method, known as "Delétang's Method" or "Delétang's Triangles", applicable when the lone king is trapped behind one of the seven square diagonals of the same colour as the bishop, involves confining the lone king in a series of three shrinking isosceles right-angled triangles, with the "right" corner at the 90-degree angle of the triangle. Some of the ideas of this method date back to 1780, but the complete system was first published in 1923 by Daniel Delétang. The method as propounded is not optimal, but it's relatively simple; so long as White has trapped the king behind the diagonal in a reasonable number of moves, it will lead to mate before the fifty-move rule takes effect. His "second triangle" or "middle triangle" occurs also in the analysis of play with the king in the corner of opposite colour to the bishop shown in , as well as in Philidor's analysis (see below). Fine's analysis improves on Philidor's. Checkmate can be forced without using either method to complete the mate.
+IMPORTANCE
+Section::::Importance.
+Opinions differ among chess authors as to whether or not a player should learn this checkmate procedure. James Howell omits the checkmate with two bishops in his book because it rarely occurs, but includes the bishop and knight checkmate. Howell says that he has had it three times (always on the defending side) and that it occurs more often than the checkmate with two bishops . On the other hand, Jeremy Silman includes the checkmate with two bishops but not the bishop plus knight checkmate because he has encountered the latter only once and his friend John Watson has never encountered it . Silman says: [...] mastering it would take a significant chunk of time. Should the chess hopeful really spend many of his precious hours he's put aside for chess study learning an endgame he will achieve (at most) only once or twice in his lifetime?
+International Master Jonathan Hawkins has encountered the position only once in games . Grandmaster Andy Soltis says that he has never played this endgame and most players will never have it in their career. However, learning it teaches techniques that can be applied elsewhere .
+Although bishop, knight, and king versus king may never be encountered in the careers of many chess players, a notable example of it occurring in an important occasion was in Tal Shaked's victory over Alexander Morozevich in the penultimate round of the 1997 World Junior Chess Championship. Shaked knew the correct mating pattern, and his victory catapulted him to becoming World Junior Champion, whereas a draw would have prevented him from winning the title.
+A METHOD
+OVERVIEW
+Section::::A method.
+Section::::Overview.
+It is assumed in this section that White has the bishop and knight.
+Since checkmate can only be forced in the corner of the same colour as the squares on which the bishop moves, an opponent who is aware of this will try to stay first in the center of the board, and then in the wrong-colored corner. Thus there are three phases in the checkmating process:
+* Driving the opposing king to the edge of the board.
+* 
+* Forcing the king out of the "wrong" corner to the "right" corner, if necessary.
+* 
+* Delivering the checkmate.
+* 
+Positions fall into four categories.
+* Positions which are stalemate, or in which White cannot prevent stalemate or the loss of one of his pieces, such as in the positions G and H (below). These form a significant minority, in almost all of which Black to play can immediately take a piece or irrecoverably fork the pieces or White to play has his pieces irrecoverably forked. Such positions are clearly drawn. All other positions can be won by White.
+* 
+* Positions in which White can force mate on a square adjacent to the "wrong" corner such as I after 1. ...Kh8. These form a tiny minority.
+* 
+* Positions ("closed") in which White can prevent the black king reaching the longest diagonal of the colour opposite to that of the bishop, such as N - R in the sequel. These form a substantial minority.
+* 
+* Positions ("open") which are not closed, such as K - M in the sequel. These are the majority.
+* 
+Open and closed positions are considered separately in the following. If Black opts not to step into a closed position, phase 1 will necessarily drive him to a wrong colour corner, when phase 2 will be necessary. If Black steps into a closed position, phase 2 doesn't apply, but the completion of phase 1 in the resulting position may lead into one of the lines shown for phase 2 under open positions.
+Mate is usually quicker from closed positions, , so White should usually try to close open positions and Black to avoid closure, but this is a fine balance. In position J (below), Black does equally well playing into a closed or an open position.
+OPEN POSITIONS
+PHASE 1
+Section::::Open positions.
+Section::::Phase 1.
+In the first phase, White uses his pieces to force the black king to the edge of the board. (Much of the play is explained by the fact that closed positions are usually nearer to mate than open positions.)
+Here is an example of how the first phase can be accomplished from the position K.
+Keeping the black king out of the h8 corner. Now White can force the king to the a8 corner (a right corner for checkmate) by one of the methods below, or by similar techniques 
+PHASES 2 AND 3
+W MANOEUVRE
+Section::::Phases 2 and 3.
+Section::::W manoeuvre.
+The position on the right is one that typically arises after the first phase has been completed and the defender has headed to a corner of opposite colour to that of the bishop. The following method to push the king to the "right" corner is commonly given (, ):
+First White forces the king to leave the corner. The white bishop is positioned so that the next two moves, gaining control of g8, are possible.
+A waiting move, forcing Black's king to move so White can play 3.Bh7, taking away g8 from the king.
+The key to the standard winning method is the Nf7-e5-d7-c5-b7 movement of the knight, forming a "W" shape. Now there are two possible defenses:
+Defense A: 4...Kf8 Black clings to the "safe" corner, but loses more quickly.
+Defense B: 4...Kd8 Here, the defending king tries to break out from the edge. This holds out longer.
+Black's king is now restricted to the correct-colored corner. The perimeter is bounded by a6, b6, b5, c5, d5, d6, d7, e7, f7, f8. White's subsequent moves tighten this area further. 
+At this point several ways of continuing are possible. For example;
+Continue the W manoeuvre
+One continuation from the position after Black's eighth move is to continue the W manoeuvre of the knight, by bringing it to c5 and b7. give 9.Bf3 Kd8 10.Kd6 Ke8 11.Bh5+ Kd8 12.Bf7 Kc8 13.Nc5 Kd8 14.Nb7+ Kc8 15.Kc6 Kb8 16.Kb6 Kc8 17.Be6+ Kb8 18.Nc5 Ka8 19.Bd7 Kb8 20.Na6+ Ka8 21.Bc6# (the first checkmate diagram). However, the following improvement is possible 12. Nc5 after which continues 12. ...Kc8 13. Be2 Kd8 14. Bb5 Kc8 15. Bd7+ Kb8 16. Kc6 Ka7 17. Kc7 Ka8 18. Kb6 Kb8 19. Na6+ Ka8 20. Bc6#. 
+Delétang's second triangle
+Alternatively, from the position after Black's eighth move (with the irrelevant difference of the bishop on d3 instead of e2) gives 9.Bb5 Kd8 10.Nb6 Kc7 11.Nd5+ Kd8 12.Kd6 Kc8 13. Ke7 Kb7 14. Kd7 Kb8 15. Ba6 (Delétang's third triangle) 15... Ka7 16.Bc8 Kb8 17. Ne7 Ka7 ( 17. ...Ka8 18. Kc7 Ka7 19. Nc6+ Ka8 20. Bb7# ) 18. Kc7 Ka8 19. Bb7+ Ka7 (not Nc6 - stalemate) 20. Nc6# 
+CLOSED POSITIONS (ALL PHASES)
+DELÉTANG'S TRIANGLE METHOD
+Section::::Closed positions (all phases).
+Section::::Delétang's triangle method.
+Delétang's Triangle Method produces checkmate by confining the king in successively smaller areas. In the first set of three diagrams, the king is confined inside the marked area and a corner in which the checkmate can occur is in the area. The king cannot escape the area nor attack the bishop or knight. The second set of three diagrams shows the triangles and how the bishop controls the hypotenuse of the triangle .
+In the first net all three pieces are required to confine the king. In the second net only the bishop and knight are needed. In the third net, the king and bishop confine the king, allowing the knight to either checkmate or assist in the checkmate . The winning procedure consists of making the king move so that the bishop can reach the hypotenuse of the next smaller triangle .
+Starting from the position of the first triangle, White wins:
+EXAMPLES FROM GAMES
+MIKA KARTTUNEN VS VITEZSLAV RASIK (EUROPEAN CLUBS CUP (MEN) 2003) - PHILIDOR'S METHOD
+Section::::Examples from games.
+Section::::Mika Karttunen vs Vitezslav Rasik (European Clubs Cup (Men) 2003) - Philidor's method.
+This game between Mika Karttunen and Vitezslav Rasik shows the knight's W manoeuvre. The game continued: 84. Bc5 Kb7 85. Nd5 Kb8 86. Kc6 Ka8 87. Nc7+ Kb8 88. Bd4 Kc8 89. Ba7 Kd8 90. Nd5 Ke8 91. Kd6 Kf7 92. Ne7 Kf6? 93. Be3 Kf7 94. Bd4 Ke8 95. Ke6 Kd8 96. Bb6+ Ke8 97. Nf5 Kf8 98. Bc7? Ke8 99. Ng7+ Kf8 100. Kf6 Kg8 101. Bd6 Kh7 102. Nf5 Kg8 103. Kg6 Kh8 104. Bc5 1-0 . Checkmate follows after 104... Kg8, 105. Nh6+ Kh8 106. Bd4#. Black could have held out a move longer with 92. ...Kg7 and 98. Bd8 would have been faster for White. 
+LJUBOMIR LJUBOJEVIĆ VS JUDIT POLGÁR (MONACO AMBER BLIND 1994)
+Section::::Ljubomir Ljubojević vs Judit Polgár (Monaco Amber blind 1994).
+Position X2 is from the blindfold game between Ljubomir Ljubojević and Judit Polgár, Monaco Amber 1994. Play continued:
+84.Kd6 Kf6? (Better e.g. 84.Nf4. The White king should run towards a1 so Kf6 is a backward step. Black's king can arrive at e5 with the knight one move closer to its target.) 85.Kc5 Ke5 86.Kc4 Bd5+ 87.Kd3 Nf4+ 88.Ke3? (Closing the position. White can resist about seven moves longer by 88.Kc3) 88...Be4 89.Kd2 Kd4 90.Kc1 Kc3 91.Kd1 Bc2+ 92.Ke1 Kd3 93.Kf2 Ke4 94.Kg3 Bd1 95.Kf2 Nd3+ 96.Kg3 Ke3 97.Kh4 Kf4 98.Kh3 Ne1 99.Kh4 Ng2+ 100.Kh3 Kf3 101.Kh2 Kf2 102.Kh3 Be2 103.Kh2 Bg4 104.Kh1 Ne3 105.Kh2 Nf1+ 106.Kh1 Bf3# 0-1
+ROB VAN DE PLAS VS PHILIP CODY (EM/M/GT/A001 1996)
+Section::::Rob van de Plas vs Philip Cody (EM/M/GT/A001 1996).
+Position X3 occurred after Whites move 58 in the game.
+White had mate in 22 in the bishop and knight v. pawn position shown, but opted to convert to a bishop and knight ending (move 67) at which point he had, instead, mate in a further 27.
+Play continued:
+58. Bxf1 (+#22) 58... Ke4 59. Bc4 Ke3 60. Kg4 Ke4 61. Kg5 Ke5 62. Kg6 Ke4 63.Kf6 Ke3 64. Ke5 Kd2 65. Kd6 Ke3 66. Kc6 Kf2 67. Kxb6 (+#27) 67... Ke3 68. Kc5 Ke4 69. Nd6+ Ke5 70. Bf7 (70.Bd5 is one move quicker.) 70...Kf6 71. Kd5 Kg7 72. Ke6 Kf8 73. Bg6 Kg7 74. Bf5 Kg8 75. Kf6 Kh8 76. Nf7+ Kg8 77. Be4 Kf8 78. Bh7 Ke8 79. Ne5 Kf8 80. Nd7+ Ke8 81.Ke6 Kd8 82. Kd6 Ke8 83. Bg6+ Kd8 84. Nc5 Kc8 85. Bd3 Kd8 86. Bb5 Kc8 87. Nd7? 1-0
+White's play was extremely accurate in the bishop and knight ending up to the last move, where 87.Bd7+ would have given White mate in 5. Black resigned at this point in any case.
+GRANDMASTERS FAILING TO MATE
+Section::::Grandmasters failing to mate.
+Delivering checkmate is difficult if the technique has not been studied and practiced. Even grandmasters, including GM Vladimir Epishin and Women's World Champion GM Anna Ushenina, have obtained the endgame but failed to win it.
+In the Kempinski v. Epishin game, both players made suboptimal moves. The superior side was unable to win and ended up stalemating several moves after the inferior side could have claimed a draw under the fifty-move rule.
+Robert Kempinski (2498) - Vladimir Epishin (2567) [E60]
+Bundesliga 0001 Germany (5.3), 07.01.2001
+(Diagrammed position on left) 127.Kf3 Bc5 128.Ke4 Kc4 129.Kf5 Kd5 130.Kf6 Bd6 131.Kf7 Ne5+ 132.Ke8 Ke6 133.Kd8 Nf7+ 134.Kc8 Kd5 135.Kb7 Kc5 136.Ka6 Bc7 137.Kb7 Kd6 138.Ka6 Kc6 139.Ka7 Nd6 140.Ka8 (see diagram at right) Bd8? 140...Nc4 141.Ka7 Nb6 142.Ka6 Bb8 is optimal. 141.Ka7 Kb5 142.Kb8 Kb6 143.Ka8 Nb7 144.Kb8 Bc7+ 145.Ka8 Kc6 146.Ka7 Nc5 147.Ka8 Nd7 148.Ka7 Nb6 149.Ka6 Bb8! Reaching the same position Black could have forced earlier (see previous note). 150.Ka5 Kc5? 150...Nd5 is optimal. 151.Ka6 Bd6? 152.Kb7 Kb5 153.Ka7 Kc6 154.Ka6 Bb8! Reaching the same position as after Black's 149th move. 155.Ka5 Nd5! Belatedly finding the winning move he missed five moves ago. 156.Ka6 Objectively best was 156.Ka4. 156...Bc7? Missing 156...Nb4+. 157.Ka7 Bb6+ 158.Kb8 Bc5 159.Ka8 Nc7+ 160.Kb8 Nb5 161.Ka8 Kb6 162.Kb8 Na7 163.Ka8 Ka6 164.Kb8 Bb6 165.Ka8 Nb5 166.Kb8 Nd6 167.Ka8 Kb5 168.Kb8 Kc6 169.Ka8 Bc7 170.Ka7 Nb7 171.Ka8 Nc5 172.Ka7 Bb6+ 173.Ka8 Bc7 174.Ka7 Nd7 175.Ka8 Bd6 176.Ka7 Nb6 177.Ka6 Bb8 178.Ka5 Bc7 179.Ka6 Nc8 stalemate ½-½
+After the basic king, bishop, and knight versus king position arrived, White was kind enough to allow his king to retreat to the last rank in only six moves. But Black seemed to try to mate White in the wrong corner. Black eventually found a winning line, up to a point, but then failed to find 156... Nb4+ and instead tried again to mate in the wrong corner.
+The references to Fine's method in the game below refer to the lines shown above in the subsection Phases 2 and 3 of section Open positions under the sub headings "Continue the W manoeuvre" and "Delétang's second triangle", with the improvements noted, which are either taken directly from
+In the Anna Ushenina v. Olga Girya game, played in the Geneva tournament of the FIDE Women's Grand Prix 2013–2014, White started Fine's method correctly but missed two chances to finish it.
+72... Ka1 73. Nd1 Ka2 74. Bc2 Ka1 75. Kc3 Ka2 76. Bb3+ Ka1 77. Ne3 Kb1 78. Nc2 Kc1 79. Ba2 Kd1 80. Nd4 Ke1 81. Kd3 Kf2 (see diagram) 82. Bd5? (White should have played this move in place of the previous move or should now continue Fine's method - with 82. Ne2! It looks at first as if the black king might run away with 82...Kf3 or 82...Kg2, but in either case 83.Be6 reins it in again. Playing Bd5 at this stage is a half dozen moves slower than Fine's method, but White can still continue to mate in the h1 corner by e.g. Ne6, Bc4 sealing the black king behind the b1-h7 diagonal and leading to Delétang's first net.) 82...Kg3 83. Ke3 (After this move White cannot prevent the black king escaping the b1-h7 diagonal. The black king can play up the g file to g6 and the White king has no option but to follow with opposition on the e file to at least e5, otherwise the black king can escape to the third perimeter at f5 or f6.) 83. ...Kg4 84. Be4 (The black king can now escape to f6.) 84. ...Kg5 85. Kf3 Kf6 86. Kf4 Kg7 87. Kg5 Kf7 88. Kf5 Kg7 89. Bd5 Kh6 90. Ne6 Kh7 91. Kf6 Kg8 92. Nf4+ Kh8 93. Be4 (This wastes two moves because the knight needs three moves to reach e7 instead of one to reach g6. White should have immediately started Fine's method along the h8-h1 edge, e.g. 94. Bf7 reproducing the position after White's move 77.) Kg8 94. Nh3 Kh8 95. Ng5 Kg8 96. Nf7 Kf8 97. Bh7 Ke8 98. Bf5 (Quickest is to continue Fine's method with Ne5, but White plans to block g8 with knight instead of bishop, which is playable but three moves slower than Fine's method with this move (better Be4).) 98. ...Kf8 99. Nh6 Ke8 (Now 100. Be6 would seal the king behind the a2-g8 diagonal. White has time to relocate the knight to d3 reaching Delétang's first net.) 100. Nf7 (White instead abandons the idea.) 100. ... Kf8 101. Ne5 Kg8 102. Ng6 (On both preceding moves, playing Fine's method along the h8-a8 edge would have been best.) 102. ...Kh7 103. Be6 (White could have reached this position in two moves after move 92.) 103. ...Kh6 104. Bg8 Kh5 105. Ne5 Kh4 106. Kf5 Kg3 107. Bc4? (Missing a second chance to continue Fine's method with 107.Ng4!. After White missed this opportunity, Black can now with best play stave off checkmate long enough for the 50-move draw to come into effect.) 107...Kf2 108. Kf4 Ke1 109. Ke3 Kd1 110. Bd3 Kc1 111. Nc4 Kd1 112. Nb6 Kc1 113. Na4 Kd1 114. Be4 Kc1 115. Bd3 Kd1 116. Nb2+ Kc1 117. Nc4 Kd1 118. Bg6 Kc1 119. Bf5 Kd1 120. Nb6 Kc1 121. Na4 Kd1 122. Nb2+ (As both players now have made fifty consecutive moves without a capture or pawn move, Black could claim the draw now by the 50-move rule. Girya played on for another four moves, before actually taking the draw.) 122... Kc1 123. Nc4 Kd1 124. Kd3 Kc1 125. Kc3 Kd1 126. Bd3 ½-½
+A STALEMATE TRAP
+Section::::A stalemate trap.
+A surprising stalemate trap, not mentioned in endgame treatises, was noted by the American master Frederick Rhine in 2000 and published in Larry Evans' "What's the Best Move?" column in Chess Life magazine. In the position at left, after 1...Nb6+?? 2.Kb7?? Nd5, Black would be well on his way to setting up Delétang's second triangle. However, White draws instantly with 2.Kd8! (position at right), when the only way for Black to save his bishop is to move it, resulting in stalemate. The position at right would also be drawn if the knight were at a7 or e7 instead. Rhine later used this discovery as the basis for a "White to play and draw" composition. A stalemate idea essentially identical to that shown in the diagram at right occurs at the climax of a study by A. H. Branton, second prize, New Statesman, 1966 (White: king on c1; Black: king on c3, knight on a3, bishop on d1), though it may have been known even earlier.
+From the diagram position at left, instead of 1...Nb6+??, Black would win quickly by threatening mate on d8 by 1. ...Na5, e.g. 2. Kd8 Ba4 3. Kc8 Bd7+ and the white king is forced to b8 with mate in 6. 
+QUOTATIONS
+* "... I have seen how many chessplayers, including very strong ones, either missed learning this technique at an appropriate time or had already forgotten it." – Mark Dvoretsky
+* "Some masters have already gone back home red with embarrassment after failing or showing poor technique in the execution of this checkmate." – Jesus de la Villa
+SEE ALSO
+* Checkmate
+* Pawnless chess endgame
+REFERENCES
+Sources
+EXTERNAL LINKS
+* There is a bishop and knight checkmate in a game between V. V. Ivanchuk and A. Morozevich in the last round of a tournament at Reggio Emilia on 6 January 2011:  (last-but-one game on page),  (click on text "Vassily Ivanchuk vs Alexander Morozevich" to get animated board-display version).
+* Video explaining the bishop and knight checkmate
+* Video by Majnu Michaud explaining the bishop and knight checkmate using Delétang's triangles
+* Interactive bishop and knight checkmate practice
+* K & B & N against K, Black resigned at 135th move Peter Svidler vs Lê Quang Liêm (Tromsø World Cup 2013): Slav Defense

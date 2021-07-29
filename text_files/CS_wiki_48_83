@@ -1,0 +1,87 @@
+
+SORT CODE
+Sort codes, in the British and Irish banking industries, are bank codes used to route money transfers between banks within their respective countries via their respective clearance organisations. In Ireland, a sort code is known as the NSC or National Sort Code and is regulated by IPSO (Irish Payment Services Organisation). Although sort codes in both countries have the same format, they are regulated by different authorities as each country has its own banking system.
+Sort codes for Northern Ireland branches of banks (codes beginning with a '9') are registered with IPSO for both Northern Ireland and the Republic. These codes are used in both the British and Irish clearing systems.
+The sort code, which is a six-digit number, is usually formatted as three pairs of numbers, for example 12-34-56. It identifies both the bank and the branch where the account is held. In some cases, the first digit of the sort code identifies the bank itself and in other cases the first two digits identify the bank. Sort codes are encoded into IBANs, but are not encoded into BICs.
+HISTORY
+Section::::History.
+Six-digit sort codes were introduced in a staggered process during the 1960s as the banking industry moved towards automation. Prior to that and to facilitate the manual processing of cheques branches were allocated a 'national code' which would comprise anything between three and five digits. These took the following form:
+The bank itself was allocated a main number, initially alphabetically; Lloyds Bank for example was allocated 3, National Provincial was allocated 5, Martins was allocated 11.
+Main clearing branches (usually elite London branches) would bear only one digit after the main number, e.g. 11. Metropolitan branches
+(which covered Greater London) consisted of two digits after the main number, e.g. 11. Country branches made up the rest of the country, and bore three digits after the main number, e.g. 11. They were displayed on cheques in this fashion, with the bank identifier taking precedence.
+To facilitate the move to a six-digit-structure the national codes were retained but where a single-digit was used to identify the bank a two-digit range was introduced, e.g. Barclays branches went from 2 to 20, Midland from 4 to 40, etc.
+LIST OF SORT CODES OF THE UNITED KINGDOM
+Section::::List of sort codes of the United Kingdom.
+In the United Kingdom the initial digits of bank sort codes were originally allocated to settlement members of the Cheque and Credit Clearing Company and the Belfast Bankers' Clearing Company. Today, sort codes are issued to any organisation that will be a direct member of a UK electronic payment network (in addition to the cheque clearing systems, this includes BACS, Faster Payments and CHAPS). Non-standard sort codes are issued to payment service providers who need an IBAN, for example for SEPA, as the sort code forms part of this.
+The allocation of sort codes is managed by BACS.
+These numbers are six digits long, formatted into three pairs which are separated by hyphens.
+The following list shows the first two digits of the sort codes allocated to clearing banks. Thus, in the example 01-10-01, 01 indicates that the bank is a branch of the National Westminster Bank; the other sets of digits are for internal use. This example represents the NatWest branch in Spring Gardens, Manchester. Clearing banks can act for other banks, so looking up a bank by sort code in this list does not always mean the account is actually handled by that bank, e.g. the sort code 08-32-00 HMRC VAT is not a Co-operative Bank account but a Barclays account, as is 08-32-10 for National Insurance.
+CHEQUE AND CREDIT CLEARING COMPANY
+Section::::Cheque and Credit Clearing Company.
+The cheque clearing system in Great Britain is currently managed by the Cheque and Credit Clearing Company.
+LONDON CLEARINGS
+Section::::London clearings.
+In 1991 the Committee of London and Scottish Bankers, formerly the Committee of London Clearing Bankers, was wound up and its work was taken on by the British Bankers' Association. In the following list the dates in parentheses give the year of merger with the present-day sort code holder, or its subsidiary.
+!width="150" Range width="80"  Bank  width="300"  Note
+codice_14  Citibank NA (Including the below)
+rowspan=2codice_16 to codice_17 rowspan=2 Santander UK  Formerly Abbey National (2010)
+* previously used by Martins Bank 1962-1969
+ codice_27 to codice_28  codice_29 to codice_30 for Sainsbury's Bank
+codice_37  rowspan="7"  The Royal Bank of Scotland  Formerly Williams & Glyn's Bank (1985),  itself formerly Williams Deacon's Bank (1970)
+codice_39
+For the Cumberland Building Society
+codice_47 for Metro Bankcodice_48 for TransferWisecodice_49 for Fire Financial Servicescodice_50 for Pockitcodice_51 for Prepay Technologiescodice_52 for Loot Financial Services
+codice_55for Arbuthnot Latham private bank
+codice_56for Al Rayan Bank
+codice_57for FinecoBank UK
+codice_60 to codice_61 for Deutsche Bank
+codice_62 to codice_63 for M&S Bank
+codice_64 for Jyske Bank Gibraltar
+codice_65 for Turkish Bank UK
+codice_66 for CashFlows
+codice_67 for the Coventry Building Society
+codice_68 for Bank of Cyprus UK
+codice_69 for Virgin Money
+codice_70 for Norwich & Peterborough Building Society
+codice_75 for Atom Bank
+codice_76 for Gibraltar International Bank
+codice_77 for Fidor Bank UK
+codice_78 for Starling Bank
+*being phased out
+SCOTTISH CLEARINGS
+Section::::Scottish clearings.
+Separately operated by the Committee of Scottish Clearing Bankers until 1985.
+! width="120"  Range  width="130"  Bank  width="420"  Note
+BELFAST BANKERS' CLEARING COMPANY
+Section::::Belfast Bankers' Clearing Company.
+The clearing system in Northern Ireland is operated under the Belfast Clearing Rules which are agreed by the Belfast Bankers' Clearing Company (formerly the Belfast Bankers' Clearing Committee). Sort codes in the 90 range are managed by the Irish Payment Services Organisation (IPSO).
+! width="130"  Range  width="230"  Bank  width="350"  Note
+SORT CODES OF THE REPUBLIC OF IRELAND
+Section::::Sort codes of the Republic of Ireland.
+Sort codes are no longer directly used in the Republic of Ireland, although they still form part of the underlying structure of account numbers. As a part of the Eurozone, all aspects of the SEPA system are fully implemented and adhered to. This means that all domestic transactions, including Direct Debit and interbank transfers are processed using an IBAN through the SEPA system. The Irish electronic clearing systems, including those run by the Irish Retail Electronic Payments Clearing Company Ltd, which entered voluntary liquidation in late 2014, have been retired and replaced by SEPA. Domestic cheques continue to be processed by the Irish Paper Clearing Company CLG.
+Historically, the Irish banking system shared the sort code structure used in the UK, but operated as a separate system since the Irish Pound broke the link with Sterling in March 1979. The full list of sort codes used in Ireland is as follows:
+Note: A large number of lower volume users and smaller banks share the 99 XX XX code and there are at least three users of the 93 XX XX codes assigned primarily to AIB.
+! width="130"  Range  width="230"  Bank  width="350"  Note
+Irish bank account numbers are now presented in the IBAN format as follows:
+IE97 BANK 9799 9912 3456 78
+This corresponds to the fictitious sort code: 97-99-99 and account: 12345678
+Prefixed by ISO Country code: IE, IBAN check digits 97 and Bank Identifier: BANK
+SORT CODES IN THE 70 RANGE - "WALKS"
+Section::::Sort codes in the 70 range - "walks".
+When the six-digit sort code system was set up in the 1960s, numbers in the 70 range were reserved for the large number of London offices of banks which were not members of the London Clearing. Individual sort codes within the range 70-00-00 to 70-99-99 were allocated on a one-off basis to the many London offices of private and foreign banks. Cheques drawn on these banks were colloquially known within the banking industry as "walks" because they were cleared by being hand-delivered ("walked") to the drawee banks by messengers from the Clearing House. By the 1990s, all these banks had been issued with sort codes within the ranges of the various clearing banks which, from then on, acted as clearing agents for them. The practice of "walking" cheques was ended and use of the 70 code range was discontinued.
+INTERNATIONAL CLEARANCE
+Section::::International clearance.
+The British and Irish sort codes are only used for domestic money transfers. If money is being transferred across international borders, an international network is used. At the beginning of 2014 all European countries using the euro switched to the IBAN as a means of identifying bank accounts and previously used coding systems such as the BLZ, BIC and even account numbers are not in use anymore. However, transfers to, amongst others, the United States and Australia make use of the BIC codes. Characters 9 to 14 of British and Irish IBANs hold the bank account sort code.
+In some countries there is no direct equivalent of sort codes as the bank and branch codes are maintained separately from each other in those countries. Other countries, however, have or had codes which are equivalent to sort codes, but with formats unique to the country concerned. Examples include:
+The codes listed above for Germany, Austria, Switzerland and Sweden are incorporated into the IBANs for those countries.
+SEE ALSO
+* Banks of the United Kingdom
+* Industry Sorting Code Directory
+* Bank Identifier Code
+* International Bank Account Number
+SOURCES
+* UK Clearings Directory 2005 (p. 297) The Association for Payment Clearing Services
+EXTERNAL LINKS
+* Clearing Codes Rules – the rules for sorting codes, managed by Bacs
+* Faster Payments sort code checker — shows which payment systems are supported for a given UK sort code
+REFERENCES

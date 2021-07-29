@@ -1,0 +1,22 @@
+
+WORDPAD
+WordPad is a basic word processor that is included with almost all versions of Microsoft Windows from Windows 95 onwards. It is more advanced than Microsoft Notepad but simpler than Microsoft Works Word Processor and Microsoft Word. It replaced Microsoft Write.
+FEATURES
+Section::::Features.
+WordPad can format and print text, including fonts, bold, italic, colored, and centered text, etc., but lacks vital functions such as a spell checker, thesaurus, and control over pagination. It does not support footnotes or endnotes. However WordPad can read, render, and save many Rich Text Format (RTF) features that it cannot create, such as tables, strikeout, superscript, subscript, "extra" colors, text background colors, numbered lists, right or left indent, quasi-hypertext and URL linking, or various line spacing. Among its advantages are low system-resource usage, simplicity, and speed. Pasting into or from an HTML document such as from the internet or email will typically automatically convert most or all of it to RTF (although this is partially browser-dependent). As such, WordPad is well suited for taking notes, writing letters and stories, or for usage in various tablets, PCs, and smart phones. However, WordPad is underpowered for work that relies heavily on graphics or typesetting such as most publishing-industry requirements for rendering final hard copy.
+WordPad natively supports RTF, though it does not support all the features defined in the RTF/Word 2007 specification. Previous versions of WordPad also supported the "Word for Windows 6.0" format, which is forward compatible with the Microsoft Word format.
+In Windows 95, 98 and Windows 2000, it used Microsoft's RichEdit control, versions 1.0, 2.0 and 3.0 respectively. In Windows XP SP1 and later, it uses RichEdit 4.1, including Windows 7.
+WordPad for Windows XP added full Unicode support, enabling WordPad to support multiple languages, but UTF-16/UCS-2 Big Endian is not supported. It can open Microsoft Word (versions 6.0-2003) files, although it opens newer versions of the .DOC format with incorrect formatting. Also, unlike previous WordPad versions, it cannot save files in the .doc format (only .txt or .rtf). Files saved as Unicode text are encoded as UTF-16 LE. Windows XP Service Pack 2 onwards reduced support for opening .WRI files for security purposes.
+Windows XP Tablet PC Edition SP2 and Windows Vista include speech recognition, and therefore dictation into WordPad is possible. In these and later Windows versions, the RichEdit control was added and as a result, WordPad now supports extensible third-party services (such as grammar and spell check) built using the Text Services Framework (TSF).
+In Windows Vista, support for reading Microsoft Word DOC files was removed because of the incorrect rendering and formatting problems, as well as a Microsoft security bulletin that reported a security vulnerability in opening Word files in WordPad. For viewing older (97-2003) as well as newer (Office Open XML) documents, Microsoft recommends Word Viewer, which is available free. Native Office Open XML and ODF support was released in the Windows 7 version of WordPad.
+Microsoft has updated the user interface for WordPad in Windows 7, giving it an Office 2010-style ribbon that replaces the application menu and toolbars. Other bundled Windows applications such as Paint have had similar interface makeovers.
+HISTORY
+Section::::History.
+WordPad was introduced in Windows 95, replacing Microsoft Write, which came with all previous versions of Windows (version 3.11 and earlier). The source code to WordPad was also distributed by Microsoft as a Microsoft Foundation Classes sample application with MFC 3.2 and later, shortly before the release of Windows 95. It is still available for download from the MSDN website.
+The default font used in Windows 95 to Windows Vista was Arial 10; in Windows 7 it was changed to Calibri 11.
+A similar word processor, also called WordPad, is supplied by some vendors on a Windows CE pre-installation. It has simple functionality like its desktop OS cousin. The icon resembles an early Microsoft Word icon.
+SEE ALSO
+* Jarte – a word processor for users of Microsoft Windows, based on the WordPad engine.
+* List of word processors
+* Comparison of word processors
+REFERENCES

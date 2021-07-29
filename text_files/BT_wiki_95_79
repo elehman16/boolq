@@ -1,0 +1,38 @@
+
+EZ TAG
+EZ TAG is an electronic toll collection system in Houston, Texas, United States, that allows motorists to pay tolls without stopping at toll booths. Motorists with the tags are allowed to use lanes reserved exclusively for them on all Harris County Toll Road Authority (HCTRA) roads. As of late 2003 the EZ TAG can also be used on all lanes of tolled roadways in Texas that accommodate electronic toll collection.
+HOW IT WORKS
+Section::::How it works.
+To participate, a driver signs up through the EZ TAG website, via telephone, or at one of the store locations. Next, the customer receives a small, white radio frequency transponder which must be affixed to the inside of their windshield behind their rear view mirror. Finally, when passing through a toll plaza, the driver chooses lanes specially equipped with sensors that can read EZ TAG transmitters and deduct the appropriate amount from their accounts.
+Houston Transtar uses EZ TAG sensors, which are placed at numerous points across Greater Houston, for their Automatic Vehicle Identification (AVI) traffic monitoring system. By tracking the movement of individual transponder tags (EZ TAG user vehicles) over the city, the system can generate real time traffic information for use by the general public. The personal information about the EZ TAG customer is not compromised in this process because the EZ TAG database and the AVI system are not interconnected.
+NEW TRANSPONDER
+Section::::New transponder.
+In May 2006, HCTRA introduced a new version of the transponder tag. Instead of battery-powered radio transmitters, the new tags are adhesive stickers with a button-sized microchip in the middle of, and a reflective antenna system throughout the tag. These new tags are sold, rather than rented, so they help save money over the life of the tag by eliminating the monthly $1 rental fee. The battery tag's $15 security deposit can be applied to the purchase of the sticker tag.
+Removing the sticker after placement has a high probability of either separating the chip from the antenna, de-tuning the antenna from its designated frequency, or both, therefore invalidating the tag for future use. The tag also relies on the windshield for an amplification effect, and its effective range is greatly reduced if it is not mounted on a glass substrate. This range reduction is so much that not having a tag properly mounted will result in it not reading at all in toll lanes. 
+These characteristics are much different compared to the old battery tags, which would read fine if not mounted properly. As such, some toll patrons attempt to hold up their sticker tags when driving through the toll lanes, and appear mystified when they do not work as their old tags did.
+The new tag uses three different protocols, or communications methods, with the tag readers—ATA, eGo and SeGo.
+The protocol used in Houston is ATA for automatic equipment identification; however, a driver in Houston can conceivably use the tag in another state where the other protocols are used. In addition, the tags support ANSI INCITS 256-2001 and ISO 10374. The tag is read by scanners as far as at 915 MHz, and the tag features a 2048-bit read/write passive memory.
+To duplicate a 915 MHz EZ TAG, a copy of the ROM 2048-bit chip must be dumped and loaded into another ROM chip and a matched inductance of the RFID EZ TAG surface needs to be constructed. Blank 915 MHz RFID pads can be bought online.
+NEW VARIATIONS
+Section::::New variations.
+As of January 2008, three different sets of EZ Tags have been released. The differences are purely cosmetic.
+Despite the similarity in the names, EZ Tags are not compatible with the E-ZPass system in the northeast U.S.
+EZ TAG BY BANCPASS
+Section::::EZ Tag by BancPass.
+In November 2015, HCTRA announced a new Cash Reloadable EZ Tag. The EZ Tag by BancPass can be reloaded with cash at major retailers, or the user can reload online using a debit or credit card. The EZ Tag by BancPass also differs from the standard EZ Tag by not reloading automatically. The user is notified when the account balance gets low, and the user can choose when and how much to put on the user's account.
+The EZ Tag by BancPass is available online, at H-E-B grocery stores and at Corner Store by Valero. Accounts can be reloaded online or at any H-E-B, CVS or Corner Store by Valero.
+INTEROPERABILITY
+* 2003, Texas Department of Transportation (TxTag) and NTTA (TollTag)
+* 2017, Kansas Turnpike Authority (K-TAG)
+* Speculated around the 3rd quarter of 2017, although as of Nov 2018 it is not yet interoperable, Oklahoma Turnpike Authority (PikePass)
+* In early to mid-2018, EZ TAG will become interoperable with the toll-roads in Florida (SunPass), Georgia (Peach Pass), North Carolina (NC Quick Pass) and South Carolina (Palmetto Pass)
+SEE ALSO
+* North Texas Tollway Authority
+* TollTag
+* TxTag
+REFERENCES
+EXTERNAL LINKS
+* Official EZ TAG website
+* Houston TranStar
+* EZ TAG Design Background
+* EZ Tag by BancPass

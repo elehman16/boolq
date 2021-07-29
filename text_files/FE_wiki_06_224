@@ -1,0 +1,42 @@
+
+SINGLE-SUBJECT DESIGN
+In design of experiments, single-subject design or single-case research design is a research design most often used in applied fields of psychology, education, and human behavior in which the subject serves as his/her own control, rather than using another individual/group. Researchers use single-subject design because these designs are sensitive to individual organism differences vs group designs which are sensitive to averages of groups. Often there will be large numbers of subjects in a research study using single-subject design, however—because the subject serves as their own control, this is still a single-subject design. These designs are used primarily to evaluate the effect of a variety of interventions in applied research.
+REQUIREMENTS
+Section::::Requirements.
+The following are requirements of single-subject designs:
+* Continuous assessment: The behavior of the individual is observed repeatedly over the course of the intervention. This ensures that any treatment effects are observed long enough to convince the scientist that the treatment produces a lasting effect.
+* Baseline assessment: Before the treatment is implemented, the researcher is to look for behavioral trends. If a treatment reverses a baseline trend (e.g., things were getting worse as time went on in the baseline but the treatment reversed this trend) then this is powerful evidence suggesting (though not proving) a treatment effect.
+* Variability in data: Because behavior is assessed repeatedly, the single-subject design allows the researcher to see how consistently the treatment changes behavior over time. Large-group statistical designs do not typically provide this information because repeated assessments are not usually taken and the behavior of individuals in the groups are not scrutinized; instead, group means are reported.
+PHASES WITHIN SINGLE-SUBJECT DESIGN
+* Baseline: this phase is one in which the researcher collects data on the dependent variable without any intervention in place.
+* Intervention: this phase is one in which the researcher introduces an independent variable (the intervention) and then collects data on the dependent variable.
+* Reversal: this phase is one in which the researcher removes the independent variable (reversal) and then collects data on the dependent variable.
+Section::::Phases within single-subject design.
+It is important that the data are stable (steady trend and low variability) before the researcher moves to the next phase. Single-subject designs produce or approximate three levels of knowledge: (1) descriptive, (2) correlational, and (3) causal.
+FLEXIBILITY OF THE DESIGN
+Section::::Flexibility of the design.
+Single-subject designs are preferred because they are highly flexible and highlight individual differences in response to intervention effects. In general, single-subject designs have been shown to reduce interpretation bias for counselors when doing therapy.
+INTERPRETATION OF DATA
+Section::::Interpretation of data.
+In order to determine the effect of the independent variable on the dependent variable, the researcher will graph the data collected and visually inspect the differences between phases. If there is a clear distinction between baseline and intervention, and then the data returns to the same trends/level during reversal, a functional relation between the variables is inferred. Sometimes, visual inspection of the data demonstrates results that statistical tests fail to find.
+Researchers utilizing single-subject design begin with graphic analysis. During the baseline, data are repeatedly collected and then graphed on the behavior of interest. This provides a visual representation of the subject's behavior before application of the intervention. It is critical that several (three to five is often recommended) data points are collected during baseline to allow the researcher to describe the effects on the target behavior during intervention.
+In interpreting, the general strategy of all single-subject research is to use the subject as their own control. Experimental logic argues that the subject's baseline behavior would match its behavior in the intervention phase unless the intervention does something to change it. This logic then holds to rule out confound, one needs to replicate. It is the within-subject replication and allows for the determination of functional relationships. Thus the goal is:
+* Demonstration
+* Verification
+* Replication
+LIMITATIONS
+Section::::Limitations.
+Research designs are traditionally preplanned so that most of the details about to whom and when the intervention will be introduced are decided prior to the beginning of the study. However, in single-subject designs, these decisions are often made as the data are collected. In addition, there are no widely agreed-upon rules for altering phases, so—this could lead to conflicting ideas as to how a research experiment should be conducted in single-subject design.
+The major criticism of single-subject designs are:
+* Carry-over effects: Results from the previous phase carry-over into the next phase.
+* Order effects: The ordering (sequence) of the intervention or treatment affects what results.
+* Irreversibility: In some withdrawal designs, once a change in the independent variable occurs, the dependent variable is affected. This cannot be undone by simply removing the independent variable.
+* Ethical problems: Withdrawal of treatment in the withdrawal design can at times present ethical and feasibility problems.
+HISTORY
+Section::::History.
+Historically, single-subject designs have been closely tied to the experimental analysis of behavior and applied behavior analysis.
+SEE ALSO
+* N of 1 trial
+* Single-subject research
+REFERENCES
+FURTHER READING

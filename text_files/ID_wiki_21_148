@@ -1,0 +1,14 @@
+
+LOCK KEY
+LOCK is a function that locks part of a keyboard keys into a distinct mode of operation, depending on the lock settings selected.
+DESCRIPTION
+Section::::Description.
+Most keyboards have three different types of lock functions:
+* Number Lock – Num Lock. Allows the user to type numbers by pressing the keys on the number pad, rather than having them act as up, down, left, right, page up, end, and so forth. Usually located in the upper left corner of the number pad.
+* Capital Lock – Caps Lock. When enabled, letters the user types will be in uppercase by default rather than lowercase. Located at left end of the keyboard, above the left shift key.
+* Scrolling Lock – Scroll Lock. In some applications, such as spreadsheets, the lock mode is used to change the behavior of the cursor keys to scroll the document instead of the cursor. Usually located to the right of the function keys.
+LOCATION
+Section::::Location.
+The lock keys are scattered around the keyboard. Most styles of keyboards have three LEDs indicating which locks are enabled, in the upper right corner above the numpad. Some ergonomic keyboards instead place the lock indicators in between the key split. 
+Some brands of keyboards have a function mode key (also called F mode or Office Lock), and may replace the scroll lock indicator with an office lock indicator. Office Lock, when enabled, will enable alternate functions of the function keys, meant for use with various word processing or email programs.
+REFERENCES

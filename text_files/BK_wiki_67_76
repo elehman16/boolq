@@ -1,0 +1,93 @@
+
+HIGH LEVEL ASSEMBLY
+High Level Assembly (HLA) is a high-level assembly language developed by Randall Hyde. It allows the use of higher-level language constructs to aid both beginners and advanced assembly developers. It fully supports advanced data types and object-oriented programming. It uses a syntax loosely based on several high-level programming languages (HLLs), such as Pascal, Ada, Modula-2, and C++, to allow creating readable assembly language programs, and to allow HLL programmers to learn HLA as fast as possible.
+ORIGINS AND GOALS
+Section::::Origins and goals.
+HLA was originally conceived as a tool to teach assembly language programming at the college-university level. The goal is to leverage students' existing programming knowledge when learning assembly language to get them up to speed as fast as possible. Most students taking an assembly language programming course have already been introduced to high-level control flow structures, such as IF, WHILE, FOR, etc. HLA allows students to immediately apply that programming knowledge to assembly language coding early in their course, allowing them to master other prerequisite subjects in assembly before learning how to code low-level forms of these control structures. The book The Art of Assembly Language Programming by Randall Hyde uses HLA for this purpose.
+HIGH VS. LOW-LEVEL ASSEMBLER
+Section::::High vs. low-level assembler.
+The HLA v2.x assembler supports the same low-level machine instructions as a regular, low-level, assembler. The difference is that high-level assemblers, such as HLA, Microsoft Macro Assembler (MASM), or Turbo Assembler (TASM), on the Intel x86 processor family, also support high-level-language-like statements, such as IF, WHILE, and so on, and fancier data declaration directives, such as structures-records, unions, and even classes.
+Unlike most other assembler tools, the HLA compiler includes a Standard Library with thousands of functions, procedures, and macros that can be used to create full applications with the ease of a high-level language. While assembly language libraries are not new, a language that includes a large standardized library makes programmers far more likely to use such library code rather than simply writing their own library functions.
+HLA supports all the same low-level machine instructions as other x86 assemblers. Further, HLA's high-level control structures are based on the ones found in MASM and TASM, which HLL-like features predated the arrival of HLA by several years. In HLA, low-level assembly code can be written as easily as with any other assembler by simply ignoring the HLL-control constructs. In contrast to HLLs like Pascal and C(++), HLA doesn't require inline asm statements. In HLA, HLL-like features appear to provide a learning aid for beginning assembly programmers by smoothing the learning curve, with the assumption that they will discontinue the use of those statements once they master the low-level instruction set. In practice, many experienced programmers continue to use HLL-like statements in HLA, MASM, and TASM, long after mastering the low-level instruction set, but this is usually done to improve readability.
+It is also possible to write high-level programs using HLA, avoiding much of the tedium of low-level assembly language programming. Some assembly language programmers reject HLA out of hand, because it allows programmers to do this. However, supporting both high-level and low-level programming gives any language an expanded range of applicability. If one must do only low-level-only coding, that is possible. If one must write more readable code, using higher-level statements is an option.
+DISTINGUISHING FEATURES
+Section::::Distinguishing features.
+Two HLA features set it apart from other x86 assemblers: its powerful macro system (compile-time language) and the HLA Standard Library.
+MACRO SYSTEM
+Section::::Macro system.
+HLA's compile-time language allows extending the language with ease, even to creating small domain-specific languages to help easily solve common programming problems. The macro codice_1 briefly described earlier is a good example of a sophisticated macro that can simplify programming. Consider the following invocation of that macro:
+codice_2
+The stdout.put macro processes each of the arguments to determine the argument's type and then calls an appropriate procedure in the HLA Standard library to handle the output of each of these operands.
+Most assemblers provide some sort of macro ability: the advantage that HLA offers over other assemblers is that it can process macro arguments like codice_3 using HLA's extensive compile-time string functions, and HLA's macro facilities can infer the types of variables and use that information to direct macro expansion.
+HLA's macro language provides a special Context-Free macro facility. This feature allows easily writing macros that span other sections of code via a starting and terminating macro pair (along with optional intermediate macro invocations that are only available between the start–terminate macros). For example, one can write a fully recursive-nestable SWITCH–CASE–DEFAULT–ENDSWITCH statement using this macro facility.
+Because of the HLA macro facilities context-free design, these switch..case..default..endswitch statements can be nested, and the nested statements' emitted code will not conflict with the outside statements.
+COMPILE-TIME LANGUAGE
+Section::::Compile-Time Language.
+The HLA macro system is actually a subset of a larger feature known as the HLA Compile-Time Language (CTL). The HLA CTL is an interpreted language that is available in an HLA program source file. An interpreter executes HLA CTL statements during the compiling of an HLA source file; hence the name compile-time language.
+The HLA CTL includes many control statements such as #IF, #WHILE, #FOR, #PRINT, an assignment statement and so on. One can also create compile-time variables and constants (including structured data types such as records and unions). The HLA CTL also provides hundreds of built-in functions (including a very rich set of string and pattern-matching functions). The HLA CTL allows programmers to create CTL programs that scan and parse strings, allowing those programmers to create embedded domain specific languages (EDSLs, also termed mini-languages). The codice_1 macro appearing earlier is an example of such an EDSL. The put macro (in the stdout namespace, hence the name stdout.put) parses its macro parameter list and emits the code that will print its operands.
+STANDARD LIBRARY
+Section::::Standard library.
+The HLA Standard Library is an extensive set of prewritten routines and macros (like the stdout.put macro described above) that make life easier for programmers, saving them from reinventing the wheel every time they write a new application. Perhaps just as important, the HLA Standard Library allows programmers to write portable applications that run under Windows or Linux with nothing more than recompiling the source code. Like the C standard library for the programming language C, the HLA Standard Library allows abstracting away low-level operating system (OS) calls, so the same set of OS application programming interfaces (APIs) can serve for all operating systems that HLA supports. While an assembly language allows making any needed OS calls, where programs use the HLA Standard Library API set, writing OS-portable programs is easy.
+The HLA Standard Library provides thousands of functions, procedures, and macros. While the list changes over time, as of mid-2010 for HLA v2.12, it included functions in these categories:
+* Command-line argument processing
+* Array (dynamic) declaration and manipulation
+* Bit manipulation
+* Blob (binary large object) manipulation
+* Character manipulation
+* Conversions
+* Character set manipulation
+* Date and time functions
+* Object-oriented file I/O
+* Standard file I/O
+* File system manipulation functions, e.g., delete, rename, change directory
+* HLA-related declarations and functions
+* The HLA Object Windows Library: object-oriented framework for Win32 programming
+* Linked list manipulation
+* Mathematical functions
+* Memory allocation and management
+* FreeBSD-specific APIs
+* Linux-specific APIs
+* MacOS-specific APIs
+* Win32-specific APIs
+* Text console functions
+* Coroutine support
+* Environment variable support
+* Exception handling support
+* Memory-mapped file support
+* Sockets and client–server object support
+* Thread and synchronization support
+* Timer functions
+* Pattern matching support for regular expressions and context-free languages
+* Random number generators
+* Remote procedure call support
+* Standard error output functions
+* Standard output functions
+* Standard input functions
+* String functions
+* Table (associative) support
+* Zero-terminated string functions
+DESIGN
+Section::::Design.
+The HLA v2.x language system is a command-line driven tool that consists of several components, including a shell program (e.g., hla.exe under Windows), the HLA language compiler (e.g., hlaparse.exe), a low-level translator (e.g., the HLABE, or HLA Back Engine), a linker (link.exe under Windows, ld under Linux), and other tools such as a resource compiler for Windows. Versions before 2.0 relied on an external assembler back end; versions 2.x and later of HLA use the built-in HLABE as the back-end object code formatter.
+The HLA shell application processes command line parameters and routes appropriate files to each of the programs that make up the HLA system. It accepts as input codice_5 files (HLA source files), codice_6 files (source files for MASM, TASM, FASM, NASM, or Gas assemblers), codice_7 files for input to the linker, and codice_8 files (for use by a resource compiler).
+SOURCE CODE TRANSLATION
+Section::::Source code translation.
+Originally, the HLA v1.x tool compiled its source code into an intermediate source file that a back-end assembler such as MASM, TASM, flat assembler (FASM), Netwide Assembler (NASM), or GNU Assembler (Gas) would translate into the low-level object code file. As of HLA v2.0, HLA included its own HLA Back Engine (HLABE) that provided the low-level object code translation. However, via various command-line parameters, HLA v2.x still has the ability to translate an HLA source file into a source file that is compatible with one of these other assemblers.
+HLA BACK ENGINE
+Section::::HLA Back Engine.
+The HLA Back Engine (HLABE) is a compiler back end that translates an internal intermediate language into low-level Portable Executable (PE), Common Object File Format (COFF), Executable and Linkable Format (ELF), or Mach-O object code. An HLABE program mostly consists of data (byte) emission statements, 32-bit relocatable address statements, x86 control-transfer instructions, and various directives. In addition to translating the byte and relocatable address statements into the low-level object code format, HLABE also handles branch-displacement optimization (picking the shortest possible form of a branch instruction).
+Although the HLABE is incorporated into the HLA v2.x compiler, it is actually a separate product. It is public domain and open source (hosted on SourceForge.net).
+USES
+Section::::Uses.
+HLA was used to write HLA Adventure, a text adventure game in the public domain. HLA has also been used to develop the real-time digital control system for TRIGA Reactors by General Atomics.
+SEE ALSO
+* Comparison of assemblers
+NOTES
+REFERENCES
+* Richard Blum, Professional assembly language, Wiley, 2005, , p. 42
+* Randall Hyde, Write Great Code: Understanding the machine, No Starch Press, 2004, , pp. 14–15 and used throughout the book
+* Randall Hyde, The Art of Assembly Language, 2nd Edition, No Starch Press, 2010, , used throughout the book
+FURTHER READING
+* Paul Panks (June 29, 2005), HLA: The High Level Assembly Programming Language, Linux Journal
+EXTERNAL LINKS
+* Downloads for Windows, macOS, and Linux

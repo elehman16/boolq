@@ -1,0 +1,41 @@
+
+DEEP-CYCLE BATTERY
+A deep-cycle battery is a lead-acid battery designed to be regularly deeply discharged using most of its capacity. In contrast, starter batteries (e.g. most automotive batteries) are designed to deliver short, high-current bursts for cranking the engine, thus frequently discharging only a small part of their capacity. While a deep-cycle battery can be used as a starting battery, the lower "cranking current" implies that an oversized battery may be required.
+A deep-cycle battery is designed to discharge between 45% and 75% of its capacity, depending on the manufacturer and the construction of the battery. Although these batteries can be cycled down to 20% charge, the best lifespan vs cost method is to keep the average cycle at about 45% discharge. There is an inverse correlation between the depth of discharge (DOD) of the battery, and the number of charge and discharge cycles it can perform.
+STRUCTURE
+Section::::Structure.
+Deep-cycle lead-acid batteries generally fall into two distinct categories; flooded (FLA) and valve-regulated lead-acid (VRLA), with the VRLA type further subdivided into two types, Absorbed Glass Mat (AGM) and Gel. The reinforcement of absorbed glass mat separators helps to reduce damage caused by spilling and jolting vibrations. Further, flooded deep-cycle batteries can be divided into subcategories of Tubular-plated Opzs or flat plated. The difference generally affects the cycle life and performance of the cell. The structural difference between deep-cycle batteries and cranking batteries is in the lead battery plates. Deep cycle battery plates have thicker active plates, with higher-density active paste material and thicker separators. Alloys used for the plates in a deep cycle battery may contain more antimony than that of starting batteries. The thicker battery plates resist corrosion through extended charge and discharge cycles.
+APPLICATIONS
+* Cathodic protection, which might include marine use
+* Other marine use, especially on a sailboat lacking power generation capability, generally smaller vessels
+* Trolling motors for recreational fishing boats
+* Industrial electrically-propelled forklifts and floor sweepers
+* Motorized wheelchairs
+* Off-grid energy storage systems for solar power or wind power, especially in small installations for a single building or motorhome
+* Power for instruments or equipment at remote sites
+* Recreational vehicles
+* Traction batteries to propel vehicles, such as golf carts, and other highway electric vehicles
+* Traffic signals
+* Uninterruptible power supply ('UPS'), usually for computers and associated equipment, but also sump pumps
+* Audio equipment, similarly to a UPS but also in certain 'clean power' devices to supply clean DC power isolated from the public electric supply for inversion to AC to maximize audio signal reproduction
+FLOODED
+Section::::Flooded.
+The term "flooded" is used because this type of battery contains a quantity of electrolyte fluid so that the plates are completely submerged. The electrolyte level should be above the tops of plates which serves as a reservoir to make sure that water loss during charging does not lower the level below the plate tops and cause damage. Flooded batteries will decompose some water from the electrolyte during charging, so regular maintenance of flooded batteries requires inspection of electrolyte level and addition of water. Major modes of failure of deep-cycle batteries are loss of the active material due to shedding of the plates, and corrosion of the internal grid that supports active material. The capacity of a deep cycle battery is usually limited by electrolyte capacity and not by the plate mass, to improve life expectancy.
+RECYCLING
+Section::::Recycling.
+The vast majority of deep cycle batteries on the market today are lead acid batteries. Lead acid batteries are recycled 98% by volume, 99.5% by weight. The plastic cases, lead plates, sulfuric acid, solder, and other metals are 100% recovered for reuse. The only part of a battery that is not recyclable is the paper separators that wrap the plates. Due to the acid bath the paper sits in, the fiber length is reduced so far that it cannot be rewoven.
+Industry wide, there is a greater than 98% rate of recovery on all lead acid batteries sold in the United States, resulting in a virtually closed manufacturing cycle.
+SEE ALSO
+* Desulfation
+* Electric vehicle battery
+* Gel battery
+* VRLA battery
+* Opzs
+* List of battery types
+REFERENCES
+EXTERNAL LINKS
+* Northern Arizona Wind & Sun Deep Cycle Battery Overview
+* Battery Council International
+* Car and Deep-Cycle Battery FAQ 7.0
+* How To Choose Deep Cycle Tubular Battery
+* Deep cycle batteries and AGM battery information

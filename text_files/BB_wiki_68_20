@@ -1,0 +1,40 @@
+
+MOTOR UNIT
+A motor unit is made up of a motor neuron and the skeletal muscle fibers innervated by that motor neuron's axonal terminals. Groups of motor units often work together to coordinate the contractions of a single muscle; all of the motor units within a muscle are considered a motor pool. The concept was proposed by Charles Scott Sherrington.
+All muscle fibres in a motor unit are of the same fibre type. When a motor unit is activated, all of its fibres contract. In vertebrates, the force of a muscle contraction is controlled by the number of activated motor units.
+The number of muscle fibers within each unit can vary within a particular muscle and even more from muscle to muscle; the muscles that act on the largest body masses have motor units that contain more muscle fibers, whereas smaller muscles contain fewer muscle fibers in each motor unit. For instance, thigh muscles can have a thousand fibers in each unit, while extraocular muscles might have ten. Muscles which possess more motor units (and thus have greater individual motor neuron innervation) are able to control force output more finely.
+Motor units are organized slightly differently in invertebrates; each muscle has few motor units (typically less than 10), and each muscle fiber is innervated by multiple neurons, including excitatory and inhibitory neurons. Thus, while in vertebrates the force of contraction of muscles is regulated by how many motor units are activated, in invertebrates it is controlled by regulating the balance between excitatory and inhibitory signals.
+RECRUITMENT
+Section::::Recruitment.
+The central nervous system is responsible for the orderly recruitment of motor neurons, beginning with the smallest motor units. Henneman's size principle indicates that motor units are recruited from smallest to largest based on the size of the load. For smaller loads requiring less force, slow twitch, low-force, fatigue-resistant muscle fibers are activated prior to the recruitment of the fast twitch, high-force, less fatigue-resistant muscle fibers. Larger motor units are typically composed of faster muscle fibers that generate higher forces.
+The central nervous system has two distinct ways of controlling the force produced by a muscle through motor unit recruitment: spatial recruitment and temporal recruitment. Spatial recruitment is the activation of more motor units to produce a greater force. Larger motor units contract along with small motor units until all muscle fibers in a single muscle are activated, thus producing the maximum muscle force. Temporal motor unit recruitment, or rate coding, deals with the frequency of activation of muscle fiber contractions. Consecutive stimulation on the motor unit fibres from the alpha motor neuron causes the muscle to twitch more frequently until the twitches "fuse" temporally. This produces a greater force than singular contractions by decreasing the interval between stimulations to produce a larger force with the same number of motor units.
+Using electromyography (EMG), the neural strategies of muscle activation can be measured. Ramp-force threshold refers to an index of motor neuron size in order to test the size principle. This is tested by determining the recruitment threshold of a motor unit during isometric contraction in which the force is gradually increased. Motor units recruited at low force (low-threshold units) tend to be small motor units, while high-threshold units are recruited when higher forces are needed and involve larger motor neurons. These tend to have shorter contraction times than the smaller units. The number of additional motor units recruited during a given increment of force declines sharply at high levels of voluntary force. This suggests that, even though high threshold units generate more tension, the contribution of recruitment to increase voluntary force declines at higher force levels.
+To test motor unit stimulation, electrodes are placed extracellularly on the skin and an intramuscular stimulation is applied. After the motor unit is stimulated, its pulse is then recorded by the electrode and displayed as an action potential, known as a motor unit action potential (MUAP). When multiple MUAP's are recorded within a short time interval, a motor unit action potential train (MUAPT) is then noted. The time in between these pulses is known as the inter-pulse interval (IPI). In medical electrodiagnostic testing for a patient with weakness, careful analysis of the MUAP size, shape, and recruitment pattern can help in distinguishing a myopathy from a neuropathy.
+MOTOR UNIT TYPES
+Section::::Motor unit types.
+Motor units are generally categorized based upon the similarities between several factors:
+* Physiological
+* Contraction speed in Isometric contractions
+* Rate of rise of force
+* Time to peak of a twitch contraction (response to a single nerve impulse)
+* Biochemical
+* Histochemical (the oldest form of biochemical fiber typing)
+* Glycolytic enzyme activity (e.g. glycerophosphate dehydrogenase (GPD))
+* Oxidative enzyme activity (e.g. succinate dehydrogenase -SDH )
+* Sensitivity of Myosin ATPase to acid and alkali
+* Immunohistochemical (a more recent form of fiber typing)
+* Myosin Heavy Chain (MHC)
+* Myosin Light Chain — alkali (MLC1)
+* Myosin Light Chain — regulatory (MLC2)
+! !! !! !!
+* Gene characterization of myosins
+The typing of motor units has thus gone through many stages and reached a point where it is recognized that muscle fibers contain varying mixtures of several mysosin types that can not easily be classified into specific groups of fibers. The three (or four) classical fiber types represent peaks in the distribution of muscle fiber properties, each determined by the overall biochemistry of the fibers.
+Estimates of innervation ratios of motor units in human muscles:
+! Muscle !! Number of Motor Axons !! Number of Muscle Fibers !! Innervation Ratio !! Reference
+SEE ALSO
+* MYH1, MYH2, MYH3, MYH4, MYH6, MYH7, MYH7B, MYH8, MYH9, MYH10, MYH11, MYH13, MYH14, MYH15, MYH16
+* tetanic contraction
+* motor unit number estimation
+REFERENCES
+EXTERNAL LINKS
+* Neurons and Support Cells

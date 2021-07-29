@@ -1,0 +1,138 @@
+
+DOT PRODUCT
+In mathematics, the dot product or scalar product is an algebraic operation that takes two equal-length sequences of numbers (usually coordinate vectors) and returns a single number. In Euclidean geometry, the dot product of the Cartesian coordinates of two vectors is widely used and often called "the" inner product (or rarely projection product) of Euclidean space even though it is not the only inner product that can be defined on Euclidean space; see also inner product space.
+Algebraically, the dot product is the sum of the products of the corresponding entries of the two sequences of numbers. Geometrically, it is the product of the Euclidean magnitudes of the two vectors and the cosine of the angle between them. These definitions are equivalent when using Cartesian coordinates. In modern geometry, Euclidean spaces are often defined by using vector spaces. In this case, the dot product is used for defining lengths (the length of a vector is the square root of the dot product of the vector by itself) and angles (the cosine of the angle of two vectors is the quotient of their dot product by the product of their lengths).
+The name "dot product" is derived from the centered dot " · " that is often used to designate this operation; the alternative name "scalar product" emphasizes that the result is a scalar, rather than a vector, as is the case for the vector product in three-dimensional space.
+DEFINITION
+Section::::Definition.
+The dot product may be defined algebraically or geometrically. The geometric definition is based on the notions of angle and distance (magnitude of vectors). The equivalence of these two definitions relies on having a Cartesian coordinate system for Euclidean space.
+In modern presentations of Euclidean geometry, the points of space are defined in terms of their Cartesian coordinates, and Euclidean space itself is commonly identified with the real coordinate space R. In such a presentation, the notions of length and angles are defined by means of the dot product. The length of a vector is defined as the square root of the dot product of the vector by itself, and the cosine of the (non oriented) angle of two vectors of length one is defined as their dot product. So the equivalence of the two definitions of the dot product is a part of the equivalence of the classical and the modern formulations of Euclidean geometry.
+ALGEBRAIC DEFINITION
+Section::::Algebraic definition.
+The dot product of two vectors and is defined as:
+where Σ denotes summation and n is the dimension of the vector space. For instance, in three-dimensional space, the dot product of vectors and is:
+If vectors are identified with row matrices, the dot product can also be written as a matrix product
+where formula_4 denotes the transpose of formula_5.
+Expressing the above example in this way, a 1 × 3 matrix (row vector) is multiplied by a 3 × 1 matrix (column vector) to get a 1 × 1 matrix that is identified with its unique entry: 
+GEOMETRIC DEFINITION
+Section::::Geometric definition.
+In Euclidean space, a Euclidean vector is a geometric object that possesses both a magnitude and a direction. A vector can be pictured as an arrow. Its magnitude is its length, and its direction is the direction that the arrow points. The magnitude of a vector a is denoted by formula_7. The dot product of two Euclidean vectors a and b is defined by
+where is the angle between a and b.
+In particular, if a and b are orthogonal (the angle between vectors is 90°) then due to formula_9
+At the other extreme, if they are codirectional, then the angle between them is 0° and
+This implies that the dot product of a vector a with itself is
+which gives
+the formula for the Euclidean length of the vector.
+SCALAR PROJECTION AND FIRST PROPERTIES
+Section::::Scalar projection and first properties.
+The scalar projection (or scalar component) of a Euclidean vector a in the direction of a Euclidean vector b is given by
+where is the angle between a and b.
+In terms of the geometric definition of the dot product, this can be rewritten
+where formula_16 is the unit vector in the direction of b.
+The dot product is thus characterized geometrically by
+The dot product, defined in this manner, is homogeneous under scaling in each variable, meaning that for any scalar α,
+It also satisfies a distributive law, meaning that
+These properties may be summarized by saying that the dot product is a bilinear form. Moreover, this bilinear form is positive definite, which means that 
+formula_20
+is never negative and is zero if and only if formula_21, the zero vector.
+EQUIVALENCE OF THE DEFINITIONS
+Section::::Equivalence of the definitions.
+If e, ..., e are the standard basis vectors in R, then we may write
+The vectors e are an orthonormal basis, which means that they have unit length and are at right angles to each other. Hence since these vectors have unit length
+and since they form right angles with each other, if ,
+Thus in general we can say that:
+Where δ is the Kronecker delta.
+Also, by the geometric definition, for any vector e and a vector a, we note
+where a is the component of vector a in the direction of e.
+Now applying the distributivity of the geometric version of the dot product gives
+which is precisely the algebraic definition of the dot product. So the geometric dot product equals the algebraic dot product.
+PROPERTIES
+Section::::Properties.
+The dot product fulfills the following properties if a, b, and c are real vectors and r is a scalar.
+* Commutative:
+* 
+formula_28
+which follows from the definition (θ is the angle between a and b):
+formula_29
+* Distributive over vector addition:
+* 
+formula_30
+* Bilinear:
+* 
+formula_31
+* Scalar multiplication:
+* 
+formula_32
+* Not associative because the dot product between a scalar (a ⋅ b) and a vector (c) is not defined, which means that the expressions involved in the associative property, (a ⋅ b) ⋅ c or a ⋅ (b ⋅ c) are both ill-defined. Note however that the previously mentioned scalar multiplication property is sometimes called the "associative law for scalar and dot product" or one can say that "the dot product is associative with respect to scalar multiplication" because c (a ⋅ b) = (c a) ⋅ b = a ⋅ (c b).
+* 
+* Orthogonal:
+* 
+Two non-zero vectors a and b are orthogonal if and only if .
+* No cancellation:
+* 
+Unlike multiplication of ordinary numbers, where if , then b always equals c unless a is zero, the dot product does not obey the cancellation law:
+If and , then we can write: by the distributive law; the result above says this just means that a is perpendicular to , which still allows , and therefore .
+* Product Rule: If a and b are functions, then the derivative (denoted by a prime ′) of is .
+* 
+APPLICATION TO THE LAW OF COSINES
+Section::::Application to the law of cosines.
+Given two vectors a and b separated by angle θ (see image right), they form a triangle with a third side . The dot product of this with itself is:
+which is the law of cosines.
+TRIPLE PRODUCT
+Section::::Triple product.
+There are two ternary operations involving dot product and cross product.
+The scalar triple product of three vectors is defined as
+Its value is the determinant of the matrix whose columns are the Cartesian coordinates of the three vectors. It is the signed volume of the parallelogram defined by the three vectors.
+The vector triple product is defined by
+This identity, also known as Lagrange's formula may be remembered as "BAC minus CAB", keeping in mind which vectors are dotted together. This formula finds application in simplifying vector calculations in physics.
+PHYSICS
+Section::::Physics.
+In physics, vector magnitude is a scalar in the physical sense, i.e. a physical quantity independent of the coordinate system, expressed as the product of a numerical value and a physical unit, not just a number. The dot product is also a scalar in this sense, given by the formula, independent of the coordinate system. Examples include:
+* Mechanical work is the dot product of force and displacement vectors,
+* Magnetic flux is the dot product of the magnetic field and the vector area,
+* Power is the dot product of force and velocity.
+GENERALIZATIONS
+COMPLEX VECTORS
+Section::::Generalizations.
+Section::::Complex vectors.
+For vectors with complex entries, using the given definition of the dot product would lead to quite different properties. For instance the dot product of a vector with itself would be an arbitrary complex number, and could be zero without the vector being the zero vector (such vectors are called isotropic); this in turn would have consequences for notions like length and angle. Properties such as the positive-definite norm can be salvaged at the cost of giving up the symmetric and bilinear properties of the scalar product, through the alternative definition
+where a is the complex conjugate of a. Then the scalar product of any vector with itself is a non-negative real number, and it is nonzero except for the zero vector. However this scalar product is thus sesquilinear rather than bilinear: it is conjugate linear and not linear in a, and the scalar product is not symmetric, since
+The angle between two complex vectors is then given by
+This type of scalar product is nevertheless useful, and leads to the notions of Hermitian form and of general inner product spaces.
+INNER PRODUCT
+Section::::Inner product.
+The inner product generalizes the dot product to abstract vector spaces over a field of scalars, being either the field of real numbers formula_39 or the field of complex numbers formula_40. It is usually denoted using angular brackets by formula_41.
+The inner product of two vectors over the field of complex numbers is, in general, a complex number, and is sesquilinear instead of bilinear. An inner product space is a normed vector space, and the inner product of a vector with itself is real and positive-definite.
+FUNCTIONS
+Section::::Functions.
+The dot product is defined for vectors that have a finite number of entries. Thus these vectors can be regarded as discrete functions: a length- vector is, then, a function with domain }, and is a notation for the image of by the function/vector .
+This notion can be generalized to continuous functions: just as the inner product on vectors uses a sum over corresponding components, the inner product on functions is defined as an integral over some interval (also denoted ):
+Generalized further to complex functions and , by analogy with the complex inner product above, gives
+WEIGHT FUNCTION
+Section::::Weight function.
+Inner products can have a weight function, i.e. a function which weights each term of the inner product with a value.
+DYADICS AND MATRICES
+Section::::Dyadics and matrices.
+Matrices have the Frobenius inner product, which is analogous to the vector inner product. It is defined as the sum of the products of the corresponding components of two matrices A and B having the same size:
+Dyadics have a dot product and "double" dot product defined on them, see Dyadics (Product of dyadic and dyadic) for their definitions.
+TENSORS
+Section::::Tensors.
+The inner product between a tensor of order n and a tensor of order m is a tensor of order , see tensor contraction for details.
+COMPUTATION
+ALGORITHMS
+Section::::Computation.
+Section::::Algorithms.
+The straightforward algorithm for calculating a floating-point dot product of vectors can suffer from catastrophic cancellation. To avoid this, approaches such as the Kahan summation algorithm are used.
+LIBRARIES
+Section::::Libraries.
+A dot product function is included in BLAS level 1.
+SEE ALSO
+* Cauchy–Schwarz inequality
+* Cross product
+* Matrix multiplication
+* Metric tensor
+NOTES
+REFERENCES
+EXTERNAL LINKS
+* Explanation of dot product including with complex vectors
+* "Dot Product" by Bruce Torrence, Wolfram Demonstrations Project, 2007.

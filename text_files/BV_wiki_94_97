@@ -1,0 +1,71 @@
+
+CHECK (CHESS)
+A check is a condition in chess, shogi, and xiangqi that occurs when a player's king (or general in xiangqi) is under threat of on their opponent's next turn. A king so threatened is said to be in check. A player must get out of check, if possible, by interposing a piece between the threatening piece and the king, capturing the threatening piece, or moving the king to a square where it is no longer in check. If the player cannot move out of check, the game ends in checkmate and the player loses. Players cannot make any move that puts their own king in check.
+INTRODUCTION
+Section::::Introduction.
+A check is the result of a move that places the opposing king under an immediate threat of capture by at least one of the player's pieces. Making a move that checks is sometimes called "giving check". If the king is in check and the checked player has no legal move to get out of check, the king is checkmated and the player loses.
+Under the standard rules of chess, a player may not make any move that places or leaves their king in check. A player may move the king, capture the threatening piece, or block the check with another piece. A king cannot itself directly check the opposing king, since this would place the first king in check as well. A move of the king could expose the opposing king to a discovered check by another piece, however.
+In informal games, it is customary to announce "check" when making a move that puts the opponent's king in check. In formal competitions, however, check is rarely announced.
+In some variations of chess, such as Losing chess, a player can move into check. In fast chess, a player is permitted to leave their king in check, which results in them losing the game.
+GETTING OUT OF CHECK
+Section::::Getting out of check.
+valign="top"
+There may be up to three possible ways to get a king out of a single check on the following move:
+* Capturing the checking piece, with either the king or another piece. If the checking piece is on a square next to the king, the king can capture the piece if the king does not move into a new check (i.e. if the piece is not protected by another enemy piece). Likewise, a piece that is pinned to the king cannot capture the checking piece if such a move would place the king in check from the pinning piece.
+* 
+* Moving the king to an adjacent square where it is not in check. The king is not allowed to castle when it is in check. The king may capture an enemy piece in a move to get out of check, as long as the piece is not protected.
+* 
+* Blocking the check. This only works if the checking piece is a queen, rook, or bishop and there is at least one empty square in the line between the checking piece and the checked king. Blocking a check is done by moving a piece to one such empty square. (The blocking piece is then pinned to the king by the attacking piece.)
+* 
+In the position in the first diagram, White can get out of check by any of three methods:
+* Capturing the attacking piece by the move Nxa2.
+* 
+* Moving the king to any unattacked square (marked with "x"); namely, Kd6, Ke5, or Ke7.
+* 
+* Blocking the check by the move Rc4 or Nd5.
+* 
+If a king is placed in double check, the king must get out of both checks on the following move. Since it is impossible to capture both checking pieces or block both lines of attack in a single move, a double check can be escaped only by moving the king out of check.
+If none of these possibilities can get the king out of check, then it is checkmated and the game is lost by the checkmated player.
+TYPES OF CHECKS
+Section::::Types of checks.
+A simple and very common type of check is when a piece moves to directly attack the opposing king only by itself. Sometimes such a check is part of a chess tactic such as a fork, a skewer, or a discovered attack on another piece. In some cases, a check can be used to defend against such tactics.
+There are also a few more special types of check:
+* Discovered check. A discovered check is similar to any other type of discovered attack except that it is a discovered attack on the opposing king. In a discovered check, a piece moves out of the line of attack by another piece so that this other piece (which can be a queen, rook, or bishop) is then checking the opponent's king. The piece that actually moved in the discovered check move could possibly be any type of piece belonging to the same player as the checking piece except queen or the same type of piece administering the check. A discovered check could be a tactic in itself because the piece that moved could attack or otherwise create a threat to another piece on the checked king's side. The opponent has to get out of the discovered check on the following move and may not get a chance to thwart the attack by the other piece that moved.
+* Double check. A double check is a check from two pieces to the opponent's king in a single move. This happens when a moved piece attacks the king, resulting in a second piece giving check by discovered check. It can also happen, though very rarely, when an en passant capture opens two lines of attack simultaneously. In algebraic chess notation, a double check move is sometimes noted with a "++" after the written move in place of the usual "+", although "++" has been used to indicate checkmate (along with "#"). A double check cannot be blocked, nor can it be met by capturing one of the checking pieces (unless the king itself makes the capture), because there is check from two directions.
+* Cross-check. When a check is answered by a check, particularly when this second check is delivered by a piece blocking the first, it is called a cross-check. In fact, a "cross-checkmate" is also possible in that way (that is, to answer a check with a checkmate) but since no such term exists, it would be called cross-check as well. Cross-checks are rather rare in actual gameplay but are a popular theme in chess problems.
+ANNOUNCING CHECK AND NOTATION
+Section::::Announcing check and notation.
+In friendly games, the checking player customarily says "check" when making a checking move. Announcing "check" is not required under the rules of chess and it is usually not done in formal games. Until the early 20th century a player was expected to announce "check", and some sources of rules even required it .
+In algebraic chess notation, a checking move is recorded like any other move, except that a "+" is normally written after the move.
+In the FIDE rules for rapid chess, if a player leaves their king in check or commits any other illegal move their opponent can claim a win.
+HISTORICAL
+Section::::Historical.
+Less commonly (and obsolete), the warning garde can be said when a player directly attacks the opponent's queen in a similar way. This was mostly abandoned in the 19th century . The same move can be both check and garde simultaneously. Before the queen acquired its current move (about 1495) the rook was the most powerful piece. At that time the term check-rook was used for a move that checked the king and attacked a rook at the same time .
+CHECKING IN TACTICS AND STRATEGY
+Section::::Checking in tactics and strategy.
+Sometimes checking an opponent provides no benefit to the checking player. This is called a "useless check" and it may even provide the checked opponent with a tempo (move opportunity) to move the king into a safer position . For example, 1.e4 e6 2.d4 Bb4+? does nothing for Black and in fact causes him to lose a tempo after 3.c3! A check given with the sole intention of delaying an inevitable defeat by one move is referred to as a "spite check", and may be considered somewhat unsporting .
+There are many instances, however, when checking the opponent's king may be a useful tactic or part of a tactic, either in attacking or in defense. Checking is often used in combinations with many other tactics or simply to force an opponent into a position where the opposing king can be checkmated, otherwise taken advantage of, or is otherwise worse for the opponent. Some attacks involve numerous checks to force an opponent into a losing position, especially when the king is exposed. An unexpected check in a forced combination or an overlooked cross-check in a planned series of checks may serve as sort of a zwischenzug, foiling the plan.
+Some uses of checking:
+* Repetitive checking to prevent losing a game going poorly (i.e. to draw the game by perpetual check).
+* Royal fork (knight fork of king and queen) or other forks involving the king.
+* Checks to force an exchange.
+* A double check could be especially bad for the opponent since there are likely to be fewer options to get out of check. A double check is often more likely to lead to checkmate or loss of material.
+* A check might force a king to move so that it cannot castle later.
+* Moving a piece to give check can sometimes open a line of attack on another piece. The opponent must escape the check, and therefore cannot (in general) prevent the other piece from being captured (discovered attack).
+* Similarly, the piece moved to create a discovered check may attack another enemy piece, leading to the same scenario.
+* The king may also, by being forced to move out of check, enable the checking piece to capture another piece (an absolute skewer).
+* A check might force some piece to block it and therefore pose an absolute pin on that piece.
+* A check might deflect the king from protecting some other piece (particularly in an endgame, to capture opponent's pawns).
+* A check could sometimes be used to foil an opponent's trap which would otherwise lead to loss of material. For example, if an opponent forks two of a player's pieces, the attacked player may be able to move one of the forked pieces to check the opponent's king requiring the opponent to save it on his/her next move, thus allowing the player to then move the other forked piece to also save it from attack.
+HISTORY
+Section::::History.
+In early Sanskrit chess (c. 500–700) the king could be and this ended the game. The Persians (c. 700–800) introduced the idea of warning that the king was under attack (announcing check in modern terminology). This was done to avoid the early and accidental end of a game. Later the Persians added the additional rule that a king could not be moved into check or left in check. As a result, the king could not be captured .
+In this usage, the words "check" and "chess" come via Arabic from Persian shāh, meaning "king" or "monarch" .
+SEE ALSO
+* Atari in Game of Go
+* Checkmate
+* Rules of chess
+REFERENCES
+Section::::References.
+Bibliography
+* (1981 paperback)

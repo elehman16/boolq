@@ -1,0 +1,36 @@
+
+BACKUP AND RESTORE
+Backup and Restore (formerly Windows Backup and Restore Center) is a component of Microsoft Windows introduced in Windows Vista and included in later versions that allow users to create backups and restore from backups created earlier. It is a replacement of NTBackup, which was included in previous Windows versions. It became a deprecated feature in Windows 8 before being completely removed in Windows 8.1 in favor of File History. However, in Windows 10, it was re-incorporated into the operating system.
+FEATURES
+Section::::Features.
+Backup and Restore supports two different types of backup: file backup and system image. File backups are saved to ZIP files. Two methods of file backup are supported. The first, normal backup, stores everything selected for backup. The second, incremental backup stores only files that are changed after a previous backup. The other method of backup, system image, is a disk image of the backed up system saved block by block in a VHD file (versus file by file in the file backup and NTBackup). Block-based backup is more efficient at performing subsequent differential backups, as only the blocks that have changed need to be backed up.
+During a backup, Windows uses Volume Shadow Copy Service to ensure that files are not changed while they are being backed up. VSS ensures both file system level consistency as well as application-level consistency for applications registered as VSS writers. Newer backup media such as CD, DVD, and Blu-ray discs are supported in Backup and Restore.
+Windows Backup service is the Windows service responsible for backup and restore operation. The Backup and Restore application, however, is not the only way of interfacing with this service: The Wbadmin command-line utility may also be used.
+The entire disk or individual files can be restored through the utility. In addition, the VHD file can be attached (mounted) as a separate disk. Regardless of the latest backup being incremental or full, the attached disk will reflect the state of the disk at the latest backup, with the previous version's feature exposing older backup sets.
+SYSTEM IMAGE
+Section::::System image.
+The image-based full system backup option, called Complete PC Backup in Windows Vista or system image in Windows 7, allows for the imaging of the entire system including operating system and data volumes. The backed up image can later be restored through the Windows Recovery Environment either to the same computer or to a new computer of different brand and type. The file format used when doing an image-based backup is VHD. A VHD image can also be mounted for extracting individual files, or booted from (using Windows 7 Enterprise and Ultimate only) after the full system image backup has been done.
+Beginning with Windows Vista SP1, system images can be restored to a machine with a different motherboard which may have a different disk controller; but the machine must have the same number of disks.
+RELATED FEATURES
+Section::::Related features.
+The Volume Shadow Copy Service also creates and maintains periodic copies of system and user data on the same local volume as a part of System Restore operation. This stores previous versions of those files with incremental block-level changes automatically but on the same volume. They can be restored using System Restore or the Previous Versions shell extension.
+LIMITATIONS
+Section::::Limitations.
+Windows Backup does not support tape drives. It also does not support backing up to or restoring from a subfolder of a disk; instead, it creates subfolders of its own. Backup and Restore can only make a system image of disks with NTFS file system. If the system image is to be saved on a USB flash drive, it must be formatted with NTFS file system.
+The version of Windows Backup supplied with Windows Server 2008 does not support hard disk drives with large sector sizes (4096 bytes) unless they support 512 byte emulation.
+DIFFERENCES AMONG EDITIONS
+Section::::Differences among editions.
+The features included in Backup and Restore may differ depending on the edition of Windows. Only Windows Vista Home Premium, Business, Enterprise or Ultimate editions can schedule automatic backups or back up files and folders to a network location. Only Windows Vista Business, Enterprise and Ultimate editions support Complete PC Backup.
+The Windows Vista Business edition does not support writing PC backup images to dynamic drives; e.g. flash drives.
+Another notable limitation of the Backup and Restore Center in Windows Vista is that it does not allow users to specify individual files or folders to be backed up or skipped, it only allows users to choose file type categories (based on MIME type, application association, and file extension) such as documents, music, videos etc. This limitation has been removed in Windows 7.
+In Windows Vista, a Complete PC Backup could not be performed to a network location. Windows 7 allows performing a full system image backup to a network location. However, subsequent incremental system image backups cannot be performed to a network; all image-based backups to the network must be full backups. Full system image backups to local or removable storage can be incremental.
+For Windows 7, file backup to a network share is available only with Windows 7 Professional, Enterprise and Ultimate editions whereas it was included in Windows Vista Home Premium. Manual image-based full system backup (including incremental backup) can be done on local or removable media in Windows 7 Home Premium. Full system backup to a network also requires Windows 7 Professional or above editions.
+REMOVAL
+Section::::Removal.
+Backup and Restore was removed in Windows 8 and Windows Server 2012. Microsoft says this program is underused and is touting File History as the feature to replace file-based backup.
+All access points were removed except a Control Panel applet called Windows 7 File Recovery.
+In Windows 8.1, the Control Panel applet was removed but this functionality is still available as System Image Backup from File History. The Windows 8.1 System Image Backup function does not allow backing up individual files, folders, or libraries. Also, users can no longer schedule backups in the GUI, although the wbadmin tool is still available, which can be used to execute scheduled backups using Task Scheduler.
+In, Windows 10 the Backup and Restore control panel was returned to the operating system, known as "Backup and Restore (Windows 7)". As part of this, the interface for scheduling backups (which was lost completely in Windows 8.1) was again made available, as were non-system image file backups. However, the program was deprecated and no longer actively developed by Microsoft since the Windows 10 Fall Creators Update.
+REFERENCES
+EXTERNAL LINKS
+* The Filing Cabinet: Storage Team Blog about file services and storage features in Windows

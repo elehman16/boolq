@@ -1,0 +1,20 @@
+
+GRAND MEAN
+The grand mean is the mean of the means of several subsamples, as long as the subsamples have the same number of data points. For example, consider several lots, each containing several items. The items from each lot are sampled for a measure of some variable and the means of the measurements from each lot are computed. The mean of the measures from each lot constitutes the subsample mean. The mean of these subsample means is then the grand mean.
+EXAMPLE
+Section::::Example.
+Suppose there are three groups of numbers: group A has 2, 6, 7, 11, 4; group B has 4, 6, 8, 14,8; group C has 8, 7, 4, 1, 5.
+The mean of group A = (2+6+7+11+4)/5 = 6,
+The mean of group B = (4+6+8+14+8)/5 = 8,
+The mean of group C = (8+7+4+1+5)/5 = 5,
+Therefore, the grand mean of all numbers = (6+8+5)/3 = 6.333.
+APPLICATION
+Section::::Application.
+Suppose one wishes to determine which states in America have the tallest men. To do so, one measures the height of a suitably sized sample of men in each state. Next, one calculates the means of height for each state, and then the grand mean (the mean of the state means) as well as the corresponding standard deviation of the state means. Now, one has the necessary information for a preliminary determination of which states have abnormally tall or short men by comparing the means of each state to the grand mean ± some multiple of the standard deviation.
+In ANOVA, there is a similar usage of grand mean to calculate sum of squares (SSQ), a measurement of variation. The total variation is defined as the sum of squared differences between each score and the grand mean (designated as GM), given by the equation
+DISCUSSION
+Section::::Discussion.
+The term grand mean is used for two different concepts that should not be confused, namely, the overall mean and the mean of means. The overall mean (in a grouped data set) is equal to the sample mean, namely, formula_2. The mean of means is literally the mean of the G (g=1...,G) group means formula_3, namely, formula_4. If the sample sizes across the G groups are equal, then the two statistics coincide.
+SEE ALSO
+* Pooled variance
+REFERENCES

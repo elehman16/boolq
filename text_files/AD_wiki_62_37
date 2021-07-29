@@ -1,0 +1,71 @@
+
+POWER (PHYSICS)
+In physics, power is the rate of doing work or transferring heat, the amount of energy transferred or converted per unit time. Having no direction, it is a scalar quantity. In the International System of Units, the unit of power is the joule per second (J/s), known as the watt in honour of James Watt, the eighteenth-century developer of the condenser steam engine. Another common and traditional measure is horsepower (comparing to the power of a horse). Being the rate of work, the equation for power can be written:
+As a physical concept, power requires both a change in the physical system and a specified time in which the change occurs. This is distinct from the concept of work, which is only measured in terms of a net change in the state of the physical system. The same amount of work is done when carrying a load up a flight of stairs whether the person carrying it walks or runs, but more power is needed for running because the work is done in a shorter amount of time. 
+The output power of an electric motor is the product of the torque that the motor generates and the angular velocity of its output shaft. The power involved in moving a vehicle is the product of the traction force of the wheels and the velocity of the vehicle. The rate at which a light bulb converts electrical energy into light and heat is measured in watts—the higher the wattage, the more power, or equivalently the more electrical energy is used per unit time.
+UNITS
+Section::::Units.
+The dimension of power is energy divided by time. The SI unit of power is the watt (W), which is equal to one joule per second. Other units of power include ergs per second (erg/s), horsepower (hp), metric horsepower (Pferdestärke (PS) or cheval vapeur (CV)), and foot-pounds per minute. One horsepower is equivalent to 33,000 foot-pounds per minute, or the power required to lift 550 pounds by one foot in one second, and is equivalent to about 746 watts. Other units include dBm, a relative logarithmic measure with 1 milliwatt as reference; food calories per hour (often referred to as kilocalories per hour); BTU per hour (BTU/h); and tons of refrigeration (12,000 BTU/h).
+EQUATIONS FOR POWER
+Section::::Equations for power.
+Power, as a function of time, is the rate at which work is done, so can be expressed by this equation:
+where P is power, W is work, and t is time. Because work is a force F applied over a distance r,
+for a constant force, power can be rewritten as:
+AVERAGE POWER
+Section::::Average power.
+As a simple example, burning one kilogram of coal releases much more energy than does detonating a kilogram of TNT, but because the TNT reaction releases energy much more quickly, it delivers far more power than the coal.
+If ΔW is the amount of work performed during a period of time of duration Δt, the average power P over that period is given by the formula
+It is the average amount of work done or energy converted per unit of time. The average power is often simply called "power" when the context makes it clear.
+The instantaneous power is then the limiting value of the average power as the time interval Δt approaches zero.
+In the case of constant power P, the amount of work performed during a period of duration T is given by:
+In the context of energy conversion, it is more customary to use the symbol E rather than W.
+MECHANICAL POWER
+Section::::Mechanical power.
+Power in mechanical systems is the combination of forces and movement. In particular, power is the product of a force on an object and the object's velocity, or the product of a torque on a shaft and the shaft's angular velocity.
+Mechanical power is also described as the time derivative of work. In mechanics, the work done by a force F on an object that travels along a curve C is given by the line integral:
+where x defines the path C and v is the velocity along this path.
+If the force F is derivable from a potential (conservative), then applying the gradient theorem (and remembering that force is the negative of the gradient of the potential energy) yields:
+where A and B are the beginning and end of the path along which the work was done.
+The power at any point along the curve C is the time derivative
+In one dimension, this can be simplified to:
+In rotational systems, power is the product of the torque τ and angular velocity ω,
+where ω measured in radians per second. The formula_13 represents scalar product.
+In fluid power systems such as hydraulic actuators, power is given by
+where p is pressure in pascals, or N/m and Q is volumetric flow rate in m/s in SI units.
+MECHANICAL ADVANTAGE
+Section::::Mechanical advantage.
+If a mechanical system has no losses, then the input power must equal the output power. This provides a simple formula for the mechanical advantage of the system.
+Let the input power to a device be a force F acting on a point that moves with velocity v and the output power be a force F acts on a point that moves with velocity v. If there are no losses in the system, then
+and the mechanical advantage of the system (output force per input force) is given by
+The similar relationship is obtained for rotating systems, where T and ω are the torque and angular velocity of the input and T and ω are the torque and angular velocity of the output. If there are no losses in the system, then
+which yields the mechanical advantage
+These relations are important because they define the maximum performance of a device in terms of velocity ratios determined by its physical dimensions. See for example gear ratios.
+ELECTRICAL POWER
+Section::::Electrical power.
+The instantaneous electrical power P delivered to a component is given by
+where 
+If the component is a resistor with time-invariant voltage to current ratio, then:
+where
+is the resistance, measured in ohms.
+PEAK POWER AND DUTY CYCLE
+Section::::Peak power and duty cycle.
+In the case of a periodic signal formula_22 of period formula_23, like a train of identical pulses, the instantaneous power formula_24 is also a periodic function of period formula_23. The peak power is simply defined by:
+The peak power is not always readily measurable, however, and the measurement of the average power formula_27 is more commonly performed by an instrument. If one defines the energy per pulse as:
+then the average power is:
+One may define the pulse length formula_30 such that formula_31 so that the ratios
+are equal. These ratios are called the duty cycle of the pulse train.
+RADIANT POWER
+Section::::Radiant power.
+Power is related to intensity at a distance formula_33; the power emitted by a source can be written as:
+SEE ALSO
+* Simple machines
+* Motive power
+* Orders of magnitude (power)
+* Pulsed power
+* Intensity — in the radiative sense, power per area
+* Power gain — for linear, two-port networks.
+* Power density
+* Signal strength
+* Sound power
+REFERENCES
+EXTERNAL LINKS

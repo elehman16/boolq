@@ -1,0 +1,27 @@
+
+UNDERTOW (WATER WAVES)
+In physical oceanography, undertow is the under-current which is moving offshore when waves are approaching the shore. Undertow is a necessary and universal feature for almost any large body of water: it is a return flow compensating for the onshore-directed average transport of water by the waves in the zone above the wave troughs. The undertow's flow velocities are generally strongest in the surf zone, where the water is shallow and the waves are high due to shoaling.
+In popular usage, the word "undertow" is often misapplied to rip currents. An undertow occurs everywhere underneath shore-approaching waves, whereas rip currents are localized narrow offshore currents occurring at certain locations along the coast. Unlike undertow, rip currents are strong at the surface.
+OCEANOGRAPHY
+Section::::Oceanography.
+An "undertow" is a steady, offshore-directed compensation flow, which occurs below waves near the shore. Physically, nearshore, the wave-induced mass flux between wave crest and trough is onshore directed. This mass transport is localized in the upper part of the water column, i.e. above the wave troughs. To compensate for the amount of water being transported towards the shore, a second-order (i.e. proportional to the wave height squared), offshore-directed mean current takes place in the lower section of the water column. This flow – the undertow – affects the nearshore waves everywhere, unlike rip currents localized at certain positions along the shore.
+The term undertow is used in scientific coastal oceanography papers. The distribution of flow velocities in the undertow over the water column is important as it strongly influences the on- or offshore transport of sediment. Outside the surf zone there is a near-bed onshore-directed sediment transport induced by Stokes drift and skewed-asymmetric wave transport. In the surf zone, strong undertow generates a near-bed offshore sediment transport. These antagonistic flows may lead to sand bar formation where the flows converge near the wave breaking point, or in the wave breaking zone.
+SEAWARD MASS FLUX
+Section::::Seaward mass flux.
+An exact relation for the mass flux of a nonlinear periodic wave on an inviscid fluid layer was established by Levi-Civita in 1924. In a frame of reference according to Stokes' first definition of wave celerity, the mass flux formula_1 of the wave is related to the wave's kinetic energy density formula_2 (integrated over depth and thereafter averaged over wavelength) and phase speed formula_3 through:
+Similarly, Longuet Higgins showed in 1975 that – for the common situation of zero mass flux towards the shore (i.e. Stokes' second definition of wave celerity) – normal-incident periodic waves produce a depth- and time-averaged undertow velocity:
+with formula_6 the mean water depth and formula_7 the fluid density. The positive flow direction of formula_8 is in the wave propagation direction.
+For small-amplitude waves, there is equipartition of kinetic (formula_2) and potential energy (formula_10):
+with formula_12 the total energy density of the wave, integrated over depth and averaged over horizontal space. Since in general the potential energy formula_10 is much easier to measure than the kinetic energy, the wave energy is approximately formula_14 (with formula_15 the wave height). So
+For irregular waves the required wave height is the root-mean-square wave height formula_17 with formula_18 the standard deviation of the free-surface elevation.
+The potential energy is formula_19 and formula_20
+The distribution of the undertow velocity over the water depth is a topic of ongoing research.
+CONFUSION WITH RIP CURRENTS
+Section::::Confusion with rip currents.
+In contrast to undertow, rip currents are responsible for the great majority of drownings close to beaches. When a swimmer enters a rip current, it starts to carry them offshore. The swimmer can exit the rip current by swimming at right angles to the flow, parallel to the shore, or by simply treading water or floating. However, drowning may occur when swimmers exhaust themselves by trying unsuccessfully to swim directly against the flow.
+On the United States Lifesaving Association website it is noted that some uses of the word "undertow" are incorrect:
+SEE ALSO
+REFERENCES
+NOTES
+OTHER
+EXTERNAL LINKS

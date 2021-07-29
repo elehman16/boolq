@@ -1,0 +1,202 @@
+
+INEQUALITY OF ARITHMETIC AND GEOMETRIC MEANS
+In mathematics, the inequality of arithmetic and geometric means, or more briefly the AM–GM inequality, states that the arithmetic mean of a list of non-negative real numbers is greater than or equal to the geometric mean of the same list; and further, that the two means are equal if and only if every number in the list is the same.
+The simplest non-trivial case — i.e., with more than one variable — for two non-negative numbers and , is the statement that 
+with equality if and only if . 
+This case can be seen from the fact that the square of a real number is always non-negative (greater than or equal to zero) and from the elementary case of the binomial formula:
+Hence , with equality precisely when , i.e. . The AM-GM inequality then follows from taking the positive square root of both sides.
+For a geometrical interpretation, consider a rectangle with sides of length  and , hence it has perimeter and area . Similarly, a square with all sides of length has the perimeter and the same area as the rectangle. The simplest non-trivial case of the AM–GM inequality implies for the perimeters that and that only the square has the smallest perimeter amongst all rectangles of equal area.
+Extensions of the AM–GM inequality are available to include weights or generalized means.
+BACKGROUND
+Section::::Background.
+The arithmetic mean, or less precisely the average, of a list of numbers is the sum of the numbers divided by :
+The geometric mean is similar, except that it is only defined for a list of nonnegative real numbers, and uses multiplication and a root in place of addition and division:
+If , this is equal to the exponential of the arithmetic mean of the natural logarithms of the numbers:
+THE INEQUALITY
+Section::::The inequality.
+Restating the inequality using mathematical notation, we have that for any list of nonnegative real numbers ,
+and that equality holds if and only if .
+GEOMETRIC INTERPRETATION
+Section::::Geometric interpretation.
+In two dimensions, is the perimeter of a rectangle with sides of length  and . Similarly, is the perimeter of a square with the same area, , as that rectangle. Thus for the AM–GM inequality states that only the square has the smallest perimeter amongst all rectangles of equal area.
+The full inequality is an extension of this idea to dimensions. Every vertex of an -dimensional box is connected to edges. If these edges' lengths are , then is the total length of edges incident to the vertex. There are vertices, so we multiply this by ; since each edge, however, meets two vertices, every edge is counted twice. Therefore, we divide by  and conclude that there are edges. There are equally many edges of each length and lengths; hence there are edges of each length and the total of all edge lengths is . On the other hand,
+is the total length of edges connected to a vertex on an -dimensional cube of equal volume, since in this case . Since the inequality says
+it can be restated by multiplying through by to obtain
+with equality if and only if 
+Thus the AM–GM inequality states that only the -cube has the smallest sum of lengths of edges connected to each vertex amongst all -dimensional boxes with the same volume.
+EXAMPLE APPLICATION
+Section::::Example application.
+Consider the function
+for all positive real numbers , and . Suppose we wish to find the minimal value of this function. First we rewrite it a bit:
+with
+Applying the AM–GM inequality for , we get
+Further, we know that the two sides are equal exactly when all the terms of the mean are equal:
+All the points satisfying these conditions lie on a half-line starting at the origin and are given by
+PRACTICAL APPLICATIONS
+Section::::Practical applications.
+An important practical application in financial mathematics is to computing the rate of return: the annualized return, computed via the geometric mean, is less than the average annual return, computed by the arithmetic mean (or equal if all returns are equal). This is important in analyzing investments, as the average return overstates the cumulative effect.
+PROOFS OF THE AM–GM INEQUALITY
+PROOF USING JENSEN'S INEQUALITY
+Section::::Proofs of the AM–GM inequality.
+Section::::Proof using Jensen's inequality.
+Jensen's inequality states that the value of a concave function of an arithmetic mean is greater than or equal to the arithmetic mean of the function's values. Since the logarithm function is concave, we have
+Taking antilogs of the far left and far right sides, we have the AM-GM inequality.
+PROOFS BY INDUCTION
+Section::::Proofs by induction.
+We have to show that
+with equality only when all numbers are equal. If , then replacing both and by
+Thus the right-hand side will be largest when all s are equal to the arithmetic mean
+thus as this is then the largest value of right-hand side of the expression, we have
+This is a valid proof for the case , but the procedure of taking iteratively pairwise averages may fail to produce equal numbers in the case . An example of this case is : Averaging two different numbers produces two equal numbers, but the third one is still different. Therefore, we never actually get an inequality involving the geometric mean of three equal numbers.
+Hence, an additional trick or a modified argument is necessary to turn the above idea into a valid proof for the case .
+PROOF BY INDUCTION #1
+Section::::Proof by induction #1.
+With the arithmetic mean
+of the non-negative real numbers , the AM–GM statement is equivalent to
+with equality if and only if for all .
+For the following proof we apply mathematical induction and only well-known rules of arithmetic.
+Induction basis: For the statement is true with equality.
+Induction hypothesis: Suppose that the AM–GM statement holds for all choices of non-negative real numbers.
+Induction step: Consider non-negative real numbers , . Their arithmetic mean satisfies
+If all the are equal to , then we have equality in the AM–GM statement and we are done. In the case where some are not equal to , there must exist one number that is greater than the arithmetic mean , and one that is smaller than . Without loss of generality, we can reorder our in order to place these two particular elements at the end: and . Then
+Now define with
+and consider the numbers which are all non-negative. Since
+Thus, is also the arithmetic mean of numbers and the induction hypothesis implies
+Due to (*) we know that
+hence
+in particular . Therefore, if at least one of the numbers is zero, then we already have strict inequality in (**). Otherwise the right-hand side of (**) is positive and strict inequality is obtained by using the estimate (***) to get a lower bound of the right-hand side of (**). Thus, in both cases we can substitute (***) into (**) to get
+which completes the proof.
+PROOF BY INDUCTION #2
+Section::::Proof by induction #2.
+First of all we shall prove that for real numbers and there follows
+Indeed, multiplying both sides of the inequality by , gives
+whence the required inequality is obtained immediately.
+Now, we are going to prove that for positive real numbers satisfying
+, there holds
+The equality holds only if .
+Induction basis: For the statement is true because of the above property.
+Induction hypothesis: Suppose that the statement is true for all natural numbers up to .
+Induction step: Consider natural number , i.e. for positive real numbers , there holds . There exists at least one , so there must be at least one . The generality will not be lost, if we let and .
+Further, the equality we shall write in the form of . Then, the induction hypothesis implies
+However, taking into account the induction basis, we have
+which completes the proof.
+For positive real numbers , let's denote
+The numbers satisfy the condition . So we have
+whence we obtain
+with the equality holding only for .
+PROOF BY CAUCHY USING FORWARD–BACKWARD INDUCTION
+Section::::Proof by Cauchy using forward–backward induction.
+The following proof by cases relies directly on well-known rules of arithmetic but employs the rarely used technique of forward-backward-induction. It is essentially from Augustin Louis Cauchy and can be found in his Cours d'analyse.
+THE CASE WHERE ALL THE TERMS ARE EQUAL
+Section::::The case where all the terms are equal.
+If all the terms are equal:
+then their sum is , so their arithmetic mean is ; and their product is , so their geometric mean is ; therefore, the arithmetic mean and geometric mean are equal, as desired.
+THE CASE WHERE NOT ALL THE TERMS ARE EQUAL
+Section::::The case where not all the terms are equal.
+It remains to show that if not all the terms are equal, then the arithmetic mean is greater than the geometric mean. Clearly, this is only possible when .
+This case is significantly more complex, and we divide it into subcases.
+THE SUBCASE WHERE N = 2
+Section::::The subcase where n = 2.
+If , then we have two terms, and , and since (by our assumption) not all terms are equal, we have:
+hence
+as desired.
+THE SUBCASE WHERE N = 2
+Section::::The subcase where n = 2.
+Consider the case where , where is a positive integer. We proceed by mathematical induction.
+In the base case, , so . We have already shown that the inequality holds when , so we are done.
+Now, suppose that for a given , we have already shown that the inequality holds for , and we wish to show that it holds for . To do so, we apply the inequality twice for numbers and once for numbers to obtain:
+where in the first inequality, the two sides are equal only if
+and
+(in which case the first arithmetic mean and first geometric mean are both equal to , and similarly with the second arithmetic mean and second geometric mean); and in the second inequality, the two sides are only equal if the two geometric means are equal. Since not all numbers are equal, it is not possible for both inequalities to be equalities, so we know that:
+as desired.
+THE SUBCASE WHERE N < 2
+Section::::The subcase where n < 2.
+If is not a natural power of , then it is certainly less than some natural power of 2, since the sequence is unbounded above. Therefore, without loss of generality, let be some natural power of that is greater than .
+So, if we have terms, then let us denote their arithmetic mean by , and expand our list of terms thus:
+We then have:
+so
+and
+as desired.
+PROOF BY INDUCTION USING BASIC CALCULUS
+Section::::Proof by induction using basic calculus.
+The following proof uses mathematical induction and some basic differential calculus.
+Induction basis: For the statement is true with equality.
+Induction hypothesis: Suppose that the AM–GM statement holds for all choices of non-negative real numbers.
+Induction step: In order to prove the statement for non-negative real numbers , we need to prove that
+with equality only if all the numbers are equal.
+If all numbers are zero, the inequality holds with equality. If some but not all numbers are zero, we have strict inequality. Therefore, we may assume in the following, that all numbers are positive.
+We consider the last number as a variable and define the function
+Proving the induction step is equivalent to showing that for all , with only if and  are all equal. This can be done by analyzing the critical points of  using some basic calculus.
+The first derivative of is given by
+A critical point has to satisfy , which means
+After a small rearrangement we get
+and finally
+which is the geometric mean of . This is the only critical point of . Since for all , the function  is strictly convex and has a strict global minimum at . Next we compute the value of the function at this global minimum:
+where the final inequality holds due to the induction hypothesis. The hypothesis also says that we can have equality only when are all equal. In this case, their geometric mean   has the same value, Hence, unless are all equal, we have . This completes the proof.
+This technique can be used in the same manner to prove the generalized AM–GM inequality and Cauchy–Schwarz inequality in Euclidean space .
+PROOF BY PÓLYA USING THE EXPONENTIAL FUNCTION
+Section::::Proof by Pólya using the exponential function.
+George Pólya provided a proof similar to what follows. Let for all real , with first derivative and second derivative . Observe that , and for all real , hence is strictly convex with the absolute minimum at . Hence for all real  with equality only for .
+Consider a list of non-negative real numbers . If they are all zero, then the AM–GM inequality holds with equality. Hence we may assume in the following for their arithmetic mean . By -fold application of the above inequality, we obtain that
+with equality if and only if for every . The argument of the exponential function can be simplified:
+Returning to ,
+which produces , hence the result
+PROOF BY LAGRANGIAN MULTIPLIERS
+Section::::Proof by Lagrangian multipliers.
+Reformulate the problem given:
+1. formula_63 leads to constraint function formula_64 
+Task is to to find the minimum **using conditional extrema** of the following (the induction method that is most convinient is forbidden), if we proove this special case then the derivation can be generalised to prove the AMGM theorem:
+2. formula_66 
+Idea is that it should be formula_68:
+And finally Using the derivation above prove the AM-GM theorem:
+formula_69
+writing down the Lagrangian:
+formula_70
+taking the partial derivatives
+formula_71
+formula_72
+formula_73
+formula_74 formula_63
+formula_76 is critical point.
+Taking the differential of constraint
+formula_77
+formula_78
+formula_79
+substituting the roots of critical point formula_80 and formula_81 leads to 
+formula_82
+Taking the second derivatives and evaluating at formula_83 gives
+formula_84
+formula_85
+formula_86
+formula_87
+Now for any vector formula_88 with formula_82 holds: formula_90. 
+Leading to
+formula_91. And thus the point formula_76 is local minima. 
+Taking the Weierstrass Theorem and applying it to any closed Domain interval of Lagrangian function formula_93 leads to the critical point to be global minima, outside the Domain interval formula_94, thus it is concluded
+that the critical point formula_95 is global minima. 
+By taking the formula_96 The proof can be generalized to AM-GM inequality.
+GENERALIZATIONS
+WEIGHTED AM–GM INEQUALITY
+Section::::Generalizations.
+Section::::Weighted AM–GM inequality.
+There is a similar inequality for the weighted arithmetic mean and weighted geometric mean. Specifically, let the nonnegative numbers and the nonnegative weights be given. Set . If , then the inequality
+holds with equality if and only if all the with are equal. Here the convention is used.
+If all , this reduces to the above inequality of arithmetic and geometric means.
+PROOF USING JENSEN'S INEQUALITY
+Section::::Proof using Jensen's inequality.
+Using the finite form of Jensen's inequality for the natural logarithm, we can prove the inequality between the weighted arithmetic mean and the weighted geometric mean stated above.
+Since an with weight has no influence on the inequality, we may assume in the following that all weights are positive. If all are equal, then equality holds. Therefore, it remains to prove strict inequality if they are not all equal, which we will assume in the following, too. If at least one is zero (but not all), then the weighted geometric mean is zero, while the weighted arithmetic mean is positive, hence strict inequality holds. Therefore, we may assume also that all are positive.
+Since the natural logarithm is strictly concave, the finite form of Jensen's inequality and the functional equations of the natural logarithm imply
+Since the natural logarithm is strictly increasing,
+OTHER GENERALIZATIONS
+Section::::Other generalizations.
+Other generalizations of the inequality of arithmetic and geometric means include:
+* Muirhead's inequality,
+* Maclaurin's inequality,
+* Generalized mean inequality.
+SEE ALSO
+* Ky Fan inequality
+* Young's inequality for products
+NOTES
+REFERENCES
+EXTERNAL LINKS

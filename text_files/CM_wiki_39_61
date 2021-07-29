@@ -1,0 +1,287 @@
+
+C SHARP (PROGRAMMING LANGUAGE)
+C# (pronounced C sharp) is a general-purpose, multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed around 2000 by Microsoft within its .NET initiative and later approved as a standard by Ecma (ECMA-334) and ISO (ISO/IEC 23270:2006). C# is one of the programming languages designed for the Common Language Infrastructure.
+C#'s development team is led by Mads Torgersen. The most recent version is C# 7.3, which was released in 2018 alongside Visual Studio 2017 version 15.7.2.
+DESIGN GOALS
+Section::::Design goals.
+The ECMA standard lists these design goals for C#:
+* The language is intended to be a simple, modern, general-purpose, object-oriented programming language.
+* The language, and implementations thereof, should provide support for software engineering principles such as strong type checking, array bounds checking, detection of attempts to use uninitialized variables, and automatic garbage collection. Software robustness, durability, and programmer productivity are important.
+* The language is intended for use in developing software components suitable for deployment in distributed environments.
+* Portability is very important for source code and programmers, especially those already familiar with C and C++.
+* Support for internationalization is very important.
+* C# is intended to be suitable for writing applications for both hosted and embedded systems, ranging from the very large that use sophisticated operating systems, down to the very small having dedicated functions.
+* Although C# applications are intended to be economical with regard to memory and processing power requirements, the language was not intended to compete directly on performance and size with C or assembly language.
+HISTORY
+Section::::History.
+During the development of the .NET Framework, the class libraries were originally written using a managed code compiler system called Simple Managed C (SMC). In January 1999, Anders Hejlsberg formed a team to build a new language at the time called Cool, which stood for "C-like Object Oriented Language". Microsoft had considered keeping the name "Cool" as the final name of the language, but chose not to do so for trademark reasons. By the time the .NET project was publicly announced at the July 2000 Professional Developers Conference, the language had been renamed C#, and the class libraries and ASP.NET runtime had been ported to C#.
+Hejlsberg is C#'s principal designer and lead architect at Microsoft, and was previously involved with the design of Turbo Pascal, Embarcadero Delphi (formerly CodeGear Delphi, Inprise Delphi and Borland Delphi), and Visual J++. In interviews and technical papers he has stated that flaws in most major programming languages (e.g. C++, Java, Delphi, and Smalltalk) drove the fundamentals of the Common Language Runtime (CLR), which, in turn, drove the design of the C# language itself.
+James Gosling, who created the Java programming language in 1994, and Bill Joy, a co-founder of Sun Microsystems, the originator of Java, called C# an "imitation" of Java; Gosling further said that "[C# is] sort of Java with reliability, productivity and security deleted." Klaus Kreft and Angelika Langer (authors of a C++ streams book) stated in a blog post that "Java and C# are almost identical programming languages. Boring repetition that lacks innovation," "Hardly anybody will claim that Java or C# are revolutionary programming languages that changed the way we write programs," and "C# borrowed a lot from Java - and vice versa. Now that C# supports boxing and unboxing, we'll have a very similar feature in Java."
+In July 2000, Hejlsberg said that C# is "not a Java clone" and is "much closer to C++" in its design.
+Since the release of C# 2.0 in November 2005, the C# and Java languages have evolved on increasingly divergent trajectories, becoming two very different languages. One of the first major departures came with the addition of generics to both languages, with vastly different implementations. C# makes use of reification to provide "first-class" generic objects that can be used like any other class, with code generation performed at class-load time.
+Furthermore, C# has added several major features to accommodate functional-style programming, culminating in the LINQ extensions released with C# 3.0 and its supporting framework of lambda expressions, extension methods, and anonymous types. These features enable C# programmers to use functional programming techniques, such as closures, when it is advantageous to their application. The LINQ extensions and the functional imports help developers reduce the amount of boilerplate code that is included in common tasks like querying a database, parsing an xml file, or searching through a data structure, shifting the emphasis onto the actual program logic to help improve readability and maintainability.
+C# used to have a mascot called Andy (named after Anders Hejlsberg). It was retired on January 29, 2004.
+C# was originally submitted to the ISO subcommittee JTC 1/SC 22 for review, under ISO/IEC 23270:2003, was withdrawn and was then approved under ISO/IEC 23270:2006.
+NAME
+Section::::Name.
+Microsoft first used the name C# in 1988 for a variant of the C language designed for incremental compilation. That project was not completed but the name lives on.
+The name "C sharp" was inspired by the musical notation where a sharp indicates that the written note should be made a semitone higher in pitch.
+This is similar to the language name of C++, where "++" indicates that a variable should be incremented by 1 after being evaluated. The sharp symbol also resembles a ligature of four "+" symbols (in a two-by-two grid), further implying that the language is an increment of C++.
+Due to technical limitations of display (standard fonts, browsers, etc.) and the fact that the sharp symbol () is not present on most keyboard layouts, the number sign () was chosen to approximate the sharp symbol in the written name of the programming language.
+This convention is reflected in the ECMA-334 C# Language Specification. However, when it is practical to do so (for example, in advertising or in box art), Microsoft uses the intended musical symbol.
+The "sharp" suffix has been used by a number of other .NET languages that are variants of existing languages, including J# (a .NET language also designed by Microsoft that is derived from Java 1.1), A# (from Ada), and the functional programming language F#. The original implementation of Eiffel for .NET was called Eiffel#, a name retired since the full Eiffel language is now supported. The suffix has also been used for libraries, such as Gtk# (a .NET wrapper for GTK+ and other GNOME libraries) and Cocoa# (a wrapper for Cocoa).
+VERSIONS
+Section::::Versions.
+! rowspan="2"  Version
+! colspan="3"  Language specification
+! rowspan="2"  Date
+! rowspan="2"  .NET Framework
+! rowspan="2"  Visual Studio
+! ECMA
+! ISO/IEC
+! Microsoft
+.NET Framework 1.0
+Visual Studio .NET 2002
+.NET Framework 1.1
+Visual Studio .NET 2003
+.NET Framework 2.0
+Visual Studio 2005
+.NET Framework 2.0 (Except LINQ)
+.NET Framework 3.0 (Except LINQ)
+.NET Framework 3.5
+Visual Studio 2008Visual Studio 2010
+.NET Framework 4
+Visual Studio 2010
+.NET Framework 4.5
+Visual Studio 2012Visual Studio 2013
+Visual Studio 2015
+March 2017
+.NET Framework 4.6.2
+Visual Studio 2017
+August 2017
+.NET Framework 4.7
+Visual Studio 2017 version 15.3
+November 2017
+.NET Framework 4.7.1
+Visual Studio 2017 version 15.5
+May 2018
+.NET Framework 4.7.2
+Visual Studio 2017 version 15.7
+NEW FEATURES
+C# 2.0
+* Generics
+* Partial types
+* Anonymous methods
+* Iterators
+* Nullable types
+* Getter/setter separate accessibility
+* Method group conversions (delegates)
+* Co- and Contra-variance for delegates
+* Static classes
+* Delegate inference
+C# 3.0
+* Implicitly typed local variables
+* Object and collection initializers
+* Auto-Implemented properties
+* Anonymous types
+* Extension methods
+* Query expressions
+* Lambda expression
+* Expression trees
+* Partial methods
+C# 4.0
+* Dynamic binding
+* Named and optional arguments
+* Generic co- and contravariance
+* Embedded interop types ("NoPIA")
+C# 5.0
+* Asynchronous methods
+* Caller info attributes
+C# 6.0
+* Compiler-as-a-service (Roslyn)
+* Import of static type members into namespace
+* Exception filters
+* Await in catch/finally blocks
+* Auto property initializers
+* Default values for getter-only properties
+* Expression-bodied members
+* Null propagator (null-conditional operator, succinct null checking)
+* String interpolation
+* nameof operator
+* Dictionary initializer
+C# 7.0
+* Out variables
+* Pattern matching
+* Tuples
+* Deconstruction
+* Local functions
+* Digit separators
+* Binary literals
+* Ref returns and locals
+* Generalized async return types
+* Expression bodied constructors and finalizers
+* Expression bodied getters and setters
+* Throw can also be used as expression
+C# 7.1
+* Async main
+* Default literal expressions
+* Inferred tuple element names
+C# 7.2
+* Reference semantics with value types
+* Non-trailing named arguments
+* Leading underscores in numeric literals
+* private protected access modifier
+C# 7.3
+* Accessing fixed fields without pinning
+* Reassigning ref local variables
+* Using initializers on stackalloc arrays
+* Using fixed statements with any type that supports a pattern
+* Using additional generic constraints
+SYNTAX
+Section::::Syntax.
+The core syntax of C# language is similar to that of other C-style languages such as C, C++ and Java. In particular:
+* Semicolons are used to denote the end of a statement.
+* Curly brackets are used to group statements. Statements are commonly grouped into methods (functions), methods into classes, and classes into namespaces.
+* Variables are assigned using an equals sign, but compared using two consecutive equals signs.
+* Square brackets are used with arrays, both to declare them and to get a value at a given index in one of them.
+DISTINGUISHING FEATURES
+Section::::Distinguishing features.
+Some notable features of C# that distinguish it from C, C++, and Java where noted, are:
+PORTABILITY
+Section::::Portability.
+By design, C# is the programming language that most directly reflects the underlying Common Language Infrastructure (CLI). Most of its intrinsic types correspond to value-types implemented by the CLI framework. However, the language specification does not state the code generation requirements of the compiler: that is, it does not state that a C# compiler must target a Common Language Runtime, or generate Common Intermediate Language (CIL), or generate any other specific format. Theoretically, a C# compiler could generate machine code like traditional compilers of C++ or Fortran.
+TYPING
+Section::::Typing.
+C# supports strongly typed implicit variable declarations with the keyword codice_1, and implicitly typed arrays with the keyword codice_2 followed by a collection initializer.
+C# supports a strict Boolean data type, codice_3. Statements that take conditions, such as codice_4 and codice_5, require an expression of a type that implements the codice_6 operator, such as the Boolean type. While C++ also has a Boolean type, it can be freely converted to and from integers, and expressions such as codice_7 require only that codice_8 is convertible to bool, allowing codice_8 to be an int, or a pointer. C# disallows this "integer meaning true or false" approach, on the grounds that forcing programmers to use expressions that return exactly codice_3 can prevent certain types of programming mistakes such as codice_11 (use of assignment codice_12 instead of equality codice_13).
+C# is more type safe than C++. The only implicit conversions by default are those that are considered safe, such as widening of integers. This is enforced at compile-time, during JIT, and, in some cases, at runtime. No implicit conversions occur between Booleans and integers, nor between enumeration members and integers (except for literal 0, which can be implicitly converted to any enumerated type). Any user-defined conversion must be explicitly marked as explicit or implicit, unlike C++ copy constructors and conversion operators, which are both implicit by default.
+C# has explicit support for covariance and contravariance in generic types, unlike C++ which has some degree of support for contravariance simply through the semantics of return types on virtual methods.
+Enumeration members are placed in their own scope.
+The C# language does not allow for global variables or functions. All methods and members must be declared within classes. Static members of public classes can substitute for global variables and functions.
+Local variables cannot shadow variables of the enclosing block, unlike C and C++.
+METAPROGRAMMING
+Section::::Metaprogramming.
+Metaprogramming via C# attributes is part of the language. Many of these attributes duplicate the functionality of GCC's and VisualC++'s platform-dependent preprocessor directives.
+METHODS AND FUNCTIONS
+Section::::Methods and functions.
+Methods in programming language are the members of a class in a project, some methods have signatures and some don't have signatures. Methods can be void or can return something like string, integer, double, decimal, float and bool. If a method is void it means that the method does not return any data type.
+Like C++, and unlike Java, C# programmers must use the keyword codice_14 to allow methods to be overridden by subclasses.
+Extension methods in C# allow programmers to use static methods as if they were methods from a class's method table, allowing programmers to add methods to an object that they feel should exist on that object and its derivatives.
+The type codice_15 allows for run-time method binding, allowing for JavaScript-like method calls and run-time object composition.
+C# has support for strongly-typed function pointers via the keyword codice_16. Like the Qt framework's pseudo-C++ signal and slot, C# has semantics specifically surrounding publish-subscribe style events, though C# uses delegates to do so.
+C# offers Java-like codice_17 method calls, via the attribute codice_18, and has support for mutually-exclusive locks via the keyword codice_19.
+PROPERTY
+Section::::Property.
+C# provides properties as syntactic sugar for a common pattern in which a pair of methods, accessor (getter) and mutator (setter) encapsulate operations on a single attribute of a class. No redundant method signatures for the getter/setter implementations need be written, and the property may be accessed using attribute syntax rather than more verbose method calls.
+NAMESPACE
+Section::::Namespace.
+A C# codice_20 provides the same level of code isolation as a Java codice_21 or a C++ , with very similar rules and features to acodice_21 codice_23can only be imported with the "using" function.
+MEMORY ACCESS
+Section::::Memory access.
+In C#, memory address pointers can only be used within blocks specifically marked as unsafe, and programs with unsafe code need appropriate permissions to run. Most object access is done through safe object references, which always either point to a "live" object or have the well-defined null value; it is impossible to obtain a reference to a "dead" object (one that has been garbage collected), or to a random block of memory. An unsafe pointer can point to an instance of a value-type, array, string, or a block of memory allocated on a stack. Code that is not marked as unsafe can still store and manipulate pointers through the codice_24 type, but it cannot dereference them.
+Managed memory cannot be explicitly freed; instead, it is automatically garbage collected. Garbage collection addresses the problem of memory leaks by freeing the programmer of responsibility for releasing memory that is no longer needed.
+EXCEPTION
+Section::::Exception.
+Checked exceptions are not present in C# (in contrast to Java). This has been a conscious decision based on the issues of scalability and versionability.
+POLYMORPHISM
+Section::::Polymorphism.
+Unlike C++, C# does not support multiple inheritance, although a class can implement any number of interfaces. This was a design decision by the language's lead architect to avoid complication and simplify architectural requirements throughout CLI. When implementing multiple interfaces that contain a method with the same signature, C# allows implementing each method depending on which interface that method is being called through, or, like Java, allows implementing the method once, and have that be the one invocation on a call through any of the class's interfaces.
+However, unlike Java, C# supports operator overloading. Only the most commonly overloaded operators in C++ may be overloaded in C#.
+LANGUAGE INTEGRATED QUERY - LINQ
+Section::::Language Integrated Query - LINQ.
+C# has the ability to utilize LINQ through the Microsoft.NET Framework with the IEnumerable Interface. A developer can query any .NET collection class, XML documents, ADO.NET dataset, and SQL database. There are some advantages to using LINQ in C# and they are as follows: Intellisense support, strong filtering capabilities, type safety with compile error checking ability, and brings consistency for querying data over a variety of sources. There are several different language structures that can be utilized with C# with LINQ and they are query expressions, lambda expressions, anonymous types, implicitly typed variables, extension methods, and object initializers.
+FUNCTIONAL PROGRAMMING
+Section::::Functional programming.
+Though primarily an imperative language, C# 2.0 offered limited support for functional programming through first-class functions and closures in the form of anonymous delegates. C# 3.0 expanded support for functional programming with the introduction of a lightweight syntax for lambda expressions, extension methods (an affordance for modules), and a list comprehension syntax in the form of a "query comprehension" language.
+COMMON TYPE SYSTEM
+Section::::Common type system.
+C# has a unified type system. This unified type system is called Common Type System (CTS).
+A unified type system implies that all types, including primitives such as integers, are subclasses of the class. For example, every type inherits a method.
+CATEGORIES OF DATA TYPES
+Section::::Categories of data types.
+CTS separates data types into two categories:
+* Reference types
+* 
+* Value types
+* 
+Instances of value types do not have referential identity nor referential comparison semantics - equality and inequality comparisons for value types compare the actual data values within the instances, unless the corresponding operators are overloaded. Value types are derived from , always have a default value, and can always be created and copied. Some other limitations on value types are that they cannot derive from each other (but can implement interfaces) and cannot have an explicit default (parameterless) constructor. Examples of value types are all primitive types, such as (a signed 32-bit integer), (a 32-bit IEEE floating-point number), (a 16-bit Unicode code unit), and (identifies a specific point in time with nanosecond precision). Other examples are (enumerations) and (user defined structures).
+In contrast, reference types have the notion of referential identity - each instance of a reference type is inherently distinct from every other instance, even if the data within both instances is the same. This is reflected in default equality and inequality comparisons for reference types, which test for referential rather than structural equality, unless the corresponding operators are overloaded (such as the case for ). In general, it is not always possible to create an instance of a reference type, nor to copy an existing instance, or perform a value comparison on two existing instances, though specific reference types can provide such services by exposing a public constructor or implementing a corresponding interface (such as or ). Examples of reference types are (the ultimate base class for all other C# classes), (a string of Unicode characters), and (a base class for all C# arrays).
+Both type categories are extensible with user-defined types.
+BOXING AND UNBOXING
+Section::::Boxing and unboxing.
+Boxing is the operation of converting a value-type object into a value of a corresponding reference type. Boxing in C# is implicit.
+Unboxing is the operation of converting a value of a reference type (previously boxed) into a value of a value type. Unboxing in C# requires an explicit type cast. A boxed object of type T can only be unboxed to a T (or a nullable T).
+Example:
+int foo = 42; // Value type.
+object bar = foo; // foo is boxed to bar.
+int foo2 = (int)bar; // Unboxed back to value type.
+LIBRARIES
+Section::::Libraries.
+The C# specification details a minimum set of types and class libraries that the compiler expects to have available. In practice, C# is most often used with some implementation of the Common Language Infrastructure (CLI), which is standardized as ECMA-335 Common Language Infrastructure (CLI).
+EXAMPLES
+Section::::Examples.
+The following is a very simple C# program, a version of the classic "Hello world" example:
+using System;
+class Program
+What will display on the program is:
+Each line has a purpose:
+using System;
+The above line of code tells the compiler to use codice_25 as a candidate prefix for types used in the source code. In this case, when the compiler sees use of the codice_26 type later in the source code, it tries to find a type named codice_26, first in the current assembly, followed by all referenced assemblies. In this case the compiler fails to find such a type, since the name of the type is actually codice_28. The compiler then attempts to find a type named codice_28 by using the codice_25 prefix from the statement, and this time it succeeds. The statement allows the programmer to state all candidate prefixes to use during compilation instead of always using full type names.
+class Program
+Above is a class definition. Everything between the following pair of braces describes .
+static void Main()
+This declares the class member method where the program begins execution. The .NET runtime calls the method. (Note: may also be called from elsewhere, like any other method, e.g. from another method of .) The static keyword makes the method accessible without an instance of . Each console application's entry point must be declared . Otherwise, the program would require an instance, but any instance would require a program. To avoid that irresolvable circular dependency, C# compilers processing console applications (like that above) report an error, if there is no method. The keyword declares that has no return value.
+Console.WriteLine("Hello, world!");
+This line writes the output. is a static class in the namespace. It provides an interface to the standard input, output, and error streams for console applications. The program calls the method , which displays on the console a line with the argument, the string .
+A GUI example:
+using System;
+using System.Windows.Forms;
+class Program
+This example is similar to the previous example, except that it generates a dialog box that contains the message "Hello, World!" instead of writing it to the console.
+another useful library is the System.Drawing library
+An example of what it can do:
+using System;
+using System.Drawing;
+public class Example
+This will create an image that is identical to that stored in "Image.png".
+STANDARDIZATION AND LICENSING
+Section::::Standardization and licensing.
+In August 2001, Microsoft Corporation, Hewlett-Packard and Intel Corporation co-sponsored the submission of specifications for C# as well as the Common Language Infrastructure (CLI) to the standards organization Ecma International.
+In December 2001, ECMA released ECMA-334 C# Language Specification. C# became an ISO standard in 2003 (ISO/IEC 23270:2003 - Information technology — Programming languages — C#). ECMA had previously adopted equivalent specifications as the 2nd edition of C#, in December 2002.
+In June 2005, ECMA approved edition 3 of the C# specification, and updated ECMA-334. Additions included partial classes, anonymous methods, nullable types, and generics (somewhat similar to C++ templates).
+In July 2005, ECMA submitted to ISO/IEC JTC 1, via the latter's Fast-Track process, the standards and related TRs. This process usually takes 6–9 months.
+The C# language definition and the CLI are standardized under ISO and Ecma standards that provide reasonable and non-discriminatory licensing protection from patent claims.
+Microsoft has agreed not to sue open source developers for violating patents in non-profit projects for the part of the framework that is covered by the OSP. Microsoft has also agreed not to enforce patents relating to Novell products against Novell's paying customers with the exception of a list of products that do not explicitly mention C#, .NET or Novell's implementation of .NET (The Mono Project). However, Novell maintains that Mono does not infringe any Microsoft patents. Microsoft has also made a specific agreement not to enforce patent rights related to the Moonlight browser plugin, which depends on Mono, provided it is obtained through Novell.
+IMPLEMENTATIONS
+Section::::Implementations.
+Microsoft is leading the development of the open-source reference C# compiler and set of tools, previously codenamed "Roslyn". The compiler, which is entirely written in managed code (C#), has been opened up and functionality surfaced as APIs. It is thus enabling developers to create refactoring and diagnostics tools. 
+Other C# compilers, which often including an implementation of the Common Language Infrastructure and the .NET class libraries up to .NET 2.0:
+* The Mono project provides an open-source C# compiler, a complete open-source implementation of the Common Language Infrastructure including the required framework libraries as they appear in the ECMA specification, and a nearly complete implementation of the Microsoft proprietary .NET class libraries up to .NET 3.5. As of Mono 2.6, no plans exist to implement WPF; WF is planned for a later release; and there are only partial implementations of LINQ to SQL and WCF.
+* The DotGNU project (now discontinued) also provided an open-source C# compiler, a nearly complete implementation of the Common Language Infrastructure including the required framework libraries as they appear in the ECMA specification, and subset of some of the remaining Microsoft proprietary .NET class libraries up to .NET 2.0 (those not documented or included in the ECMA specification, but included in Microsoft's standard .NET Framework distribution).
+* Microsoft's Shared Source Common Language Infrastructure, codenamed "Rotor", provides a shared source implementation of the CLR runtime and a C# compiler licensed for educational and research use only, and a subset of the required Common Language Infrastructure framework libraries in the ECMA specification (up to C# 2.0, and supported on Windows XP only).
+* Xamarin provides tools to develop cross-platform applications for common mobile and desktop operating systems, using C# as a codebase and compiling to native code.
+Mono is a common choice for game engines due to its cross-platform nature. The Unity game engine uses Mono C# as its primary scripting language. The Godot game engine has implemented an optional Mono C# module thanks to a donation of $24,000 from Microsoft.
+SEE ALSO
+C# topics
+* C# syntax
+* Comparison of C# and Java
+* Comparison of C# and Visual Basic .NET
+* .NET standard libraries
+* List of .NET libraries and frameworks
+IDEs
+* Microsoft Visual Studio
+* Microsoft Visual Studio Express
+* Visual Studio Code
+* MonoDevelop
+* Morfik
+* SharpDevelop
+* Turbo C Sharp
+* Rider
+NOTES
+REFERENCES
+FURTHER READING
+EXTERNAL LINKS
+* C# Language Specification
+* C# Programming Guide
+* ISO C# Language Specification
+* C# Compiler Platform ("Roslyn") source code

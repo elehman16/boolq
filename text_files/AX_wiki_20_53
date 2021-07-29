@@ -1,0 +1,130 @@
+
+OCTAGON
+In geometry, an octagon (from the Greek ὀκτάγωνον oktágōnon, "eight angles") is an eight-sided polygon or 8-gon.
+A regular octagon has Schläfli symbol {8} and can also be constructed as a quasiregular truncated square, t{4}, which alternates two types of edges. A truncated octagon, t{8} is a hexadecagon, t{16}.
+PROPERTIES OF THE GENERAL OCTAGON
+Section::::Properties of the general octagon.
+The sum of all the internal angles of any octagon is 1080°. As with all polygons, the external angles total 360°.
+If squares are constructed all internally or all externally on the sides of an octagon, then the midpoints of the segments connecting the centers of opposite squares form a quadrilateral that is both equidiagonal and orthodiagonal (that is, whose diagonals are equal in length and at right angles to each other).
+The midpoint octagon of a reference octagon has its eight vertices at the midpoints of the sides of the reference octagon. If squares are constructed all internally or all externally on the sides of the midpoint octagon, then the midpoints of the segments connecting the centers of opposite squares themselves form the vertices of a square.
+REGULAR OCTAGON
+Section::::Regular octagon.
+A regular octagon is a closed figure with sides of the same length and internal angles of the same size. It has eight lines of reflective symmetry and rotational symmetry of order 8. A regular octagon is represented by the Schläfli symbol {8}.
+The internal angle at each vertex of a regular octagon is 135° (formula_1 radians). The central angle is 45° (formula_2 radians).
+AREA
+Section::::Area.
+The area of a regular octagon of side length a is given by
+In terms of the circumradius R, the area is
+In terms of the apothem r (see also inscribed figure), the area is
+These last two coefficients bracket the value of pi, the area of the unit circle.
+The area can also be expressed as
+where S is the span of the octagon, or the second-shortest diagonal; and a is the length of one of the sides, or bases. This is easily proven if one takes an octagon, draws a square around the outside (making sure that four of the eight sides overlap with the four sides of the square) and then takes the corner triangles (these are 45–45–90 triangles) and places them with right angles pointed inward, forming a square. The edges of this square are each the length of the base.
+Given the length of a side a, the span S is
+The area is then as above:
+Expressed in terms of the span, the area is
+Another simple formula for the area is 
+More often the span S is known, and the length of the sides, a, is to be determined, as when cutting a square piece of material into a regular octagon. From the above,
+The two end lengths e on each side (the leg lengths of the triangles (green in the image) truncated from the square), as well as being formula_12 may be calculated as
+CIRCUMRADIUS AND INRADIUS
+Section::::Circumradius and inradius.
+The circumradius of the regular octagon in terms of the side length a is
+and the inradius is
+DIAGONALS
+Section::::Diagonals.
+The regular octagon, in terms of the side length a, has three different types of diagonals:
+* Short diagonal;
+* Medium diagonal (also called span or height), which is twice the length of the inradius;
+* Long diagonal, which is twice the length of the circumradius.
+The formula for each of them follows from the basic principles of geometry. Here are the formulas for their length:
+* Short diagonal: formula_16 ;
+* Medium diagonal: formula_17 ;
+* Long diagonal: formula_18 .
+CONSTRUCTION AND ELEMENTARY PROPERTIES
+Section::::Construction and elementary properties.
+A regular octagon at a given circumcircle may be constructed as follows:
+* Draw a circle and a diameter AOE, where O is the center and A, E are points on the circumcircle.
+* 
+* Draw another diameter GOC, perpendicular to AOE.
+* 
+* (Note in passing that A,C,E,G are vertices of a square).
+* 
+* Draw the bisectors of the right angles GOA and EOG, making two more diameters HOD and FOB.
+* 
+* A,B,C,D,E,F,G,H are the vertices of the octagon.
+* 
+A regular octagon can be constructed using a straightedge and a compass, as 8 = 2, a power of two:
+Each side of a regular octagon subtends half a right angle at the centre of the circle which connects its vertices. Its area can thus be computed as the sum of 8 isosceles triangles, leading to the result:
+for an octagon of side a.
+STANDARD COORDINATES
+Section::::Standard coordinates.
+The coordinates for the vertices of a regular octagon centered at the origin and with side length 2 are:
+* (±1, ±(1+))
+* (±(1+), ±1).
+DISSECTION
+Section::::Dissection.
+!8-cube projection
+!colspan=224 rhomb dissection
+Regular
+Isotoxal
+Coxeter states that every zonogon (a 2m-gon whose opposite sides are parallel and of equal length) can be dissected into m(m-1)/2 parallelograms.
+In particular this is true for regular polygons with evenly many sides, in which case the parallelograms are all rhombi. For the regular octagon, m=4, and it can be divided into 6 rhombs, with one example shown below. This decomposition can be seen as 6 of 24 faces in a Petrie polygon projection plane of the tesseract. The list defines the number of solutions as 8, by the 8 orientations of this one dissection. These squares and rhombs are used in the Ammann–Beenker tilings.
++ Regular octagon dissected
+Tesseract
+4 rhombs and 2 square
+SKEW OCTAGON
+Section::::Skew octagon.
+A skew octagon is a skew polygon with 8 vertices and edges but not existing on the same plane. The interior of such an octagon is not generally defined. A skew zig-zag octagon has vertices alternating between two parallel planes.
+A regular skew octagon is vertex-transitive with equal edge lengths. In 3-dimensions it will be a zig-zag skew octagon and can be seen in the vertices and side edges of a square antiprism with the same D, [2,8] symmetry, order 16.
+PETRIE POLYGONS
+Section::::Petrie polygons.
+The regular skew octagon is the Petrie polygon for these higher-dimensional regular and uniform polytopes, shown in these skew orthogonal projections of in A, B, and D Coxeter planes.
+!A
+!D
+!colspan=2B
+7-simplex
+5-demicube
+16-cell
+Tesseract
+SYMMETRY
+Section::::Symmetry.
++ Symmetry
+The 11 symmetries of a regular octagon. Lines of reflections are blue through vertices, purple through edges, and gyration orders are given in the center. Vertices are colored by their symmetry position.
+The regular octagon has Dih symmetry, order 16. There are 3 dihedral subgroups: Dih, Dih, and Dih, and 4 cyclic subgroups: Z, Z, Z, and Z, the last implying no symmetry.
++ Example octagons by symmetry
+!colspan=3r16
+!d8
+!g8
+!p8
+!d4
+!g4
+!p4
+!d2
+!g2
+!p2
+!colspan=3a1
+On the regular octagon, there are 11 distinct symmetries. John Conway labels full symmetry as r16. The dihedral symmetries are divided depending on whether they pass through vertices (d for diagonal) or edges (p for perpendiculars) Cyclic symmetries in the middle column are labeled as g for their central gyration orders. Full symmetry of the regular form is r16 and no symmetry is labeled a1.
+The most common high symmetry octagons are p8, a isogonal octagon constructed by four mirrors can alternate long and short edges, and d8, an isotoxal octagon constructed with equal edge lengths, but vertices alternating two different internal angles. These two forms are duals of each other and have half the symmetry order of the regular octagon.
+Each subgroup symmetry allows one or more degrees of freedom for irregular forms. Only the g8 subgroup has no degrees of freedom but can seen as directed edges.
+USES OF OCTAGONS
+Section::::Uses of octagons.
+The octagonal shape is used as a design element in architecture. The Dome of the Rock has a characteristic octagonal plan. The Tower of the Winds in Athens is another example of an octagonal structure. The octagonal plan has also been in church architecture such as St. George's Cathedral, Addis Ababa, Basilica of San Vitale (in Ravenna, Italia), Castel del Monte (Apulia, Italia), Florence Baptistery, Zum Friedefürsten church (Germany) and a number of octagonal churches in Norway. The central space in the Aachen Cathedral, the Carolingian Palatine Chapel, has a regular octagonal floorplan. Uses of octagons in churches also include lesser design elements, such as the octagonal apse of Nidaros Cathedral.
+Architects such as John Andrews have used octagonal floor layouts in buildings for functionally separating office areas from building services, notably the Intelsat Headquarters in Washington D.C., Callam Offices in Canberra, and Octagon Offices in Parramatta, Australia.
+OTHER USES
+DERIVED FIGURES
+RELATED POLYTOPES
+Section::::Derived figures.
+Section::::Related polytopes.
+The octagon, as a truncated square, is first in a sequence of truncated hypercubes:
+As an expanded square, it is also first in a sequence of expanded hypercubes:
+SEE ALSO
+* Bumper pool
+* Octagon house
+* Octagonal number
+* Octagram
+* Oktogon, a major intersection in Budapest, Hungary
+* Rub el Hizb (also known as Al Quds Star and as Octa Star)
+* Smoothed octagon
+REFERENCES
+EXTERNAL LINKS
+* Octagon Calculator
+* Definition and properties of an octagon With interactive animation

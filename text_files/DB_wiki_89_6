@@ -1,0 +1,45 @@
+
+STATIC PRESSURE
+In fluid mechanics the term static pressure has several uses:
+* In the design and operation of aircraft, static pressure is the air pressure in the aircraft's static pressure system.
+* In fluid dynamics, many authors use the term static pressure in preference to just pressure to avoid ambiguity. Often however, the word 'static' may be dropped and in that usage pressure is the same as static pressure at a nominated point in a fluid.
+* The term static pressure is also used by some authors in fluid statics.
+STATIC PRESSURE IN DESIGN AND OPERATION OF AIRCRAFT
+Section::::Static pressure in design and operation of aircraft.
+An aircraft's altimeter is operated by the static pressure system. An aircraft's airspeed indicator is operated by the static pressure system and the pitot pressure system.
+The static pressure system is open to the exterior of the aircraft to sense the pressure of the atmosphere at the altitude at which the aircraft is flying. This small opening is called the static port. In flight the air pressure is slightly different at different positions around the exterior of the aircraft. The aircraft designer must select the position of the static port carefully. There is no position on the exterior of an aircraft at which the air pressure, for all angles of attack, is identical to the atmospheric pressure at the altitude at which the aircraft is flying. The difference in pressure causes a small error in the altitude indicated on the altimeter, and the airspeed indicated on the airspeed indicator. This error in indicated altitude and airspeed is called position error.
+When selecting the position for the static port, the aircraft designer's objective is to ensure the pressure in the aircraft's static pressure system is as close as possible to the atmospheric pressure at the altitude at which the aircraft is flying, across the operating range of weight and airspeed. Many authors describe the atmospheric pressure at the altitude at which the aircraft is flying as the freestream static pressure. At least one author takes a different approach in order to avoid a need for the expression freestream static pressure. Gracey has written "The static pressure is the atmospheric pressure at the flight level of the aircraft". Gracey then refers to the air pressure at any point close to the aircraft as the local static pressure.
+STATIC PRESSURE IN FLUID DYNAMICS
+Section::::Static pressure in fluid dynamics.
+The concept of pressure is central to the study of fluids. A pressure can be identified for every point in a body of fluid, regardless of whether the fluid is in motion. Pressure can be measured using an aneroid, Bourdon tube, mercury column, or various other methods.
+The concepts of total pressure and dynamic pressure arise from Bernoulli's equation and are significant in the study of all fluid flows. (These two pressures are not pressures in the usual sense - they cannot be measured using an aneroid, Bourdon tube or mercury column.) To avoid potential ambiguity when referring to pressure in fluid dynamics, many authors use the term static pressure to distinguish it from total pressure and dynamic pressure; the term static pressure is identical to the term pressure, and can be identified for every point in a fluid flow field.
+In Aerodynamics, L.J. Clancy writes: "To distinguish it from the total and dynamic pressures, the actual pressure of the fluid, which is associated not with its motion but with its state, is often referred to as the static pressure, but where the term pressure alone is used it refers to this static pressure."
+Bernoulli's equation is fundamental to the dynamics of incompressible fluids. In many fluid flow situations of interest, changes in elevation are insignificant and can be ignored. With this simplification, Bernoulli's equation for incompressible flows can be expressed as
+where:
+* formula_2 is static pressure,
+* formula_3 is dynamic pressure, usually denoted by formula_4,
+* formula_5 is the density of the fluid,
+* formula_6 is the flow velocity, and
+* formula_7 is total pressure which is constant along any streamline. It is also known as the stagnation pressure.
+Every point in a steadily flowing fluid, regardless of the fluid speed at that point, has its own static pressure formula_8, dynamic pressure formula_9, and total pressure formula_10. Static pressure and dynamic pressure are likely to vary significantly throughout the fluid but total pressure is constant along each streamline. In irrotational flow, total pressure is the same on all streamlines and is therefore constant throughout the flow.
+The simplified form of Bernoulli's equation can be summarised in the following memorable word equation:
+This simplified form of Bernoulli's equation is fundamental to an understanding of the design and operation of ships, low speed aircraft, and airspeed indicators for low speed aircraft – that is aircraft whose maximum speed will be less than about 30% of the speed of sound.
+As a consequence of the widespread understanding of the term static pressure in relation to Bernoulli's equation, many authors in the field of fluid dynamics also use static pressure rather than pressure in applications not directly related to Bernoulli's equation.
+The British Standards Institution, in its Standard Glossary of Aeronautical Terms, gives the following definition:
+STATIC PRESSURE IN FLUID STATICS
+Section::::Static pressure in fluid statics.
+The term (hydro)static pressure is sometimes used in fluid statics to refer to the pressure of a fluid at a nominated depth in the fluid. In fluid statics the fluid is stationary everywhere and the concepts of dynamic pressure and total pressure are not applicable. Consequently, there is little risk of ambiguity in using the term pressure, but some authors choose to use static pressure in some situations.
+SEE ALSO
+* Pascal's law
+* Stagnation pressure
+* Standard conditions for temperature and pressure
+NOTES
+REFERENCES
+Section::::References.
+Aircraft design and operation
+* .
+* Kermode, A.C. (1972) Mechanics of Flight, Longman Group Limited, London
+* Lombardo, D.A., Aircraft Systems, 2nd edition, McGraw-Hill (1999), New York
+Fluid dynamics
+* L. J. Clancy (1975), Aerodynamics, Pitman Publishing Limited, London
+* Streeter, V.L. (1966), Fluid Mechanics, McGraw-Hill, New York

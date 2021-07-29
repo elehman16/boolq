@@ -1,0 +1,49 @@
+
+COUNTY COURT BUSINESS CENTRE
+The County Court Business Centre (CCBC) is a centre of the County Court of England and Wales created to deal with claims by the use of various electronic media. Unlike other County Court centres the CCBC does not physically hear cases. If any case might require a hearing it is transferred to another centre.
+CREATION
+Section::::Creation.
+The increasing ubiquity of computers and Internet access led to public discussion of allowing greater use of information technology to run court proceedings.
+In January 1990 the Claim Production Centre (CPC) (originally called the Summons Production Centre) was created, with the power to issue and serve claims through information technology. This is currently enshrined within Rule 7.10 of the Civil Procedure Rules 1998 (CPR). This states that "…there shall be a Production Centre for the issue of claim forms and other related matters…" and that the relevant practice direction makes provision for its use and any modification or disapplication of the CPR.
+All claims issued through the CPC were originally issued in the name of a county court in the same way as claims issued in the traditional manner. In March 1992 the CCBC was created to remove the burden of routine matters in simple CPC cases from the other county court. The current definition of such matters is contained in Practice Direction 7C.
+LOCATION
+Section::::Location.
+Currently both the CPC and CCBC are located in Northampton.
+ACCESS
+Section::::Access.
+Use of the CCBC is available only to members. Membership is free and is available to anyone who successfully demonstrates they can meet the IT requirements of the CCBC.
+Continued use of the CCBC is subject to the Rules of Membership and Code of Conduct.
+USE
+Section::::Use.
+Cases can be issued through the CCBC in two different ways.
+MONEY CLAIM ONLINE
+Section::::Money Claim Online.
+Money Claim Online (MCOL) was created in February 2002. It provides users who wish to issue a limited number of claims to commence and manage County Court proceedings using a website, and to pay court fees online using a credit card.
+BULK ISSUE
+Section::::Bulk issue.
+Instead of submitting an individual claim form along with an individual payment of the correct fee for each case, CCBC users submit a single file containing each of the claims they wish to issue on a particular day as a data record in a specified format. Fees for all of these cases can be paid in a lump sum.
+Files are submitted electronically in XML format via a secure API gateway using a system known as Secure Data Transfer (SDT), developed under contract to Her Majesty's Courts and Tribunals Service in 2013 by a third party supplier.
+Previously files could be submitted on floppy disk or magnetic tape. For this reason long-standing users of the CCBC may still refer to the data file as the "tape". In 2012 a secure email transfer system was implemented as an interim measure until the new SDT system was completed. Once this was done the secure email transfer option was removed.
+CCBC users may poll the SDT API to request updates on the status of their cases. Depending on the nature of the original request some information (i.e. basic validation) may be available within a few minutes of data having been uploaded, whilst other information may not be available until the request has been fully processed by the Court Service internal systems - this can take 24 hours or longer.
+As well as issuing claim forms, the CCBC also handles requests for judgments and warrants of execution in the same manner.
+DEFENDANT RESPONSES
+Section::::Defendant responses.
+Claim forms issued by the CCBC are served upon the defendant(s) in the same manner as other courts. However, the response pack also includes a password to allow the defendant to file their response via a website.
+Where the defendant contests some, or all, of the claim, the claimant is required (if they wish to continue) to request the case be transferred out of the CCBC.
+LIMITATIONS
+Section::::Limitations.
+Rule 7 allows for limits to be placed on the types of claim that may be issued via the CCBC.
+These are currently:
+* The claim must be for issue in the County Court and not the High Court;
+* The claim form cannot refer to separate particulars of claim;
+* The claim must be for a specified sum of money less than £100,000 sterling, and expressed in sterling;
+* The claim cannot be against more than two Defendants;
+* Where there are two defendants the claim against each of them must be for the same amount;
+* The defendants must not be a child or patient (within the meaning of Rule 21 of the Civil Procedure Rules) or a legally assisted person (within the meaning of the Legal Aid Act 1988);
+* The defendant cannot be the Crown;
+* The defendants' address for service must be within England or Wales.
+In addition the CCBC cannot be used to issue claims under Part 8 of the CPR.
+REFERENCES
+* Northampton Bulk Centre
+* Money Claim Online
+* Civil Procedure Rules 1998 online

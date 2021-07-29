@@ -1,0 +1,377 @@
+
+FL STUDIO
+FL Studio (formerly known as FruityLoops) is a digital audio workstation developed by the Belgian company Image-Line. FL Studio features a graphical user interface based on a pattern-based music sequencer. The program is available in four different editions for Microsoft Windows and macOS, including Fruity Edition, Producer Edition, Signature Bundle, and All Plugins Bundle. Image-Line offers lifetime free updates to the program, which means customers receive all future updates of the software for free. Image-Line also develops FL Studio Mobile for iPod Touch, iPhone, iPad and Android devices.
+FL Studio can also be used as a VST instrument in other audio workstation programs and also functions as a ReWire client. Image-Line also offers other VST instruments and audio applications. FL Studio has been used by hip hop and EDM DJ's such as Martin Garrix, Avicii, Zardonic
+, Boi-1da, Seven Lions. 9th Wonder, Metro Boomin, Alan Walker, Southside, Mike Will Made It, Dyro, Madeon, Slushii, I Am He, Afrojack, Vid Forstner and Porter Robinson, among many others.
+HISTORY
+Section::::History.
+The first version of FruityLoops (1.0.0) was developed by Didier Dambrin for Image-Line and was partially released in December 1997. Its official launch was in early 1998, when it was still a four-channel MIDI drum machine. Dambrin became Chief Software Architect for the program, and it quickly underwent a series of large upgrades that made it into a popular and complex digital audio workstation. FL Studio has undergone twelve major updates since its inception. On 22 May 2018, a macOS-compatible version of FL Studio was released.
+SOFTWARE OVERVIEW
+* FL Studio Express - This version allows for step sequencer-only editing and is chiefly suited for 64-step loop creation. Each pattern can consist of an unlimited number of instruments—either samples, native, or VST instruments. Instruments in the pattern can be routed to the Mixer tool for effects processing, and effects as of version 10.0 include Delay, Delay Bank, EQUOo, Flangus, Love Philter, Vocoder, Parametric EQ & EQ2, Multiband Compressor, Spectroman, Stereo Enhancer, Wave Candy, Wave Shaper, and Soundgoodizer. There is no piano roll, playlist ability, automation, audio recording, or VST/ReWire client.
+* Fruity Edition – The Fruity Edition allows users to access the playlist, piano roll, and event automation features, which allow for complex and lengthy arranging and sequencing. There is also VST/ReWire support so that FL Studio can be an instrument in other hosts such as Cubase, Sonic Solutions, Logic, and other software. As of version 10.0 this edition includes the Simsynth Live synthesizer instrument, the DrumSynth live percussion synthesizer, the DX10FM synthesizer, and the Wasp/Wasp XT synthesizers. There is no audio recording feature. In FL Studio 12, this was given (spline-based) automation.
+* Producer Edition – The Producer Edition includes all of the features of the Fruity Edition, as well as full recording for internal and external audio and post-production tools. It allows for hand-drawing point and curve based splines (referred to as "Automation Clips"). Plugins include Edison, Slicex (loop slicer and re-arranger), Sytrus, Maximus, Vocodex and Synthmaker. It also allows for waveform viewing of audio clips and the ability to add cue points.
+* Signature Bundle – This edition includes the Producer Edition as well as a series of plugins such as the Fruity Video player, DirectWave Sampler, Harmless, NewTone, Pitcher, Gross Beat and the Hardcore Guitar Effects Suite.
+* All Plugins Bundle – The All Plugins Bundle includes the Signature Bundle along with extra plugins, particularly synthesizers.
+* Free Demo – The free demo version includes all of the program's features, all plugins, and allows users to render project audio to WAV, MIDI, MP3, and OGG. However, there are several drawbacks to this limitation as projects saved in demo mode will only open fully once FL Studio and plugins have been registered. Also, instrument presets cannot be saved and the audio output of some instruments will cut out momentarily every few minutes until the program and its plugins have been registered.
+* Mobile – On June 21, 2011, Image-Line released FL Studio Mobile for iOS and in April 2013 for Android. Both support the ability to create multi-track projects on mobile devices including iPod Touches, iPhones, iPads., Android 2.3.3 and higher Smart Phones and Tablets.
+* Groove – On September 2, 2013, A new standalone app for Windows 8 was released. It is a Groovebox style application optimised for touch-based music creation.
+SYSTEM REQUIREMENTS
+Section::::Software overview.
+Section::::System requirements.
+FL Studio 20 works on Windows 7/8/10 (32-bit or 64-bit versions) or on macOS 10.11/10.12/10.13. FL Studio requires a 2GHz AMD or Intel Pentium 3 CPU with full SSE1 support. It requires 2 GB of free disk space and 4 GB of RAM is recommended.
+FL Studio processes audio using an internal 32-bit floating point engine. It supports sampling rates up to 192 kHz using either WDM or ASIO enabled drivers.
+PROGRAM FEATURES
+Section::::Program features.
+Version 20, released on May 22, 2018, skipped versions 13 to 19 to celebrate the 20th anniversary of the program. It introduced native macOS support, multiple time-signatures, midi and audio clip consolidation (conversion to audio), unlimited playlist arrangements, improved Plugin Delay Compensation, the return of the Step Sequencer Graph Editor, Sample Start for Channel samplers, 500 Playlist tracks, 125 Mixer channels. Main pitch knob changes every 100 cents, FL Studio ASIO's "Hard clip at 0 dB" option is now on by default, Scroll lock key state is no longer changed when toggling the auto-scroll toolbar button, several bug fixes. 
+Version 12, released on April 22, 2015, added a new vectorial UI, updated plugins, multi-touch support, a redesigned mixer, improved 32 & 64 bit plugin support and improved file management.
+Version 11, released on April 19, 2013, included multi-touch support, improved tempo automation, new plugins such as BassDrum, GMS, Effector, Patcher, and new piano roll features (VFX Key Mapper, VFX Color Mapper).
+Version 10, released on March 29, 2011, included a new project browser, fixed some bugs, and smoothed envelope points. It also introduced Patcher, a modular workflow environment capable of chaining together an unlimited number of instruments and effects.
+Version 9 introduced support for multi-core effects processing and improved support for multi-core instrument processing.
+The mixer interface allows for any number of channel configurations. This allows mixing in 2.1, 5.1, or 7.1 surround sound, as long as the output hardware interface has an equivalent number of outputs. The mixer also supports audio-in, enabling FL Studio to record multitrack audio.
+FL Studio supports time stretching/pitch shifting, beat slicing, chopping, and editing of audio, and as of version 12.9 it can record up to 125 simultaneous audio tracks. Other key features include a digital piano roll. Audio can be imported or exported as WAV, MP3, OGG, FLAC, MIDI, ZIP, or the native project format with an .FLP filename extension.
+The demo is very functional, allowing users to save their project files for re-opening in the registered version, and export their tracks to any of the available file formats.
+PLUG-INS
+Section::::Plug-ins.
+FL Studio comes with a variety of plugins and generators (software synthesizers) written in the program's own native plugin architecture. FL Studio also has support for third-party VST and DirectX plugins. The API has a built in wrapper for full VST, VST2, VST3, DX, and ReWire compatibility. Many of the plugins also function independently as standalone programs.
+* Dashboard – An included plugin that allows the creation of full automation-enabled interfaces for hardware MIDI devices. This allows FL Studio to control hardware from within the program. As of version 9.0 it also supports multiple controllers for different generators and effects.
+* Edison – Edison is a wave-form editor and recording tool in VST format, though Image-Line also produces a stand-alone version that does not require FL Studio to run. It is included in the Producer Edition and allows spectral analysis, convolution reverb, loop-recording, and loop-construction, as well as support for cue points.
+* Fruity Video Player – Included in the Bundle Edition, it allows the composition and synchronization of audio and video.
+* Deckadance (often referred to as DD) – a standalone DJ console and mixing program that can also be used in conjunction with FL Studio as a VST plugin. Initially released in May 2007, it was made available starting with the release of FL Studio 7 as an optional part of the download package. Acquired in 2015 by Gibson (Stanton/Cakewalk).
+* Maximus – Maximus is a multi-band audio limiter and compressor for mastering projects or tracks. It also serves as a noise gate, expander, ducker, and de-esser, and is included in the Bundle edition.
+* Riff Machine – Self-generates melodies in the piano roll using a randomly selected instrument, with parameter controls for shaping melodies. Introduced in version 9.
+* Fruity Stereo Shaper – Stereo processor with a mixer for left and right channels and their inverted equivalents and controls for channel delay and phase offset. Introduced in version 9.
+VIRTUAL EFFECTS
+Section::::Virtual effects.
+FL Studio is bundled with a variety of sound processing effects, including common audio effects such as chorus, compression, delay, flanger, phaser, reverb, equalization, vocoding, maximization, and limiting.
+* Gross Beat – A time, pitch, volume, and sidechain manipulation effect.
+* Hardcore Guitar Effects Suite – A multi-effects suite of plugins designed to resemble guitarists' stompboxes, which works for any instrument.
+* Juice Pack – A collection of proprietary plugins ported to VST format for use in other music hosts. The contents of this pack has changed since its release; at the time of this writing it includes the Delay, Delay Bank, EQUO, Flangus, LovePhilter, Multiband Compressor, Notebook, Parametric EQ, Parametric EQ 2, Spectroman, Stereo Enhancer, Vocoder, Wave Candy, and Wave Shaper plugins.
+* Fruity Vocoder – A real-time vocoder effect.
+* Vocodex – An advanced vocoder included in the Producer Edition of version 10.
+* NewTone – A pitch correction and time manipulation editor that allows for slicing, correcting, and editing vocals, instrumentals, and other recordings. Introduced as a demo with version 10.
+* Pitcher – Serves as a real-time pitch correction, manipulation, and harmonization tool for creating or correcting 4 voice harmonies under MIDI control from a keyboard or the piano roll. Introduced as a demo with version 10.
+* Patcher – Free plugin for chain effects that can then be quickly uploaded in new projects.
+* ZGameEditor Visualizer – Free visualization effect plugin based on the open source ZGameEditor, with movie rendering capability.
+SAMPLERS
+* DirectWave Sampler – A software sampler that provides sample recording, waveform editing, and DSP effects (works for both VST and live instruments).
+* SliceX – A beat-slicing sampler for processing and re-arranging recorded drumloops, included in the Producer Edition.
+SYNTHESIZERS
+Section::::Synthesizers.
+FL Studio is bundled with 32 generator plugins (October 2011). Some are demos whilst some are full versions. The list includes;
+* 3XOsc – A generator with three programmable oscillators that subtractively produce bright sound with low memory use.
+* Autogun – A synthesizer with no controls and over 4 billion patches accessible by numbers only. The free version of Ogun.
+* BooBass – A monophonic bass guitar emulator.
+* Buzz Generator Adaptor – A wrapper for a large number of generators from Buzzmachines.com
+* Drumaxx – A physical modeling synthesizer designed to emulate and create the sound of percussion instruments.
+* DrumSynth Live – Allows for percussion synthesis. Included in all Editions.
+* DX10FM – Recreates a classic FM. Included in Fruity Edition and higher.
+* FL Slayer – FL Slayer is an electric guitar simulator originally developed by reFX that is equipped with a high-quality amp and effects tools to allow for the realistic recreation of hundreds of guitar sounds and effects boxes. It is a VSTi plugin and is included in every version of FL Studio but not available as 64-bit version (available only in 32-bit version of FL Studio) until release of FL Studio 12.
+* Groove Machine – a virtual drum machine
+* Harmless – Performs subtractive synthesis using an additive synthesis engine. Demo.
+* Harmor – Additive / subtractive synth with ability to encode pictures into music and resynthesis. Demo.
+* Morphine – An additive synthesizer that allows voices to be mixed and morphed under user control. Demo.
+* Ogun – An advanced programmable additive synthesizer chiefly for creating metallic timbres from 32000 harmonic choices. Demo.
+* PoiZone – A subtractive synthesizer with non-essential control removed for easy navigation.
+* Sakura – Sakura is a physical modeling synthesizer that is designed to emulate string instruments.
+* Sawer – A vintage modeling synthesizer that attempts to emulate Soviet Union-era subtractive synthesizers.
+* SimSynth Live – Modeled after the classic analog synthesizers of the 1980s with three oscillators, with a programmable LFO section. Created by David Billen, Frederic Vanmol, and Didier Dambrin.
+* SynthMaker – FL Studio 8 Producer Edition introduced a version of SynthMaker, a popular graphical programming environment for synthesizers. It allows for the creation and sharing of new instruments without the need to understand programming code.
+* Sytrus – A software synthesizer. The first version was released with FL Studio version 4.5.1. The second version of Sytrus (introduced with FL Studio 6) comes with an array of presets covering many types of sounds. Sytrus uses a combination of subtractive synthesis, additive synthesis, FM synthesis, and ring modulation, allowing the production of sounds ranging from drum sets to organs. Sytrus provides a large number of adjustments and controls, including shape shifting, harmonics editing, EQ, a modulator, filters, reverb, delay, unison, and detune.
+* Toxic Biohazard – A virtual FM synthesizer similar to Sytrus, using FM and subtractive synthesis.
+* TS-404 - a 2-oscillator subtractive synthesizer designed to mimic the Roland TB-303 transistor bass module. Removed in FL Studio 12 and replaced with the similar emulator Transistor Bass.
+* WASP/WASP XT – A 3 oscillator synthesizer created by Richard Hoffman.
+* FL Soundfont Player – An FL Studio add-on that gives power to load, play and render soundfonts (.sf2 files) in FL Studio.
+VERSION HISTORY
+MIDI program only, never fully released.
+1.3.56
+1 September 1998
+Pitch for notes added
+1.4.0
+16 December 1998
+Loops in sample browser, up to 64 notes per pattern, drumkits added, rendering to mono, animation added.
+1.5.23
+3 May 1999
+VST plugin support added, beta version.
+2.0.1
+21 November 1999
+Support for DirectX plugins added, redesign, live recording added.
+2.1.1.
+19 January 2000
+Now using LAME .mp3 encoder, BeatSlicer engine added, Fruity center plugin added.
+2.5.1
+19 April 2000
+Set of FruityPlugins added, including Fruity Reeverb and the 7-band FruityEqualizer.
+2.7.0
+22 July 2000
+Fruity Fast LP plugin added.
+2.7.1
+25 September 2000
+Fruity Phaser plugin by Smart Electron:x added.
+3.0.0
+25 January 2001
+Piano roll and metronome added, typing keyboard to MIDI option added, new layout. DrumSynth upgraded, new plugins include 3x Osc, BeepMap image synth, Fruity PanOMatic, Fruity NoteBook, MIDI out, and others.
+3.3.0
+15 October 2001
+Added ASIO output, Fruity db meter, multiple MIDI device controller, up to 8 plugins per track, velocity and keyboard tracking to all channels. New plugins included Fruity Slicer, Fruity Granulizer, and Fruity Big Clock.
+3.5.4.
+19 June 2002
+Allowed copy/pasting/saving automation, program available as a VSTi plugin.
+4.0.0
+5 March 2003
+Program name changed from FruityLoops to FL Studio with this release. New playlist, FX window made into mixer, mixer given 64 insert tracks, piano roll improvements, Fruity Slicer upgrade, program now available as a DXi plugin.
+4.1.0
+7 April 2003
+Free vocoder plugin added.
+4.5.1
+29 December 2003
+New plugins included Sytrus and the Fruity Flangus effect, New ReWire (host & client) support.
+5.0.0
+22 November 2004
+Fruity Slicer upgrade, basic loop recording added, Elastique time-stretching and pitch-shifting in audio tracks, added tempo detector for imported audio tracks. New plugins included Fruity WaveShaper effect and Fruity Pad Controller (FPC).
+6.0.1
+8 December 2005
+FL compiled with Delphi 2005, multiple MIDI input devices accepted, Sytrus improvements, new GM for DrumSynth Live. New plugins included Wasp XT synth and DirectWave sampler.
+7.0.0
+30 January 2007
+Programming language switched to Delphi 2006, BeepMap allows drag and drop function, Sytrus upgrades, support for AIFF files in sampler channels, support for Apple Loops AIFF extensions, DirectWave support for AIFF. New plugins included Fruity Parametric EQ 2, Edison audio editor and Fruity Love Philter effect.
+8.x
+8 November 2008
+Support for MIDI SysEx input, Love Philter allows piano keys to be assigned to patterns, updated to LAME 3.97, program support and some plugin support for .OGG format, added OGG Vorbis rendering target, default audio device changed to ASIO4ALL, FL-Chan character added in wallpapers, Edison plugin upgrade. New plugins included Slicex drumloop slicing generator, SynthMaker.
+9.0.0
+9 September 2009
+Wave Candy upgraded, support added for Korg nanoKey, nanoPad, and nanoKontrol controllers, new Riff Machine piano-roll tool, Fruity Dance upgrades, upgrade to LAME 3.98.2, Edison upgraded to export to OGG files. New plugins included Ogun (+Autogun) synthesizer, Gross Beat beat re-arranger effect, Vocodex, Sakura string synth, and Fruity Stereo Shaper.
+9.1.0
+5 May 2010
+New Fruity Convolver effect added, MP3 export capabilities added to Edison plugin. New plugins included Harmless synthesizer.
+9.5.0
+7 July 2010
+Larger mixer view & waveform metering, individually sizable Playlist tracks, live Playlist marker types, 64 bit plugin support, improved memory management, audio Clips & Sampler Channels Keep on disk option now opens the sample in a separate memory allocation, improved audio options, fully automatic PDC.
+9.6.0
+30 September 2010
+Pitcher correction and harmonization, new piano roll, new zoom control, song loop - replaces 'repeat marker', new make unique, auto PDC, run 64 bit or 32 bit plugins (bridged), reduce FL Studio memory demand, piano roll syncs playlist, new ASIO options and tracking.
+9.7.0
+22 November 2010
+Pitch correction, time stretching, 'New pattern' button, pitcher real-time pitch effects, new piano roll.
+9.8.0
+19 January 2011
+New "Frozen LFO" option in envelopes, Score export to PDF file from the Piano roll.
+9.9.0
+28 February 2011
+Project picker, ZGameEditor Visualizer.
+9.9.7
+7 March 2011
+Bugfixes updates: (install on top of 9.9 beta).
+10.0.0
+29 March 2011
+New project browser, Patcher plugin, ZGameEditor Visualizer plugin.
+10.0.2
+19 May 2011
+Zge: new version, new scripts, added FL Mobile, new FLEngine, new help file.
+10.0.5
+21 June 2011
+Zge: new version, new scripts, FL mobile add updated, added "Recording starts playback" option, New "Gap" knob in PR articulator tool, FL Mobile file import.
+10.0.8
+5 September 2011
+Env editor, smooth point modes in all plugins, new "Song start" marker type, DirectWave: Import and export FL Mobile .instr files, FPC: Export FL Mobile .instr files.
+10.0.9
+26 October 2011
+Harmor: Mod XYZ smoothing controls filter freq smoothing as well, Synthmaker 2.0.5.
+10.5 (beta)
+13 April 2012
+New performance mode, new graphics for clips in playlist, improved graphics in piano roll, links using MIDI ports, added support, added visual feedback for free controls on the MCU controller, added "Chop chords" option to piano roll, articulator tools, new downloader / content library, Fruity Squeeze, ZGEViz: new version.
+10.6 (beta)
+2 July 2012
+Partial support for multi-touch monitors in FL & some plugins, added support for nanoKONTROL2, Support for Windows "app commands," DirectX plugin scanning removed, added BassDrum synth plugin.
+10.8 (beta)
+30 September 2012
+Fixed filter automation import from .flm file, Soundfont Player fixed, Wrapper fixed, Synthmaker: version 2.0.11, Video player fixed, Patcher fixed, DirectWave fixed, Downloader fixed.
+10.9 (beta)
+12 December 2012
+FPC fixed threading bugs, DirectWave fixed garbage in sample start/end strings, Patcher fixed cpu usage.
+10.10 (beta)
+28 February 2013
+Support for Novation Launchpad S & basic support for Launchkey, VFX Color Mapper plugin (Patcher only), VFX Key Mapper plugin (Patcher only), Gross Beat: Click reduction feature enhanced to 3 states, improved speed of sinc interpolator, Synthmaker updated to Flowstone, Newtone: added warp mode.
+11.x
+24 April 2013
+Image-Line announces through their Facebook page that FL Studio 11 is now available. Ability to sidechain native and non-native compressors added.
+11.5 (Alpha Preview)
+15 April 2014
+This is a limited Alpha Edition. It featured a work in progress version of the new vector based GUI. 
+11.5 (Beta)
+16 March 2015
+FL Studio 12 Beta 4 is the last beta version of FL Studio 12. New features include the final version of the new GUI, multitouch support, simplified VST plugin installation and the ability to drag multiple files onto the playlist.
+12.x
+22 April 2015
+Image-Line announced that FL Studio 12 was available. It added final touches on plugins, multi-touch support, new mixer, 32 bit (bridged) & 64 bit plugin support and improved file management. Inclusion of a new "FL Studio ASIO" driver that allows multiple simultaneous desktop audio applications to run such as FL Studio and YouTube.
+12.0.2
+14 May 2015
+Option of bit-size to load plugins in the Wrapper.
+12.1.0 (beta)
+18 July 2015
+Support for importing FLAC files, VFX Key Splitter and Fruity X-Y-Z Controller plugins, Launchpad Pro support, new drum/piano samples, Plugin Scanner re-brand (now Plugin Manager).
+12.1.1 (beta)
+31 July 2015
+Removal of piano samples from previous update (split into 2 new sample packs), Live Mode actions for 10th octave notes in piano roll.
+12.1.2
+12 August 2015
+New and improved Video Player plugin, Launchpad MK2 support.
+12.1.3
+27 August 2015
+Newtone and Plugin Manager bugfixes.
+12.1.6 (12.2 beta)
+27 November 2015
+Vector reskins for the following plugins: BeepMap, BooBass, EQUO, FL Keys, Fruit Kick, Big Clock, dB Meter, Delay 2, Delay Bank, DX 10, Fast Dist, Flangus, Granulizer, LSD, Multiband Compressor, PanOMatic, Parametric EQ, Reeverb 2, Slicer, Soft Clipper, Soundfont Player, Stereo Enhancer, Stereo Shaper, Vocoder, WaveShaper, Plucked!. Support for exporting FLAC files, 1650 new drum samples.
+12.2
+13 December 2015
+Vector reskins for DrumSynth Live and X-Y Controller, Various Ogg file bugfixes.
+12.2.1 (12.3 beta)
+25 March 2016
+Real-time audio stretching, options for piano roll style, Plugin Manager GUI update, Vector reskins for Sytrus, Fruity Limiter, Fruity Love Philter, Gross Beat, and Maximus. New Transient Processor plugin, feedback from IL remote controller.
+12.2.2 (12.3 beta)
+26 April 2016
+Incremental scrolling, IL remote feedback improvements.
+12.2.3 (12.3 beta)
+13 May 2016
+Razer Chroma plugin, renamed mono/poly brushes, fixed "Type in value" for tempo/mixer track selectors.
+12.2.4 (12.3 beta)
+31 May 2016
+ZGameEditor Visualizer updated to version 2, updated Transient Processor, window scaling for FL ReWire.
+12.2.5 (12.3 beta)
+28 June 2016
+Improvements to the "Align all channel editors" option, IL Remote feedback is now always on, ability to move all windows to visible positions.
+12.3
+2 August 2016
+Vector reskin for Convolver, Razer Chroma updates, new demo projects, ability to disable menu transparency.
+12.3.1 Beta 1
+9 September 2016
+New Transistor Bass plugin, vector reskins for FPC, Harmless, Ogun, Parametric EQ 2, SimSynth, Slicex, and Vocodex. Many FL 64bit bugfixes.
+12.3.1 Beta 2
+16 September 2016
+.instr support in the Sample Browser, contrasting text changes, new recording quantize options, loop recording improvements.
+12.3.1 RC1
+24 September 2016
+Removed "Open in BeatSlicer" option from Fruity Slicer, default bit-rate for rendering to MP3/Ogg is now 192kbit/s.
+12.3.1 RC2
+7 October 2016
+Native Instruments Machine JAM support, bulk rendering command-line options, new Patcher presets, various ZGameEditor Visualizer improvements.
+12.3.1 RC3
+11 October 2016
+Added undo/redo, step seq mode and swing jogwheel mode to Machine JAM, various browser crash bugfixes.
+12.3.1 RC4
+20 October 2016
+Various cosmetic fixes.
+12.4
+2 November 2016
+New FL Studio Mobile plugin, Newtone pitch/warp buttons, ZGameEditor Visualizer improvements including h264 (MP4) and FLAC export.
+12.4.1 RC1
+8 December 2016
+FPC preset load changes, various improvements to Transistor Bass and ZGameEditor Visualizer.
+12.4.1
+21 December 2016
+Transistor Bass warning message on selecting "Clear", small crash bugfixes.
+12.4.2 RC1
+24 February 2017
+Improved copying of FL error messages, buffer to Saving/Loading projects, progress of loading shown, ZGameEditor Visualizer improvements.
+12.4.2 RC2
+1 March 2017
+Added Control Creator to FL Tools menu and Control Surface popup menu.
+12.4.2
+21 March 2017
+Tempo Tapper mute option is now off by default.
+12.5 (beta 3)
+28 June 2017
+Preview to upcoming 13 version. Added Picker Panel, new Plugin "Fruity Delay 3" and more major changes.
+12.5
+12 July 2017
+Picker Panel, quick audio rendering from patterns, customizable Virtual MIDI Controllers, new Automation Clips, FPC - Resizable vectorial UI, 21 other enhancements, and bug fixes.
+12.9.1 (beta)
+07 November 2017
+Additional time options for Tools ("Dump score log to selected pattern"), more changes and bugfixes.
+12.9.3 (beta)
+08 March 2018
+Added "Test" option to Options menu to run predefined tests, Harmor: visual feedback panel scaling is saved in the plugin settings and more changes
+12.9.4 (beta)
+06 April 2018
+"Alternate mixer track highlighting" is now on when high visibility mode is on, User data is now saved to the "shared data" folder by default
+20.0.0
+22 May 2018
+Introduced native macOS support, multiple time-signatures, midi and audio clip consolidation (conversion to audio), unlimited playlist arrangements, improved Plugin Delay Compensation, the return of the Step Sequencer Graph Editor, Sample Start for Channel samplers, 500 Playlist tracks, and 125 Mixer channels. Master pitch knob changes every 100 cents, FL Studio ASIO's "Hard clip at 0 dB" option is now on by default, Scroll lock key state is no longer changed when toggling the auto-scroll toolbar button, several bug fixes.
+20.0.1
+30 May 2018
+Various bugfixes.
+20.0.2
+7 June 2018
+Various UI tweaks and bugfixes.
+20.0.3
+9 July 2018
+ZGameEditor uncompressed exporting, various UI tweaks and bugfixes.
+20.0.4 (beta)
+22 August 2018
+CPU usage improvements to Patcher and the mixer, transposing multiple channels and patterns, new desktop icon.
+20.0.4 
+31 August 2018
+Improvements as in 20.0.4 beta, "Delete" added to effect slot mixer menu, chop audio clips in 8th and 16th, consolidated audio appears above muted track, significantly improved CPU usage for heavily routed projects, various bug fixes.
+20.0.5
+27 September 2018
+Support for Akai FL Studio FIRE Controller, Fruity Convolver Plug-In is now unlocked with Fruity Edition, Updated FL Studio Mobile Plug-In, macOS Mojave Support, various bug fixes 
+20.1
+11 December 2018
+Playlist Track Mode (linking Instruments and Audio to Playlist tracks through to the Mixer, Select Playlist Tracks for recording), Stepsequencer (per-Channel per-Pattern looping, 512 step maximum, Set swing mix for selected channels), various bug fixes 
+SUPPORT
+Section::::Support.
+Support for the software is provided through extensive HTML help documents. Users may also register for the official Image-Line forums, which are commonly recognized as a focal point for the FL Studio community. After initially buying the software, all future updates are free for a lifetime.
+NOTABLE USERS
+* 6ix
+* 808 Mafia
+* 9th Wonder
+* Afrojack
+* Alex da Kid
+* Alan Walker
+* Aone Beats
+* Avicii
+* Basshunter
+* Benga
+* Boi-1da
+* Cardo
+* Cazzette
+* Cyriak
+* DJ Mustard
+* Dyro
+* Hit-Boy
+* Hopsin
+* Jahlil Beats
+* Kane Beatz
+* Kouhei Matsunaga
+* Lee On the Beats
+* Lex Luger
+* Lukeward
+* Madeon
+* Martin Garrix
+* Max Tannone
+* Metro Boomin
+* Mike Will Made It
+* Nic Nac
+* Pogo
+* Ronald Jenkees
+* SAP
+* Savant
+* Seven Lions
+* Skream
+* Sonny Digital
+* Soulja Boy
+* Southside
+* TM88
+* Tom Ellard
+* Tyler, The Creator
+* Ugly God
+* Vinylz
+* WondaGurl
+* Young Chop
+* Yung Carter
+* Zardonic
+* Zaytoven
+* Zircon
+SEE ALSO
+* Comparison of multitrack recording software
+REFERENCES
+EXTERNAL LINKS

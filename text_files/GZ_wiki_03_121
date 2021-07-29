@@ -1,0 +1,43 @@
+
+PHONE HACKING
+Phone hacking is the practice of manipulating or gaining unauthorized access to mobile phones, such as by intercepting telephone calls or accessing voicemail messages. When the unauthorized access is to the phone user's conversation, it is more commonly referred to as phone tapping.
+The term came to prominence during the News International phone hacking scandal, in which it was alleged (and in some cases proved in court) that the British tabloid newspaper the News of the World had been involved in the interception of voicemail messages of the British Royal Family, other public figures, and a murdered schoolgirl named Milly Dowler.
+VICTIMS OF PHONE HACKING
+Section::::Victims of Phone Hacking.
+Although any mobile phone users may be targeted, "for those who are famous, rich or powerful or whose prize is important enough (for whatever reason) to devote time and resources to make a concerted attack, it is usually more common, there are real risks to face."
+TECHNIQUES
+VOICEMAIL HACKING
+Section::::Techniques.
+Section::::Voicemail hacking.
+The unauthorised remote access to voicemail systems, such as exposed by the News International phone hacking scandal, is possible because of weaknesses in the implementations of these systems by telcos.
+Some PABX systems have a distant voicemail feature, which is accessed by entering a password when the initial greeting is being played. A hacker can call a direct dial number with voicemail, and then try to use the default password or guess it, or then select the "call back" function, and enter a premium rate number for the call back. The PABX calls back the premium rate line, confirming the password for the hacker. To stop this form of hacking, the call back feature on the PABX can be turned off, or a strong password used. 
+Mobile phone voicemail messages may be accessed on a landline telephone with the entry of a personal identification number (PIN). The service provider commonly sets a four digit default PIN that is rarely changed by the phone's owner. A hacker who knows both the phone number and the default PIN can access the voicemail messages associated with that service. Even where the default PIN is not known, social engineering can be used to reset the voicemail PIN code to the default by impersonating the owner of the phone with a call to a call centre. Many people also use weak PINs that are easy to guess. To prevent subscribers from choosing PINs with weak password strength, some mobile phone companies now disallow the use of consecutive or repeat digits in voicemail PIN codes.
+During the mid-2000s, it was discovered that calls emanating from the handset registered against a voicemail account would be put straight through to voicemail without the need of a PIN. A hacker could use caller ID spoofing to impersonate a target's handset caller ID and thereby gain access to the associated voicemail without a PIN.
+Following controversies over phone hacking and criticism that was leveled at mobile service providers who allowed access to voicemail without a PIN, many mobile phone companies have strengthened the default security of their systems so that remote access to voicemail messages and other phone settings can no longer be achieved even via a default PIN. For example, AT&T announced in August 2011 that all new wireless subscribers would be required to enter a PIN when checking their voicemail, even when checking it from their own phones, while T-Mobile stated that it "recommends that you turn on your voice mail password for added security, but as always, the choice is yours."
+HANDSETS
+Section::::Handsets.
+An analysis of user-selected PIN codes suggested that ten numbers represent 15% of all iPhone passcodes, with "1234" and "0000" being the most common, with years of birth and graduation also being common choices. Even if a four-digit PIN is randomly selected, the key space is very small (formula_1 or 10,000 possibilities), making PINs significantly easier to brute force than most passwords; someone with physical access to a handset secured with a PIN can therefore feasibly determine the PIN in a short time. 
+Mobile phone microphones can be activated remotely by security agencies or telcos, without any need for physical access, as long as the battery has not been removed. This "roving bug" feature has been used by law enforcement agencies and intelligence services to listen in on nearby conversations.
+Other techniques for phone hacking include tricking a mobile phone user into downloading malware which monitors activity on the phone. Bluesnarfing is an unauthorized access to a phone via Bluetooth.
+OTHER
+Section::::Other.
+There are flaws in the implementation of the GSM encryption algorithm that allow passive interception. The equipment needed is available to government agencies or can be built from freely available parts.
+In December 2011, German researcher Karsten Nohl revealed that it was possible to hack into mobile phone voice and text messages on many networks with free decryption software available on the Internet. He blamed the mobile phone companies for relying on outdated encryption techniques in the 2G system, and said that the problem could be fixed very easily.
+LEGALITY
+Section::::Legality.
+Phone hacking, being a form of surveillance, is illegal in many countries unless it is carried out as lawful interception by a government agency. In the News International phone hacking scandal, private investigator Glenn Mulcaire was found to have violated the Regulation of Investigatory Powers Act 2000. He was sentenced to six months in prison in January 2007. Renewed controversy over the phone hacking claims led to the closure of the News of the World in July 2011.
+In December 2010, the Truth in Caller ID Act was signed into United States law, making it illegal "to cause any caller identification service to knowingly transmit misleading or inaccurate caller identification information with the intent to defraud, cause harm, or wrongfully obtain anything of value."
+SEE ALSO
+* Mobile security
+* Telephone tapping
+* Operation Weeting
+* Phreaking
+REFERENCES
+EXTERNAL LINKS
+* US Today Has someone hacked your webcam, March 2 2018
+* Timeline: News of the World phone-hacking row, BBC News, 5 July 2011
+* Full Q&A On The Phone Hacking Scandal, Sky News, 5 July 2011
+* Anatomy of the Phone-Hacking Scandal, The New York Times, 1 September 2010
+* The Rise of Caller ID Spoofing, The Wall Street Journal, 5 February 2010
+* Phone hacking: Are you safe?, Rory Cellan-Jones, BBC News, 12 July 2011
+* Should you cover your phone camera, BUSTLE  Feb 16 2018

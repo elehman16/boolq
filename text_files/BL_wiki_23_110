@@ -1,0 +1,54 @@
+
+SNELLEN CHART
+A Snellen chart is an eye chart that can be used to measure visual acuity. Snellen charts are named after the Dutch ophthalmologist Herman Snellen, who developed the chart in 1862. Many ophthalmologists and vision scientists now use an improved chart known as the LogMAR chart.
+HISTORY
+Section::::History.
+Snellen developed charts using symbols based in a 5×5 unit grid. The experimental charts developed in 1861 used abstract symbols. Snellen's charts published in 1862 used alphanumeric capitals in the 5×5 grid. The original chart shows A, C, E, G, L, N, P, R, T, 5, V, Z, B, D, 4, F, H, K, O, S, 3, U, Y, A, C, E, G, L, 2.
+DESCRIPTION
+Section::::Description.
+The normal Snellen chart is printed with eleven lines of block letters. The first line consists of one very large letter, which may be one of several letters, for example E, H, or N. Subsequent rows have increasing numbers of letters that decrease in size. A person taking the test covers one eye from 6 metres or 20 feet away, and reads aloud the letters of each row, beginning at the top. The smallest row that can be read accurately indicates the visual acuity in that specific eye.
+The symbols on an acuity chart are formally known as "optotypes".
+In the case of the traditional Snellen chart, the optotypes have the appearance of block letters, and are intended to be seen and read as letters. They are not, however, letters from any ordinary typographer's font. They have a particular, simple geometry in which:
+* the thickness of the lines equals the thickness of the white spaces between lines and the thickness of the gap in the letter "C"
+* the height and width of the optotype (letter) is five times the thickness of the line.
+Only the ten letters C, D, E, F, L, N, O, P, T, Z are used in the common Snellen chart. The perception of five out of six letters (or similar ratio) is judged to be the Snellen fraction.
+Wall-mounted Snellen charts are inexpensive and are sometimes used for approximate assessment of vision, e.g. in a primary-care physician's office. Whenever acuity must be assessed carefully (as in an eye doctor's examination), or where there is a possibility that the examinee might attempt to deceive the examiner (as in a motor vehicle license office), equipment is used that can present the letters in a variety of randomized patterns.
+BS 4274-1:1968(British Standards Institution) "Specification for test charts for determining distance visual acuity" was replaced by BS 4274-1:2003 "Test charts for clinical determination of distance visual acuity — Specification". It states that "the luminance of the presentation shall be uniform and not less than 120 cd/m. Any variation across the test chart shall not exceed 20 %."
+According to BS 4274-1:2003 only the letters C, D, E, F, H, K, N, P, R, U, V, and Z should be used for the testing of vision based upon equal legibility of the letters.
+SNELLEN FRACTION
+Section::::Snellen fraction.
+Visual acuity = Distance at which test is made / distance at which the smallest optotype identified subtends an angle of five arcminutes.
+"6/6"(M) OR "20/20"(FT) VISION
+Section::::"6/6"(m) or "20/20"(ft) vision.
+Snellen defined "standard vision" as the ability to recognize one of his optotypes when it subtended 5 minutes of arc. Thus the optotype can only be recognized if the person viewing it can discriminate a spatial pattern separated by a visual angle of one minute of arc.
+Outside of the United States, the standard chart distance is , and normal acuity is designated "6/6". Other acuities are expressed as ratios with a numerator of 6. Some clinics do not have 6-metre eye lanes available, and either a half-size chart subtending the same angles at , or a reversed chart projected and viewed by a mirror is used to achieve the correct sized letters.
+In the most familiar acuity test, a Snellen chart is placed at a standard distance: 6 metres. At this distance, the symbols on the line representing "normal" acuity subtend an angle of five minutes of arc, and the thickness of the lines and of the spaces between the lines subtends one minute of arc. This line, designated 6/6 (or 20/20), is the smallest line that a person with normal acuity can read at a distance of 6 metres.
+Three lines above, the letters have twice the height of those letters on the 6/6 (or 20/20 in the US) line. If this is the smallest line a person can read, the person's acuity is "6/12" ("20/40"), meaning that this person needs to approach to a distance of to read letters that a person with normal acuity could read at . In an even more approximate manner, this person could be said to have "half" the normal acuity of 6/6.
+At exactly 6 metres' distance from the patient, the letters on the 6/6 line shall subtend 5 minutes of arc (such that the individual limbs of the letters subtend 1 minute of arc), which means that the chart should be sized such that these letters are 8.73 mm tall and the topmost (6/60) "E" should be 87.3 mm tall. Putting it another way, the eye should be at a distance 68.76 times the height of the top (6/60) letter. The formula is
+formula_1
+where formula_2 is the optotype height or width (which are the same due to the optotype being on a square grid), formula_3 is the distance from eye to chart, and formula_4 is the angle subtended by the optotype, which is 5 arcminutes as specified by Snellen. Another calculation for United States clinics using 20-foot chart distances (slightly more than 6 m), and using a 17 mm model eye for calculations, and a letter which subtends 5 minutes of arc, gives a vertical height of the 20/20 letter to be 8.75 mm.
+Acuity charts are used during many kinds of vision examinations, such as "refracting" the eye to determine the best eyeglass prescription. During such examinations, acuity ratios are never mentioned.
+The largest letter on an eye chart often represents an acuity of 6/60 (20/200), the value that is considered "legally blind" in the US. Some individuals with moderate myopia may not be able to read the large E without glasses, but have no problem reading the 6/6 (20/20) line or 6/4.5 (20/15) line with glasses. By contrast, legally blind individuals have a visual acuity of 6/60 (20/200) or less when using the best corrective lens.
+ELECTRONIC CHART
+Section::::Electronic chart.
+To ensure adequate illumination of the Snellen charts, various medical device manufacturers had developed Snellen chart products with backlight or projection.
+DIGITAL CHART
+Section::::Digital chart.
+Since computer monitors typically have good lighting for reading and LCD/LED monitors have high DPI, or dots per inch (between 96 to 480), they are suitable for displaying optotypes. Commonly digital chart products support randomizing optotypes displayed to prevent patients from cheating through memorizing the chart. In Google Play and App Store (iOS), there are Snellen chart apps for smart phones and tablets.
+SEE ALSO
+* E chart
+* Golovin–Sivtsev table
+* Jaeger chart
+* Landolt C
+* Lea test
+* LogMAR chart
+* Monoyer chart
+* Sloan letters
+* Visual acuity
+REFERENCES
+EXTERNAL LINKS
+* Snellen Chart
+* Chart Projector
+* Acuity Pro
+* Visual Acuity Charts
+* Validation of a Portable Electronic Visual Acuity System

@@ -1,0 +1,67 @@
+
+RESPONSIBILITY ASSIGNMENT MATRIX
+A responsibility assignment matrix (RAM), also known as RACI matrix () or linear responsibility chart (LRC), describes the participation by various roles in completing tasks or deliverables for a project or business process. It is especially useful in clarifying roles and responsibilities in cross-functional/departmental projects and processes.
+RACI is an acronym derived from the four key responsibilities most typically used: Responsible, Accountable, Consulted, and Informed.
+KEY RESPONSIBILITY ROLES (RACI MODEL)
+Section::::Key responsibility roles (RACI model).
+R=Responsible, A=Accountable, C=Consulted, I=Informed
+Responsible (also Recommender)
+Accountable (also Approver or final approving authority)
+Consulted (sometimes Consultant or counsel)
+Informed (also Informee)
+Very often the role that is accountable for a task or deliverable may also be responsible for completing it (indicated on the matrix by the task or deliverable having a role accountable for it, but no role responsible for its completion, i.e. it is implied). Outside of this exception, it is generally recommended that each role in the project or process for each task receive, at most, just one of the participation types. Where more than one participation type is shown, this generally implies that participation has not yet been fully resolved, which can impede the value of this technique in clarifying the participation of each role on each task.
+ROLE DISTINCTION
+Section::::Role distinction.
+There is a distinction between a role and individually identified people: a role is a descriptor of an associated set of tasks; may be performed by many people; and one person can perform many roles. For example, an organization may have ten people who can perform the role of project manager, although traditionally each project only has one project manager at any one time; and a person who is able to perform the role of project manager may also be able to perform the role of business analyst and tester.
+ASSIGNING PEOPLE TO FACILITIES
+Section::::Assigning people to facilities.
+The matrix is typically created with a vertical axis (left-hand column) of tasks (from a work breakdown structure) or deliverables (from a product breakdown structure), and a horizontal axis (top row) of roles (from an organizational chart).
++ Example of a responsibility assignment (or RACI) matrix
+! Code
+! Name
+! Project sponsor
+! Business analyst
+! Project manager
+! Technical architect
+! Applications development
+Another example from the maintenance and reliability community
++ Maintenance Crew KPI RACI Chart
+! Tasks
+! Maint Supervisors
+! Maint Analyst
+! Maint Planner
+! Maint Technician
+! Maint Supert
+! Rel Specialist
+! CMMS Proj Engr
+ALTERNATIVES
+Section::::Alternatives.
+There are a number of alternatives to the RACI participation types:
+PARIS
+PACSI
+RASCI
+RASI
+RACIQ
+RACI-VS
+CAIRO
+DACI
+RAPID
+RATSI
+DRASCI
+DCI
+RASCEIO
+Section::::RASCEIO.
+To be used when working on governance, risk, compliance (GRC) and outsourcing matters: 
+VARIATIONS
+Section::::Variations.
+There are also a number of variations to the meaning of RACI participation types:
+RACI (ALTERNATIVE SCHEME)
+ARCI (DECISIONS)
+REFERENCES
+EXTERNAL LINKS
+* Comprehensive Series on RACI
+* Seventeen Varieties of RACI
+* Animation introducing RACI
+* Transform Your RACI (Roles and Responsibilities) Into a GANTT Chart
+* Understanding Responsibility Assignment Matrix (RACI Matrix)
+* RACI Chart Explained

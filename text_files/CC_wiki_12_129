@@ -1,0 +1,208 @@
+
+ORDINARY LEAST SQUARES
+In statistics, ordinary least squares (OLS) is a type of linear least squares method for estimating the unknown parameters in a linear regression model. OLS chooses the parameters of a linear function of a set of explanatory variables by the principle of least squares: minimizing the sum of the squares of the differences between the observed dependent variable (values of the variable being predicted) in the given dataset and those predicted by the linear function. 
+Geometrically, this is seen as the sum of the squared distances, parallel to the axis of the dependent variable, between each data point in the set and the corresponding point on the regression surface – the smaller the differences, the better the model fits the data. The resulting estimator can be expressed by a simple formula, especially in the case of a simple linear regression, in which there is a single regressor on the right side of the regression equation.
+The OLS estimator is consistent when the regressors are exogenous, and optimal in the class of linear unbiased estimators when the errors are homoscedastic and serially uncorrelated . Under these conditions, the method of OLS provides minimum-variance mean-unbiased estimation when the errors have finite variances. Under the additional assumption that the errors are normally distributed, OLS is the maximum likelihood estimator.
+OLS is used in fields as diverse as economics (econometrics), data science, political science, psychology and engineering (control theory and signal processing).
+LINEAR MODEL
+Section::::Linear model.
+Suppose the data consists of n observations { y, x }. Each observation i includes a scalar response y and a column vector x of values of p predictors (regressors) x for j = 1, ..., p. In a linear regression model, the response variable, formula_1, is a linear function of the regressors:
+or in vector form,
+where β is a p×1 vector of unknown parameters; the ε's are unobserved scalar random variables (errors) which account for influences upon the responses y from sources other than the explanators x; and formula_4 is a column vector of the ith observations of all the explanatory variables. This model can also be written in matrix notation as
+where y and ε are n×1 vectors of the values of the response variable and the errors for the various observations, and X is an n×p matrix of regressors, also sometimes called the design matrix, whose row i is x and contains the ith observations on all the explanatory variables.
+As a rule, the constant term is always included in the set of regressors X, say, by taking for all . The coefficient β corresponding to this regressor is called the intercept.
+There may be some relationship between the regressors. For instance, the third regressor may be the square of the second regressor. In this case (assuming that the first regressor is constant) we have a quadratic model in the second regressor. But this is still considered a linear model because it is linear in the βs.
+MATRIX/VECTOR FORMULATION
+Section::::Matrix/vector formulation.
+Consider an overdetermined system
+of n linear equations in p unknown coefficients, β,β,…,β, with n > p. (Note: for a linear model as above, not all of formula_7 contains information on the data points. The first column is populated with ones, formula_8, only the other columns contain actual data, so here p = number of regressors + 1.) This can be written in matrix form as
+where
+Such a system usually has no solution, so the goal is instead to find the coefficients formula_11 which fit the equations "best", in the sense of solving the quadratic minimization problem
+where the objective function S is given by
+A justification for choosing this criterion is given in properties below. This minimization problem has a unique solution, provided that the p columns of the matrix formula_14 are linearly independent, given by solving the normal equations
+The matrix formula_16 is known as the Gramian matrix of formula_14, which possesses several nice properties such as being a positive semi-definite matrix, and the matrix formula_18 is known as the moment matrix of regressand by regressors. Finally, formula_19 is the coefficient vector of the least-squares hyperplane, expressed as
+ESTIMATION
+Section::::Estimation.
+Suppose b is a "candidate" value for the parameter vector β. The quantity , called the residual for the i-th observation, measures the vertical distance between the data point and the hyperplane , and thus assesses the degree of fit between the actual data and the model. The sum of squared residuals (SSR) (also called the error sum of squares (ESS) or residual sum of squares (RSS)) is a measure of the overall model fit:
+where T denotes the matrix transpose, and the rows of X, denoting the values of all the independent variables associated with a particular value of the dependent variable, are X = x. The value of b which minimizes this sum is called the OLS estimator for β. The function S(b) is quadratic in b with positive-definite Hessian, and therefore this function possesses a unique global minimum at formula_22, which can be given by the explicit formula:
+The product N=X X is a normal matrix and its inverse, Q=N, is the cofactor matrix of β, closely related to its covariance matrix, C.
+The matrix (X X) X=Q X is called the Moore–Penrose pseudoinverse matrix of X. This formulation highlights the point that estimation can be carried out if, and only if, there is no perfect multicollinearity between the explanatory variables (which would cause the normal matrix to have no inverse).
+After we have estimated β, the fitted values (or predicted values) from the regression will be 
+where P = X(XX)X is the projection matrix onto the space V spanned by the columns of X. This matrix P is also sometimes called the hat matrix because it "puts a hat" onto the variable y. Another matrix, closely related to P is the annihilator matrix ; this is a projection matrix onto the space orthogonal to V. Both matrices P and M are symmetric and idempotent (meaning that ), and relate to the data matrix X via identities and . Matrix M creates the residuals from the regression:
+Using these residuals we can estimate the value of σ, called the reduced chi-squared:
+The numerator, n−p, is the statistical degrees of freedom. The first quantity, s, is the OLS estimate for σ, whereas the second, formula_27, is the MLE estimate for σ. The two estimators are quite similar in large samples; the first one is always unbiased, while the second is biased but minimizes the mean squared error of the estimator. In practice s is used more often, since it is more convenient for the hypothesis testing. The square root of s is called the regression standard error, standard error of the regression, or standard error of the equation.
+It is common to assess the goodness-of-fit of the OLS regression by comparing how much the initial variation in the sample can be reduced by regressing onto X. The coefficient of determination R is defined as a ratio of "explained" variance to the "total" variance of the dependent variable y:
+where TSS is the total sum of squares for the dependent variable, , and 1 is an n×1 vector of ones. (L is a "centering matrix" which is equivalent to regression on a constant; it simply subtracts the mean from a variable.) In order for R to be meaningful, the matrix X of data on regressors must contain a column vector of ones to represent the constant whose coefficient is the regression intercept. In that case, R will always be a number between 0 and 1, with values close to 1 indicating a good degree of fit.
+The variance in the prediction of the independent variable as a function of the dependent variable is given in the article Polynomial least squares.
+SIMPLE LINEAR REGRESSION MODEL
+Section::::Simple linear regression model.
+If the data matrix X contains only two variables, a constant and a scalar regressor x, then this is called the "simple regression model". This case is often considered in the beginner statistics classes, as it provides much simpler formulas even suitable for manual calculation. The parameters are commonly denoted as :
+The least squares estimates in this case are given by simple formulas
+where Var(.) and Cov(.) are sample parameters.
+ALTERNATIVE DERIVATIONS
+Section::::Alternative derivations.
+In the previous section the least squares estimator formula_31 was obtained as a value that minimizes the sum of squared residuals of the model. However it is also possible to derive the same estimator from other approaches. In all cases the formula for OLS estimator remains the same: ; the only difference is in how we interpret this result.
+PROJECTION
+Section::::Projection.
+For mathematicians, OLS is an approximate solution to an overdetermined system of linear equations , where β is the unknown. Assuming the system cannot be solved exactly (the number of equations n is much larger than the number of unknowns p), we are looking for a solution that could provide the smallest discrepancy between the right- and left- hand sides. In other words, we are looking for the solution that satisfies
+where · is the standard L norm in the n-dimensional Euclidean space R. The predicted quantity Xβ is just a certain linear combination of the vectors of regressors. Thus, the residual vector will have the smallest length when y is projected orthogonally onto the linear subspace spanned by the columns of X. The OLS estimator formula_33 in this case can be interpreted as the coefficients of vector decomposition of along the basis of X.
+In other words, the gradient equations at the minimum can be written as:
+A geometrical interpretation of these equations is that the vector of residuals, formula_35 is orthogonal to the column space of X, since the dot product formula_36 is equal to zero for any conformal vector, v. This means that formula_37 is the shortest of all possible vectors formula_38, that is, the variance of the residuals is the minimum possible. This is illustrated at the right.
+Introducing formula_39 and a matrix K with the assumption that a matrix formula_40 is non-singular and K X = 0 (cf. Orthogonal projections), the residual vector should satisfy the following equation:
+The equation and solution of linear least squares are thus described as follows:
+Another way of looking at it is to consider the regression line to be a weighted average of the lines passing through the combination of any two points in the dataset. Although this way of calculation is more computationally expensive, it provides a better intuition on OLS.
+MAXIMUM LIKELIHOOD
+Section::::Maximum likelihood.
+The OLS estimator is identical to the maximum likelihood estimator (MLE) under the normality assumption for the error terms. This normality assumption has historical importance, as it provided the basis for the early work in linear regression analysis by Yule and Pearson. From the properties of MLE, we can infer that the OLS estimator is asymptotically efficient (in the sense of attaining the Cramér–Rao bound for variance) if the normality assumption is satisfied.
+GENERALIZED METHOD OF MOMENTS
+Section::::Generalized method of moments.
+In iid case the OLS estimator can also be viewed as a GMM estimator arising from the moment conditions
+These moment conditions state that the regressors should be uncorrelated with the errors. Since x is a p-vector, the number of moment conditions is equal to the dimension of the parameter vector β, and thus the system is exactly identified. This is the so-called classical GMM case, when the estimator does not depend on the choice of the weighting matrix.
+Note that the original strict exogeneity assumption implies a far richer set of moment conditions than stated above. In particular, this assumption implies that for any vector-function ƒ, the moment condition will hold. However it can be shown using the Gauss–Markov theorem that the optimal choice of function ƒ is to take , which results in the moment equation posted above.
+PROPERTIES
+ASSUMPTIONS
+Section::::Properties.
+Section::::Assumptions.
+There are several different frameworks in which the linear regression model can be cast in order to make the OLS technique applicable. Each of these settings produces the same formulas and same results. The only difference is the interpretation and the assumptions which have to be imposed in order for the method to give meaningful results. The choice of the applicable framework depends mostly on the nature of data in hand, and on the inference task which has to be performed.
+One of the lines of difference in interpretation is whether to treat the regressors as random variables, or as predefined constants. In the first case (random design) the regressors x are random and sampled together with the y's from some population, as in an observational study. This approach allows for more natural study of the asymptotic properties of the estimators. In the other interpretation (fixed design), the regressors X are treated as known constants set by a design, and y is sampled conditionally on the values of X as in an experiment. For practical purposes, this distinction is often unimportant, since estimation and inference is carried out while conditioning on X. All results stated in this article are within the random design framework.
+CLASSICAL LINEAR REGRESSION MODEL
+Section::::Classical linear regression model.
+The classical model focuses on the "finite sample" estimation and inference, meaning that the number of observations n is fixed. This contrasts with the other approaches, which study the asymptotic behavior of OLS, and in which the number of observations is allowed to grow to infinity.
+* Correct specification. The linear functional form must coincide with the form of the actual data-generating process.
+* Strict exogeneity. The errors in the regression should have conditional mean zero:
+formula_45
+* No linear dependence. The regressors in X must all be linearly independent. Mathematically, this means that the matrix X must have full column rank almost surely:
+formula_46
+* Spherical errors:
+formula_47
+* Normality. It is sometimes additionally assumed that the errors have normal distribution conditional on the regressors:
+formula_48
+INDEPENDENT AND IDENTICALLY DISTRIBUTED (IID)
+Section::::Independent and identically distributed (iid).
+In some applications, especially with cross-sectional data, an additional assumption is imposed — that all observations are independent and identically distributed. This means that all observations are taken from a random sample which makes all the assumptions listed earlier simpler and easier to interpret. Also this framework allows one to state asymptotic results (as the sample size ), which are understood as a theoretical possibility of fetching new independent observations from the data generating process. The list of assumptions in this case is:
+* iid observations: (x, y) is independent from, and has the same distribution as, (x, y) for all ;
+* no perfect multicollinearity: is a positive-definite matrix;
+* exogeneity:
+* homoscedasticity: .
+TIME SERIES MODEL
+* The stochastic process {x, y} is stationary and ergodic; if {x, y} is nonstantionary, OLS results are often spurious unless {x, y} is co-integrating.
+* The regressors are predetermined: E[xε] = 0 for all i = 1, …, n;
+* The p×p matrix is of full rank, and hence positive-definite;
+* {xε} is a martingale difference sequence, with a finite matrix of second moments .
+FINITE SAMPLE PROPERTIES
+Section::::Finite sample properties.
+First of all, under the strict exogeneity assumption the OLS estimators formula_49 and s are unbiased, meaning that their expected values coincide with the true values of the parameters:
+If the strict exogeneity does not hold (as is the case with many time series models, where exogeneity is assumed only with respect to the past shocks but not the future ones), then these estimators will be biased in finite samples.
+The variance-covariance matrix (or simply covariance matrix) of formula_49 is equal to 
+In particular, the standard error of each coefficient formula_53 is equal to square root of the j-th diagonal element of this matrix. The estimate of this standard error is obtained by replacing the unknown quantity σ with its estimate s. Thus,
+It can also be easily shown that the estimator formula_49 is uncorrelated with the residuals from the model:
+The Gauss–Markov theorem states that under the spherical errors assumption (that is, the errors should be uncorrelated and homoscedastic) the estimator formula_49 is efficient in the class of linear unbiased estimators. This is called the best linear unbiased estimator (BLUE). Efficiency should be understood as if we were to find some other estimator formula_58 which would be linear in y and unbiased, then 
+in the sense that this is a nonnegative-definite matrix. This theorem establishes optimality only in the class of linear unbiased estimators, which is quite restrictive. Depending on the distribution of the error terms ε, other, non-linear estimators may provide better results than OLS.
+ASSUMING NORMALITY
+Section::::Assuming normality.
+The properties listed so far are all valid regardless of the underlying distribution of the error terms. However, if you are willing to assume that the normality assumption holds (that is, that ), then additional properties of the OLS estimators can be stated.
+The estimator formula_49 is normally distributed, with mean and variance as given before:
+where Q is the cofactor matrix. This estimator reaches the Cramér–Rao bound for the model, and thus is optimal in the class of all unbiased estimators. Note that unlike the Gauss–Markov theorem, this result establishes optimality among both linear and non-linear estimators, but only in the case of normally distributed error terms.
+The estimator s will be proportional to the chi-squared distribution:
+The variance of this estimator is equal to , which does not attain the Cramér–Rao bound of . However it was shown that there are no unbiased estimators of σ with variance smaller than that of the estimator s. If we are willing to allow biased estimators, and consider the class of estimators that are proportional to the sum of squared residuals (SSR) of the model, then the best (in the sense of the mean squared error) estimator in this class will be , which even beats the Cramér–Rao bound in case when there is only one regressor ().
+Moreover, the estimators formula_49 and s are independent, the fact which comes in useful when constructing the t- and F-tests for the regression.
+INFLUENTIAL OBSERVATIONS
+Section::::Influential observations.
+As was mentioned before, the estimator formula_31 is linear in y, meaning that it represents a linear combination of the dependent variables y. The weights in this linear combination are functions of the regressors X, and generally are unequal. The observations with high weights are called influential because they have a more pronounced effect on the value of the estimator.
+To analyze which observations are influential we remove a specific j-th observation and consider how much the estimated quantities are going to change (similarly to the jackknife method). It can be shown that the change in the OLS estimator for β will be equal to 
+where is the j-th diagonal element of the hat matrix P, and x is the vector of regressors corresponding to the j-th observation. Similarly, the change in the predicted value for j-th observation resulting from omitting that observation from the dataset will be equal to 
+From the properties of the hat matrix, , and they sum up to p, so that on average . These quantities h are called the leverages, and observations with high h are called leverage points. Usually the observations with high leverage ought to be scrutinized more carefully, in case they are erroneous, or outliers, or in some other way atypical of the rest of the dataset.
+PARTITIONED REGRESSION
+Section::::Partitioned regression.
+Sometimes the variables and corresponding parameters in the regression can be logically split into two groups, so that the regression takes form
+where X and X have dimensions n×p, n×p, and β, β are p×1 and p×1 vectors, with .
+The Frisch–Waugh–Lovell theorem states that in this regression the residuals formula_68 and the OLS estimate formula_69 will be numerically identical to the residuals and the OLS estimate for β in the following regression:
+where M is the annihilator matrix for regressors X.
+The theorem can be used to establish a number of theoretical results. For example, having a regression with a constant and another regressor is equivalent to subtracting the means from the dependent variable and the regressor and then running the regression for the de-meaned variables but without the constant term.
+CONSTRAINED ESTIMATION
+Section::::Constrained estimation.
+Suppose it is known that the coefficients in the regression satisfy a system of linear equations
+where Q is a p×q matrix of full rank, and c is a q×1 vector of known constants, where . In this case least squares estimation is equivalent to minimizing the sum of squared residuals of the model subject to the constraint A. The constrained least squares (CLS) estimator can be given by an explicit formula:
+This expression for the constrained estimator is valid as long as the matrix XX is invertible. It was assumed from the beginning of this article that this matrix is of full rank, and it was noted that when the rank condition fails, β will not be identifiable. However it may happen that adding the restriction A makes β identifiable, in which case one would like to find the formula for the estimator. The estimator is equal to 
+where R is a p×(p − q) matrix such that the matrix is non-singular, and . Such a matrix can always be found, although generally it is not unique. The second formula coincides with the first in case when XX is invertible.
+LARGE SAMPLE PROPERTIES
+Section::::Large sample properties.
+The least squares estimators are point estimates of the linear regression model parameters β. However, generally we also want to know how close those estimates might be to the true values of parameters. In other words, we want to construct the interval estimates.
+Since we haven't made any assumption about the distribution of error term ε, it is impossible to infer the distribution of the estimators formula_31 and formula_75. Nevertheless, we can apply the central limit theorem to derive their asymptotic properties as sample size n goes to infinity. While the sample size is necessarily finite, it is customary to assume that n is "large enough" so that the true distribution of the OLS estimator is close to its asymptotic limit.
+We can show that under the model assumptions, the least squares estimator for β is consistent (that is formula_31 converges in probability to β) and asymptotically normal:
+where formula_78
+INTERVALS
+Section::::Intervals.
+Using this asymptotic distribution, approximate two-sided confidence intervals for the j-th component of the vector formula_79 can be constructed as
+where q denotes the quantile function of standard normal distribution, and [·] is the j-th diagonal element of a matrix.
+Similarly, the least squares estimator for σ is also consistent and asymptotically normal (provided that the fourth moment of ε exists) with limiting distribution
+These asymptotic distributions can be used for prediction, testing hypotheses, constructing other estimators, etc.. As an example consider the problem of prediction. Suppose formula_82 is some point within the domain of distribution of the regressors, and one wants to know what the response variable would have been at that point. The mean response is the quantity formula_83, whereas the predicted response is formula_84. Clearly the predicted response is a random variable, its distribution can be derived from that of formula_79:
+which allows construct confidence intervals for mean response formula_87 to be constructed:
+HYPOTHESIS TESTING
+Section::::Hypothesis testing.
+Two hypothesis tests are particularly widely used. First, one wants to know if the estimated regression equation is any better than simply predicting that all values of the response variable equal its sample mean (if not, it is said to have no explanatory power). The null hypothesis of no explanatory value of the estimated regression is tested using an F-test. If the calculated F-value is found to be large enough to exceed its critical value for the pre-chosen level of significance, the null hypothesis is rejected and the alternative hypothesis, that the regression has explanatory power, is accepted. Otherwise, the null hypothesis of no explanatory power is accepted.
+Second, for each explanatory variable of interest, one wants to know whether its estimated coefficient differs significantly from zero—that is, whether this particular explanatory variable in fact has explanatory power in predicting the response variable. Here the null hypothesis is that the true coefficient is zero. This hypothesis is tested by computing the coefficient's t-statistic, as the ratio of the coefficient estimate to its standard error. If the t-statistic is larger than a predetermined value, the null hypothesis is rejected and the variable is found to have explanatory power, with its coefficient significantly different from zero. Otherwise, the null hypothesis of a zero value of the true coefficient is accepted.
+In addition, the Chow test is used to test whether two subsamples both have the same underlying true coefficient values. The sum of squared residuals of regressions on each of the subsets and on the combined data set are compared by computing an F-statistic; if this exceeds a critical value, the null hypothesis of no difference between the two subsets is rejected; otherwise, it is accepted.
+EXAMPLE WITH REAL DATA
+scatterplot will suggest the form and strength of the relationship between the dependent variable and regressors. It might also reveal outliers, heteroscedasticity, and other aspects of the data that may complicate the interpretation of a fitted regression model. The scatterplot suggests that the relationship is strong and can be approximated as a quadratic function. OLS can handle non-linear relationships by introducing the regressor HEIGHT. The regression model then becomes a multiple linear model:
+The output from most popular statistical packagesStd errort-statisticp-value
+In this table:
+* The Value column gives the least squares estimates of parameters β
+* The Std error column shows standard errors of each coefficient estimate: formula_93
+* The t-statistic and p-value columns are testing whether any of the coefficients might be equal to zero. The t-statistic is calculated simply as formula_94. If the errors ε follow a normal distribution, t follows a Student-t distribution. Under weaker conditions, t is asymptotically normal. Large values of t indicate that the null hypothesis can be rejected and that the corresponding coefficient is not zero. The second column, p-value, expresses the results of the hypothesis test as a significance level. Conventionally, p-values smaller than 0.05 are taken as evidence that the population coefficient is nonzero.
+* R-squared is the coefficient of determination indicating goodness-of-fit of the regression. This statistic will be equal to one if fit is perfect, and to zero when regressors X have no explanatory power whatsoever. This is a biased estimate of the population R-squared, and will never decrease if additional regressors are added, even if they are irrelevant.
+* Adjusted R-squared is a slightly modified version of formula_95, designed to penalize for the excess number of regressors which do not add to the explanatory power of the regression. This statistic is always smaller than formula_95, can decrease as new regressors are added, and even be negative for poorly fitting models:
+* Log-likelihood is calculated under the assumption that errors follow normal distribution. Even though the assumption is not very reasonable, this statistic may still find its use in conducting LR tests.
+* Durbin–Watson statistic tests whether there is any evidence of serial correlation between the residuals. As a rule of thumb, the value smaller than 2 will be an evidence of positive correlation.
+* Akaike information criterion and Schwarz criterion are both used for model selection. Generally when comparing two alternative models, smaller values of one of these criteria will indicate a better model.
+* Standard error of regression is an estimate of σ, standard error of the error term.
+* Total sum of squares, model sum of squared, and residual sum of squares tell us how much of the initial variation in the sample were explained by the regression.
+* F-statistic tries to test the hypothesis that all coefficients (except the intercept) are equal to zero. This statistic has F(p–1,n–p) distribution under the null hypothesis and normality assumption, and its p-value indicates probability that the hypothesis is indeed true. Note that when errors are not normal this statistic becomes invalid, and other tests such as Wald test or LR test should be used.
+Ordinary least squares analysis often includes the use of diagnostic plots designed to detect departures of the data from the assumed form of the model. These are some of the common diagnostic plots:
+* Residuals against the explanatory variables in the model. A non-linear relation between these variables suggests that the linearity of the conditional mean function may not hold. Different levels of variability in the residuals for different levels of the explanatory variables suggests possible heteroscedasticity.
+* Residuals against explanatory variables not in the model. Any relation of the residuals to these variables would suggest considering these variables for inclusion in the model.
+* Residuals against the fitted values, formula_98.
+* Residuals against the preceding residual. This plot may identify serial correlations in the residuals.
+An important consideration when carrying out statistical inference using regression models is how the data were sampled. In this example, the data are averages rather than measurements on individual women. The fit of the model is very good, but this does not imply that the weight of an individual woman can be predicted with high accuracy based only on her height.
+SENSITIVITY TO ROUNDING
+Section::::Sensitivity to rounding.
+This example also demonstrates that coefficients determined by these calculations are sensitive to how the data is prepared. The heights were originally given rounded to the nearest inch and have been converted and rounded to the nearest centimetre. Since the conversion factor is one inch to 2.54 cm this is not an exact conversion. The original inches can be recovered by Round(x/0.0254) and then re-converted to metric without rounding. If this is done the results become:
+!
+! Const !! Height !! Height
+Using either of these equations to predict the weight of a 5' 6" (1.6764m) woman gives similar values: 62.94 kg with rounding vs. 62.98 kg without rounding. Thus a seemingly small variation in the data has a real effect on the coefficients but a small effect on the results of the equation.
+While this may look innocuous in the middle of the data range it could become significant at the extremes or in the case where the fitted model is used to project outside the data range (extrapolation).
+This highlights a common error: this example is an abuse of OLS which inherently requires that the errors in the independent variable (in this case height) are zero or at least negligible. The initial rounding to nearest inch plus any actual measurement errors constitute a finite and non-negligible error. As a result, the fitted parameters are not the best estimates they are presumed to be. Though not totally spurious the error in the estimation will depend upon relative size of the x and y errors.
+ANOTHER EXAMPLE WITH LESS REAL DATA
+PROBLEM STATEMENT
+Section::::Another Example with less real data.
+Section::::Problem Statement.
+We can use the least square mechanism to figure out the equation of a two body orbit in polar base co-ordinates. The equation typically used is formula_99 where formula_100is the radius of how far the object is from one of the bodies. In the equation the parameters formula_101and formula_102 are used to determine the path of the orbit. We have measured the following data. 
+formula_103(in degrees)
+43
+45
+52
+93
+108
+116
+formula_100
+4.7126
+4.5542
+4.0419
+2.2187
+1.8910
+1.7599
+We need to find the least-squares approximation of formula_102and formula_101 for the given data. 
+SOLUTION
+Section::::Solution.
+First we need to represent e and p in a linear form. So we are going to rewrite the equation formula_100as formula_108. Now we can use this form to represent our observational data as:
+formula_109 where formula_110 is formula_111 and formula_112 is formula_113and formula_114 is constructed by the first column being the coefficient of formula_111 and the second column being the coefficient of formula_113 and formula_117 is the values for the respective formula_118so formula_119and formula_120.
+On solving we get formula_121
+so formula_122and formula_123
+SEE ALSO
+* Bayesian least squares
+* Fama–MacBeth regression
+* Non-linear least squares
+* Numerical methods for linear least squares
+* Nonlinear system identification
+REFERENCES
+FURTHER READING

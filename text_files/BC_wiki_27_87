@@ -1,0 +1,49 @@
+
+DEPENDENT AND INDEPENDENT VARIABLES
+In mathematical modeling, statistical modeling and experimental sciences, the values of dependent variables depend on the values of independent variables. The dependent variables represent the output or outcome whose variation is being studied. The independent variables, also known in a statistical context as regressors, represent inputs or causes, that is, potential reasons for variation. In an experiment, any variable that the experimenter manipulates can be called an independent variable. Models and experiments test the effects that the independent variables have on the dependent variables. Sometimes, even if their influence is not of direct interest, independent variables may be included for other reasons, such as to account for their potential confounding effect.
+MATHEMATICS
+Section::::Mathematics.
+In mathematics, a function is a rule for taking an input (in the simplest case, a number or set of numbers) and providing an output (which may also be a number). A symbol that stands for an arbitrary input is called an independent variable, while a symbol that stands for an arbitrary output is called a dependent variable. The most common symbol for the input is x, and the most common symbol for the output is y; the function itself is commonly written formula_1.
+It is possible to have multiple independent variables or multiple dependent variables. For instance, in multivariable calculus, one often encounters functions of the form formula_2, where z is a dependent variable and x and y are independent variables. Functions with multiple outputs are often referred to as vector-valued functions.
+In set theory, a function between a set X and a set Y is a subset of the Cartesian product formula_3 such that every element of X appears in an ordered pair with exactly one element of Y. In this situation, a symbol representing an element of X may be called an independent variable and a symbol representing an element of Y may be called a dependent variable, such as when X is a manifold and the symbol x represents an arbitrary point in the manifold. However, many advanced textbooks do not distinguish between dependent and independent variables.
+STATISTICS
+Section::::Statistics.
+In an experiment, a variable, manipulated by an experimenter, is called an independent variable. The dependent variable is the event expected to change when the independent variable is manipulated.
+In data mining tools (for multivariate statistics and machine learning), the dependent variable is assigned a role as (or in some tools as label attribute), while an independent variable may be assigned a role as regular variable. Known values for the target variable are provided for the training data set and test data set, but should be predicted for other data. The target variable is used in supervised learning algorithms but not in unsupervised learning.
+MODELING
+Section::::Modeling.
+In mathematical modeling, the dependent variable is studied to see if and how much it varies as the independent variables vary. In the simple stochastic linear model formula_4 the term formula_5 is the i value of the dependent variable and formula_6 is the i value of the independent variable. The term formula_7 is known as the "error" and contains the variability of the dependent variable not explained by the independent variable.
+With multiple independent variables, the model is formula_8, where n is the number of independent variables.
+SIMULATION
+Section::::Simulation.
+In simulation, the dependent variable is changed in response to changes in the independent variables.
+STATISTICS SYNONYMS
+Section::::Statistics synonyms.
+Depending on the context, an independent variable is sometimes called a "predictor variable", regressor, covariate, "controlled variable", "manipulated variable", "explanatory variable", exposure variable (see reliability theory), "risk factor" (see medical statistics), "feature" (in machine learning and pattern recognition) or "input variable."
+In econometrics, the term "control variable" is usually used instead of "covariate". 
+Depending on the context, a dependent variable is sometimes called a "response variable", "regressand", "criterion", "predicted variable", "measured variable", "explained variable", "experimental variable", "responding variable", "outcome variable", "output variable" or "label".
+"Explanatory variable" is preferred by some authors over "independent variable" when the quantities treated as independent variables may not be statistically independent or independently manipulable by the researcher. If the independent variable is referred to as an "explanatory variable" then the term "response variable" is preferred by some authors for the dependent variable.
+"Explained variable" is preferred by some authors over "dependent variable" when the quantities treated as "dependent variables" may not be statistically dependent. If the dependent variable is referred to as an "explained variable" then the term "predictor variable" is preferred by some authors for the independent variable.
+Variables may also be referred to by their form: continuous, binary/dichotomous, nominal categorical, and ordinal categorical, among others.
+An example is provided by the analysis of trend in sea level by . Here the dependent variable (and variable of most interest) was the annual mean sea level at a given location for which a series of yearly values were available. The primary independent variable was time. Use was made of a covariate consisting of yearly values of annual mean atmospheric pressure at sea level. The results showed that inclusion of the covariate allowed improved estimates of the trend against time to be obtained, compared to analyses which omitted the covariate.
+OTHER VARIABLES
+Section::::Other variables.
+A variable may be thought to alter the dependent or independent variables, but may not actually be the focus of the experiment. So that variable will be kept constant or monitored to try to minimize its effect on the experiment. Such variables may be designated as either a "controlled variable", "control variable", or "extraneous variable".
+Extraneous variables, if included in a regression analysis as independent variables, may aid a researcher with accurate response parameter estimation, prediction, and goodness of fit, but are not of substantive interest to the hypothesis under examination. For example, in a study examining the effect of post-secondary education on lifetime earnings, some extraneous variables might be gender, ethnicity, social class, genetics, intelligence, age, and so forth. A variable is extraneous only when it can be assumed (or shown) to influence the dependent variable. If included in a regression, it can improve the fit of the model. If it is excluded from the regression and if it has a non-zero covariance with one or more of the independent variables of interest, its omission will bias the regression's result for the effect of that independent variable of interest. This effect is called confounding or omitted variable bias; in these situations, design changes and/or controlling for a variable statistical control is necessary.
+Extraneous variables are often classified into three types:
+* Subject variables, which are the characteristics of the individuals being studied that might affect their actions. These variables include age, gender, health status, mood, background, etc.
+* 
+* Blocking variables or experimental variables are characteristics of the persons conducting the experiment which might influence how a person behaves. Gender, the presence of racial discrimination, language, or other factors may qualify as such variables.
+* 
+* Situational variables are features of the environment in which the study or research was conducted, which have a bearing on the outcome of the experiment in a negative way. Included are the air temperature, level of activity, lighting, and the time of day.
+* 
+In modelling, variability that is not covered by the independent variable is designated by formula_9 and is known as the "residual", "side effect", "error", "unexplained share", "residual variable", or "tolerance".
+EXAMPLES
+* Effect of fertilizer on plant growth
+* Effect of drug dosage on symptom severity
+* Effect of temperature on pigmentation
+SEE ALSO
+* Abscissa
+* Ordinate
+* Blocking (statistics)
+REFERENCES

@@ -1,0 +1,44 @@
+
+OPEN-CIRCUIT TEST
+The open-circuit test, or "no-load test", is one of the methods used in electrical engineering to determine the no-load impedance in the excitation branch of a transformer. 
+The no load is represented by the open circuit, which is represented on the right side of the figure as the "hole" or incomplete part of the circuit. 
+METHOD
+Section::::Method.
+The secondary of the transformer is left open-circuited. A wattmeter is connected to the primary. An ammeter is connected in series with the primary winding. A voltmeter is optional since the applied voltage is the same as the voltmeter reading. Rated voltage is applied at primary.
+If the applied voltage is normal voltage then normal flux will be set up. Since iron loss is a function of applied voltage, normal iron loss will occur. Hence the iron loss is maximum at rated voltage. This maximum iron loss is measured using the wattmeter. Since the impedance of the series winding of the transformer is very small compared to that of the excitation branch, all of the input voltage is dropped across the excitation branch. Thus the wattmeter measures only the iron loss. This test only measures the combined iron losses consisting of the hysteresis loss and the eddy current loss. Although the hysteresis loss is less than the eddy current loss, it is not negligible. The two losses can be separated by driving the transformer from a variable frequency source since the hysteresis loss varies linearly with supply frequency and the eddy current loss varies with the square.
+Since the secondary of the transformer is open, the primary draws only no-load current, which will have some copper loss. This no-load current is very small and because the copper loss in the primary is proportional to the square of this current, it is negligible. There is no copper loss in the secondary because there is no secondary current. 
+The secondary side of the transformer is left open, so there is no load on the secondary side. Therefore, power is no longer transferred from primary to secondary in this approximation, and negligible current goes through the secondary windings. Since no current passes through the secondary windings, no magnetic field is created, which means zero current is induced on the primary side. This is crucial to the approximation because it allows us to ignore the series impedance since it is assumed that no current passes through this impedance. 
+The parallel shunt component on the equivalent circuit diagram is used to represent the core losses. These core losses come from the change in the direction of the flux and eddy currents. Eddy current losses are caused by currents induced in the iron due to the alternating flux. In contrast to the parallel shunt component, the series component in the circuit diagram represents the winding losses due to the resistance of the coil windings of the transformer. 
+Current, voltage and power are measured at the primary winding to ascertain the admittance and power-factor angle.
+Another method of determining the series impedance of a real transformer is the short circuit test.
+CALCULATIONS
+Section::::Calculations.
+The current formula_1 is very small. 
+If formula_2 is the wattmeter reading then,
+That equation can be rewritten as,
+Thus,
+IMPEDANCE
+Section::::Impedance.
+By using the above equations, formula_7 and formula_8 can be calculated as,
+Thus,
+or
+ADMITTANCE
+Section::::Admittance.
+The admittance is the inverse of impedance. Therefore,
+The conductance formula_14 can be calculated as,
+Hence the susceptance,
+or
+Here, 
+formula_2 is the wattmeter reading 
+formula_19 is the applied rated voltage 
+formula_1 is the no-load current 
+formula_21 is the magnetizing component of no-load current 
+formula_22 is the core loss component of no-load current 
+formula_23 is the exciting impedance 
+formula_24 is the exciting admittance 
+REFERENCES
+SEE ALSO
+* Short-circuit test
+* Thévenin's theorem
+* Blocked rotor test
+* Circle diagram

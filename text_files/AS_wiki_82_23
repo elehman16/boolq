@@ -1,0 +1,166 @@
+
+INVERTIBLE MATRIX
+In linear algebra, an n-by-n square matrix A is called invertible (also nonsingular or nondegenerate) if there exists an n-by-n square matrix B such that
+where I denotes the n-by-n identity matrix and the multiplication used is ordinary matrix multiplication. If this is the case, then the matrix B is uniquely determined by A and is called the inverse of A, denoted by A.
+A square matrix that is not invertible is called singular or degenerate. A square matrix is singular if and only if its determinant is 0. Singular matrices are rare in the sense that a square matrix randomly selected from a continuous uniform distribution on its entries will almost never be singular.
+Non-square matrices (m-by-n matrices for which ) do not have an inverse. However, in some cases such a matrix may have a left inverse or right inverse. If A is m-by-n and the rank of A is equal to n, then A has a left inverse: an n-by-m matrix B such that . If A has rank m, then it has a right inverse: an n-by-m matrix B such that .
+Matrix inversion is the process of finding the matrix B that satisfies the prior equation for a given invertible matrix A.
+While the most common case is that of matrices over the real or complex numbers, all these definitions can be given for matrices over any ring. However, in the case of the ring being commutative, the condition for a square matrix to be invertible is that its determinant is invertible in the ring, which in general is a stricter requirement than being nonzero. For a noncommutative ring, the usual determinant is not defined. The conditions for existence of left-inverse or right-inverse are more complicated since a notion of rank does not exist over rings.
+The set of invertible matrices together with the operation of matrix multiplication form a group, the general linear group of degree n.
+PROPERTIES
+THE INVERTIBLE MATRIX THEOREM
+Section::::Properties.
+Section::::The invertible matrix theorem.
+Let A be a square n by n matrix over a field K (for example the field R of real numbers). The following statements are equivalent, that is, for any given matrix they are either all true or all false:
+OTHER PROPERTIES
+Section::::Other properties.
+Furthermore, the following properties hold for an invertible matrix A:
+* (A) = A;
+* (kA) = kA for nonzero scalar k;
+* (Ax) = xA where denotes the Moore–Penrose inverse and x is a vector;
+* (A) = (A);
+* For any invertible n-by-n matrices A and B, (AB) = BA. More generally, if A, ..., A are invertible n-by-n matrices, then (AA⋅⋅⋅AA) = A'A⋯A'A;
+* det A = (det A).
+The rows of the inverse matrix V of a matrix U are orthonormal to the columns of U (and vice versa interchanging rows for columns). To see this, suppose that UV = VU = I where we write the rows of V as formula_2 and the columns of U as formula_3 for formula_4. Then clearly, the Euclidean inner product of any two formula_5. This property can also be useful in constructing the inverse of a square matrix in some instances where a set of orthogonal vectors (but not necessarily orthonormal vectors) to the columns of U are known and then applying the iterative Gram–Schmidt process to this initial set to determine the rows of the inverse V. 
+A matrix that is its own inverse, that is, such that and , is called an involutory matrix.
+IN RELATION TO ITS ADJUGATE
+Section::::In relation to its adjugate.
+The adjugate of a matrix formula_6 can be used to find the inverse of formula_6 as follows:
+If formula_6 is an formula_9 invertible matrix, then
+IN RELATION TO THE IDENTITY MATRIX
+Section::::In relation to the identity matrix.
+It follows from the associativity of matrix multiplication that if
+for finite square matrices A and B, then also
+DENSITY
+Section::::Density.
+Over the field of real numbers, the set of singular n-by-n matrices, considered as a subset of R, is a null set, that is, has Lebesgue measure zero. This is true because singular matrices are the roots of the polynomial function in the entries of the matrix given by the determinant. Thus in the language of measure theory, almost all n-by-n matrices are invertible.
+Furthermore, the n-by-n invertible matrices are a dense open set in the topological space of all n-by-n matrices. Equivalently, the set of singular matrices is closed and nowhere dense in the space of n-by-n matrices.
+In practice however, one may encounter non-invertible matrices. And in numerical calculations, matrices which are invertible, but close to a non-invertible matrix, can still be problematic; such matrices are said to be ill-conditioned.
+EXAMPLES
+Section::::Examples.
+Consider the following 2-by-2 matrix:
+The matrix formula_14 is invertible. To check this, one can compute that formula_15, which is non-zero. 
+As an example of a non-invertible, or singular, matrix, consider the matrix
+The determinant of formula_17 is 0, which is a necessary and sufficient condition for a matrix to be non-invertible.
+METHODS OF MATRIX INVERSION
+GAUSSIAN ELIMINATION
+Section::::Methods of matrix inversion.
+Section::::Gaussian elimination.
+Gauss-Jordan elimination is an algorithm that can be used to determine whether a given matrix is invertible and to find the inverse. An alternative is the LU decomposition which generates upper and lower triangular matrices which are easier to invert.
+NEWTON'S METHOD
+Section::::Newton's method.
+A generalization of Newton's method as used for a multiplicative inverse algorithm may be convenient, if it is convenient to find a suitable starting seed:
+Victor Pan and John Reif have done work that includes ways of generating a starting seed. Byte magazine summarised one of their approaches.
+Newton's method is particularly useful when dealing with families of related matrices that behave enough like the sequence manufactured for the homotopy above: sometimes a good starting point for refining an approximation for the new inverse can be the already obtained inverse of a previous matrix that nearly matches the current matrix, for example, the pair of sequences of inverse matrices used in obtaining matrix square roots by Denman-Beavers iteration; this may need more than one pass of the iteration at each new matrix, if they are not close enough together for just one to be enough. Newton's method is also useful for "touch up" corrections to the Gauss–Jordan algorithm which has been contaminated by small errors due to imperfect computer arithmetic.
+CAYLEY–HAMILTON METHOD
+Section::::Cayley–Hamilton method.
+The Cayley–Hamilton theorem allows the inverse of formula_6 to be expressed in terms of det(formula_6), traces and powers of formula_6 
+where formula_23 is dimension of formula_6, and formula_25 is the trace of matrix formula_6 given by the sum of the main diagonal. The sum is taken over formula_27 and the sets of all formula_28 satisfying the linear Diophantine equation 
+The formula can be rewritten in terms of complete Bell polynomials of arguments 
+formula_30 as
+EIGENDECOMPOSITION
+Section::::Eigendecomposition.
+If matrix A can be eigendecomposed and if none of its eigenvalues are zero, then A is invertible and its inverse is given by
+where Q is the square (N×N) matrix whose i column is the eigenvector formula_33 of A and Λ is the diagonal matrix whose diagonal elements are the corresponding eigenvalues, that is, formula_34.
+Furthermore, because Λ is a diagonal matrix, its inverse is easy to calculate:
+CHOLESKY DECOMPOSITION
+Section::::Cholesky decomposition.
+If matrix A is positive definite, then its inverse can be obtained as
+where L is the lower triangular Cholesky decomposition of A, and L* denotes the conjugate transpose of L.
+ANALYTIC SOLUTION
+Section::::Analytic solution.
+Writing the transpose of the matrix of cofactors, known as an adjugate matrix, can also be an efficient way to calculate the inverse of small matrices, but this recursive method is inefficient for large matrices. To determine the inverse, we calculate a matrix of cofactors:
+so that
+where A is the determinant of A, C is the matrix of cofactors, and C represents the matrix transpose.
+INVERSION OF 2 × 2 MATRICES
+Section::::Inversion of 2 × 2 matrices.
+The cofactor equation listed above yields the following result for matrices. Inversion of these matrices can be done as follows:
+This is possible because is the reciprocal of the determinant of the matrix in question, and the same strategy could be used for other matrix sizes.
+The Cayley–Hamilton method gives
+INVERSION OF 3 × 3 MATRICES
+Section::::Inversion of 3 × 3 matrices.
+A computationally efficient matrix inversion is given by
+(where the scalar A is not to be confused with the matrix A).
+If the determinant is non-zero, the matrix is invertible, with the elements of the intermediary matrix on the right side above given by
+The determinant of A can be computed by applying the rule of Sarrus as follows:
+The Cayley–Hamilton decomposition gives
+The general inverse can be expressed concisely in terms of the cross product and triple product. If a matrix formula_45 (consisting of three column vectors, formula_46, formula_47, and formula_48) is invertible, its inverse is given by 
+Note that formula_50 is equal to the triple product of formula_51, formula_52, and formula_53—the volume of the parallelepiped formed by the rows or columns: 
+The correctness of the formula can be checked by using cross- and triple-product properties and by noting that for groups, left and right inverses always coincide. Intuitively, because of the cross products, each row of formula_55 is orthogonal to the non-corresponding two columns of formula_56 (causing the off-diagonal terms of formula_57 be zero). Dividing by 
+causes the diagonal elements of formula_57 to be unity. For example, the first diagonal is:
+INVERSION OF 4 × 4 MATRICES
+Section::::Inversion of 4 × 4 matrices.
+With increasing dimension, expressions for the inverse of A get complicated. For , the Cayley–Hamilton method leads to an expression that is still tractable:
+BLOCKWISE INVERSION
+Section::::Blockwise inversion.
+Matrices can also be inverted blockwise by using the following analytic inversion formula:
+where A, B, C and D are matrix sub-blocks of arbitrary size. (A must be square, so that it can be inverted. Furthermore, A and must be nonsingular.) This strategy is particularly advantageous if A is diagonal and (the Schur complement of A) is a small matrix, since they are the only matrices requiring inversion.
+This technique was reinvented several times and is due to Hans Boltz (1923), who used it for the inversion of geodetic matrices, and Tadeusz Banachiewicz (1937), who generalized it and proved its correctness.
+The nullity theorem says that the nullity of A equals the nullity of the sub-block in the lower right of the inverse matrix, and that the nullity of B equals the nullity of the sub-block in the upper right of the inverse matrix.
+The inversion procedure that led to Equation () performed matrix block operations that operated on C and D first. Instead, if A and B are operated on first, and provided D and are nonsingular, the result is
+Equating Equations () and () leads to
+where Equation () is the Woodbury matrix identity, which is equivalent to the binomial inverse theorem.
+Since a blockwise inversion of an matrix requires inversion of two half-sized matrices and 6 multiplications between two half-sized matrices, it can be shown that a divide and conquer algorithm that uses blockwise inversion to invert a matrix runs with the same time complexity as the matrix multiplication algorithm that is used internally. There exist matrix multiplication algorithms with a complexity of operations, while the best proven lower bound is .
+This formula simplifies significantly when the upper right block matrix formula_65 is the zero matrix. This formulation is useful when the matrices formula_6 and formula_67 have relatively simple inverse formulas (or pseudo inverses in the case where the blocks are not all square. In this special case, the block matrix inversion formula stated in full generality above becomes 
+BY NEUMANN SERIES
+Section::::By Neumann series.
+If a matrix A has the property that
+then A is nonsingular and its inverse may be expressed by a Neumann series:
+Truncating the sum results in an "approximate" inverse which may be useful as a preconditioner. Note that a truncated series can be accelerated exponentially by noting that the Neumann series is a geometric sum. As such, it satisfies 
+Therefore, only formula_72 matrix multiplications are needed to compute formula_73 terms of the sum.
+More generally, if A is "near" the invertible matrix X in the sense that
+then A is nonsingular and its inverse is
+If it is also the case that has rank 1 then this simplifies to
+P-ADIC APPROXIMATION
+Section::::P-adic approximation.
+If A is a matrix with integer or rational coefficients and we seek a solution in arbitrary-precision rationals, then a p-adic approximation method converges to an exact solution in formula_77, assuming standard formula_78 matrix multiplication is used. The method relies on solving n linear systems via Dixon's method of p-adic approximation (each in formula_79) and is available as such in software specialized in arbitrary-precision matrix operations, for example, in IML.
+DERIVATIVE OF THE MATRIX INVERSE
+Section::::Derivative of the matrix inverse.
+Suppose that the invertible matrix A depends on a parameter t. Then the derivative of the inverse of A with respect to t is given by
+To derive the above expression for the derivative of the inverse of A, one can differentiate the definition of the matrix inverse formula_81 and then solve for the inverse of A:
+Subtracting formula_83 from both sides of the above and multiplying on the right by formula_55 gives the correct expression for the derivative of the inverse:
+Similarly, if formula_86 is a small number then
+More generally, if
+then,
+Given a positive integer formula_23,
+Therefore,
+GENERALIZED INVERSE
+Section::::Generalized inverse.
+Some of the properties of inverse matrices are shared by generalized inverses (for example, the Moore–Penrose inverse), which can be defined for any m-by-n matrix.
+APPLICATIONS
+Section::::Applications.
+For most practical applications, it is not necessary to invert a matrix to solve a system of linear equations; however, for a unique solution, it is necessary that the matrix involved be invertible.
+Decomposition techniques like LU decomposition are much faster than inversion, and various fast algorithms for special classes of linear systems have also been developed.
+REGRESSION/LEAST SQUARES
+Section::::Regression/least squares.
+Although an explicit inverse is not necessary to estimate the vector of unknowns, it is unavoidable to estimate their precision, found in the diagonal of the posterior covariance matrix of the vector of unknowns.
+MATRIX INVERSES IN REAL-TIME SIMULATIONS
+Section::::Matrix inverses in real-time simulations.
+Matrix inversion plays a significant role in computer graphics, particularly in 3D graphics rendering and 3D simulations. Examples include screen-to-world ray casting, world-to-subspace-to-world object transformations, and physical simulations.
+MATRIX INVERSES IN MIMO WIRELESS COMMUNICATION
+Section::::Matrix inverses in MIMO wireless communication.
+Matrix inversion also plays a significant role in the MIMO (Multiple-Input, Multiple-Output) technology in wireless communications. The MIMO system consists of N transmit and M receive antennas. Unique signals, occupying the same frequency band, are sent via N transmit antennas and are received via M receive antennas. The signal arriving at each receive antenna will be a linear combination of the N transmitted signals forming a NxM transmission matrix H. It is crucial for the matrix H to be invertible for the receiver to be able to figure out the transmitted information.
+SEE ALSO
+* Binomial inverse theorem
+* LU decomposition
+* Matrix decomposition
+* Matrix square root
+* Pseudoinverse
+* Singular value decomposition
+* Woodbury matrix identity
+NOTES
+REFERENCES
+FURTHER READING
+* Matrix Mathematics: Theory, Facts, and Formulas at Google books
+* The Matrix Cookbook
+EXTERNAL LINKS
+* Lecture on Inverse Matrices by Khan Academy
+* Linear Algebra Lecture on Inverse Matrices by MIT
+* LAPACK a collection of FORTRAN subroutines for solving dense linear algebra problems
+* ALGLIB includes a partial port of the LAPACK to C++, C#, Delphi, etc.
+* Online Inverse Matrix Calculator using AJAX
+* Symbolic Inverse of Matrix Calculator with steps shown
+* Moore-Penrose Pseudo-Inverse Matrix
+* Inverse of a Matrix Notes
+* Calculator for Singular or Non-Square Matrix Inverse
+* Inverse calculator online

@@ -1,0 +1,83 @@
+
+SQUARE NUMBER
+In mathematics, a square number or perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, 9 is a square number, since it can be written as .
+The usual notation for the square of a number is not the product , but the equivalent exponentiation , usually pronounced as " squared". The name square number comes from the name of the shape. The unit of area is defined as the area of a unit square (). Hence, a square with side length has area .
+Square numbers are non-negative. Another way of saying that a (non-negative) integer is a square number is that its square root is again an integer. For example,  = 3, so 9 is a square number.
+A positive integer that has no perfect square divisors except 1 is called square-free.
+For a non-negative integer , the th square number is , with being the zeroth one. The concept of square can be extended to some other number systems. If rational numbers are included, then a square is the ratio of two square integers, and, conversely, the ratio of two square integers is a square, e.g., 
+formula_1.
+Starting with 1, there are square numbers up to and including , where the expression represents the floor of the number .
+EXAMPLES
+Section::::Examples.
+The squares smaller than 60 = 3600 are:
+The difference between any perfect square and its predecessor is given by the identity . Equivalently, it is possible to count up square numbers by adding together the last square, the last square's root, and the current root, that is, .
+PROPERTIES
+Section::::Properties.
+The number  is a square number if and only if one can arrange points in a square:
+The expression for the th square number is . This is also equal to the sum of the first odd numbers as can be seen in the above pictures, where a square results from the previous one by adding an odd number of points (shown in magenta). The formula follows:
+So for example, .
+There are several recursive methods for computing square numbers. For example, the th square number can be computed from the previous square by . Alternatively, the th square number can be calculated from the previous two by doubling the th square, subtracting the th square number, and adding 2, because . For example,
+One number less than a square (m - 1) is always the product of - 1 and + 1 (e.g. 8 × 6 equals 48, while 7 equals 49). Thus, 3 is the only prime number one less than a square.
+A square number is also the sum of two consecutive triangular numbers. The sum of two consecutive square numbers is a centered square number. Every odd square is also a centered octagonal number.
+Another property of a square number is that (except 0) it has an odd number of positive divisors, while other natural numbers have an even number of positive divisors. An integer root is the only divisor that pairs up with itself to yield the square number, while other divisors come in pairs.
+Lagrange's four-square theorem states that any positive integer can be written as the sum of four or fewer perfect squares. Three squares are not sufficient for numbers of the form . A positive integer can be represented as a sum of two squares precisely if its prime factorization contains no odd powers of primes of the form . This is generalized by Waring's problem.
+In base 10, a square number can end only with digits 0, 1,  4,  5, 6 or  9, as follows:
+* if the last digit of a number is 0, its square ends in 0 (in fact, the last two digits must be 00);
+* if the last digit of a number is 1 or 9, its square ends in 1;
+* if the last digit of a number is 2 or 8, its square ends in 4;
+* if the last digit of a number is 3 or 7, its square ends in 9;
+* if the last digit of a number is 4 or 6, its square ends in 6; and
+* if the last digit of a number is 5, its square ends in 5 (in fact, the last two digits must be 25).
+In base 12, a square number can end only with square digits (like in base 12, a prime number can end only with prime digits or 1), i.e. 0, 1, 4 or 9, as follows:
+* if a number is divisible both by 2 and by 3 (i.e. divisible by 6), its square ends in 0;
+* if a number is divisible neither by 2 nor by 3, its square ends in 1;
+* if a number is divisible by 2, but not by 3, its square ends in 4; and
+* if a number is not divisible by 2, but by 3, its square ends in 9.
+Similar rules can be given for other bases, or for earlier digits (the tens instead of the units digit, for example). All such rules can be proved by checking a fixed number of cases and using modular arithmetic.
+In general, if a prime  divides a square number  then the square of must also divide ; if fails to divide , then is definitely not square. Repeating the divisions of the previous sentence, one concludes that every prime must divide a given perfect square an even number of times (including possibly 0 times). Thus, the number is a square number if and only if, in its canonical representation, all exponents are even.
+Squarity testing can be used as alternative way in factorization of large numbers. Instead of testing for divisibility, test for squarity: for given and some number , if is the square of an integer  then divides . (This is an application of the factorization of a difference of two squares.) For example, is the square of 3, so consequently divides 9991. This test is deterministic for odd divisors in the range from to where covers some range of natural numbers .
+A square number cannot be a perfect number.
+The sum of the n first square numbers is
+The first values of these sums, the square pyramidal numbers, are: 
+0, 1, 5, 14, 30, 55, 91, 140, 204, 285, 385, 506, 650, 819, 1015, 1240, 1496, 1785, 2109, 2470, 2870, 3311, 3795, 4324, 4900, 5525, 6201...
+The sum of the first odd integers, beginning with one, is a perfect square. 1, 1 + 3, 1 + 3 + 5, 1 + 3 + 5 + 7, etc.
+The sum of the n first cubes is the square of the sum of the n first positive integers; this is Nicomachus's theorem.
+All fourth powers, sixth powers, eighth powers and so on are perfect squares.
+SPECIAL CASES
+* If the number is of the form where represents the preceding digits, its square is where and represents digits before 25. For example, the square of 65 can be calculated by which makes the square equal to 4225.
+* If the number is of the form where represents the preceding digits, its square is where . For example, the square of 70 is 4900.
+* If the number has two digits and is of the form where represents the units digit, its square is where and . Example: To calculate the square of 57, 25 + 7 = 32 and 7 = 49, which means 57 = 3249.
+* If the number ends in 5, its square will end in 5; similarly for ending in 25, 625, 0625, 90625, ... 8212890625, etc. If the number ends in 6, its square will end in 6, similarly for ending in 76, 376, 9376, 09376, ... 1787109376. For example, the square of 55376 is 3066501376, both ending in 376. (The numbers 5, 6, 25, 76, etc. are called automorphic numbers. They are sequence A003226 in the OEIS)
+ODD AND EVEN SQUARE NUMBERS
+Section::::Odd and even square numbers.
+Squares of even numbers are even (and in fact divisible by 4), since .
+Squares of odd numbers are odd, since .
+It follows that square roots of even square numbers are even, and square roots of odd square numbers are odd.
+As all even square numbers are divisible by 4, the even numbers of the form are not square numbers.
+As all odd square numbers are of the form , the odd numbers of the form are not square numbers.
+Squares of odd numbers are of the form , since and is an even number.
+Every odd perfect square is a centered octagonal number. The difference between any two odd perfect squares is a multiple of 8. The difference between 1 and any higher odd perfect square always is eight times a triangular number, while the difference between 9 and any higher odd perfect square is eight times a triangular number minus eight. Since all triangular numbers have an odd factor, but no two values of differ by an amount containing an odd factor, the only perfect square of the form is 1, and the only perfect square of the form is 9.
+SEE ALSO
+* Automorphic number
+* Brahmagupta–Fibonacci identity
+* Cubic number
+* Euler's four-square identity
+* Fermat's theorem on sums of two squares
+* Integer square root
+* Methods of computing square roots
+* Polygonal number
+* Power of two
+* Pythagorean triple
+* Quadratic residue
+* Quadratic function
+* Square (algebra)#Related identities
+* Square triangular number
+NOTES
+FURTHER READING
+* Conway, J. H. and Guy, R. K. The Book of Numbers. New York: Springer-Verlag, pp. 30–32, 1996.
+* Kiran Parulekar. Amazing Properties of Squares and Their Calculations. Kiran Anil Parulekar, 2012 https://books.google.com/books?id=njEtt7rfexEC&source=gbs_navlinks_s
+EXTERNAL LINKS
+* Learn Square Numbers. Practice square numbers up to 144 with this children's multiplication game
+* Dario Alpern, Sum of squares. A Java applet to decompose a natural number into a sum of up to four squares.
+* Fibonacci and Square Numbers at Convergence
+* The first 1,000,000 perfect squares Includes a program for generating perfect squares up to 10.

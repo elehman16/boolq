@@ -1,0 +1,54 @@
+
+GOOGLE SITES
+Google Sites is a structured wiki- and Web page-creation tool offered by Google.
+The goal of Google Sites is for anyone to be able to create simple web sites that support collaboration between different editors.
+HISTORY
+Section::::History.
+Google Sites started out as JotSpot, the name and sole product of a software company that offered enterprise social software. It was targeted mainly at small-sized and medium-sized businesses. The company was founded by Joe Kraus and Graham Spencer, co-founders of Excite.
+In February 2006, JotSpot was named part of Business 2.0, "Next Net 25", and in May 2006, it was honored as one of InfoWorld's "15 Start-ups to Watch". In October 2006, JotSpot was acquired by Google. Google announced a prolonged data transition of webpages created using Google Page Creator (also known as "Google Pages") to Google Sites servers in 2007. On February 28, 2008, Google Sites was unveiled using the JotSpot technology. The service was free, but users needed a domain name, which Google offered for $10. However, as of May 21, 2008, Google Sites became available for free, separately from Google Apps, and without the need for a domain.
+In June 2016, Google introduced a complete rebuild of the Google Sites platform, named New Google Sites, along with transition schedule from Classic Google Sites.
+SERVICES
+NEW GOOGLE SITES
+FEATURES
+* Responsive design of the new themes.
+* Domain name mapping – owners can map their site to a custom domain name.
+* Drag and drop editing – page elements can be dragged-and-dropped, and arranged automatically on a grid layout.
+* Levels of permissions (Owner, Editor and Viewer).
+* Support for embedding HTML and JavaScript
+* Automatic multi-level menus
+* Integration with Google Drive, Google Maps and more.
+LIMITATIONS
+* Classic Google Sites third-party gadgets extensions are not supported anymore
+* No support for Google Apps Script
+* Very limited styling options, no support for custom CSS
+* Cannot remove footer
+CLASSIC GOOGLE SITES
+FEATURES
+* Domain name mapping – owners can map their site to a custom domain name.
+* Access permissions
+* Page templates
+* File attachments
+* HTML source editing
+EXTENSIONS
+* Gadgets – XML modules that can be embedded in a Site and may contain custom CSS and JavaScript. Gadgets achieve two purposes:
+* Separation or Abstraction – custom code can be abstracted to a distinct file
+* 
+* Reuse – the same gadget can be reused by multiple sites as it is published publicly
+* 
+LIMITATIONS
+* No open use of Cascading Style Sheets (CSS) or JavaScript. JavaScript can be used within the confines of an embedded gadget or the HTML box. Inline CSS can be used within the webpage content area.
+* Limited e-store capabilities, have to use the Google i-store gadget to add a shopping cart, iframe a third-party e-store provider such as Amazon, or use a Google Buy Now button.
+* Limited use of HTML coding. HTML is checked and modified when saved, Javascript is made safe with Caja. CSS cannot be incorporated in the theme templates; however, inline CSS can be used within the webpage content area.
+* Sites that are hosted on Google Sites are not available to residents of countries where Google services are blocked.
+CENSORSHIP
+Section::::Censorship.
+Following a regional Turkish court ruling in 2009, all pages hosted on Google Sites were blocked. It was done after one of the pages contained an alleged insult of Turkey's founder, Mustafa Kemal Atatürk. In 2012 the European Convention on Human Rights (ECHR) ruled this a breach of Article 10 of the European Convention on Human Rights (Yildirim v Turkey, 2012). The ban was lifted in 2014.
+SEE ALSO
+* Google Web Designer
+* Comparison of free web hosting services
+* Google App Engine
+* Blogger
+REFERENCES
+EXTERNAL LINKS
+* Classic Google Sites Overview
+* New Google Sites Overview in G Suite

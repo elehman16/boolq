@@ -1,0 +1,159 @@
+
+HUMAN–COMPUTER CHESS MATCHES
+This article documents the progress of significant human–computer chess matches.
+Chess computers were first able to beat strong chess players in the late 1980s. Their most famous success was the victory of Deep Blue over then World Chess Champion Garry Kasparov in 1997, but there was some controversy over whether the match conditions favored the computer.
+In 2002–2003, three human-computer matches were drawn, but whereas Deep Blue was a specialized machine, these were chess programs running on commercially available computers.
+Chess programs running on commercially-available desktop computers had convincing victories against human players in matches in 2005 and 2006. Since that time, chess programs running on commercial hardware—more recently including mobile phones—have been able to defeat even the strongest human players.
+MANIAC (1956)
+Section::::MANIAC (1956).
+In 1956 MANIAC, developed at Los Alamos Scientific Laboratory, became the first computer to defeat a human in a chess-like game. Playing with the simplified Los Alamos rules, it defeated a novice in 23 moves.
+MAC HACK VI (1966–1968)
+Section::::Mac Hack VI (1966–1968).
+In 1966 MIT student Richard Greenblatt wrote the chess program Mac Hack VI using MIDAS macro assembly language on a Digital Equipment Corporation PDP-6 computer with 16K of memory. Mac Hack VI evaluated 10 positions per second.
+In 1967, several MIT students and professors (organized by Seymour Papert) challenged Dr. Hubert Dreyfus to play a game of chess against Mac Hack VI. Dreyfus, a professor of philosophy at MIT, wrote the book What Computers Can't Do, questioning the computer's ability to serve as a model for the human brain. He also asserted that no computer program could defeat even a 10-year-old child at chess. Dreyfus accepted the challenge. Herbert A. Simon, an artificial intelligence pioneer, watched the game. He said, "it was a wonderful game—a real cliffhanger between two woodpushers with bursts of insights and fiendish plans ... great moments of drama and disaster that go in such games." The computer was beating Dreyfus when he found a move which could have captured the enemy queen. The only way the computer could get out of this was to keep Dreyfus in checks with its own queen until it could fork the queen and king, and then exchange them. That is what the computer did. Soon, Dreyfus was losing. Finally, the computer checkmated Dreyfus in the middle of the board.
+In the spring of 1967, Mac Hack VI played in the Boston Amateur championship, winning two games and drawing two games. Mac Hack VI beat a 1510 United States Chess Federation player. This was the first time a computer won a game in a human tournament. At the end of 1968, Mac Hack VI achieved a rating of 1529. The average rating in the USCF was near 1500.
+CHESS X.X (1968–1978)
+Section::::Chess x.x (1968–1978).
+In 1968, Northwestern University students Larry Atkin, David Slate and Keith Gorlen began work on Chess (Northwestern University).
+On April 14, 1970 an exhibition game was played against Australian Champion Fred Flatow, the program running on a Control Data Corporation 6600 model. Flatow won easily.
+On July 25, 1976, Chess 4.5 scored 5–0 in the Class B (1600–1799) section of the 4th Paul Masson chess tournament in Saratoga, California. This was the first time a computer won a human tournament. Chess 4.5 was rated 1722. Chess 4.5 running on a Control Data Corporation CDC Cyber 175 supercomputer (2.1 megaflops) looked at less than 1500 positions per second.
+On February 20, 1977, Chess 4.5 won the 84th Minnesota Open Championship with 5 wins and 1 loss. It defeated expert Charles Fenner rated 2016.
+On April 30, 1978, Chess 4.6 scored 5–0 at the Twin Cities Open in Minneapolis. Chess 4.6 was rated 2040. International Master Edward Lasker stated that year, "My contention that computers cannot play like a master, I retract. They play absolutely alarmingly. I know, because I have lost games to 4.7."
+DAVID LEVY'S BET (1978)
+Section::::David Levy's bet (1978).
+For a long time in the 1970s and 1980s, it remained an open question whether any chess program would ever be able to defeat the expertise of top humans. In 1968, International Master David Levy made a famous bet that no chess computer would be able to beat him within ten years. He won his bet in 1978 by beating Chess 4.7 (the strongest computer at the time).
+CRAY BLITZ (1981)
+Section::::Cray Blitz (1981).
+In 1981, Cray Blitz scored 5–0 in the Mississippi State Championship. In round 4, it defeated Joe Sentef (2262) to become the first computer to beat a master in tournament play and the first computer to gain a master rating (2258).
+HITECH (1988)
+Section::::HiTech (1988).
+In 1988, HiTech won the Pennsylvania State Chess Championship with a score of 4.5–0.5. HiTech defeated International Master Ed Formanek (2485).
+The Harvard Cup Man versus Computer Chess Challenge was organized by Harvard University. There were six challenges from 1989 until 1995. They played in Boston and New York City. In each challenge the humans scored higher and the highest scorer was a human. 
+!Year!!Men-Compu.!!Human points!!Compu. points!!Winner!!Points!!Best Program!!Points!!Rank
+19894–413½2½Boris Gulko, Michael Rohde4Deep Thought15
+19914–4124Maxim Dlugy3½Heuristic Alpha25
+19925–5187Michael Rohde5Socrates33
+19936–6279Joel Benjamin5Socrates36
+19946–829½18½Joel Benjamin6½WChess54
+19956–623½12½Joel Benjamin4½Virtual Chess3½4
+THE AEGON MAN-MACHINE TOURNAMENTS (1986–1997)
+Section::::The Aegon Man-Machine Tournaments (1986–1997).
+The 12 Aegon Man-Machine Tournaments were held annually from 1986 to 1997. The Dutch Computer Chess Federation (CSVN) organized the Aegon Man-Machine Tournaments in The Hague, Netherlands. The Aegon insurance company hosted the tournaments. An equal number of humans and computers played a 6 round swiss tournament with all games between humans and computers. The early tournaments were mostly local players and anti-computer tactics specialists. Later tournaments included masters and grandmasters. In the early tournaments, humans won more games. In the later tournaments, computers won more games.
+100 players played in the 1997 tournament. Computers won 151 ½ points. Humans won 148 ½ points. Yona Kosashvili scored highest for the humans at 6 points out of 6 games. Kallisto scored highest for the computers at 4 ½ points.
+!Year!!Players!!Rounds!!Human points!!Comp Points!!Winner!!Points!!Best Program!!Points!!Rank
+19862*117Fred van der Vliet6Rebel4½5
+19872*136Martin Voorn6Mephisto Dallas 16 bit4½3
+19882*166Lex Jongsma6Mephisto Mega 447
+19892*16657½23Ad van den Berg5Chess Challenger3½8
+19902*1464737HiTech5HiTech51
+19912*206John van der Wiel6MChess48
+19922*2468460David Bronstein6Mephisto 6803048
+19932*326David Bronstein5½The King53
+19942*386114114Larry Christiansen5½Gideon4½5
+19952*486132155John van der Wiel5½Hiarcs52
+19962*506137½162½Yasser Seirawan6Quest4½5
+19972*506148½151½Yona Kosashvili6Kallisto4½4
+DEEP THOUGHT (1989)
+Section::::Deep Thought (1989).
+In 1988, Deep Thought shared first place with Tony Miles in the Software Toolworks Championship, ahead of a former world champion Mikhail Tal and several grandmasters, including Samuel Reshevsky, Walter Browne, and Mikhail Gurevich. It also defeated grandmaster Bent Larsen, making it the first computer to beat a grandmaster in a tournament. Its rating for performance in this tournament of 2745 (USCF scale).
+In 1989, Levy was defeated by the computer Deep Thought in an exhibition match.
+Deep Thought, however, was still considerably below World Championship Level, as the then reigning world chess champion Garry Kasparov demonstrated in two convincing wins in 1989.
+CHESS GENIUS (1994)
+Section::::Chess Genius (1994).
+The "Chess Genius" program was entered into a Professional Chess Association rapid chess tournament in 1994. It defeated and eliminated world champion Kasparov, but lost to Viswanathan Anand in the next round. This was the first time a computer had defeated the world champion in an official game, albeit at rapid time controls.
+KASPAROV – DEEP BLUE (1996–1997)
+1996
+Section::::Kasparov – Deep Blue (1996–1997).
+Section::::1996.
+Kasparov played a six-game match against IBM's Deep Blue in 1996. Kasparov lost the first game (Deep Blue – Kasparov, 1996, Game 1), the first time a reigning world champion had lost to a computer using regular time controls. However, Kasparov regrouped to win three and draw two of the remaining five games of the match, for a convincing 4–2 match victory.
+1997
+Section::::1997.
+In May 1997, an updated version of Deep Blue defeated Kasparov 3½–2½ in a highly publicized six-game match. Kasparov won the first, lost the second, and drew the next three. The match was even after five games but Kasparov was crushed in Game 6. This was the first time a computer had ever defeated a world champion in match play. A documentary film was made about this famous match-up entitled . In that film Kasparov casually says, "I have to tell you that, you know, game two was not just a single loss of a game. It was a loss of the match, because I couldn't recover."
+It should be noted, however, that in game 6, Kasparov blundered very early into the game. Kasparov cites tiredness and unhappiness with the IBM team's conduct at the time as the main reason.
+Kasparov claimed that several factors weighed against him in this match. In particular, he was denied access to Deep Blue's recent games, in contrast to the computer's team that could study hundreds of Kasparov's.
+After the loss, Kasparov said that he sometimes saw deep intelligence and creativity in the machine's moves, suggesting that during the second game, human chess players, in contravention of the rules, intervened. IBM denied that it cheated, saying the only human intervention occurred between games. The rules provided for the developers to modify the program between games, an opportunity they said they used to shore up weaknesses in the computer's play revealed during the course of the match. Kasparov requested printouts of the machine's log files but IBM refused, although the company later published the logs on the Internet. Kasparov demanded a rematch, but IBM refused and dismantled Deep Blue.
+Kasparov maintains that he was told the match was to be a scientific project but that it soon became apparent that IBM wanted only to beat him for the company's advertisement.
+ANAND – REBEL (1998)
+Section::::Anand – REBEL (1998).
+With increasing processing power, Chess programs running on regular workstations began to rival top flight players. In 1998, Rebel 10 defeated Viswanathan Anand who, at the time, was ranked second in the world, by a score of 5–3. However, most of those games were not played under normal time controls. Out of the eight games, four were blitz games (five minutes plus five seconds Fischer delay (see time control) for each move); these Rebel won 3–1. Then two were semi-blitz games (fifteen minutes for each side) which Rebel won as well (1½–½). Finally, two games were played as regular tournament games (forty moves in two hours, one hour sudden death); here, it was Anand who won ½–1½. At least in fast games, computers played better than humans, but under classical time controls—at which a player's rating is determined—the advantage was not so clear.
+DEEP JUNIOR AT DORTMUND (2000)
+Section::::Deep Junior at Dortmund (2000).
+Deep Junior played 9 grandmasters at the Sparkassen Chess Meeting in Dortmund, Germany from July 6 to July 17, 2000. The 2000 Sparkassen Chess Meeting was a category 19 chess tournament. Computer program Deep Junior competed in a round robin format. Deep Junior scored 4.5 in 9 rounds. Deep Junior performed at a rating of 2703.
+!Round!!White!!Elo!!Black!!Elo!!Result!!Moves!!ECO
+1Bareev, E2702Deep Junior½–½146D46
+2Deep JuniorHuebner, R26151-039C04
+3Adams, M2755Deep Junior½–½84C68
+4Deep JuniorKhalifman, A2667½–½129B08
+5Kramnik, V2770Deep Junior1-065D00
+6Deep JuniorAkopian, V2660½–½89B00
+7Anand, V2762Deep Junior½–½35D05
+8Deep JuniorPiket, J26490-168B15
+9Leko, P2740Deep Junior0-1120C48
+KRAMNIK – DEEP FRITZ (2002)
+Section::::Kramnik – Deep Fritz (2002).
+In October 2002, Vladimir Kramnik (who had succeeded Kasparov as Classical World Chess Champion) and Deep Fritz competed in the eight-game Brains in Bahrain match, which ended in a 4–4 draw.
+Kramnik was given several advantages in his match against Fritz when compared to most other human–computer matches, such as the one Kasparov lost against Deep Blue in 1997. The code of Fritz was frozen some time before the first match and Kramnik was given a copy of Fritz to practice with for several months. Another difference was that in games lasting more than 56 moves, Kramnik was allowed to adjourn until the following day, during which time he could use his copy of Fritz to aid him in his overnight analysis of the position.
+Kramnik won games 2 and 3 by "conventional" anti-computer tactics—play conservatively for a long-term advantage the computer is not able to see in its game tree search. Fritz, however, won game 5 after a severe blunder by Kramnik. Game 6 was described by the tournament commentators as "spectacular." Kramnik, in a better position in the early middlegame, tried a piece sacrifice to achieve a strong tactical attack, a strategy known to be highly risky against computers who are at their strongest defending against such attacks. True to form, Fritz found a watertight defense and Kramnik's attack petered out, leaving him in a bad position. Kramnik resigned the game, believing the position lost. However, post-game human and computer analysis has shown that the Fritz program was unlikely to have been able to force a win and Kramnik effectively sacrificed a drawn position. The final two games were draws. Given the circumstances, most commentators still rate Kramnik the stronger player in the match.
+KASPAROV – DEEP JUNIOR (2003)
+Section::::Kasparov – Deep Junior (2003).
+In January 2003, Kasparov engaged in a six-game classical time control match with a $1 million prize fund which was billed as the FIDE "Man vs. Machine" World Championship, against Deep Junior. The engine evaluated three million positions per second. After one win each and three draws, it was all up to the final game. The final game of the match was televised on ESPN2 and was watched by an estimated 200–300 million people. After reaching a decent position Kasparov offered a draw, which was soon accepted by the Deep Junior team. Asked why he offered the draw, Kasparov said he feared making a blunder. Originally planned as an annual event, the match was not repeated.
+KASPAROV – X3D FRITZ (2003)
+Section::::Kasparov – X3D Fritz (2003).
+In November 2003, Kasparov engaged in a four-game match against the computer program X3D Fritz (which was said to have an estimated rating of 2807), using a virtual board, 3D glasses and a speech recognition system. After two draws and one win apiece, the X3D Man-Machine match ended in a draw. Kasparov received $175,000 for the result and took home the golden trophy. Kasparov continued to criticize the blunder in the second game that cost him a crucial point. He felt that he had outplayed the machine overall and played well. "I only made one mistake but unfortunately that one mistake lost the game."
+MAN VS MACHINE WORLD TEAM CHAMPIONSHIP (2004–2005)
+Section::::Man vs Machine World Team Championship (2004–2005).
+The Man vs Machine World Team Championships were two chess tournaments in Bilbao, Spain, between leading chess grandmasters and chess computers. Both were convincingly won by the computers. A second name for the tournaments is Human vs. Computers World Team Matches.
+2004
+Section::::2004.
+In October 2004, Ruslan Ponomariov (then having Elo 2710), Veselin Topalov (Elo 2757) and Sergey Karjakin (Elo 2576) played against computers Hydra, Fritz 8, and Deep Junior. Ponomariov and Topalov were FIDE world chess champions. Sergey Karjakin at 12 was the youngest Grandmaster. Hydra was running on a special machine with 16 processors located in Abu Dhabi, UAE; Deep Junior, the then reigning computer chess world champion, used a remote 4 x 2.8 GHz Xeon machine located at Intel UK (Swindon); and Fritz 8 was running on a Centrino 1.7 GHz notebook. The computers won 8.5 to 3.5. The humans won one game: Karjakin, the youngest and lowest rated player, defeated Deep Junior.
+* Ponomariov – Hydra 0–1
+* Fritz – Karjakin 1–0
+* Deep Junior – Topalov 1/2–1/2
+* Karjakin – Deep Junior 1–0
+* Ponomariov – Fritz 1/2–1/2
+* Topalov – Hydra 1/2–1/2
+* Deep Junior – Ponomariov 1/2–1/2
+* Hydra – Karjakin 1–0
+* Fritz – Topalov 1–0
+* Hydra – Ponomariov 1–0
+* Karjakin – Fritz 0–1
+* Topalov – Deep Junior 1/2–1/2
+2005
+Section::::2005.
+In November 2005, 3 former FIDE world chess champions—Alexander Khalifman, Ruslan Ponomariov and Rustam Kasimdzhanov—played against computers Hydra, Junior and Fritz. The computers won 8 to 4. The Ponomariov vs Fritz game on November 21, 2005 is the last known win by a human against a top performing computer under normal chess tournament conditions.
+* Ponomariov – Junior 0–1
+* Hydra – Kasimdzhanov 1–0
+* Fritz – Khalifman 1–0
+* Ponomariov – Fritz 1–0
+* Kasimdzhanov – Junior 1/2–1/2
+* Khalifman – Hydra 1/2–1/2
+* Hydra – Ponomariov 1–0
+* Fritz – Kasimdzhanov 1/2–1/2
+* Junior – Khalifman 1–0
+* Ponomariov – Junior 1/2–1/2
+* Kasimdzhanov – Hydra 1/2–1/2
+* Khalifman – Fritz 1/2–1/2
+HYDRA – ADAMS (2005)
+Section::::Hydra – Adams (2005).
+In 2005, Hydra, a dedicated chess computer with custom hardware and sixty-four processors and also winner of the 14th IPCCC in 2005, crushed seventh-ranked Michael Adams 5½–½ in a six-game match. While Adams was criticized for not preparing as well as Kasparov and Kramnik had, some commentators saw this as heralding the end of human-computer matches.
+KRAMNIK – DEEP FRITZ (2006)
+Section::::Kramnik – Deep Fritz (2006).
+Kramnik, then still the World Champion, played a six-game match against the computer program Deep Fritz in Bonn, Germany from November 25 to December 5, 2006, losing 4–2 to the machine, with two losses and four draws. He received 500,000 Euros for playing and would have received another 500,000 Euros had he won the match. Deep Fritz version 10 ran on a computer containing two Intel Xeon CPUs (a Xeon DC 5160 3 GHz processor with a 1333 MHz FSB and a 4 MB L2 cache) and was able to evaluate eight million positions per second. Kramnik received a copy of the program in mid-October for testing, but the final version included an updated opening book. Except for limited updates to the opening book, the program was not allowed to be changed during the course of the match. The endgame tablebases used by the program were restricted to five pieces even though a complete six-piece tablebase is widely available. While Deep Fritz was in its opening book Kramnik is allowed to see Fritz's display. The Fritz display contains opening book moves, number of games, Elo performance, score from grandmaster games and the move weighting.
+In the first five games, Kramnik steered the game into a typical "anti-computer" positional contest. On November 25, the first game ended in a draw at the 47th move. A number of commentators believe Kramnik missed a win. Two days later, the second game resulted in a victory for Deep Fritz when Kramnik made what Susan Polgar called the "blunder of the century", when he failed to defend against a threatened mate-in-one in an even position. (see also Deep Fritz v. Vladimir Kramnik blunder). The third, fourth and fifth games in the match ended in draws.
+In the final game, in an attempt to draw the match, Kramnik played the more aggressive Sicilian Defence and was crushed, losing the match 4–2.
+There was speculation that interest in human-computer chess competition would plummet as a result of the 2006 Kramnik–Deep Fritz match. According to McGill University computer science professor Monty Newborn, for example, "the science is done". The prediction appears to have come true, with no major human–computer matches in the next 10 years.
+RYBKA ODDS MATCHES (2007–2008)
+Section::::Rybka odds matches (2007–2008).
+Since 2007, Rybka has played some odds matches against grandmasters. Jaan Ehlvest first lost a pawn-odds match, then later lost a match when given time, color, opening, and endgame advantages. Roman Dzindzichashvili then lost a match when given pawn and move odds.
+In September 2008, Rybka played an odds match against Vadim Milov, its strongest opponent yet in an odds match (Milov at the time had an Elo rating of 2705, 28th in the world). The result was a narrow victory to Milov—he had won 1½–½ when given pawn-and-move, and 2½–1½ (1 win, 3 draws) when given exchange odds but playing black. In two standard games (Milov had white, no odds), Rybka won 1½–½.
+POCKET FRITZ 4 (2009)
+Section::::Pocket Fritz 4 (2009).
+In 2009, a chess engine running on slower hardware, a 528 MHz HTC Touch HD mobile phone, reached the grandmaster level. The mobile phone won a category 6 tournament with a performance rating of 2898. The chess engine Hiarcs 13 runs inside Pocket Fritz 4 on the mobile phone HTC Touch HD. Pocket Fritz 4 won the Copa Mercosur tournament in Buenos Aires, Argentina with 9 wins and 1 draw on August 4–14, 2009. Pocket Fritz 4 searches fewer than 20,000 positions per second. This is in contrast to supercomputers such as Deep Blue that searched 200 million positions per second. Pocket Fritz 4 achieves a higher performance level than Deep Blue.
+Pocket Fritz 3 using version 12.1 of Hiarcs won the same event the previous year with six wins and four draws, running on a 624 MHz HP iPAQ hx2790. The 2008 Mercosur Cup was a category 7 tournament. Pocket Fritz 3 achieved a performance rating of 2690.
+KOMODO HANDICAP MATCHES (2015)
+Section::::Komodo handicap matches (2015).
+In 2015, chess engine Komodo played a series of handicap matches with GM Sergej Movsesian, GM Martin Petr, GM Petr Neuman, FM Victor Bolzoni, FM John Meyer, Mark Gray and FM Larry Gilden. These games included one pawn, two pawn, exchange (rook for knight), and knight odds. Komodo fared well in all of these games, drawing a majority but winning at least one in all configurations.
+COMPUTER ENGINE WINS FREESTYLE TOURNAMENT (2017)
+Section::::Computer Engine Wins Freestyle Tournament (2017).
+In 2017, chess engine Zor won the freestyle Ultimate Challenge tournament. The best human plus computer came in 3rd place. A player in a freestyle tournament can be a human, a computer or a team consisting of humans and computers. In teams with humans and computers, the humans can direct the computers to use a specific strategy for a particular move. Alternatively, the humans can pick a move from several computers.
+REFERENCES

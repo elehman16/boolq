@@ -1,0 +1,58 @@
+
+KLONDIKE (SOLITAIRE)
+Klondike (North America) or Canfield (traditional) is a patience game (solitaire card game). In the U.S. and Canada, Klondike is the best-known solitaire card game, to the point that the term "solitaire", in the absence of additional qualifiers, typically refers to Klondike. Equally in the UK, it is often just known as "patience". Meanwhile elsewhere the game is known as American Patience. The game rose to fame in the late 19th century, being named "Klondike" after the Canadian region where a gold rush happened. It is rumored that the game was either created or popularized by the prospectors in Klondike.
+RULES
+Section::::Rules.
+Klondike is played with a standard 52-card deck, without Jokers. After shuffling, seven piles of cards are laid from left to right. Each pile begins with one upturned card. From left to right, each pile contains one more card than the last. The first and left-most pile contains a single upturned card, the second pile contains two cards (one downturned, one upturned), the third contains three (two downturned, one upturned), and so on, until the seventh pile which contains seven cards (six downturned, one upturned). The remaining cards form the stock, and are placed facedown at the upper left of the layout.
+The four foundations (light rectangles in the upper right of the figure) are built up by suit from Ace (low in this game) to King, and the tableau piles can be built down by alternate colors. Every face-up card in a partial pile, or a complete pile, can be moved, as a unit, to another talon pile on the basis of their highest card. Any empty piles can be filled with a King, or a pile of cards with a King. The aim of the game is to build up four stacks of cards starting with Ace and ending with King, all of the same suit, on one of the four foundations, at which time the player would have won.
+There are different ways of dealing the remainder of the deck from the stock to the talon, including the following:
+* Turning three cards at once to the talon, with no limit on passes through the deck.
+* Turning three cards at once to the talon, with three passes through the deck.
+* Turning one card at a time to the talon, with three passes through the deck.
+* Turning one card at a time to the talon with only a single pass through the deck, and playing it if possible.
+* Turning one card at a time to the talon, with no limit on passes through the deck.
+If the player can no longer move any reasonable cards, the game is considered lost. At this point, winning is impossible.
+PROBABILITY OF WINNING
+Section::::Probability of winning.
+For a standard game of Klondike, drawing three cards at a time and placing no limit on the number of re-deals, the number of possible hands is over , or an 8 followed by 67 zeros. About 79% of the games are theoretically winnable, but in practice, human players do not win 79% of games played, due to wrong moves that cause the game to become unwinnable. If one allows cards from the foundation to be moved back to the tableau, then between 82% and 91.5% are theoretically winnable. Note that these results depend on complete knowledge of the positions of all 52 cards, which a player does not possess. Another recent study has found the Draw 3, Re-Deal Infinite to have a 83.6% win rate after 1000 random games were solved by a computer solver. The issue is that a wrong move cannot be known in advance whenever more than one move is possible. The number of games a skilled player can probabilistically expect to win is at least 43%. In addition, some games are "unplayable" in which no cards can be moved to the foundations even at the start of the game; these occur in only 0.25% (1 in 400) of hands dealt.
+There are four types of hands: winnable games, theoretically winnable lost games (the player made a selection that resulted in a lost game, but could not know what the correct selection was because the relevant cards were hidden), unwinnable games (there is no selection that leads to a winning result), and unplayable games.
+There is a modified version of the game called "Thoughtful Solitaire", in which the identity of all 52 cards is known. Because the only difference between the two games (Klondike and Thoughtful) is the knowledge of card location, all Thoughtful games with solutions will also have solutions in Klondike. Similarly, all dead-ends in Thoughtful will be dead ends in Klondike. However, the theoretical odds of winning a standard game of non-Thoughtful Klondike are currently not known exactly. The inability of theoreticians to precisely calculate these odds has been referred to by mathematician Persi Diaconis as "one of the embarrassments of applied probability".
+SCORING
+Section::::Scoring.
+Standard scoring in the Windows Solitaire game is determined as follows:
+! Move
+! Points
+Moving cards directly from the Waste stack to a Foundation awards 10 points. However, if the card is first moved to a Tableau, and then to a Foundation, then an extra 5 points are received for a total of 15. Thus in order to receive a maximum score, no cards should be moved directly from the Waste to Foundation.
+Time can also play a factor in Windows Solitaire, if the Timed game option is selected. For every 10 seconds of play, 2 points are taken away. Bonus points are calculated with the formula of 700,000 / (seconds to finish) if the game takes more than 30 seconds. If the game takes less than 30 seconds, no bonus points are awarded.
+VARIATIONS
+SINGLE 52-CARD DECK
+Section::::Variations.
+Section::::Single 52-card deck.
+Below are some variations of the game of Klondike:
+* In Agnes, the stock is dealt in batches of seven on reserve piles and every one is available. Furthermore, the bases of the foundations depends on the twenty-ninth card, which is dealt on the foundations.
+* In Easthaven (a.k.a. Aces Up), twenty-one cards are dealt into seven piles of three, two face-down and one face-up. A space in this game can only be filled by a king or any sequence starting with a king (although they can simplify the rule and put any card or a sequence in an empty space, as it does in several rules), and when a play goes to a standstill, seven new cards are dealt to the tableau, one top of each pile. Easthaven may include 2 or 3 card decks.
+* In Nine Across nine columns of cards are dealt, as opposed to the seven of conventional Klondike. The player can choose which cards to form the foundations; if one or more eights are exposed, for example, the player may decide to build on eights, and the piles are built up 8-9-10-J-Q-K-Ace-2-3-4-5-6-7. If eights are built on, sevens fill up spaces and so forth. The stock is dealt through one by one as many times as required.
+* In Thumb and Pouch, a card in the tableau can be built upon another that is any suit other than its own (e.g. spades cannot be placed over spades) and spaces can be filled by any card or sequence.
+* In Whitehead, all cards are dealt face up, building is by color (red on red, black on black), a sequence made up of cards that are of the same suit can be moved as a unit, and a space can be filled by any card or sequence.
+* In Westcliff, thirty cards are dealt into ten piles of three cards, two face down and one face up. A space in this game can be filled with any card or sequence.
+TAROT DECK
+Section::::Tarot deck.
+The game can be played with a Tarot-style 78-card deck (such as a Tarot Nouveau). There are two ways of doing this. Each has nine increasing tableau stacks.
+* Klondike Nouveau Run: use five foundations, and either use the Fool as the first card in the trumps foundation, or remove it before playing. The Knight (Chevalier) appears between the Jack and the Queen.
+* Klondike Tarot Evens: use six foundations; the usual four, and then use the red knights (cavaliers) as the royals for trumps 1-10, and the black knights as the royals for trumps 11-21.
+COMPUTERIZED VERSIONS
+* The Atari Program Exchange published Mark Reid's implementation of Klondike for the Atari 8-bit family, simply titled Solitaire, in 1981.
+* Michael A. Casteel's shareware version of Klondike for the Macintosh was first released in 1984, and has been continually updated since.
+* A software version of Klondike named simply "Solitaire" was included in all versions of Microsoft Windows from Windows 3.0 (1990) to Windows 7. The embedded versions of Microsoft Windows—originally called Windows CE, later Windows Mobile, and now called Windows Phone—have also included Solitaire. In Windows 8, Solitaire is no longer included by default. However, the Microsoft Solitaire Collection can be downloaded for free from the Windows Store, which includes Klondike plus 4 other solitaire games. Klondike has been added back in Windows 10. Microsoft Solitaire Collection can now be installed from Google Play Store on Android devices.
+* Klondike was featured in the Hoyle's Official Book of Games Series, including Volume 2 which showcased 28 variations of Solitaire.
+* Klondike Deluxe AGA v1.1 for Amiga 1993.
+* Klondike is one of the games included in the modern iPod's "Extras" section.
+* PySol is an open source and platform independent computer game that incorporates around 1,000 solitaire games, including card games like Klondike and other types of single-player games. It is written in the Python programming language.
+* As of August 25, 2016, searching for "solitaire" on Google returns a Klondike game embedded within the search results page.
+SEE ALSO
+* FreeCell
+* List of solitaires
+* Glossary of solitaire
+* JavaScript Klondike
+REFERENCES
+NOTES

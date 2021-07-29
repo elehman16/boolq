@@ -1,0 +1,125 @@
+
+4K RESOLUTION
+4K resolution, also called 4K, refers to a horizontal display resolution of approximately 4,000 pixels. Digital television and digital cinematography commonly use several different 4K resolutions. In television and consumer media, 38402160 (4K UHD) is the dominant 4K standard. In the movie projection industry, 40962160 (DCI 4K) is the dominant 4K standard.
+The 4K television market share increased as prices fell dramatically during 2014 and 2015. By 2020, more than half of U.S. households are expected to have 4K-capable TVs, a much faster adoption rate than that of Full HD (1080p).
+4K STANDARDS AND TERMINOLOGY
+Section::::4K standards and terminology.
+The term "4K" is generic and refers to any resolution with a horizontal pixel count of approximately 4,000. Several different 4K resolutions have been standardized by various organizations.
+DCI DIGITAL CINEMA SYSTEM SPECIFICATION
+Section::::DCI Digital Cinema System Specification.
+In 2005, Digital Cinema Initiatives (DCI), a prominent standards organization in the cinema industry, published the Digital Cinema System Specification. This specification establishes standardized 2K and 4K container formats for digital cinema production, with resolutions of 20481080 and 40962160 respectively. The resolution of the video content inside follows the SMPTE 428-1 standard, which establishes the following resolutions for a 4K distribution:
+* 40962160 (full frame, 256∶135 or ≈1.90∶1 aspect ratio)
+* 39962160 (flat crop, 1.85∶1 aspect ratio)
+* 40961716 (CinemaScope crop, ≈2.39∶1 aspect ratio)
+2K distributions can have a frame rate of either 24 or 48FPS, while 4K distributions must have a frame rate of 24FPS.
+Some articles claim that the terms "2K" and "4K" were coined by DCI and refer exclusively to the 2K and 4K formats defined in the DCI standard. However, usage of these terms in the cinema industry predates the publication of the DCI standard, and they are generally understood as casual terms for any resolution approximately 2000 or 4000 pixels in width, rather than names for specific resolutions.
+SMPTE UHDTV STANDARD
+Section::::SMPTE UHDTV Standard.
+In 2007, the Society of Motion Picture and Television Engineers published SMPTE ST 2036-1, which defines parameters for two UHDTV systems called UHDTV1 and UHDTV2. The standard defines the following characteristics for these systems:
+* A resolution of 38402160 (UHDTV1) or 76804320 (UHDTV2)
+* Square () pixels, for an overall image aspect ratio of
+* A framerate of 23.976, 24, 25, 29.97, 30, 50, 59.94, 60, 100, 119.88, or 120Hz with progressive scan
+* RGB, 4:4:4, 4:2:2, or 4:2:0 pixel encoding
+* 10bpc (30bit/px) or 12bpc (36bit/px) color depth
+* Colorimetry characteristics as defined in the standard, including color primaries, quantization parameters, and the electro-optical transfer function. These are the same characteristics later standardized in ITU-R BT.2020. UHDTV1 systems are permitted to use BT.709 color primaries up to 60Hz.
+ITU-R UHDTV STANDARD
+Section::::ITU-R UHDTV Standard.
+In 2012, the International Telecommunication Union, Radiocommunication Sector published Recommendation ITU-R BT.2020, also known as the Ultra High Definition Television (UHDTV) standard. This standard adopts the same image parameters defined in SMPTE ST 2036-1.
+Although the UHDTV standard does not define any official names for the formats it defines, ITU typically uses the terms "4K", "4K UHD", or "4K UHDTV" to refer to the 38402160 system in public announcements and press releases ("8K" for the 76804320 system). In some of ITU's other standards documents, the terms "UHDTV1" and "UHDTV2" are used as shorthand.
+CEA ULTRA HD
+Section::::CEA Ultra HD.
+In October 2012, the Consumer Electronics Association (CEA) announced their definition of the term Ultra High-Definition (or Ultra HD) for use with marketing consumer display devices. CEA defines an Ultra HD product as a TV, monitor, or projector with the following characteristics:
+* A resolution of 38402160 or larger
+* An aspect ratio of 1.∶1 () or wider
+* Support for color depth of 8bpc (24bit/px) or higher
+* At least one HDMI input capable of supporting 38402160 at 24, 30, and 60Hz progressive scan (though not necessarily with RGB / 4:4:4 color), and HDCP2.2
+* Capable of processing images according to the color space defined in ITU-R BT.709
+* Capable of upscaling HD content (i.e. 720p / 1080p)
+The CEA definition does allow manufacturers to use other terms—such as 4K—alongside the Ultra HD logo. Since the resolution in CEA's definition is only a minimum requirement, displays with higher resolutions such as 40962160 or 51202880 also qualify as "Ultra HD" displays, provided they meet the other requirements.
+2160P RESOLUTION
+Section::::2160p resolution.
+Some 4K resolutions, like 38402160 are often casually referred to as 2160p. This name follows from the previous naming convention used by HDTV and SDTV formats, which refer to a format by the number of pixels/lines along the vertical axis (such as "1080p" for 19201080 progressive scan, or "480i" for the 480-line interlaced SDTV formats) rather than the horizontal pixel count (≈4000 or "4K" for 38402160).
+The term "2160p" could be applied to any format with a height of 2160 pixels, but it is most commonly used in reference to the 4K UHDTV resolution of 38402160 due to its association with the well-known 720p and 1080p HDTV formats. Although 38402160 is both a 4K resolution and a 2160p resolution, these terms cannot always be used interchangeably since not all 4K resolutions are 2160 pixels tall, and not all 2160p resolutions are ≈4000 pixels wide. However, some companies have begun using the term "4K" to describe devices with support for a 2160p resolution, even if it is not close to 4000 pixels wide. For example, many "4K" dash cams only support a resolution of 28802160 (4∶3); although this is a 2160p resolution, it is not a 4K resolution. Samsung also released a 51202160 (64∶27) TV, but marketed it as a "4K" TV despite its 5K-class resolution.
+ADOPTION
+Section::::Adoption.
+YouTube and the television industry have adopted 38402160 as their 4K standard. , 4K content from major broadcasters remains limited. On April 11, 2013, Bulb TV created by Canadian serial entrepreneur Evan Kosiner became the first broadcaster to provide a 4K linear channel and VOD content to cable and satellite companies in North America. The channel is licensed by the Canadian Radio-Television and Telecommunications Commission to provide educational content. However, 4K content is becoming more widely available online including on YouTube, Netflix, and Amazon. By 2013, some UHDTV models were available to general consumers in the range of US$600. , prices on smaller computer and television panels had dropped below US$400.
+DVB
+Section::::DVB.
+In 2014, the Digital Video Broadcasting Project released a new set of standards intended to guide the implementation of high resolution content in broadcast television. Dubbed DVB-UHDTV, it establishes two standards, known as UHD-1 (for 4K content) and UHD-2 (for 8K content). These standards use resolutions of 38402160 and 76804320 respectively, with framerates of up to 60Hz, color depth up to 10bpc (30bit/px), and HEVC encoding for transmission. DVB is currently focusing on the implementation of the UHD-1 standard.
+DVB finalized UHD-1 Phase 2 in 2016, with the introduction of service by broadcasters expected in 2017. UHD-1 Phase 2 adds features such as high dynamic range (using HLG and PQ at 10 or 12 bits), wide color gamut (BT. 2020/2100 colorimetry), and high frame rate (up to 120Hz).
+VIDEO STREAMING
+Section::::Video streaming.
+YouTube, since 2010, and Vimeo allow a maximum upload resolution of 4096 × 3072 pixels (12.6 megapixels, aspect ratio 4:3). Vimeo's 4K content is currently limited to mostly nature documentaries and tech coverage.
+High Efficiency Video Coding (H.265) should allow streaming 4K content with a bandwidth of 20 to 30 Mbit/s.
+In January 2014, Naughty America launched the first adult video service streaming in 4K.
+HISTORY
+Section::::History.
+The first commercially available 4K camera for cinematographic purposes was the Dalsa Origin, released in 2003. 4K technology was developed by several research groups in universities around the world, such as University of California, San Diego, CALIT2, Keio University and others that realized several demonstrations in venues such as IGrid in 2004 and CineGrid. YouTube began supporting 4K for video uploads in 2010 as a result of leading manufacturers producing 4K cameras. Users could view 4K video by selecting "Original" from the quality settings until December 2013, when the 2160p option appeared in the quality menu. In November 2013, YouTube began to use the VP9 video compression standard, saying that it was more suitable for 4K than High Efficiency Video Coding (HEVC). Google, which owns YouTube, developed VP9.
+Theaters began projecting movies at 4K resolution in 2011. Sony was offering 4K projectors as early as 2004. The first 4K home theater projector was released by Sony in 2012.
+Sony is one of the leading studios promoting UHDTV content, offering a little over 70 movie and television titles via digital download to a specialized player that stores and decodes the video. The large files (~40GB), distributed through consumer broadband connections, raise concerns about data caps.
+In 2014, Netflix began streaming House of Cards, Breaking Bad, and "some nature documentaries" at 4K to compatible televisions with an HEVC decoder. Most 4K televisions sold in 2013 did not natively support HEVC, with most major manufacturers announcing support in 2014. Amazon Studios began shooting their full-length original series and new pilots with 4K resolution in 2014. They are now currently available though Amazon Video.
+In March 2016 the first players and discs for Ultra HD Blu-ray—a physical optical disc format supporting 4K resolution and HDR at 60 frames per second—were released.
+In 2016, Sony and Microsoft released the PlayStation 4 Pro and Xbox One S, respectively, both of which are video game consoles that support 4K streaming, although in most cases the resolution is upscaled to 4K; the Xbox One S also features an Ultra HD Blu-ray disc drive. On November 7, 2017 Microsoft released the Xbox One X, which is capable of native 4K streaming and gaming.
+HOME VIDEO PROJECTION
+Section::::Home video projection.
+Though experiencing rapid price drops beginning in 2013 for viewing devices, the home cinema digital video projector market saw little expansion, with only a few manufacturers (only Sony ) offering limited 4K-capable lineups, with native 4K projectors commanding five-figure price tags well into 2015 before finally breaking the US$10,000 barrier. Critics state that at normal direct-view panel size and viewing distances, the extra pixels of 4K are redundant at the ability of normal human vision. Projection home cinemas, on the other hand, employ much larger screen sizes without necessarily increasing viewing distance to scale. JVC has used a technique known as "e-shift" to extrapolate extra pixels from 1080p sources to display 4K on screens through upscaling or from native 4K sources at a much lower price than native 4K projectors. This technology of non-native 4K entered its fourth generation for 2016. JVC used this same technology to provide 8K flight simulation for Boeing that met the limits of 20/25 visual acuity.
+Pixel shifting, as described here, was pioneered in the consumer space by JVC, and later in the commercial space by Epson. That said, it isn't the same thing as "true" 4K. More recently, some DLP projectors claim 4K UHD (which the JVCs and Epsons do not claim).
+As noted above, DCI 4K is 40962160, while 4K UHD is 38402160, producing a slight difference in aspect ratio rather than a significant difference in resolution. Traditional displays, such as LCD or OLED, are 3840 pixels across the screen, with each pixel being 1/3840th of the screen width. They do not overlap—if they did, they would suffer reduced detail. The diameter of each pixel is basically 1/3840th of the screen width or 1/2160th of the screen height - either gives the same size pixel. That 38402160 works out to 8.3 megapixels, the official resolution of 4K UHD (and therefore Blu-ray UHD discs).
+The 4K UHD standard doesn't specify how large the pixels are, so a 4K UHD projector (Optoma, BenQ, Dell, et al.) counts because these projectors have a 2718×1528 pixel structure. Those projectors process the true 4K of data and project it with overlapping pixels, which is what pixel shifting is. Unfortunately, each of those pixels is far larger: each one has 50% more area than true 4K. Pixel shifting projectors project a pixel, shift it up to the right, by a half diameter, and project it again, with modified data, but that second pixel overlaps the first.
+In other words, pixel shifting cannot produce adjacent vertical lines of RGBRGB or other colors where each line is one pixel (1/3840th of the screen) wide. Adjacent red and green pixels would end up looking like yellow, with a fringe on one side of red, on the other of green - except that the next line of pixels overlapps as well, changing the color of that fringe. 4K UHD or 1080p pixel shifting cannot reveal the fine detail of a true 4K projector such as those Sony ships (business, education and home markets). Also, JVC has one true 4K projector priced at $35,000 (as of mid-2017).
+So while 4K UHD sounds like it has a pixel structures with 1/4 the area of 1080p, that does not happen with pixel shifting. Only a true 4K projector offers that level of resolution. That's why "true" 4K projectors cost so much more than 4K UHD projectors with otherwise similar feature sets. They produce smaller pixels, finer resolution, no compromising of detail or color from overlapping pixels. By comparison, the slight difference in aspect ratio between DCI and 3840×2160 pixel displays without overlap is insignificant relative to the amount of detail.
+BROADCASTING
+Section::::Broadcasting.
+In November 2014, United States satellite provider DirecTV became the first pay TV provider to offer access to 4K content, although limited to selected video-on-demand films. In August 2015, British sports network BT Sport launched a 4K feed, with its first broadcast being the 2015 FA Community Shield football match. Two production units were used, producing the traditional broadcast in high-definition, and a separate 4K broadcast. As the network did not want to mix 4K footage with upconverted HD footage, this telecast did not feature traditional studio segments at pre-game or half-time, but those hosted from the stadium by the match commentators using a 4K camera. BT envisioned that if viewers wanted to watch studio analysis, they would switch to the HD broadcast and then back for the game. Footage was compressed using H.264 encoders and transmitted to BT Tower, where it was then transmitted back to BT Sport studios and decompressed for distribution, via 4K-compatible BT TV set-top boxes on an eligible BT Infinity internet plan with at least a 25 Mbit/s connection.
+In late 2015 and January 2016, three Canadian television providers including Quebec-based Videotron, Ontario-based Rogers Cable, and Bell Fibe TV, announced that they would begin to offer 4K compatible set-top boxes that can stream 4K content to subscribers over gigabit internet service. On October 5, 2015, alongside the announcement of its 4K set-top box and gigabit internet, Canadian media conglomerate Rogers Communications announced that it planned to produce 101 sports telecasts in 4K in 2016 via its Sportsnet division, including all Toronto Blue Jays home games, and "marquee" National Hockey League games beginning in January 2016. Bell Media announced via its TSN division a slate of 4K telecasts to begin on January 20, 2016, including selected Toronto Raptors games and regional NHL games.
+On January 14, 2016, in cooperation with BT Sport, Sportsnet broadcast the first ever NBA game produced in 4K a Toronto Raptors/Orlando Magic game at O2 Arena in London, England. On January 20, also during a Raptors game, TSN presented the first live 4K telecast produced in North America. Three days later, Sportsnet presented the first NHL game in 4K.
+Dome Productions, a joint venture of Bell Media and Rogers Media (the respective owners of TSN and Sportsnet), constructed a "side-by-side" 4K mobile production unit shared by Sportsnet and TSN's first 4K telecasts; it was designed to operate alongside a separate HD truck and utilize cameras capable of output in both formats. For the opening game of the 2016 Toronto Blue Jays season, Dome constructed "Trillium" a production truck integrating both 4K and 1080i high-definition units. Bell Media's CTV also broadcast the 2016 Juno Awards in 4K as the first awards show presented in the format.
+In February 2016, Univision trialed 4K by producing a closed circuit telecast of a football friendly between the national teams of Mexico and Senegal from Miami in the format. The broadcast was streamed privately to several special viewing locations. Univision aimed to develop a 4K streaming app to publicly televise the final of Copa América Centenario in 4K. In March 2016, DirecTV and CBS Sports announced that they would produce the "Amen Corner" supplemental coverage from the Masters golf tournament in 4K.
+After having trialed the technology in limited matches at the 2013 FIFA Confederations Cup, and the 2014 FIFA World Cup (via private tests and public viewings in the host city of Rio de Janeiro), the 2018 FIFA World Cup was the first FIFA World Cup in which all matches were produced in 4K. Host Broadcasting Services stated that at least 75% of the broadcast cut on each match would come from 4K cameras (covering the majority of main angles), with instant replays and some camera angles being upconverted from 1080p sources. These broadcasts were made available from selected rightsholders, such as the BBC in the United Kingdom, and selected television providers in the United States.
+RESOLUTIONS
+Section::::Resolutions.
+! colspan=4  Examples of some 4K resolutions used in displays and media
+! Format !! Resolution !! Aspect Ratio !! Pixels
+38402160
+Section::::38402160.
+The resolution of 38402160 is the dominant 4K resolution used in the consumer media and display industries. This is the resolution of the UHDTV1 format defined in SMPTE ST 2036-1, as well as the 4K UHDTV format defined by ITU-R in Rec. 2020, and is also the minimum resolution for CEA's definition of Ultra HD displays and projectors. The resolution of 38402160 was also chosen by the DVB Project for their 4K broadcasting standard, UHD-1.
+This resolution has an aspect ratio of 16∶9, with 8,294,400 total pixels. It is exactly double the horizontal and vertical resolution of 1080p (19201080) for a total of 4 times as many pixels, and triple the horizontal and vertical resolution of 720p (1280720) for a total of 9 times as many pixels. It is sometimes referred to as "2160p", based on the naming patterns established by the previous 720p and 1080p HDTV standards.
+Televisions capable of displaying UHD resolutions are seen by consumer electronics companies as the next trigger for an upgrade cycle after a lack of consumer interest in 3D television.
+40962160
+Section::::40962160.
+This resolution is used mainly in digital cinema production, and has a total of 8,847,360 pixels with an aspect ratio 256∶135 (≈19∶10). It was standardized as the resolution of the 4K container format defined by Digital Cinema Initiatives in the Digital Cinema System Specification, and is the native resolution of all DCI-compliant 4K digital projectors and monitors. The DCI specification allows several different resolutions for the content inside the container, depending on the desired aspect ratio. The allowed resolutions are defined in SMPTE 428-1: 
+* 40962160 (full frame, 256∶135 or ≈1.90∶1 aspect ratio)
+* 39962160 (flat crop, 1.85∶1 aspect ratio)
+* 40961716 (CinemaScope crop, ≈2.39∶1 aspect ratio)
+The DCI 4K standard has twice the horizontal and vertical resolution of DCI 2K (20481080), with four times as many pixels overall.
+Digital movies made in 4K may be produced, scanned, or stored in a number of other resolutions depending on what storage aspect ratio is used. In the digital cinema production chain, a resolution of 4096 × 3112 is often used for acquiring "open gate" or anamorphic input material, a resolution based on the historical resolution of scanned Super 35mm film.
+OTHER 4K RESOLUTIONS
+Section::::Other 4K resolutions.
+Various other non-standardized 4K resolutions have seen use in displays, including:
+* 40962560 (1.60∶1 or 16∶10); this resolution was used in the Canon DP-V3010, a 4K reference monitor designed for reviewing cinema footage in post-production, released in 2013.
+* 40962304 (1.∶1 or 16∶9); this resolution was used in the LG UltraFine 22MD4KA 4K monitor, jointly announced by LG and Apple in 2016.
+* 38402400 (1.60∶1 or 16∶10); this resolution was used in the IBM T220 and T221 monitors, released in 2001 and 2002 respectively. This resolution is also referred to as "WQUXGA", and is four times the resolution of WUXGA (19201200)
+* 38401600 (2.40∶1 or 24∶10); a number of computer monitors with this resolution have been produced to date, the first of which was the LG 38UC99-W released in 2016. This resolution is equivalent to WQXGA (25601600) extended in width by 50%, or 38402160 reduced in height by ≈26%. LG refers to this resolution as "WQHD+" (Wide Quad HD+), while Acer uses the term "UW-QHD+" (Ultra-wide Quad HD+) and some media outlets have begun using the term "UW4K" (Ultra-wide 4K).
+* 38401080 (3.∶1 or 32∶9); this resolution was first used in the Samsung C49HG70, a curved gaming monitor released in 2017. This resolution is equivalent to dual 1080p displays (19201080) side-by-side, but with no border interrupting the image. It is also exactly one half of a 4K UHD (38402160) display. Samsung refers to this resolution as "DFHD" (Dual Full HD).
+RECORDING
+Section::::Recording.
+The main advantage of recording video at the 4K standard is that fine spatial detail is resolved well. If the final video quality is reduced to 2K from a 4K recording, more detail is apparent than would have been achieved from a 2K recording. Increased fineness and contrast is then possible with output to DVD and Blu-ray. Some cinematographers record at 4K with the Super 35 film format to offset any resolution loss that may occur during video processing.
+With Axiom devices there is some open source hardware available that uses a 4K image sensor.
+SEE ALSO
+* 1080p Full HD
+* 2K resolution
+* 5K resolution
+* 8K resolution
+* Aspect ratio (image)
+* Digital cinema
+* Display resolution
+* Rec. 2020: ITU definitions for various aspects of UHDTV
+REFERENCES
+EXTERNAL LINKS
+Section::::External links.
+ARTICLES
+* , 2015 follow-up article:
+OFFICIAL SITES OF NHK
+* .
+VIDEO
+Section::::Video.

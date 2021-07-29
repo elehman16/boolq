@@ -1,0 +1,131 @@
+
+MICROSOFT OFFICE 2013
+Microsoft Office 2013 (codenamed Office 15) is a version of Microsoft Office, a productivity suite for Microsoft Windows. It is the successor to Microsoft Office 2010 and the predecessor to Microsoft Office 2016. It includes extended file format support, user interface updates and support for touch among its new features. Office 2013 is suitable for IA-32 and x64 systems and requires Windows 7, Windows Server 2008 R2 or a later version of either. A version of Office 2013 comes included on Windows RT devices. Mainstream support ended on April 10, 2018. Extended support ends on April 11, 2023.
+Development on this version of Microsoft Office was started in 2010 and ended on October 11, 2012, when Microsoft Office 2013 was released to manufacturing. Microsoft released Office 2013 to general availability on January 29, 2013. This version includes new features such as integration support for online services (including OneDrive, Outlook.com, Skype, Yammer and Flickr), improved format support for Office Open XML (OOXML), OpenDocument (ODF) and Portable Document Format (PDF) and support for multi-touch interfaces.
+Microsoft Office 2013 comes in twelve different editions, including three editions for retail outlets, two editions for volume licensing channel, five subscription-based editions available through Microsoft Office 365 program, the web application edition known as Office Web Apps and the Office RT edition made for tablets and mobile devices. Office Web Apps are available free of charge on the web although enterprises may obtain on-premises installations for a price. Microsoft Office applications may be obtained individually; this includes Microsoft Visio, Microsoft Project and Microsoft SharePoint Designer which are not included in any of the twelve editions.
+On February 25, 2014, Microsoft Office 2013 Service Pack 1 (SP1) was released.
+DEVELOPMENT
+Section::::Development.
+Development started in 2010 while Microsoft was finishing work on Office 14, released as Microsoft Office 2010. On January 30, 2012, Microsoft released a technical preview of Office 15, build 3612.1010, to a selected group of testers bound by non-disclosure agreements.
+On July 16, 2012, Microsoft held a press conference to showcase Office 2013 and to release the Consumer Preview. The Office 2013 Consumer Preview is a free, fully functional version but will expire 60 days after the final product's release. An update was issued for the Office 2013 Customer Preview suite on October 5.
+Office 2013 was released to manufacturing on October 11, 2012. It was made available to TechNet and MSDN subscribers on October 24, 2012. On November 15, 2012, 60-days trial versions of Microsoft Office 2013 Professional Plus, Project Professional 2013 and Visio Professional 2013 were made available to the public over the Internet. Microsoft has released Office 2013 for general availability on January 29, 2013. Microsoft released the service pack 1 update on February 25, 2014.
+FEATURES
+NEW FEATURES
+Section::::Features.
+Section::::New features.
+Office 2013 is more cloud-based than previous versions; a domain login, Office 365 account, or Microsoft account can now be used to sync Office application settings (including recent documents) between devices, and users can also save documents directly to their OneDrive account.
+Microsoft Office 2013 includes updated support for ISO/IEC 29500, the International Standard version of Office Open XML (OOXML) file format: in particular it supports saving in the "Strict" profile of ISO/IEC 29500 (Office Open XML Strict). It also supports OASIS version 1.2 of ISO/IEC 26300:2006, Open Document Format, which Office 2013 can read and write. Additionally, Office 2013 provides full read, write, and edit support for ISO 32000 (PDF).
+New features include a new read mode in Microsoft Word, a presentation mode in Microsoft PowerPoint and improved touch and inking in all of the Office programs. Microsoft Word can also insert video and audio from online sources as well as the capability to broadcast documents on the Web. Word and PowerPoint also have bookmark-like features which sync the position of the document between different computers.
+The Office Web Apps suite was also updated for Office 2013, introducing additional editing features and interface changes.
+Other features of Office 2013 include:
+* Flatter look of the Ribbon interface and subtle animations when typing or selecting (Word and Excel)
+* A new visualization for scheduled tasks in Microsoft Outlook
+* Remodeled start screen
+* New graphical options in Word
+* Objects such as images can be freely moved; they snap to boundaries such as paragraph edges, document margin and or column boundaries
+* Online picture support with content from Office.com, Bing.com and Flickr (by default, only images in public domain)
+* Ability to return to the last viewed or edited location in Word and PowerPoint
+* New slide designs, animations and transitions in PowerPoint 2013
+* Support for Outlook.com and Hotmail.com in Outlook
+* Support for integration with Skype, Yammer and SkyDrive
+* IMAP special folders support
+* Starting with Office 2013, proofing tools are separately and freely downloadable without being bundled in Multilingual User Interface (MUI)/Multilanguage packs, Language Interface Packs (LIPs) or Single Language Packs (SLP).
+* Excel 2013 supports new limit models, as follows:
+{ class="wikitable"
++ Quantifiable limits in objects
+! Object !! Upper limit
++ Restrictions in objects
+! Category !! Details
+Remarks:
+REMOVED FEATURES
+Section::::Removed features.
+The following features are removed from Microsoft Office 2013.
+Removed from the entire suite
+* Microsoft SharePoint Workspace
+* Microsoft Clip Organizer
+* Microsoft Office Picture Manager
+* Office 2007 and Office 2010 chart styles
+* Ability to insert a 3D cone, pyramid, or cylinder chart (It is still possible to insert a 3D rectangle chart and change the shape after insertion.)
+* Only basic version of help files available while offline. There is no longer an option to install local help files during installation.
+Features removed from Microsoft Word:
+* Custom XML markup has been removed for legal reasons
+* Older WordArt objects are now converted to new WordArt objects
+* Word 2013 no longer uses ClearType
+Features removed from Microsoft Excel:
+* Simultaneous open files via Multiple Document Interface (MDI), along with requisite changes to VBA code to no longer support MDI; Excel is now Single Document Interface (SDI) only
+Features removed from Microsoft Access:
+* Access Data Projects (ADP)
+* Support for Jet 3.x IISAM
+* Access OWC control
+* dBASE support suite
+Features removed from Microsoft Outlook
+* Download Headers Only mode for IMAP
+* Outlook Exchange Classic offline
+* Microsoft Exchange Server 2003 support
+* Public Folder Free/Busy feature (/Cleanfreebusy startup switch)
+* Ability to import from or export to any formats other than Personal Storage Table (PST) or comma-separated values (CSV)
+* Notes and Journal customization
+* Outlook Activities tab
+* Outlook Mobile Service (OMS)
+* Outlook Search through Windows Shell
+Features removed from Microsoft PowerPoint
+* Support for Visio Drawing
+CHANGES
+DISTRIBUTION CHANGES
+Section::::Changes.
+Section::::Distribution changes.
+Unlike past versions of Office, retail copies of Office 2013 on DVD are only offered in select regions, such as those Microsoft classifies as emerging markets, as well as Australia, at the discretion of retailers. In all other regions, retail copies of Office 2013 and Office 365 subscriptions only contain a product key, and direct users to the Office website to redeem their license and download the software.
+LICENSING CHANGES
+Section::::Licensing changes.
+The original license agreement for retail editions of Microsoft Office 2013 was different from the license agreements of retail editions of previous versions of Microsoft Office in two significant ways. The first of these was that the software could no longer be transferred to another computer. In previous versions of Office, this restriction applied only to OEM editions; retail Office license agreements allowed uninstalling from one computer to install on another computer.
+Digitally downloaded copies of Office were also said to be permanently locked to that PC's hardware, preventing it from being transferred to any other computing device. Should the buyer have wished to use Office 2013 on a different computer, or if they later became unable to use the computing device that the original license was downloaded to (e.g. hardware became inoperable due to malfunction) then a completely new, full-priced copy of Office 2013 would have to have been purchased to replace the prior one. Microsoft stated that this change was related to the software piracy that has been rampant for years, worldwide. However, many commentators saw this change as an effort to forcibly move its customers towards the subscription-based business model used by the Office 365 service. The legality of this move, particularly in Europe, has been questioned.
+However, on March 6, 2013, Microsoft announced that equivalent transfer rights to those in the Office 2010 retail license agreements are applicable to retail Office 2013 copies effective immediately. Transfer of license from one computer to another owned by the same user is now allowed every 90 days, except in the case of hardware failure, in which the license may be moved sooner. The first user of the product is now also allowed to transfer it to another user. The second difference, which remains in the updated licensing agreement, is that the software can be installed on only one computer. In previous versions of Office, this restriction also applied only to OEM editions; retail Office license agreements allowed installing the product on two or three computers, depending on the edition.
+EDITIONS
+TRADITIONAL EDITIONS
+Section::::Editions.
+Section::::Traditional editions.
+As with previous versions, Office 2013 is made available in several distinct editions aimed towards different markets. All traditional editions of Microsoft Office 2013 contain Word, Excel, PowerPoint and OneNote and are licensed for use on one computer.
+Five traditional editions of Office 2013 were released:
+* Home & Student: This retail suite includes the core applications Word, Excel, PowerPoint, and OneNote.
+* Home & Business: This retail suite includes the core applications Word, Excel, PowerPoint, and OneNote plus Outlook.
+* Standard: This suite, only available through volume licensing channels, includes the core applications Word, Excel, PowerPoint, and OneNote plus Outlook and Publisher.
+* Professional: This retail suite includes the core applications Word, Excel, PowerPoint, and OneNote plus Outlook, Publisher and Access.
+* Professional Plus: This suite, only available through volume licensing channels, includes the core applications Word, Excel, PowerPoint, and OneNote plus Outlook, Publisher, Access, InfoPath and Lync.
+OFFICE 365
+Section::::Office 365.
+The Office 365 subscription services, which were previously aimed towards business and enterprise users, were expanded for Office 2013 to include new plans aimed at home use. The subscriptions allow use of the Office 2013 applications by multiple users using a software as a service model. Different plans are available for Office 365, some of which also include value-added services, such as 20 GB of OneDrive storage (later increased to 1 TB) and 60 Skype minutes per month on the new Home Premium plan. These new subscription offerings were positioned as a new option for consumers wanting a cost-effective way to purchase and use Office on multiple computers in their household.
+OFFICE RT
+Section::::Office RT.
+A special version of Office 2013, initially known as Office 2013 Home & Student RT, is shipped with all Windows RT devices. It initially consisted of Word, Excel, PowerPoint and OneNote. In Windows RT 8.1, the suite was renamed Office 2013 RT and Outlook was added. The edition, whilst visually indistinguishable from normal versions of Office 2013, contains special optimizations for ARM-based devices, such as changes to reduce battery usage (including, for example, freezing the animation of the blinking cursor for text editing during periods of inactivity), enabling touch mode by default to improve usability on tablets, and using the graphics portion of a device's SoC for hardware acceleration.
+Windows RT devices on launch were shipped with a "preview" version of Office Home & Student 2013 RT. The release date for the final version varied depending on the user's language, and was distributed through Windows Update when released. On June 5, 2013, Microsoft announced that Windows RT 8.1 would add Outlook to the suite in response to public demand.
+Office RT modifies or excludes other various features for compatibility reasons or resource reduction. To save disk space; templates, clip art, and language packs are downloaded online rather than stored locally. Other excluded features include the removal of support for third-party code such as macros/VBA/ActiveX controls, the removal of support for older media formats and narration in PowerPoint, editing of equations generated with the legacy Equation Editor, data models in Excel (PivotCharts, PivotTables, and QueryTables are unaffected), searching embedded media files in OneNote, along with data loss prevention, Group Policy support, and creating e-mails with information rights management in Outlook.
+As the version of Office RT included on Windows RT devices is based off the Home & Student version, it cannot be used for "commercial, nonprofit, or revenue-generating activities" unless the organization has a volume license for Office 2013 already, or the user has an Office 365 subscription with commercial use rights.
+WINDOWS STORE APPS
+Section::::Windows Store apps.
+Alongside Office RT, free versions of OneNote and the Lync client were made available as Windows Store apps upon the release of Windows 8 and RT. The OneNote app, originally known as OneNote MX, contains a limited feature set in comparison to its desktop version, but is also optimized for use on tablets. The OneNote app has since received several major updates, including camera integration, printing abilities, and multiple inking options.
+Universal Microsoft Word, Excel, and PowerPoint apps for Windows 10 are in the preview stage and are set for release later in 2015.
+OFFICE MOBILE
+Section::::Office Mobile.
+Windows Phone 8 ships with an updated version of the Office Mobile suite, consisting of mobile versions of Word, Excel, PowerPoint, and OneNote. In comparison to their Windows Phone 7 versions, the new versions add an improved Office Hub interface that can sync recently opened and modified documents (including changes to documents stored via Office 365 and SkyDrive), a separated OneNote app with additional features (such as voice notes and integration with the new "Rooms" functionality of the OS), and improved document editing and viewing functionality.
+In June 2013, Microsoft released a version of Office Mobile for iPhone; it is similar to the Windows Phone version, but originally requires an Office 365 subscription to use. A version for Android smartphones was released in July 2013; it, too, originally needed Office 365 for use.
+Apps for iPad and Android tablet computers were released in March 2014 and January 2015, respectively. These, along with their smartphone equivalents, have been made free for personal use, though certain premium features have been paywalled and require Office 365, which includes licensing of the apps for business use.
+Windows 10 Mobile that was released in December 2015 included new Office apps, more in line with their iPhone and Android equivalent, and making use of the "universal app" platform pioneered with Windows 10.
+COMPARISON
+Remarks:
+SYSTEM REQUIREMENTS
+Section::::System requirements.
+Each Microsoft Office 2013 application has the following requirements, although there may be app-specific requirements.
+! Item !! Requirement
+* Windows 7
+* Windows Server 2008 R2
+* Windows 8
+* Windows Server 2012
+* Windows 8.1
+* Windows Server 2012 R2
+* Windows 10
+Software .NET Framework 3.5, 4.0 or 4.5
+In addition to these, graphics hardware acceleration requires a screen resolution of 1024×576 pixels or larger and a DirectX 10-compliant GPU with at least 64 MB of video memory (in case of absence of the required hardware, however, Office 2013 applications can still run without graphics acceleration.)
+SEE ALSO
+* List of office suites
+REFERENCES
+EXTERNAL LINKS

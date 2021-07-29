@@ -1,0 +1,77 @@
+
+THREE-BODY PROBLEM
+In physics and classical mechanics, the three-body problem is the problem of taking the initial positions and velocities of three point masses and solving for their subsequent motion as dictated by Newton's laws of motion and of universal gravitation. The three-body problem is a special case of the -body problem. Unlike two-body problems, there is no closed-form solution for all sets of initial conditions, and numerical methods are generally required.
+Historically, the first specific three-body problem to receive extended study was the one involving the Moon, the Earth, and the Sun. In an extended modern sense, a three-body problem is a class of problems in classical or quantum mechanics that models the motion of three particles.
+HISTORY
+Section::::History.
+The gravitational problem of three bodies in its traditional sense dates in substance from 1687, when Isaac Newton published his "Principia" (Philosophiæ Naturalis Principia Mathematica). In Proposition 66 of Book 1 of the "Principia", and its 22 Corollaries, Newton took the first steps in the definition and study of the problem of the movements of three massive bodies subject to their mutually perturbing gravitational attractions. In Propositions 25 to 35 of Book 3, Newton also took the first steps in applying his results of Proposition 66 to the lunar theory, the motion of the Moon under the gravitational influence of the Earth and the Sun.
+The physical problem was addressed by Amerigo Vespucci and subsequently by Galileo Galilei; in 1499, Vespucci used knowledge of the position of the Moon to determine his position in Brazil. It became of technical importance in the 1720s, as an accurate solution would be applicable to navigation, specifically for the determination of longitude at sea, solved in practice by John Harrison's invention of the marine chronometer. However the accuracy of the lunar theory was low, due to the perturbing effect of the Sun and planets on the motion of the Moon around the Earth.
+Jean le Rond d'Alembert and Alexis Clairaut, who developed a longstanding rivalry, both attempted to analyze the problem in some degree of generality; they submitted their competing first analyses to the Académie Royale des Sciences in 1747. It was in connection with their research, in Paris during the 1740s, that the name "three-body problem" () began to be commonly used. An account published in 1761 by Jean le Rond d'Alembert indicates that the name was first used in 1747.
+In 1887 and 1889, mathematicians Heinrich Bruns and Henri Poincaré showed that there is no general analytical solution to the three-body problem given by simple algebraic expressions and integrals. Moreover, the motion of three bodies is generally non-repeating, except in special cases.
+EXAMPLES
+GRAVITATIONAL SYSTEMS
+Section::::Examples.
+Section::::Gravitational systems.
+A prominent example of the classical three-body problem is the movement of a planet with a satellite around a star. The general case of the three-body problem does not have a known solution and is addressed by numerical analysis approximations.
+In most cases such a system can be factorized, considering the movement of the complex system (planet and satellite) around a star as a single particle; then, considering the movement of the satellite around the planet, neglecting the movement around the star. In this case, the problem is simplified to two instances of the two-body problem. The effect of the star on the movement of the satellite around the planet can then be considered as a perturbation.
+A three-body problem also arises from the situation of a spacecraft and two relevant celestial bodies, e.g. the Earth and the Moon, such as when considering a free-return trajectory around the Moon or other trans-lunar injection. While a spaceflight involving a gravity assist tends to be at least a four-body problem (spacecraft, Earth, Sun, Moon), once far away from the Earth, when Earth's gravity becomes negligible, it is approximately a three-body problem.
+The general statement for the three-body problem is as follows. At an instant in time, for vector positions and masses , three coupled second-order differential equations exist:
+A complete solution for a particular three-body problem would provide the positions for all three particles for all time, given three initial positions and initial velocities. In general, no closed-form solution for such a problem exists, and the time evolution of the system is believed to be chaotic. The use of computers, however, makes solutions of arbitrarily high accuracy over a finite time span possible using numerical methods for integration of the trajectories.
+RESTRICTED THREE-BODY PROBLEM
+CIRCULAR
+Section::::Restricted three-body problem.
+Section::::Circular.
+In the circular restricted three-body problem, two massive bodies move in circular orbits around their common center of mass, and the third mass is negligible with respect to the other two. With respect to a rotating reference frame, the two co-orbiting bodies are stationary, and the third can be stationary as well at the Lagrangian points, or move around them, for instance on a horseshoe orbit. It can be useful to consider the effective potential.
+PERIODIC SOLUTIONS
+Section::::Periodic solutions.
+In 1767, Leonhard Euler found three families of periodic solutions in which the three masses are collinear at each instant.
+In 1772, Lagrange found a family of solutions in which the three masses form an equilateral triangle at each instant. Together, these solutions form the central configurations for the three-body problem. These solutions are valid for any mass ratios, and the masses move on Keplerian ellipses. These four families are the only known solutions for which there are explicit analytic formulae. In the special case of the circular restricted three-body problem, these solutions, viewed in a frame rotating with the primaries, become points which are referred to as L, L, L, L, and L, and called Lagrangian points, with L and L being symmetric instances of Lagrange's solution.
+In work summarized in 1892–1899, Henri Poincaré established the existence of an infinite number of periodic solutions to the restricted three-body problem, together with techniques for continuing these solutions into the general three-body problem.
+SPECIAL-CASE SOLUTIONS
+Section::::Special-case solutions.
+In 1893, Meissel stated what is now called the Pythagorean three-body problem: three masses in the ratio 3:4:5 are placed at rest at the vertices of a 3:4:5 right triangle. Burrau further investigated this problem in 1913. In 1967 Victor Szebehely and coworkers established eventual escape for this problem using numerical integration, while at the same time finding a nearby periodic solution.
+In 1911, William Duncan MacMillan found one special solution. In 1961, Sitnikov improved this solution. See Sitnikov problem.
+In the 1970s, Michel Hénon and Roger A. Broucke each found a set of solutions that form part of the same family of solutions: the Broucke–Henon–Hadjidemetriou family. In this family the three objects all have the same mass and can exhibit both retrograde and direct forms. In some of Broucke's solutions two of the bodies follow the same path.
+In 1993, a solution with three equal masses moving around a figure-eight shape was discovered by physicist Cris Moore at the Santa Fe Institute. This solution has zero total angular momentum. 
+In 2013, physicists Milovan Šuvakov and Veljko Dmitrašinović at the Institute of Physics in Belgrade discovered 13 new families of solutions for the equal-mass zero-angular-momentum three-body problem.
+CLASSICAL VERSUS QUANTUM MECHANICS
+Section::::Classical versus quantum mechanics.
+Physicist Vladimir Krivchenkov used the three-body problem as an example, showing the simplicity of quantum mechanics in comparison to classical mechanics. The quantum three-body problem is studied in university courses of quantum mechanics. Generally, even a two-body problem is not solvable analytically in quantum mechanics, since there is usually no analytical solution to the multi-particle Schrödinger partial differential equation, and there are no solutions to the general three-body problem in quantum mechanics. Some mathematical research is still dedicated either to finding a good numerical solution or finding ways to reduce the problem to a more simple system that can be solved analytically, such as the Hartree–Fock method and the Franck–Condon principle.
+For a special case of the quantum three-body problem known as the hydrogen molecular ion, the system energies are solvable analytically (see discussion in quantum mechanical version of Euler's three-body problem) in terms of a generalization of the Lambert W function. However, the solution is possible only by making the assumption that the two "nuclei" are fixed relative to each other, which essentially reduces the problem to a single-body problem within an energy potential.
+SUNDMAN'S THEOREM
+Section::::Sundman's theorem.
+In 1912, the Finnish mathematician Karl Fritiof Sundman proved that there exists a series solution in powers of for the 3-body problem. This series is convergent for all real , except for initial conditions corresponding to zero angular momentum. However, these problematic initial conditions are not generic, since they have Lebesgue measure zero.
+An important issue in proving this result is the fact that the radius of convergence for this series is determined by the distance to the nearest singularity. Therefore, it is necessary to study the possible singularities of the 3-body problems. As it will be briefly discussed below, the only singularities in the 3-body problem are binary collisions (collisions between two particles at an instant) and triple collisions (collisions between three particles at an instant).
+Collisions, whether binary or triple (in fact, any number), are somewhat improbable, since it has been shown that they correspond to a set of initial conditions of measure zero. However, there is no criterion known to be put on the initial state in order to avoid collisions for the corresponding solution. So Sundman's strategy consisted of the following steps:
+* Using an appropriate change of variables to continue analyzing the solution beyond the binary collision, in a process known as regularization.
+* 
+* Proving that triple collisions only occur when the angular momentum vanishes. By restricting the initial data to , he removed all real singularities from the transformed equations for the 3-body problem.
+* 
+* Showing that if , then not only can there be no triple collision, but the system is strictly bounded away from a triple collision. This implies, by using Cauchy's existence theorem for differential equations, that there are no complex singularities in a strip (depending on the value of ) in the complex plane centered around the real axis (shades of Kovalevskaya).
+* 
+* Find a conformal transformation that maps this strip into the unit disc. For example, if (the new variable after the regularization) and if , then this map is given by
+* 
+This finishes the proof of Sundman's theorem.
+Unfortunately, the corresponding convergent series converges very slowly. That is, getting the value to any useful precision requires so many terms that his solution is of little practical use. Indeed, in 1930, David Beloriszky calculated that if Sundman's series were to be used for astronomical observations, then the computations would involve at least 10 terms.
+-BODY PROBLEM
+Section::::-body problem.
+The three-body problem is a special case of the -body problem, which describes how objects will move under one of the physical forces, such as gravity. These problems have a global analytical solution in the form of a convergent power series, as was proven by Karl F. Sundman for and by Qiudong Wang for (see -body problem for details). However, the Sundman and Wang series converge so slowly that they are useless for practical purposes; therefore, it is currently necessary to approximate solutions by numerical analysis in the form of numerical integration or, for some cases, classical trigonometric series approximations (see -body simulation). Atomic systems, e.g. atoms, ions, and molecules, can be treated in terms of the quantum -body problem. Among classical physical systems, the -body problem usually refers to a galaxy or to a cluster of galaxies; planetary systems, such as stars, planets, and their satellites, can also be treated as -body systems. Some applications are conveniently treated by perturbation theory, in which the system is considered as a two-body problem plus additional forces causing deviations from a hypothetical unperturbed two-body trajectory.
+IN POPULAR CULTURE
+* The three-body problem is represented as a set of equations on the blackboard of Professor Barnhardt in the movie The Day the Earth Stood Still (1951).
+* The problem is a plot device in the science fiction trilogy by Chinese author Cixin Liu, and its name has been used for both the first volume and the trilogy as a whole.
+* The problem plays a small part in relation to the plot of Season 1 Episode 2 of Criminal Minds entitled "Compulsion"
+SEE ALSO
+* Michael Minovitch
+* Gravity assist
+* Euler's three-body problem
+* Few-body systems
+* -body simulation
+* Galaxy formation and evolution
+* Triple star system
+* Sitnikov problem
+NOTES
+REFERENCES
+* .
+EXTERNAL LINKS
+* Physicists Discover a Whopping 13 New Solutions to Three-Body Problem (Science)
+* Solar Eclipse: A Multimillenium Tale of Computation

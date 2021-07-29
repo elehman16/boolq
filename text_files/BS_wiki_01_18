@@ -1,0 +1,47 @@
+
+MEDIAN (GEOMETRY)
+In geometry, a median of a triangle is a line segment joining a vertex to the midpoint of the opposing side, bisecting it. Every triangle has exactly three medians, one from each vertex, and they all intersect each other at the triangle's centroid. In the case of isosceles and equilateral triangles, a median bisects any angle at a vertex whose two adjacent sides are equal in length.
+The concept of a median extends to tetrahedra.
+RELATION TO CENTER OF MASS
+Section::::Relation to center of mass.
+Each median of a triangle passes through the triangle's centroid, which is the center of mass of an infinitely thin object of uniform density coinciding with the triangle. Thus the object would balance on the intersection point of the medians. The centroid is twice as close along any median to the side that the median intersects as it is to the vertex it emanates from.
+EQUAL-AREA DIVISION
+Section::::Equal-area division.
+Each median divides the area of the triangle in half; hence the name, and hence a triangular object of uniform density would balance on any median. (Any other lines which divide the area of the triangle into two equal parts do not pass through the centroid.) The three medians divide the triangle into six smaller triangles of equal area. 
+PROOF OF EQUAL-AREA PROPERTY
+Section::::Proof of equal-area property.
+Consider a triangle ABC. Let D be the midpoint of formula_1, E be the midpoint of formula_2, F be the midpoint of formula_3, and O be the centroid (most commonly denoted G).
+By definition, formula_4. Thus formula_5 and formula_6, where formula_7 represents the area of triangle formula_8 ; these hold because in each case the two triangles have bases of equal length and share a common altitude from the (extended) base, and a triangle's area equals one-half its base times its height.
+We have:
+Thus, formula_11 and formula_12
+Since formula_13, therefore, formula_14.
+Using the same method, one can show that formula_15.
+THREE CONGRUENT TRIANGLES
+Section::::Three congruent triangles.
+In 2014 Lee Sallows discovered the following theorem:
+FORMULAS INVOLVING THE MEDIANS' LENGTHS
+Section::::Formulas involving the medians' lengths.
+The lengths of the medians can be obtained from Apollonius' theorem as:
+where a, b and c are the sides of the triangle with respective medians m, m, and m from their midpoints.
+Thus we have the relationships:
+OTHER PROPERTIES
+Section::::Other properties.
+The centroid divides each median into parts in the ratio 2:1, with the centroid being twice as close to the midpoint of a side as it is to the opposite vertex.
+For any triangle with sides formula_22 and medians formula_23 
+and
+The medians from sides of lengths a and b are perpendicular if and only if formula_26
+The medians of a right triangle with hypotenuse c satisfy formula_27
+Any triangle's area T can be expressed in terms of its medians formula_28, and formula_29 as follows. Denoting their semi-sum as σ, we have
+TETRAHEDRON
+Section::::Tetrahedron.
+A tetrahedron is a three-dimensional object having four triangular faces. A line segment joining a vertex of a tetrahedron with the centroid of the opposite face is called a median of the tetrahedron. There are four medians, and they are all concurrent at the centroid of the tetrahedron. As in the two-dimensional case, the centroid of the tetrahedron is the center of mass. However contrary to the two-dimensional case the centroid divides the medians not in a 2:1 ratio but in a 3:1 ratio (Commandino's theorem).
+SEE ALSO
+* Angle bisector
+* Altitude (triangle)
+* Automedian triangle
+REFERENCES
+EXTERNAL LINKS
+* The Medians at cut-the-knot
+* Area of Median Triangle at cut-the-knot
+* Medians of a triangle With interactive animation
+* Constructing a median of a triangle with compass and straightedge animated demonstration

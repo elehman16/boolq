@@ -1,0 +1,58 @@
+
+FIND MY IPHONE
+Find My iPhone (also known as Find apple on the SpringBoard, and also known specifically for other devices as Find My iPad, Find My iPod touch, or Find My Mac) is an app and service provided by Apple Inc. that allows remote location tracking of iOS devices, Mac computers, Apple Watch, and AirPods. , the service currently is available for iOS 5 or later and OS X 10.7.5 "Lion" or later through iCloud.
+The service itself is integrated into iOS and macOS, while enabled devices can be tracked using either an iOS app or the iCloud website. On iOS 8 and older, the tracking app can be downloaded from the App Store free of charge. Starting in iOS 9, the app was bundled with the operating system.
+HISTORY
+Section::::History.
+Find My iPhone was released initially as an app in June 2010 for users of MobileMe. In November 2010 with iOS 4.2, Find My iPhone was available for free for such devices. With the release of iCloud in October 2011, the service became free for all iCloud users. Also, the service was made available as "Find My Mac" for Mac computers running OS X 10.7.2 "Lion" or later using iCloud.
+VERSION HISTORY
+Section::::Version history.
+! scope="col"  Versionnumber
+! scope="col"  Datereleased
+! scope="col"  Changes
+! scope="row" data-sort-value="100"  1.0
+! scope="row" data-sort-value="101"  1.0.1
+! scope="row" data-sort-value="110"  1.1
+! scope="row" data-sort-value="120"  1.2
+* If device was offline when the user attempt to locate it, an email will be sent when it comes online and is located.
+* Ability to remove a device that is offline
+! scope="row" data-sort-value="121"  1.2.1
+! scope="row" data-sort-value="130"  1.3
+* iCloud support
+* Find My MacBook
+* Ability to request an email when a device is located that was previously offline
+! scope="row" data-sort-value="140"  1.4
+! scope="row" data-sort-value="200"  2.0
+* Lost Mode for iOS 6 or later
+* Battery charge indicator
+* Forever login for iOS 6 or later
+! scope="row" data-sort-value="201"  2.0.1
+* Driving directions to the device's location for iOS 6 or later
+* Several buttons ("Play Sound", "Lost Mode", and "Erase Device") were moved to a separate screen from the map view
+! scope="row" data-sort-value="202"  2.0.2
+! scope="row" data-sort-value="203"  2.0.3
+! scope="row" data-sort-value="300"  3.0
+! scope="row" data-sort-value="400"  4.0
+FEATURES
+Section::::Features.
+Find My iPhone allows users to locate their iOS devices using either the iOS app or icloud.com on a computer. In addition to locating a device, the service provides three key features:
+* Play Sound – Makes the device play a sound at maximum volume, makes flashing on screen even if it is muted. This feature is useful if the device has been mislaid.
+* Lost Mode (iOS 6 or later) – Flags the device as lost or stolen, allowing the user to lock it with a passcode. If the device is an iPhone and someone finds the device, they can call the user directly on the device.
+* Erase iPhone – Completely erases all content and settings. This is useful if the device contains sensitive information, but the device cannot be located after this action is performed. Starting with iOS 7 or later, after the erase is complete, the message can still be displayed and the device will be activation locked. This makes it hard for someone to use or sell the device should the owner of the device misplace it. An Apple ID Password will be required before turning off Find My iPhone, signing out of iCloud, erasing the device, or reactivating a device after a remote wipe.
+The update with iOS 6 added the ability to check the device's battery level.
+Since the release of iOS 7 users have complained about the link between GPS, WiFi, and the App itself. Some handset owners have noted the App enables and disables itself when passing between cellular protocol bandwidths. 
+REQUIREMENTS
+Section::::Requirements.
+, the service is supported on iPhone, iPad, iPod Touch, and Mac computers running OS X 10.7.5 "Lion" or later. In addition to a compatible device, a free iCloud account is required to use Find My iPhone. Users also can track their Find My iPhone enabled devices through iCloud.com on Windows, but cannot use it the other way around to track their PC.
+INCIDENTS
+* In November 2011, police in Los Angeles, California were able to find an armed robbery suspect by using Find My iPhone on the victim's stolen iPhone.
+* In September 2012, two suspects were arrested in Atlanta, Georgia for robbing five women at gunpoint. Police were able to locate the suspects by using Find My iPhone to find one of the stolen iPhones.
+* Since early 2011, some Sprint users who used the app to find their lost device were sent to a 59-year-old man's house in Las Vegas, Nevada. Multiple people insisted that he had their device and the police were called multiple times. The man eventually had to put up a sign by his door saying that he had "no lost cell phones".
+* On 16 January 2015, a Langley, British Columbia woman had her iMac stolen during a break-in at her home. Nearly a month later, she received a notification on her phone then contacted police who found and arrested two men just as they were attempting to escape out a back door.
+* In November 2016, the husband of Sherri Papini located her cell phone and ear buds on a street corner, where she was kidnapped.
+SEE ALSO
+* Find My Friends
+* iCloud
+* MobileMe
+REFERENCES
+EXTERNAL LINKS

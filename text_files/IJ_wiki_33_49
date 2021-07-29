@@ -1,0 +1,76 @@
+
+DARK WEB
+The dark web is the World Wide Web content that exists on darknets, overlay networks that use the Internet but require specific software, configurations, or authorization to access. The dark web forms a small part of the deep web, the part of the Web not indexed by web search engines, although sometimes the term deep web is mistakenly used to refer specifically to the dark web.
+The darknets which constitute the dark web include small, friend-to-friend peer-to-peer networks, as well as large, popular networks like Tor, Freenet, I2P, and Riffle operated by public organizations and individuals. Users of the dark web refer to the regular web as Clearnet due to its unencrypted nature. The Tor dark web may be referred to as onionland, a reference to the network's top-level domain suffix .onion and the traffic anonymization technique of onion routing.
+TERMINOLOGY
+Section::::Terminology.
+The dark web has often been confused with the deep web, which refer to the parts of the web not indexed (searchable) by search engines. This confusion dates back to at least 2009. Since then, especially in reporting on Silk Road, the two terms have often been conflated, despite recommendations that they should be distinguished.
+DEFINITION
+Section::::Definition.
+Darknet websites are accessible only through networks such as Tor ("The Onion Routing" project) and I2P ("Invisible Internet Project"). Tor browser and Tor-accessible sites are widely used among the darknet users and can be identified by the domain ".onion". While Tor focuses on providing anonymous access to the Internet, I2P specializes on allowing anonymous hosting of websites. Identities and locations of darknet users stay anonymous and cannot be tracked due to the layered encryption system. The darknet encryption technology routes users' data through a large number of intermediate servers, which protects the users' identity and guarantees anonymity. The transmitted information can be decrypted only by a subsequent node in the scheme, which leads to the exit node. The complicated system makes it almost impossible to reproduce the node path and decrypt the information layer by layer. Due to the high level of encryption, websites are not able to track geolocation and IP of their users, and users are not able to get this information about the host. Thus, communication between darknet users is highly encrypted allowing users to talk, blog, and share files confidentially.
+The darknet is also used for illegal activity such as illegal trade, forums, and media exchange for pedophiles and terrorists. At the same time traditional websites have created alternative accessibility for the Tor browser in efforts to connect with their users. ProPublica, for example, launched a new version of its website available exclusively to Tor users.
+CONTENT
+Section::::Content.
+A December 2014 study by Gareth Owen from the University of Portsmouth found that the most commonly hosted type of content on Tor was child pornography, followed by black markets, while the individual sites with the highest traffic were dedicated to botnet operations (see attached metric). Many whistleblowing sites maintain a presence as well as political discussion forums. Sites associated with Bitcoin, fraud related services and mail order services are some of the most prolific.
+In July 2017, Roger Dingledine, one of the three founders of the Tor Project, said that Facebook is the biggest hidden service. The Dark Web comprises only 3% of the traffic in the Tor network.
+A more recent February 2016 study from researchers at King's College London gives the following breakdown of content by an alternative category set, highlighting the illicit use of .onion services.
+BOTNETS
+Section::::Botnets.
+Botnets are often structured with their command and control servers based on a censorship-resistant hidden service, creating a large amount of bot-related traffic.
+BITCOIN SERVICES
+Section::::Bitcoin services.
+Bitcoin services such as tumblers are often available on Tor, and some – such as Grams – offer darknet market integration. A research study undertaken by Jean-Loup Richet, a research fellow at ESSEC, and carried out with the United Nations Office on Drugs and Crime, highlighted new trends in the use of Bitcoin tumblers for money laundering purposes. A common approach was to use a digital currency exchanger service which converted Bitcoin into an online game currency (such as gold coins in World of Warcraft) that will later be converted back into money.
+DARKNET MARKETS
+Section::::Darknet markets.
+Commercial darknet markets, which mediate transactions for illegal drugs and other goods, attracted significant media coverage starting with the popularity of Silk Road and Diabolus Market and its subsequent seizure by legal authorities. Other markets sell software exploits and weapons. Examination of price differences in Dark web markets versus prices in real life or over the World Wide Web have been attempted as well as studies in the quality of goods received over the Dark web. One such study was performed on Evolution, one of the most popular crypto-markets active from January 2013 to March 2015. Although it found the digital information, such as concealment methods and shipping country, "seems accurate", the study uncovered issues with the quality of illegal drugs sold in Evolution, stating that, "... the illicit drugs purity is found to be different from the information indicated on their respective listings." Less is known about consumer motivations for accessing these marketplaces and factors associated with their use.
+HACKING GROUPS AND SERVICES
+Section::::Hacking groups and services.
+Many hackers sell their services either individually or as a part of groups. Such groups include xDedic, hackforum, Trojanforge, Mazafaka, dark0de and the TheRealDeal darknet market. Some have been known to track and extort apparent pedophiles. Cyber crimes and hacking services for financial institutions and banks have also been offered over the Dark web. Attempts to monitor this activity have been made through various government and private organizations, and an examination of the tools used can be found in the Procedia Computer Science journal. Use of Internet-scale DNS Distributed Reflection Denial of Service (DRDoS) attacks have also been made through leveraging the Dark Web. There are many scam .onion sites also present which end up giving tools for download that are infected with trojan horses or backdoors.
+FRAUD SERVICES
+Section::::Fraud services.
+There are numerous carding forums, PayPal and Bitcoin trading websites as well as fraud and counterfeiting services. Many such sites are scams themselves.
+HOAXES AND UNVERIFIED CONTENT
+Section::::Hoaxes and unverified content.
+There are reports of crowdfunded assassinations and hitmen for hire, however, these are believed to be exclusively scams. The creator of Silk Road, Ross Ulbricht, was arrested by Homeland Security investigations (HSI) for his site and allegedly hiring a hitman to kill six people, although the charges were later dropped.
+There is an urban legend that one can find live murder on the dark web. The term "Red Room" has been coined based on the Japanese animation and urban legend of the same name. However, the evidence points toward all reported instances being hoaxes.
+On June 25, 2015, the indie game Sad Satan was reviewed by Youtubers Obscure Horror Corner which they claimed to have found via the dark web. Various inconsistencies in the channel's reporting cast doubt on the reported version of events. There are several websites which analyze and monitor the deep web and dark web for threat intelligence, for example Sixgill.
+PHISHING AND SCAMS
+Section::::Phishing and scams.
+Phishing via cloned websites and other scam sites are numerous, with darknet markets often advertised with fraudulent URLs.
+PUZZLES
+Section::::Puzzles.
+Puzzles such as Cicada 3301 and successors will sometimes use hidden services in order to more anonymously provide clues, often increasing speculation as to the identity of their creators.
+ILLEGAL PORNOGRAPHY
+Section::::Illegal pornography.
+There is regular law enforcement action against sites distributing child pornography – often via compromising the site by distributing malware to the users. Sites use complex systems of guides, forums and community regulation. Other content includes sexualised torture and killing of animals and revenge porn.
+TERRORISM
+Section::::Terrorism.
+There are at least some real and fraudulent websites claiming to be used by ISIL (ISIS), including a fake one seized in Operation Onymous. In the wake of the November 2015 Paris attacks an actual such site was hacked by an Anonymous affiliated hacker group GhostSec and replaced with an advert for Prozac. The Rawti Shax Islamist group was found to be operating on the dark web at one time.
+SOCIAL MEDIA
+Section::::Social media.
+Within the dark web, there exist emerging social media platforms similar to those on the World Wide Web. Facebook and other traditional social media platforms have begun to make dark-web versions of their websites to address problems associated with the traditional platforms and to continue their service in all areas of the World Wide Web.
+COMMENTARY
+Section::::Commentary.
+Although much of the dark web is innocuous, some prosecutors and government agencies, among others, are concerned that it is a haven for criminal activity. Specialist news sites such as DeepDotWeb and All Things Vice provide news coverage and practical information about dark web sites and services. The Hidden Wiki and its mirrors and forks hold some of the largest directories of content at any given time.
+Popular sources of dark web .onion links include Pastebin, YouTube, Twitter, Reddit and other Internet forums. Specialist companies with Darksum and Recorded Future track dark web cybercrime goings on for law enforcement purposes. In 2015 it was announced that Interpol now offers a dedicated dark web training program featuring technical information on Tor, cybersecurity and simulated darknet market take downs.
+In October 2013 the UK's National Crime Agency and GCHQ announced the formation of a 'Joint Operations Cell' to focus on cybercrime. In November 2015 this team would be tasked with tackling child exploitation on the dark web as well as other cybercrime.
+In March 2017 the Congressional Research Service released an extensive report on the dark web, noting the changing dynamic of how information is accessed and presented on it; characterized by the unknown, it is of increasing interest to researchers, law enforcement, and policymakers.
+In August 2017, according to reportage, cybersecurity firms which specialize in monitoring and researching the dark web on behalf of banks and retailers routinely share their findings with the FBI and with other law enforcement agencies "when possible and necessary" regarding illegal content. The Russian-speaking underground offering a crime-as-a-service model is regarded as being particularly robust.
+JOURNALISM
+Section::::Journalism.
+Many individual journalists, alternative news organizations, educators, and researchers are influential in their writing and speaking of the Darknet, and making its use clear to the general public.
+JAMIE BARTLETT
+Section::::Jamie Bartlett.
+Jamie Bartlett is a journalist and tech blogger for The Telegraph and Director of the Centre for the Analysis of Social Media for Demos in conjunction with The University of Sussex. In his book, The Dark Net, Barlett depicts the world of the Darknet and its implications for human behavior in different context. For example, the book opens with the story of a young girl who seeks positive feedback to build her self-esteem by appearing naked online. She is eventually traced on social media sites where her friends and family were inundated with naked pictures of her. This story highlights the variety of human interactions the Darknet allows for, but also reminds the reader how participation in a overlay network like the Darknet is rarely in complete separation from the larger Web. Bartlett's main objective is an exploration of the Darknet and its implication for society. He explores different sub-cultures, some with positive implications for society and some with negative.
+Bartlett gave a TEDTalk in June 2015 further examining the subject. His talk, entitled "How the mysterious Darknet is going mainstream", introduces the idea behind the Darknet to the audience, followed by a walkthrough example of one of its websites called the Silk Road. He points out the familiarity of webpage design similar to consumer sites used in the larger commercial Web. Bartlett then presents examples of how operating in an uncertain, high-risk market like those in the Darknet actually breeds innovation that he believes can be applied to all markets in the future. As he points out, because vendors are always thinking of new ways to get around and protect themselves, the Darknet has become more decentralized, more customer friendly, harder to censor, and more innovative. As our societies are increasingly searching for more ways to retain privacy online, such changes as those occurring in the Darknet are not only innovative, but could be beneficial to commercial online websites and markets.
+OTHER MEDIA
+Section::::Other media.
+Traditional media and news channels like ABC News have also featured articles examining the Darknet. Vanity Fair magazine published an article in October 2016 entitled "The Other Internet". The article discusses the rise of the Dark Net and mentions that the stakes have become high in a lawless digital wilderness. It mentions that vulnerability is a weakness in a network's defenses. Other topics include the e-commerce versions of conventional black markets, cyberweaponry from TheRealDeal, and role of operations security.
+SEE ALSO
+* Deepnet
+* List of Tor hidden services
+REFERENCES
+FURTHER READING
+EXTERNAL LINKS
+* Excuse Me, I Think Your Dark Web is Showing – A presentation at the March 2017 BSides Vancouver Security Conference on security practices on Tor's hidden services
+* Attacks Landscape in the Dark Side of the Web

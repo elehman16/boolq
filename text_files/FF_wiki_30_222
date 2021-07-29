@@ -1,0 +1,85 @@
+
+CABLE CONVERTER BOX
+A cable converter box or television converter box is an electronic tuning device that transposes/converts any of the available channels from a cable television service to an analog RF signal on a single channel, usually VHF or 4, or to a different output for digital televisions such as HDMI. The device allows a television set that is not "cable ready" to receive cable channels. While later televisions were "cable ready" with a standard converter built-in, the existence of premium television (aka pay per view) and the advent of digital cable have continued the need for various forms of these devices for cable television reception. While not an explicit part of signal conversion, many cable converter boxes include forms of descrambling to manage carrier-controlled access restriction to various channels.
+Cable-ready televisions and other cable-aware A/V devices such as video recorders can similarly convert cable channels to a regular television set, but these do not include advanced capabilities such as descrambling or digital downconversion.
+The task of a cable box is to convert a television channel from those transmitted over the CATV wire.
+TECHNOLOGICAL DESCRIPTION
+Section::::Technological description.
+The basic converter box is passive and does not communicate back to the carrier. It simply tunes to one of the channels being transmitted together over the wire and re-transmits it to a television or other video device on a standard broadcast frequency (usually a customer-selected, locally unused frequency between and 4). Like other set-top boxes, converter boxes usually provide multiple options for the output channel (either 2/3 or 3/4) so that the same box can be used, with simple configuration, in multiple television markets. Despite not having a broadcast reception television antenna, a strong local television station can cause interference with the TV's reception of the cable converter's signal, resulting in undesired static or ghosting.
+Later cable boxes became addressable, allowing the carrier to independently identify one cable box from another. In early systems, this permitted the carrier to send instructions to the boxes by addressing them over the wire. This allowed customers to subscribe to premium television and pay-per-view. More recent cable boxes, particularly those for digital cable, engage in two-way communication with the carrier central office, allowing for more advanced and interactive features.
+Typically, a cable converter box has two coaxial F-type female connectors; one "Cable In" for a coaxial cable from the wall jack (containing the CATV signal), one "TV Out" connected to the television where an antenna or other RF device (such as a VCR) would be connected. Newer cable boxes also tend to come standard with an IEEE 1394 interface (aka "FireWire") and RCA jacks for composite video and stereo audio. More advanced analog video devices may have S-video and/or HDMI outputs to support HDTV.
+In early days, before televisions came standard with 75Ω coaxial antenna connectors, cable boxes came with adapters that would allow the coaxial cable to connect to the 300Ω twin lead screws used with traditional antennas.
+Major manufacturers of cable boxes have included Jerrold Electronics, General Instrument (which Jerrold merged into), Cisco (which Scientific Atlanta merged into), and Motorola (which General Instruments merged into).
+ADDRESSABLE CABLE BOX
+Section::::Addressable cable box.
+An addressable cable box is one that can be controlled by the local cable company. Addressability is the process by which (optionally encrypted) messages are sent from the cable provider for a particular cable box via the cable signal. The cable company can "address" a particular customer's cable box to command it to activate or deactivate the descrambling of selected premium or pay-per view channels. The system can also send messages. This function affords the cable company the ability to add or delete descrambling on the channels that come in through the coaxial cable line. It also allows them to remotely disable the box, for reasons such as non-payment of the cable bill or theft of the unit itself. Such commands are referred to as bullets and are a transmitted message which affects the cable box program effectively disabling or "killing" it. "Bullets" do not affect the electronics inside converters or descramblers, only the programming. Non-addressable boxes are "bulletproof", as they are unable to detect such messages.
+ANALOG CABLE
+DESCRAMBLING
+Section::::Analog cable.
+Section::::Descrambling.
+A descrambler is a device that unscrambles the encoded signal and restores the picture and sound of a scrambled channel.
+Typical modern cable boxes include some form of descrambling ability. Such a cable box must also be addressable (see below) in order to be told to descramble the signal for a given channel. Early electronic cable boxes, for example, could descramble channels that used inversion as a scrambling method.
+In many markets, carriers provided devices with simple or no descrambling capability, although the carrier may use different forms of scrambling for different premium channels. Certain premium channels or services could require an upgrade to a more advanced converter box that was capable of the necessary descrambling method. This is less true in the era digital cable and cheap consumer electronics.
+When a descrambler is included in a cable converter box, it is sometimes referred to as a converter/descrambler, or combination unit.
+DIGITAL CABLE
+Section::::Digital cable.
+Digital cable is a method of delivering cable television as digital data instead of analog frequency. Many modern cable systems provide digital cable for at least part of their channel lineup.
+Because many carriers continue to use analog transmission for legacy and low-numbered channels, and digital transmission for higher channels, a typical digital cable box is also able to convert traditional analog cable signals.
+Digital television allows higher quality and quantity of cable TV signals. Digital transmission is compressed and allows a much greater capacity than analog signals; it almost completely eliminates interference, which has always been a hindrance to the cable TV industry. Digital converters have the same purpose as analog ones but are able to receive digital cable signals. With more data than analog in the same bandwidth, the system delivers superior picture and sound quality.
+Despite the advance of cable-ready television sets, most users will need a cable box to receive digital channels. However, customers who do not subscribe to any digital channels can go without; many carriers provide "basic cable" service within the analog range, avoiding the need for distributing a box. However, advanced carrier services such as pay per view and video on demand will require a box.
+DECRYPTION
+Section::::Decryption.
+CableCARD technology allows a third-party digital converter device to connect to and receive signals from a digital cable provider, instead of being reliant on a box provided by the cable provider. AllVid is a CableCARD replacement proposed by the FCC, intended to provide bidirectional compatibilities such as interactive programming guides, video-on-demand and pay-per-view, since retail CableCARD-ready devices are unable to access such systems.
+OTHER CABLE BOX SERVICES
+Section::::Other cable box services.
+Modern cable boxes are digital and not only addressable but can also perform two-way communication between the box and the provider. In addition, they include built-in programming guide and schedule information, in addition to weather, messaging, and on-demand services.
+Some carriers have made available combination DVR/cable box devices, which include all the features of a modern digital cable converter box with the ability to record shows. These are intended to compete with stand-alone DVRs such as TiVo, although the cable provider can exert far more control over the operation of the combination units, leading to undesirable provider-mandated restrictions on recordability and replayability of programs.
+Amateur television (ham TV) operators use the frequencies responding to Cable channels 57-60 hooked up to outdoor UHF antennas.
+FUTURE OF CABLE BOXES
+Section::::Future of cable boxes.
+Analog cable-ready televisions and other cable-capable devices (such as VCRs) eliminated many, but not all, applications where cable boxes were needed. Digital cable, however, made cable boxes more of a necessity as it provided channels that cable-ready televisions could not.
+CableCARD technology allows a third-party digital converter device to connect to and receive signals from a digital cable provider, instead of being reliant on a box provided by the cable provider. This technology is being integrated into other devices such as DVRs and even personal computers, allowing them to take over all the capabilities of a carrier-provided cable converter box. However, carriers have been slow to distribute and fully support CableCARD technology.
+AllVid is a CableCARD replacement proposed by the FCC, intended to provide bidirectional compatibilities such as interactive programming guides, video-on-demand and pay-per-view, since retail CableCARD-ready devices are unable to access such systems.
+CABLE-READY SETS
+Section::::Cable-ready sets.
+Cable-ready television sets have coaxial cable F connectors. One end connects to the cable, antenna, or VHF jack on the back of the television set; the other end connects to the wall CATV outlet. Once the television is connected through the cable to the wall CATV outlet, the television will need to be programmed to receive the cable channels. The instruction manual that came with the television should have instructions on how to program cable channels.
+Non-cable-ready television sets are older televisions (e.g., with a rotary knob) with no coaxial cable F connector; a cable converter box or a cable-ready VCR is necessary to receive cable.
+CABLE SERVICES
+Section::::Cable services.
+Basic cable service is the least expensive cable service provided by cable companies to their customers. This service usually includes local TV channels.
+Premium cable service includes additional programming service provided by the cable company to subscribing customers. The extra fee for such additional service may be per channel, per group of channels, or based on any other combination of channels.
+With pay-per-view services, selected channels offer movies and special events such as sports or adult entertainment, for an additional fee, on a per-movie or per-program basis. A special addressable converter is furnished by the cable company to subscribers of this service. Through the use of special equipment, the cable company can direct the customer's cable box to descramble the program for which the fee was paid.
+SEE ALSO
+* Business Support Systems
+* Operations Support System
+* Cable television headend
+* Set-top box
+* Scrambler
+* Descrambler
+* Encryption
+* Provisioning
+* Conditional access system (CAS)
+* Addressable Systems
+* Addressability
+Section::::See also.
+Related Technologies:
+* ATSC tuner
+* Audio
+* Cable modem
+* Connectivity: RS-232, USB, Bluetooth and Wi-Fi
+* Digital television adapter (DTA)
+* DOCSIS
+* DVB
+* Free-to-air
+* Integrated Services Digital Broadcasting
+* Interactive television
+* IPTV
+* QAM tuner
+* QPSK
+* Satellite dish
+* Symbol rate
+REFERENCES
+* Digital TV Converter Box, DTVFacts
+* Digital TV Converter Box, NY Times
+* Basic Cable-Ready TV Hookup with a Cable Converter, Time Warner Cable
+* TV Converters Help, Expedient

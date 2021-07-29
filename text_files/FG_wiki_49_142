@@ -1,0 +1,81 @@
+
+SUPERHEATED WATER
+Superheated water is liquid water under pressure at temperatures between the usual boiling point, and the critical temperature, . It is also known as "subcritical water" or "pressurized hot water." Superheated water is stable because of overpressure that raises the boiling point, or by heating it in a sealed vessel with a headspace, where the liquid water is in equilibrium with vapour at the saturated vapor pressure. This is distinct from the use of the term superheating to refer to water at atmospheric pressure above its normal boiling point, which has not boiled due to a lack of nucleation sites (sometimes experienced by heating liquids in a microwave).
+Many of water's anomalous properties are due to very strong hydrogen bonding. Over the superheated temperature range the hydrogen bonds break, changing the properties more than usually expected by increasing temperature alone. Water becomes less polar and behaves more like an organic solvent such as methanol or ethanol. Solubility of organic materials and gases increases by several orders of magnitude and the water itself can act as a solvent, reagent and catalyst in industrial and analytical applications, including extraction, chemical reactions and cleaning.
+CHANGE OF PROPERTIES WITH TEMPERATURE
+Section::::Change of properties with temperature.
+All materials change with temperature, but superheated water exhibits greater changes than would be expected from temperature considerations alone. Viscosity and surface tension of water drop and diffusivity increases with increasing temperature.
+Self-ionization of water increases with temperature, and the pKw of water at 250 °C is closer to 11 than the more familiar 14 at 25 °C. This means the concentration of hydronium ion () and the concentration of hydroxide () are increased while the pH remains neutral. Specific heat capacity at constant pressure also increases with temperature, from 4.187 kJ/kg at 25 °C to 8.138 kJ/kg at 350 °C. A significant effect on the behaviour of water at high temperatures is decreased dielectric constant (relative permittivity).
+EXPLANATION OF ANOMALOUS BEHAVIOUR
+Section::::Explanation of anomalous behaviour.
+Water is a polar molecule, where the centers of positive and negative charge are separated; so molecules will align with an electric field. The extensive hydrogen bonded network in water tends to oppose this alignment, and the degree of alignment is measured by the relative permittivity. Water has a high relative permittivity of about 80 at room temperature; because polarity shifts are rapidly transmitted through shifts in orientation of the linked hydrogen bonds. This allows water to dissolve salts, as the attractive electric field between ions is reduced by about 80–fold. Thermal motion of the molecules disrupts the hydrogen bonding network as temperature increases; so relative permittivity decreases with temperature to about 7 at the critical temperature. At 205 °C the relative permittivity falls to 33, the same as methanol at room temperature. Thus water behaves like a water / methanol mixture between 100 °C and 200 °C. Disruption of extended hydrogen bonding allows molecules to move more freely (viscosity, diffusion and surface tension effects), and extra energy must be supplied to break the bonds (increased heat capacity).
+SOLUBILITY
+ORGANIC COMPOUNDS
+Section::::Solubility.
+Section::::Organic compounds.
+Organic molecules often show a dramatic increase in solubility with temperature, partly because of the polarity changes described above, and also because the solubility of sparingly soluble materials tends to increase with temperature as they have a high enthalpy of solution. Thus materials generally considered "insoluble" can become soluble in superheated water. E.g., the solubility of PAHs is increased by 5 orders of magnitude from 25 °C to 225 °C and naphthalene, for example, forms a 10% wt solution in water at 270 °C, and the solubility of the pesticide chloranthonil with temperature is shown in the table below.
++ Solubility of Chloranthonil in Water
+!width = "70" T (°C)
+!Mole Fraction
+50
+5.41 x 10
+100
+1.8 x 10
+150
+6.43 x 10
+200
+1.58 x 10
+Thus superheated water can be used to process many organic compounds with significant environmental benefits compared to the use of conventional organic solvents.
+SALTS
+Section::::Salts.
+Despite the reduction in relative permittivity, many salts remain soluble in superheated water until the critical point is approached. Sodium chloride, for example, dissolves at 37 wt% at 300 °C
+As the critical point is approached, solubility drops markedly to a few ppm, and salts are hardly soluble in supercritical water. Some salts show a reduction in solubility with temperature, but this behaviour is less common.
+GASES
+Section::::Gases.
+The solubility of gases in water is usually thought to decrease with temperature, but this only occurs to a certain temperature, before increasing again. For nitrogen, this minimum is 74 °C and for oxygen it is 94 °C
+Gases are soluble in superheated water at elevated pressures. Above the critical temperature, water is completely miscible with all gasses. The increasing solubility of oxygen in particular allows superheated water to be used for wet oxidation processes.
+CORROSION
+Section::::Corrosion.
+Superheated water can be more corrosive than water at ordinary temperatures, and at temperatures above 300 °C special corrosion resistant alloys may be required, depending on other dissolved components. Continuous use of carbon steel pipes for 20 years at 282 °C has been reported without significant corrosion,
+and stainless steel cells showed only slight deterioration after 40–50 uses at temperatures up to 350 °C.
+The degree of corrosion that can be tolerated depends on the use, and even corrosion resistant alloys can fail eventually. Corrosion of an Inconel U-tube in a heat exchanger was blamed for an accident at a nuclear power station.
+Therefore, for occasional or experimental use, ordinary grades of stainless steel are probably adequate with continuous monitoring, but for critical applications and difficult to service parts, extra care needs to be taken in materials selection.
+EFFECT OF PRESSURE
+Section::::Effect of pressure.
+At temperatures below 300 °C water is fairly incompressible, which means that pressure has little effect on the physical properties of water, provided it is sufficient to maintain a liquid state. This pressure is given by the saturated vapour pressure, and can be looked up in steam tables, or calculated. As a guide, the saturated vapour pressure at 121 °C is 200 kPa, 150 °C is 470 kPa, and 200 °C is 1,550 kPa. The critical point is 21.7 MPa at a temperature of 374 °C, above which water is supercritical rather than superheated. Above about 300 °C, water starts to behave as a near-critical liquid, and physical properties such as density start to change more significantly with pressure. However, higher pressures increase the rate of extractions using superheated water below 300 °C. This could be due to effects on the substrate, particularly plant materials, rather than changing water properties.
+ENERGY REQUIREMENTS
+Section::::Energy requirements.
+The energy required to heat water is significantly lower than that needed to vaporize it, for example for steam distillation
+and the energy is easier to recycle using heat exchangers. The energy requirements can be calculated from steam tables. For example, to heat water from 25 °C to steam at 250 °C at 1 atm requires 2869 kJ/kg. To heat water at 25 °C to liquid water at 250 °C at 5 MPa requires only 976 kJ/kg. It is also possible to recover much of the heat (say 75%) from superheated water, and therefore energy use for superheated water extraction is less than one sixth that needed for steam distillation. This also means that the energy contained in superheated water is insufficient to vaporise the water on decompression. In the above example, only 30% of the water would be converted to vapour on decompression from 5 MPa to atmospheric pressure.
+EXTRACTION
+Section::::Extraction.
+Extraction using superheated water tends to be fast because diffusion rates increase with temperature. Organic materials tend to increase in solubility with temperature, but not all at the same rate. For example, in extraction of essential oils from rosemary
+and coriander,
+the more valuable oxygenated terpenes were extracted much faster than the hydrocarbons. Therefore, extraction with superheated water can be both selective and rapid, and has been used to fractionate diesel and woodsmoke particulates.
+Superheated water is being used commercially to extract starch material from marsh mallow root for skincare applications
+and to remove low levels of metals from a high-temperature resistant polymer.
+For analytical purposes, superheated water can replace organic solvents in many applications, for example extraction of PAH's from soils
+and can also be used on a large scale to remediate contaminated soils, by either extraction alone or extraction linked to supercritical or wet oxidation.
+REACTIONS
+Section::::Reactions.
+Superheated water, along with supercritical water, has been used to oxidise hazardous material in the wet oxidation process. Organic compounds are rapidly oxidised without the production of toxic materials sometimes produced by combustion. However, when the oxygen levels are lower, organic compounds can be quite stable in superheated water. As the concentration of hydronium () and hydroxide () ions are 100 times larger than in water at 25 °C, superheated water can act as a stronger acid and a stronger base, and many different types of reaction can be carried out. An example of a selective reaction is oxidation of ethylbenzene to acetophenone, with no evidence of formation of phenylethanoic acid, or of pyrolysis products. Several different types of reaction in which water was behaving as reactant, catalyst and solvent were described by Katritzky et al.
+Triglycerides can be hydrolysed to free fatty acids and glycerol by superheated water at 275 °C,
+which can be the first in a two-stage process to make biodiesel.
+Superheated water can be used to chemically convert organic material into fuel products. This is known by several terms, including direct hydrothermal liquefaction, and hydrous pyrolysis. A few commercial scale applications exist. Thermal depolymerization or thermal conversion (TCC) uses superheated water at about 250 °C to convert turkey waste into a light fuel oil and is said to process 200 tons of low grade waste into fuel oil a day.
+The initial product from the hydrolysis reaction is de-watered and further processed by dry cracking at 500 °C. The "SlurryCarb" process operated by EnerTech uses similar technology to decarboxylate wet solid biowaste, which can then be physically dewatered and used as a solid fuel called E-Fuel. The plant at Rialto is said to be able to process 683 tons of waste per day.
+The HTU or Hydro Thermal Upgrading process appears similar to the first stage of the TCC process. A demonstration plant is due to start up in The Netherlands said to be capable of processing 64 tons of biomass (dry basis) per day into oil.
+CHROMATOGRAPHY
+Section::::Chromatography.
+Reverse phased HPLC often uses methanol / water mixtures as the mobile phase. Since the polarity of water spans the same range from 25 to 205 °C, a temperature gradient can be used to effect similar separations, for example of phenols.
+The use of water allows the use of the flame ionisation detector (FID), which gives mass sensitive output for nearly all organic compounds.
+The maximum temperature is limited to that at which the stationary phase is stable. C18 bonded phases which are common in HPLC seem to be stable at temperatures up to 200 °C, far above that of pure silica, and polymeric styrene / divinylbenzene phases offer similar temperature stability.
+Water is also compatible with use of an ultraviolet detector down to a wavelength of 190 nm.
+SEE ALSO
+* Pressurized water reactor
+* Supercritical carbon dioxide
+* Superheated steam
+* Water heating
+REFERENCES
+EXTERNAL LINKS
+* The International Association for the Properties of Water and Steam
+* Calculator for vapour pressure and enthalpy of superheated water.

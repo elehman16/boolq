@@ -1,0 +1,65 @@
+
+PERSIAN ALPHABET
+The Persian alphabet (, '), or Perso-Arabic alphabet, is a writing system used for the Persian language.
+The Persian script is a modified version of the Arabic script. It is an abjad, meaning vowels are underrepresented in writing. The writing direction is mostly but not exclusively right-to-left; mathematical expressions, numeric dates and numbers bearing units are embedded from left to right. The script is cursive, meaning most letters in a word connect to each other; when they are typed, contemporary word processors automatically joins adjacent letterforms. However, some Persian compounds do not join, and Persian adds four letters to the basic set for a total of 32 characters.
+The replacement of the Pahlavi scripts with the Persian alphabet to write the Persian language was done by the Tahirid dynasty in 9th-century Greater Khorasan.
+LETTERS
+Section::::Letters.
+Below are the 32 letters of the modern Persian alphabet. Since the script is cursive, the appearance of a letter changes depending on its position: isolated, initial (joined on the left), medial (joined on both sides) and final (joined on the right) of a word.
+The names of the letter are mostly the ones used in Arabic except for the Persian pronunciation. The only ambiguous name is , which is used for both and . For clarification, they are often called or (literally "-like " after , the name for the letter that uses the same base form) and or (literally "two-eyed ", after the contextual middle letterform ), respectively.
+OVERVIEW TABLE
+DIN 31635
+!rowspan="2" IPA
+!rowspan="2" Unicode
+LETTERS THAT DO NOT LINK TO A FOLLOWING LETTER
+Section::::Letters that do not link to a following letter.
+Seven letters (, , , , , , ) do not connect to a following letter, unlike the rest of the letters of the alphabet. The seven letters have the same form in isolated and initial position and a second form in medial and final position. For example, when the letter is at the beginning of a word such as ("here"), the same form is used as in an isolated . In the case of ("today"), the letter takes the final form and the letter takes the isolated form, but they are in the middle of the word, and also has its isolated form, but it occurs at the end of the word.
+DIACRITICS
+Section::::Diacritics.
+Persian script has adopted a subset of Arabic diacritics: zebar ( in Arabic), zir ( in Arabic), and pish or ( in Arabic, pronounced zamme in Western Persian), tanwīn e nasb and shadda (gemination). Other Arabic diacritics may be seen in Arabic loanwords.
+SHORT VOWELS
+Section::::Short vowels.
+Of the four Arabic short vowels, the Persian language has adopted the following three. The last one, sukūn, is not adopted. 
+!Short vowels(fully vocalized text)
+!Name(in Persian)
+!Name(transliterated)
+!Trans.
+!Value
+/
+ ;  
+/
+ ;  
+ ;  
+/
+ ;  
+ ;  
+In Iranian Persian, none of these short vowels may be the initial or final grapheme in an isolated word, although they may appear in the final position as an inflection, when the word is part of a noun group. In a word that starts with a vowel, the first grapheme is a silent alef which carries the short vowel, e.g. (omid, meaning "hope"). In a word that ends with a vowel, letters , and respectively become the proxy letters for zebar, zir and pish, e.g. نو (no, meaning "new") or بسته (bas-teh, meaning "package").
+TANVIN (NUNATION)
+Section::::Tanvin (nunation).
+!Nunation(fully vocalizedIslamic nations to
+complement Quran
+TASHDID
+Section::::Tashdid.
+!Nunation(fully vocalized
+OTHER CHARACTERS
+Section::::Other characters.
+The following are not actual letters but different orthographical shapes for letters, a ligature in the case of the . As to (hamza), it has only one graphic since it is never tied to a preceding or following letter. However, it is sometimes 'seated' on a vâv, ye or alef, and in that case, the seat behaves like an ordinary vâv, ye or alef respectively. Technically, hamza is not a letter but a diacritic.
+! Name
+! Pronunciation
+! IPA
+NOVEL LETTERS
+DEVIATIONS FROM THE ARABIC SCRIPT
+Section::::Deviations from the Arabic script.
+The shapes of the Persian digits four (), five (), and six () are different from the shapes used in Arabic and the other numbers have different codepoints.
+! Name !! Persian !! Unicode !! Arabic !! Unicode
+WORD BOUNDARIES
+Section::::Word boundaries.
+Typically, words are separated from each other by a space. Certain morphemes (such as the plural ending '-hâ'), however, are written without a space. On a computer, they are separated from the word using the zero-width non-joiner.
+SEE ALSO
+* Scripts used for Persian
+* Persian braille
+* Nastaʿlīq, used to write Persian before the 20th century
+* Fingilish
+REFERENCES
+EXTERNAL LINKS
+* Dastoor e khat - The Official document in Persian by Academy of Persian Language and Literature

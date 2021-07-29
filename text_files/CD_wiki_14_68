@@ -1,0 +1,69 @@
+
+WATER SPLITTING
+Water splitting is the chemical reaction in which water is broken down into oxygen and hydrogen:
+Efficient and economical photochemical water splitting would be a technological breakthrough that could underpin a hydrogen economy. A version of water splitting occurs in photosynthesis, but hydrogen is not produced. No practical version of water splitting has been demonstrated, but the two component reactions (H production and O production) are well known. The reverse of water splitting is the basis of the hydrogen fuel cell.
+ELECTROLYSIS
+Section::::Electrolysis.
+Electrolysis of water is the decomposition of water (HO) into oxygen (O) and hydrogen (H) due to an electric current being passed through the water. 
+* Vion, , "Improved method of using atmospheric electricity", June 1860.
+In power to gas production schemes, the excess power or off peak power created by wind generators or solar arrays is used for load balancing of the energy grid by storing and later injecting the hydrogen into the natural gas grid.
+Production of hydrogen from water is energy intensive. Potential electrical energy supplies include hydropower, wind turbines, or photovoltaic cells. Usually, the electricity consumed is more valuable than the hydrogen produced so this method has not been widely used. In contrast with low-temperature electrolysis, high-temperature electrolysis (HTE) of water converts more of the initial heat energy into chemical energy (hydrogen), potentially doubling efficiency to about 50%. Because some of the energy in HTE is supplied in the form of heat, less of the energy must be converted twice (from heat to electricity, and then to chemical form), and so the process is more efficient.
+WATER SPLITTING IN PHOTOSYNTHESIS
+Section::::Water splitting in photosynthesis.
+A version of water splitting occurs in photosynthesis, but the electrons are shunted, not to protons, but to the electron transport chain in photosystem II. The electrons are used to convert carbon dioxide into sugars.
+When photosystem I gets photo-excited, electron transfer reactions gets initiated, which results in reduction of a series of electron acceptors, eventually reducing NADP to NADPH and PS I is oxidized. The oxidized photosystem I captures electrons from photosystem II through a series of steps involving agents like plastoquinone, cytochromes and plastocyanine. The photosystem II then brings about water oxidation resulting in evolution of oxygen, the reaction being catalyzed by CaMnO clusters embedded in complex protein environment; the complex is known as oxygen evolving complex (OEC).
+In biological hydrogen production, the electrons produced by the photosystem are shunted not to a chemical synthesis apparatus but to hydrogenases, resulting in formation of H. This biohydrogen is produced in an bioreactor.
+PHOTOELECTROCHEMICAL WATER SPLITTING
+Section::::Photoelectrochemical water splitting.
+Using electricity produced by photovoltaic systems potentially offers the cleanest way to produce hydrogen, other than nuclear, wind, geothermal, and hydroelectric. Again, water is broken down into hydrogen and oxygen by electrolysis, but the electrical energy is obtained by a photoelectrochemical cell (PEC) process. The system is also named artificial photosynthesis.
+PHOTOCATALYTIC WATER SPLITTING
+Section::::Photocatalytic water splitting.
+The conversion of solar energy to hydrogen by means of water splitting process is one of the most interesting ways to achieve clean and renewable energy. However, if this process is assisted by photocatalysts suspended directly in water rather than a photovoltaic or an electrolytic system, the reaction takes place in one step, it therefore can be more efficient.
+RADIOLYSIS
+Section::::Radiolysis.
+Nuclear radiation routinely breaks water bonds, in the Mponeng gold mine, South Africa, researchers found in a naturally high radiation zone, a community dominated by a new phylotype of Desulfotomaculum, feeding on primarily radiolytically produced H. Spent nuclear fuel/"nuclear waste" is also being looked at as a potential source of hydrogen.
+THERMAL DECOMPOSITION OF WATER
+Section::::Thermal decomposition of water.
+In thermolysis, water molecules split into their atomic components hydrogen and oxygen. For example, at 2200 °C about three percent of all HO are dissociated into various combinations of hydrogen and oxygen atoms, mostly H, H, O, O, and OH. Other reaction products like HO or HO remain minor. At the very high temperature of 3000 °C more than half of the water molecules are decomposed, but at ambient temperatures only one molecule in 100 trillion dissociates by the effect of heat. The high temperatures and material constraints have limited the applications of this approach.
+NUCLEAR-THERMAL
+Section::::Nuclear-thermal.
+Some prototype Generation IV reactors, such as the High-temperature engineering test reactor, operate at 850 to 1000 degrees Celsius, considerably hotter than existing commercial nuclear power plants. General Atomics predicts that hydrogen produced in a High Temperature Gas Cooled Reactor (HTGR) would cost $1.53/kg. In 2003, steam reforming of natural gas yielded hydrogen at $1.40/kg. At gas prices, hydrogen cost $2.70/kg. Hence, just within the United States, a savings of tens of billions of dollars per year is possible with a nuclear-powered supply. Much of this savings would translate into reduced oil and natural gas imports.
+One side benefit of a nuclear reactor that produces both electricity and hydrogen is that it can shift production between the two. For instance, the plant might produce electricity during the day and hydrogen at night, matching its electrical generation profile to the daily variation in demand. If the hydrogen can be produced economically, this scheme would compete favorably with existing grid energy storage schemes. What is more, there is sufficient hydrogen demand in the United States that all daily peak generation could be handled by such plants.
+The hybrid thermoelectric Copper-chlorine cycle is a cogeneration system using the waste heat from nuclear reactors, specifically the CANDU supercritical water reactor.
+SOLAR-THERMAL
+Section::::Solar-thermal.
+The high temperatures necessary to split water can be achieved through the use of concentrating solar power. Hydrosol-2 is a 100-kilowatt pilot plant at the Plataforma Solar de Almería in Spain which uses sunlight to obtain the required 800 to 1,200 °C to split water. Hydrosol II has been in operation since 2008. The design of this 100-kilowatt pilot plant is based on a modular concept. As a result, it may be possible that this technology could be readily scaled up to megawatt range by multiplying the available reactor units and by connecting the plant to heliostat fields (fields of sun-tracking mirrors) of a suitable size.
+Material constraints due to the required high temperatures are reduced by the design of a membrane reactor with simultaneous extraction of hydrogen and oxygen that exploits a defined thermal gradient and the fast diffusion of hydrogen. With concentrated sunlight as heat source and only water in the reaction chamber, the produced gases are very clean with the only possible contaminant being water. A "Solar Water Cracker" with a concentrator of about 100 m² can produce almost one kilogram of hydrogen per sunshine hour.
+RESEARCH
+Section::::Research.
+Research is being conducted over photocatalysis, the acceleration of a photoreaction in the presence of a catalyst. Its comprehension has been made possible ever since the discovery of water electrolysis by means of the titanium dioxide. Artificial photosynthesis is a research field that attempts to replicate the natural process of photosynthesis, converting sunlight, water and carbon dioxide into carbohydrates and oxygen. Recently, this has been successful in splitting water into hydrogen and oxygen using an artificial compound called Nafion.
+High-temperature electrolysis (also HTE or steam electrolysis) is a method currently being investigated for the production of hydrogen from water with oxygen as a by-product. Other research includes thermolysis on defective carbon substrates, thus making hydrogen production possible at temperatures just under 1000 °C.
+The iron oxide cycle is a series of thermochemical processes used to produce hydrogen. The iron oxide cycle consists of two chemical reactions whose net reactant is water and whose net products are hydrogen and oxygen. All other chemicals are recycled. The iron oxide process requires an efficient source of heat.
+The sulfur-iodine cycle (S-I cycle) is a series of thermochemical processes used to produce hydrogen. The S-I cycle consists of three chemical reactions whose net reactant is water and whose net products are hydrogen and oxygen. All other chemicals are recycled. The S-I process requires an efficient source of heat.
+More than 352 thermochemical cycles have been described for water splitting or thermolysis., These cycles promise to produce hydrogen oxygen from water and heat without using electricity. Since all the input energy for such processes is heat, they can be more efficient than high-temperature electrolysis. This is because the efficiency of electricity production is inherently limited. Thermochemical production of hydrogen using chemical energy from coal or natural gas is generally not considered, because the direct chemical path is more efficient.
+For all the thermochemical processes, the summary reaction is that of the decomposition of water:
+All other reagents are recycled. None of the thermochemical hydrogen production processes have been demonstrated at production levels, although several have been demonstrated in laboratories.
+There is also research into the viability of nanoparticles and catalysts to lower the temperature at which water splits.
+Recently Metal-Organic Framework (MOF)-based materials have been shown to be a highly promising candidate for water splitting with cheap, first row transition metals.;
+Research is concentrated on the following cycles:
+!Thermochemical cycle !! LHV Efficiency !! Temperature (°C/F)
+Cerium(IV) oxide-cerium(III) oxide cycle (CeO/CeO) ? %
+Hybrid sulfur cycle (HyS) 43%
+Sulfur iodine cycle (S-I cycle) 38%
+Cadmium sulfate cycle 46%
+Barium sulfate cycle 39%
+Manganese sulfate cycle 35%
+Zinc zinc-oxide cycle (Zn/ZnO) 44%
+Hybrid cadmium cycle 42%
+Cadmium carbonate cycle 43%
+Iron oxide cycle (Fe3O4/FeO)42%
+Sodium manganese cycle 49%
+Nickel manganese ferrite cycle 43%
+Zinc manganese ferrite cycle 43%
+Copper-chlorine cycle (Cu-Cl) 41%
+SEE ALSO
+* Photocatalytic water splitting
+* Water gas shift reaction
+REFERENCES
+EXTERNAL LINKS
+* JEAC

@@ -1,0 +1,55 @@
+
+FITNESS (BIOLOGY)
+Fitness (often denoted formula_1 or ω in population genetics models) is the quantitative representation of natural and sexual selection within evolutionary biology. It can be defined either with respect to a genotype or to a phenotype in a given environment. In either case, it describes individual reproductive success and is equal to the average contribution to the gene pool of the next generation that is made by individuals of the specified genotype or phenotype. The fitness of a genotype is manifested through its phenotype, which is also affected by the developmental environment. The fitness of a given phenotype can also be different in different selective environments.
+With asexual reproduction, it is sufficient to assign fitnesses to genotypes. With sexual reproduction, genotypes are scrambled every generation. In this case, fitness values can be assigned to alleles by averaging over possible genetic backgrounds. Natural selection tends to make alleles with higher fitness more common over time, resulting in Darwinian evolution.
+The term "Darwinian fitness" can be used to make clear the distinction with physical fitness. Fitness does not include a measure of survival or life-span; Herbert Spencer's well-known phrase "survival of the fittest" should be interpreted as: "Survival of the form (phenotypic or genotypic) that will leave the most copies of itself in successive generations."
+Inclusive fitness differs from individual fitness by including the ability of an allele in one individual to promote the survival and/or reproduction of other individuals that share that allele, in preference to individuals with a different allele. One mechanism of inclusive fitness is kin selection.
+FITNESS IS A PROPENSITY
+Section::::Fitness is a propensity.
+Fitness is often defined as a propensity or probability, rather than the actual number of offspring. For example, according to Maynard Smith, "Fitness is a property, not of an individual, but of a class of individuals — for example homozygous for allele A at a particular locus. Thus the phrase 'expected number of offspring' means the average number, not the number produced by some one individual. If the first human infant with a gene for levitation were struck by lightning in its pram, this would not prove the new genotype to have low fitness, but only that the particular child was unlucky." 
+Alternatively, "the fitness of the individual - having an array x of phenotypes — is the probability, s(x), that the individual will be included among the group selected as parents of the next generation."
+MODELS OF FITNESS: ASEXUALS
+Section::::Models of fitness: asexuals.
+To avoid the complications of sex and recombination, we initially restrict our attention to an asexual population without genetic recombination. Then fitnesses can be assigned directly to genotypes rather than having to worry about individual alleles. There are two commonly used measures of fitness; absolute fitness and relative fitness.
+ABSOLUTE FITNESS
+Section::::Absolute fitness.
+The absolute fitness (formula_2) of a genotype is defined as the proportional change in the abundance of that genotype over one generation attributable to selection. For example, if formula_3 is the abundance of a genotype in generation formula_4 in an infinitely large population (so that there is no genetic drift), and neglecting the change in genotype abundances due to mutations, then 
+An absolute fitness larger than 1 indicates growth in that genotype's abundance; an absolute fitness smaller than 1 indicates decline.
+RELATIVE FITNESS
+Section::::Relative fitness.
+Whereas absolute fitness determines changes in genotype abundance, relative fitness (formula_1) determines changes in genotype frequency. If formula_7 is the total population size in generation formula_4, and the relevant genotype's frequency is formula_9, then 
+where formula_11 is the mean relative fitness in the population (again setting aside changes in frequency due to drift and mutation). Relative fitnesses only indicate the change in prevalence of different genotypes relative to each other, and so only their values relative to each other are important; relative fitnesses can be any nonnegative number, including 0. It is often convenient to choose one genotype as a reference and set its relative fitness to 1. Relative fitness is used in the standard Wright-Fisher and Moran models of population genetics.
+Absolute fitnesses can be used to calculate relative fitness, since formula_12 (we have used the fact that formula_13, where formula_14 is the mean absolute fitness in the population). This implies that formula_15, or in other words, relative fitness is proportional to formula_16. It is not possible to calculate absolute fitnesses from relative fitnesses alone, since relative fitnesses contain no information about changes in overall population abundance formula_7.
+CHANGE IN GENOTYPE FREQUENCIES DUE TO SELECTION
+Section::::Change in genotype frequencies due to selection.
+The change in genotype frequencies due to selection follows immediately from the definition of relative fitness,
+Thus, a genotype's frequency will decline or increase depending on whether its fitness is lower or greater than the mean fitness, respectively.
+In the particular case that there are only two genotypes of interest (e.g. representing the invasion of a new mutant allele), the change in genotype frequencies is often written in a different form. Suppose that two genotypes formula_19 and formula_20 have fitnesses formula_21 and formula_22, and frequencies formula_23 and formula_24, respectively. Then formula_25, and so
+Thus, the change in genotype formula_27's frequency depends crucially on the difference between its fitness and the fitness of genotype formula_28. Supposing that formula_27 is more fit than formula_28, and defining the selection coefficient formula_31 by formula_32, we obtain
+where the last approximation hold for formula_34. In other words, the fitter genotype's frequency grows approximately logistically.
+HISTORY
+Section::::History.
+The British sociologist Herbert Spencer coined the phrase "survival of the fittest" in his 1864 work Principles of Biology to characterise what Charles Darwin had called natural selection.
+The British biologist J.B.S. Haldane was the first to quantify fitness, in terms of the modern evolutionary synthesis of Darwinism and Mendelian genetics starting with his 1924 paper A Mathematical Theory of Natural and Artificial Selection. The next further advance was the introduction of the concept of inclusive fitness by the British biologist W.D. Hamilton in 1964 in his paper on The Genetical Evolution of Social Behaviour.
+GENETIC LOAD
+Section::::Genetic load.
+Genetic load measures the average fitness of a population of individuals, relative either to a theoretical genotype of optimal fitness, or relative to the most fit genotype actually present in the population. Consider n genotypes formula_35, which have the fitnesses formula_36 and the genotype frequencies formula_37 respectively. Ignoring frequency-dependent selection, then genetic load (formula_38) may be calculated as:
+Genetic load may increase when deleterious mutations, migration, inbreeding, or outcrossing lower mean fitness. Genetic load may also increase when beneficial mutations increase the maximum fitness against which other mutations are compared; this is known as the substitutional load or cost of selection.
+SEE ALSO
+* Gene-centered view of evolution
+* Inclusive fitness
+* Lineage selection
+* Natural selection
+* Reproductive success
+* Selection coefficient
+* Universal Darwinism
+NOTES AND REFERENCES
+BIBLIOGRAPHY
+* Sober, E. (2001). The Two Faces of Fitness. In R. Singh, D. Paul, C. Krimbas, and J. Beatty (Eds.), Thinking about Evolution: Historical, Philosophical, and Political Perspectives. Cambridge University Press, pp. 309–321. Full text
+* {{cite journal author=Orr HA title=Fitness and its role in evolutionary genetics journal=Nat. Rev. Genet. volume=10 issue=8 pages=531–9 date=August 2009 pmid=19546856 doi=10.1038/nrg2603 pmc=2753274}}
+EXTERNAL LINKS
+* Video: Using fitness landscapes to visualize evolution in action 
+* BEACON Blog--Evolution 101: Fitness Landscapes
+* Pleiotrophy Blog--an interesting discussion of Sergey Gavrilets's contributions
+* Evolution A-Z: Fitness
+* Stanford Encyclopedia of Philosophy entry

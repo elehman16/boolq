@@ -1,0 +1,81 @@
+
+TERMINAL VELOCITY
+Terminal velocity is the highest velocity attainable by an object as it falls through a fluid (air is the most common example). It occurs when the sum of the drag force (F) and the buoyancy is equal to the downward force of gravity (F) acting on the object. Since the net force on the object is zero, the object has zero acceleration.
+In fluid dynamics, an object is moving at its terminal velocity if its speed is constant due to the restraining force exerted by the fluid through which it is moving.
+As the speed of an object increases, so does the drag force acting on it, which also depends on the substance it is passing through (for example air or water). At some speed, the drag or force of resistance will equal the gravitational pull on the object (buoyancy is considered below). At this point the object ceases to accelerate and continues falling at a constant speed called the terminal velocity (also called settling velocity). An object moving downward faster than the terminal velocity (for example because it was thrown downwards, it fell from a thinner part of the atmosphere, or it changed shape) will slow down until it reaches the terminal velocity. Drag depends on the projected area, here, the object's cross-section or silhouette in a horizontal plane. An object with a large projected area relative to its mass, such as a parachute, has a lower terminal velocity than one with a small projected area relative to its mass, such as a bullet.
+EXAMPLES
+Section::::Examples.
+Based on wind resistance, for example, the terminal speed of a skydiver in a belly-to-earth (i.e., face down) free fall position is about . This speed is the asymptotic limiting value of the speed, and the forces acting on the body balance each other more and more closely as the terminal speed is approached. In this example, a speed of 50% of terminal speed is reached after only about 3 seconds, while it takes 8 seconds to reach 90%, 15 seconds to reach 99% and so on.
+Higher speeds can be attained if the skydiver pulls in his or her limbs (see also freeflying). In this case, the terminal speed increases to about 320 km/h (200 mph or 90 m/s), which is almost the terminal speed of the peregrine falcon diving down on its prey. The same terminal speed is reached for a typical .30-06 bullet dropping downwards—when it is returning to the ground having been fired upwards, or dropped from a tower—according to a 1920 U.S. Army Ordnance study.
+Competition speed skydivers fly in a head-down position and can reach speeds of ; the current record is held by Felix Baumgartner who jumped from a height of and reached , though he achieved this speed at high altitude, where extremely thin air presents less drag force.
+The biologist J. B. S. Haldane wrote, 
+PHYSICS
+Section::::Physics.
+Using mathematical terms, terminal speed—without considering buoyancy effects—is given by
+where
+* formula_2 represents terminal velocity,
+* formula_3 is the mass of the falling object,
+* formula_4 is the acceleration due to gravity,
+* formula_5 is the drag coefficient,
+* formula_6 is the density of the fluid through which the object is falling, and
+* formula_7 is the projected area of the object.
+In reality, an object approaches its terminal speed asymptotically.
+Buoyancy effects, due to the upward force on the object by the surrounding fluid, can be taken into account using Archimedes' principle: the mass formula_3 has to be reduced by the displaced fluid mass formula_9, with formula_10 the volume of the object. So instead of formula_3 use the reduced mass formula_12 in this and subsequent formulas.
+The terminal speed of an object changes due to the properties of the fluid, the mass of the object and its projected cross-sectional surface area.
+Air density increases with decreasing altitude, at about 1% per (see barometric formula). For objects falling through the atmosphere, for every of fall, the terminal speed decreases 1%. After reaching the local terminal velocity, while continuing the fall, speed decreases to change with the local terminal speed.
+DERIVATION FOR TERMINAL VELOCITY
+Section::::Derivation for terminal velocity.
+Using mathematical terms, defining down to be positive, the net force acting on an object falling near the surface of Earth is (according to the drag equation):
+with v(t) the velocity of the object as a function of time t.
+At equilibrium, the net force is zero (F = 0) and the velocity becomes the terminal velocity :
+Solving for V yields
+!Derivation of the solution for the velocity v as a function of time t
+The drag equation is—assuming ρ, g and C to be constants:
+Although this is a Riccati equation that can be solved by reduction to a second-order linear differential equation, it is easier to separate variables.
+A more practical form of this equation can be obtained by making the substitution .
+Dividing both sides by m gives
+The equation can be re-arranged into
+Taking the integral of both sides yields
+After integration, this becomes
+or in simpler a form
+with arctanh the inverse hyperbolic tangent function.
+Alternatively,
+with tanh the hyperbolic tangent function. Assuming that g is positive (which it was defined to be), and substituting α back in, the speed v becomes
+As time tends to infinity ( t → ∞ ), the hyperbolic tangent tends to 1, resulting in the terminal speed
+TERMINAL SPEED IN A CREEPING FLOW
+Section::::Terminal speed in a creeping flow.
+For very slow motion of the fluid, the inertia forces of the fluid are negligible (assumption of massless fluid) in comparison to other forces. Such flows are called creeping flows and the condition to be satisfied for the flows to be creeping flows is the Reynolds number, formula_25. The equation of motion for creeping flow (simplified Navier–Stokes equation) is given by
+where
+* formula_27 is the fluid velocity vector field,
+* formula_28 is the fluid pressure field,
+* formula_29 is the liquid\fluid viscosity.
+The analytical solution for the creeping flow around a sphere was first given by Stokes in 1851. From Stokes' solution, the drag force acting on the sphere can be obtained as
+where the Reynolds number, formula_31. The expression for the drag force given by equation (6) is called Stokes' law.
+When the value of formula_5 is substituted in the equation (5), we obtain the expression for terminal speed of a spherical object moving under creeping flow conditions:
+APPLICATIONS
+Section::::Applications.
+The creeping flow results can be applied in order to study the settling of sediments near the ocean bottom and the fall of moisture drops in the atmosphere. The principle is also applied in the falling sphere viscometer, an experimental device used to measure the viscosity of highly viscous fluids, for example oil, paraffin, tar etc.
+TERMINAL VELOCITY IN THE PRESENCE OF BUOYANCY FORCE
+Section::::Terminal velocity in the presence of buoyancy force.
+When the buoyancy effects are taken into account, an object falling through a fluid under its own weight can reach a terminal velocity (settling velocity) if the net force acting on the object becomes zero. When the terminal velocity is reached the weight of the object is exactly balanced by the upward buoyancy force and drag force. That is
+where
+* formula_35 = weight of the object,
+* formula_36 = buoyancy force acting on the object, and
+* formula_37 = drag force acting on the object.
+If the falling object is spherical in shape, the expression for the three forces are given below:
+where
+* formula_39 is the diameter of the spherical object,
+* formula_4 is the gravitational acceleration,
+* formula_6 is the density of the fluid,
+* formula_42 is the density of the object,
+* formula_43 is the projected area of the sphere,
+* formula_5 is the drag coefficient, and
+* formula_10 is the characteristic velocity (taken as terminal velocity, formula_46).
+Substitution of equations (2–4) in equation (1) and solving for terminal velocity, formula_2 to yield the following expression
+SEE ALSO
+* Stokes's law
+* Terminal ballistics
+REFERENCES
+EXTERNAL LINKS
+* Terminal Velocity - NASA site
+* Onboard video of Space Shuttle Solid Rocket Boosters rapidly decelerating to terminal velocity on entry to the thicker atmosphere, from at 5:15 in the video, to 220 mph at 6:45 when the parachutes are deployed 90 seconds later—NASA video and sound, @ io9.com.

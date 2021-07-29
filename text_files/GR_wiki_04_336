@@ -1,0 +1,79 @@
+
+FIREWALL (COMPUTING)
+In computing, a firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. A firewall typically establishes a barrier between a trusted internal network and untrusted external network, such as the Internet.
+Firewalls are often categorized as either network firewalls or host-based firewalls. Network firewalls filter traffic between two or more networks and run on network hardware. Host-based firewalls run on host computers and control network traffic in and out of those machines.
+HISTORY
+Section::::History.
+The term firewall originally referred to a wall intended to confine a fire within a building. Later uses refer to similar structures, such as the metal sheet separating the engine compartment of a vehicle or aircraft from the passenger compartment. The term was applied in the late 1980s to network technology that emerged when the Internet was fairly new in terms of its global use and connectivity. The predecessors to firewalls for network security were the routers used in the late 1980s.
+FIRST GENERATION: PACKET FILTERS
+Section::::First generation: packet filters.
+The first reported type of network firewall is called a packet filter. Packet filters act by inspecting packets transferred between computers. When a packet does not match the packet filter's set of filtering rules, the packet filter either drops (silently discards) the packet, or rejects the packet (discards it and generate an Internet Control Message Protocol notification for the sender) else it is allowed to pass. Packets may be filtered by source and destination network addresses, protocol, source and destination port numbers. The bulk of Internet communication in 20th and early 21st century used either Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) in conjunction with well-known ports, enabling firewalls of that era to distinguish between, and thus control, specific types of traffic (such as web browsing, remote printing, email transmission, file transfer), unless the machines on each side of the packet filter used the same non-standard ports.
+The first paper published on firewall technology was in 1988, when engineers from Digital Equipment Corporation (DEC) developed filter systems known as packet filter firewalls. At AT&T Bell Labs, Bill Cheswick and Steve Bellovin continued their research in packet filtering and developed a working model for their own company based on their original first generation architecture.
+SECOND GENERATION: STATEFUL FILTERS
+Section::::Second generation: stateful filters.
+From 1989–1990, three colleagues from AT&T Bell Laboratories, Dave Presotto, Janardan Sharma, and Kshitij Nigam, developed the second generation of firewalls, calling them circuit-level gateways.
+Second-generation firewalls perform the work of their first-generation predecessors but operate up to layer 4 (transport layer) of the OSI model. This is achieved by retaining packets until enough information is available to make a judgment about its state.
+This type of firewall is potentially vulnerable to denial-of-service attacks that bombard the firewall with fake connections in an attempt to overwhelm the firewall by filling its connection state memory.
+THIRD GENERATION: APPLICATION LAYER
+Section::::Third generation: application layer.
+Marcus Ranum, Wei Xu, and Peter Churchyard developed an application firewall known as Firewall Toolkit (FWTK). In June 1994, Wei Xu extended the FWTK with the kernel enhancement of IP filter and socket transparent. This was known as the first transparent application firewall, released as a commercial product of Gauntlet firewall at Trusted Information Systems. Gauntlet firewall was rated one of the top firewalls during 1995–1998.
+The key benefit of application layer filtering is that it can "understand" certain applications and protocols (such as File Transfer Protocol (FTP), Domain Name System (DNS), or Hypertext Transfer Protocol (HTTP)). This is useful as it is able to detect if an unwanted application or service is attempting to bypass the firewall using a protocol on an allowed port, or detect if a protocol is being abused in any harmful way.
+As of 2012, the so-called next-generation firewall (NGFW) is nothing more than the "wider" or "deeper" inspection at the application layer. For example, the existing deep packet inspection functionality of modern firewalls can be extended to include:
+* Intrusion prevention systems (IPS)
+* User identity management integration (by binding user IDs to IP or MAC addresses for "reputation")
+* Web application firewall (WAF). WAF attacks may be implemented in the tool "WAF Fingerprinting utilizing timing side channels" (WAFFle)
+TYPES
+Section::::Types.
+Firewalls are generally categorized as network-based or host-based. Network-based firewalls are positioned on the gateway computers of LANs, WANs and intranets. They are either software appliances running on general-purpose hardware, or hardware-based firewall computer appliances. Firewall appliances may also offer other functionality to the internal network they protect, such as acting as a DHCP or VPN server for that network. Host-based firewalls are positioned on the network node itself and control network traffic in and out of those machines. The host-based firewall may be a daemon or service as a part of the operating system or an agent application such as endpoint security or protection. Each has advantages and disadvantages. However, each has a role in layered security.
+Firewalls also vary in type depending on where communication originates, where it is intercepted, and the state of communication being traced.
+NETWORK LAYER OR PACKET FILTERS
+Section::::Network layer or packet filters.
+Network layer firewalls, also called packet filters, operate at a relatively low level of the TCP/IP protocol stack, not allowing packets to pass through the firewall unless they match the established rule set. The firewall administrator may define the rules; or default rules may apply. The term "packet filter" originated in the context of BSD operating systems.
+Network layer firewalls generally fall into two sub-categories, stateful and stateless.
+Commonly used packet filters on various versions of Unix are ipfw (FreeBSD, Mac OS X (< 10.7)), NPF (NetBSD), PF (Mac OS X (> 10.4), OpenBSD, and some other BSDs), iptables/ipchains (Linux) and IPFilter.
+APPLICATION-LAYER
+Section::::Application-layer.
+Application-layer firewalls work on the application level of the TCP/IP stack (i.e., all browser traffic, or all telnet or FTP traffic), and may intercept all packets traveling to or from an application.
+Application firewalls function by determining whether a process should accept any given connection. Application firewalls accomplish their function by hooking into socket calls to filter the connections between the application layer and the lower layers of the OSI model. Application firewalls that hook into socket calls are also referred to as socket filters. Application firewalls work much like a packet filter but application filters apply filtering rules (allow/block) on a per process basis instead of filtering connections on a per port basis. Generally, prompts are used to define rules for processes that have not yet received a connection. It is rare to find application firewalls not combined or used in conjunction with a packet filter.
+Also, application firewalls further filter connections by examining the process ID of data packets against a rule set for the local process involved in the data transmission. The extent of the filtering that occurs is defined by the provided rule set. Given the variety of software that exists, application firewalls only have more complex rule sets for the standard services, such as sharing services. These per-process rule sets have limited efficacy in filtering every possible association that may occur with other processes. Also, these per-process rule sets cannot defend against modification of the process via exploitation, such as memory corruption exploits. Because of these limitations, application firewalls are beginning to be supplanted by a new generation of application firewalls that rely on mandatory access control (MAC), also referred to as sandboxing, to protect vulnerable services.
+PROXIES
+Section::::Proxies.
+A proxy server (running either on dedicated hardware or as software on a general-purpose machine) may act as a firewall by responding to input packets (connection requests, for example) in the manner of an application, while blocking other packets. A proxy server is a gateway from one network to another for a specific network application, in the sense that it functions as a proxy on behalf of the network user.
+Proxies make tampering with an internal system from the external network more difficult, so that misuse of one internal system would not necessarily cause a security breach exploitable from outside the firewall (as long as the application proxy remains intact and properly configured). Conversely, intruders may hijack a publicly reachable system and use it as a proxy for their own purposes; the proxy then masquerades as that system to other internal machines. While use of internal address spaces enhances security, crackers may still employ methods such as IP spoofing to attempt to pass packets to a target network.
+NETWORK ADDRESS TRANSLATION
+Section::::Network address translation.
+Firewalls often have network address translation (NAT) functionality, and the hosts protected behind a firewall commonly have addresses in the "private address range", as defined in RFC 1918. Firewalls often have such functionality to hide the true address of computer which is connected to the network. Originally, the NAT function was developed to address the limited number of IPv4 routable addresses that could be used or assigned to companies or individuals as well as reduce both the amount and therefore cost of obtaining enough public addresses for every computer in an organization. Although NAT on its own is not considered a security feature, hiding the addresses of protected devices has become an often used defense against network reconnaissance.
+SEE ALSO
+* Access control list
+* Air gap (networking)
+* Bastion host
+* Comparison of firewalls
+* Computer security
+* De-perimeterisation
+* Distributed firewall
+* Egress filtering
+* End-to-end principle
+* Firewall pinhole
+* Firewalls and Internet Security
+* Golden Shield Project
+* Guard (information security)
+* Identity-based security
+* IP fragmentation attacks
+* List of Unix-like router or firewall distributions
+* Mangled packet
+* Next-Generation Firewall
+* Personal firewall
+* Screened subnet
+* Unidirectional network
+* Virtual firewall
+* Vulnerability scanner
+* Windows Firewall
+REFERENCES
+EXTERNAL LINKS
+* Internet Firewalls: Frequently Asked Questions, compiled by Matt Curtin, Marcus Ranum and Paul Robertson.
+* Firewalls Aren't Just About Security – Cyberoam Whitepaper focusing on Cloud Applications Forcing Firewalls to Enable Productivity.
+* Evolution of the Firewall Industry – Discusses different architectures and their differences, how packets are processed, and provides a timeline of the evolution.
+* A History and Survey of Network Firewalls – provides an overview of firewalls at the various ISO levels, with references to the original papers where first firewall work was reported.
+* Software Firewalls: Made of Straw? Part 1 and Software Firewalls: Made of Straw? Part 2 – a technical view on software firewall design and potential weaknesses
+* Why the Future of Firewall Security will be Context-Based – GajShield Whitepaper providing an insight on how Context based security will empower the future of firewall security.
+* Internet Firewalls: Frequently Asked Questions, compiled by Matt Curtin, Marcus Ranum and Paul Robertson.

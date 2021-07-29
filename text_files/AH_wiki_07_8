@@ -1,0 +1,178 @@
+
+POSTAL CODE
+A postal code (also known locally in various English-speaking countries throughout the world as a postcode, post code, Eircode, PIN code or ZIP code) is a series of letters or digits or both, sometimes including spaces or punctuation, included in a postal address for the purpose of sorting mail.
+In February 2005, 117 of the 190 member countries of the Universal Postal Union had postal code systems.
+Although postal codes are usually assigned to geographical areas, special codes are sometimes assigned to individual addresses or to institutions that receive large volumes of mail, such as government agencies and large commercial companies. One example is the French CEDEX system.
+TERMS
+Section::::Terms.
+There are a number of synonyms for postal code; some are country-specific.
+* CAP: The standard term in Italy; CAP is an acronym for codice di avviamento postale (postal expedition code).
+* CEP: The standard term in Brazil; CEP is an acronym for código de endereçamento postal (postal addressing code).
+* Eircode: The standard term in Ireland.
+* NPA in French-speaking Switzerland (numéro postal d'acheminement) and Italian-speaking Switzerland (numero postale di avviamento).
+* PIN code / Pincode: The standard term in India; PIN is an acronym for postal index number.
+* PLZ: The standard term in Germany, Austria, German-speaking Switzerland and Liechtenstein; PLZ is an abbreviation of Postleitzahl (postal routing number).
+* Postal code: The general term is used in Canada.
+* Postcode: This solid compound is popular in many English-speaking countries and is also the standard term in the Netherlands.
+* ZIP code: The standard term in the United States and the Philippines; ZIP is an acronym for zone improvement plan.
+HISTORY
+Section::::History.
+The development of postal codes reflects the increasing complexity of postal delivery as populations grew and the built environment became more complex. This happened first in large cities. Postal codes began with postal district numbers (or postal zone numbers) within large cities. London was first subdivided into 10 districts in 1857, and Liverpool in 1864. By World War I, such postal district or zone numbers existed in various large European cities. They existed in the United States at least as early as the 1920s, possibly implemented at the local post office level only (for example, instances of "Boston 9, Mass" in 1920 are attested,) although they were evidently not used throughout all major US cities (implemented USPOD-wide) until World War II.
+By 1930 or earlier the idea of extending postal district or zone numbering plans beyond large cities to cover even small towns and rural locales was in the air. These developed into postal codes as they are defined today. The name of US postal codes, "ZIP codes", reflects this evolutionary growth from a zone plan to a zone improvement plan, "ZIP". Modern postal codes were first introduced in the Ukrainian Soviet Socialist Republic in December 1932, but the system was abandoned in 1939. The next country to introduce postal codes was Germany in 1941, followed by Singapore in 1950, Argentina in 1958, the United States in 1963 and Switzerland in 1964. The United Kingdom began introducing its current system in Norwich in 1959, but they were not used nationwide until 1974.
+PRESENTATION
+CHARACTER SETS
+Section::::Presentation.
+Section::::Character sets.
+The characters used in postal codes are
+* The Arabic numerals "0" to "9"
+* Letters of the ISO basic Latin alphabet
+* Spaces, hyphens
+RESERVED CHARACTERS
+Section::::Reserved characters.
+Postal codes in the Netherlands originally did not use the letters 'F', 'I', 'O', 'Q', 'U' and 'Y' for technical reasons. But as almost all existing combinations are now used, these letters were allowed for new locations starting 2005. The letter combinations "SS" (Schutzstaffel), "SD"(Sicherheitsdienst), and "SA" (Sturmabteilung) are not used for historical reasons.
+Postal codes in Canada do not include the letters D, F, I, O, Q, or U, as the optical character recognition (OCR) equipment used in automated sorting could easily confuse them with other letters and digits. The letters W and Z are used, but are not currently used as the first letter. The Canadian Postal Codes use alternate letters and numbers (with a space after the 3rd character) in this format: A9A 9A9
+In Ireland the eircode system uses the following letters only: A, C, D, E, F, H, K, N, P, R, T, V, W, X, Y. This serves two purposes:
+* to avoid confusion in OCR, and
+* it also helps to avoid accidental doubles-entendres by avoiding the creation of word look-alikes, as Eircode's last 4 characters are random.
+ALPHANUMERIC POSTAL CODES
+Section::::Alphanumeric postal codes.
+Most of the postal code systems are numeric; only a few are alphanumeric (i.e., use both letters and digits). Alphanumeric systems can, given the same number of characters, encode many more locations. For example, while a 2 digit numeric code can represent 100 locations, a 2 character alphanumeric code using ten numbers and twenty letters can represent 900 locations.
+The independent nations using alphanumeric postal code systems are:
+* Argentina (see table)
+* Brunei (see table)
+* Canada (see table)
+* Ireland (see table)
+* Jamaica (see postal codes in Jamaica) (suspended in 2007)
+* Kazakhstan (since 2015)
+* Malta (see table)
+* Netherlands (see table)
+* Peru (the postal code format in Peru was updated in February 2011 to be of the format of five digits)
+* Somalia
+* Swaziland
+* United Kingdom (see table)
+Countries which prefix their postal codes with a fixed group of letters, indicating a country code, include Andorra, Azerbaijan, Barbados, Ecuador and Saint Vincent and the Grenadines.
+COUNTRY CODE PREFIXES
+Section::::Country code prefixes.
+ISO 3166-1 alpha-2 country codes were recommended by the European Committee for Standardization as well as the Universal Postal Union to be used in conjunction with postal codes starting in 1994, but they have not become widely used.
+Andorra, Azerbaijan, Barbados, Ecuador, Latvia and Saint Vincent and the Grenadines use the ISO 3166-1 alpha-2 as a prefix in their postal codes.
+In some countries (such as in continental Europe, where a numeric postcode format of four or five digits is commonly used) the numeric postal code is sometimes prefixed with a country code when sending international mail to that country.
+PLACEMENT OF THE CODE
+Section::::Placement of the code.
+Postal services have their own formats and placement rules for postal codes. In most English-speaking countries, the postal code forms the last item of the address, following the city or town name, whereas in most continental European countries it precedes the name of the city or town.
+When it follows the city it may be on the same line or on a new line.
+In Belarus, Japan, Kyrgyzstan, Russia, Turkmenistan it is written at the beginning of an address.
+GEOGRAPHIC COVERAGE
+Section::::Geographic coverage.
+Postal codes are usually assigned to geographical areas. Sometimes codes are assigned to individual addresses or to institutions that receive large volumes of mail, e.g. government agencies or large commercial companies. One example is the French Cedex system.
+POSTAL ZONE NUMBERS
+Section::::Postal zone numbers.
+Before postal codes as described here were used, large cities were often divided into postal zones or postal districts, usually numbered from 1 upwards within each city. The newer postal code systems often incorporate the old zone numbers, as with London postal district numbers, for example. Ireland still uses postal district numbers in Dublin. In New Zealand, Auckland, Wellington and Christchurch were divided into postal zones, but these fell into disuse, and have now become redundant as a result of a new postcode system being introduced.
+CODES DEFINED ALONG ADMINISTRATIVE BORDERS
+Section::::Codes defined along administrative borders.
+Some postal code systems, like those of Ecuador and Costa Rica, show an exact agreement with the hierarchy of administrative country subdivisions.
+Format of 6 digit numeric (8 digit alphanumeric) postal codes in Ecuador, introduced in December 2007: ECAABBCC
+Format of 5 digit numeric Postal codes in Costa Rica, introduced in 2007: ABBCC
+In Costa Rica these codes are also used by the National Institute for Statistics and Census (INSEC).
+The first two digits of the postal codes in Turkey correspond to the provinces and each province has assigned only one number. They are the same for them as in .
+The first two digits of the postal codes in Vietnam indicate a province. Some provinces have one, other have several two digit numbers assigned. The numbers differ from the number used in .
+CODES DEFINED CLOSE TO ADMINISTRATIVE BOUNDARIES
+Section::::Codes defined close to administrative boundaries.
+In France the numeric code for the departments is used as the first two digits of the postal code, except for the two departments in Corsica that have codes 2A and 2B and use 20 as postal code. Furthermore, the codes are only the codes for the department in charge of delivery of the post, so it can be that a location in one department has a postal code starting with the number of a neighbouring department.
+CODES DEFINED INDIRECTLY TO ADMINISTRATIVE BORDERS
+Section::::Codes defined indirectly to administrative borders.
+The first digit of the postal codes in the United States defines an area including several states. From the first three digits (with some exceptions), one can deduce the state.
+Similarly, in Canada, the first letter indicates the province or territory, although the provinces of Quebec and Ontario are divided into several lettered sub-regions (e.g. H for Montreal and Laval), and the Northwest Territories and Nunavut share the letter X.
+CODES DEFINED INDEPENDENTLY FROM ADMINISTRATIVE AREAS
+Section::::Codes defined independently from administrative areas.
+The first two digits of the postal codes in Germany define areas independently of administrative regions. The coding space of the first digit is fully used (0-9); that of the first two combined is utilized to 89%, i.e. there are 89 postal zones defined. Zone 11 is non-geographic.
+Royal Mail designed the postal codes in the United Kingdom mostly for efficient distribution. Nevertheless, people associated codes with certain areas, leading to some people wanting or not wanting to have a certain code. See also postcode lottery.
+In Brazil the are an evolution of the 5-digit area postal codes. In the 1990s the Brazilian 5-digit postal code (illustrated), codice_1, received a 3-digit suffix codice_2, but this suffix is not directly related to the administrative district hierarchy. The suffix was created only for logistic reasons.
+A postal code is often related to a land lot, but this is not always the case. Postal codes are usually related to access points on streets. Small or middle-sized houses, in general, only have a single main gate which is the delivery point. Parks, large businesses such as shopping centres, and big houses, may have more than one entrance and more than one delivery point. So the semantic of an address and its postal code can vary, and one land lot may have more than one postal code. In Brazil only the suffixes 900-959, that designate large post-receivers, can be assigned to lots.
+PRECISION
+INDIA
+Section::::Precision.
+Section::::India.
+Postal codes are also known as PIN codes in India, PIN being the short form of Postal Index Number. The Pin Code was introduced on 15 August 1972 by India Post. India uses a unique 6 digit code as a geographical number to identify locations in India. There are 9 postal zones in India:
+* Delhi, Haryana, Punjab, Himachal Pradesh, Jammu and Kashmir, Chandigarh
+* 
+* Uttar Pradesh, Uttarakhand
+* 
+* Rajasthan, Gujarat, Daman and Diu, Dadra and Nagar Haveli
+* 
+* Maharashtra, Goa, Madhya Pradesh, Chhattisgarh
+* 
+* Telangana, Andhra Pradesh, Karnataka
+* 
+* Tamil Nadu, Kerala, Puducherry, Lakshadweep
+* 
+* West Bengal, Odisha, Arunachal Pradesh, Nagaland, Manipur, Mizoram, Tripura, Meghalaya, Andaman and Nicobar Islands, Assam, Sikkim
+* 
+* Bihar, Jharkhand
+* 
+* Army Post office (APO) and Field Post office (FPO)
+* 
+IRELAND
+Section::::Ireland.
+In Ireland, the new postal code system launched in 2015, known as Eircode provides a unique code for each individual address.
+These 7-character alphanumerical codes are in the format:
+A99 XXXX
+While it is not intended to replace addresses, in theory simply providing a 7-character Eircode would locate any Irish delivery address. For example, the Irish Parliament Dáil Éireann is: D02 A272
+The first three digits are the routing key, which is a postal district and the last four characters are a unique identifier which relates to an individual address (business, house or apartment). A fully developed API is also available for integrating the Eircode database into business database and logistics systems.
+NETHERLANDS
+Section::::Netherlands.
+Postal codes in the Netherlands, known as postcodes, are alphanumeric, consisting of four digits followed by a space and two letters (NNNN AA). Adding the house number to the postcode will identify the address, making the street name and town name redundant. For example: 2597 GV 75 will direct a postal delivery to Theo Mann-Bouwmeesterlaan 75, 's-Gravenhage (the International School of The Hague).
+SINGAPORE
+Section::::Singapore.
+Since 1 September 1995, every building in Singapore has been given a unique, six-digit postal code.
+UNITED KINGDOM
+Section::::United Kingdom.
+For domestic properties, an individual postcode may cover up to 100 properties in contiguous proximity (e.g. a short section of a populous road, or a group of less populous neighbouring roads). The postcode together with the number or name of a property is not always unique, particularly in rural areas. For example, GL20 8NX/1 might refer to either 1 Frampton Cottages or 1 Frampton Farm Cottages, roughly a quarter of a mile (400 metres) apart.
+The structure is alphanumeric, with the following six valid formats, as defined by BS 7666:
+There are always two halves: the separation between outward and inward postcodes is indicated by one space.
+The outward postcode covers a unique area and has two parts which may in total be two, three or four characters in length. A postcode area of one or two letters, followed by one or two numbers, followed in some parts of London by a letter.
+The outward postcode and the leading numeric of the inward postcode in combination forms a postal sector, and this usually corresponds to a couple of thousand properties.
+Larger businesses and isolated properties such as farms may have a unique postcode. Extremely large organisations such as larger government offices or bank headquarters may have multiple postcodes for different departments.
+There are about 100 postcode areas, ranging widely in size from BT which covers the whole of Northern Ireland to ZE for Shetland. Postcode areas may also cross national boundaries, such as SY which covers a large, predominantly rural area from Shrewsbury and Ludlow in Shropshire, England, through to the seaside town of Aberystwyth, Ceredigion on Wales' west coast.
+UNITED STATES
+Section::::United States.
+In the United States, the basic ZIP Code is composed of five numbers. The first three numbers identify a specific sectional center facility—or central sorting facility—that serves a geographic region (typically a large part of a state). The next two numbers identify either an area of a city (if in an urban area) or a village/town (if in a suburban/rural area).
+There is an extended format of the ZIP Code known as the ZIP+4, which contains the basic five-digit ZIP Code, followed by a hyphen and four additional digits. These digits identify a specific delivery route, such as one side of a building, a group of apartments, or several floors of a large office building. Although using the ZIP+4 offers higher accuracy, addressing redundancy, and sorting efficiency within the USPS, it is optional and not widely used by the general public. It is primarily only used by business mailers.
+For high volume business mailers using automated mailing machines, the USPS has promulgated the Intelligent Mail barcode standard, which is a barcode containing the ZIP+4 code plus a two digit delivery point. This 11-digit number is theoretically a unique identifier for every address in the country.
+STATES AND OVERSEAS TERRITORIES SHARING A POSTAL CODE SYSTEM
+Section::::States and overseas territories sharing a postal code system.
+French overseas departments and territories use the five-digit French postal code system, each code starting with the three-digit department identifier. Monaco is also integrated in the French system and has no system of its own.
+The British Crown dependencies of Guernsey, Jersey and the Isle of Man are part of the UK postcode system. They use the schemes AAN NAA and AANN NAA, in which the first two letters are a unique code (GY, JE and IM respectively).
+Most of the Overseas Territories have UK-style postcodes, with a single postcode for each territory or dependency, although they are still treated as international destinations by Royal Mail in the UK, and charged at international rather than UK inland rates.The four other Overseas Territories Anguilla, Bermuda, British Virgin Islands and Cayman Islands have their own separate systems and formats.
+The Pacific island states of Palau, Marshall Islands and the Federated States of Micronesia remain part of the US ZIP code system, despite having become independent states.
+San Marino and the Vatican City are part of the Italian postcode system, while Liechtenstein similarly uses the Swiss system, as do the Italian exclave of Campione d'Italia and the German exclave of Büsingen am Hochrhein, although they also form part of their respective countries' postal code systems. The Czech Republic and Slovakia still uses the codes of the former Czechoslovakia, their ranges not overlapping.
+NON-GEOGRAPHIC CODES
+Section::::Non-geographic codes.
+In the United Kingdom, the non-conforming postal code GIR 0AA was used for the National Girobank until its closure in 2003. A non-geographic series of postcodes, starting with BX, is used by some banks and government departments.
+A fictional address is also used by Royal Mail for letters to Santa Claus, more commonly known as Santa or Father Christmas:
+Previously, the postcode SAN TA1 was used.
+In Finland the special postal code 99999 is for Korvatunturi, the place where Santa Claus (Joulupukki in Finnish) is said to live, although mail is delivered to the Santa Claus Village in Rovaniemi.
+In Canada the amount of mail sent to Santa Claus increased every Christmas, up to the point that Canada Post decided to start an official Santa Claus letter-response program in 1983. Approximately one million letters come in to Santa Claus each Christmas, including from outside of Canada, and all of them are answered in the same languages in which they are written. Canada Post introduced a special address for mail to Santa Claus, complete with its own postal code:
+In Belgium bpost sends a small present to children who have written a letter to Sinterklaas. They can use the non-geographic postal code 0612, which refers to the date Sinterklaas is celebrated (6 December), although a fictional town, street and house number are also used. In Dutch, the address is
+This translates as "1 Spain Street, 0612 Heaven". In French, the street is called "Paradise Street":
+FORMATS
+NON-POSTAL USES AND ECONOMIC ASPECTS
+Section::::Non-postal uses and economic aspects.
+While postal codes were introduced to expedite the delivery of mail, they are very useful tools for several other purposes, particularly in countries where codes are very fine-grained and identify just a few addresses. Among uses are:
+* Finding the nearest branch of an organisation to a given address. A computer program uses the postal codes of the target address and the branches to list the closest branches in order of distance as the crow flies (or, if used in conjunction with streetmap software, road distance). This can be used by companies to inform potential customers where to go, by job centres to find jobs for job-seekers, to alert people of town planning applications in their area, and a great many other applications.
+* Fine-grained postal codes can be used with satellite navigation systems to navigate to an address by street number and postcode.
+* Geographical sales territories for representatives in the pharmaceutical industry are allocated based on a workload index that is based upon postcode.
+AVAILABILITY
+Section::::Availability.
+The availability of postal code information has significant economic advantages. In some countries, the postal authorities charge for access to the code database. , the United Kingdom Government is consulting on whether to waive licensing fees for some geographical data sets (to be determined) related to UK postcodes.
+SEE ALSO
+* List of postal codes
+* Address (geography)#Mailing address format by country
+* Postcode Address File
+NOTES AND REFERENCES
+EXTERNAL LINKS
+* Universal Postal Union
+* Addressing
+* Postcodes
+* Reference on World Postcodes
+* Canadian Postal Code Lookup web page from Canada Post
+* Pakistan Postcodes

@@ -1,0 +1,12 @@
+
+CERTIFIED EMAIL
+Certified email is a kind of email whose sending is certified by a neutral third-party, analogous to registered mail. A certified email aims to guarantee the same legal validity as a certified mail. For each certified email, the government will guarantee the legal validity with a delivery receipt that will be given to the sender. The receiver will be able to verify the mail using a legally signed delivery receipt. Certified mail aims to reduce postal costs and difficulties.
+The development of this email service with added value shows conceptual variations. These are dominated by two-party scenarios with only one sender and one receiver as well as a trusted third party (TTP) serving as a mediator. Like in traditional certified mail, many certified email technologies call for the parties involved to trust the TTP, or the "postman", because it has the capacity to reveal the identity of the sender to the recipient once the protocol is initiated. There are, however, applications that are based on multi-party email protocols; these include the technology first proposed by Markowitch and Kremer, which involved an online or offline trusted third party in addition to the sender and receiver. There is also a multi-party version, wherein a sender can send the same email to multiple recipients. In this system, those who acknowledge the receipt are able to view the data. Some applications also offer add-in features, such as the integration of the concept of timeliness, wherein a participant to the process can terminate a session in finite time in order to avoid waiting for a reply forever.
+A certified email system is currently used in Hong Kong and in Italy. Italian certified email (Posta elettronica certificata) uses protocols described in the RFC 6109 (Request for Comments 6109), which was drafted in order to make the protocols public to the Internet community.
+SEE ALSO
+* Registered mail
+* Email authentication
+* Secure messaging
+REFERENCES
+Section::::References.
+Carlos Tico (2012). Method, a system and a computer program product for certifying that a destination email server has received an email message sent from a sender to at least one destination address. US Patent 9,742,722 B2 (2017) and EP2805455B1 (2018).

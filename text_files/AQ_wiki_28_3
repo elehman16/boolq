@@ -1,0 +1,128 @@
+
+EQUILATERAL TRIANGLE
+In geometry, an equilateral triangle is a triangle in which all three sides are equal. In the familiar Euclidean geometry, an equilateral triangle is also equiangular; that is, all three internal angles are also congruent to each other and are each 60°. It is also a regular polygon, so it is also referred to as a regular triangle.
+PRINCIPAL PROPERTIES
+Section::::Principal properties.
+Denoting the common length of the sides of the equilateral triangle as a, we can determine using the Pythagorean theorem that:
+* The area is formula_1
+* The perimeter is formula_2
+* The radius of the circumscribed circle is formula_3
+* The radius of the inscribed circle is formula_4 or formula_5
+* The geometric center of the triangle is the center of the circumscribed and inscribed circles
+* The altitude (height) from any side is formula_6
+Denoting the radius of the circumscribed circle as R, we can determine using trigonometry that:
+* The area of the triangle is formula_7
+Many of these quantities have simple relationships to the altitude ("h") of each vertex from the opposite side:
+* The area is formula_8
+* The height of the center from each side, or apothem, is formula_9
+* The radius of the circle circumscribing the three vertices is formula_10
+* The radius of the inscribed circle is formula_11
+In an equilateral triangle, the altitudes, the angle bisectors, the perpendicular bisectors, and the medians to each side coincide.
+CHARACTERIZATIONS
+Section::::Characterizations.
+A triangle ABC that has the sides a, b, c, semiperimeter s, area T, exradii r, r, r (tangent to a, b, c respectively), and where R and r are the radii of the circumcircle and incircle respectively, is equilateral if and only if any one of the statements in the following nine categories is true. Thus these are properties that are unique to equilateral triangles, and knowing that any one of them is true directly implies that we have an equilateral triangle.
+SIDES
+* formula_12
+* formula_13
+SEMIPERIMETER
+* formula_14
+* formula_15
+* formula_16
+* formula_17
+* formula_18
+ANGLES
+* formula_19
+* formula_20
+* formula_21
+AREA
+* formula_22 (Weitzenböck)
+* formula_23
+CIRCUMRADIUS, INRADIUS, AND EXRADII
+* formula_24
+* formula_25
+* formula_26
+* formula_27
+EQUAL CEVIANS
+Section::::Equal cevians.
+Three kinds of cevians concide, and are equal, for (and only for) equilateral triangles:
+* The three altitudes have equal lengths.
+* The three medians have equal lengths.
+* The three angle bisectors have equal lengths.
+COINCIDENT TRIANGLE CENTERS
+Section::::Coincident triangle centers.
+Every triangle center of an equilateral triangle coincides with its centroid, which implies that the equilateral triangle is the only triangle with no Euler line connecting some of the centers. For some pairs of triangle centers, the fact that they coincide is enough to ensure that the triangle is equilateral. In particular:
+* A triangle is equilateral if any two of the circumcenter, incenter, centroid, or orthocenter coincide.
+* It is also equilateral if its circumcenter coincides with the Nagel point, or if its incenter coincides with its nine-point center.
+SIX TRIANGLES FORMED BY PARTITIONING BY THE MEDIANS
+Section::::Six triangles formed by partitioning by the medians.
+For any triangle, the three medians partition the triangle into six smaller triangles.
+* A triangle is equilateral if and only if any three of the smaller triangles have either the same perimeter or the same inradius.
+* A triangle is equilateral if and only if the circumcenters of any three of the smaller triangles have the same distance from the centroid.
+POINTS IN THE PLANE
+* A triangle is equilateral if and only if, for every point P in the plane, with distances p, q, and r to the triangle's sides and distances x, y, and z to its vertices,
+NOTABLE THEOREMS
+Section::::Notable theorems.
+Morley's trisector theorem states that, in any triangle, the three points of intersection of the adjacent angle trisectors form an equilateral triangle.
+Napoleon's theorem states that, if equilateral triangles are constructed on the sides of any triangle, either all outward, or all inward, the centers of those equilateral triangles themselves form an equilateral triangle.
+A version of the isoperimetric inequality for triangles states that the triangle of greatest area among all those with a given perimeter is equilateral.
+Viviani's theorem states that, for any interior point P in an equilateral triangle with distances d, e, and f from the sides and altitude h,
+independent of the location of P.
+Pompeiu's theorem states that, if P is an arbitrary point in an equilateral triangle ABC, then there exists a triangle with sides of lengths PA, PB, and PC. That is, PA, PB, and PC satisfy the triangle inequality that any two of them sum to at least as great as the third.
+OTHER PROPERTIES
+Section::::Other properties.
+By Euler's inequality, the equilateral triangle has the smallest ratio R/r of the circumradius to the inradius of any triangle: specifically, R/r = 2.
+The triangle of largest area of all those inscribed in a given circle is equilateral; and the triangle of smallest area of all those circumscribed around a given circle is equilateral.
+The ratio of the area of the incircle to the area of an equilateral triangle, formula_30, is larger than that of any non-equilateral triangle.
+The ratio of the area to the square of the perimeter of an equilateral triangle, formula_31 is larger than that for any other triangle.
+If a segment splits an equilateral triangle into two regions with equal perimeters and with areas A and A, then
+If a triangle is placed in the complex plane with complex vertices z, z, and z, then for either non-real cube root formula_33 of 1 the triangle is equilateral if and only if
+Given a point P in the interior of an equilateral triangle, the ratio of the sum of its distances from the vertices to the sum of its distances from the sides is greater than or equal to 2, equality holding when P is the centroid. In no other triangle is there a point for which this ratio is as small as 2. This is the Erdős–Mordell inequality; a stronger variant of it is Barrow's inequality, which replaces the perpendicular distances to the sides with the distances from P to the points where the angle bisectors of ∠APB, ∠BPC, and ∠CPA cross the sides (A, B, and C being the vertices).
+For any point P in the plane, with distances p, q, and t from the vertices A, B, and C respectively,
+For any point P on the inscribed circle of an equilateral triangle, with distances p, q, and t from the vertices,
+and
+For any point P on the minor arc BC of the circumcircle, with distances p, q, and t from A, B, and C respectively,
+and
+moreover, if point D on side BC divides PA into segments PD and DA with DA having length z and PD having length y, then
+which also equals formula_41 if t ≠ q; and
+which is the optic equation.
+There are numerous triangle inequalities that hold with equality if and only if the triangle is equilateral.
+An equilateral triangle is the most symmetrical triangle, having 3 lines of reflection and rotational symmetry of order 3 about its center. Its symmetry group is the dihedral group of order 6 D.
+Equilateral triangles are the only triangles whose Steiner inellipse is a circle (specifically, it is the incircle).
+The integer-sided equilateral triangle is the only triangle with integer sides and three rational angles as measured in degrees.
+The equilateral triangle is the only acute triangle that is similar to its orthic triangle (with vertices at the feet of the altitudes) (the heptagonal triangle being the only obtuse one).
+Equilateral triangles are found in many other geometric constructs. The intersection of circles whose centers are a radius width apart is a pair of equilateral arches, each of which can be inscribed with an equilateral triangle. They form faces of regular and uniform polyhedra. Three of the five Platonic solids are composed of equilateral triangles. In particular, the regular tetrahedron has four equilateral triangles for faces and can be considered the three-dimensional analogue of the shape. The plane can be tiled using equilateral triangles giving the triangular tiling.
+GEOMETRIC CONSTRUCTION
+Section::::Geometric construction.
+An equilateral triangle is easily constructed using a straightedge and compass, because 3 is a Fermat prime. Draw a straight line, and place the point of the compass on one end of the line, and swing an arc from that point to the other point of the line segment. Repeat with the other side of the line. Finally, connect the point where the two arcs intersect with each end of the line segment
+An alternative method is to draw a circle with radius r, place the point of the compass on the circle and draw another circle with the same radius. The two circles will intersect in two points. An equilateral triangle can be constructed by taking the two centers of the circles and either of the points of intersection.
+In both methods a by-product is the formation of vesica piscis.
+The proof that the resulting figure is an equilateral triangle is the first proposition in Book I of Euclid's Elements.
+DERIVATION OF AREA FORMULA
+Section::::Derivation of area formula.
+The area formula formula_43 in terms of side length a can be derived directly using the Pythagorean theorem or using trigonometry.
+USING THE PYTHAGOREAN THEOREM
+Section::::Using the Pythagorean theorem.
+The area of a triangle is half of one side a times the height h from that side:
+The legs of either right triangle formed by an altitude of the equilateral triangle are half of the base a, and the hypotenuse is the side a of the equilateral triangle. The height of an equilateral triangle can be found using the Pythagorean theorem
+so that
+Substituting h into the area formula (1/2)ah gives the area formula for the equilateral triangle:
+USING TRIGONOMETRY
+Section::::Using trigonometry.
+Using trigonometry, the area of a triangle with any two sides a and b, and an angle C between them is
+Each angle of an equilateral triangle is 60°, so
+The sine of 60° is formula_50. Thus
+since all sides of an equilateral triangle are equal.
+IN CULTURE AND SOCIETY
+Section::::In culture and society.
+Equilateral triangles have frequently appeared in man made constructions:
+* Some archaeological sites have equilateral triangles as part of their construction, for example Lepenski Vir in Serbia.
+* The shape also occurs in modern architecture such as Randhurst Mall and the Jefferson National Expansion Memorial.
+* The flag of Nicaragua, the flag of the Philippines, the Seal of the President of the Philippines, and the flag of Junqueirópolis contain equilateral triangles.
+* It is a shape of a variety of road signs, including the Yield sign.
+* The fraternity Tau Kappa Epsilon uses the equilateral triangle as its primary symbol.
+SEE ALSO
+* Almost-equilateral Heronian triangle
+* Isosceles triangle
+* Ternary plot
+REFERENCES
+EXTERNAL LINKS

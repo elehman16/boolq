@@ -1,0 +1,29 @@
+
+COOL FLAME
+Cool flame is a flame having maximal temperature below about . It is usually produced in a chemical reaction of a certain fuel-air mixture. Contrary to conventional flame, the reaction is not vigorous and releases very little heat, light, and carbon dioxide. Cold fires are difficult to observe and are uncommon in everyday life, but they are responsible for engine knock – the undesirable, erratic, and noisy combustion of low-octane fuels in internal combustion engines.
+HISTORY
+Section::::History.
+Cool flames were accidentally discovered in the 1810s by Sir Humphry Davy, who was inserting a hot platinum wire into a mixture of air and diethyl ether vapor. "When the experiment on the slow combustion of ether is made in the dark, a pale phosphorescent light is perceived above the wire, which of course is most distinct when the wire ceases to be ignited. This appearance is connected with the formation of a peculiar acrid volatile substance possessed of acid properties." After noticing that certain types of flame did not burn his fingers or ignite a match, he also found that those unusual flames could change into conventional ones and that at certain compositions and temperatures, they did not require an external ignition source, such as a spark or hot material.
+Harry Julius Emeléus was the first to record their emission spectra, and in 1929 he coined the term "cold flame".
+PARAMETERS
+Section::::Parameters.
+Cool flame can occur in hydrocarbons, alcohols, aldehydes, oils, acids, waxes, and even methane. The lowest temperature of a cool flame is poorly defined and is conventionally set as temperature at which the flame can be detected by eye in a dark room (cool flames are hardly visible in daylight). This temperature slightly depends on the fuel to oxygen ratio and strongly depends on gas pressure – there is a threshold below which cool flame is not formed. A specific example is 50% n-butane–50% oxygen (in volume percent) which has a cool flame temperature (CFT) of about 300 °C at . One of the lowest CFTs (156 °C) was reported for a CHOCH + O + N mixture at . The CFT is significantly lower than the auto-ignition temperature (AIT) of conventional flame (see table).
+The spectra of cool flames consist of several bands and are dominated by the blue and violet ones – thus the flame usually appears pale blue. The blue component originates from the excited state of formaldehyde (CHO*) which is formed via chemical reactions in the flame:
+A cool flame does not start instantaneously after the threshold pressure and temperature are applied, but has an induction time. The induction time shortens and the glow intensity increases with increasing pressure. With increasing temperature, the intensity may decrease because of the disappearance of peroxy radicals required for the above glow reactions.
+Self-sustained, stable cool flames have been established by adding ozone into oxidizer stream.
+MECHANISM
+Section::::Mechanism.
+Whereas in a usual flame molecules break down to small fragments and combine with oxygen producing carbon dioxide (i.e. burn), in a cool flame, the fragments are relatively large and easily recombine with each other. Therefore, much less heat, light and carbon dioxide is released; the combustion process is oscillatory and can sustain for a long time. A typical temperature increase upon ignition of a cool flame is a few tens of degrees Celsius whereas it is on the order of 1000 °C for a conventional flame. 
+Most experimental data can be explained by the model which considers cool flame just as a slow chemical reaction where the rate of heat generation is higher than the heat loss. This model also explains the oscillatory character of the cool flame: the reaction accelerates as it produces more heat until the heat loss becomes appreciable and temporarily quenches the process.
+APPLICATIONS
+Section::::Applications.
+Cool flames may contribute to engine knock – the undesirable, erratic, and noisy combustion of low-octane fuels in internal combustion engines. In a normal regime, the conventional flame front travels smoothly in the combustion chamber from the spark plug, compressing the fuel/air mixture ahead. However, the concomitant increase in pressure and temperature may produce a cool flame in the last unburned fuel-air mixture (the so-called end gasses) and participate in the autoignition of the end gasses. 
+This sudden, localized heat release generates a shock wave which travels through the combustion chamber, with its sudden pressure rise causing an audible knocking sound. Worse, the shock wave disrupts the thermal boundary layer on the piston surface, causing overheating and eventual melting. The output power decreases and, unless the throttle (or load) is cut off quickly, the engine can be damaged as described in a few minutes. The sensitivity of a fuel to a cool-flame ignition strongly depends on the temperature, pressure and composition. 
+The cool flame initiation of the knock process is likely only in highly throttled operating conditions, since cool flames are observed at low pressures. Under normal operating conditions, autoignition occurs without being triggered by a cool flame. Whereas the temperature and pressure of the combustion are largely determined by the engine, the composition can be controlled by various antiknock additives. The latter mainly aim at removing the radicals (such as CHO* mentioned above) thereby suppressing the major source of the cool flame.
+SEE ALSO
+* Fire
+* Flame
+* Plasma (physics)
+REFERENCES
+FURTHER READING
+* - an explanation of the oscillatory nature of cool flame.

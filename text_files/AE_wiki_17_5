@@ -1,0 +1,58 @@
+
+SURJECTIVE FUNCTION
+In mathematics, a function f from a set X to a set Y is surjective (or onto), or a surjection, if for every element y in the codomain Y of f there is at least one element x in the domain X of f such that f(x) = y. It is not required that x be unique; the function f may map one or more elements of X to the same element of Y.
+The term surjective and the related terms injective and bijective were introduced by Nicolas Bourbaki, a group of mainly French 20th-century mathematicians who under this pseudonym wrote a series of books presenting an exposition of modern advanced mathematics, beginning in 1935. The French word sur means over or above and relates to the fact that the image of the domain of a surjective function completely covers the function's codomain.
+Any function induces a surjection by restricting its codomain to its range. Every surjective function has a right inverse, and every function with a right inverse is necessarily a surjection. The composite of surjective functions is always surjective. Any function can be decomposed into a surjection and an injection.
+DEFINITION
+Section::::Definition.
+A surjective function is a function whose image is equal to its codomain. Equivalently, a function f with domain X and codomain Y is surjective if for every y in Y there exists at least one x in X with formula_1. Surjections are sometimes denoted by a two-headed rightwards arrow (), as in f : X ↠ Y.
+Symbolically,
+EXAMPLES
+Section::::Examples.
+For any set X, the identity function id on X is surjective.
+The function defined by f(n) = n mod 2 (that is, even integers are mapped to 0 and odd integers to 1) is surjective.
+The function defined by f(x) = 2x + 1 is surjective (and even bijective), because for every real number y we have an x such that f(x) = y: an appropriate x is (y − 1)/2.
+The function defined by f(x) = x − 3x is surjective, because the pre-image of any real number y is the solution set of the cubic polynomial equation x − 3x − y = 0 and every cubic polynomial with real coefficients has at least one real root. However, this function is not injective (and hence not bijective) since e.g. the pre-image of y = 2 is {x = −1, x = 2}. (In fact, the pre-image of this function for every y, −2 ≤ y ≤ 2 has more than one element.)
+The function defined by g(x) = x is not surjective, because there is no real number x such that x = −1. However, the function defined by g(x) = x (with restricted codomain) is surjective because for every y in the nonnegative real codomain Y there is at least one x in the real domain X such that x = y.
+The natural logarithm function is a surjective and even bijective mapping from the set of positive real numbers to the set of all real numbers. Its inverse, the exponential function, is not surjective as its range is the set of positive real numbers, and its domain is usually defined to be the set of all real numbers. The matrix exponential is not surjective when seen as a map from the space of all n×n matrices to itself. It is, however, usually defined as a map from the space of all n×n matrices to the general linear group of degree n, i.e. the group of all n×n invertible matrices. Under this definition the matrix exponential is surjective for complex matrices, although still not surjective for real matrices.
+The projection from a cartesian product to one of its factors is surjective unless the other factor is empty.
+In a 3D video game, vectors are projected onto a 2D flat screen by means of a surjective function.
+PROPERTIES
+Section::::Properties.
+A function is bijective if and only if it is both surjective and injective.
+If (as is often done) a function is identified with its graph, then surjectivity is not a property of the function itself, but rather a property of the mapping. This is, the function together with its codomain. Unlike injectivity, surjectivity cannot be read off of the graph of the function alone.
+SURJECTIONS AS RIGHT INVERTIBLE FUNCTIONS
+Section::::Surjections as right invertible functions.
+The function is said to be a right inverse of the function if f(g(y)) = y for every y in Y (g can be undone by f). In other words, g is a right inverse of f if the composition of g and f in that order is the identity function on the domain Y of g. The function g need not be a complete inverse of f because the composition in the other order, , may not be the identity function on the domain X of f. In other words, f can undo or "reverse" g, but cannot necessarily be reversed by it.
+Every function with a right inverse is necessarily a surjection. The proposition that every surjective function has a right inverse is equivalent to the axiom of choice.
+If is surjective and B is a subset of Y, then f(f(B)) = B. Thus, B can be recovered from its preimage .
+For example, in the first illustration, above, there is some function g such that g(C) = 4. There is also some function f such that f(4) = C. It doesn't matter that g(C) can also equal 3; it only matters that f "reverses" g.
+SURJECTIONS AS EPIMORPHISMS
+Section::::Surjections as epimorphisms.
+A function is surjective if and only if it is right-cancellative: given any functions , whenever g f = h f, then g = h. This property is formulated in terms of functions and their composition and can be generalized to the more general notion of the morphisms of a category and their composition. Right-cancellative morphisms are called epimorphisms. Specifically, surjective functions are precisely the epimorphisms in the category of sets. The prefix epi is derived from the Greek preposition ἐπί meaning over, above, on.
+Any morphism with a right inverse is an epimorphism, but the converse is not true in general. A right inverse g of a morphism f is called a section of f. A morphism with a right inverse is called a split epimorphism.
+SURJECTIONS AS BINARY RELATIONS
+Section::::Surjections as binary relations.
+Any function with domain X and codomain Y can be seen as a left-total and right-unique binary relation between X and Y by identifying it with its function graph. A surjective function with domain X and codomain Y is then a binary relation between X and Y that is right-unique and both left-total and right-total.
+CARDINALITY OF THE DOMAIN OF A SURJECTION
+Section::::Cardinality of the domain of a surjection.
+The cardinality of the domain of a surjective function is greater than or equal to the cardinality of its codomain: If is a surjective function, then X has at least as many elements as Y, in the sense of cardinal numbers. (The proof appeals to the axiom of choice to show that a function
+Specifically, if both X and Y are finite with the same number of elements, then is surjective if and only if f is injective.
+Given two sets X and Y, the notation is used to say that either X is empty or that there is a surjection from Y onto X. Using the axiom of choice one can show that and together imply that Y = X, a variant of the Schröder–Bernstein theorem.
+COMPOSITION AND DECOMPOSITION
+Section::::Composition and decomposition.
+The composite of surjective functions is always surjective: If f and g are both surjective, and the codomain of g is equal to the domain of f, then is surjective. Conversely, if is surjective, then f is surjective (but g, the function applied first, need not be). These properties generalize from surjections in the category of sets to any epimorphisms in any category.
+Any function can be decomposed into a surjection and an injection: For any function there exist a surjection and an injection such that h = g f. To see this, define Y to be the set of preimages where z is in . These preimages are disjoint and partition X. Then f carries each x to the element of Y which contains it, and g carries each element of Y to the point in Z to which h sends its points. Then f is surjective since it is a projection map, and g is injective by definition.
+INDUCED SURJECTION AND INDUCED BIJECTION
+Section::::Induced surjection and induced bijection.
+Any function induces a surjection by restricting its codomain to its range. Any surjective function induces a bijection defined on a quotient of its domain by collapsing all arguments mapping to a given fixed image. More precisely, every surjection can be factored as a projection followed by a bijection as follows. Let A/~ be the equivalence classes of A under the following equivalence relation: x ~ y if and only if f(x) = f(y). Equivalently, A/~ is the set of all preimages under f. Let P(~) : A → A/~ be the projection map which sends each x in A to its equivalence class [x], and let f : A/~ → B be the well-defined function given by f([x]) = f(x). Then f = f o P(~).
+SEE ALSO
+* Bijection, injection and surjection
+* Cover (algebra)
+* Covering map
+* Enumeration
+* Fiber bundle
+* Index set
+* Section (category theory)
+REFERENCES
+FURTHER READING

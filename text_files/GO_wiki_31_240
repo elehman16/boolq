@@ -1,0 +1,19 @@
+
+FOLD CHANGE
+Fold change is a measure describing how much a quantity changes between an original and a subsequent measurement. It is defined as the ratio between the two quantities; for quantities A and B, then the fold change of B with respect to A is B/A. Fold change is often used when analysing multiple measurements of a biological system taken at different times as the change described by the ratio between the time points is easier to interpret than the difference.
+Fold change is so called because it is common to describe an increase of multiple X as an "X-fold increase". As such, several dictionaries, including the Oxford English Dictionary and Merriam-Webster Dictionary, as well as Collins's Dictionary of Mathematics, define "-fold" to mean "times", as in "2-fold" = "2 times" = "double". Likely because of this definition, many scientists use not only "fold", but also "fold change" to be synonymous with "times", as in "3-fold larger" = "3 times larger".. More ambiguous is fold decrease, where, for instance, a decrease of 50% between two measurements would generally be referred to a "half-fold change" rather than a "2-fold decrease".
+Fold change is often used in analysis of gene expression data from microarray and RNA-Seq experiments for measuring change in the expression level of a gene. A disadvantage and serious risk of using fold change in this setting is that it is biased and may misclassify differentially expressed genes with large differences (B − A) but small ratios (B/A), leading to poor identification of changes at high expression levels. Furthermore, when the denominator is close to zero, the ratio is not stable, and the fold change value can be disproportionately affected by measurement noise.
+ALTERNATIVE DEFINITION
+Section::::Alternative definition.
+There is an alternative definition of fold change, although this has generally fallen out of use. Here, fold change is defined as the ratio of the difference between final value and the initial value divided by the initial value. For quantities A and B, the fold change is given as (B − A)/A, or equivalently B/A − 1. This formulation has appealing properties such as no change being equal to zero, a 100% increase is equal to 1, and a 100% decrease is equal to −1. However, verbally referring to a doubling as a one-fold change and tripling as a two-fold change is counter-intuitive, and so this formulation is rarely used.
+This formulation is sometimes called the relative change and is labeled as fractional difference in the software package Prism.
+FOLD CHANGES IN GENOMICS AND BIOINFORMATICS
+Section::::Fold changes in genomics and bioinformatics.
+In the field of genomics (and more generally in bioinformatics), the modern usage is to define fold change in terms of ratios, and not by the alternative definition. 
+However, log-ratios are often used for analysis and visualization of fold changes. The logarithm to base 2 is most commonly used, as it is easy to interpret, e.g. a doubling in the original scaling is equal to a log fold change of 1, a quadrupling is equal to a log fold change of 2 and so on. Conversely, the measure is symmetric when the change decreases by an equivalent amount e.g. a halving is equal to a log fold change of −1, a quartering is equal to a log fold change of −2 and so on. This leads to more aesthetically pleasing plots, as exponential changes are displayed as linear and so the dynamic range is increased. For example, on a plot axis showing log fold changes, an 8-fold increase will be displayed at an axis value of 3 (since 2 = 8). However, there is no mathematical reason to only use logarithm to base 2, and due to many discrepancies in describing the log fold changes in gene/protein expression, a new term "loget" has been proposed.
+SEE ALSO
+* Ratio
+* Relative change
+NOTES
+EXTERNAL LINKS
+* A comparison of fold-change and the t-statistic for microarray data analysis

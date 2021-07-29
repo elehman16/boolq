@@ -1,0 +1,58 @@
+
+TWINCHARGER
+Twincharger refers to a compound forced induction system used on some piston-type internal combustion engines. It is a combination of an exhaust-driven turbocharger and an engine-driven supercharger, each mitigating the weaknesses of the other. A belt-driven or shaft-driven supercharger offers exceptional response and low-rpm performance as it has no lag time between the application of throttle and pressurization of the manifold (assuming that it is a positive-displacement supercharger such as a Roots type or twin-screw and not a Centrifugal compressor supercharger, which does not provide boost until the engine has reached higher RPMs). When combined with a large turbocharger — if the "turbo" was used by itself, it would offer unacceptable lag and poor response in the low-rpm range — the proper combination of the two can offer a zero-lag powerband with high torque at lower engine speeds and increased power at the higher end. Twincharging is therefore desirable for small-displacement motors (such as VW's 1.4TSI), especially those with a large operating rpm, since they can take advantage of an artificially broad torque band over a large speed range.
+Twincharging does not refer to a twin-turbo arrangement, but rather when two different kinds of compressors are used.
+TECHNICAL DESCRIPTION
+Section::::Technical description.
+A twincharging system combines a supercharger and turbocharger in a complementary arrangement, with the intent of one component's advantage compensating for the other component's disadvantage. There are two common types of twincharger systems: series and parallel.
+SERIES
+Section::::Series.
+The series arrangement, the more common arrangement of twinchargers, is set up such that one compressor's (turbo or supercharger) output feeds the inlet of another. A sequentially-organized supercharger is connected to a medium- to large-sized turbocharger. The supercharger provides near-instant manifold pressure (eliminating turbo lag, which would otherwise result when the turbocharger is not up to its operating speed). Once the turbocharger has reached operating speed, the supercharger can either continue compounding the pressurized air to the turbocharger inlet (yielding elevated intake pressures), or it can be bypassed and/or mechanically decoupled from the drivetrain via an electromagnetic clutch and bypass valve (increasing efficiency of the induction system).
+Other series configurations exist where no bypass system is employed and both compressors are in continuous duty. As a result, compounded boost is always produced as the pressure ratios of the two compressors are multiplied, not added. In other words, if a turbocharger which produced (pressure ratio = 1.7) alone blew into a supercharger which also produced 10 psi alone, the resultant manifold pressure would be (PR=2.8) rather than (PR=2.3). This form of series twincharging allows for the production of boost pressures that would otherwise be unachievable with other compressor arrangements and would be inefficient.
+However, turbo and supercharger efficiencies do not multiply as some believe. For example, if a turbocharger with an efficiency of 70% blew on a Roots blower with an efficiency of 60%, the total compression efficiency would be somewhere in between. To calculate this efficiency, it is necessary to do the calculations of the 2 stages, first calculate the conditions of pressure and temperature at the exit of the first stage and starting from these to do the calculations for the second stage. Following the previous example, for a first stage of the turbocharger (efficiency of 70%, pressure ratio of 1.7) the temperature would reach the after the first stage, to then enter the roots (efficiency of 60%) and leave at a temperature of . This is a total efficiency of 62%. A large turbocharger that produces by itself, with an efficiency adiabatic of around 70%, would produce air only . In addition, the cost of energy to drive a supercharger is higher than that of a turbocharger; if it is ignored, the load of execution compression is eliminated, leaving only light parasitic losses of rotating the working parts of the supercharger. The supercharger can be disconnected even more electrically (using an electromagnetic clutch such as those used in VW 1.4TSI or Toyota 4A-GZE , although this is not because it is a double-load motor, but is intended to bypass the supercharger in low load conditions) which eliminates this small parasitic loss.
+With series twincharging, the turbocharger can be of a less expensive and more durable journal bearing variety, and the sacrifice in boost response is more than made up for by the instant-on nature of displacement superchargers. While the weight and cost of the supercharger assembly are always a factor, the inefficiency and power consumption of the supercharger are almost totally eliminated as the turbocharger reaches operating rpm and the supercharge is effectively disconnected by the bypass valve.
+PARALLEL
+Section::::Parallel.
+Parallel arrangements typically require the use of a bypass or diverted valve to allow one or both compressors to feed the engine. If no valve were employed and both compressors were merely routed directly to the intake manifold, the supercharger would blow backwards through the turbocharger compressor rather than pressurize the intake manifold, as that would be the path of least resistance. Thus a diverter valve must be employed to vent turbocharger air until it has reached the pressure in the intake manifold. Complex or expensive electronic controls are usually necessary to ensure smooth power delivery.
+DISADVANTAGES
+Section::::Disadvantages.
+The main disadvantage of twincharging is the complexity and expense of components. Usually, to provide acceptable response, smoothness of power delivery, and adequate power gain over a single-compressor system, expensive electronic and/or mechanical controls must be used. In a spark-ignition engine, a low compression ratio must also be used if the supercharger produces high boost levels, negating some of the efficiency benefit of low displacement.
+COMMERCIAL AVAILABILITY
+Section::::Commercial availability.
+The concept of twincharging was first used by Lancia in 1985 on the Lancia Delta S4 Group B rally car and its street legal counterpart, the Delta S4 Stradale. The idea was also successfully adapted to production road cars by Nissan, in their March Super Turbo.
+Additionally, multiple companies have produced aftermarket twincharger kits for cars like the Subaru Impreza WRX, Mini Cooper S, Ford Mustang, and Toyota MR2.
+The Volkswagen 1.4 TSI is a 1400 cc engine – utilised by numerous automobiles of the VW Group – that sees use of both a turbocharger and a supercharger, and is available with eight power ratings:
+! Power
+! Torque
+! Vehicles
+Volvo produces a twincharged 1969 cc inline-four engine that is utilised in their T6, T8, and Polestar models. The T8 adds on the T6 with a rear electric motor.
+! Power
+! Torque
+! Vehicles
+The Danish supercar Zenvo ST1 made use of both turbocharger and supercharger in its 6.8-litre V8 engine.
+! Power
+! Torque
+! Vehicles
+ALTERNATIVE SYSTEMS
+ANTI-LAG SYSTEM
+Section::::Alternative systems.
+Section::::Anti-lag system.
+Twincharging's largest benefit over anti-lag systems in race cars is its reliability. Anti-lag systems work in one of two ways: by running very rich AFR and pumping air into the exhaust to ignite the extra fuel in the exhaust manifold; or by severely retarding ignition timing to cause the combustion event to continue well after the exhaust valve has opened. Both methods involve combustion in the exhaust manifold to keep the turbine spinning, and the heat from this will shorten the life of the turbine greatly.
+VARIABLE GEOMETRY TURBOCHARGER
+Section::::Variable geometry turbocharger.
+A variable-geometry turbocharger provides an improved response at widely-varied engine speeds. With variable-incidence under electronic control, it is possible to have the turbine reach a good operating speed quickly or at lower engine speed without severely diminishing its utility at higher engine speed.
+TWIN-SCROLL TURBOCHARGER
+Section::::Twin-scroll turbocharger.
+A turbocharger with two sets of vanes for two operating pressures, can decrease lag by operating at different exhaust pressures.
+SEQUENTIAL TWIN TURBOCHARGERS
+Section::::Sequential twin turbochargers.
+Sequential turbocharger systems provide a way to decrease turbo lag without compromising ultimate boost output and engine power.
+NITROUS OXIDE
+Section::::Nitrous oxide.
+Nitrous oxide (NO) is mixed with incoming air, providing more oxidizer to burn more fuel for supplemental power when a turbocharger is not spinning quickly. This also produces more exhaust gases so that the turbocharger quickly spools up, providing more oxygen for combustion, and the NO flow is reduced accordingly. The expense of both the system itself and the consumable NO can be significant.
+WATER INJECTION
+Section::::Water injection.
+For more engine power, and to augment the benefits of forced induction (by means of turbocharging or supercharging), an aftermarket water injection system can be added to the induction system of both gasoline and diesel internal combustion engines.
+REFERENCES
+EXTERNAL LINKS
+* http://www.greencarcongress.com/2005/08/inside_vws_new_.html

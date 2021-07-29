@@ -1,0 +1,89 @@
+
+BRAKE FLUID
+Brake fluid is a type of hydraulic fluid used in hydraulic brake and hydraulic clutch applications in automobiles, motorcycles, light trucks, and some bicycles. It is used to transfer force into pressure, and to amplify braking force. It works because liquids are not appreciably compressible.
+Most brake fluids used today are glycol-ether based, but mineral oil (Citroën/Rolls-Royce liquide hydraulique minéral (LHM)) and silicone-based (DOT 5) fluids are also available.
+STANDARDS
+Section::::Standards.
+Brake fluids must meet certain requirements as defined by various standards set by organizations such as the Society of Automotive Engineers (SAE), or local government equivalents.
+The SAE has published standards J1703, J1704, and J1705, reflecting progressively higher performance for brake fluids. The International Standards Organisation has published its standard ISO 4925, defining equivalent classes 3, 4, and 5, as well as class 5-1 and class 6.
+Most brake fluid sold in North America is classified by the US Department of Transportation (DOT) under its own ratings such as "DOT 3" and "DOT 4" and these are widely used in other countries. Their classifications broadly reflect the SAE's specifications, but with local details - Alaska and the Azores for example, have different normal temperature and humidity ranges to consider. DOT 3 is equivalent to SAE J1703 and ISO class 3, DOT 4 to SAE J1704 and ISO class 4, etc.
+All approved fluids must be colorless or amber to be acceptable for street use in the U.S, except for DOT 5 silicone, which must be purple.
+DOT 4
+Section::::DOT 4.
+While a vehicle that uses DOT 3 may also use DOT 4 or 5.1 if the elastomers in the system accept the borate compounds that raise the boiling point, (a temperature upgrade) a vehicle that requires DOT 4 might boil the brake fluid if a DOT 3 (a temperature downgrade) is used. Additionally, these polyglycol-ether-based fluids cannot be mixed with DOT 5.0, which is silicone based.
+, most cars produced in the U.S. use DOT 4 brake fluid.
+DOT 5
+Section::::DOT 5.
+DOT 5 is a silicone-based fluid and is separate from the series of DOT 2, 3, 4, 5.1. It is immiscible with water, and with other brake fluids, and must not be mixed with them. Systems can only change fluid after a complete system changeover, such as a total restoration.
+It contains at least 70% by weight of a diorgano polysiloxane. Unlike polyethylene glycol based fluids, Dot 5 is hydrophobic. An advantage over other forms of brake fluid is that silicone has a more stable viscosity index over a wider temperature range. Another property is that it does not damage paint. 
+DOT 5 brake fluid is not compatible with anti-lock braking systems. DOT 5 fluid can aerate when the anti-lock brake system is activated. DOT 5 brake fluid absorbs a small amount of air requiring care when bleeding the system of air.
+Lack of acceptance of silicone-based fluids led to the development of DOT 5.1, a fluid giving the performance advantages of silicone, whilst retaining some familiarity and compatibility with the glycol ester fluids.
+CITROËN HYDROPNEUMATIC SUSPENSION
+Section::::Citroën hydropneumatic suspension.
+In the 1950s, Citroën introduced a hydropneumatic suspension system, powered by an engine-driven pump and also used to operate the braking system. This used a Citroën-specific hydraulic fluid. The first fluid was LHS, a vegetable oil-based fluid. This was later replaced by LHM, a mineral fluid. LHS was hygroscopic and gave problems with internal corrosion. Although the two fluids are incompatible, LHM has been universal since 1967, and most older cars have been converted to use it.
+This system was also used on Rolls-Royce and some Maserati models.
+HYDRAGAS AND HYDROLASTIC SUSPENSION
+Section::::Hydragas and Hydrolastic suspension.
+Hydragas and Hydrolastic suspension were a widely-used form of hydropneumatic suspension, designed by Alex Moulton, and used on British Leyland cars from the 1960s. This system was not engine-driven and did not involve the braking system. 
+The fluid was a low vicosity fluid based on diluted alcohol.
+CHARACTERISTICS
+Section::::Characteristics.
+Brake fluids must have certain characteristics and meet certain quality standards for the braking system to work properly.
+VISCOSITY
+Section::::Viscosity.
+For reliable, consistent brake system operation, brake fluid must maintain a constant viscosity under a wide range of temperatures, including extreme cold. This is especially important in systems with an anti-lock braking system (ABS), traction control, and stability control (ESP), as these systems often use micro-valves and require very rapid activation. DOT 5.1 fluids are specified with low viscosity over a wide range of temperatures, although not all cars fitted with ABS or ESP specify DOT 5.1 brake fluid.
+BOILING POINT
+Section::::Boiling point.
+Brake fluid is subjected to very high temperatures, especially in the wheel cylinders of drum brakes and disk brake calipers. It must have a high boiling point to avoid vaporizing in the lines. This vaporization creates a problem because vapor is highly compressible relative to liquid, and therefore negates the hydraulic transfer of braking force - so the brakes will fail to stop the vehicle.
+Quality standards refer to a brake fluid's "dry" and "wet" boiling points. The wet boiling point, which is usually much lower (although above most normal service temperatures), refers to the fluid's boiling point after absorbing a certain amount of moisture. This is several (single digit) percent, varying from formulation to formulation. Glycol-ether (DOT 3, 4, and 5.1) brake fluids are hygroscopic (water absorbing), which means they absorb moisture from the atmosphere under normal humidity levels. Non-hygroscopic fluids (e.g. silicone/DOT 5 and mineral oil based formulations), are hydrophobic, and can maintain an acceptable boiling point over the fluid's service life.
+Silicone based fluid is more compressible than glycol based fluid, leading to brakes with a spongy feeling. It can potentially suffer phase separation/water pooling and freezing/boiling in the system over time - the main reason single phase hygroscopic fluids are used.
++ Characteristics of common braking fluids
+!
+! Dry boiling point
+! Wet boiling point
+! Viscosity limit
+! Primary constituent
+CORROSION
+Section::::Corrosion.
+Brake fluids must not corrode the metals used inside components such as calipers, wheel cylinders, master cylinders and ABS control valves. They must also protect against corrosion as moisture enters the system. Additives (corrosion inhibitors) are added to the base fluid to accomplish this. Silicone is less corrosive to paintwork unlike glycol-ether based DOT fluids.
+The advantage of the Citroën LHM mineral oil based brake fluid is the absence of corrosion. Seals may wear out at high mileages but otherwise these systems have exceptional longevity. It cannot be used as a substitute without changing seals due to incompatibility with the rubber.
+COMPRESSIBILITY
+Section::::Compressibility.
+Brake fluids must maintain a low level of compressibility, even with varying temperatures to accommodate different environmental conditions. This is important to ensure consistent brake pedal feel. As compressibility increases, more brake pedal travel is necessary for the same amount of brake caliper piston force.
+SERVICE AND MAINTENANCE
+Section::::Service and maintenance.
+Most automotive professionals agree that glycol-based brake fluid, (DOT 3, DOT 4, DOT 5.1) should be flushed, or changed, every 1–2 years under non-racing conditions. Many manufacturers also require periodic fluid changes to ensure reliability and safety. Once installed, moisture diffuses into the fluid through brake hoses and rubber seals and, eventually, the fluid will have to be replaced when the water content becomes too high. Electronic testers and test strips are commercially available to measure moisture content, however moisture test strips were taken off the market because they absorb moisture in the air before they can be used. The corrosion inhibitors also degrade over time. Degraded inhibitors allow corrosion in the braking system. The first metal to corrode is copper. You can determine when it is time to replace brake fluid when copper ions hit 200ppm. New fluid should always be stored in a sealed container to avoid moisture intrusion.
+DOT 2 (mineral oil) DOT 5 (silicone) fluids are not hygroscopic and don't have to be replaced when the water content becomes too high. Ideally, silicone fluid should be used only to fill non-ABS systems that have not been previously filled with glycol based fluid. Any system that has used glycol-based fluid (DOT 3/4/5.1) will contain moisture; glycol fluid disperses the moisture throughout the system and contains corrosion inhibitors. Silicone fluid does not allow moisture to enter the system, but does not disperse any that is already there, either. A system filled from dry with silicone fluid does not require the fluid to be changed at intervals, only when the system has been disturbed for a component repair or renewal. The United States armed forces have standardised on silicone brake fluid since the 1990s. Silicone fluid is used extensively in cold climates, particularly in Russia and Finland.
+A small drop in brake fluid level in the master cylinder reservoir can be "topped up" but if the level consistently drops, the cause should be investigated and repaired. Brake fluid level in the master cylinder will drop as the linings (pads or shoes) wear and the calipers or wheel cylinders extend further to compensate. Overspill from pushing back pistons should be avoided, because glycol based fluid will quickly lift or strip paints and other coatings on contact (it can be removed by quickly washing with water, not wiping). Brake fluid level may also be low because of a leak, which could result in a loss of hydraulic pressure and consequently a significant loss of braking ability. Modern cars have redundant hydraulic circuits (two separate circuits) to ensure against total hydraulic failure.
+Brake fluids with different DOT ratings can not always be mixed. DOT 5 should not be mixed with any of the others as mixing of glycol with silicone fluid may cause corrosion because of trapped moisture. DOT 2 should not be mixed with any of the others. DOT 3, DOT 4, and DOT 5.1 are all based on glycol esters and can be mixed, although it is preferable to completely replace existing fluids with fresh to obtain the specified performance.
+Brake fluid is toxic and can damage painted surfaces.
+COMPONENTS
+CASTOR OIL-BASED (PRE-DOT, DOT 2)
+* Castor oil
+* Alcohol, usually butanol (red / crimson fluid) or ethanol (yellow fluid) (methanol)
+GLYCOL-BASED (DOT 3, 4, 5.1)
+* Alkyl ester
+* Aliphatic amine
+* Diethylene glycol
+* Diethylene glycol monoethyl ether
+* Diethylene glycol monomethyl ether
+* Dimethyl dipropylene glycol
+* Polyethylene glycol monobutyl ether
+* Polyethylene glycol monomethyl ether
+* Polyethylene oxide
+* Triethylene glycol monobutyl ether
+* Triethylene glycol monoethyl ether
+* Triethylene glycol monomethyl ether
+SILICONE-BASED (DOT 5)
+* Di-2-ethylhexyl sebacate
+* Dimethyl polysiloxane
+* Tributyl phosphate
+SEE ALSO
+* Hydropneumatic
+* Pascal's law
+* Brake fluid pressure sensor
+REFERENCES
+EXTERNAL LINKS
+* Car care council
+* How Stuff Works: What are the different types of brake fluid?
+* StopTech: Brake Fluid 1A

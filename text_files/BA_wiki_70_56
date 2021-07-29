@@ -1,0 +1,240 @@
+
+USB FLASH DRIVE
+A USB flash drive, also known as a thumb drive, pen drive, gig stick, flash stick, jump drive, disk key, disk on key (after the original M-Systems DiskOnKey drive from 2000), flash-drive, memory stick (not to be confused with the Sony Memory Stick), USB key, USB stick or USB memory, is a data storage device that includes flash memory with an integrated USB interface. It is typically removable, rewritable and much smaller than an optical disc. Most weigh less than . Since first appearing on the market in late 2000, as with virtually all other computer memory devices, storage capacities have risen while prices have dropped. , flash drives with anywhere from 8 to 256 GB were frequently sold, while 512 GB and 1 TB units were less frequent. As of 2018, 2TB flash drives were the largest available in terms of storage capacity. Some allow up to 100,000 write/erase cycles, depending on the exact type of memory chip used, and are thought to last between 10 and 100 years under normal circumstances (shelf storage time).
+USB flash drives are often used for storage, data back-up and transfer of computer files. Compared with floppy disks or CDs, they are smaller, faster, have significantly more capacity, and are more durable due to a lack of moving parts. Additionally, they are immune to electromagnetic interference (unlike floppy disks), and are unharmed by surface scratches (unlike CDs). Until about 2005, most desktop and laptop computers were supplied with floppy disk drives in addition to USB ports, but floppy disk drives became obsolete after widespread adoption of USB ports and the larger USB drive capacity compared to the 1.44 MB 3.5-inch floppy disk.
+USB flash drives use the USB mass storage device class standard, supported natively by modern operating systems such as Windows, Linux, and other Unix-like systems, as well as many BIOS boot ROMs. USB drives with USB 2.0 support can store more data and transfer faster than much larger optical disc drives like CD-RW or DVD-RW drives and can be read by many other systems such as the Xbox One, PlayStation 4, DVD players, automobile entertainment systems, and in a number of handheld devices such as smartphones and tablet computers, though the electronically similar SD card is better suited for those devices.
+A flash drive consists of a small printed circuit board carrying the circuit elements and a USB connector, insulated electrically and protected inside a plastic, metal, or rubberized case, which can be carried in a pocket or on a key chain, for example. The USB connector may be protected by a removable cap or by retracting into the body of the drive, although it is not likely to be damaged if unprotected. Most flash drives use a standard type-A USB connection allowing connection with a port on a personal computer, but drives for other interfaces also exist. USB flash drives draw power from the computer via the USB connection. Some devices combine the functionality of a portable media player with USB flash storage; they require a battery only when used to play music on the go.
+HISTORY
+Section::::History.
+M-Systems, an Israeli company later acquired by SanDisk, filed the first patent for a USB flash drive in April 1999, known as a DiskOnKey. Later in 1999, IBM filed an invention disclosure by one of its employees. Flash drives were sold initially by Trek 2000 International, a company in Singapore, which began selling in early 2000. IBM became the first to sell USB flash drives in the United States in 2000. The initial storage capacity of a flash drive was 8 MB. Another version of the flash drive, described as a pen drive, was also developed. Pua Khein-Seng from Malaysia has been credited with this invention. Patent disputes have arisen over the years, with competing companies including Singaporean company Trek Technology and Chinese company Netac Technology, attempting to enforce their patents. Trek won a suit in Singapore, but has lost battles in other countries. Netac Technology has brought lawsuits against PNY Technologies, Lenovo, aigo, Sony, and Taiwan's Acer and Tai Guen Enterprise Co.
+TECHNOLOGY IMPROVEMENTS
+Section::::Technology improvements.
+Flash drives are often measured by the rate at which they transfer data. Transfer rates may be given in megabytes per second (MB/s), megabits per second (Mbit/s), or in optical drive multipliers such as "180X" (180 times 150 KiB/s). File transfer rates vary considerably among devices. Second generation flash drives have claimed to read at up to 30 MB/s and write at about half that rate, which was about 20 times faster than the theoretical transfer rate achievable by the previous model, USB 1.1, which is limited to 12 Mbit/s (1.5 MB/s) with accounted overhead. The effective transfer rate of a device is significantly affected by the data access pattern. 
+By 2002, USB flash drives had USB 2.0 connectivity, which has 480 Mbit/s as the transfer rate upper bound; after accounting for the protocol overhead that translates to a 35 MB/s effective throughput. That same year, Intel sparked widespread use of second generation USB by including them within its laptops. 
+Third generation USB flash drives were announced in late 2008 and became available in 2010. Like USB 2.0 before it, USB 3.0 dramatically improved data transfer rates compared to its predecessor. The USB 3.0 interface specified transfer rates up to 5 Gbit/s (625 MB/s), compared to USB 2.0's 480 Mbit/s (60 MB/s). By 2010 the maximum available storage capacity for the devices had reached upwards of 128GB. USB 3.0 was slow to appear in laptops. As of 2010, the majority of laptop models still contained the 2.0. 
+In January 2013, tech company Kingston, released a flash drive with 1TB of storage. The first USB 3.1 type-C flash drives, with read/write speeds of around 530 MB/s, were announced in March 2015. As of July 2016, flash drives within the 8 to 256 GB were sold more frequently than those between 512 GB and 1 TB units. In 2017, Kingston Technology announced the release of a 2-TB flash drive. 
+Internals of a typical USB flash drive
+!1
+USB Standard-A, "male" plug
+!2
+USB mass storage controller device
+!3
+Test point
+!4
+Flash memory chip
+!5
+Crystal oscillator
+!6
+LED (Optional)
+!7
+Write-protect switch (Optional)
+!8
+Space for second flash memory chip
+On a USB flash drive, one end of the device is fitted with a single Standard-A USB plug; some flash drives additionally offer a micro USB plug, facilitating data transfers between different devices.
+TECHNOLOGY
+Section::::Technology.
+On a USB flash drive, one end of the device is fitted with a single Standard-A USB plug; some flash drives additionally offer a micro USB plug, facilitating data transfers between different devices.
+Inside the plastic casing is a small printed circuit board, which has some power circuitry and a small number of surface-mounted integrated circuits (ICs). Typically, one of these ICs provides an interface between the USB connector and the onboard memory, while the other is the flash memory. Drives typically use the USB mass storage device class to communicate with the host.
+FLASH MEMORY
+Section::::Flash memory.
+Flash memory combines a number of older technologies, with lower cost, lower power consumption and small size made possible by advances in microprocessor technology. The memory storage was based on earlier EPROM and EEPROM technologies. These had limited capacity, were slow for both reading and writing, required complex high-voltage drive circuitry, and could be re-written only after erasing the entire contents of the chip.
+Hardware designers later developed EEPROMs with the erasure region broken up into smaller "fields" that could be erased individually without affecting the others. Altering the contents of a particular memory location involved copying the entire field into an off-chip buffer memory, erasing the field, modifying the data as required in the buffer, and re-writing it into the same field. This required considerable computer support, and PC-based EEPROM flash memory systems often carried their own dedicated microprocessor system. Flash drives are more or less a miniaturized version of this.
+The development of high-speed serial data interfaces such as USB made semiconductor memory systems with serially accessed storage viable, and the simultaneous development of small, high-speed, low-power microprocessor systems allowed this to be incorporated into extremely compact systems. Serial access requires far fewer electrical connections for the memory chips than does parallel access, which has simplified the manufacture of multi-gigabyte drives.
+Computers access flash memory systems very much like hard disk drives, where the controller system has full control over where information is actually stored. The actual EEPROM writing and erasure processes are, however, still very similar to the earlier systems described above.
+Many low-cost MP3 players simply add extra software and a battery to a standard flash memory control microprocessor so it can also serve as a music playback decoder. Most of these players can also be used as a conventional flash drive, for storing files of any type.
+ESSENTIAL COMPONENTS
+Section::::Essential components.
+There are typically five parts to a flash drive:
+* Standard-A USB plug provides a physical interface to the host computer. Some USB flash drives use USB plug that does not protect the 4 contacts, with the possibility of plugging it into the USB port the other way around.
+* USB mass storage controller a small microcontroller with a small amount of on-chip ROM and RAM.
+* NAND flash memory chip(s) stores data (NAND flash is typically also used in digital cameras).
+* Crystal oscillator produces the device's main 12 MHz clock signal and controls the device's data output through a phase-locked loop.
+* Cover typically made of plastic or metal, protecting the electronics against mechanical stress and even possible short circuits.
+ADDITIONAL COMPONENTS
+Section::::Additional components.
+The typical device may also include:
+* Jumpers and test pins – for testing during the flash drive's manufacturing or loading code into its microcontroller.
+* LEDs – indicate data transfers or data reads and writes.
+* Write-protect switches – Enable or disable writing of data into memory.
+* Unpopulated space – provides space to include a second memory chip. Having this second space allows the manufacturer to use a single printed circuit board for more than one storage size device.
+* USB connector cover or cap – reduces the risk of damage, prevents the entry of dirt or other contaminants, and improves overall device appearance. Some flash drives use retractable USB connectors instead. Others have a swivel arrangement so that the connector can be protected without removing anything.
+* Transport aid – the cap or the body often contains a hole suitable for connection to a key chain or lanyard. Connecting the cap, rather than the body, can allow the drive itself to be lost.
+* Some drives offer expandable storage via an internal memory card slot, much like a memory card reader.
+SIZE AND STYLE OF PACKAGING
+Section::::Size and style of packaging.
+Most USB flash drives weigh less than . While some manufacturers are competing for the smallest size with the biggest memory, some manufacturers differentiate their products by using elaborate housings, which are often bulky and make the drive difficult to connect to the USB port. Because the USB port connectors on a computer housing are often closely spaced, plugging a flash drive into a USB port may block an adjacent port. Such devices may carry the USB logo only if sold with a separate extension cable. Such cables are USB-compatible but do not conform to the USB standard.
+USB flash drives have been integrated into other commonly carried items, such as watches, pens, and even the Swiss Army Knife; others have been fitted with novelty cases such as toy cars or Lego bricks. USB flash drives with images of dragons, cats or aliens are very popular in Asia. The small size, robustness and cheapness of USB flash drives make them an increasingly popular peripheral for case modding.
+FILE SYSTEM
+Section::::File system.
+Most flash drives ship preformatted with the FAT32, or exFAT file systems. The ubiquity of the FAT32 file system allows the drive to be accessed on virtually any host device with USB support. Also, standard FAT maintenance utilities (e.g., ScanDisk) can be used to repair or retrieve corrupted data. However, because a flash drive appears as a USB-connected hard drive to the host system, the drive can be reformatted to any file system supported by the host operating system.
+Defragmenting
+Even distribution
+Hard disk drive
+LONGEVITY
+Section::::Longevity.
+The memory in flash drives is commonly engineered with multi-level cell (MLC) based memory that is good for around 3,000-5,000 program-erase cycles, but some flash drives have single-level cell (SLC) based memory that is good for around 100,000 writes. There is virtually no limit to the number of reads from such flash memory, so a well-worn USB drive may be write-protected to help ensure the life of individual cells. 
+Estimation of flash memory endurance is a challenging subject that depends on the SLC/MLC/TLC memory type, size of the flash memory chips, and actual usage pattern. As a result, a USB flash drive can last from a few days to several hundred years.
+Regardless of the endurance of the memory itself, the USB connector hardware is specified to withstand only around 1,500 insert-removal cycles.
+COUNTERFEIT PRODUCTS
+Section::::Counterfeit products.
+Counterfeit USB flash drives are sometimes sold with claims of having higher capacities than they actually have. These are typically low capacity USB drives which are modified so that they emulate larger capacity drives (for example, a 2 GB drive being marketed as a 64 GB drive). When plugged into a computer, they report themselves as being the larger capacity they were sold as, but when data is written to them, either the write fails, the drive freezes up, or it overwrites existing data. Software tools exist to check and detect fake USB drives, and in some cases it is possible to repair these devices to remove the false capacity information and use its real storage limit.
+FILE TRANSFER SPEEDS
+Section::::File transfer speeds.
+Transfer speeds are technically determined by the slowest of three factors: the USB version used, the speed in which the USB controller device can read and write data onto the flash memory, and the speed of the hardware bus, especially in the case of add-on USB ports.
+USB flash drives usually specify their read and write speeds in megabytes per second (MB/s); read speed is usually faster. These speeds are for optimal conditions; real-world speeds are usually slower. In particular, circumstances that often lead to speeds much lower than advertised are transfer (particularly writing) of many small files rather than a few very large ones, and mixed reading and writing to the same device.
+In a typical well-conducted review of a number of high-performance USB 3.0 drives, a drive that could read large files at 68 MB/s and write at 46 MB/s, could only manage 14 MB/s and 0.3 MB/s with many small files. When combining streaming reads and writes the speed of another drive, that could read at 92 MB/s and write at 70 MB/s, was 8 MB/s. These differences differ radically from one drive to another; some drives could write small files at over 10% of the speed for large ones. The examples given are chosen to illustrate extremes...′
+USES
+PERSONAL DATA TRANSPORT
+Section::::Uses.
+Section::::Personal data transport.
+The most common use of flash drives is to transport and store personal files, such as documents, pictures and videos. Individuals also store medical information on flash drives for emergencies and disaster preparation.
+SECURE STORAGE OF DATA, APPLICATION AND SOFTWARE FILES
+Section::::Secure storage of data, application and software files.
+With wide deployment(s) of flash drives being used in various environments (secured or otherwise), the issue of data and information security remains important. The use of biometrics and encryption is becoming the norm with the need for increased security for data; on-the-fly encryption systems are particularly useful in this regard, as they can transparently encrypt large amounts of data. In some cases a secure USB drive may use a hardware-based encryption mechanism that uses a hardware module instead of software for strongly encrypting data. IEEE 1667 is an attempt to create a generic authentication platform for USB drives. It is supported in Windows 7 and Windows Vista (Service Pack 2 with a hotfix).
+COMPUTER FORENSICS AND LAW ENFORCEMENT
+Section::::Computer forensics and law enforcement.
+A recent development for the use of a USB Flash Drive as an application carrier is to carry the Computer Online Forensic Evidence Extractor (COFEE) application developed by Microsoft. COFEE is a set of applications designed to search for and extract digital evidence on computers confiscated from suspects. Forensic software is required not to alter, in any way, the information stored on the computer being examined. Other forensic suites run from CD-ROM or DVD-ROM, but cannot store data on the media they are run from (although they can write to other attached devices, such as external drives or memory sticks).
+UPDATING MOTHERBOARD FIRMWARE
+Section::::Updating motherboard firmware.
+Motherboard firmware (including BIOS and UEFI) can be updated using USB flash drives. Usually, new firmware image is downloaded and placed onto a FAT16- or FAT32-formatted USB flash drive connected to a system which is to be updated, and path to the new firmware image is selected within the update component of system's firmware. Some motherboard manufacturers are also allowing such updates to be performed without the need for entering system's firmware update component, making it possible to easily recover systems with corrupted firmware.
+Also, HP has introduced a USB floppy drive key, which is an ordinary USB flash drive with additional possilibility for performing floppy drive emulation, allowing its usage for updating system firmware where direct usage of USB flash drives is not supported. Desired mode of operation (either regular USB mass storage device or of floppy drive emulation) is made selectable by a sliding switch on the device's housing.
+BOOTING OPERATING SYSTEMS
+Section::::Booting operating systems.
+Most current PC firmware permits booting from a USB drive, allowing the launch of an operating system from a bootable flash drive. Such a configuration is known as a Live USB.
+Original flash memory designs had very limited estimated lifetimes. The failure mechanism for flash memory cells is analogous to a metal fatigue mode; the device fails by refusing to write new data to specific cells that have been subject to many read-write cycles over the device's lifetime. Premature failure of a "live USB" could be circumvented by using a flash drive with a write-lock switch as a WORM device, identical to a live CD. Originally, this potential failure mode limited the use of "live USB" system to special-purpose applications or temporary tasks, such as:
+* Loading a minimal, hardened kernel for embedded applications (e.g., network router, firewall).
+* Bootstrapping an operating system install or disk cloning operation, often across a network.
+* Maintenance tasks, such as virus scanning or low-level data repair, without the primary host operating system loaded.
+, newer flash memory designs have much higher estimated lifetimes. Several manufacturers are now offering warranties of 5 years or more. Such warranties should make the device more attractive for more applications. By reducing the probability of the device's premature failure, flash memory devices can now be considered for use where a magnetic disk would normally have been required. Flash drives have also experienced an exponential growth in their storage capacity over time (following the Moore's Law growth curve). As of 2013, single-packaged devices with capacities of 1 TB are readily available, and devices with 16 GB capacity are very economical. Storage capacities in this range have traditionally been considered to offer adequate space, because they allow enough space for both the operating system software and some free space for the user's data.
+OPERATING SYSTEM INSTALLATION MEDIA
+Section::::Operating system installation media.
+Installers of some operating systems can be stored to a flash drive instead of a CD or DVD, including various Linux distributions, Windows 7 and newer versions, and macOS. In particular, Mac OS X 10.7 is distributed only online, through the Mac App Store, or on flash drives; for a MacBook Air with Boot Camp and no external optical drive, a flash drive can be used to run installation of Windows or Linux.
+However, for installation of Windows 7 and later versions, using USB flash drive with hard disk drive emulation as detected in PC's firmware is recommended in order to boot from it. Transcend is the only manufacturer of USB flash drives containing such feature.
+Furthermore, for installation of Windows XP, using USB flash drive with storage limit of at most 2 GB is recommended in order to boot from it.
+WINDOWS READYBOOST
+Section::::Windows ReadyBoost.
+In Windows Vista and later versions, ReadyBoost feature allows flash drives (from 4 GB in case of Windows Vista) to augment operating system memory.
+APPLICATION CARRIERS
+Section::::Application carriers.
+Flash drives are used to carry applications that run on the host computer without requiring installation. While any standalone application can in principle be used this way, many programs store data, configuration information, etc. on the hard drive and registry of the host computer.
+The U3 company works with drive makers (parent company SanDisk as well as others) to deliver custom versions of applications designed for Microsoft Windows from a special flash drive; U3-compatible devices are designed to autoload a menu when plugged into a computer running Windows. Applications must be modified for the U3 platform not to leave any data on the host machine. U3 also provides a software framework for independent software vendors interested in their platform.
+Ceedo is an alternative product, with the key difference that it does not require Windows applications to be modified in order for them to be carried and run on the drive.
+Similarly, other application virtualization solutions and portable application creators, such as VMware ThinApp (for Windows) or RUNZ (for Linux) can be used to run software from a flash drive without installation.
+In October 2010, Apple Inc. released their newest iteration of the MacBook Air, which had the system's restore files contained on a USB hard drive rather than the traditional install CDs, due to the Air not coming with an optical drive.
+A wide range of portable applications which are all free of charge, and able to run off a computer running Windows without storing anything on the host computer's drives or registry, can be found in the list of portable software.
+BACKUP
+Section::::Backup.
+Some value-added resellers are now using a flash drive as part of small-business turnkey solutions (e.g., point-of-sale systems). The drive is used as a backup medium: at the close of business each night, the drive is inserted, and a database backup is saved to the drive. Alternatively, the drive can be left inserted through the business day, and data regularly updated. In either case, the drive is removed at night and taken offsite.
+* This is simple for the end-user, and more likely to be done.
+* The drive is small and convenient, and more likely to be carried off-site for safety.
+* The drives are less fragile mechanically and magnetically than tapes.
+* The capacity is often large enough for several backup images of critical data.
+* Flash drives are cheaper than many other backup systems.
+Flash drives also have disadvantages. They are easy to lose and facilitate unauthorized backups. A lesser setback for flash drives is that they have only one tenth the capacity of hard drives manufactured around their time of distribution.
+AUDIO PLAYERS
+Section::::Audio players.
+Many companies make small solid-state digital audio players, essentially producing flash drives with sound output and a simple user interface. Examples include the Creative MuVo, Philips GoGear and the first generation iPod shuffle. Some of these players are true USB flash drives as well as music players; others do not support general-purpose data storage. Other applications requiring storage, such as digital voice or sound recording, can also be combined with flash drive functionality.
+Many of the smallest players are powered by a permanently fitted rechargeable battery, charged from the USB interface. Fancier devices that function as a digital audio player have a USB host port (type A female typically).
+MEDIA STORAGE AND MARKETING
+Section::::Media storage and marketing.
+Digital audio files can be transported from one computer to another like any other file, and played on a compatible media player (with caveats for DRM-locked files). In addition, many home Hi-Fi and car stereo head units are now equipped with a USB port. This allows a USB flash drive containing media files in a variety of formats to be played directly on devices which support the format. Some LCD monitors for consumer HDTV viewing have a dedicated USB port through which music and video files can also be played without use of a personal computer.
+Artists have sold or given away USB flash drives, with the first instance believed to be in 2004 when the German punk band Wizo released the Stick EP, only as a USB drive. In addition to five high-bitrate MP3s, it also included a video, pictures, lyrics, and guitar tablature. Subsequently, artists including Nine Inch Nails and Kylie Minogue have released music and promotional material on USB flash drives. The first USB album to be released in the UK was Kiss Does... Rave, a compilation album released by the Kiss Network in April 2007.
+BRAND AND PRODUCT PROMOTION
+Section::::Brand and product promotion.
+The availability of inexpensive flash drives has enabled them to be used for promotional and marketing purposes, particularly within technical and computer-industry circles (e.g., technology trade shows). They may be given away for free, sold at less than wholesale price, or included as a bonus with another purchased product.
+Usually, such drives will be custom-stamped with a company's logo, as a form of advertising. The drive may be blank, or preloaded with graphics, documentation, web links, Flash animation or other multimedia, and free or demonstration software. Some preloaded drives are read-only, while others are configured with both read-only and user-writable segments. Such dual-partition drives are more expensive.
+Flash drives can be set up to automatically launch stored presentations, websites, articles, and any other software immediately on insertion of the drive using the Microsoft Windows AutoRun feature. Autorunning software this way does not work on all computers, and it is normally disabled by security-conscious users.
+ARCADES
+Section::::Arcades.
+In the arcade game In the Groove and more commonly In The Groove 2, flash drives are used to transfer high scores, screenshots, dance edits, and combos throughout sessions. As of software revision 21 (R21), players can also store custom songs and play them on any machine on which this feature is enabled. While use of flash drives is common, the drive must be Linux compatible.
+In the arcade games Pump it Up NX2 and Pump it Up NXA, a specially produced flash drive is used as a "save file" for unlocked songs, as well as for progressing in the WorldMax and Brain Shower sections of the game.
+In the arcade game Dance Dance Revolution X, an exclusive USB flash drive was made by Konami for the purpose of the link feature from its Sony PlayStation 2 counterpart. However, any USB flash drive can be used in this arcade game.
+CONVENIENCES
+Section::::Conveniences.
+Flash drives use little power, have no fragile moving parts, and for most capacities are small and light. Data stored on flash drives is impervious to mechanical shock, magnetic fields, scratches and dust. These properties make them suitable for transporting data from place to place and keeping the data readily at hand.
+Flash drives also store data densely compared to many removable media. In mid-2009, 256 GB drives became available, with the ability to hold many times more data than a DVD (54 DVDs) or even a Blu-ray disc (10 BDs).
+Flash drives implement the USB mass storage device class so that most modern operating systems can read and write to them without installing device drivers. The flash drives present a simple block-structured logical unit to the host operating system, hiding the individual complex implementation details of the various underlying flash memory devices. The operating system can use any file system or block addressing scheme. Some computers can boot up from flash drives.
+Specially manufactured flash drives are available that have a tough rubber or metal casing designed to be waterproof and virtually "unbreakable". These flash drives retain their memory after being submerged in water, and even through a machine wash. Leaving such a flash drive out to dry completely before allowing current to run through it has been known to result in a working drive with no future problems. Channel Five's Gadget Show cooked one of these flash drives with propane, froze it with dry ice, submerged it in various acidic liquids, ran over it with a jeep and fired it against a wall with a mortar. A company specializing in recovering lost data from computer drives managed to recover all the data on the drive. All data on the other removable storage devices tested, using optical or magnetic technologies, were destroyed.
+COMPARISON WITH OTHER PORTABLE STORAGE
+TAPE
+Section::::Comparison with other portable storage.
+Section::::Tape.
+The applications of current data tape cartridges hardly overlap those of flash drives: on tape, cost per gigabyte is very low for large volumes, but the individual drives and media are expensive. Media have a very high capacity and very fast transfer speeds, but store data sequentially and are very slow for random access of data. While disk-based backup is now the primary medium of choice for most companies, tape backup is still popular for taking data off-site for worst-case scenarios and for very large volumes (more than a few hundreds of TB). See LTO tapes.
+FLOPPY DISK
+Section::::Floppy disk.
+Floppy disk drives are rarely fitted to modern computers and are obsolete for normal purposes, although internal and external drives can be fitted if required. Floppy disks may be the method of choice for transferring data to and from very old computers without USB or booting from floppy disks, and so they are sometimes used to change the firmware on, for example, BIOS chips. Devices with removable storage like older Yamaha music keyboards are also dependent on floppy disks, which require computers to process them. Newer devices are built with USB flash drive support.
+OPTICAL MEDIA
+Section::::Optical media.
+The various writable and rewritable forms of CD and DVD are portable storage media supported by the vast majority of computers as of 2008. CD-R, DVD-R, and DVD+R can be written to only once, RW varieties up to about 1,000 erase/write cycles, while modern NAND-based flash drives often last for 500,000 or more erase/write cycles. DVD-RAM discs are the most suitable optical discs for data storage involving much rewriting.
+Optical storage devices are among the cheapest methods of mass data storage after the hard drive. They are slower than their flash-based counterparts. Standard 12 cm optical discs are larger than flash drives and more subject to damage. Smaller optical media do exist, such as business card CD-Rs which have the same dimensions as a credit card, and the slightly less convenient but higher capacity 8 cm recordable MiniCD and MiniDVD. The small discs are more expensive than the standard size, and do not work in all drives.
+Universal Disk Format (UDF) version 1.50 and above has facilities to support rewritable discs like sparing tables and virtual allocation tables, spreading usage over the entire surface of a disc and maximising life, but many older operating systems do not support this format. Packet-writing utilities such as DirectCD and InCD are available but produce discs that are not universally readable (although based on the UDF standard). The Mount Rainier standard addresses this shortcoming in CD-RW media by running the older file systems on top of it and performing defect management for those standards, but it requires support from both the CD/DVD burner and the operating system. Many drives made today do not support Mount Rainier, and many older operating systems such as Windows XP and below, and Linux kernels older than 2.6.2, do not support it (later versions do). Essentially CDs/DVDs are a good way to record a great deal of information cheaply and have the advantage of being readable by most standalone players, but they are poor at making ongoing small changes to a large collection of information. Flash drives' ability to do this is their major advantage over optical media.
+FLASH MEMORY CARDS
+Section::::Flash memory cards.
+Flash memory cards, e.g., Secure Digital cards, are available in various formats and capacities, and are used by many consumer devices. However, while virtually all PCs have USB ports, allowing the use of USB flash drives, memory card readers are not commonly supplied as standard equipment (particularly with desktop computers). Although inexpensive card readers are available that read many common formats, this results in two pieces of portable equipment (card plus reader) rather than one.
+Some manufacturers, aiming at a "best of both worlds" solution, have produced card readers that approach the size and form of USB flash drives (e.g., Kingston MobileLite, SanDisk MobileMate) These readers are limited to a specific subset of memory card formats (such as SD, microSD, or Memory Stick), and often completely enclose the card, offering durability and portability approaching, if not quite equal to, that of a flash drive. Although the combined cost of a mini-reader and a memory card is usually slightly higher than a USB flash drive of comparable capacity, the reader + card solution offers additional flexibility of use, and virtually "unlimited" capacity. The ubiquity of SD cards is such that, circa 2011, due to economies of scale, their price is now less than an equivalent-capacity USB flash drive, even with the added cost of a USB SD card reader.
+An additional advantage of memory cards is that many consumer devices (e.g., digital cameras, portable music players) cannot make use of USB flash drives (even if the device has a USB port), whereas the memory cards used by the devices can be read by PCs with a card reader.
+EXTERNAL HARD DISK
+Section::::External hard disk.
+Particularly with the advent of USB, external hard disks have become widely available and inexpensive. External hard disk drives currently cost less per gigabyte than flash drives and are available in larger capacities. Some hard drives support alternative and faster interfaces than USB 2.0 (e.g., Thunderbolt, FireWire and eSATA). For consecutive sector writes and reads (for example, from an unfragmented file), most hard drives can provide a much higher sustained data rate than current NAND flash memory, though mechanical latencies seriously impact hard drive performance.
+Unlike solid-state memory, hard drives are susceptible to damage by shock (e.g., a short fall) and vibration, have limitations on use at high altitude, and although they are shielded by their casings, they are vulnerable when exposed to strong magnetic fields. In terms of overall mass, hard drives are usually larger and heavier than flash drives; however, hard disks sometimes weigh less per unit of storage. Like flash drives, hard disks also suffer from file fragmentation, which can reduce access speed.
+OBSOLETE DEVICES
+Section::::Obsolete devices.
+Audio tape cassettes and high-capacity floppy disks (e.g., Imation SuperDisk), and other forms of drives with removable magnetic media, such as the Iomega Zip and Jaz drives, are now largely obsolete and rarely used. There are products in today's market that will emulate these legacy drives for both tape and disk (SCSI1/SCSI2, SASI, Magneto optic, Ricoh ZIP, Jaz, IBM3590/ Fujitsu 3490E and Bernoulli for example) in state-of-the-art Compact Flash storage devices – CF2SCSI.
+ENCRYPTION AND SECURITY
+Section::::Encryption and security.
+As highly portable media, USB flash drives are easily lost or stolen. All USB flash drives can have their contents encrypted using third-party disk encryption software, which can often be run directly from the USB drive without installation (for example, FreeOTFE), although some, such as BitLocker, require the user to have administrative rights on every computer it is run on.
+Archiving software can achieve a similar result by creating encrypted ZIP or RAR files.
+Some manufacturers have produced USB flash drives which use hardware-based encryption as part of the design, removing the need for third-party encryption software. In limited circumstances these drives have been shown to have security problems, and are typically more expensive than software-based systems, which are available for free.
+A minority of flash drives support biometric fingerprinting to confirm the user's identity. As of mid-, this was an expensive alternative to standard password protection offered on many new USB flash storage devices. Most fingerprint scanning drives rely upon the host operating system to validate the fingerprint via a software driver, often restricting the drive to Microsoft Windows computers. However, there are USB drives with fingerprint scanners which use controllers that allow access to protected data without any authentication.
+Some manufacturers deploy physical authentication tokens in the form of a flash drive. These are used to control access to a sensitive system by containing encryption keys or, more commonly, communicating with security software on the target machine. The system is designed so the target machine will not operate except when the flash drive device is plugged into it. Some of these "PC lock" devices also function as normal flash drives when plugged into other machines.
+CONTROVERSIES
+CRITICISMS
+FAILURES
+Section::::Controversies.
+Section::::Criticisms.
+Section::::Failures.
+Like all flash memory devices, flash drives can sustain only a limited number of write and erase cycles before the drive fails. This should be a consideration when using a flash drive to run application software or an operating system. To address this, as well as space limitations, some developers have produced special versions of operating systems (such as Linux in Live USB) or commonplace applications (such as Mozilla Firefox) designed to run from flash drives. These are typically optimized for size and configured to place temporary or intermediate files in the computer's main RAM rather than store them temporarily on the flash drive.
+When used in the same manner as external rotating drives (hard drives, optical drives, or floppy drives), i.e. in ignorance of their technology, USB drives' failure is more likely to be sudden: while rotating drives can fail instantaneously, they more frequently give some indication (noises, slowness) that they are about to fail, often with enough advance warning that data can be removed before total failure. USB drives give little or no advance warning of failure. Furthermore, when internal wear-leveling is applied to prolong life of the flash drive, once failure of even part of the memory occurs it can be difficult or impossible to use the remainder of the drive, which differs from magnetic media, where bad sectors can be marked permanently not to be used.
+Most USB flash drives do not include a write protection mechanism. This feature, which gradually became less common, consists of a switch on the housing of the drive itself, that prevents the host computer from writing or modifying data on the drive. For example, write protection makes a device suitable for repairing virus-contaminated host computers without the risk of infecting a USB flash drive itself. In contrast to SD cards, write protection on USB flash drives (when available) is connected to the drive circuitry, and is handled by the drive itself instead of the host (on SD cards handling of the write-protection notch is optional).
+A drawback to the small size of flash drives is that they are easily misplaced or otherwise lost. This is a particular problem if they contain sensitive data (see data security). As a consequence, some manufacturers have added encryption hardware to their drives, although software encryption systems which can be used in conjunction with any mass storage medium will achieve the same result. Most drives can be attached to keychains or lanyards. The USB plug is usually retractable or fitted with a removable protective cap.
+STORAGE CAPACITY
+Section::::Storage capacity.
+Storage capacity of USB flash drives in 2013 was up to 1 TB while hard disk can be as large as 10 TB. As of 2011, USB flash drives were more expensive per unit of storage than large hard drives, but were less expensive in capacities of a few tens of gigabytes.
+ROBUSTNESS
+Section::::Robustness.
+Most USB-based flash technology integrates a printed circuit board with a metal tip, which is simply soldered on. As a result, the stress point is where the two pieces join. The quality control of some manufacturers does not ensure a proper solder temperature, further weakening the stress point. Since many flash drives stick out from computers, they are likely to be bumped repeatedly and may break at the stress point. Most of the time, a break at the stress point tears the joint from the printed circuit board and results in permanent damage. However, some manufacturers produce discreet flash drives that do not stick out, and others use a solid metal uni-body that has no easily discernible stress point. SD cards serve as a good alternative to USB drives since they can be inserted flush.
+SECURITY THREATS
+BADUSB
+Section::::Security threats.
+Section::::BadUSB.
+Flash drives may present a significant security challenge for some organizations. Their small size and ease of use allows unsupervised visitors or employees to store and smuggle out confidential data with little chance of detection. Both corporate and public computers are vulnerable to attackers connecting a flash drive to a free USB port and using malicious software such as keyboard loggers or packet sniffers.
+For computers set up to be bootable from a USB drive, it is possible to use a flash drive containing a bootable portable operating system to access the files of the computer, even if the computer is password protected. The password can then be changed, or it may be possible to crack the password with a password cracking program and gain full control over the computer. Encrypting files provides considerable protection against this type of attack.
+USB flash drives may also be used deliberately or unwittingly to transfer malware and autorun worms onto a network.
+Some organizations forbid the use of flash drives, and some computers are configured to disable the mounting of USB mass storage devices by users other than administrators; others use third-party software to control USB usage. The use of software allows the administrator to not only provide a USB lock but also control the use of CD-RW, SD cards and other memory devices. This enables companies with policies forbidding the use of USB flash drives in the workplace to enforce these policies. In a lower-tech security solution, some organizations disconnect USB ports inside the computer or fill the USB sockets with epoxy.
+Some of the security measures taken to prevent confidential data from being taken have presented some side effects such as curtailing user privileges of recharging mobile devices off the USB ports on the systems.
+USB KILLER
+Section::::USB killer.
+In appearance similar to a USB flash drive, a USB killer is a circuit that charges up capacitors to a high voltage using the power supply pins of a USB port then discharges high voltage pulses onto the data pins. This completely standalone device can instantly and permanently damage or destroy any host hardware that it is connected to.
+"FLASH DRIVES FOR FREEDOM"
+Section::::"Flash drives for freedom".
+Flash drives with American movies and television shows were smuggled into North Korea by the Human Rights Foundation to spread pro-Western sentiment there in 2016.
+NAMING
+Section::::Naming.
+In 2005, Microsoft was using the term "USB Flash Drive" as the common name for these devices when they introduced the Microsoft USB Flash Drive Manager. Alternative names are commonly used, many of which are trademarks of various manufacturers.
+CURRENT AND FUTURE DEVELOPMENTS
+Section::::Current and future developments.
+Semiconductor corporations have worked to reduce the cost of the components in a flash drive by integrating various flash drive functions in a single chip, thereby reducing the part-count and overall package-cost.
+Flash drive capacities on the market increase continually. High speed has become a standard for modern flash drives. Capacities exceeding 256 GB were available on the market as early as 2009.
+Lexar is attempting to introduce a USB FlashCard, which would be a compact USB flash drive intended to replace various kinds of flash memory cards. Pretec introduced a similar card, which also plugs into any USB port, but is just one quarter the thickness of the Lexar model. Until 2008, SanDisk manufactured a product called SD Plus, which was a SecureDigital card with a USB connector.
+SanDisk has also introduced a new technology to allow controlled storage and usage of copyrighted materials on flash drives, primarily for use by students. This technology is termed FlashCP.
+SEE ALSO
+* List of computer hardware
+* Nonvolatile BIOS memory
+* Portable application
+* ReadyBoost
+* Solid-state drive (SSD)
+* USB dead drop
+* USB Flash Drive Alliance
+* Windows To Go
+NOTES
+REFERENCES

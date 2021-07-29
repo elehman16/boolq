@@ -1,0 +1,77 @@
+
+KILOWATT HOUR
+The kilowatt hour (symbol kWh, kW⋅h or kW h) is a unit of energy equal to 3.6 megajoules. If energy is transmitted or used at a constant rate (power) over a period of time, the total energy in kilowatt hours is equal to the power in kilowatts multiplied by the time in hours. The kilowatt hour is commonly used as a billing unit for energy delivered to consumers by electric utilities.
+DEFINITION
+Section::::Definition.
+The kilowatt hour (symbolized kW⋅h as per SI) is a composite unit of energy equivalent to one kilowatt (1 kW) of power sustained for one hour.
+One watt is equal to 1 J/s. One kilowatt hour is 3.6 megajoules, which is the amount of energy converted if work is done at an average rate of one thousand watts for one hour.
+The derived unit of energy within the International System of Units (SI) is the joule. The hour is a unit of time "outside the SI", making the kilowatt hour a non-SI unit of energy. The kilowatt hour is not listed among the non-SI units accepted by the BIPM for use with the SI, although the hour, from which the kilowatt hour is derived, is.
+EXAMPLES
+Section::::Examples.
+An electric heater consuming 1000 watts (1 kilowatt), and operating for one hour uses one kilowatt hour of energy. A television consuming 100 watts operating for 10 hours continuously uses one kilowatt hour. A 40-watt electric appliance operating continuously for 25 hours uses one kilowatt hour. In terms of human power, a healthy adult male manual laborer will perform work equal to about half a kilowatt hour over an eight-hour day.
+Electrical energy is typically sold to consumers in kilowatt hours. The cost of running an electric device is calculated by multiplying the device's power consumption in kilowatts by the running time in hours and then by the price per kilowatt hour. The unit price of electricity may depend upon the rate of consumption and the time of day. Prices vary considerably by locality. In the United States prices in different states can vary by a factor of three.
+Whereas individual homes have historically only paid for the kilowatt hours consumed and the rated capacity, commercial buildings and institutions also pay for peak power consumption, the greatest power recorded in a fairly short time, such as 15 minutes. (However the installation of smart meters now enables the supplier also to vary the charging rate more flexibly for individual homes also.) This compensates the power company for maintaining the infrastructure needed to provide peak power. These charges are billed as demand charges. Industrial users may also have extra charges according to the power factor of their load.
+Major energy production or consumption is often expressed as terawatt hours (TW⋅h) for a given period that is often a calendar year or financial year. A 365-day year equals 8,760 hours, so over a period of one year, power of one gigawatt equates to 8.76 terawatt hours of energy. Conversely, one terawatt hour is equal to a sustained power of about 114 megawatts for a period of one year.
+SYMBOL AND ABBREVIATIONS FOR KILOWATT HOUR
+Section::::Symbol and abbreviations for kilowatt hour.
+The symbol "kWh" is commonly used in commercial, educational, scientific and media publications, and is the usual practice in electrical power engineering.
+Other abbreviations and symbols may be encountered:
+* "kW h" is less commonly used. It is consistent with SI standards. The international standard for SI states that in forming a compound unit symbol, "Multiplication must be indicated by a space or a half-high (centered) dot (⋅), since otherwise some prefixes could be misinterpreted as a unit symbol" (i.e., kW h or kW⋅h). This is supported by a voluntary standard issued jointly by an international (IEEE) and national (ASTM) organization. However, at least one major usage guide and the IEEE/ASTM standard allow "kWh" (but do not mention other multiples of the watt hour). One guide published by NIST specifically recommends avoiding "kWh" "to avoid possible confusion".
+* "kW⋅h" is, like "kW h", preferred by SI standards, but it is very rarely used in practice.
+* The US official fuel-economy window sticker for electric vehicles uses the abbreviation "kW-hrs".
+* Variations in capitalization are sometimes seen: KWh, KWH, kwh, etc.; these are inconsistent with International System of Units.
+* The notation "kW/h" is not a correct symbol for kilowatt hour, as it denotes kilowatt per hour instead.
+CONVERSIONS
+Section::::Conversions.
+To convert a quantity measured in a unit in the left column to the units in the top row, multiply by the factor in the cell where the row and column intersect.
+! scope="col" 
+! scope="col"  joule
+! scope="col"  watt hour
+! scope="col"  kilowatt hour
+! scope="col"  electronvolt
+! scope="col"  calorie
+! scope="row"  1 J = 1 kg⋅m⋅s =
+! scope="row"  1 W⋅h =
+! scope="row"  1 kW⋅h =
+! scope="row"  1 eV =
+! scope="row"  1 cal =
+WATT HOUR MULTIPLES AND BILLING UNITS
+Section::::Watt hour multiples and billing units.
+All the SI prefixes are commonly applied to the watt hour: a kilowatt hour is 1,000 W⋅h (symbols kW⋅h, kWh or kW h; a megawatt hour is 1 million W⋅h, (symbols MW⋅h, MWh or MW h); a milliwatt hour is 1/1000 W⋅h (symbols mW⋅h, mWh or mW h) and so on.
+The kilowatt hour is commonly used by electrical distribution providers for purposes of billing, since the monthly energy consumption of a typical residential customer ranges from a few hundred to a few thousand kilowatt hours. Megawatt hours (MWh), gigawatt hours (GWh), and terawatt hours (TWh) are often used for metering larger amounts of electrical energy to industrial customers and in power generation. The terawatt hour and petawatt hour (PWh) units are large enough to conveniently express the annual electricity generation for whole countries and the world energy consumption.
+Petawatt hours can describe the output of nuclear power plants across decades. For example, the Gravelines Nuclear Power Station in France became in 2010 the first power plant to ever deliver a cumulative petawatt-hour of electricity.
+CONFUSION OF KILOWATT HOURS (ENERGY) AND KILOWATTS (POWER)
+Section::::Confusion of kilowatt hours (energy) and kilowatts (power).
+The terms power and energy are frequently confused. Power is the rate of delivery of energy. Power is work performed per unit of time. Energy is the work performed (over a period of time).
+Power is measured using the unit watts, or joules per second. Energy is measured using the unit watt seconds, or joules.
+A common household battery contains energy. When the battery delivers its energy, it does so at a certain power level, that is, the rate of delivery of the energy. The higher the power level, the quicker the battery's stored energy is delivered. If the power is higher, the battery's stored energy will be depleted in a shorter time period.
+For a given period of time, a higher level of power causes more energy to be used. For a given power level, a longer run period causes more energy to be used. For a given amount of energy, a higher level of power causes that energy to be used in less time.
+MISUSE OF WATTS PER HOUR
+Section::::Misuse of watts per hour.
+Power units measure the rate of energy per unit time. Many compound units for rates explicitly mention units of time, for example, miles per hour, kilometers per hour, dollars per hour. Kilowatt hours are a product of power and time, not a rate of change of power with time.
+Watts per hour (W/h) is a unit of a change of power per hour. It might be used to characterize the ramp-up behavior of power plants. For example, a power plant that reaches a power output of 1 MW from 0 MW in 15 minutes has a ramp-up rate of 4 MW/h. Hydroelectric power plants have a very high ramp-up rate, which makes them particularly useful in peak load and emergency situations.
+The proper use of terms such as watts per hour is uncommon, whereas misuse may be widespread.
+OTHER USE
+Section::::Other use.
+By definition of the units, a consumption of 1 kWh/100 km is exactly equivalent to a resistance force of 36 N (newtons), an idea taken up by the von Kármán–Gabrielli diagram.
+OTHER ENERGY-RELATED UNITS
+Section::::Other energy-related units.
+Several other units are commonly used to indicate power or energy capacity or use in specific application areas.
+Average annual power production or consumption can be expressed in kilowatt hours per year; for example, when comparing the energy efficiency of household appliances whose power consumption varies with time or the season of the year, or the energy produced by a distributed power source. One kilowatt hour per year equals about 114.08 milliwatts applied constantly during one year.
+The energy content of a battery is usually expressed indirectly by its capacity in ampere-hours; to convert ampere-hour (A⋅h) to watt hours (W⋅h), the ampere-hour value must be multiplied by the voltage of the power source. This value is approximate, since the battery voltage is not constant during its discharge, and because higher discharge rates reduce the total amount of energy that the battery can provide. In the case of devices that output a different voltage than the battery, it is the battery voltage (typically 3.7 V for Li-ion) that must be used to calculate rather than the device output (for example, usually 5.0 V for USB portable chargers). This results in a 500 mA USB device running for about 3.7 hours on a 2500 mAh battery, not five hours.
+The Board of Trade unit (BOTU) is an obsolete UK synonym for kilowatt hour. The term derives from the name of the Board of Trade which regulated the electricity industry until 1942 when the Ministry of Power took over.
+The British thermal unit or BTU (not to be confused with BOTU), is a unit of thermal energy with several definitions, all about 1055 Joule or 0.293 watt hour. The quad, short for quadrillion BTU, or 10 BTU, is sometimes used in national-scale energy discussions in the United States. One quad is approximately 293 TWh or 1.055 exajoule (EJ).
+A TNT equivalent is a measure of energy released in the detonation of trinitrotoluene. A tonne of TNT equivalent is approximately 4.184 gigajoules or 1,163 kilowatt hours.
+A tonne of oil equivalent is the amount of energy released by burning one tonne of crude oil. It is approximately 41.84 gigajoules or 11,630 kilowatt hours.
+In India, the kilowatt hour is often simply called a Unit of energy. A million units, designated MU, is a gigawatt hour and a BU (billion units) is a terawatt hour.
+Burnup of nuclear fuel is normally quoted in megawatt days per tonne (MW⋅d/MTU), where tonne refers to a metric ton of uranium metal or its equivalent, and megawatt refers to the entire thermal output, not the fraction which is converted to electricity.
+SEE ALSO
+* Ampere-hour
+* Electric energy consumption
+* IEEE Std 260.1-2004
+* Joule
+* Orders of magnitude (energy)
+* Watt
+REFERENCES
+EXTERNAL LINKS
+* Prices per kilowatt hour in the USA, Energy Information Administration

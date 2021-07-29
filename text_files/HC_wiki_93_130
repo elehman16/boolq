@@ -1,0 +1,23 @@
+
+JIFFY (TIME)
+Jiffy is an informal term for any unspecified short period of time, as in "I will be back in a jiffy". From this it has acquired a number of more precise applications for short, very short, extremely short, ultra short or hyper short periods of time. First attested in 1785, the word's origin is unclear, though one suggestion is that it was thieves' cant for lightning.
+BEGINNINGS IN MEASUREMENT
+Section::::Beginnings in measurement.
+The earliest technical usage for jiffy was defined by Gilbert Newton Lewis (1875–1946). He proposed a unit of time called the "jiffy" which was equal to the time it takes light to travel one centimeter in a vacuum (approximately 33.3564 picoseconds).
+It has since been redefined for different measurements depending on the field of study.
+USES
+Section::::Uses.
+In electronics, a jiffy is the period of an alternating current power cycle, 1/60 or 1/50 of a second in most mains power supplies.
+In computing, a jiffy was originally the time between two ticks of the system timer interrupt. It is not an absolute time interval unit, since its duration depends on the clock interrupt frequency of the particular hardware platform.
+Early microcomputer systems such as the Commodore 64 and many game consoles (which use televisions as a display device) commonly synchronize the system interrupt timer with the vertical frequency of the local television standard, either 59.94 Hz with NTSC systems, or 50.0 Hz with most PAL systems. Jiffy values for various Linux versions and platforms have typically varied between about 1 ms and 10 ms, with 10 ms reported as an increasingly common standard in the Jargon File.
+Stratus VOS uses a jiffy of 1/65,536 second to express date and time (number of jiffies elapsed since . Stratus also defines the microJiffy, being 1/65,536 of a regular Jiffy.
+The term "jiffy" is sometimes used in computer animation as a method of defining playback rate, with the delay interval between individual frames specified in 1/100th-of-a-second (10 ms) jiffies, particularly in Autodesk Animator .FLI sequences (one global frame frequency setting) and animated Compuserve .GIF images (each frame having an individually defined display time measured in 1/100 s).
+The speed of light in a vacuum provides a convenient universal relationship between distance and time, so in physics (particularly in quantum physics) and often in chemistry, a jiffy is defined as the time taken for light to travel some specified distance. In astrophysics and quantum physics a jiffy is, as defined by Edward R. Harrison, the time it takes for light to travel one fermi, which is approximately the size of a nucleon. One fermi is 10 m, so a jiffy is about 3 × 10 seconds. It has also more informally been defined as "one light-foot", which is equal to approximately one nanosecond.
+One author has used the word jiffy to denote the Planck time of about 5.4 × 10 seconds, which is the time it would take light to travel a Planck length if ordinary geometry were still relevant at that scale.
+SEE ALSO
+* Jiffy (disambiguation)
+* Orders of magnitude (time)
+* BogoMips — which computes codice_1
+* TU (Time Unit)
+REFERENCES
+EXTERNAL LINKS

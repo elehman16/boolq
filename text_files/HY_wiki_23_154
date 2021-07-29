@@ -1,0 +1,77 @@
+
+LIGHTNING (CONNECTOR)
+Lightning is a proprietary computer bus and power connector created by Apple Inc. Introduced on , to replace its predecessor, the 30-pin dock connector, the Lightning connector is used to connect Apple mobile devices like iPhones, iPads, and iPods to host computers, external monitors, cameras, USB battery chargers, and other peripherals. Using 8 pins instead of 30, Lightning is significantly more compact than the 30-pin dock connector and can be inserted with either side facing up. However, unless used with an adapter, it is incompatible with cables and peripherals designed for its predecessor.
+HISTORY
+Section::::History.
+The Lightning connector was introduced on , as a replacement for the 30-pin dock connector, to be used for all new hardware that was announced at the same event. The first compatible devices were the iPhone 5, the iPod Touch (5th generation), and the iPod Nano (7th generation). The iPad (4th generation) and the iPad Mini (1st generation) were added as Lightning devices in October 2012.
+On November 25, 2012, Apple acquired the "Lightning" trademark in Europe from Harley-Davidson. Apple was given a partial transfer of the Lightning trademark, suggesting that Harley-Davidson likely retained the rights to use the name for motorcycle-related products. Apple is the sole proprietor of the trademark and copyrights for the designs and specifications of the Lightning connector.
+The iPad Pro, released in 2015, features the first Lightning connector supporting USB 3.0. However, the included cable only supports USB 2.0 as it lacks the necessary extra pins, so any USB 3.0-supporting Lightning devices would be bought separately.
+TECHNOLOGY
+Section::::Technology.
+Lightning is an 8-pin connector which carries a digital signal. Unlike the Apple 30 pin connector it replaces (and USB Type A or B connectors), the Lightning connector can be inserted either face up or face down. Apple offers various adapters which allow the Lightning connector to be used with other interfaces, such as 30-pin, USB, HDMI, VGA, and SD cards. The Lightning to 30-pin adapter supports only a limited subset of the available 30-pin signals: USB data, USB charging, and analog audio output (via the DAC inside of the adapter). 
+Official Lightning connectors contain an authentication chip that was intended to make it difficult for third-party manufacturers to produce compatible accessories without being approved by Apple; however, the chip has been cracked.
+The pin out is detailed in the info box. However, each pin on the reverse side of the connector is connected to its directly opposite twin on the other side. Part of the processor's job is to route the power and data signals correctly whichever way up the connector is inserted.
+The plug measures 6.7 mm by 1.5 mm.
+COMPARISONS WITH MICROUSB
+Section::::Comparisons with microUSB.
+Apple has not publicly discussed microUSB, but various tech news websites state that Lightning might have been used instead of microUSB because of its compatibility with docks and speaker systems; the ability to insert the cable in either direction for user convenience; Apple wishing to maintain control over the ethics of the supply chain of accessories and the ability to charge a licensing fee; the mechanical weakness of USB connectors; and the ability to either charge a device, or allow a device to power accessories. The optional supplemental standard USB On-The-Go allows USB devices to do this.
+On April 10, 2015, Apple announced a new line of MacBooks that featured USB-C, which has similarities with Lightning, and advantages over microUSB. USB-C, like Lightning, but unlike its predecessor microUSB, can be plugged in either direction. USB-C and Lightning are not interchangeable; as they are entirely different pin-outs, protocols and connectors, and until the launch of the new MacBooks required adapters to work with each other.
+On October 30 2018, Apple announced that their new range of iPads will replace Lightning with USB-C.
+DEVICES USING LIGHTNING CONNECTORS
+Section::::Devices using Lightning connectors.
+The following Apple-made devices use Lightning connectors:
+IPHONE
+* iPhone 5
+* iPhone 5C
+* iPhone 5S
+* iPhone 6/6 Plus
+* iPhone 6S/6S Plus
+* iPhone SE
+* iPhone 7/7 Plus
+* iPhone 8/8 Plus
+* iPhone X
+* iPhone XS/XS Max
+* iPhone XR
+IPAD
+* iPad (4th generation)
+* iPad Air
+* iPad Air 2
+* iPad (2017)
+* iPad (2018)
+* iPad Mini (1st generation)
+* iPad Mini 2
+* iPad Mini 3
+* iPad Mini 4
+* iPad Pro (9.7-inch, 10.5 inch and 12.9-inch models, except third generation models, which uses USB-C.)
+IPOD
+* iPod Nano (7th generation)
+* iPod Touch (5th generation)
+* iPod Touch (6th generation)
+ADAPTERS
+* Lightning to 30-pin Adapter
+* Lightning to 30-pin Adapter (0.2 m)
+* Lightning to Micro USB Adapter
+* Lightning to USB Camera Adapter
+* Lightning to USB 3 Camera Adapter
+* Lightning to SD Card Camera Reader
+* Lightning to VGA Adapter
+* Lightning Digital AV Adapter
+* Lightning to HDMI
+* Lightning to 3.5 mm Headphone Jack Adapter
+* Lightning to USB Type C (Power Delivery)
+ACCESSORIES
+* Apple Pencil (1st Generation)
+* Magic Keyboard
+* Magic Mouse 2, Magic Trackpad 2
+* Siri Remote for Apple TV (4th & 5th generation)
+* Airpods Charging Case
+* EarPods with Lightning connector
+* BeatsX Earphones
+* Beats Pill+ Speaker
+* iPhone Lightning Dock
+SEE ALSO
+* Dock connector
+* Smart Connector
+* Thunderbolt (interface)
+REFERENCES
+FURTHER READING

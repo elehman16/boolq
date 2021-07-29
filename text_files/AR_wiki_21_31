@@ -1,0 +1,30 @@
+
+JAPAN STANDARD TIME
+Japan Standard Time is the same as Korean Standard Time, Indonesian Eastern Standard Time, East-Timorese Standard Time and Yakutsk Time (Russia)
+HISTORY
+Section::::History.
+Before the Meiji era (1868–1912), each local region had its own timezone in which noon was when the sun was exactly at its zenith. As modern transportation methods, such as trains, were adopted, this practice became a source of confusion. For example, there is a difference of about 5 degrees longitude between Tokyo and Osaka and because of this, a train that departed from Tokyo would arrive at Osaka 20 minutes ahead of the time in Tokyo. In 1886, Ordinance 51 was issued in response to this problem, which stated:
+According to this, the was set 9 hours ahead of GMT (UTC had not been established yet). In the ordinance, the first clause mentions GMT, the second defines east longitude and west longitude and the third says the standard timezone would be in effect from 1888. The city of Akashi in Hyōgo Prefecture is located exactly on 135 degrees east longitude and subsequently became known as Toki no machi (Town of Time).
+With the annexation of Taiwan in 1895, Ordinance 167 (pictured on the right) was issued to rename the previous Standard Time to and establish a new at 120° longitude as the time zone for the Japanese Miyako and Yaeyama Islands, as well as Taiwan and its Penghu Islands. While Korea came under Japanese rule in 1910, Korea Standard Time of continued to be used until 1912, when it was changed to Central Standard Time.
+Western Standard Time, which was used in Taiwan and some parts of Okinawa, was abolished by Ordinance 529 in 1937 and replaced by Central Standard Time in those areas. Territories occupied by Japan during World War II, including Singapore and Malaya, adopted Japan Standard Time for the duration of their occupation, but reverted after Japan's surrender.
+In 1948–1951 occupied Japan observed daylight saving time (DST) from the first Sunday in May at 02:00 to the second Saturday in September at 02:00, except that the 1949 spring-forward transition was the first Sunday in April. More recently there have been efforts to bring back DST in Japan, but so far this has not happened.
+TIME ZONES OF THE JAPANESE EMPIRE
+Section::::Time zones of the Japanese Empire.
+The two-time-zone system was implemented in Japan between January 1896 and September 1937:
+!Time offset!!Name!!Japanese!!Romanization!!Region
+Western Standard Time西部標準時Seibu HyōjunjiWestern Okinawa and Taiwan (see also Time in Taiwan)
+Central Standard Time中央標準時Chūō HyōjunjiJapan mainland and Korea (see also Korea Standard Time)
+From October 1937, Central Standard Time was also used in western Okinawa and Taiwan.
+IANA TIME ZONE DATABASE
+Section::::IANA time zone database.
+The IANA time zone database contains one zone for Japan in the file zone.tab, named Asia/Tokyo.
+DAYLIGHT SAVING TIME IN JAPAN
+Section::::Daylight saving time in Japan.
+From 1948–52, Japan observed DST between May and September every year. The US imposed this policy as part of the Allied occupation of Japan. In 1952, three weeks before the occupation ended, the Japanese government, which had been granted increased powers, abolished daylight savings time, and the Allied occupation authorities did not interfere. Since then, DST has never been officially implemented nationwide in Japan.
+Starting in the late 1990s, a movement to reinstate DST in Japan gained some popularity, aiming at saving energy and increasing recreational time. The Hokkaido region is particularly in favor of this movement because daylight starts as early as 03:30 (in standard time) there in summer due to its high latitude and its location near the eastern edge of the time zone, with much of the region's solar time actually closer to . Because of this, the sun sets barely after 19:00 in much of the eastern part of the country (in Tokyo, the latest sunset of the entire year is 19:01, from June 26 to July 1, despite being at 35°41'N latitude). After 2000, a few local governments and commerce departments promoted unmandated hour-earlier work schedule experiments during the summer without officially resetting clocks.
+The Council on Economic and Fiscal Policy of the Cabinet Office is expected to propose that the Japanese government begin studying DST in an attempt to help combat global warming. Japanese Prime Minister Shinzō Abe made a significant effort to introduce daylight saving time, but was ultimately unsuccessful. However, it is not clear that DST would conserve energy in Japan. A 2007 simulation estimated that introducing DST to Japan would increase energy use in Osaka residences by 0.13%, with a 0.02% saving due to lighting more than outweighed by a 0.15% increase due to cooling costs; the simulation did not examine non-residential buildings.
+SEE ALSO
+* JJY
+* Japanese calendar
+* Japanese clock
+REFERENCES

@@ -1,0 +1,170 @@
+
+INTERNAL RATE OF RETURN
+The internal rate of return (IRR) is a measure of an investment's rate of return. The term internal refers to the fact 
+that the internal rate excludes external factors, such as inflation, the cost of capital, or various financial risks.
+It is also called the discounted cash flow rate of return (DCFROR).
+In the context of savings and loans, the IRR is also called the effective interest rate.
+DEFINITION
+Section::::Definition.
+The internal rate of return on an investment or project is the "annualized effective compounded return rate" or rate of return that sets the net present value of all cash flows (both positive and negative) from the investment equal to zero. Equivalently, it is the discount rate at which the net present value of future cash flows is equal to the initial investment, and it is also the discount rate at which the total present value of costs (negative cash flows) equals the total present value of the benefits (positive cash flows).
+Speaking intuitively, IRR is designed to account for the time preference of money and investments. A given return on investment received at a given time is worth more than the same return received at a later time, so the latter would yield a lower IRR than the former, if all other factors are equal. A fixed income investment in which money is deposited once, interest on this deposit is paid to the investor at a specified interest rate every time period, and the original deposit neither increases nor decreases, would have an IRR equal to the specified interest rate. An investment which has the same total returns as the preceding investment, but delays returns for one or more time periods, would have a lower IRR.
+USES OF IRR
+PROFITABILITY OF AN INVESTMENT
+Section::::Uses of IRR.
+Section::::Profitability of an investment.
+Corporations use IRR in capital budgeting to compare the profitability of capital projects in terms of the rate of return. For example, a corporation will compare an investment in a new plant versus an extension of an existing plant based on the IRR of each project. To maximize returns, the higher a project's IRR, the more desirable it is to undertake the project. If all projects require the same amount of up-front investment, the project with the highest IRR would be considered the best and undertaken first.
+MAXIMIZING NET PRESENT VALUE
+Section::::Maximizing net present value.
+The internal rate of return is an indicator of the profitability, efficiency, quality, or yield of an investment. This is in contrast with the net present value, which is an indicator of the net value or magnitude added by making an investment.
+Applying the internal rate of return method to maximize the value of the firm, any investment would be accepted, if its profitability, as measured by the internal rate of return, is greater than a minimum acceptable rate of return. The appropriate minimum rate to maximize the value added to the firm is the cost of capital, i.e. the internal rate of return of a new capital project needs to be higher than the company's cost of capital. This is because an investment with an internal rate of return which exceeds the cost of capital has a positive net present value.
+However, the selection of investments may be subject to budget constraints, or they may be mutually exclusive competing projects, such as a choice between or the capacity or ability to manage more projects may be practically limited. In the example cited above, of a corporation comparing an investment in a new plant versus an extension of an existing plant, there may be reasons the company would not engage in both projects.
+FIXED INCOME
+Section::::Fixed income.
+IRR is also used to calculate yield to maturity and yield to call.
+LIABILITIES
+Section::::Liabilities.
+Both the internal rate of return and the net present value can be applied to liabilities as well as investments. For a liability, a lower internal rate of return is preferable to a higher one.
+CAPITAL MANAGEMENT
+Section::::Capital management.
+Corporations use internal rate of return to evaluate share issues and stock buyback programs. A share repurchase proceeds if returning capital to shareholders has a higher internal rate of return than candidate capital investment projects or acquisition projects at current market prices. Funding new projects by raising new debt may also involve measuring the cost of the new debt in terms of the yield to maturity (internal rate of return).
+PRIVATE EQUITY
+Section::::Private equity.
+IRR is also used for private equity, from the limited partners' perspective, as a measure of the general partner's performance as investment manager. This is because it is the general partner who controls the cash flows, including the limited partners' draw-downs of committed capital.
+CALCULATION
+Section::::Calculation.
+Given a collection of pairs (time, cash flow) involved in a project, the internal rate of return follows from the net present value as a function of the rate of return. A rate of return for which this function being zero is the internal rate of return.
+Given the (period, cash flow) pairs (formula_1, formula_2) where formula_1 is a non-negative integer, the total number of periods formula_4, and the formula_5, (net present value); the IRR is given by formula_6 in:
+Note that in this formula, formula_8 (≤0) is the initial investment at the start of the project. The period formula_1 is usually given in years, but the calculation may be made simpler if formula_6 is calculated using the period in which the majority of the problem is defined (e.g., using months if most of the cash flows occur at monthly intervals) and converted to a yearly period thereafter.
+Any fixed time can be used in place of the present (e.g., the end of one interval of an annuity); the value obtained is zero if and only if the NPV is zero.
+In the case that the cash flows are random variables, such as in the case of a life annuity, the expected values are put into the above formula.
+Often, the value of formula_6 that satisfies the above equation cannot be found analytically. In this case, numerical methods or graphical methods must be used.
+EXAMPLE
+Section::::Example.
+If an investment may be given by the sequence of cash flows
+! Year (formula_1)
+! Cash flow (formula_2)
+then the IRR formula_6 is given by
+In this case, the answer is 5.96% (in the calculation, that is, r = .0596).
+NUMERICAL SOLUTION
+Section::::Numerical solution.
+Since the above is a manifestation of the general problem of finding the roots of the equation formula_16, there are many numerical methods that can be used to estimate formula_6. For example, using the secant method, formula_6 is given by
+where formula_20 is considered the formula_1 approximation of the IRR.
+This formula_6 can be found to an arbitrary degree of accuracy. Different accounting packages may provide functions for different accuracy levels.
+The convergence behaviour of by the following:
+* If the function formula_23 has a single real root formula_6, then the sequence converges reproducibly towards formula_6.
+* If the function formula_23 has formula_1 real roots formula_28, then the sequence converges to one of the roots, and changing the values of the initial pairs may change the root to which it converges.
+* If function formula_23 has no real roots, then the sequence tends towards +∞.
+Having formula_30 when formula_31 or formula_32 when formula_33 may speed up convergence of formula_20 to formula_6.
+NUMERICAL SOLUTION FOR SINGLE OUTFLOW AND MULTIPLE INFLOWS
+Section::::Numerical solution for single outflow and multiple inflows.
+Of particular interest is the case where the stream of payments consists of a single outflow, followed by multiple inflows occurring at equal periods. In the above notation, this corresponds to:
+In this case the NPV of the payment stream is a convex, strictly decreasing function of interest rate. There is always a single unique solution for IRR.
+Given two estimates formula_37 and formula_38 for IRR, the secant method equation (see above) with formula_39 always produces an improved estimate formula_40. This is sometimes referred to as the Hit and Trial (or Trial and Error) method. More accurate interpolation formulas can also be obtained: for instance the secant formula with correction
+(which is most accurate when formula_42) has been shown to be almost 10 times more accurate than the secant formula for a wide range of interest rates and initial guesses. For example, using the stream of payments {−4000, 1200, 1410, 1875, 1050} and initial guesses formula_43 and formula_44 the secant formula with correction gives an IRR estimate of 14.2% (0.7% error) as compared to IRR = 13.2% (7% error) from the secant method.
+If applied iteratively, either the secant method or the improved formula always converges to the correct solution.
+Both the secant method and the improved formula rely on initial guesses for IRR. The following initial guesses may be used:
+where
+Here, formula_49 refers to the NPV of the inflows only (that is, set formula_50 and compute NPV).
+EXACT DATES OF CASH FLOWS
+Section::::Exact dates of cash flows.
+A cash flow formula_51 may occur at any time formula_52 years after the beginning of the project. formula_52 may not be a whole number. The cash flow should still be discounted by a factor formula_54.
+PROBLEMS WITH USING INTERNAL RATE OF RETURN
+Section::::Problems with using internal rate of return.
+As a tool applied to making an investment decision, to decide whether a project adds value or not, comparing the IRR of a single project with the required rate of return, in isolation from any other projects, is equivalent to the NPV method. If the appropriate IRR (if such can be found correctly) is greater than the required rate of return, then using the required rate of return to discount cash flows to their present value, the NPV of that project will be positive, and vice versa. However, using IRR to sort projects in order of preference does not result in the same order as using NPV.
+MAXIMIZING NET PRESENT VALUE
+Section::::Maximizing net present value.
+One possible investment objective is to maximize the total net present value of projects.
+When the objective is to maximize total value, the calculated IRR should not be used to choose between mutually exclusive projects. In cases where one project has a higher initial investment than a second mutually exclusive project, the first project may have a lower IRR (expected return), but a higher NPV (increase in shareholders' wealth) and should thus be accepted over the second project (assuming no capital constraints).
+When the objective is to maximize total value, IRR should not be used to compare projects of different duration. For example, the net present value added by a project with longer duration but lower IRR could be greater than that of a project of similar size, in terms of total net cash flows, but with shorter duration and higher IRR.
+PRACTITIONER PREFERENCE FOR IRR OVER NPV
+Section::::Practitioner preference for IRR over NPV.
+Despite a strong academic preference for NPV, surveys indicate that executives prefer IRR over NPV. Apparently, managers find it easier to compare investments of different sizes in terms of percentage rates of return than by dollars of NPV. However, NPV remains the "more accurate" reflection of value to the business. IRR, as a measure of investment efficiency may give better insights in capital constrained situations. However, when comparing mutually exclusive projects, NPV is the appropriate measure.
+MAXIMIZING LONG-TERM RETURN
+Section::::Maximizing long-term return.
+Maximizing total value is not the only conceivable possible investment objective. An alternative objective would for example be to maximize long-term return. Such an objective would rationally lead to accepting first those new projects within the capital budget which have the highest IRR, because adding such projects would tend to maximize overall long-term return.
+EXAMPLE
+Section::::Example.
+To see this, consider two investors, Max Value and Max Return. Max Value wishes her net worth to grow as large as possible, and will invest every last cent available to achieve this, whereas Max Return wants to maximize his rate of return over the long term, and would prefer to choose projects with smaller capital outlay but higher returns. Max Value and Max Return can each raise up to 100,000 US dollars from their bank at an annual interest rate of 10 percent paid at the end of the year.
+Investors Max Value and Max Return are presented with two possible projects to invest in, called Big-Is-Best and Small-Is-Beautiful. Big-Is-Best requires a capital investment of 100,000 US dollars today, and the lucky investor will be repaid 132,000 US dollars in a year's time. Small-Is-Beautiful only requires 10,000 US dollars capital to be invested today, and will repay the investor 13,750 US dollars in a year's time.
+SOLUTION
+Section::::Solution.
+The cost of capital for both investors is 10 percent.
+Both Big-Is-Best and Small-Is-Beautiful have positive NPVs:
+and the IRR of each is (of course) greater than the cost of capital:
+so the IRR of Big-Is-Best is 32 percent, and
+so the IRR of Small-Is-Beautiful is 37.5 percent.
+Both investments would be acceptable to both investors, but the twist in the tale is that these are mutually exclusive projects for both investors, because their capital budget is limited to 100,000 US dollars. How will the investors choose rationally between the two?
+The happy outcome is that Max Value chooses Big-Is-Best, which has the higher NPV of 20,000 US dollars, over Small-Is-Beautiful, which only has a modest NPV of 2,500, whereas Max Return chooses Small-Is-Beautiful, for its superior 37.5 percent return, over the attractive (but not as attractive) return of 32 percent offered on Big-Is-Best. So there is no squabbling of who gets which project, they are each happy to choose different projects.
+How can this be rational for both investors? The answer lies in the fact that the investors do not have to invest the full 100,000 US dollars. Max Return is content to invest only 10,000 US dollars for now. After all, Max Return may rationalize the outcome by thinking that maybe tomorrow there will be new opportunities available to invest the remaining 90,000 US dollars the bank is willing to lend Max Return, at even higher IRRs. Even if only seven more projects come along which are identical to Small-Is-Beautiful, Max Return would be able to match the NPV of Big-Is-Best, on a total investment of only 80,000 US dollars, with 20,000 US dollars left in the budget to spare for truly unmissable opportunities. Max Value is also happy, because she has filled her capital budget straight away, and decides she can take the rest of the year off investing.
+MULTIPLE IRRS
+Section::::Multiple IRRs.
+When the sign of the cash flows changes more than once, for example when positive cash flows are followed by negative ones and then by positive ones (+ + − − − +), the IRR may have multiple real values. In a series of cash flows like (−10, 21, −11), one initially invests money, so a high rate of return is best, but then receives more than one possesses, so then one owes money, so now a low rate of return is best. In this case, it is not even clear whether a high or a low IRR is better.
+There may even be multiple real IRRs for a single project, like in the example 0% as well as 10%. Examples of this type of project are strip mines and nuclear power plants, where there is usually a large cash outflow at the end of the project.
+The IRR satisfies a polynomial equation. Sturm's theorem can be used to determine if that equation has a unique real solution. In general the IRR equation cannot be solved analytically but only by iteration.
+With multiple internal rates of return, the IRR approach can still be interpreted in a way that is consistent with the present value approach if the underlying investment stream is correctly identified as net investment or net borrowing.
+See for a way of identifying the relevant IRR from a set of multiple IRR solutions.
+MODIFIED INTERNAL RATE OF RETURN (MIRR)
+Section::::Modified internal rate of return (MIRR).
+Modified Internal Rate of Return (MIRR) considers cost of capital, and is intended to provide a better indication of a project's probable return. It applies a discount rate for borrowing cash, and the IRR is calculated for the investment cash flows. This applies in real life for example when a customer makes a deposit before a specific machine is built.
+When a project has multiple IRRs it may be more convenient to compute the IRR of the project with the benefits reinvested. Accordingly, MIRR is used, which has an assumed reinvestment rate, usually equal to the project's cost of capital.
+AVERAGE INTERNAL RATE OF RETURN (AIRR)
+Section::::Average internal rate of return (AIRR).
+Magni (2010) introduced a new approach, named AIRR approach, based on the intuitive notion of mean, that solves the problems of the IRR. However, the above-mentioned difficulties are only some of the many flaws incurred by the IRR. Magni (2013) provided a detailed list of 18 flaws of the IRR and showed how the AIRR approach does not incur the IRR problems.
+DOESN'T ACCOUNT FOR ALL VARIABLES
+Section::::Doesn't account for all variables.
+Traditional IRR calculations only consider the financial aspects of a decision but does not not fully "capture the short- or long-term importance, value, or risks associated with natural and social capital" because it does not account for the environmental, social and governance performance of an organization. Without a metric for measuring the short and long term environmental, social and governance performance of a firm, decision makers are planning for the future without considering the extent of the impacts associated with their decisions.
+MATHEMATICS
+Section::::Mathematics.
+Mathematically, the value of the investment is assumed to undergo exponential growth or decay according to some rate of return (any value greater than −100%), with discontinuities for cash flows, and the IRR of a series of cash flows is defined as any rate of return that results in a net present value of zero (or equivalently, a rate of return that results in the correct value of zero after the last cash flow).
+Thus, internal rate(s) of return follow from the net present value as a function of the rate of return. This function is continuous. Towards a rate of return of −100% the net present value approaches infinity with the sign of the last cash flow, and towards a rate of return of positive infinity the net present value approaches the first cash flow (the one at the present). Therefore, if the first and last cash flow have a different sign there exists an internal rate of return. Examples of time series without an IRR:
+* Only negative cash flows — the NPV is negative for every rate of return.
+* (−1, 1, −1), rather small positive cash flow between two negative cash flows; the NPV is a quadratic function of 1/(1 + r), where r is the rate of return, or put differently, a quadratic function of the discount rate r/(1 + r); the highest NPV is −0.75, for r = 100%.
+In the case of a series of exclusively negative cash flows followed by a series of exclusively positive ones, the resulting function of the rate of return is continuous and monotonically decreasing from positive infinity (when the rate of return approaches -100%) to the value of the first cash flow (when the rate of return approaches infinity), so there is a unique rate of return for which it is zero. Hence, the IRR is also unique (and equal). Although the NPV-function itself is not necessarily monotonically decreasing on its whole domain, it is at the IRR.
+Similarly, in the case of a series of exclusively positive cash flows followed by a series of exclusively negative ones the IRR is also unique.
+Finally, by Descartes' rule of signs, the number of internal rates of return can never be more than the number of changes in sign of cash flow.
+THE REINVESTMENT DEBATE
+Section::::The reinvestment debate.
+It is often stated that IRR assumes reinvestment of all cash flows until the very end of the project. This assertion has been a matter of debate in the literature.
+Sources stating that there is such a hidden assumption include those cited below. Sources arguing that there is no IRR reinvestment assumption include
+The IRR method measures return in the presence of external cash flows. The assumptions of users of the method are independent of the IRR method itself. When comparing investments, making a naive implicit assumption that cash flows are reinvested at the same IRR, would tend to lead to false conclusions. If cash flows received are not reinvested at the same rate as the IRR, a project with a relatively short duration and a high IRR does not necessarily add more value over a longer time span than another project with a longer duration and a lower IRR. The Modified Internal Rate of Return (MIRR) addresses this issue by including a second investment at a potentially different rate of return, to calculate a portfolio return without external cash flows over the life of the project. However, for capital budgeting, when the objective is to maximize value, finance theory holds that NPV using the firm's cost of capital is a superior metric.
+THE INTERNAL RATE OF RETURN IN PERSONAL FINANCE
+Section::::The internal rate of return in personal finance.
+The IRR can be used to measure the money-weighted performance of financial investments such as an
+individual investor's brokerage account. For this scenario, an 
+equivalent, 
+more intuitive definition of the IRR is, "The IRR is the annual interest rate of the fixed rate account (like a somewhat idealized savings account)
+which, when subjected to the same deposits and withdrawals as the actual investment, has the same ending balance as the actual investment." 
+This fixed rate account is also called the replicating fixed rate account for the investment. There are examples where 
+the replicating fixed rate account encounters negative balances despite the fact that the actual investment did not. 
+In those cases, the IRR calculation assumes that the same interest rate that is paid on positive balances is charged on 
+negative balances. It has been shown that this way of charging interest is the root cause of the IRR's multiple solutions 
+problem. If the model is modified so that, as is the case in real life, an externally supplied cost of borrowing 
+(possibly varying over time) is charged on negative balances, the multiple solutions issue 
+disappears. The resulting rate is 
+called the fixed rate equivalent (FREQ).
+UNANNUALIZED INTERNAL RATE OF RETURN
+Section::::Unannualized internal rate of return.
+In the context of investment performance measurement, there is sometimes ambiguity in terminology between the periodic rate of return, such as the internal rate of return as defined above, and a holding period return. The term internal rate of return or IRR or Since Inception Internal Rate of Return (SI-IRR) is in some contexts used to refer to the unannualized return over the period, particularly for periods of less than a year.
+INTEGRATED RATE OF RETURN (INTRR)
+Section::::Integrated rate of return (IntRR).
+To address the lack of integration of the short and long term importance, value and risks associated with natural and social capital into the traditional IRR calculation, companies are valuing their environmental, social and governance (ESG) performance through an Integrated Management approach to reporting that expands IRR to Integrated Rate of Return. This allows companies to value their investments not just for their financial return but also the long term environmental and social return of their investments. By highlighting environmental, social and governance performance in reporting, decision makers have the opportunity to identify new areas for value creation that are not revealed through traditional financial reporting. The social cost of carbon is one value that can be incorporated into Integrated Rate of Return calculations to encompass the damage to society from greenhouse gas emissions that result from an investment. This is an integrated approach to reporting that supports Integrated Bottom Line (IBL) decision making, which takes triple bottom line(TBL) a step further and combines financial, environmental and social performance reporting into one balance sheet. This approach provides decision makers with the insight to identify opportunities for value creation that promote growth and change within an organization.
+SEE ALSO
+* Accounting rate of return
+* Capital budgeting
+* Discounted cash flow
+* Modified Dietz method
+* Modified internal rate of return
+* Net present value
+* Rate of return
+* Simple Dietz method
+* Marginal efficiency of capital
+REFERENCES
+FURTHER READING
+* Bruce J. Feibel. Investment Performance Measurement. New York: Wiley, 2003.
+* 
+* M. Pattabiraman. CAGR vs. IRR: Understanding investment growth measures freefincal.com
+* 
+EXTERNAL LINKS
+* Economics Interactive Lecture from University of South Carolina
+* GIPS Global Investment Performance Standards 2010, CFA Institute
+* Internal Rate of Return (IRR) Calculator

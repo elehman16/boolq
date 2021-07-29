@@ -1,0 +1,19 @@
+
+HOMOSCEDASTICITY
+In statistics, a sequence or a vector of random variables is homoscedastic if all random variables in the sequence or vector have the same finite variance. This is also known as homogeneity of variance. The complementary notion is called heteroscedasticity. The spellings homoskedasticity and heteroskedasticity are also frequently used.
+The assumption of homoscedasticity simplifies mathematical and computational treatment. Serious violations in homoscedasticity (assuming a distribution of data is homoscedastic when in reality it is heteroscedastic ) may result in overestimating the goodness of fit as measured by the Pearson coefficient.
+ASSUMPTIONS OF A REGRESSION MODEL
+Section::::Assumptions of a regression model.
+As used in describing simple linear regression analysis, one assumption of the fitted model (to ensure that the least-squares estimators are each a best linear unbiased estimator of the respective population parameters, by the Gauss–Markov theorem) is that the standard deviations of the error terms are constant and do not depend on the x-value. Consequently, each probability distribution for y (response variable) has the same standard deviation regardless of the x-value (predictor). In short, this assumption is homoscedasticity. Homoscedasticity is not required for the estimates to be unbiased, consistent, and asymptotically normal.
+TESTING
+Section::::Testing.
+Residuals can be tested for homoscedasticity using the Breusch–Pagan test, which performs an auxiliary regression of the squared residuals on the independent variables. From this auxiliary regression, the explained sum of squares is retained, divided by two, and then becomes the test statistic for a chi-squared distribution with the degrees of freedom equal to the number of independent variables. The null hypothesis of this chi-squared test is homoscedasticity, and the alternative hypothesis would indicate heteroscedasticity. Since the Breusch–Pagan test is sensitive to departures from normality or small sample sizes, the Koenker–Bassett or 'generalized Breusch–Pagan' test is commonly used instead. From the auxiliary regression, it retains the R-squared value which is then multiplied by the sample size, and then becomes the test statistic for a chi-squared distribution (and uses the same degrees of freedom). Although it is not necessary for the Koenker–Bassett test, the Breusch–Pagan test requires that the squared residuals also be divided by the residual sum of squares divided by the sample size. Testing for groupwise heteroscedasticity requires the Goldfeld–Quandt test.
+HOMOSCEDASTIC DISTRIBUTIONS
+Section::::Homoscedastic distributions.
+Two or more normal distributions, formula_1, are homoscedastic if they share a common covariance (or correlation) matrix, formula_2. Homoscedastic distributions are especially useful to derive statistical pattern recognition and machine learning algorithms. One popular example is Fisher's linear discriminant analysis.
+The concept of homoscedasticity can be applied to distributions on spheres.
+SEE ALSO
+* Bartlett's test
+* Homogeneity (statistics)
+* Heterogeneity
+REFERENCES

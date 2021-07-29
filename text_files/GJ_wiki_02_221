@@ -1,0 +1,22 @@
+
+TOSLINK
+TOSLINK (from Toshiba Link) is a standardized optical fiber connector system. Also known generically as an "optical audio cable" or just "optical cable", its most common use is in consumer audio equipment (via a "digital optical" socket), where it carries a digital audio stream from components such as CD and DVD players, DAT recorders, computers, and modern video game consoles, to an AV receiver that can decode two channels of uncompressed lossless PCM audio or surround sound such as Dolby Digital or DTS Surround System. Unlike HDMI, TOSLINK does not have the bandwidth to carry the lossless versions of Dolby TrueHD, DTS-HD Master Audio, or more than two channels of PCM audio.
+Although TOSLINK supports several different media formats and physical standards, digital audio connections using the rectangular EIAJ/JEITA RC-5720 (also CP-1201 and JIS C5974-1993 F05) connector are by far the most common. The optical signal is a red light with a peak wavelength of Depending on the type of modulated signal being carried, other optical wavelengths may be present.
+HISTORY
+Section::::History.
+Toshiba originally created TOSLINK to connect their CD players to the receivers they manufactured, for PCM audio streams. The software layer is based on the "Sony Philips Digital Interconnect Format" (S/PDIF), while the hardware layer utilizes a fiber optic transmission system, rather than the electrical (copper) hardware layer of S/PDIF. TOSLINK was soon adopted by manufacturers of most CD players. It can often be found on video source (DVD and Blu-ray players, cable boxes and game consoles) to connect the digital audio stream to Dolby Digital/DTS decoders.
+The name is a registered trademark of Toshiba, created from TOShiba-LINK. Variations of the name, such as TOSlink, TosLink, and Tos-link, are also seen, while the official generic name for the standard is EIAJ optical.
+ADAT Lightpipe or simply ADAT Optical uses an optical transmission system similar to TOSLINK, and is used in the professional music/audio industry. While the ADAT Lightpipe format uses the same JIS F05 connectors as TOSLINK, the ADAT Lightpipe data format is not compatible with S/PDIF. 
+PROPERTIES AND ISSUES
+Section::::Properties and issues.
+Due to their high attenuation of light, the effective range of plastic optical cables is limited to . They can temporarily fail or be permanently damaged if tightly bent. Although less commonly available and more expensive than plastic optical fiber (POF) cables, glass or silica optical fibers have lower losses and can extend the range of the TOSLINK system.
+Optical cables are not susceptible to electrical problems such as ground loops and RF interference.
+DESIGN
+Section::::Design.
+Several types of fiber can be used for TOSLINK: inexpensive plastic optical fiber, higher-quality multistrand plastic optical fibers, or quartz glass optical fibers, depending on the desired bandwidth and application. TOSLINK cables are usually limited to in length, with a technical maximum of for reliable transmission without the use of a signal booster or a repeater. However, it is very common for interfaces on newer consumer electronics (satellite receivers and PCs with optical outputs) to easily run over on even low-cost TOSLINK cables. TOSLINK transmitters operate at a nominal optical wavelength of 
+MINI-TOSLINK
+Section::::Mini-TOSLINK.
+Mini-TOSLINK is a standardized optical fiber connector smaller than the standard square TOSLINK connector commonly used in larger consumer audio equipment. The plug is almost the same size and shape as the ubiquitous stereo minijack. Adapters are available to connect a full-size TOSLINK plug to a mini-TOSLINK socket. Combined jack and mini-TOSLINK sockets exist which can accept a jack or a mini-TOSLINK plug; mini-TOSLINK plugs are made longer than electrical jack plugs so that the latter are too short to touch and damage the LED of combined connectors. Many laptop computer and portable digital audio equipment models, such as the Google Chromecast Audio device and Apple AirPort Express and iPod Hi-Fi, use these connectors that allow for the insertion of analog (electrical) headphone output or microphone input or mini-TOSLINK digital (optical) output.
+REFERENCES
+EXTERNAL LINKS
+* TOSLINK Interconnect History & Basics

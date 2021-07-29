@@ -1,0 +1,216 @@
+
+SQUARE ROOT OF 2
+The square root of 2, or the (1/2)th power of 2, written in mathematics as or , is the positive algebraic number that, when multiplied by itself, gives the number 2. Technically, it is called the principal square root of 2, to distinguish it from the negative number with the same property.
+Geometrically the square root of 2 is the length of a diagonal across a square with sides of one unit of length; this follows from the Pythagorean theorem. It was probably the first number known to be irrational.
+As a good rational approximation for the square root of two, with a reasonable small denominator, the fraction (≈ 1.4142857) is sometimes used.
+The sequence in the OEIS gives the numerical value for the square root of two, truncated to 65 decimal places:
+Binary
+HISTORY
+Section::::History.
+The Babylonian clay tablet YBC 7289 (c. 1800–1600 BC) gives an approximation of in four sexagesimal figures, , which is accurate to about six decimal digits, and is the closest possible three-place sexagesimal representation of :
+Another early close approximation is given in ancient Indian mathematical texts, the Sulbasutras (c. 800–200 BC) as follows: Increase the length [of the side] by its third and this third by its own fourth less the thirty-fourth part of that fourth. That is,
+This approximation is the seventh in a sequence of increasingly accurate approximations based on the sequence of Pell numbers, which can be derived from the continued fraction expansion of . Despite having a smaller denominator, it is only slightly less accurate than the Babylonian approximation.
+Pythagoreans discovered that the diagonal of a square is incommensurable with its side, or in modern language, that the square root of two is irrational. Little is known with certainty about the time or circumstances of this discovery, but the name of Hippasus of Metapontum is often mentioned. For a while, the Pythagoreans treated as an official secret the discovery that the square root of two is irrational, and, according to legend, Hippasus was murdered for divulging it. The square root of two is occasionally called "Pythagoras' number" or "Pythagoras' constant", for example by .
+COMPUTATION ALGORITHMS
+Section::::Computation algorithms.
+There are a number of algorithms for approximating , which in expressions as a ratio of integers or as a decimal can only be approximated. The most common algorithm for this, one used as a basis in many computers and calculators, is the Babylonian method of computing square roots, which is one of many methods of computing square roots. It goes as follows:
+First, pick a guess, ; the value of the guess affects only how many iterations are required to reach an approximation of a certain accuracy. Then, using that guess, iterate through the following recursive computation:
+The more iterations through the algorithm (that is, the more computations performed and the greater ""), the better approximation of the square root of 2 is achieved. Each iteration approximately doubles the number of correct digits. Starting with the next approximations are
+* = 1.5
+* = 1.416...
+* = 1.414215...
+* = 1.4142135623746...
+The value of was calculated to 137,438,953,444 decimal places by Yasumasa Kanada's team in 1997. In February 2006 the record for the calculation of was eclipsed with the use of a home computer. Shigeru Kondo calculated 1 trillion decimal places in 2010. For a development of this record, see the table below. Among mathematical constants with computationally challenging decimal expansions, only  has been calculated more precisely.
+Such computations aim to check empirically whether such numbers are normal.
+RATIONAL APPROXIMATIONS
+Section::::Rational approximations.
+A simple rational approximation (≈ 1.4142857) is sometimes used. Despite having a denominator of only 70, it differs from the correct value by less than (approx. ). Since it is a convergent of the continued fraction representation of the square root of two, any better rational approximation has a denominator not less than 169, since (≈ 1.4142012) is the next convergent with an error of approx. . 
+The rational approximation of the square root of two, , derived from the fourth step in the Babylonian algorithm starting with , is too large by approx. : its square is …
+RECORD PROGRESSION
+Section::::Record progression.
+This is a table of recent records in calculating digits of 
+! Date !! Name !! Number of digits
++ Reference:
+PROOFS OF IRRATIONALITY
+Section::::Proofs of irrationality.
+A short proof of the irrationality of can be obtained from the rational root theorem, that is, if is a monic polynomial with integer coefficients, then any rational root of is necessarily an integer. Applying this to the polynomial , it follows that is either an integer or irrational. Because is not an integer (2 is not a perfect square), must therefore be irrational. This proof can be generalized to show that any root of any natural number which is not the square of a natural number is irrational.
+See quadratic irrational or infinite descent for a proof that the square root of any non-square natural number is irrational.
+PROOF BY INFINITE DESCENT
+Section::::Proof by infinite descent.
+One proof of the number's irrationality is the following proof by infinite descent. It is also a proof by contradiction, also known as an indirect proof, in that the proposition is proved by assuming that the opposite of the proposition is true and showing that this assumption is false, thereby implying that the proposition must be true.
+* Assume that is a rational number, meaning that there exists a pair of integers whose ratio is .
+* 
+* If the two integers have a common factor, it can be eliminated using the Euclidean algorithm.
+* 
+* Then can be written as an irreducible fraction such that and are coprime integers (having no common factor).
+* 
+* It follows that and .   (   )   ( are integers)
+* 
+* Therefore, is even because it is equal to . ( is necessarily even because it is 2 times another whole number and multiples of 2 are even.)
+* 
+* It follows that must be even (as squares of odd integers are never even).
+* 
+* Because is even, there exists an integer that fulfills: .
+* 
+* Substituting from step 7 for in the second equation of step 4: is equivalent to , which is equivalent to .
+* 
+* Because is divisible by two and therefore even, and because , it follows that is also even which means that is even.
+* 
+* By steps 5 and 8 and are both even, which contradicts that is irreducible as stated in step 3.
+* 
+Because there is a contradiction, the assumption (1) that is a rational number must be false. This means that is not a rational number; i.e., is irrational.
+This proof was hinted at by Aristotle, in his Analytica Priora, §I.23. It appeared first as a full proof in Euclid's Elements, as proposition 117 of Book X. However, since the early 19th century historians have agreed that this proof is an interpolation and not attributable to Euclid.
+PROOF BY UNIQUE FACTORIZATION
+Section::::Proof by unique factorization.
+An alternative proof uses the same approach with the fundamental theorem of arithmetic which says every integer greater than 1 has a unique factorization into powers of primes.
+* Assume that is a rational number. Then there are integers and such that is coprime to and . In other words, can be written as an irreducible fraction.
+* 
+* The value of cannot be 1 as there is no integer the square of which is 2.
+* 
+* There must be a prime which divides and which does not divide , otherwise the fraction would not be irreducible.
+* 
+* The square of can be factored as the product of the primes into which is factored but with each power doubled.
+* 
+* Therefore, by unique factorization the prime which divides , and also its square, cannot divide the square of .
+* 
+* Therefore, the square of an irreducible fraction cannot be reduced to an integer.
+* 
+* Therefore, cannot be a rational number.
+* 
+This proof can be generalized to show that if an integer is not an exact th power of another integer then its th root is irrational. For a proof of the same result which does not rely on the fundamental theorem of arithmetic, see: quadratic irrational.
+PROOF BY INFINITE DESCENT, NOT INVOLVING FACTORING
+Section::::Proof by infinite descent, not involving factoring.
+The following reductio ad absurdum argument showing the irrationality of is less well-known. It uses the additional information so that .
+* Assume that is a rational number. This would mean that there exist positive integers and with such that . Then and .
+* 
+* We may assume that is the smallest integer so that is an integer. That is, that the fraction is in lowest terms.
+* 
+* Because , it follows from (1) that . So .
+* 
+* Also from (1), we have .
+* 
+* Thus the fraction for , which according to (2) is already in lowest terms, is represented by (4) in yet lower terms (which follows from the result (3)). This is a contradiction, so the assumption that is rational must be false.
+* 
+This argument may be tightened as follows.
+Let b be the least positive integer for which is a rational . Then b has the property that twice its square is a square, that is, . For a contradiction, we show that is a smaller positive integer with the same property. Multiply the inequalities by to show . Now twice the square of is . Rewrite the first and last terms using b's property to yield , which is just the expansion of , the promised square. Thus, can also be written as . This procedure can be iterated and understood geometrically, as shown below.
+GEOMETRIC PROOF
+Section::::Geometric proof.
+The immediately preceding argument has a simple geometric formulation attributed by John Horton Conway to Stanley Tennenbaum when the latter was a student in the early 1950s and whose most recent appearance is in an article by Noson Yanofsky in the May–June 2016 issue of American Scientist. Given two squares with integer sides respectively a and b, one of which has twice the area of the other, place two copies of the smaller square in the larger as shown in Figure 1. The square overlap region in the middle () must equal the sum of the two uncovered squares (). But these squares on the diagonal have positive integer sides that are smaller than the original squares. Repeating this process we can find arbitrarily small squares one twice the area of the other, yet both having positive integer sides, which is impossible since positive integers cannot be less than 1.
+Another geometric reductio ad absurdum argument showing that is irrational appeared in 2000 in the American Mathematical Monthly. It is also an example of proof by infinite descent. It makes use of classic compass and straightedge construction, proving the theorem by a method similar to that employed by ancient Greek geometers. It is essentially the algebraic proof of the previous section viewed geometrically in yet another way.
+Let be a right isosceles triangle with hypotenuse length and legs as shown in Figure 2. By the Pythagorean theorem, . Suppose and are integers. Let be a ratio given in its lowest terms.
+Draw the arcs and with centre . Join . It follows that , and the and coincide. Therefore, the triangles and are congruent by SAS.
+Because is a right angle and is half a right angle, is also a right isosceles triangle. Hence implies . By symmetry, , and is also a right isosceles triangle. It also follows that .
+Hence we have an even smaller right isosceles triangle, with hypotenuse length and legs . These values are integers even smaller than and and in the same ratio, contradicting the hypothesis that is in lowest terms. Therefore, and cannot be both integers, hence is irrational.
+PYTHAGOREAN THEOREM PROOF
+Section::::Pythagorean theorem proof.
+This is another proof by contradiction, supposing that is rational.
+* That means that we can make a right isosceles triangle where the side lengths are natural numbers and the legs and the hypotenuse do not share any common factors (except 1).
+* 
+* Since the legs are equal, so are their squares. So in order for the Pythagorean theorem to work for this special right triangle, the square of the hypotenuse has to be an even number (and if we cut it in half once then we have the area of the square of the leg).
+* 
+* Recall that the square of an even number is even and the square of an odd number is odd. So if the square of the hypotenuse is even the hypotenuse is even as well.
+* 
+* Remember that a square is a quadrilateral with 2 pairs of parallel sides which are equal in length and has 4 right angles. So both sides of the square of the hypotenuse are even.
+* 
+* So the square of the hypotenuse of this right triangle can be cut in half twice and still have integer area. Since we only want to cut it in half once, then we'll get an even number.
+* 
+* So the square of the leg is even. Now according to (2) the leg must be even.
+* 
+* This contradicts our assumption at (1) that the leg and hypotenuse have no common factors (except 1). Because if they're both even they share a common factor of 2. So the assumption that was rational has to be false. Or in other words is an irrational number. Q. E. D.
+* 
+ANALYTIC PROOF
+* Lemma: let and such that for all and
+* is irrational.
+CONSTRUCTIVE PROOF
+Section::::Constructive proof.
+In a constructive approach, one distinguishes between on the one hand not being rational, and on the other hand being irrational (i.e., being quantifiably apart from every rational), the latter being a stronger property. Given positive integers and , because the valuation (i.e., highest power of 2 dividing a number) of is odd, while the valuation of is even, they must be distinct integers; thus . Then
+the latter inequality being true because we assume (otherwise the quantitative apartness can be trivially established). This gives a lower bound of for the difference , yielding a direct proof of irrationality not relying on the law of excluded middle; see Errett Bishop (1985, p. 18). This proof constructively exhibits a discrepancy between and any rational.
+PROOF BY DIOPHANTINE EQUATIONS
+* Lemma: For the Diophantine equation formula_18 in its primitive (simplest) form, integer solutions exist if and only if either formula_19 or formula_20 is odd, but never when both formula_19 and formula_20 are odd.
+Section::::Proof by Diophantine equations.
+Proof: For the given equation, there are only six possible combinations of oddness and evenness for whole-number values of formula_19 and formula_20 that produce a whole-number value for formula_25. A simple enumeration of all six possibilities shows why four of these six are impossible. Of the two remaining possibilities, one can be proven to not contain any solutions using modular arithmetic, leaving the sole remaining possibility as the only one to contain solutions, if any.
+!x, y
+!z
+Both even
+Even
+Impossible. The given Diophantine equation is primitive and therefore contains no common factors throughout 
+Both odd
+Odd
+Impossible. The sum of two odd numbers does not produce an odd number.
+Both even
+Odd
+Impossible. The sum of two even numbers does not produce an odd number.
+One even, another odd
+Even
+Impossible. The sum of an even number and an odd number does not produce an even number.
+Both odd
+Even
+Possible.
+One even, another odd
+Odd
+Possible.
+The fifth possibility (both formula_19 and formula_20 odd and formula_25 even) can be shown to contain no solutions as follows.
+Since formula_25 is even, formula_30 must be divisible by formula_31, which makes the entire equation congruent to modulo formula_31:
+The square of any odd number is always formula_34. The square of any even number is always formula_35. Since both formula_19 and formula_20 are odd and formula_25 is even, we have:
+which is impossible. Therefore, the fifth possibility is also ruled out, leaving the sixth to be the only possible combination to contain solutions, if any.
+An extension of this lemma is the result that two identical whole-number squares can never be added to produce another whole-number square, even when the equation is not in its simplest form.
+* Theorem: formula_41 is irrational.
+Proof: Assume formula_41 is rational. Therefore,
+But the lemma proves that the sum of two identical whole-number squares cannot produce another whole-number square.
+Therefore, the assumption that formula_41 is rational is contradicted.
+formula_41 is irrational. Q. E. D.
+PROPERTIES OF THE SQUARE ROOT OF TWO
+Section::::Properties of the square root of two.
+One-half of , also the reciprocal of , approximately , is a common quantity in geometry and trigonometry because the unit vector that makes a 45° angle with the axes in a plane has the coordinates
+This number satisfies
+One interesting property of is as follows:
+since
+This is related to the property of silver ratios.
+if the square root symbol is interpreted suitably for the complex numbers and .
+for square roots and only one minus sign.
+Similar in appearance but with a finite number of terms, appears in various trigonometric constants:
+It is not known whether is a normal number, a stronger property than irrationality, but statistical analyses of its binary expansion are consistent with the hypothesis that it is normal to base two.
+SERIES AND PRODUCT REPRESENTATIONS
+Section::::Series and product representations.
+The identity , along with the infinite product representations for the sine and cosine, leads to products such as
+and
+or equivalently,
+The number can also be expressed by taking the Taylor series of a trigonometric function. For example, the series for gives
+The Taylor series of with and using the double factorial gives
+The convergence of this series can be accelerated with an Euler transform, producing
+It is not known whether can be represented with a BBP-type formula. BBP-type formulas are known for and , however.
+The number can be represented by an infinite series of Egyptian fractions, with denominators defined by 2th terms of a Fibonacci-like recurrence relation a(n)=34a(n-1)-a(n-2), a(0)=0, a(1)=6.
+CONTINUED FRACTION REPRESENTATION
+Section::::Continued fraction representation.
+The square root of two has the following continued fraction representation:
+The convergents formed by truncating this representation form a sequence of fractions that approximate the square root of two to increasing accuracy, and that are described by the Pell numbers (known as side and diameter numbers to the ancient Greeks because of their use in approximating the ratio between the sides and diagonal of a square). The first convergents are: . The convergent differs from by almost exactly and then the next convergent is .
+NESTED SQUARE REPRESENTATIONS
+Section::::Nested square representations.
+The following nested square expressions converge to formula_80:
+DERIVED CONSTANTS
+Section::::Derived constants.
+The reciprocal of the square root of two (the square root of ) is a widely used constant.
+formula_82 
+PAPER SIZE
+Section::::Paper size.
+The (approximate) aspect ratio of paper sizes under ISO 216 (A4, A0, etc.) is 1:. This ratio of lengths of the shorter over the longer side guarantees that cutting a sheet in half along a line parallel to its shorter side results in the smaller sheets having the same (approximate) ratio as the original sheet.
+Proof:
+Let formula_83 shorter length and formula_84 longer length of the sides of a sheet of paper, with
+Let formula_86 be the analogue ratio of the halved sheet, then
+SEE ALSO
+* Square root of 3
+* Square root of 5
+* Silver ratio,
+* The square root of two is the frequency ratio of a tritone interval in twelve-tone equal temperament music.
+* The square root of two forms the relationship of f-stops in photographic lenses, which in turn means that the ratio of areas between two successive apertures is 2.
+* The celestial latitude (declination) of the Sun during a planet's astronomical cross-quarter day points equals the tilt of the planet's axis divided by .
+* Gelfond–Schneider constant, .
+* Viète's formula
+NOTES
+REFERENCES
+* Bishop, Errett (1985), Schizophrenia in contemporary mathematics. Errett Bishop: reflections on him and his research (San Diego, Calif., 1983), 1–32, Contemp. Math. 39, Amer. Math. Soc., Providence, RI.
+* .
+* .
+EXTERNAL LINKS
+* The Square Root of Two to 5 million digits by Jerry Bonnell and Robert J. Nemiroff. May, 1994.
+* Square root of 2 is irrational, a collection of proofs

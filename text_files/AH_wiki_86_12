@@ -1,0 +1,86 @@
+
+NUMBER SIGN
+The symbol # is most commonly known as the number sign, hash, or pound sign. The symbol has historically been used for a wide range of purposes, including the designation of an ordinal number and as a ligatured abbreviation for pounds avoirdupois (having been derived from the now-rare ℔).
+Since 2007, widespread usage of the symbol to introduce metadata tags on social media platforms has led to such tags being known as "hashtags" and from that, the symbol itself is sometimes called a "hashtag".
+The symbol is defined in Unicode and ASCII as and codice_1 in HTML5. It is graphically similar to several other symbols, including the sharp () from musical notation and the equal-and-parallel symbol (⋕) from mathematics, but is distinguished by its combination of level horizontal strokes and right-tilting vertical strokes.
+HISTORY
+Section::::History.
+It is believed that the symbol traces its origins to the symbol ℔, an abbreviation of the Roman term libra pondo, which translates as "pound weight". This abbreviation was printed with a dedicated ligature type, with a horizontal line across, so that the lowercase letter "l" would not be mistaken for the numeral "1". Ultimately, the symbol was reduced for clarity as an overlay of two horizontal strokes "=" across two slash-like strokes "//". Examples of it being used to indicate pounds exist at least as far back as 1850.
+The symbol is described as the "number" character in an 1853 treatise on bookkeeping. and its double meaning is described in a bookkeeping text from 1880. The instruction manual of the Blickensderfer model 5 typewriter () appears to refer to the symbol as the "number mark". Some early-20th-century U.S. sources refer to it as the "number sign", although this could also refer to the numero sign. A 1917 manual distinguishes between two uses of the sign: "number (written before a figure)"; and "pounds (written after a figure)".
+The use of the phrase "pound sign" to refer to this symbol is found from 1932 in U.S. usage. Before this time, and still outside the United States, the term "pound sign" was used to refer to the pound currency symbol (£) or the pound weight symbol (lb). An alternative theory is that the name "pound sign" arose from the fact that character encodings used the same code for both the number sign and the British pound sign "£". Claims have included ISO 646-GB as well as the Baudot code in the late 19th century. The apparent use of the sign to mean pounds weight in 1850 appears to rule out both of these code sets as the origin, although that same reference admits that the earliest reference in print was a decade after Baudot code.
+"Hash sign" is found in South African writings from the late 1960s, and from other non-North-American sources in the 1970s.
+The symbol appears to be used primarily in handwritten material, while in the printing business, the numero (№) symbol and barred-lb (℔) are used for "number" and "pounds" respectively.
+For mechanical devices, it appeared on the keyboard of the Remington Standard typewriter (c. 1886), but was not used on the keyboards used for typesetting. It appeared in many of the early teleprinter codes and from there was copied to ASCII which made it available on computers and thus caused many more uses to be found for the character. The symbol was introduced on the bottom right button of touch-tone keypads in 1968, but that button was not extensively used until the advent of large scale voicemail (PBX systems, etc.) in the early 1980s.
+USAGE IN NORTH AMERICA
+Section::::Usage in North America.
+Mainstream use in the United States is as follows: when it prefixes a number, it is read as "number", as in "a #2 pencil" (indicating "a number-two pencil"). The one exception is with the # key on a phone, which is always referred to as the "pound key" or "pound." Thus instructions to dial an extension such as #77 are always read as "pound seven seven."
+When the symbol follows a number, the symbol indicates weight in pounds. (Five pounds are indicated as 5#.) This traditional usage still finds handwritten use, and may be seen on some signs in markets and groceries. It is also commonly known as the "pound sign".
+In Canada the symbol is called both the "number sign" and the "pound sign". The American company Avaya has an option in their programming to denote Canadian English, which in turn instructs the system to say "number sign" to callers instead of "pound sign".
+USAGE IN THE UNITED KINGDOM AND IRELAND
+Section::::Usage in the United Kingdom and Ireland.
+In the United Kingdom and Ireland, it is generally called a hash (probably ultimately from "hatch", referring to cross-hatching, although the exact derivation is disputed). It is never used to denote pounds, either as weight (lb or lbs is used for this) or currency (pounds sterling, for which "£" is used). It is never called the "pound sign"; that term is understood to mean the currency symbol "£" for pound sterling or (formerly) Irish pound, although if one is speaking about telephones the term would be understood to mean # and not £.
+The use of "#" as an abbreviation for "number" is often understood in Britain and Ireland, especially where there has been business or educational contact with American usage, but use in print is rare and British typewriters had "£" in place of the American "#". Where Americans might write "Symphony #5", the British and Irish are more likely to write "Symphony No. 5", or perhaps use the numero sign—"Symphony № 5" (as in The New Grove Dictionary of Music and Musicians).
+To add to the confusion between "£" and "#", in BS 4730 (the UK national variant of the ISO/IEC 646 character set), 0x23 represents "£" whereas in ASCII (the US variant), it represents "#", thus it was common for the same character code to display "#" on US equipment and "£" on British equipment.
+OTHER NAMES IN ENGLISH
+Section::::Other names in English.
+The symbol has many other names (and uses) in English:
+Comment sign : Taken from its use in many shell scripts and some programming languages (such as Python) to start comments.
+Hashtag: The word "hashtag" is often used when reading social media messages aloud, indicating the start of a hashtag. For instance the text "#foo" is often read out loud as "hashtag, foo" (as opposed to "hash, foo"). This leads to the common belief that the symbol itself is called "hashtag".
+Hashtag symbol: Twitter documentation refers to it as "the hashtag symbol".
+Hex : Common usage in Singapore and Malaysia, as spoken by many recorded telephone directory-assistance menus: "Please enter your phone number followed by the hex key". The term "hex" is discouraged in Singapore in favour of "hash". In Singapore, a hash is also called "hex" in apartment addresses, where it precedes the floor number.
+Octothorp, octothorpe, octathorp, octatherp
+Sharp :Resemblance to the glyph used in music notation, U+266F (♯). So called in the name of the Microsoft programming languages C#, J# and F#. Microsoft says, "It's not the 'hash' (or pound) symbol as most people believe. It's actually supposed to be the musical sharp symbol. However, because the sharp symbol is not present on the standard keyboard, it's easier to type the hash ('#') symbol. The name of the language is, of course, pronounced 'see sharp'." According to the ECMA-334 C# Language Specification, section 6, Acronyms and abbreviations, the name of the language is written "C#" ("LATIN CAPITAL LETTER C (U+0043) followed by the NUMBER SIGN # (U+0023)") and pronounced "C Sharp".
+:Used in proof-reading to denote that a space should be inserted. This can mean
+Square :Occasionally used in the UK (e.g. sometimes in BT publications and automatic messages)—especially during the Prestel era, when the symbol was a page address delimiter. The International Telecommunications Union specification ITU-T E.161 3.2.2 states: "The # is to be known as a 'square' or the most commonly used equivalent term in other languages."
+Others : crosshatch, (garden) fence, mesh, flash, grid, pig-pen, tictactoe, scratch (mark), (garden) gate, hak, oof, rake, crunch, punch mark, sink, corridor, capital 3, and waffle.
+IN MATHEMATICS
+* In set theory, #S is the cardinality of the set S. That is, for a set formula_1, formula_2
+* In topology, A#B is the connected sum of manifolds A and B, or of knots A and B in knot theory.
+* In number theory, n# is the primorial of n.
+IN COMPUTING
+* In many scripting languages and data file formats, especially ones that originated on Unix, the # introduces a comment that goes to the end of the line. The combination codice_2 at the start of an executable file is a "shebang", "hash-bang" or "pound-bang", used to tell the operating system which program to use to run the script (see magic number). This combination was chosen so it would be a comment in the scripting languages.
+* codice_2 is the symbol of the CrunchBang Linux distribution.
+* In the Perl programming language, # is used as a modifier to array syntax to return the index number of the last element in the array, e.g., @array's last element is at $array[$#array]. The number of elements in @array is $#array + 1, since Perl arrays default to using zero based indices. If the array has not been defined, the return is also undefined. If the array is defined but has not had any elements assigned to it, e.g., @array = (); then $#array returns −1. See the section on Array functions in the Perl language structure article.
+* In the C preprocessor (and the C++ preprocessor, and other syntactically C-like languages), # is used to start a preprocessor directive. Inside macros (after #define) it is used for various purposes, including the double pound sign ## used for token concatenation.
+* In Unix shells, # is placed by convention at the end of a command prompt to denote that the user is working as root.
+* # is used in a URL of a web page or other resource to introduce a "fragment identifier"—an id which defines a position within that resource. For example, in the URL codice_4 the portion after the # (codice_5) is the fragment identifier, in this case denoting that the display should be moved to show the tag marked by codice_6 in the HTML.
+* Internet Relay Chat: on (IRC) servers, # precedes the name of every channel that is available across an entire IRC network.
+* In blogs, # is sometimes used to denote a permalink for that particular weblog entry.
+* In lightweight markup languages, such as wikitext, # is often used to introduce numbered list items.
+* # is used in the Modula-2 and Oberon programming languages designed by Niklaus Wirth and in the Component Pascal language derived from Oberon to denote the not equal symbol, as a stand-in for the mathematical unequal sign ≠, being more intuitive than <> or !=. For example: codice_7
+* In OCaml, # is the operator used to call a method.
+* In Common Lisp, # is a dispatching read macro character used to extend the S-expression syntax with short cuts and support for various data types (complex numbers, vectors and more).
+* In Scheme, # is the prefix for certain syntax with special meaning.
+* In Standard ML, #, when prefixed to a field name, becomes a projection function (function to access the field of a record or tuple); also, # prefixes a string literal to turn it into a character literal.
+* In Mathematica syntax, #, when used as a variable, becomes a pure function (a placeholder that is mapped to any variable meeting the conditions).
+* In LaTeX, #, when prefixing a number, references an arguments for a user defined command. For instance codice_8.
+* In Javadoc, # is used with the @see tag to introduce or separate a field, constructor, or method member from its containing class.
+* In some dialects of assembly language, # is used to denote immediate mode addressing, e.g., LDA #10, which means "load the accumulator with the value 10" in MOS 6502 assembly language.
+* in HTML, CSS, SVG, and other computing applications "#" is used to identify a color specified in hexadecimal format, e.g.,codice_9. This usage comes from X11 color specifications, which inherited it from early assembler dialects that used "#" to prefix hexadecimal constants, e.g.: ZX Spectrum Z80 assembly.
+* In Be-Music Script, every command line starts with #. Lines starting with characters other than # are treated as comments.
+* The use of the # symbol in a hashtag is a phenomenon conceived by Chris Messina, and popularized by social media network Twitter, as a way to direct conversations and topics amongst users. This has led to an increasingly common tendency to refer to the symbol itself as "hashtag", but this is technically incorrect.
+* In programming languages like PL/1 and Assembler used on IBM mainframe systems, as well as JCL (Job Control Language), the # symbol (along with $ and @) are used as additional letters in identifiers, labels and data set names.
+OTHER USES
+* Press releases: the notation "###" denotes "end", i.e. that there is no further copy to come.
+* Chess notation: # after a move denotes checkmate, being easier to type than the traditional ‡.
+* Scrabble: Putting a number sign after a word indicates that the word is found in the British word lists, but not the North American lists.
+* Prescription drug delimiter: in some countries, such as Norway or Poland, # is used as a delimiter between different drugs on medical prescriptions.
+* Copy writing and editing: technical writers often use three hash signs ("###") as a marker in text where more content will be added or there are errors to be corrected.
+* Mining: in underground mining, the hash sign is sometimes used as a shorthand for "seam" or "shaft". An example would be "4#", which would mean "four shaft" or "four seam" depending on the context.
+* Medical shorthand: # is often used to indicate a bone fracture. For example, '#NOF' is often used for 'fractured neck of femur'. In radiotherapy, a full dose of radiation is divided into smaller doses or 'fractions'. These are given the shorthand # to denote either the number of treatments in a prescription (e.g. 60Gy in 30#), or the fraction number (#9 of 25).
+* Linguistic phonology: # denotes a word boundary. For instance, /d/ → [t] / _# means that /d/ becomes [t] when it is the last segment in a word (i.e. when it appears before a word boundary).
+* Linguistic syntax: a # before an example sentence denotes that the sentence is semantically ill-formed, though grammatically well-formed. For instance, "#The toothbrush is pregnant" is a grammatically correct sentence, but the meaning is odd.
+* Teletext and DVB subtitles (in the UK and Ireland): the # symbol is used to mark text that is either sung by a character or heard in background music, e.g. # For he's a jolly good fellow #
+* American Sign Language transcription: the # prefixing an all-caps word identifies a lexicalized fingerspelled sign, having some sort of blends or letter drops. All-caps words without the prefix are used for standard English words that are fingerspelled in their entirety.
+* Footnote symbols (or endnote symbols): due to ready availability in many fonts and directly on computer keyboards, # and other symbols (such as the caret) have in recent years begun to be occasionally used in catalogues and reports in place of more traditional symbols (esp. dagger, double-dagger, pilcrow).
+UNICODE
+Section::::Unicode.
+In Unicode, several # characters are assigned:
+* . Other attested names in Unicode are: pound sign, hash, crosshatch, octothorpe.
+At least three orthographically distinct number signs from other languages are also assigned:
+ON KEYBOARDS
+Section::::On keyboards.
+On the standard US keyboard layout, the # symbol is . On standard UK and some other European keyboards, the same keystrokes produce the pound currency symbol (£), and # is moved to a separate key above the right shift. On UK Mac keyboards, # is generated by , whereas on some other European Mac keyboards, the # can be found above the right shift key.
+SEE ALSO
+* Numero sign (№)
+REFERENCES

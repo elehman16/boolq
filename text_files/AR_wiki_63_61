@@ -1,0 +1,83 @@
+
+JACOBIAN MATRIX AND DETERMINANT
+In vector calculus, the Jacobian matrix (, ) is the matrix of all first-order partial derivatives of a vector-valued function. When the matrix is a square matrix, both the matrix and its determinant are referred to as the Jacobian in literature.
+Suppose is a function which takes as input the vector and produces as output the vector . Then the Jacobian matrix of is an matrix, usually defined and arranged as follows:
+or, component-wise:
+This matrix, whose entries are functions of , is also denoted by , , and . (Note that some literature defines the Jacobian as the transpose of the matrix given above.)
+The Jacobian matrix is important because if the function is differentiable at a point (this is a slightly stronger condition than merely requiring that all partial derivatives exist at ), then the Jacobian matrix defines a linear map , which is the best (pointwise) linear approximation of the function near the point . This linear map is thus the generalization of the usual notion of derivative, and is called the derivative or the differential of at .
+If = , the Jacobian matrix is a square matrix, and its determinant, a function of , is the Jacobian determinant of . It carries important information about the local behavior of . In particular, the function has locally in the neighborhood of a point an inverse function that is differentiable if and only if the Jacobian determinant is nonzero at (see Jacobian conjecture). The Jacobian determinant also appears when changing the variables in multiple integrals (see substitution rule for multiple variables).
+If = 1, is a scalar field and the Jacobian matrix is reduced to a row vector of partial derivatives of —i.e. the transpose of the gradient of , when denoted as column vector with respect to the ordered basis formula_3.
+These concepts are named after the mathematician Carl Gustav Jacob Jacobi (1804–1851).
+JACOBIAN MATRIX
+Section::::Jacobian matrix.
+The Jacobian generalizes the gradient of a scalar-valued function of multiple variables, which itself generalizes the derivative of a scalar-valued function of a single variable. In other words, the Jacobian for a scalar-valued multivariate function is the gradient and that of a scalar-valued function of single variable is simply its derivative. The Jacobian can also be thought of as describing the amount of "stretching", "rotating" or "transforming" that a transformation imposes locally. For example, if is used to transform an image, the Jacobian , describes how the image in the neighborhood of is transformed.
+If a function is differentiable at a point, its derivative is given in coordinates by the Jacobian, but a function does not need to be differentiable for the Jacobian to be defined, since only the partial derivatives are required to exist.
+If is a point in and is differentiable at , then its derivative is given by . In this case, the linear map described by is the best linear approximation of near the point , in the sense that
+for close to and where is the little o-notation (for ) and is the distance between and . (See Total derivative#The total derivative as a linear map.)
+Compare this to a Taylor series for a scalar function of a scalar argument, truncated to first order:
+In a sense, both the gradient and Jacobian are "first derivatives"—the former the first derivative of a scalar function of several variables, the latter the first derivative of a vector function of several variables.
+The Jacobian of the gradient of a scalar function of several variables has a special name: the Hessian matrix, which in a sense is the "second derivative" of the function in question.
+JACOBIAN DETERMINANT
+Section::::Jacobian determinant.
+If , then is a function from to itself and the Jacobian matrix is a square matrix. We can then form its determinant, known as the Jacobian determinant. The Jacobian determinant is sometimes referred to as "the Jacobian".
+The Jacobian determinant at a given point gives important information about the behavior of near that point. For instance, the continuously differentiable function is invertible near a point if the Jacobian determinant at is non-zero. This is the inverse function theorem. Furthermore, if the Jacobian determinant at is positive, then preserves orientation near ; if it is negative, reverses orientation. The absolute value of the Jacobian determinant at gives us the factor by which the function expands or shrinks volumes near ; this is why it occurs in the general substitution rule.
+The Jacobian determinant is used when making a change of variables when evaluating a multiple integral of a function over a region within its domain. To accommodate for the change of coordinates the magnitude of the Jacobian determinant arises as a multiplicative factor within the integral. This is because the -dimensional element is in general a parallelepiped in the new coordinate system, and the -volume of a parallelepiped is the determinant of its edge vectors.
+The Jacobian can also be used to solve systems of differential equations at an equilibrium point or approximate solutions near an equilibrium point.
+INVERSE
+Section::::Inverse.
+According to the inverse function theorem, the matrix inverse of the Jacobian matrix of an invertible function is the Jacobian matrix of the inverse function. That is, if the Jacobian of the function is continuous and nonsingular at the point in , then is invertible when restricted to some neighborhood of and
+Conversely, if the Jacobian determinant is not zero at a point, then the function is locally invertible near this point, that is, there is a neighbourhood of this point in which the function is invertible.
+The (unproved) Jacobian conjecture is related to global invertibility in the case of a polynomial function, that is a function defined by n polynomials in n variables. It asserts that, if the Jacobian determinant is a non-zero constant (or, equivalently, that it does not have any complex zero), then the function is invertible and its inverse is a polynomial function.
+CRITICAL POINTS
+Section::::Critical points.
+If is a differentiable function, a critical point of is a point where the rank of the Jacobian matrix is not maximal. This means that the rank at the critical point is lower than the rank at some neighbour point. In other words, let be the maximal dimension of the open balls contained in the image of ; then a point is critical if all minors of rank of are zero.
+In the case where , a point is critical if the Jacobian determinant is zero.
+EXAMPLES
+EXAMPLE 1
+Section::::Examples.
+Section::::Example 1.
+Consider the function with given by
+Then we have
+and
+and the Jacobian matrix of is
+and the Jacobian determinant is
+EXAMPLE 2: POLAR-CARTESIAN TRANSFORMATION
+Section::::Example 2: polar-Cartesian transformation.
+The transformation from polar coordinates to Cartesian coordinates (x, y), is given by the function with components:
+The Jacobian determinant is equal to . This can be used to transform integrals between the two coordinate systems:
+EXAMPLE 3: SPHERICAL-CARTESIAN TRANSFORMATION
+Section::::Example 3: spherical-Cartesian transformation.
+The transformation from spherical coordinates to Cartesian coordinates (x, y, z), is given by the function with components:
+The Jacobian matrix for this coordinate change is
+The determinant is . As an example, since this determinant implies that the differential volume element . Unlike for a change of Cartesian coordinates, this determinant is not a constant, and varies with coordinates ( and ).
+EXAMPLE 4
+Section::::Example 4.
+The Jacobian matrix of the function with components
+is
+This example shows that the Jacobian need not be a square matrix.
+EXAMPLE 5
+Section::::Example 5.
+The Jacobian determinant of the function with components
+is
+From this we see that reverses orientation near those points where and have the same sign; the function is locally invertible everywhere except near points where or . Intuitively, if one starts with a tiny object around the point and apply to that object, one will get a resulting object with approximately times the volume of the original one, with orientation reversed.
+OTHER USES
+Section::::Other uses.
+The Jacobian serves as a linearized design matrix in statistical regression and curve fitting; see non-linear least squares.
+DYNAMICAL SYSTEMS
+Section::::Dynamical systems.
+Consider a dynamical system of the form formula_21, where formula_22 is the (component-wise) derivative of formula_23 with respect to the evolution parameter formula_24 (time), and formula_25 is differentiable. If formula_26, then formula_27 is a stationary point (also called a steady state). By the Hartman–Grobman theorem, the behavior of the system near a stationary point is related to the eigenvalues of formula_28, the Jacobian of formula_29 at the stationary point. Specifically, if the eigenvalues all have real parts that are negative, then the system is stable near the stationary point, if any eigenvalue has a real part that is positive, then the point is unstable. If the largest real part of the eigenvalues is zero, the Jacobian matrix does not allow for an evaluation of the stability.
+NEWTON'S METHOD
+Section::::Newton's method.
+A square system of coupled nonlinear equations can be solved iteratively by Newton's method. This method uses the Jacobian matrix of the system of equations.
+SURFACE ANALYSIS
+Section::::Surface analysis.
+Let n = 2 so the Jacobian is a 2 × 2 real matrix. Suppose a surface diffeomorphism f: U → V in the neighborhood of p in U is written formula_30 The matrix formula_31 can be interpreted as a complex number: ordinary, split, or dual. Furthermore, since formula_31 is invertible, the complex number has a polar decomposition or an alternative planar decomposition.
+And again, each such complex number represents a group action on the tangent plane at p. The action is dilation by the norm of the complex number, and rotation respecting angle, hyperbolic angle, or slope, according to the case of formula_33 Such action corresponds to a conformal mapping.
+SEE ALSO
+* Center manifold
+* Hessian matrix
+* Pushforward (differential)
+REFERENCES
+FURTHER READING
+EXTERNAL LINKS
+* Mathworld A more technical explanation of Jacobians

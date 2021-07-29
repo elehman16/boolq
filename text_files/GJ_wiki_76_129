@@ -1,0 +1,191 @@
+
+CONDITIONAL PROBABILITY
+In probability theory, conditional probability is a measure of the probability of an event (some particular situation occurring) given that (by assumption, presumption, assertion or evidence) another event has occurred. If the event of interest is A and the event B is known or assumed to have occurred, "the conditional probability of A given B", or "the probability of A under the condition B", is usually written as P(AB), or sometimes P(A) or P(A/B). For example, the probability that any given person has a cough on any given day may be only 5%. But if we know or assume that the person has a cold, then they are much more likely to be coughing. The conditional probability of coughing given that you have a cold might be a much higher 75%.
+The concept of conditional probability is one of the most fundamental and one of the most important concepts in probability theory. But conditional probabilities can be quite slippery and require careful interpretation. For example, there need not be a causal relationship between A and B, and they don't have to occur simultaneously.
+P(AB) may or may not be equal to P(A) (the unconditional probability of A). If P(AB) = P(A), then events A and B are said to be independent: in such a case, having knowledge about either event does not change our knowledge about the other event. Also, in general, P(AB) (the conditional probability of A given B) is not equal to P(BA). For example, if a person has dengue they might have a 90% chance of testing positive for dengue. In this case what is being measured is that if event B ("having dengue") has occurred, the probability of A (test is positive) given that B (having dengue) occurred is 90%: that is, P(AB) = 90%. Alternatively, if a person tests positive for dengue they may have only a 15% chance of actually having dengue because most people do not have dengue and the false positive rate for the test may be high. In this case what is being measured is the probability of the event B (having dengue) given that the event A (test is positive) has occurred: P(BA) = 15%. Falsely equating the two probabilities causes various errors of reasoning such as the base rate fallacy. Conditional probabilities can be correctly reversed using Bayes' theorem.
+Conditional probabilities can be displayed in a conditional probability table.
+DEFINITION
+CONDITIONING ON AN EVENT
+KOLMOGOROV DEFINITION
+Section::::Definition.
+Section::::Conditioning on an event.
+Section::::Kolmogorov definition.
+Given two events A and B, from the sigma-field of a probability space, with the unconditional probability of B (that is, of the event B occurring ) being greater than zero – P(B) > 0 – the conditional probability of A given B is defined as the quotient of the probability of the joint of events A and B, and the probability of B:
+where formula_2 is the probability that both events A and B occur. This may be visualized as restricting the sample space to situations in which B occurs. The logic behind this equation is that if the possible outcomes for A and B are restricted to those in which B occurs, this set serves as the new sample space.
+Note that this is a definition but not a theoretical result. We just denote the quantity formula_3 as formula_4 and call it the conditional probability of A given B.
+AS AN AXIOM OF PROBABILITY
+Section::::As an axiom of probability.
+Some authors, such as de Finetti, prefer to introduce conditional probability as an axiom of probability:
+Although mathematically equivalent, this may be preferred philosophically; under major probability interpretations such as the subjective theory, conditional probability is considered a primitive entity. Further, this "multiplication axiom" introduces a symmetry with the summation axiom for mutually exclusive events:
+AS THE PROBABILITY OF A CONDITIONAL EVENT
+Section::::As the probability of a conditional event.
+Conditional probability can be defined as the probability of a conditional event 
+formula_7. Assuming that the experiment underlying the events formula_8 and formula_9 is repeated, the 
+Goodman-Nguyen-van Fraassen
+conditional event can be defined as 
+It can be shown that 
+which meets the Kolmogorov definition of conditional probability. Note that the equation 
+formula_12 is a theoretical result and not a definition. 
+The definition via conditional events can be understood directly in terms of the Kolmogorov axioms and is particularly close to the Kolmogorov interpretation of probability in terms of experimental data. For example, conditional events can be repeated themselves leading to a generalized notion of conditional event 
+formula_13. It can be shown that the sequence 
+formula_14 is i.i.d., which yields a strong law of large numbers for conditional probability:
+MEASURE-THEORETIC DEFINITION
+Section::::Measure-theoretic definition.
+If P(B) = 0, then according to the simple definition, P(AB) is undefined. However, it is possible to define a conditional probability with respect to a σ-algebra of such events (such as those arising from a continuous random variable).
+For example, if X and Y are non-degenerate and jointly continuous random variables with density ƒ(x, y) then, if B has positive measure,
+The case where B has zero measure is problematic. For the case that B = {y}, representing a single point, the conditional probability could be defined as
+however this approach leads to the Borel–Kolmogorov paradox. The more general case of zero measure is even more problematic, as can be seen by noting that the limit, as all δy approach zero, of
+depends on their relationship as they approach zero. See conditional expectation for more information.
+CONDITIONING ON A RANDOM VARIABLE
+Section::::Conditioning on a random variable.
+Conditioning on an event may be generalized to conditioning on a random variable. Let X be a random variable; we assume for the sake of presentation that X is discrete, that is, X takes on only finitely many values x. Let A be an event. The conditional probability of A given X is defined as the random variable, written P(AX)", that takes on the value
+whenever
+More formally,
+The conditional probability P(AX) is a function of X: e.g., if the function g is defined as
+then
+Note that P(AX) and X are now both random variables. From the law of total probability, the expected value of P(AX) is equal to the unconditional probability of A.
+PARTIAL CONDITIONAL PROBABILITY
+Section::::Partial conditional probability.
+The partial conditional probability 
+formula_24
+is about the probability of event 
+formula_8 given that each of the condition events
+formula_26 has occurred to a degree
+formula_27 (degree of belief, degree of experience) that might be different from 100%. Frequentistically, partial conditional probability makes sense, if the conditions are tested in experiment repetitions of appropriate length 
+formula_28
+. Such 
+formula_28-bounded partial conditional probability can be defined as the conditionally expected average occurrence of event
+formula_8 in testbeds of length 
+formula_28 that adhere to all of the probability specifications
+formula_32, i.e.:
+Based on that, partial conditional probability can be defined as
+where formula_35
+Jeffrey conditionalization
+is a special case of partial conditional probability in which the condition events must form a partition:
+EXAMPLE
+Section::::Example.
+Suppose that somebody secretly rolls two fair six-sided dice, and we wish to compute the probability that the face-up value of the first one is 2, given the information that their sum is no greater than 5.
+* Let D1 be the value rolled on die 1.
+* Let D2 be the value rolled on die 2.
+Probability that D1 = 2
+Table 1 shows the sample space of 36 combinations of rolled values of the two dice, each of which occurs probability 1/36, with the numbers displayed in the red and dark gray cells being D1 + D2.
+D1 = 2 in exactly 6 of the 36 outcomes; thus P(D1=2) =  = :
++ Table 1
+! rowspan=2 colspan=2  +
+! colspan=6  D2
+! scope="col"  1
+! scope="col"  2
+! scope="col"  3
+! scope="col"  4
+! scope="col"  5
+! scope="col"  6
+! rowspan=6 scope="row"  D1
+! scope="row"  1
+! scope="row"  2
+! scope="rows"  3
+! scope="row"  4
+! scope="row"  5
+! scope="row"  6
+Probability that D1+D2 ≤ 5 
+Table 2 shows that D1+D2 ≤ 5 for exactly 10 of the 36 outcomes, thus P(D1+D2 ≤ 5) = :
++ Table 2
+! rowspan=2 colspan=2  +
+! colspan=6  D2
+! scope="col"  1
+! scope="col" k 2
+! scope="col"  3
+! scope="col"  4
+! scope="col"  5
+S! scope="col"  6
+! rowspan=6 scope="row"  D1
+! 1
+! scope="row"  2
+! scope="row"  3
+! scope="row"  4
+! scope="row"  5
+! scope="row"  6
+Probability that D1 = 2 given that D1+D2 ≤ 5 
+Table 3 shows that for 3 of these 10 outcomes, D1 = 2.
+Thus, the conditional probability P(D1=2  D1+D2 ≤ 5) =  = 0.3:
++ Table 3
+! rowspan=2 colspan=2  +
+! colspan=6  D2
+! scope="col"  1
+! scope="col"  2
+! scope="col"  3
+! scope="col"  4
+! scope="col"  5
+! scope="col"  6
+! rowspan=6 scope="row"  D1
+! 1
+! scope="row"  2
+! scope="row"  3
+! scope="row"  4
+! scope="row"  5
+! scope="row"  6
+Here, in the earlier notation for the definition of conditional probability, the conditioning event B is that D1+D2 ≤ 5, and the event A is D1 = 2. We have formula_37 as seen in the table.
+USE IN INFERENCE
+Section::::Use in inference.
+In statistical inference, the conditional probability is an update of the probability of an event based on new information. Incorporating the new information can be done as follows:
+* Let A, the event of interest, be in the sample space, say (X,P).
+* The occurrence of the event A knowing that event B has or will have occurred, means the occurrence of A as it is restricted to B, i.e. formula_38.
+* Without the knowledge of the occurrence of B, the information about the occurrence of A would simply be P(A)
+* The probability of A knowing that event B has or will have occurred, will be the probability of formula_38 relative to P(B), the probability that B has occurred.
+* This results in formula_40 whenever P(B)>0 and 0 otherwise.
+This approach results in a probability measure that is consistent with the original probability measure and satisfies all the Kolmogorov axioms. This conditional probability measure also could have resulted by assuming that the relative magnitude of the probability of A with respect to X will be preserved with respect to B (cf. a Formal Derivation below).
+The wording "evidence" or "information" is generally used in the Bayesian interpretation of probability. The conditioning event is interpreted as evidence for the conditioned event. That is, P(A) is the probability of A before accounting for evidence E, and P(AE) is the probability of A after having accounted for evidence E or after having updated P(A). This is consistent with the frequentist interpretation, which is the first definition given above.
+STATISTICAL INDEPENDENCE
+Section::::Statistical independence.
+Events A and B are defined to be statistically independent if
+If P(B) is not zero, then this is equivalent to the statement that
+Similarly, if P(A) is not zero, then
+is also equivalent. Although the derived forms may seem more intuitive, they are not the preferred definition as the conditional probabilities may be undefined, and the preferred definition is symmetrical in A and B.
+Independent events vs. mutually exclusive events
+The concepts of mutually independent events and mutually exclusive events are separate and distinct. The following table contrasts results for the two cases (provided the probablity of the conditioning event is not zero).
+!
+!If statistically independent
+!If mutually exclusive
+formula_44
+formula_45
+0
+formula_46
+formula_47
+0
+formula_48
+formula_49
+0
+In fact, mutually exclusive events cannot be statistically independent (unless they both are impossible), since knowing that one occurs gives information about the other (specifically, that it certainly does not occur).
+COMMON FALLACIES
+ASSUMING CONDITIONAL PROBABILITY IS OF SIMILAR SIZE TO ITS INVERSE
+Section::::Common fallacies.
+Section::::Assuming conditional probability is of similar size to its inverse.
+In general, it cannot be assumed that P(AB) ≈ P(BA). This can be an insidious error, even for those who are highly conversant with statistics. The relationship between P(AB) and P(BA) is given by Bayes' theorem:
+That is, P(AB) ≈ P(BA) only if P(B)/P(A) ≈ 1, or equivalently, P(A) ≈ P(B).
+ASSUMING MARGINAL AND CONDITIONAL PROBABILITIES ARE OF SIMILAR SIZE
+Section::::Assuming marginal and conditional probabilities are of similar size.
+In general, it cannot be assumed that P(A) ≈ P(AB). These probabilities are linked through the law of total probability:
+where the events formula_52 form a countable partition of formula_53.
+This fallacy may arise through selection bias. For example, in the context of a medical claim, let S be the event that a sequela (chronic disease) S occurs as a consequence of circumstance (acute condition) C. Let H be the event that an individual seeks medical help. Suppose that in most cases, C does not cause S so P(S) is low. Suppose also that medical attention is only sought if S has occurred due to C. From experience of patients, a doctor may therefore erroneously conclude that P(S) is high. The actual probability observed by the doctor is P(SH).
+OVER- OR UNDER-WEIGHTING PRIORS
+Section::::Over- or under-weighting priors.
+Not taking prior probability into account partially or completely is called base rate neglect. The reverse, insufficient adjustment from the prior probability is "conservatism.
+FORMAL DERIVATION
+Section::::Formal derivation.
+Formally, P(AB) is defined as the probability of A according to a new probability function on the sample space, such that outcomes not in B have probability 0 and that it is consistent with all original probability measures.
+Let Ω be a sample space with elementary events {ω}. Suppose we are told the event B ⊆ Ω has occurred. A new probability distribution (denoted by the conditional notation) is to be assigned on {ω} to reflect this. For events in B, it is reasonable to assume that the relative magnitudes of the probabilities will be preserved. For some constant scale factor α, the new distribution will therefore satisfy:
+Substituting 1 and 2 into 3 to select α:
+So the new probability distribution is
+Now for a general event A,
+SEE ALSO
+* Borel–Kolmogorov paradox
+* Chain rule (probability)
+* Class membership probabilities
+* Conditional probability distribution
+* Conditioning (probability)
+* Joint probability distribution
+* Monty Hall problem
+* Posterior probability
+REFERENCES
+EXTERNAL LINKS
+* F. Thomas Bruss Der Wyatt-Earp-Effekt oder die betörende Macht kleiner Wahrscheinlichkeiten (in German), Spektrum der Wissenschaft (German Edition of Scientific American), Vol 2, 110–113, (2007).
+* Visual explanation of conditional probability

@@ -1,0 +1,59 @@
+
+TOUCH ID
+Touch ID is a fingerprint recognition feature, designed and released by Apple Inc., that allows users to unlock Apple devices, make purchases in the various Apple digital media stores (the iTunes Store, the App Store, and the Apple Books Store), and authenticate Apple Pay online or in apps. 
+It has been part of all iPhones since 2013's iPhone 5S up until 2017's iPhone 8 and 8 Plus; it has been on all iPads since the iPad Air 2. In 2015, Apple introduced a faster second-generation Touch ID in the iPhone 6S; a year later, it made its laptop debut in the MacBook Pro and the 2018 MacBook Air.
+Fingerprint information is stored locally in a secure enclave on the Apple A7 and later chips, not in the cloud, a design choice intended to make it impossible for users to externally access the fingerprint information.
+HISTORY
+Section::::History.
+In 2012, Apple acquired AuthenTec, a company focused on fingerprint reading and identification management software, for $356 million. The acquisition led commentators to expect a fingerprint reading feature. Following leaks and speculation in early September, the iPhone 5S was unveiled on September 10, 2013, was the first phone on a major US carrier to feature the technology. Apple's Vice President of Marketing, Phil Schiller, announced the feature at Apple's iPhone media event and spent several minutes (the major portion of the conference) discussing the feature.
+Wells Fargo analyst Maynard Um predicted on September 4, 2013, that a fingerprint sensor in the iPhone 5S would help mobile commerce and boost adoption in the corporate environment. "As consumers increasingly rely on mobile devices to transact and store personal data, a reliable device-side authentication solution may become a necessity," Um said.
+With the unveiling of the iPhone 6 and 6 Plus at a keynote event on September 9, 2014, Touch ID was expanded from being used to unlock the device and authenticating App Store purchases to also authenticating Apple Pay. The iPhone 6S incorporates a second-generation Touch ID sensor that is up to twice as fast as the first-generation sensor found in the 5S, 6, and SE phones. As of October 2018, the iPhone 6S, 6S Plus, 7, 7 Plus, 8, 8 Plus, 2016 and 2017 MacBook Pro, iPad Pro 10.5 and 12.9 (second generation), and 2018 MacBook Air are the Apple devices which use the second generation sensor. The new Touch ID unlocks almost instantly and posed an issue as it unlocks too fast to read notifications on the lock screen. This is remedied with the iOS 10 update in which a user must press the home button to have the home screen appear, however this can be changed in the iOS settings to where users can just rest their finger on the sensor to unlock the user's device and go directly to the home screen, similar to previous versions of iOS. Solely placing a finger on the sensor will only unlock the iPhone unless said setting is enabled, and no notifications are currently being displayed on the lock screen.
+GENERATIONS
+Section::::Generations.
+! Generation
+! Model
+* iPhone 5S
+* iPhone SE
+* iPhone 6
+* iPhone 6 Plus
+* iPad Air 2
+* iPad mini 3
+* iPad mini 4
+* iPad Pro 12.9 1G
+* iPad Pro 9.7
+* iPad (2017)
+* iPad (2018)
+ 2
+* iPhone 6S
+* iPhone 6S Plus
+* iPhone 7
+* iPhone 7 Plus
+* MacBook Pro
+* iPad Pro 10.5
+* iPad Pro 12.9 2G
+* iPhone 8
+* iPhone 8 Plus
+* MacBook Air (2018)
+HARDWARE
+Section::::Hardware.
+Touch ID is built into the home button, which is built of laser-cut sapphire crystal, and does not scratch easily (scratching would prevent Touch ID from working). It features a stainless steel detection ring to detect the user's finger without pressing it. There is no longer a rounded square icon in the home button, nor is it concave.
+The sensor uses capacitive touch to detect the user's fingerprint. The sensor has a thickness of 170 µm, with 500 pixels per inch resolution. The user's finger can be oriented in any direction and it will still be read. Apple says it can read sub-epidermal skin layers, and it will be easy to set up and will improve with every use. The sensor passes a small current through one's finger to create a "fingerprint map" of the user's dermis. Up to 5 fingerprint maps can be stored in the Secure Enclave.
+SECURITY AND PRIVACY
+Section::::Security and privacy.
+Touch ID can be bypassed using passcodes set up by the user.
+Fingerprint data is stored on the secure enclave inside the Apple A7, A8, A8X, A9, A9X, A10, A10X or A11 processors of an iOS device, and not on Apple servers, nor on iCloud. From the Efficient Texture Comparison patent covering Apple's Touch ID technology: In order to overcome potential security drawbacks, Apple's invention includes a process of collapsing the full maps into a sort of checksum, hash function, or histogram. For example, each encrypted ridge map template can have some lower resolution pattern computed and associated with the ridge map. One exemplary pattern could be a histogram of, e.g., the most common angles (e.g., a 2 dimensional (2D) array of common angles). The exemplary pattern could include in each slot an average value over a respective vector of the map. The exemplary pattern could include in each slot a sum of the values over a respective vector of the map. The exemplary pattern could include the smallest or largest value within a respective vector of the map or could be a difference between a largest and a smallest value within the respective vector of the map. Numerous other exemplary embodiments are also possible, and any other exemplary pattern calculation can be used, where the exemplary pattern includes enough associated information to narrow the candidate list, while omitting enough associated information that the unsecured pattern cannot or cannot easily be reverse engineered into a matching texture.If the user's phone has been rebooted, or has not been unlocked for 48 hours, only the passcode a user has created, not their fingerprint, can be used to unlock the device, or during other specific use cases.
+In September 2013, the German Chaos Computer Club announced that it had bypassed Apple's Touch ID security. A spokesman for the group stated: "We hope that this finally puts to rest the illusions people have about fingerprint biometrics. It is plain pity to use something that you can't change and that you leave everywhere every day as a security token." Similar results have been achieved by using PVA Glue to take a cast of the finger. Others have also used Chaos Computer Club's method, but concluded that it is not an easy process in either time or effort, given that the user has to use a high resolution photocopy of a complete fingerprint, special chemicals and expensive equipment, and because the spoofing process takes some time to achieve.
+IMPACT
+Section::::Impact.
+In a 2013 New York magazine opinion piece, Kevin Roose argued that consumers are generally not interested in fingerprint recognition, preferring to use passcodes instead. Traditionally, he wrote, only businesspeople used biometric recognition, although they believe Touch ID may help bring fingerprint recognition to the masses. Roose stated the feature will also allow application developers to experiment, should Apple open up access to Touch ID later on (which they have done), but that those wary of surveillance agencies such as the US National Security Agency may still choose not to use Touch ID.
+Roose also noted that complementary metal oxide semiconductor (CMOS) sensors, such as those found on Touch ID, generally wear out and become unusable after some period of time, and while Apple may have found a way to manufacture the sensors better, if the sensors stop working, users may just switch back to using their passcode, making fingerprint recognition a non-starter once again. Roose also noted that fingerprint technology still has some issues, such as the potential to be hacked, or of the device's not recognizing the fingerprint (for example, when the finger has been injured).
+Adrian Kingsley-Hughes, writing for ZDNet, said Touch ID could be useful in bring your own device situations. He said the biometric protection adds another layer of security, removing the ability of people to look over others' shoulders and read their passcode/password. He added that Touch ID would prevent children from racking up thousands of dollars in unwanted purchases when using iPhones owned by adults. He observed that Touch ID was Apple's response to the large number of iPhone crimes, and that the new feature would deter would-be iPhone thieves.
+Moreover, he notes that the feature is one of the few that distinguish the iPhone 5S from the 5C. Roose also stated the feature is intended to deter theft. However, Brent Kennedy, a vulnerability analyst at the United States Computer Emergency Readiness Team, expressed concern that Touch ID could be hacked and suggested that people not rely on it right away. Forbes noted a history of fingerprints being spoofed in the past, and cautioned that the fingerprints on a stolen iPhone might be used to gain unauthorized access. However, the article did say that biometrics technology had improved since tests on spoofing fingerprint readers had been conducted.
+Kingsley-Hughes suggested the Touch ID as a form of two-factor authentication, combining something one knows (the password) with "something you are" (the fingerprint). Forbes said that, if two-factor authentication is available, it will be an overall improvement for security.
+Forbes columnist Andy Greenberg said the fact that fingerprint data was stored on the local device and not in a centralized database was a win for security.
+SEE ALSO
+* Face ID
+REFERENCES
+EXTERNAL LINKS
+* – official site
+* – official site

@@ -1,0 +1,236 @@
+
+SMART CITY
+A smart city is an urban area that uses different types of electronic data collection sensors to supply information which is used to manage assets and resources efficiently. This includes data collected from citizens, devices, and assets that is processed and analyzed to monitor and manage traffic and transportation systems, power plants, water supply networks, waste management, law enforcement, information systems, schools, libraries, hospitals, and other community services. The smart city concept integrates information and communication technology  (ICT), and various physical devices connected to the network (the Internet of things or IoT) to optimize the efficiency of city operations and services and connect to citizens. Smart city technology allows city officials to interact directly with both community and city infrastructure and to monitor what is happening in the city and how the city is evolving.
+ICT is used to enhance quality, performance and interactivity of urban services, to reduce costs and resource consumption and to increase contact between citizens and government.
+Smart city applications are developed to manage urban flows and allow for real-time responses. A smart city may therefore be more prepared to respond to challenges than one with a simple "transactional" relationship with its citizens. Yet, the term itself remains unclear to its specifics and therefore, open to many interpretations.
+Other terms that have been used for similar concepts include cyberville, digital city, electronic communities, flexicity, information city, intelligent city, knowledge-based city, MESH city, telecity, teletopia, Ubiquitous city, wired city.
+Major technological, economic and environmental changes have generated interest in smart cities, including climate change, economic restructuring, the move to online retail and entertainment, ageing populations, urban population growth and pressures on public finances. The European Union (EU) has devoted constant efforts to devising a strategy for achieving 'smart' urban growth for its metropolitan city-regions. The EU has developed a range of programmes under 'Europe's Digital Agenda". In 2010, it highlighted its focus on strengthening innovation and investment in ICT services for the purpose of improving public services and quality of life. Arup estimates that the global market for smart urban services will be $400 billion per annum by 2020. Examples of Smart City technologies and programs have been implemented in Singapore, Dubai, Milton Keynes, Southampton, Amsterdam, Barcelona, Madrid, Stockholm, China and New York.
+TERMINOLOGY
+Section::::Terminology.
+Due to the breadth of technologies that have been implemented under the smart city label, it is difficult to distill a precise definition of a smart city. Deakin and Al Wear list four factors that contribute to the definition of a smart city:
+* The application of a wide range of electronic and digital technologies to communities and cities
+* 
+* The use of ICT to transform life and working environments within the region
+* 
+* The embedding of such Information and Communications Technologies (ICTs) in government systems
+* 
+* The territorialisation of practices that brings ICTs and people together to enhance the innovation and knowledge that they offer.
+* 
+Deakin defines the smart city as one that utilises ICT to meet the demands of the market (the citizens of the city), and that community involvement in the process is necessary for a smart city. A smart city would thus be a city that not only possesses ICT technology in particular areas, but has also implemented this technology in a manner that positively impacts the local community.
+Alternative definitions include:
+* Giffinger et al. 2007: "Regional competitiveness, transport and Information and Communication Technologies economics, natural resources, human and social capital, quality of life, and participation of citizens in the governance of cities."
+* Smart Cities Council: "A smart city is one that has digital technology embedded across all city functions."
+* Caragliu and Nijkamp 2009: "A city can be defined as 'smart' when investments in human and social capital and traditional (transport) and modern (ICT) communication infrastructure fuel sustainable economic development and a high quality of life, with a wise management of natural resources, through participatory action and engagement."
+* Frost & Sullivan 2014: "We identified eight key aspects that define a Smart City: smart governance, smart energy, smart building, smart mobility, smart infrastructure, smart technology, smart healthcare and smart citizen."
+* Institute of Electrical and Electronics Engineers Smart Cities: "A smart city brings together technology, government and society to enable the following characteristics: smart cities, a smart economy, smart mobility, a smart environment, smart people, smart living, smart governance."
+* Business Dictionary: "A developed urban area that creates sustainable economic development and high quality of life by excelling in multiple key areas; economy, mobility, environment, people, living, and government. Excelling in these key areas can be done so through strong human capital, social capital, and/or ICT infrastructure."
+* Indian Government 2014 : "Smart City offers sustainability in terms of economic activities and employment opportunities to a wide section of its residents, regardless of their level of education, skills or income levels."
+* Department for Business, Innovation and Skills, UK 2013: "The concept is not static, there is no absolute definition of a smart city, no end point, but rather a process, or series of steps, by which cities become more 'liveable' and resilient and, hence, able to respond more quickly to new challenges."
+CHARACTERISTICS
+Section::::Characteristics.
+It has been suggested that a smart city (also community, business cluster, urban agglomeration or region) uses information technologies to:
+* Make more efficient use of physical infrastructure (roads, built environment and other physical assets) through artificial intelligence and data analytics to support a strong and healthy economic, social, cultural development.
+* 
+* Engage effectively with local people in local governance and decision by use of open innovation processes and e-participation, improving the collective intelligence of the city's institutions through e-governance, with emphasis placed on citizen participation and co-design.
+* 
+* Learn, adapt and innovate and thereby respond more effectively and promptly to changing circumstances by improving the intelligence of the city.
+* 
+They evolve towards a strong integration of all dimensions of human intelligence, collective intelligence, and also artificial intelligence within the city. The intelligence of cities "resides in the increasingly effective combination of digital telecommunication networks (the nerves), ubiquitously embedded intelligence (the brains), sensors and tags (the sensory organs), and software (the knowledge and cognitive competence)".
+These forms of intelligence in smart cities have been demonstrated in three ways:
+* Orchestration intelligence: Where cities establish institutions and community-based problem solving and collaborations, such as in Bletchley Park, where the Nazi Enigma cypher was decoded by a team led by Alan Turing. This has been referred to as the first example of a smart city or an intelligent community.
+* 
+* Empowerment intelligence: Cities provide open platforms, experimental facilities and smart city infrastructure in order to cluster innovation in certain districts. These are seen in the Kista Science City in Stockholm and the Cyberport Zone in Hong Kong. Similar facilities have also been established in Melbourne.
+* 
+* Instrumentation intelligence: Where city infrastructure is made smart through real-time data collection, with analysis and predictive modelling across city districts. There is much controversy surrounding this, particularly with regards to surveillance issues in smart cities. Examples of Instrumentation intelligence have been implemented in Amsterdam. This is implemented through:
+* 
+* A common IP infrastructure that is open to researchers to develop applications.
+* 
+* Wireless meters and devices transmit information at the point in time.
+* 
+* A number of homes being provided with smart energy meters to become aware of energy consumption and reduce energy usage
+* 
+* Solar power garbage compactors, car recharging stations and energy saving lamps.
+* 
+Some major fields of intelligent city activation are:
+! Innovation economy
+! Urban infrastructure
+! Governance
+According to David K. Owens, the former executive vice president of the Edison Electric Institute, two key elements that a smart city must have are an integrated communications platform and a "dynamic resilient grid." Both are large investments.
+FRAMEWORKS
+Section::::Frameworks.
+In order to achieve an accurate description and explanation of the concept of Smart City it is needed to first analyse the topic through a specific framework. The framework is divided into 4 main dimensions:
+TECHNOLOGY FRAMEWORK
+Section::::Technology framework.
+Several concepts of the Smart city rely heavily on the use of technology; a technological Smart City is not just one concept but there are different combinations of technological infrastructure that build a concept of smart city.
+* Digital city: it combines service oriented infrastructure, innovation services and communication infrastructure; Yovanof, G. S. & Hazapis, G. N. define a digital city "a connected community that combines broadband communications infrastructure; a flexible, service-oriented computing infrastructure based on open industry standards; and, innovative services to meet the needs of governments and their employees, citizens and businesses".
+* Virtual city: In these kinds of cities functions are implemented in a cyberspace; it includes the notion of hybrid city, which consists of a reality with real citizens and entities and a parallel virtual city of real entities and people. Having a smart city that is virtual means that in some cities it is possible the coexistence between these two reality, however the issue of physical distance and location is still not easy to manage. The vision of the world without distance still remains unmet in many ways. In practice this idea is hold up through physical IT infrastructure of cables, data centers, and exchanges.
+* Information city: It collects local information and delivered them to the public portal; In that city, many inhabitants are able to live and even work on the Internet because they could obtain every information through IT infrastructures, thanks to the sharing information method among citizens themselves. Using this approach, an information city could be an urban centre both economically and socially speaking; the most important thing is the linkage among civic services, people interactions and government institutions.
+* Intelligent city: it involves function as research or technological innovation to support learning and innovation procedure. The notion emerges in a social context in which knowledge, learning process and creativity have great importance and the human capital is considered the most precious resource within this type of technological city. In particular one of the most significant feature of an intelligent city is that every infrastructure is up to date, that means have the latest technology in telecommunications, electronic and mechanical technology. According to Komninos and Sefertzi, the attempt to build an "intelligent" Smart City is more a radical innovation rather than an incremental innovation owing to a big quantity of efforts to use IT trying to transform the daily life.
+* Ubiquitous city (U-city): It creates an environment that connect citizens to any services through any device. According to Anthopoulos, L., & Fitsilis, P., U-city is a further extension of digital city concept because of the facility in terms of accessibility to every infrastructure. This makes easier to the citizen the use of any available devices to interconnect them. Its goal is to create a city where any citizen can get any services anywhere and anytime through any kind of devices. It is important to highlights that the ubiquitous city is different from the above virtual city: while the virtual city creates another space by visualizing the real urban elements within the virtual space, U-city is given by the computer chips inserted to those urban elements.
+* Cognitive Smart City: Cognitive smart city expands the concept of the smart city by referring to the convergence of the emerging Internet of Things (IoT) and smart city technologies, their generated big data, and artificial intelligence techniques. Continuous learning through human interactions and consequently performing a dynamic and flexible behavior and actions based on the dynamic environment of the city are the core components of such framework.
+HUMAN FRAMEWORK
+Section::::Human framework.
+Human infrastructure (i.e., creative occupations and workforce, knowledge networks, voluntary organisations) is a crucial axis for city development.
+* Creative city: creativity is recognized as a key driver to smart city and it represents also a version of it. Social infrastructures, like for instance intellectual and social capital are indispensable factors to build a city that is smart according to the human framework. These infrastructures concern people and their relationship. Smart City benefits from social capital and it could be possible and easier to create a Smart city concept if there are mix of education and training, culture and arts, business and commerce as Bartlett, L. said.
+* Learning city: according to Moser, M. A., learning city is involved in building skilled workforce. This type of city in the human context improves the competitiveness in the global knowledge economy and Campbell [16] established a typology of cities that are learning to be smart: individually proactive city, city cluster, one-to-one link between cities, and city network. That lead a city to learn how it should be possible and realistic to be smart through learning process followed by city workforce.
+* Humane city: It exploits human potential, in particular the knowledge workforce. Following this approach, it is possible focus on education and builds a center of higher education, which is the city, obtaining better-educated individuals. According to Glaeser, E. L., & Berry, C. R, this view moves a smart city concept in a city full of skilled workforces; the same reasoning could be make for those high tech knowledge-sensitive industries which want to migrate in a so dynamic and proactive community. As a consequence of the above movement, the difference between Smart City and not are getting wider; Smart places are getting smarter while other places getting less smart because such places act as a magnet for creative people and workers (Malanga, S. 2004 ).
+* Knowledge city: It is related to knowledge economy and innovation process; this type of Smart City is very similar to a learning city, the only difference refers to "a knowledge city is heavily related to knowledge economy, and its distinction is stress on innovation" (Dirks, S., Gurdgiev, C., & Keeling, M.).
+INSTITUTIONAL FRAMEWORK
+Section::::Institutional framework.
+According to Moser, M. A., since 1990s the Smart Communities movement took shape as a strategy to broaden the base of users involved in IT. Members of these Communities are people that share their interest and work in a partnership with government and other institutional organizations to push the use of IT to improve the quality of daily life as a consequence of different worsening in daily actions. Eger, J. M. said that a smart community makes a conscious and agreed-upon decision to deploy technology as a catalyst to solving its social and business needs. It is very important to understand that this use of IT and the consequent improvement could be more demanding without the institutional help; indeed institutional involvement is essential to the success of smart community initiatives. Again Moser, M. A. explained that "building and planning a smart community seeks for smart growth"; a smart growth is essential what the partnership between citizen and institutional organizations try to do that is a reaction to worsening trends in daily things, like for instance traffic congestion, school overcrowding and air pollution. However it is important noticed that technological propagation is not an end in itself, but only a means to reinventing cities for a new economy and society. To sum up, it could possible to assert that any Smart City initiatives necessitate the governance support for their success.
+The importance of these three different dimensions consist that only a link, correlation among them make possible a development of a real concept of Smart City. According to the definition of Smart City given by Caragliu, A., Del Bo, C., & Nijkamp, P., a city is smart when investments in human/social capital and IT infrastructure fuel sustainable growth and enhance quality of life, through participatory governance.
+ENERGY FRAMEWORK
+Section::::Energy framework.
+Smart cities use data and technology to create efficiencies, improve sustainability, create economic development, and enhance quality of life factors for people living and working in the city. It also means that the city has a smarter energy infrastructure. A more formal definition is this: "… An urban area that has securely integrated technology across the information . . . and Internet of Things (IoT) sectors to better manage a city's assets."
+A smart city is powered by "smart connections" for various items such as street lighting, smart buildings, distributed energy resources (DER), data analytics, and smart transportation. Amongst these things, energy is paramount; this is why utility companies play a key role in smart cities. Electric companies, working partnership with city officials, technology companies and a number of other institutions, are among the major players that helped accelerate the growth of America's smart cities.
+DATA MANAGEMENT FRAMEWORK
+Section::::Data Management framework.
+Smart city employs a combination of data collection, processing, and disseminating technologies in conjunction with networking and computing technologies and data security and privacy measures encouraging application innovation to promote the overall quality of life for its citizens and covering dimensions that include: utilities, health, transportation, entertainment and government services.
+PLATFORMS AND TECHNOLOGIES
+Section::::Platforms and technologies.
+New Internet technologies promoting cloud-based services, the Internet of Things (IoT), real-world user interfaces, use of smart phones and smart meters, networks of sensors and RFIDs, and more accurate communication based on the semantic web, open new ways to collective action and collaborative problem solving.
+Online collaborative sensor data management platforms are on-line database services that allow sensor owners to register and connect their devices to feed data into an on-line database for storage and allow developers to connect to the database and build their own applications based on that data.
+In London, a traffic management system known as SCOOT optimises green light time at traffic intersections by feeding back magnetometer and inductive loop data to a supercomputer, which can co-ordinate traffic lights across the city to improve traffic throughout.
+The city of Santander in Cantabria, northern Spain, has 20,000 sensors connecting buildings, infrastructure, transport, networks and utilities, offers a physical space for experimentation and validation of the IoT functions, such as interaction and management protocols, device technologies, and support services such as discovery, identity management and security In Santander, the sensors monitor the levels of pollution, noise, traffic and parking.
+Electronic cards (known as smart cards) are another common platform in smart city contexts. These cards possess a unique encrypted identifier that allows the owner to log into a range of government provided services (or e-services) without setting up multiple accounts. The single identifier allows governments to aggregate data about citizens and their preferences to improve the provision of services and to determine common interests of groups. This technology has been implemented in Southampton.
+ROADMAP
+Section::::Roadmap.
+A smart city roadmap consists of four/three (the first is a preliminary check) major components:
+* Define exactly what is the community: maybe that definition can condition what you are doing in the subsequent steps; it relates to geography, links between cities and countryside and flows of people between them; maybe – even – that in some Countries the definition of City/community that is stated does not correspond effectively to what – in fact – happens in the real life
+* 
+* Study the Community: Before deciding to build a smart city, first we need to know why. This can be done by determining the benefits of such an initiative. Study the community to know the citizens, the business's needs – know the citizens and the community's unique attributes, such as the age of the citizens, their education, hobbies, and attractions of the city.
+* 
+* Develop a Smart City Policy: Develop a policy to drive the initiatives, where roles, responsibilities, objective, and goals, can be defined. Create plans and strategies on how the goals will be achieved.
+* 
+* Engage The Citizens: This can be done by engaging the citizens through the use of e-government initiatives, open data, sport events, etc.
+* 
+In short, People, Processes, and Technology (PPT) are the three principles of the success of a smart city initiative. Cities must study their citizens and communities, know the processes, business drivers, create policies, and objectives to meet the citizens' needs. Then, technology can be implemented to meet the citizens' need, in order to improve the quality of life and create real economic opportunities.This requires a holistic customized approach that accounts for city cultures, long-term city planning, and local regulations."Whether to improve security, resiliency, sustainability, traffic congestion, public safety, or city services, each community may have different reasons for wanting to be smart. But all smart communities share common attributes—and they all are powered by smart connections and by our industry's smarter energy infrastructure. A smart grid is the foundational piece in building a smart community." — Pat Vincent-Collawn, chairman of the Edison Electric Institute and president and CEO of PNM Resources
+RESEARCH
+Section::::Research.
+University research labs developed prototypes for intelligent cities. IGLUS is an action research project led by EPFL focused on developing governance systems for urban infrastructures. IGLUS announced a MOOC through Coursera. MIT Smart Cities Lab focuses upon intelligent, sustainable buildings, mobility systems (GreenWheel Electric Bicycle, Mobility-on-Demand, CityCar, Wheel Robots); the IntelCities research consortium for electronic government, planning systems and citizen participation; URENIO developed intelligent city platforms for the innovation economy focusing on strategic intelligence, technology transfer, collaborative innovation, and incubation, while it promotes intelligent cities research and planning; the Smart Cities Academic Network is working on e-governance and e-services in the North Sea region. The MK:Smart project is focusing on issues of sustainable energy use, water use and transport infrastructure alongside exploring how to promote citizen engagement alongside educating citizens about smart cities.
+COMMERCIALISATION
+Section::::Commercialisation.
+Large IT, telecommunication and energy management companies such as Cisco, Schneider Electric, IBM and Microsoft market initiatives for intelligent cities. Cisco, launched the Global Intelligent Urbanization initiative to help cities using the network as the fourth utility for integrated city management, better quality of life for citizens, and economic development. IBM announced its SmarterCities to stimulate economic growth and quality of life in cities and metropolitan areas with the activation of new approaches of thinking and acting in the urban ecosystem. Sensor developers and startup companies are continually developing new smart city applications.
+Smart city technological companies exist in Israel, with Tel Aviv getting an award in 2014.
+EXAMPLES
+Section::::Examples.
+Major strategies and achievements related to the spatial intelligence of cities are listed in the Intelligent Community Forum awards from 1999 to 2010, in the cities of Songdo and Suwon (South Korea), Stockholm (Sweden), Gangnam District of Seoul (South Korea), Waterloo, Ontario (Canada), Taipei (Taiwan), Mitaka (Japan), Glasgow (Scotland, UK), Calgary (Alberta, Canada), Seoul (South Korea), New York City (US), LaGrange, Georgia (US), and Singapore, which were recognized for their efforts in developing broadband networks and e-services sustaining innovation ecosystems, growth, and inclusion.
+There are a number of cities actively pursuing a smart city strategy:
+AMSTERDAM
+Section::::Amsterdam.
+The Amsterdam Smart City initiative which began in 2009 currently includes 170+ projects collaboratively developed by local residents, government and businesses. These projects run on an interconnected platform through wireless devices to enhance the city's real time decision making abilities. The City of Amsterdam (City) claims the purpose of the projects is to reduce traffic, save energy and improve public safety. To promote efforts from local residents, the City runs the Amsterdam Smart City Challenge annually, accepting proposals for applications and developments that fit within the City's framework. An example of a resident developed app is Mobypark, which allows owners of parking spaces to rent them out to people for a fee. The data generated from this app can then be used by the City to determine parking demand and traffic flows in Amsterdam. A number of homes have also been provided with smart energy meters, with incentives provided to those that actively reduce energy consumption. Other initiatives include flexible street lighting (smart lighting) which allows municipalities to control the brightness of street lights, and smart traffic management where traffic is monitored in real time by the City and information about current travel time on certain roads is broadcast to allow motorists to determine the best routes to take.
+BARCELONA
+Section::::Barcelona.
+Barcelona has established a number of projects that can be considered 'smart city' applications within its "CityOS" strategy. For example, sensor technology has been implemented in the irrigation system in Parc del Centre de Poblenou, where real time data is transmitted to gardening crews about the level of water required for the plants. Barcelona has also designed a new bus network based on data analysis of the most common traffic flows in Barcelona, utilising primarily vertical, horizontal and diagonal routes with a number of interchanges. Integration of multiple smart city technologies can be seen through the implementation of smart traffic lights as buses run on routes designed to optimise the number of green lights. In addition, where an emergency is reported in Barcelona, the approximate route of the emergency vehicle is entered into the traffic light system, setting all the lights to green as the vehicle approaches through a mix of GPS and traffic management software, allowing emergency services to reach the incident without delay. Much of this data is managed by the Sentilo Platform.
+COLUMBUS, OHIO
+Section::::Columbus, Ohio.
+In the summer of 2017, the City of Columbus, Ohio began its pursuit of a smart city initiative. It partnered with American Electric Power Ohio to create a group of new electric vehicle charging stations. Many smart cities such as Columbus are using agreements such as this one to prepare for climate change, expand electric infrastructure, convert existing public vehicle fleets to electric cars, and create incentives for people to share rides when commuting. For doing this, the U.S. Department of Transportation gave the City of Columbus a $40 million grant. The city also received $10 million from Vulcan Inc.
+One key reason why the utility was involved in the picking of locations for new electric vehicle charging stations was to gather data. According to Daily Energy Insider, the group Infrastructure and Business Continuity for AEP said, "You don't want to put infrastructure where it won't be used or maintained. The data we collect will help us build a much bigger market in the future."
+Because autonomous vehicles are currently seeing "an increased industrial research and legislative push globally", building routes and connections for them is another important part of the Columbus Smart City initiative.
+DUBAI
+Section::::Dubai.
+Shaikh Mohammad bin Rashid Al Maktoum vice president of UAE and a Ruler of Dubai has initiate the Smart Dubai project that contains more than 100 initiatives in 2013, this project will lead Dubai to be the world smartest city by 2030. As his highness says this project is going to facilitate and enhance the quality of life of Dubai's citizens by integrating the private and public sectors and enabling citizens to have an access to these sectors through their smartphones. One of the initiatives that has been launched is Dubai Autonomous Transportation Strategy within this strategy Dubai will only have driverless transits. In addition, to save the environment by 2021 Dubai will be paper-free; all information and transactions of governments, businesses, and customers will be fully digitized. As a part of the Smart Dubai project, citizens will have unlimited access to government applications by providing 5000 hotspots in different locations of the city by 2021. Dubai has launched two mobile applications; mPay and DubaiNow that facilitate the payments of services of the citizens. mPay enables citizens to pay for utilities, electricity and water, traffic fines, and Etisalat bills while DubaiNow enables citizens to pay for educational, health, transport, and business services. In addition, Dubai has established Smart Nol Card; a unified rechargeable card that enables citizens to pay for all the transportation services such as metro, buses, water bus, and taxis. Dubai Municipality has launched an initiative called Digital City in which each building in Dubai city is assigned to unique QR code that contains information about the building, plot, and location. Citizens are able to scan these codes to access and get benefit of the municipality e-services.
+DUBLIN
+Section::::Dublin.
+Dublin finds itself as an unexpected capital for smart cities. The smart city programme for the city is run by Smart Dublin an initiative of the four Dublin Local Authorities to engage with smart technology providers, researchers and citizens to solve city challenges and improve city life. It includes Dublinked- Dublin's open data platform that hosts open source data to smart city applications.
+MADRID
+Section::::Madrid.
+Madrid, Spain's pioneering smart city, has adopted the MiNT Madrid Inteligente/Smarter Madrid platform to integrate the management of local services. These include the sustainable and computerized management of infrastructure, garbage collection and recycling, and public spaces and green areas, among others. The programme is run in partnership with IBMs INSA, making use of the latter's Big Data and analytics capabilities and experience. Madrid is considered to have taken a bottom-up approach to smart cities, whereby social issues are first identified and individual technologies or networks are then identified to address these issues. This approach includes support and recognition for start ups through the Madrid Digital Start Up programme.
+MALTA
+Section::::Malta.
+A document written in 2011 refers to 18th century Żejtun as the earliest "smart city" in Malta, but not in the modern context of a smart city. By the 21st century, SmartCity Malta, a planned technology park, is partially operational while the rest is on construction, as a Foreign Direct Investment.
+MANCHESTER
+Section::::Manchester.
+In December 2015, Manchester's CityVerve project was chosen as the winner of a government-led technology competition and awarded £10m to develop an Internet of Things (IoT) smart cities demonstrator.
+Established in July 2016, the project is being carried out by a consortium of 22 public and private organisations, including Manchester City Council, and is aligned with the city's on-going devolution commitment.
+The project has a two-year remit to demonstrate the capability of IoT applications and address barriers to deploying smart cities, such as city governance, network security, user trust and adoption, interoperability, scalability and justifying investment.
+CityVerve is based on an open data principle that incorporates a 'platform of platforms' which ties together applications for its four key themes: transport and travel; health and social care; energy and the environment; culture and the public realm. This will also ensure that the project is scalable and able to be redeployed to other locations worldwide.
+MILAN
+Section::::Milan.
+Milan, Italy was prompted to begin its Smart City strategies and initiatives by the European Union's Smart Cities and Communities initiative. However, unlike many European cities, Milan's Smart City strategies focus more on social sustainability rather than environmental sustainability. This focus is almost exclusive to Milan and has a major influence in the way content and way its strategies are implemented as shown in the case study of the Bicocca District in Milan.
+MILTON KEYNES
+Section::::Milton Keynes.
+Milton Keynes has a commitment to making itself a Smart City. Currently the mechanism through which this is approached is the MK:Smart initiative, a collaboration of local government, businesses, academia and 3rd sector organisations. The focus of the initiative is on making energy use, water use and transport more sustainable whilst promoting economic growth in the city. Central to the project is the creation of a state-of-the-art 'MK Data Hub' which will support the acquisition and management of vast amounts of data relevant to city systems from a variety of data sources. These will include data about energy and water consumption, transport data, data acquired through satellite technology, social and economic datasets, and crowdsourced data from social media or specialised apps.
+The MK:Smart initiative has two aspects which extend our understanding of how Smart Cities should operate. The first, Our MK, is a scheme for promoting citizen-led sustainability issues in the city. The scheme provides funding and support to engage with citizens and help turn their ideas around sustainability into a reality. The second aspect is in providing citizens with the skills to operate effectively in a Smart City. The Urban Data school is an online platform to teach school students about data skills while the project has also produced a MOOC to inform citizens about what a Smart City is.
+NEW SONGDO CITY
+NEW YORK CITY
+Section::::New York City.
+New York City is developing a number of smart city initiatives. A notable example is the series of city service kiosks in the LinkNYC network. These provide services including free WiFi, phone calls, device charging stations, local wayfinding, and more, funded by advertising that plays on the kiosk's screens
+SAN LEANDRO
+Section::::San Leandro.
+The city of San Leandro, California is in the midst of transforming from an industrial center to a tech hub of the Internet of Things (IoT) (technology that lets devices communicate with each other over the Internet). California's utility company PG&E is working with the city in this endeavor and on a smart energy pilot program that would develop a distributed energy network across the city that would be monitored by IoT sensors. The goal would be to give the city an energy system that has enough capacity to receive and redistribute electricity to and from multiple energy sources.
+SANTA CRUZ
+Section::::Santa Cruz.
+An alternative use of smart city technology can be found in Santa Cruz, California, where local authorities analyse historical crime data in order to predict police requirements and maximise police presence where it is required. The analytical tools generate a list of 10 places each day where property crimes are more likely to occur, and then placing police efforts on these regions when officers are not responding to any emergency. This use of ICT technology is different to the manner in which European cities utilise smart city technology, possibly highlighting the breadth of the smart city concept in different parts of the world.
+SHANGHAI
+Section::::Shanghai.
+Shanghai's development of the IoT and internet connection speeds have allowed for third party companies to revolutionize the productivity of the city. As mobile ride share giant, DiDi Chuxing, continuously adds more user protection features such as ride recording, and a new quick response safety center, Shanghai is furthering their smart city agenda. During the first China International Import Expo, Shanghai focused on smart mobility and implemented sensors to accept smartphone traffic cards in all metro stations and buses to increase efficiency in the city.
+SMART CITIES IN INDIA
+Section::::Smart cities in India.
+It's a retrofitting and urban renewal program being spearheaded by the Ministry of Urban Development, Government of India. The Government of India has the ambitious vision of developing 100 cities by modernizing existing mid-sized cities.
+SMART NATION SINGAPORE
+Section::::Smart Nation Singapore.
+Despite its size and lack of natural resources, Singapore has overcome many of its challenges in 50 short years to become one of the world's most advanced and liveable countries. It has embarked on its next phase of transformation towards a Smart Nation, and endeavours to harness the power of networks, data and info-comm technologies to improve living, create economic opportunities and build closer communities.
+STOCKHOLM
+Section::::Stockholm.
+Stockholm's smart city technology is underpinned by the Stokab dark fibre system which was developed in 1994 to provide a universal fibre optic network across Stockholm. Private companies are able to lease fibre as service providers on equal terms. The company is owned by the City of Stockholm itself. Within this framework, Stockholm has created a Green IT strategy. The Green IT program seeks to reduce the environmental impact of Stockholm through IT functions such as energy efficient buildings (minimising heating costs), traffic monitoring (minimising the time spent on the road) and development of e-services (minimising paper usage). The e-Stockholm platform is centred on the provision of e-services, including political announcements, parking space booking and snow clearance. This is further being developed through GPS analytics, allowing residents to plan their route through the city. An example of district-specific smart city technology can be found in the Kista Science City region. This region is based on the triple helix concept of smart cities, where university, industry and government work together to develop ICT applications for implementation in a smart city strategy.
+CRITICISM
+Section::::Criticism.
+The criticisms of smart cities revolve around:
+* A bias in strategic interest may lead to ignoring alternative avenues of promising urban development.
+* A smart city, as a scientifically planned city, would defy the fact that real development in cities is often haphazard. In that line of criticism, the smart city is seen as unattractive for citizens as they "can deaden and stupefy the people who live in its all-efficient embrace". Instead, people would prefer cities they can participate to shape.
+* The focus of the concept of smart city may lead to an underestimation of the possible negative effects of the development of the new technological and networked infrastructures needed for a city to be smart.
+* As a globalized business model is based on capital mobility, following a business-oriented model may result in a losing long term strategy: "The 'spatial fix' inevitably means that mobile capital can often 'write its own deals' to come to town, only to move on when it receives a better deal elsewhere. This is no less true for the smart city than it was for the industrial, [or] manufacturing city."
+* The high level of big data collection and analytics has raised questions regarding surveillance in smart cities, particularly as it relates to predictive policing.
+* As of August 2018, the discussion on smart cities centres around the usage and implementation of technology rather than on the inhabitants of the cities and how they can be involved in the process.
+* Especially in low-income countries, smart cities are irrelevant to the majority of the urban population, which lives in poverty with limited access to basic services. A focus on smart cities may worsen inequality and marginalization.
+SEE ALSO
+* Automated vacuum collection
+* City
+* Collaborative innovation network
+* Collaborative intelligence
+* Collaborative software
+* Connected car
+* Conscious city
+* Crowdsourcing
+* Digital divide
+* E-democracy
+* Eco-city
+* Future Internet
+* Hotspot (Wi-Fi)
+* Global brain
+* Intelligent environment
+* Intelligent transportation system
+* Knowledge ecosystem
+* Knowledge Economy
+* Knowledge spillover
+* Metropolitan area network
+* Municipal wireless network
+* Open Data
+* Pervasive informatics
+* Smart grid
+* Smart road
+* Smarter planet
+* Sustainable city
+* The Wisdom of Crowds
+* Ubiquitous computing
+* Urban computing
+* Urban informatics
+* 2000-watt society
+REFERENCES
+Bibliography
+FURTHER READING
+* The Atlantic, USA, July 2015 https://www.theatlantic.com/technology/archive/2015/07/when-you-give-a-tree-an-email-address/398210/
+* Saraju Mohanty, Everything You wanted to Know about Smart Cities, IEEE Consumer Electronics Magazine, Volume 6, Issue 3, July 2016, pp. 60–70.
+* Cavada M.;et al. (2016) Do smart cities realise their potential for lower carbon dioxide emissions? = http://www.icevirtuallibrary.com/doi/abs/10.1680/jensu.15.00032
+* Saraju Mohanty, Everything You wanted to Know about Smart Cities, IEEE Distinguished Lecture 2017, IEEE CE Society Webinar, 5th Oct 2017.
+* Viitanen, J & Kingston, R (2014) 'Smart cities and green growth - outsourcing democratic and environmental resilience to the global technology sector' Environment and Planning A, vol 46, no. 4, pp. 803–819. DOI: http://journals.sagepub.com/doi/10.1068/a46242
+EXTERNAL LINKS
+National initiatives
+* UK Budget 2015 funding for smart cities development
+* British Standards Institute initiative on Smart Cities
+* Future of Cities UK government 'Foresight' project on cities
+* Future Cities Catapult A UK government-funded 'global centre of excellence on urban innovation'
+* Cyber-Physical Society
+* Aiming to make 'all Canadian communities – large and small, urban and rural – into
+Intelligent Communities

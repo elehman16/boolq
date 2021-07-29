@@ -1,0 +1,33 @@
+
+STANDARD ELECTRODE POTENTIAL
+In electrochemistry, it is defined as the measure of the individual potential of reversible electrode at standard state with ions at an effective concentration of 1mol dm-3 at the pressure of 1 atm
+The basis for an electrochemical cell, such as the galvanic cell, is always a redox reaction which can be broken down into two half-reactions: oxidation at anode (loss of electron) and reduction at cathode (gain of electron). Electricity is generated due to electric potential difference between two electrodes. This potential difference is created as a result of the difference between individual potentials of the two metal electrodes with respect to the electrolyte. (Reversible electrode is an electrode that owes its potential to changes of a reversible nature, in contrast to electrodes used in electroplating which are destroyed during their use.) It is the measure of reducing power of any element or compound
+Although the overall potential of a cell can be measured, there is no simple way to accurately measure the electrode/electrolyte potentials in isolation. The electric potential also varies with temperature, concentration and pressure. Since the oxidation potential of a half-reaction is the negative of the reduction potential in a redox reaction, it is sufficient to calculate either one of the potentials. Therefore, standard electrode potential is commonly written as standard reduction potential.
+CALCULATION
+Section::::Calculation.
+The electrode potential cannot be obtained empirically. The galvanic cell potential results from a pair of electrodes. Thus, only one empirical value is available in a pair of electrodes and it is not possible to determine the value for each electrode in the pair using the empirically obtained galvanic cell potential. A reference electrode, standard hydrogen electrode (SHE), for which the potential is defined or agreed upon by convention, needed to be established. In this case SHE is set to 0.00 V and any electrode, for which the electrode potential is not yet known, can be paired with SHE—to form a galvanic cell—and the galvanic cell potential gives the unknown electrode's potential. Using this process, any electrode with an unknown potential can be paired with either the SHE or another electrode for which the potential has already been derived and that unknown value can be established.
+Since the electrode potentials are conventionally defined as reduction potentials, the sign of the potential for the metal electrode being oxidized must be reversed when calculating the overall cell potential. Note that the electrode potentials are independent of the number of electrons transferred —they are expressed in volts, which measure energy per electron transferred—and so the two electrode potentials can be simply combined to give the overall cell potential even if different numbers of electrons are involved in the two electrode reactions.
+For practical measurements, the electrode in question is connected to the positive terminal of the electrometer, while SHE is connected to the negative terminal.
+STANDARD REDUCTION POTENTIAL TABLE
+Section::::Standard reduction potential table.
+The larger the value of the standard reduction potentials, the easier it is for the element to be reduced (accept electrons); in other words, they are better oxidizing agents. For example, F has 2.87 V and Li has −3.05 V. F reduces easily and is therefore a good oxidizing agent. In contrast, Li would rather undergo oxidation (hence a good reducing agent). Thus Zn whose standard reduction potential is −0.76 V can be oxidized by any other electrode whose standard reduction potential is greater than −0.76 V (e.g. H(0 V), Cu(0.34 V), F(2.87 V)) and can be reduced by any electrode with standard reduction potential less than −0.76 V (e.g. H(−2.23 V), Na(−2.71 V), Li(−3.05 V)).
+In a galvanic cell, where a spontaneous redox reaction drives the cell to produce an electric potential, Gibbs free energy ΔG° must be negative, in accordance with the following equation:
+where n is number of moles of electrons per mole of products and F is the Faraday constant, ~96485 C/mol. As such, the following rules apply:
+Thus in order to have a spontaneous reaction (ΔG° < 0), E° must be positive, where:
+where E° is the standard potential at the anode 
+and E° is the standard potential at the cathode as given in the table of standard electrode potential.
+SEE ALSO
+* Nernst equation
+* Solvated electron
+REFERENCES
+FURTHER READING
+* Zumdahl, Steven S., Zumdahl, Susan A (2000) Chemistry (5th ed.), Houghton Mifflin Company.
+* Atkins, Peter, Jones, Loretta (2005) Chemical Principles (3rd ed.), W.H. Freeman and Company.
+* Zu, Y, Couture, MM, Kolling, DR, Crofts, AR, Eltis, LD, Fee, JA, Hirst, J (2003) Biochemistry, 42, 12400-12408
+* Shuttleworth, SJ (1820) Electrochemistry (50th ed.), Harper Collins.
+EXTERNAL LINKS
+* Standard Electrode Potentials table
+* Redox Equilibria
+* Chemistry of Batteries
+* Electrochemical Cells
+* STEP in Non-aqueous solvent

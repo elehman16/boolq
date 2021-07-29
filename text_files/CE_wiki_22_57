@@ -1,0 +1,61 @@
+
+RUMMIKUB
+Rummikub is a tile-based game for two to four players, combining elements of the card game rummy and mahjong. There are 104 number tiles in the game (valued 1 to 13 in four different colors, two copies of each) and two jokers. Players have 14 or 16 tiles initially and take turns putting down tiles from their racks into sets (groups or runs) of at least three, drawing a tile if they cannot play. In the Sabra version (the most common and popular), the first player to use all their tiles scores a positive score based on the total of the other players' hands, while the losers get negative scores. An important feature of the game is that players can work with the tiles that have already been played.
+HISTORY
+Section::::History.
+Rummikub was invented by Ephraim Hertzano, a Romanian-born Jew, who immigrated to Israel in the 1940s. He hand-made the first sets with his family in the backyard of his home. Hertzano sold these sets door-to-door and on a consignment basis at small shops. Over the years, the family licensed it to other countries and it became Israel's #1 export game. In 1977, it became a bestselling game in the United States. The game was marketed as "Rummikid" during part of the 1970s.
+Hertzano's Official Rummikub Book, published in 1978, describes three different versions of the game: American, Sabra and International. Modern Rummikub sets include only the Sabra version rules, with no mention of the others, and there are variations in the rules between publishers. The game was first made by Lemada Light Industries Ltd, founded by Hertzano in 1978.
+Rummikub is similar to several central European card games which are played with two decks of playing cards, including Machiavelli and Vatikan. Vatikan is played with two decks of cards and one joker per player, thus making 106 cards for two players.
+GAME PIECES
+Section::::Game pieces.
+Rummikub's main component is a pool of tiles, consisting of 104 number tiles and two joker tiles. The number tiles range in value from one to thirteen in four colors (black, orange, blue and red). Each combination of color and number is represented twice. Players each have a rack to store tiles without revealing the face of the tiles to the other players.
+RULES
+Section::::Rules.
+The following explanation is based on the rules in the 1998 Pressman American edition:
+SETUP
+Section::::Setup.
+Tiles are shuffled together and either placed into a bag or spread out face down across the table. Each player draws and reveals one tile. The player whose tile has the highest number value will start the game. Tiles are returned to the pool, and players collect 14 random tiles and arrange them on their racks. Play begins with the starting player and proceeds in a clockwise (for modern variants) direction.
+PLAY
+Section::::Play.
+For a player's first move, they must play a set (or sets in some versions) with a value of at least 30 points. Point values are taken from the face value of each tile played, with the joker (if played) assuming the value of the tile it is being used in place of. A player may not use other players' tiles to make the "initial meld". If a player cannot make an initial meld, they must pick up a single tile from the pool and add it to their rack. Play then proceeds to the next player.
+Once a player has made their initial meld, they can, on each turn, play one or more tiles from their rack, making or adding to groups and/or runs. If the player cannot (or chooses not to) play any tiles, they must pick a tile randomly from the pool and add it to their rack.
+Players may play tiles by amending sets already in play. The only limit to the length of a run is the extremes of the tile values. Groups are limited to four because colors may not repeat within a group.
+SETS
+Section::::Sets.
+All tiles in play must be arranged in sets of at least three tiles. The two valid set types are called runs and groups.
+A run is composed of three or more, same-colored tiles, in consecutive number order. (A 1 may not follow a 13.)
+A group is made from three or four same-value tiles in distinct colors. For example: red 3, blue 3, black 3 and orange 3.
+EXAMPLES OF INVALID SETS
+EXAMPLE OF PLAY
+MANIPULATING EXISTING TILES
+Section::::Manipulating existing tiles.
+During a player's turn, sets of tiles that have already been played may be manipulated to allow more tiles to be played. At the end of the turn, all played tiles must be in valid sets.
+Shifting a run : Players may add the appropriate tile to either end of a run and remove a tile from the other end for use elsewhere. If red 3, 4, and 5 have already been played, a player may add the red 6 to the end and remove the 3 for use elsewhere.
+Splitting a run : Players may split long runs and insert the corresponding tiles in the middle. Thus, if blue 6, 7, 8, 9, and 10 are already a run, the player may insert his own 8 to make two runs: 6, 7, 8 and 8, 9, 10.
+Substituting in a group : Players may replace any of the tiles in a three-tile group with a tile of the fourth color and the same value. If blue 6, red 6, and orange 6 are already a group, the player may add the black 6 and remove any one of the other three for use elsewhere.
+Removing tiles : So long as the remaining tiles form a valid run, tiles can be removed from the ends of runs. Any one tile may be removed from a four-tile group.
+Joker substitution : A joker may not be retrieved before the initial meld. A joker can be retrieved from a set by replacing it with a tile of the same numerical value and colour it represents. The tile used to replace the joker can come from the player's rack or from the table. In the case of a group of 3, the joker can be replaced by the tile of either of the missing colours. A joker that has been replaced must be used in the player's same turn as part of a new set. A set containing a joker can have tiles added to it, be split apart or have tiles removed from it. The joker has a penalty value of 30 points if it remains on a player's rack at the end of the game
+Harvested tiles : In the course of a turn, a tile that is "harvested" from an existing set must be played during the turn; it cannot be kept for later use. Example: if there is a 3, 4, 5 run on the table, the 3 can be harvested by putting down the appropriately colored 6, but the 3 must be used during that turn, not kept in the player's hand for later use.
+ERRORS
+Section::::Errors.
+At the end of each turn, all sets on the table must be valid, but during the course of a turn, utterly arbitrary temporary re-arrangements are allowed. These can get very involved, requiring several steps. Sometimes, what had been imagined in the mind to be possible, turns out not to be, leaving the table in an illegal state. When this happens (and the choice of when to invoke this rule depends on how formal or "friendly" the game is), the offending player must return all sets on the table to their original state, and pick up three tiles as a penalty.
+SCORING
+Section::::Scoring.
+Once a winner has been declared, the losing players must add up the values of the tiles remaining in their racks (their score for the game). The joker has a penalty value of 30. A player's score for the game is subtracted from his current cumulative score. Once calculated, each of the losing players' scores for the game is added to the winners current cumulative score.
+For example- suppose in a game player A wins, player B has a score of 5, player C has a score of 10 and player D a score of 3. Player A will now have a cumulative score of 18, player B will be -5, player C will be -10 and player D will be -3.
+Should the game result in no winner, the player with the lowest number of tiles in their rack is the winner. Scoring is then carried out in the normal manner.
+WINNING
+Section::::Winning.
+Game play continues until a player has used all of the tiles in the rack, at which point they should call out "Rummikub," and are declared the winner. If the pool runs out of tiles, play continues until there is a winner or no player can make a valid play.
+AWARDS
+* 1980 Spiel des Jahres (German Game of the Year)
+* 1983 Spel van het Jaar (Dutch Game of the Year).
+* 1993 (Polish Game of the Year)
+SEE ALSO
+* Israeli inventions and discoveries
+REFERENCES
+EXTERNAL LINKS
+* Official site
+* Official App on AppStore
+* Official App on Google Play Store
+* Official Facebook App

@@ -1,0 +1,43 @@
+
+MINI DISPLAYPORT
+The Mini DisplayPort (MiniDP or mDP) is a miniaturized version of the DisplayPort audio-visual digital interface.
+It was announced by Apple in October 2008. As of 2013, all new Apple Macintosh computers had the port, as did the LED Cinema Display. However, in 2016 Apple began phasing out the port and replacing it with the new USB-C connector. The Mini DisplayPort is also fitted to some PC motherboards, and some PC notebooks from Asus, Microsoft, MSI, Lenovo, Toshiba, HP, Dell, and other manufacturers.
+Unlike its Mini-DVI and Micro-DVI predecessors, the Mini DisplayPort can drive display devices with resolutions up to 2560×1600 (WQXGA) in its DisplayPort 1.1a implementation, and 4096×2160 (4K) in its DisplayPort 1.2 implementation. With an adapter, the Mini DisplayPort can drive display devices with VGA, DVI, or HDMI interfaces.
+Apple offers a free license for the Mini DisplayPort but they reserve the right to cancel the license should the licensee "commence an action for patent infringement against Apple".
+COMPATIBILITY
+Section::::Compatibility.
+Apple replaced the DVI port from the MacBook, MacBook Air, MacBook Pro, iMac, Mac Mini, and the Mac Pro with the Mini DisplayPort. Its use as the video connector for the 24-inch Cinema Display may complicate compatibility:
+* Mini DisplayPort's HDCP extension disables playback of certain DRM-encrypted content on any display not designed for it. This includes some content from the iTunes Store which has no such restrictions if played on a Mac without Mini DisplayPort.
+* Apple's Dual-Link DVI or VGA adapters are relatively large and expensive compared to past adapters, and customers have reported problems with them, such as being unable to connect to an external display. Monitors connected to a Mini DisplayPort via these adaptors may have resolution problems or not "wake up" from sleep.
+* While the DisplayPort specification can support digital audio, the older 2009 line of MacBooks, MacBook Pros, and Mac Minis cannot provide an audio signal through the Mini DisplayPort, and only do so over USB, Firewire, or the audio line out port. (The April 2010 line of MacBook Pro, and July 2010 iMac and later do support this). This can be a problem for users who want to connect their computers to HDTVs using a Mini DisplayPort to HDMI adapter. To work around this issue, some third-party manufacturers have created dual or triple-headed adapters that get power for the adapter from a USB port, video from the Mini DisplayPort, and audio from either the USB port or the optical-out port. Either option terminates with a single female HDMI connector, thus allowing both video and audio to be channeled over the single HDMI cable.
+ADOPTION
+* In early 2009, VESA announced that Mini DisplayPort would be included in the upcoming DisplayPort 1.2 specification.
+* In the fourth quarter of 2009, VESA announced that the Mini DisplayPort had been adopted. All devices using the Mini DisplayPort must comply with the 1.1a standard.
+* On 7 January 2010, Toshiba introduced Satellite Pro S500, Tecra M11, A11 and S11 notebooks featuring Mini DisplayPort.
+* AMD released a special variant of its Radeon HD 5870 graphics card called the Radeon HD 5870 Eyefinity 6 Edition, which features 2GB GDDR5 memory, higher clock speeds than the original card, and six Mini DisplayPort outputs with a maximum resolution of 5760 × 2160 pixels (a 3×2 grid of 1080p displays).
+* On 13 April 2010, Apple added support for audio out using Mini DisplayPort in their MacBook Pro product line. This allows users to easily connect their Macbook Pros to their HDTVs using a cable adapting Mini DisplayPort to HDMI with full audio and video functionality.
+* On 5 May 2010, HP announced Envy 14 and Envy 17 notebooks with Mini DisplayPort.
+* On 20 October 2010, Dell announced XPS 14, 15, and 17 notebooks with Mini DisplayPort.
+* On 24 February 2011, Apple and Intel announced Thunderbolt, a successor to Mini DisplayPort which adds support for PCI Express data connections while maintaining backwards compatibility with Mini DisplayPort-based peripherals.
+* On 17 May 2011, Lenovo announced the ThinkPad X1 notebook with Mini DisplayPort.
+* In May 2011, Dell released the XPS 15z notebook with Mini DisplayPort.
+* On 15 May 2012, Lenovo announced the ThinkPad notebooks X1 Carbon, Helix, X230, L430, L530, T430s, T430, T530, W530 with Mini DisplayPort.
+* In 2012, Intel shipped the second generation Intel NUC of which the top model with an i5 had a Mini DisplayPort and the top i3 model had Thunderbolt through a Mini DisplayPort.
+* On 9 February 2013, Microsoft released the Surface Tablet, Surface Pro, equipped with Windows 8 Pro and Mini DisplayPort.
+* In June 2013, Intel shipped the third-generation Intel NUC with both Mini HDMI and Mini DisplayPort. (The i3 and i5 models, not the Celeron or Atom models)
+* On 5 July 2013, Asus announced new N Series laptops N550 and N750 with both HDMI and Mini DisplayPort.
+* On 25 July 2013, Dell announced the Precision M3800 mobile workstation with Mini DisplayPort.
+* On 8 August 2013, Dell announced the Latitude E7240 and E7440 business notebooks with Mini DisplayPort.
+* On 9 September 2013, Lenovo announced the ThinkPad X240s, L440, L540, T440, T440s, T440p, T540p and W540 with Mini DisplayPort.
+* On 22 October 2013, Microsoft released the Surface Pro 2, equipped with Windows 8.1 Pro and Mini DisplayPort.
+* On 20 June 2014, Microsoft released the Surface Pro 3 with Mini DisplayPort.
+* On 5 May 2015, Microsoft released the Surface 3 with Mini DisplayPort.
+* On 10 October 2015, Microsoft released the Surface Pro 4, equipped with Windows 10 Pro and Mini DisplayPort.
+* On 2 June 2016, Gigabyte announced the Aero 14 with Mini DisplayPort.
+* On 11 November 2016, ECS Liva released the Liva Z Mini PC with Mini DisplayPort.
+* On 15 December 2016, Microsoft released the Surface Studio with Mini DisplayPort.
+* On 15 June 2017, Microsoft released the Surface Laptop, equipped with Windows 10 S, and the fifth-generation Surface Pro, equipped with Windows 10 Pro, both with Mini DisplayPort.
+SEE ALSO
+* List of video connectors
+* Thunderbolt
+REFERENCES

@@ -1,0 +1,55 @@
+
+SQUARE ROOT OF 3
+Binary
+The square root of 3 is the positive real number that, when multiplied by itself, gives the number 3. It is more precisely called the principal square root of 3, to distinguish it from the negative number with the same property. It is denoted by .
+The square root of 3 is an irrational number. It is also known as Theodorus' constant, named after Theodorus of Cyrene, who proved its irrationality.
+The first sixty digits of its decimal expansion are:
+As of December 2013, its numerical value in decimal has been computed to at least ten billion digits. 
+The fraction (…) for the square root of three can be used as an approximation. Despite having a denominator of only 56, it differs from the correct value by less than (approximately ). The rounded value of 1.732 is correct to within 0.01% of the actual value. 
+Archimedes reported , accurate to (six decimal places) and (four decimal places), respectively.
+It can be expressed as the continued fraction , expanded on the right.
+It can also be expressed by generalized continued fractions such as
+which is evaluated at every second term.
+The following nested square expressions converge to :
+PROOF OF IRRATIONALITY
+Section::::Proof of irrationality.
+This irrationality proof for the uses Fermat's method of infinite descent:
+Suppose that is rational, and express it in lowest possible terms (i.e., as a fully reduced fraction) as for natural numbers and .
+Therefore, multiplying by 1 will give an equal expression:
+where is the largest integer smaller than . Note that both the numerator and the denominator have been multiplied by a number smaller than 1.
+Through this, and by multiplying out both the numerator and the denominator, we get:
+It follows that can be replaced with :
+Then, can also be replaced with in the denominator:
+The square of can be replaced by 3. As is multiplied by , their product equals :
+Then can be expressed in lower terms than (since the first step reduced the sizes of both the numerator and the denominator, and subsequent steps did not change them) as , which is a contradiction to the hypothesis that was in lowest terms.
+An alternate proof of this is, assuming with being a fully reduced fraction:
+Multiplying by both terms, and then squaring both gives
+Since the left side is divisible by 3, so is the right side, requiring that be divisible by 3. Then, can be expressed as :
+Therefore, dividing both terms by 3 gives:
+Since the right side is divisible by 3, so is the left side and hence so is . Thus, as both and are divisible by 3, they have a common factor and is not a fully reduced fraction, contradicting the original premise.
+GEOMETRY AND TRIGONOMETRY
+Section::::Geometry and trigonometry.
+The square root of 3 can be found as the leg length of an equilateral triangle that encompasses a circle with a diameter of 1.
+If an equilateral triangle with sides of length 1 is cut into two equal halves, by bisecting an internal angle across to make a right angle with one side, the right angle triangle's hypotenuse is length one and the sides are of length and . From this the trigonometric function tangent of 60° equals , and the sine of 60° and the cosine of 30° both equal .
+The square root of 3 also appears in algebraic expressions for various other trigonometric constants, including the sines of 3°, 12°, 15°, 21°, 24°, 33°, 39°, 48°, 51°, 57°, 66°, 69°, 75°, 78°, 84°, and 87°.
+It is the distance between parallel sides of a regular hexagon with sides of length 1. On the complex plane, this distance is expressed as mentioned below.
+It is the length of the space diagonal of a unit cube.
+The vesica piscis has a major axis to minor axis ratio equal to 1:, this can be shown by constructing two equilateral triangles within it.
+SQUARE ROOT OF −3
+Section::::Square root of −3.
+Multiplication of by the imaginary unit gives a square root of -3, an imaginary number. More exactly,
+(see square root of negative numbers). It is an Eisenstein integer. Namely, it is expressed as the difference between two non-real cubic roots of 1 (which are Eisenstein integers).
+OTHER USES
+POWER ENGINEERING
+Section::::Other uses.
+Section::::Power engineering.
+In power engineering, the voltage between two phases in a three-phase system equals times the line to neutral voltage. This is because any two phases are 120° apart, and two points on a circle 120 degrees apart are separated by times the radius (see geometry examples above).
+SEE ALSO
+* Square root of 2
+* Square root of 5
+NOTES
+REFERENCES
+EXTERNAL LINKS
+* Theodorus' Constant at MathWorld
+*  Kevin Brown
+*  E. B. Davis

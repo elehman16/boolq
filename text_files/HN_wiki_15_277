@@ -1,0 +1,134 @@
+
+LIST OF SMALL POLYHEDRA BY VERTEX COUNT
+In geometry, a polyhedron is a solid in three dimensions with flat faces and straight edges. Every edge has exactly two faces, and every vertex is surrounded by alternating faces and edges. The smallest polyhedron is the tetrahedron with 4 triangular faces, 6 edges, and 4 vertices. Named polyhedra primarily come from the families of platonic solids, Archimedean solids, Catalan solids, and Johnson solids, as well as dihedral symmetry families including the pyramids, bipyramids, prisms, antiprisms, and trapezohedrons.
+POLYHEDRA BY VERTEX COUNT
+Section::::Polyhedra by vertex count.
+Notes: Polyhedra with different names that are topologically identical are listed together. Except in the cases of four and five vertices, the lists below are by no means exhaustive of all possible polyhedra with the given number of vertices, but rather just include particularly simple/common/well-known/named examples. The "Counting Polyhedra" link below gives the exact number of distinct polyhedra with n vertices for small values of n.
+!valign=center4
+Tetrahedrontriangular pyramid
+!valign=center5
+!valign=center6
+Pentagonal pyramid
+Octahedron (regular)triangular antiprismsquare bipyramid
+Triangular prismwedge
+!valign=center7
+Hexagonal pyramid
+Pentagonal bipyramid
+Augmented triangular prism
+Elongated triangular pyramid
+!valign=center rowspan=28
+Heptagonal pyramid
+Hexagonal bipyramid
+HexahedronCubeSquare prismCuboidRhombohedronTrigonal trapezohedron
+Square antiprism
+Triakis tetrahedron
+Elongated triangular bipyramid
+Gyrobifastigium
+Snub disphenoid
+Biaugmented triangular prism
+!valign=center rowspan=29
+Triangular cupola
+Triaugmented triangular prism
+Elongated square pyramid
+Gyroelongated square pyramid
+Tridiminished icosahedron
+Octagonal pyramid
+Heptagonal bipyramid
+!valign=center rowspan=210
+Enneagonal pyramid
+Octagonal bipyramid
+Pentagonal prism
+Pentagonal antiprism
+Gyroelongated square bipyramid
+Elongated square bipyramid
+Metabidiminished icosahedron
+Augmented tridiminished icosahedron
+Sphenocorona
+!valign=center rowspan=211
+Decagonal pyramid
+Enneagonal bipyramid
+Augmented pentagonal prism
+Elongated pentagonal pyramid
+Gyroelongated pentagonal pyramid
+Augmented sphenocorona
+Octadecahedron
+!valign=center rowspan=212
+Elongated pentagonal bipyramid
+Truncated tetrahedron
+Cuboctahedron
+Square cupola
+Triangular orthobicupola
+Biaugmented pentagonal prism
+Hendecagonal pyramid
+Icosahedron
+Decagonal bipyramid
+Hexagonal prism
+Hexagonal antiprism
+Sphenomegacorona
+!valign=center13
+Dodecagonal pyramid
+Hendecagonal bipyramid
+Augmented hexagonal prism
+!valign=center rowspan=214
+Tridecagonal pyramid
+Dodecagonal bipyramid
+Elongated hexagonal dipyramid
+Heptagonal prism
+Heptagonal antiprism
+Rhombic dodecahedron
+Parabiaugmented hexagonal prism
+Metabiaugmented hexagonal prism
+]Hebesphenomegacorona
+Bilunabirotunda
+!valign=center rowspan=215
+Tetradecagonal pyramid
+Tridecagonal bipyramid
+Pentagonal cupola
+Elongated triangular cupola
+Gyroelongated triangular cupola
+!valign=center rowspan=216
+Octagonal prism
+Octagonal antiprism
+Triaugmented hexagonal prism
+Augmented truncated tetrahedron
+Square orthobicupola
+Square gyrobicupola
+Disphenocingulum
+Snub square antiprism
+!valign=center17
+!valign=center18
+Enneagonal prism
+Enneagonal antiprism
+Gyroelongated triangular bicupola
+Elongated triangular orthobicupola
+Elongated triangular gyrobicupola
+Triangular hebesphenorotunda
+!valign=center19
+!valign=center rowspan=220
+Dodecahedron
+Pentagonal rotunda
+Elongated square cupola
+Gyroelongated square cupola
+Pentagonal orthobicupola
+Pentagonal gyrobicupola
+Decagonal prism
+Decagonal antiprism
+!valign=center21
+Augmented dodecahedron
+!valign=center22
+Parabiaugmented dodecahedron
+Metabiaugmented dodecahedron
+!valign=center23
+Triaugmented dodecahedron
+!valign=center24
+Truncated cube
+Truncated octahedron
+Rhombicuboctahedron
+Elongated square gyrobicupola
+Gyroelongated square bicupola
+REFERENCES
+* Cromwell, P.;Polyhedra, CUP hbk (1997), pbk. (1999).
+* Norman W. Johnson, "Convex Solids with Regular Faces", Canadian Journal of Mathematics, 18, 1966, pages 169–200. Contains the original enumeration of the 92 solids and the conjecture that there are no others.
+* The first proof that there are only 92 Johnson solids.
+EXTERNAL LINKS
+* Counting Polyhedra

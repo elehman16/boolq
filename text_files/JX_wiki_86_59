@@ -1,0 +1,81 @@
+
+ROUTING NUMBER (CANADA)
+A routing number is the term for bank codes in Canada. Routing numbers consist of eight numerical digits with a dash between the fifth and sixth digit for paper financial documents encoded with magnetic ink character recognition and nine numerical digits without dashes for electronic funds transfers. Routing numbers are regulated by Payments Canada, formerly known as the Canadian Payments Association, to allow easy identification of the branch location and financial institution associated with an account.
+FORMAT
+Section::::Format.
+A routing number consists of a five digit transit number (also called branch number) identifying the branch where an account is held and a three digit financial institution number corresponding to the financial institution. The number is given as one of the following forms, where XXXXX is the transit number and YYY is the financial institution number:
+* for MICR-encoded documents
+* for electronic funds transfers
+A leading zero is used when formatting a routing number for electronic payments.
+ROUTING SYMBOL
+Section::::Routing symbol.
+The symbol that delimits a routing number on MICR-encoded paper documents is the E-13B transit character (Unicode value U+2446): ⑆
+TRANSIT NUMBERS
+Section::::Transit numbers.
+Each branch in a financial institution is assigned a unique transit number for identification. The final digit of the transit number indicates the geographical location of the branch. The association is as follows:
+* for British Columbia and Yukon
+* for western Quebec, including Montreal and surrounding areas
+* for southern Ontario, including Toronto and surrounding area
+* for Nova Scotia, Prince Edward Island and the island of Newfoundland
+* for New Brunswick
+* for eastern Quebec and Labrador
+* for eastern Ontario, including Ottawa and surrounding area
+* for Manitoba and north-western Ontario
+* for Saskatchewan
+* for Alberta, the Northwest Territories and Nunavut
+Therefore, a number would indicate that the associated account is held at a branch of the Toronto-Dominion Bank located in eastern Ontario.
+FINANCIAL INSTITUTION NUMBERS
+Section::::Financial institution numbers.
+A selection of institution numbers for major Canadian financial institutions is below.
+* XXXXX-001 Bank of Montreal
+* XXXXX-002 Bank of Nova Scotia
+* XXXXX-003 Royal Bank of Canada
+* XXXXX-004 Toronto-Dominion Bank (which is the legal name for the bank, although it operates as TD Canada Trust)
+* XXXXX-006 National Bank of Canada
+* XXXXX-010 Canadian Imperial Bank of Commerce (includes Simplii Financial)
+* XXXXX-016 HSBC Canada
+* XXXXX-030 Canadian Western Bank
+* XXXXX-039 Laurentian Bank of Canada
+* XXXXX-117 Government of Canada
+* XXXXX-127 Canada Post (money orders)
+* XXXXX-177 Bank of Canada (Canadian central bank)
+* XXXXX-219 ATB Financial
+* XXXXX-245 MUFG Bank, Canada Branch
+* XXXXX-260 Citibank Canada
+* XXXXX-269 Mega International Commercial Bank Canada
+* XXXXX-270 JPMorgan Chase Bank, N.A. (Toronto Branch)
+* XXXXX-308 Bank of China (Canada)
+* XXXXX-309 Vancity Community Investment Bank
+* XXXXX-310 First Nations Bank of Canada
+* XXXXX-315 CTBC Bank (Canada)
+* XXXXX-320 President's Choice Bank
+* XXXXX-338 Canadian Tire Bank
+* XXXXX-340 ICICI Bank Canada
+* XXXXX-509 The Canada Trust Company (in use for accounts opened prior to the merger of TD & Canada Trust)
+* XXXXX-540 Manulife Bank
+* XXXXX-614 Tangerine Bank (formerly ING Direct Canada)
+* XXXXX-623 Equitable Bank (including EQ Bank)
+* XXXXX-809 Central 1 Credit Union member institutions in British Columbia
+* XXXXX-815 Caisses Desjardins du Québec
+* XXXXX-819 Caisses populaires Desjardins du Manitoba
+* XXXXX-828 Central 1 Credit Union member institutions in Ontario
+* XXXXX-829 Caisses populaires Desjardins de l'Ontario
+* XXXXX-837 Meridian Credit Union
+* XXXXX-839 Credit Union Heritage (Nova Scotia)
+* XXXXX-865 Caisses populaires Desjardins acadiennes
+* XXXXX-879 Credit Union Central of Manitoba member institutions
+* XXXXX-889 SaskCentral member institutions
+* XXXXX-899 Credit Union Central of Alberta member institutions
+DIRECTORIES OF ROUTING NUMBERS
+Section::::Directories of routing numbers.
+Payments Canada maintains the Financial Institutions File (FIF), an electronic directory of routing numbers for all financial institutions in Canada. The FIF is updated weekly and is operated as a fee-based subscription service to member institutions of Payments Canada.
+A companion free-of-charge directory, the Financial Institutions Branch Directory (FIBD), is also operated by Payments Canada for occasional referencing by the general public. The FIBD is only available in PDF format and cannot be imported into business applications.
+SEE ALSO
+* International Bank Account Number
+* ABA routing transit number, American bank code format
+* Bank State Branch, Australian bank code format
+* Bankleitzahl, Austrian and German bank code format
+* New Zealand bank account prefix
+* Sort code, British and Irish bank code formats
+NOTES
+REFERENCES

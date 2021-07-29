@@ -1,0 +1,102 @@
+
+LAW OF SINES
+In trigonometry, the law of sines, sine law, sine formula, or sine rule is an equation relating the lengths of the sides of a triangle (any shape) to the sines of its angles. According to the law,
+where , and are the lengths of the sides of a triangle, and , and are the opposite angles (see the figure to the right), while is the diameter of the triangle's circumcircle. When the last part of the equation is not used, the law is sometimes stated using the reciprocals;
+The law of sines can be used to compute the remaining sides of a triangle when two angles and a side are known—a technique known as triangulation. It can also be used when two sides and one of the non-enclosed angles are known. In some such cases, the triangle is not uniquely determined by this data (called the ambiguous case) and the technique gives two possible values for the enclosed angle.
+The law of sines is one of two trigonometric equations commonly applied to find lengths and angles in scalene triangles, with the other being the law of cosines.
+The law of sines can be generalized to higher dimensions on surfaces with constant curvature.
+PROOF
+Section::::Proof.
+The area of any triangle can be written as one half of its base times its height. Selecting one side of the triangle as the base, the height of the triangle relative to that base is computed as the length of another side times the sine of the angle between the chosen side and the base. Thus, depending on the selection of the base the area of the triangle can be written as any of:
+Multiplying these by gives
+THE AMBIGUOUS CASE OF TRIANGLE SOLUTION
+Section::::The ambiguous case of triangle solution.
+When using the law of sines to find a side of a triangle, an ambiguous case occurs when two separate triangles can be constructed from the data provided (i.e., there are two different possible solutions to the triangle). In the case shown below they are triangles and .
+Given a general triangle, the following conditions would need to be fulfilled for the case to be ambiguous:
+* The only information known about the triangle is the angle and the sides and .
+* The angle is acute (i.e., < 90°).
+* The side is shorter than the side (i.e., ).
+* The side is longer than the altitude from angle , where (i.e., ).
+If all the above conditions are true, then both angles or produce a valid triangle, meaning that both of the following are true:
+From there we can find the corresponding and or and if required, where is the side bounded by angles and and bounded by and .
+Without further information it is impossible to decide which is the triangle being asked for.
+EXAMPLES
+Section::::Examples.
+The following are examples of how to solve a problem using the law of sines.
+EXAMPLE 1
+Section::::Example 1.
+Given: side , side , and angle . Angle A is desired.
+Using the law of sines, we conclude that
+Note that the potential solution is excluded because that would necessarily give .
+EXAMPLE 2
+Section::::Example 2.
+If the lengths of two sides of the triangle and are equal to , the third side has length , and the angles opposite the sides of lengths , , and are , , and respectively then
+RELATION TO THE CIRCUMCIRCLE
+Section::::Relation to the circumcircle.
+In the identity
+the common value of the three fractions is actually the diameter of the triangle's circumcircle which dates back to Ptolemy.
+PROOF
+Section::::Proof.
+As shown in the figure, let's have a circle with inscribedformula_10 and another inscribed formula_11 that passes through the circle's center O. The formula_12 has a central angle of formula_13 thus formula_14. Since formula_15 is a right triangle,
+Angles formula_17 and formula_18 has the same central angle thus they are the same formula_19.
+Rearranging,
+Repeating the process of creating formula_11 with other points respectively, gives
+where formula_23 is the radius of the circumscribing circle of the triangle.
+RELATIONSHIP TO THE AREA OF THE TRIANGLE
+Section::::Relationship to the area of the triangle.
+The area of a triangle can be solved by formula_24. Substituting the sine law to the equation,
+Taking formula_26 as the circumscribing radius, 
+It can also be shown that this quantity is equal to
+where is the area of the triangle and is the semiperimeter
+The second equality above readily simplifies to Heron's formula for the area. Neatly, it can be written as
+where R is the radius of the triangle's circumcircle.
+CURVATURE
+Section::::Curvature.
+The law of sines takes on a similar form in the presence of curvature.
+SPHERICAL CASE
+Section::::Spherical case.
+In the spherical case, the formula is:
+Here, , , and are the angles at the center of the sphere subtended by the three arcs of the spherical surface triangle , , and , respectively. , , and are the surface angles opposite their respective arcs.
+Here is a simple derivation. Consider a unit sphere with three unit vectors , and drawn from the origin to the vertices of the triangle. Thus the angles , , and are the angles , , and , respectively. The arc subtends an angle of magnitude at the centre. Introduce a Cartesian basis with along the -axis and in the -plane making an angle with the -axis. The vector projects to in the -plane and the angle between and the -axis is . Therefore, the three vectors have components:
+The scalar triple product, is the volume of the parallelepiped formed by the position vectors of the vertices of the spherical triangle , and . This volume is invariant to the specific coordinate system used to represent , and . The value of the scalar triple product is the 3 × 3 determinant with , and as its rows. With the -axis along the square of this determinant is
+Repeating this calculation with the -axis along gives , while with the -axis along it is . Equating these expressions and dividing throughout by gives 
+where is the volume of the parallelepiped formed by the position vector of the vertices of the spherical triangle.
+It is easy to see how for small spherical triangles, when the radius of the sphere is much greater than the sides of the triangle, this formula becomes the planar formula at the limit, since
+and the same for and .
+HYPERBOLIC CASE
+Section::::Hyperbolic case.
+In hyperbolic geometry when the curvature is −1, the law of sines becomes
+In the special case when is a right angle, one gets
+which is the analog of the formula in Euclidean geometry expressing the sine of an angle as the opposite side divided by the hypotenuse.
+UNIFIED FORMULATION
+Section::::Unified formulation.
+Define a generalized sine function, depending also on a real parameter :
+The law of sines in constant curvature reads as
+By substituting , , and , one obtains respectively the Euclidean, spherical, and hyperbolic cases of the law of sines described above.
+Let indicate the circumference of a circle of radius in a space of constant curvature . Then . Therefore the law of sines can also be expressed as:
+This formulation was discovered by János Bolyai.
+HIGHER DIMENSIONS
+Section::::Higher dimensions.
+For an -dimensional simplex (i.e., triangle (), tetrahedron (), pentatope (), etc.) in -dimensional Euclidean space, the absolute value of the polar sine of the normal vectors of the faces that meet at a vertex, divided by the hyperarea of the face opposite the vertex is independent of the choice of the vertex. Writing for the hypervolume of the -dimensional simplex and for the product of the hyperareas of its -dimensional faces, the common ratio is
+For example, a tetrahedron has four triangular faces. The absolute value of the polar sine of the normal vectors to the three faces that share a vertex, divided by the area of the fourth face will not depend upon the choice of the vertex:
+HISTORY
+Section::::History.
+According to Ubiratàn D'Ambrosio and Helaine Selin, the spherical law of sines was discovered in the 10th century. It is variously attributed to Abu-Mahmud Khojandi, Abu al-Wafa' Buzjani, Nasir al-Din al-Tusi and Abu Nasr Mansur.
+Ibn Muʿādh al-Jayyānī's The book of unknown arcs of a sphere in the 11th century contains the general law of sines. The plane law of sines was later stated in the 13th century by Nasīr al-Dīn al-Tūsī. In his On the Sector Figure, he stated the law of sines for plane and spherical triangles, and provided proofs for this law.
+According to Glen Van Brummelen, "The Law of Sines is really Regiomontanus's foundation for his solutions of right-angled triangles in Book IV, and these solutions are in turn the bases for his solutions of general triangles." Regiomontanus was a 15th-century German mathematician.
+SEE ALSO
+* Gersonides
+* Half-side formula for solving spherical triangles
+* Law of cosines
+* Law of tangents
+* Law of cotangents
+* Mollweide's formula for checking solutions of triangles
+* Solution of triangles
+* Surveying
+REFERENCES
+EXTERNAL LINKS
+* The Law of Sines at cut-the-knot
+* Degree of Curvature
+* Finding the Sine of 1 Degree
+* Generalized law of sines to higher dimensions
+* Law of Sines - ProofWiki

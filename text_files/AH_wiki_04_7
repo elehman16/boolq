@@ -1,0 +1,58 @@
+
+DIMENSIONLESS QUANTITY
+In dimensional analysis, a dimensionless quantity is a quantity to which no physical dimension is assigned. It is also known as a bare number or pure number or a quantity of dimension one and the corresponding unit of measurement in the SI is one (or 1) unit and it is not explicitly shown. Dimensionless quantities are widely used in many fields, such as mathematics, physics, chemistry, engineering, and economics. Examples of quantities to which dimensions are regularly assigned are length, time, and speed, which are measured in dimensional units, such as metre, second and metre per second. This is considered to aid intuitive understanding. However, especially in mathematical physics, it is often more convenient to drop the assignment of explicit dimensions and express the quantities without dimensions, e.g., addressing the speed of light simply by the dimensionless number .
+HISTORY
+Section::::History.
+Quantities having dimension 1, dimensionless quantities, regularly occur in sciences, and are formally treated within the field of dimensional analysis. In the nineteenth century, French mathematician Joseph Fourier and Scottish physicist James Clerk Maxwell led significant developments in the modern concepts of dimension and unit. Later work by British physicists Osborne Reynolds and Lord Rayleigh contributed to the understanding of dimensionless numbers in physics. Building on Rayleigh's method of dimensional analysis, Edgar Buckingham proved the theorem (independent of French mathematician Joseph Bertrand's previous work) to formalize the nature of these quantities. 
+Numerous dimensionless numbers, mostly ratios, were coined in the early 1900s, particularly in the areas of fluid mechanics and heat transfer. Measuring ratios in the (derived) unit dB (decibel) finds widespread use nowadays. 
+In the early 2000s, the International Committee for Weights and Measures discussed naming the unit of 1 as the "uno", but the idea of just introducing a new SI-name for 1 was dropped.
+PURE NUMBERS
+Section::::Pure numbers.
+All pure numbers are dimensionless quantities, for example 1, , , , and . Units of number such as the dozen, gross, googol, and Avogadro's number may also be considered dimensionless.
+RATIOS, PROPORTIONS, AND ANGLES
+Section::::Ratios, proportions, and angles.
+Dimensionless quantities are often obtained as ratios of quantities that are not dimensionless, but whose dimensions cancel out in the mathematical operation. Examples include calculating slopes or unit conversion factors. A more complex example of such a ratio is engineering strain, a measure of physical deformation defined as a change in length divided by the initial length. Since both quantities have the dimension length, their ratio is dimensionless. Another set of examples is mass fractions or mole fractions often written using parts-per notation such as ppm (= 10), ppb (= 10), and ppt (= 10), or perhaps confusingly as ratios of two identical units (kg/kg or mol/mol). For example, alcohol by volume, which characterizes the concentration of ethanol in an alcoholic beverage, could be written as mL / 100 mL.
+Other common proportions are percentages % (= 0.01),  ‰ (= 0.001) and angle units such as radians, degrees (°= ) and grads(= ). In statistics the coefficient of variation is the ratio of the standard deviation to the mean and is used to measure the dispersion in the data.
+BUCKINGHAM THEOREM
+Section::::Buckingham theorem.
+The Buckingham theorem indicates that validity of the laws of physics does not depend on a specific unit system. A statement of this theorem is that any physical law can be expressed as an identity involving only dimensionless combinations (ratios or products) of the variables linked by the law (e. g., pressure and volume are linked by Boyle's Law – they are inversely proportional). If the dimensionless combinations' values changed with the systems of units, then the equation would not be an identity, and Buckingham's theorem would not hold.
+Another consequence of the theorem is that the functional dependence between a certain number (say, n) of variables can be reduced by the number (say, k) of independent dimensions occurring in those variables to give a set of p = n − k independent, dimensionless quantities. For the purposes of the experimenter, different systems that share the same description by dimensionless quantity are equivalent.
+EXAMPLE
+Section::::Example.
+To demonstrate the application of the theorem, consider the power consumption of a stirrer with a given shape.
+The power, P, in dimensions [M · L/T], is a function of the density, ρ [M/L], and the viscosity of the fluid to be stirred, μ [M/(L · T)], as well as the size of the stirrer given by its diameter, D [L], and the angular speed of the stirrer, n [1/T]. Therefore, we have a total of n = 5 variables representing our example. Those n = 5 variables are built up from k = 3 fundamental dimensions, the length: L (SI units: m), time: T (s), and mass: M (kg).
+According to the -theorem, the n = 5 variables can be reduced by the k = 3 dimensions to form p = n − k = 5 − 3 = 2 independent dimensionless numbers. These quantities are formula_1, commonly named the Reynolds number which describes the fluid flow regime, and formula_2, the power number, which is the dimensionless description of the stirrer.
+DIMENSIONLESS PHYSICAL CONSTANTS
+Section::::Dimensionless physical constants.
+Certain universal dimensioned physical constants, such as the speed of light in a vacuum, the universal gravitational constant, Planck's constant, Coulomb's constant, and Boltzmann's constant can be normalized to 1 if appropriate units for time, length, mass, charge, and temperature are chosen. The resulting system of units is known as the natural units, specifically regarding these five constants, Planck units. However, not all physical constants can be normalized in this fashion. For example, the values of the following constants are independent of the system of units, cannot be defined, and can only be determined experimentally:
+* α ≈ 1/137, the fine structure constant, which characterizes the magnitude of the electromagnetic interaction between electrons.
+* β (or μ) ≈ 1836, the proton-to-electron mass ratio. This ratio is the rest mass of the proton divided by that of the electron. An analogous ratio can be defined for any elementary particle;
+* α ≈ 1, a coupling constant characterizing the strong nuclear force;
+* α ≈ 1.75 × 10, the gravitational coupling constant which is the square of the ratio of the mass of the electron to the Planck mass, which characterizes the magnitude of the gravitational interaction between electrons. It is because, fundamentally, this number is so small that it is meaningful to say "Gravity is an extremely weak fundamental force in comparison to either the electromagnetic force or the strong nuclear force."
+OTHER QUANTITIES PRODUCED BY NONDIMENSIONALIZATION
+Section::::Other quantities produced by nondimensionalization.
+Physics often uses dimensionless quantities to simplify the characterization of systems with multiple interacting physical phenomena. These may be found by applying the Buckingham theorem or otherwise may emerge from making partial differential equations unitless by the process of nondimensionalization. Engineering, economics, and other fields often extend these ideas in design and analysis of the relevant systems.
+PHYSICS AND ENGINEERING
+* Fresnel number – wavenumber over distance
+* Mach number – ratio of the speed of an object or flow relative to the speed of sound in the fluid.
+* Beta (plasma physics) – ratio of plasma pressure to magnetic pressure, used in magnetospheric physics as well as fusion plasma physics.
+* Damköhler numbers (Da) – used in chemical engineering to relate the chemical reaction timescale (reaction rate) to the transport phenomena rate occurring in a system.
+* Thiele modulus – describes the relationship between diffusion and reaction rate in porous catalyst pellets with no mass transfer limitations.
+* Numerical aperture – characterizes the range of angles over which the system can accept or emit light.
+* Sherwood number – (also called the mass transfer Nusselt number) is a dimensionless number used in mass-transfer operation. It represents the ratio of the convective mass transfer to the rate of diffusive mass transport.
+* Schmidt number – defined as the ratio of momentum diffusivity (kinematic viscosity) and mass diffusivity, and is used to characterize fluid flows in which there are simultaneous momentum and mass diffusion convection processes.
+* Reynolds number is commonly used in fluid mechanics to characterize flow, incorporating both properties of the fluid and the flow. It is interpreted as the ratio of inertial forces to viscous forces and can indicate flow regime as well as correlate to frictional heating in application to flow in pipes.
+CHEMISTRY
+* Relative density – density relative to water
+* Relative atomic mass, Standard atomic weight
+* Equilibrium constant
+OTHER FIELDS
+* Cost of transport is the efficiency in moving from one place to another
+SEE ALSO
+* Arbitrary unit
+* Dimensional analysis
+* Normalization (statistics) and standardized moment, the analogous concepts in statistics
+* Orders of magnitude (numbers)
+* Similitude (model)
+REFERENCES
+EXTERNAL LINKS
